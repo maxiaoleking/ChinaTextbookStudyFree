@@ -62,7 +62,8 @@ import {
   moodToTone,
   type MascotTriggerContext,
 } from "@/lib/mascotTriggers";
-import { getCosmeticById, type LessonBackdrop } from "@/lib/cosmetics";
+import { getCosmeticById, type LessonBackdrop, type UiTheme } from "@/lib/cosmetics";
+import { useThemeMode, useSystemPrefersDark } from "@/lib/themeMode";
 import { hasLessonProgress } from "@/lib/lessonSession";
 import { ShareCardButton } from "./ShareCardButton";
 import { renderBadgeCard, renderStreakCard, buildShareWeek } from "@/lib/shareCard";
@@ -260,13 +261,33 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
   const hearts = useProgressStore(s => s.hearts);
   const gems = useProgressStore(s => s.gems);
   const backdropId = useProgressStore(s => s.equippedBackdrop);
+  // 深色判定与 ThemeProvider 同口径：暗色美妆主题强制暗色，否则看三态偏好 / 系统偏好。
+  // 答题页背景是内联样式（见 backdropStyle），不吃 .theme-dark 的 CSS 重映射，
+  // 必须在这里自己判断，否则深色下仍是浅底 + 浅色文字，题干不可见。
+  const equippedThemeId = useProgressStore(s => s.equippedTheme);
+  const themeMode = useThemeMode();
+  const systemPrefersDark = useSystemPrefersDark();
+  const isDarkTheme = useMemo(() => {
+    const theme = getCosmeticById(equippedThemeId) as UiTheme | undefined;
+    return (
+      !!theme?.data.isDark ||
+      themeMode === "dark" ||
+      (themeMode === "system" && systemPrefersDark)
+    );
+  }, [equippedThemeId, themeMode, systemPrefersDark]);
   const backdropStyle = useMemo<React.CSSProperties>(() => {
     const item = getCosmeticById(backdropId) as LessonBackdrop | undefined;
-    if (!item || item.type !== "lesson_backdrop") {
-      return { background: "#F7F7F7" };
-    }
-    return { background: item.data.background };
-  }, [backdropId]);
+    const bg =
+      item && item.type === "lesson_backdrop"
+        ? item.data.background
+        : "#F7F7F7";
+    if (!isDarkTheme) return { background: bg };
+    // 深色：叠一层夜色半透明罩（多背景语法对纯色/渐变通用），
+    // 保留装扮氛围的同时保证题干对比度（与 iOS「按对比度自动降强度」同思路）
+    return {
+      background: `linear-gradient(rgba(19, 31, 36, 0.88), rgba(19, 31, 36, 0.88)), ${bg}`,
+    };
+  }, [backdropId, isDarkTheme]);
   const prefersReduced = useReducedMotion();
 
   // 周末双倍 XP（本地时间周六/周日）—— 所见即所得：预览/飘字/结算全部按 ×2 显示
