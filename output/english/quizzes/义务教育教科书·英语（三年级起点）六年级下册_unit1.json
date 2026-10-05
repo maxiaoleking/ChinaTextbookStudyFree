@@ -152,7 +152,7 @@
         "options": [
           "That dinosaur is tall than me.",
           "That dinosaur is taller than me.",
-          "That dinosaur is taller than I am.",
+          "That dinosaur is tallest than me.",
           "That dinosaur is more taller than me."
         ],
         "answer": "That dinosaur is taller than me.",
