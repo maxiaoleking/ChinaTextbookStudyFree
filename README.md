@@ -160,7 +160,7 @@ npm run dev
 
 电脑使用侧栏和宽屏阅读布局，手机使用底部导航和单列阅读。已检查 23 类页面 × 7 种尺寸（320×568 至 1920×1080），并测试完整答题、阅读、刷新恢复、错题、商店和家长时间限制。手机尺寸模拟不等于真机验收：真实 iPhone/Android、抖音内置浏览器的播放和麦克风权限仍需复核。详见 [Web 深测报告](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/codex/publish-tested-web/docs/web-deep-qa-2026-10-03.md)。
 
-线上使用东京区域的私有 S3 + CloudFront HTTPS，使用 AWS 提供的链接；没有 EC2/Lightsail、数据库或业务后端。按存储、请求和流量计费，没有 $7.50/月的服务器固定费用。部署步骤见 [AWS Web 部署说明](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/codex/publish-tested-web/docs/aws-web-deployment.md)。
+线上使用东京区域的私有 S3 + CloudFront HTTPS，使用 AWS 提供的链接；没有 EC2/Lightsail、数据库或业务后端。按存储、请求和流量计费，没有 $7.50/月的服务器固定费用。部署步骤见 [AWS Web 部署说明](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/main/docs/aws-web-deployment.md)。
 
 ### 4. 运行 iOS 端
 
