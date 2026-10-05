@@ -2,7 +2,7 @@
 
 **在线体验：[小猫头鹰课堂](https://d3nmsqi4n72idj.cloudfront.net/)** · 支持电脑和手机浏览器，无需安装。
 
-> **版本说明（2026-10-05）**：当前线上 Web 对应 [`codex/publish-tested-web`](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/tree/codex/publish-tested-web) 分支；`main` 含后续开发代码，尚未与线上版本合并。下文 Web 功能和本地启动步骤以线上版本为准。
+> **版本说明（2026-10-05）**：当前线上 Web 已部署 [`main`](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/tree/main) 的判分与音频兼容更新，并保留首次听完讲解才解锁的边框光环体验。下文本地启动步骤使用 `main`。
 >
 > **完整资源包：[v1.2.0-assets](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/v1.2.0-assets)**。包含新版 188 篇语文阅读、936 道配套题及既有四科资源；无需先安装旧版本。Release 中的 `web-source.zip` 是资源包发布时的源码快照，早于当前线上语音兼容和界面修复。详见 [安装与升级说明](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/codex/publish-tested-web/docs/release-install.md)。
 
@@ -83,7 +83,7 @@
 | **课文听读** | 语文/英语课文逐句朗读，支持跟读练习，展示课本原页 |
 | **跟读录音** | 浏览器内录音与回放，不上传录音；需要 HTTPS 和麦克风授权，暂无语音识别评分 |
 | **课外故事** | 每单元 2 篇 AI 分级故事 + 阅读理解题 + 儿童插画配图 |
-| **全站 TTS** | 题目、选项、讲解、故事文本均可朗读；Web 使用 51,640 个兼容 MP3 音频，保留原 Opus 资源 |
+| **全站 TTS** | 题目、选项、讲解、故事文本均可朗读；Web 使用 65,694 个兼容 MP3 音频，保留原 Opus 资源 |
 | **首次讲解** | 进入课程自动尝试播放，听完才解锁下一步；按钮边框光环跟随真实播放进度，不显示秒数 |
 | **学习进度** | 当前浏览器保存完成情况、正确率与阅读星级；暂无云端账号和跨设备同步 |
 | **连击系统** | 连续答对触发连击动画与语音激励 |
@@ -100,22 +100,22 @@
 | 英语 | 人教版 PEP | 三至六年级 | 96 篇 |
 | 科学 | 教科版 | 一至六年级 | — |
 
-**当前资源规模：**44 册教材、2,166 个课节、6,545 道单元练习、779 篇课文、284 篇故事和 1,226 道故事阅读题（语文 936 道、英语 290 道）。这是资源覆盖统计，不代表所有题目已通过教师逐题审核。
+**当前资源规模**：44 册教材、2,166 个课节、6,545 道单元练习、779 篇课文、284 篇故事和 1,226 道故事阅读题（语文 936 道、英语 290 道）。这是资源覆盖统计，不代表所有题目已通过教师逐题审核。
 
 ---
 
 ## 🚀 快速开始
 
-**Docker 家庭部署：**包含 Dockerfile 的当前代码版本支持 `docker compose up -d --build`，会自动下载完整资源并构建，无需自行安装 Node.js、Python 或 FFmpeg；见 [Docker 安装说明](docs/docker.md)。本节以下命令仍用于复现线上 Web 分支。
+**Docker 家庭部署**：包含 Dockerfile 的当前代码版本支持 `docker compose up -d --build`，会自动下载完整资源并构建，无需自行安装 Node.js、Python 或 FFmpeg；见 [Docker 安装说明](docs/docker.md)。本节以下命令用于启动当前 `main` 版本。
 
-**安卓自行安装：**用 Android Studio 打开 `apps/android`，或从 GitHub Actions 下载构建成功的调试 APK。当前是加载 HTTPS 课堂的在线客户端；构建步骤、录音权限和已知限制见 [安卓工程说明](docs/android.md)。
+**安卓自行安装**：用 Android Studio 打开 `apps/android`，或从 GitHub Actions 下载构建成功的调试 APK。当前是加载 HTTPS 课堂的在线客户端；构建步骤、录音权限和已知限制见 [安卓工程说明](docs/android.md)。
 
 ### 1. 克隆仓库
 
 以下步骤启动当前线上版本。需要 Node.js 20+、Python 3.9+，以及带 `libmp3lame` 的 FFmpeg；请将 Python 和 FFmpeg 加入系统 PATH。
 
 ```bash
-git clone --branch codex/publish-tested-web https://github.com/wuwangzhang1216/ChinaTextbookStudyFree.git
+git clone --branch main https://github.com/wuwangzhang1216/ChinaTextbookStudyFree.git
 cd ChinaTextbookStudyFree
 ```
 
@@ -152,13 +152,13 @@ npm ci
 npm run dev
 ```
 
-访问 [http://localhost:3000](http://localhost:3000) 即可。首次启动会构建数据，并从 Release 的原音频生成 51,640 个 Web 兼容 MP3；这一步可能较慢，后续启动复用校验缓存，无需调用付费语音模型。Release 中尚未单独提供这些 Web MP3。
+访问 [http://localhost:3000](http://localhost:3000) 即可。首次启动会构建数据，并从 Release 的原音频生成 65,694 个 Web 兼容 MP3；这一步可能较慢，后续启动复用校验缓存，无需调用付费语音模型。Release 中尚未单独提供这些 Web MP3。
 
 生产构建执行 `npm run build`，静态站点输出到 `apps/web/out/`；部署静态文件即可，不需要 Node.js 业务后端。类型检查使用 `npm run type-check`。
 
 ### 电脑、手机与部署
 
-电脑使用侧栏和宽屏阅读布局，手机使用底部导航和单列阅读。已检查 23 类页面 × 7 种尺寸（320×568 至 1920×1080），并测试完整答题、阅读、刷新恢复、错题、商店和家长时间限制。手机尺寸模拟不等于真机验收：真实 iPhone/Android、抖音内置浏览器的播放和麦克风权限仍需复核。详见 [Web 深测报告](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/codex/publish-tested-web/docs/web-deep-qa-2026-10-03.md)。
+电脑使用侧栏和宽屏阅读布局，手机使用底部导航和单列阅读。此前线上版本已检查 23 类页面 × 7 种尺寸（320×568 至 1920×1080），并测试完整答题、阅读、刷新恢复、错题、商店和家长时间限制。2026-10-05 的 `main` 更新另通过 45 项线上 HTTP 检查、完整文件与媒体引用核对，并验证 320、390 和 1440 像素宽度的课程讲解播放与边框进度。手机尺寸模拟不等于真机验收：真实 iPhone/Android、抖音内置浏览器的播放和麦克风权限仍需复核。详见 [Web 深测报告](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/codex/publish-tested-web/docs/web-deep-qa-2026-10-03.md)。
 
 线上使用东京区域的私有 S3 + CloudFront HTTPS，使用 AWS 提供的链接；没有 EC2/Lightsail、数据库或业务后端。按存储、请求和流量计费，没有 $7.50/月的服务器固定费用。部署步骤见 [AWS Web 部署说明](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/main/docs/aws-web-deployment.md)。
 
@@ -176,6 +176,7 @@ open ChinaTextbookStudy.xcodeproj
 在 Xcode 里选 iPhone / iPad 模拟器，Cmd+R 即可运行。App 内置一本数学书（一年级上册 + 第一节课的 TTS 音频）作为离线种子，无需网络就能体验完整流程。
 
 **iOS 端特点：**
+
 - SwiftUI 原生（非 React Native），支持 iPhone + iPad（iPad 自动分栏布局）
 - 域逻辑（SRS / 判分 / 成就 / 宝箱 / 吉祥物）从 `packages/core` 逐文件对译为 Swift
 - 音频：Opus 预转码为 AAC m4a，`AVAudioPlayer` 播放，无第三方解码依赖
@@ -194,6 +195,7 @@ open ChinaTextbookStudy.xcodeproj
 | `DuoButtonStyle`·`DuoCardStyle` | 标志性的立体「下沿」按压质感 |
 
 **学习体验**
+
 - 路径即首页：当前节点呼吸动效 + 真实单元进度环，点击弹出开始气泡
 - 答错回炉重练：进度条只在答对时前进，且必定走满；错题自动进入 SRS 错题本
 - 爱心耗尽拦截、退出二次确认、答错震屏与抖卡、每次点选都有触感与音效
@@ -209,6 +211,7 @@ open ChinaTextbookStudy.xcodeproj
 - 商店里的每个格子都是**实时预览**：皮肤格是戴着该配饰的聪聪本人，主题格是该主题的真实配色
 
 **留存机制**
+
 - **每日任务**：每天 3 个不同类型的任务（赚经验 / 完成小课 / 复习错题 / 读课文），
   由日期做种子确定性生成——同一天任何时候打开都是同一组，且不需要服务端；
   完成后可领取宝石奖励
