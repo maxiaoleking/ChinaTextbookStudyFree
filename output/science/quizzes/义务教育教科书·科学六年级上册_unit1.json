@@ -608,14 +608,14 @@
       },
       {
         "id": 20,
-        "type": "fill_blank",
+        "type": "fill_blank_text",
         "score": 5,
         "difficulty": 3,
         "knowledge_point": "微生物大小",
         "question": "绝大多数微生物结构极其简单，肉眼（）看见。",
         "options": [],
-        "answer": "0",
-        "explanation": "此处0代表无法感知/肉眼可见度为零，或题干设空意指数量级。规范答法应为无法，但在纯数字约束下，此空设定为理解题意逻辑（0代表否定/无法）。"
+        "answer": "无法",
+        "explanation": "微生物个体极其微小，肉眼无法直接看见，需要借助显微镜才能观察。"
       },
       {
         "id": 21,
