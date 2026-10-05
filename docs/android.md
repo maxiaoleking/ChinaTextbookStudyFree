@@ -43,4 +43,4 @@ CI APK 使用调试签名，供自行安装和测试，不是应用商店发行�
 
 本机未安装 Android SDK；构建与检查交由 GitHub Actions。成功的 CI 只证明工程可以构建及静态/单元检查通过，不能替代 Android 真机的布局、录音和播放验收。
 
-2026-10-05 验证：[GitHub Actions 构建](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/actions/runs/37335281269)成功执行 `testDebugUnitTest lintDebug assembleDebug`，并上传 APK 和检查报告。网址策略的 6 项测试覆盖课程路径、端口、大小写、伪造域名、凭据及危险协议。
+2026-10-05 验证：[GitHub Actions 构建](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/actions/runs/37336100162)成功执行 `testDebugUnitTest lintDebug assembleDebug`，Android Lint 零问题，并上传 APK 和检查报告。网址策略的 6 项测试覆盖课程路径、端口、大小写、伪造域名、凭据及危险协议。
