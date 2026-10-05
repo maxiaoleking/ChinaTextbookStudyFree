@@ -22,6 +22,7 @@ import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
 import { playTTS } from "@/lib/tts";
 import { useAutoNarrate } from "@/lib/useAutoNarrate";
+import { matchingPairs } from "@/lib/questionAnswer";
 import type { QuestionRendererProps } from "./QuestionRenderer";
 
 const LEFT_KEYS = ["A", "B", "C", "D"] as const;
@@ -50,29 +51,20 @@ export function MatchingQuestion({
   const left = options.slice(0, 4);
   const right = options.slice(4, 8);
 
-  // pairs[A] = "1" 等
-  const [pairs, setPairs] = useState<Record<LeftKey, RightKey | null>>({
-    A: null,
-    B: null,
-    C: null,
-    D: null,
-  });
+  // The parent owns the answer, including a restored checked question after refresh.
+  const parsed = matchingPairs(answer);
+  const pairs = Object.fromEntries(LEFT_KEYS.map(key => [key, parsed[key] ?? null])) as Record<LeftKey, RightKey | null>;
+  const correctPairs = matchingPairs(question.answer);
   const [activeLeft, setActiveLeft] = useState<LeftKey | null>(null);
 
   // 题目切换重置
   useEffect(() => {
-    setPairs({ A: null, B: null, C: null, D: null });
     setActiveLeft(null);
   }, [question.id]);
 
-  // pairs 变化时同步外部 answer
-  useEffect(() => {
-    const text = LEFT_KEYS.filter(k => pairs[k] !== null)
-      .map(k => `${k}-${pairs[k]}`)
-      .join(",");
-    if (text !== answer) onChange(text);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [pairs]);
+  function updatePairs(next: Record<LeftKey, RightKey | null>) {
+    onChange(LEFT_KEYS.filter(key => next[key] !== null).map(key => `${key}-${next[key]}`).join(","));
+  }
 
   function pickLeft(k: LeftKey) {
     if (disabled) return;
@@ -85,7 +77,7 @@ export function MatchingQuestion({
     if (optAudio) void playTTS(optAudio);
     // 已配对的左项点击 → 解除配对
     if (pairs[k] !== null) {
-      setPairs(p => ({ ...p, [k]: null }));
+      updatePairs({ ...pairs, [k]: null });
       setActiveLeft(null);
       return;
     }
@@ -102,15 +94,11 @@ export function MatchingQuestion({
     const idx = 4 + RIGHT_KEYS.indexOf(rk);
     const optAudio = question.audio?.options?.[idx];
     if (optAudio) void playTTS(optAudio);
-    setPairs(p => {
-      // 如果该右项已被其他左项占用，先腾出来
-      const next = { ...p };
-      for (const k of LEFT_KEYS) {
-        if (next[k] === rk) next[k] = null;
-      }
-      next[activeLeft] = rk;
-      return next;
-    });
+    // 如果该右项已被其他左项占用，先腾出来
+    const next = { ...pairs };
+    for (const key of LEFT_KEYS) if (next[key] === rk) next[key] = null;
+    next[activeLeft] = rk;
+    updatePairs(next);
     setActiveLeft(null);
   }
 
@@ -123,6 +111,9 @@ export function MatchingQuestion({
     }
   }
   function colorFor(k: LeftKey) {
+    if (disabled && pairs[k]) return pairs[k] === correctPairs[k]
+      ? { border: "border-primary", bg: "bg-primary/15", text: "text-primary-dark" }
+      : { border: "border-danger", bg: "bg-danger/15", text: "text-danger-dark" };
     const o = leftPairOrder[k];
     return o >= 0 ? PAIR_COLORS[o % PAIR_COLORS.length] : null;
   }
@@ -140,9 +131,10 @@ export function MatchingQuestion({
         <TTSButton src={question.audio?.question} className="mt-1" label="朗读题目" />
       </div>
 
+      {!disabled && <p className="mb-3 text-sm text-ink-light">先点左边，再点右边；已配对 {Object.values(pairs).filter(Boolean).length}/4</p>}
       <div className="grid grid-cols-2 gap-3">
         {/* 左列 */}
-        <div className="flex flex-col gap-2">
+        <div className="min-w-0 flex flex-col gap-2">
           {LEFT_KEYS.map((k, i) => {
             const txt = left[i] ?? "";
             const c = colorFor(k);
@@ -152,10 +144,12 @@ export function MatchingQuestion({
                 key={k}
                 type="button"
                 disabled={disabled}
+                aria-pressed={active || !!pairs[k]}
+                aria-label={`左侧 ${k}：${txt}${pairs[k] ? `，已配对右侧 ${pairs[k]}，点击可取消` : ""}`}
                 onClick={() => pickLeft(k)}
                 whileTap={!disabled ? { scale: 0.98 } : undefined}
                 className={cn(
-                  "option-card text-left flex items-center gap-2",
+                  "option-card !px-2 sm:!px-4 text-left flex items-center gap-2 min-w-0",
                   c
                     ? `${c.border} ${c.bg} ${c.text}`
                     : active
@@ -166,7 +160,7 @@ export function MatchingQuestion({
                 <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-white border-2 border-current text-xs shrink-0">
                   {k}
                 </span>
-                <span className="flex-1">{txt}</span>
+                <span className="flex-1 min-w-0 break-words">{txt}</span>
                 {pairs[k] && <span className="text-xs opacity-70 shrink-0">→{pairs[k]}</span>}
               </motion.button>
             );
@@ -174,7 +168,7 @@ export function MatchingQuestion({
         </div>
 
         {/* 右列 */}
-        <div className="flex flex-col gap-2">
+        <div className="min-w-0 flex flex-col gap-2">
           {RIGHT_KEYS.map((k, i) => {
             const txt = right[i] ?? "";
             const c = colorForRight(k);
@@ -184,10 +178,11 @@ export function MatchingQuestion({
                 key={k}
                 type="button"
                 disabled={disabled || activeLeft === null}
+                aria-label={`右侧 ${k}：${txt}`}
                 onClick={() => pickRight(k)}
                 whileTap={clickable ? { scale: 0.98 } : undefined}
                 className={cn(
-                  "option-card text-left flex items-center gap-2",
+                  "option-card !px-2 sm:!px-4 text-left flex items-center gap-2 min-w-0",
                   c
                     ? `${c.border} ${c.bg} ${c.text}`
                     : clickable
@@ -198,7 +193,7 @@ export function MatchingQuestion({
                 <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-white border-2 border-current text-xs shrink-0">
                   {k}
                 </span>
-                <span className="flex-1">{txt}</span>
+                <span className="flex-1 min-w-0 break-words">{txt}</span>
               </motion.button>
             );
           })}

@@ -45,21 +45,29 @@ echo "=== 抽取 $LESSON_ID 引用的音频 ==="
 python3 - "$LESSON_JSON" > /tmp/cstf-seed-audio.txt <<'PY'
 import json, re, sys
 text = open(sys.argv[1]).read()
-shas = sorted(set(re.findall(r'/audio/([a-f0-9]{2})/([a-f0-9]+)\.opus', text)))
+shas = sorted(set(re.findall(r'/audio/([a-f0-9]{2})/([a-f0-9]+)\.(?:opus|mp3)', text)))
 for prefix, sha in shas:
     print(f"{prefix}/{sha}")
 PY
 COUNT=$(wc -l < /tmp/cstf-seed-audio.txt | tr -d ' ')
 echo "  $COUNT 个 audio sha"
 
-echo "=== 转码 opus → m4a (24k mono AAC) ==="
+echo "=== 转码原始音频 → m4a (24k mono AAC) ==="
 i=0
 while read rel; do
   i=$((i+1))
   src="$AUDIO_SRC/${rel}.opus"
+  if [ ! -f "$src" ]; then src="$AUDIO_SRC/${rel}.mp3"; fi
+  if [ ! -f "$src" ]; then
+    echo "❌ 找不到音频源: $rel" >&2
+    exit 1
+  fi
   dst="$STAGE/audio/${rel}.m4a"
   mkdir -p "$(dirname "$dst")"
-  ffmpeg -loglevel error -y -i "$src" -c:a aac -b:a 24k -ac 1 "$dst" 2>&1 || echo "  ⚠ 转码失败: $rel"
+  ffmpeg -loglevel error -y -i "$src" -c:a aac -b:a 24k -ac 1 "$dst" || {
+    echo "❌ 转码失败: $rel" >&2
+    exit 1
+  }
 done < /tmp/cstf-seed-audio.txt
 
 echo "=== 打包 ==="

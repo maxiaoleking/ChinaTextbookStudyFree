@@ -51,6 +51,6 @@ export default async function ReadingPage({
   if (!passage) notFound();
 
   return (
-    <PassageReader passage={passage} backHref={`/reading/${bookId}/`} />
+    <PassageReader key={passage.id} passage={passage} backHref={`/reading/${bookId}/`} />
   );
 }

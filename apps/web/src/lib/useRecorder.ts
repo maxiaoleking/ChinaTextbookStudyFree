@@ -13,77 +13,21 @@
  *   const url = await rec.stop(); // blob URL
  */
 import { useCallback, useEffect, useRef, useState } from "react";
-
-export type RecorderState = "idle" | "requesting" | "recording" | "error";
+import { RecorderController, type RecorderSnapshot } from "./recorder";
+export type { RecorderState } from "./recorder";
 
 export function useRecorder() {
-  const [state, setState] = useState<RecorderState>("idle");
-  const [error, setError] = useState<string | null>(null);
-  const mediaRef = useRef<MediaRecorder | null>(null);
-  const streamRef = useRef<MediaStream | null>(null);
-  const chunksRef = useRef<Blob[]>([]);
-  const stopResolverRef = useRef<((url: string | null) => void) | null>(null);
-
-  const cleanup = useCallback(() => {
-    if (streamRef.current) {
-      streamRef.current.getTracks().forEach(t => t.stop());
-      streamRef.current = null;
-    }
-    mediaRef.current = null;
-    chunksRef.current = [];
+  const [snapshot, setSnapshot] = useState<RecorderSnapshot>({ state: "idle", error: null });
+  const controllerRef = useRef<RecorderController | null>(null);
+  const getController = useCallback(() => {
+    if (!controllerRef.current) controllerRef.current = new RecorderController(setSnapshot);
+    return controllerRef.current;
   }, []);
-
-  useEffect(() => cleanup, [cleanup]);
-
-  const start = useCallback(async () => {
-    setError(null);
-    if (mediaRef.current) return; // 已经在录
-    if (typeof navigator === "undefined" || !navigator.mediaDevices?.getUserMedia) {
-      setState("error");
-      setError("当前浏览器不支持录音");
-      return;
-    }
-    setState("requesting");
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      streamRef.current = stream;
-      const mr = new MediaRecorder(stream);
-      chunksRef.current = [];
-      mr.ondataavailable = e => {
-        if (e.data && e.data.size > 0) chunksRef.current.push(e.data);
-      };
-      mr.onstop = () => {
-        const blob = new Blob(chunksRef.current, {
-          type: mr.mimeType || "audio/webm",
-        });
-        const url = blob.size > 0 ? URL.createObjectURL(blob) : null;
-        cleanup();
-        setState("idle");
-        const resolver = stopResolverRef.current;
-        stopResolverRef.current = null;
-        resolver?.(url);
-      };
-      mr.start();
-      mediaRef.current = mr;
-      setState("recording");
-    } catch (e) {
-      setState("error");
-      setError(e instanceof Error ? e.message : String(e));
-      cleanup();
-    }
-  }, [cleanup]);
-
-  const stop = useCallback((): Promise<string | null> => {
-    return new Promise(resolve => {
-      const mr = mediaRef.current;
-      if (!mr || mr.state === "inactive") {
-        resolve(null);
-        return;
-      }
-      stopResolverRef.current = resolve;
-      mr.stop();
-    });
+  useEffect(() => () => {
+    controllerRef.current?.dispose();
+    controllerRef.current = null;
   }, []);
-
-  return { state, error, start, stop };
+  const start = useCallback(() => getController().start(), [getController]);
+  const stop = useCallback(() => controllerRef.current?.stop() ?? Promise.resolve(null), []);
+  return { ...snapshot, start, stop };
 }

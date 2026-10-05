@@ -25,14 +25,11 @@ export function AppShell({ children, right, centerMaxWidth = 640 }: AppShellProp
     <div className="min-h-screen w-full">
       {/* 桌面三栏（无 right 时降级为两栏，中央列拿回 360px 空间） */}
       <div
-        className="hidden lg:grid mx-auto max-w-[1240px] gap-6 px-6 py-6"
-        style={{
-          gridTemplateColumns: showRight
-            ? "260px minmax(0, 1fr) 360px"
-            : "260px minmax(0, 1fr)",
-        }}
+        className={`lg:grid mx-auto max-w-[1280px] lg:gap-6 lg:px-6 lg:py-6 ${showRight
+          ? "lg:grid-cols-[220px_minmax(0,1fr)] xl:grid-cols-[240px_minmax(0,1fr)_300px]"
+          : "lg:grid-cols-[240px_minmax(0,1fr)]"}`}
       >
-        <aside className="sticky top-6 self-start h-[calc(100vh-3rem)]">
+        <aside className="hidden lg:block sticky top-6 self-start h-[calc(100vh-3rem)]">
           <SideNav />
         </aside>
         <main className="min-w-0">
@@ -41,14 +38,12 @@ export function AppShell({ children, right, centerMaxWidth = 640 }: AppShellProp
           </div>
         </main>
         {showRight && (
-          <aside className="sticky top-6 self-start h-[calc(100vh-3rem)] overflow-y-auto pb-6">
+          <aside className="hidden xl:block sticky top-6 self-start h-[calc(100vh-3rem)] overflow-y-auto pb-6">
             {right ?? <RightRail />}
           </aside>
         )}
       </div>
 
-      {/* 移动端 */}
-      <div className="lg:hidden">{children}</div>
     </div>
   );
 }

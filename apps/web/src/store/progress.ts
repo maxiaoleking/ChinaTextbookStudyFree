@@ -4,6 +4,7 @@ import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 import type { Question, LessonResult } from "@/types";
 import { DEFAULT_EQUIPPED, getCosmeticById, getStarterCosmetics } from "@/lib/cosmetics";
+import { reviewSrsEntry } from "@/lib/srs";
 
 /**
  * 错题条目，含 SRS（间隔重复）字段。
@@ -36,6 +37,12 @@ export interface ActiveLessonSession {
   mistakeCount: number;
   combo: number;
   startedAt: number; // ms timestamp
+  /** 保存已提交题目的反馈阶段，刷新后不会重新计分或扣心。旧会话默认为 answering。 */
+  phase?: "answering" | "checked";
+  answer?: string;
+  isCorrect?: boolean | null;
+  maxCombo?: number;
+  sessionXpPreview?: number;
 }
 
 interface ProgressState {
@@ -99,6 +106,8 @@ interface ProgressState {
   lessonHistory: Record<string, number>;
   /** 上次领取每日登陆奖励的日期 */
   lastDailyRewardDate: string;
+  /** 每日目标奖励独立记账，调整目标不会重复领取。 */
+  lastDailyGoalRewardDate: string;
 
   // 🎒 v6：用户选择的年级（首次进入时引导选择，决定 home 显示哪一年级的教材）
   selectedGrade: number | null;
@@ -221,6 +230,28 @@ function pruneHistory<T>(history: Record<string, T>): Record<string, T> {
   return out;
 }
 
+// 浏览器存储可能被关闭或写满。保留当前会话快照，避免写入异常打断
+// 扣心、通关和奖励的一整组操作；重新打开浏览器时仍优先读取已存进度。
+const unsavedProgress = new Map<string, string>();
+const progressStorage = {
+  getItem(key: string): string | null {
+    if (unsavedProgress.has(key)) return unsavedProgress.get(key)!;
+    try { return localStorage.getItem(key); } catch { return null; }
+  },
+  setItem(key: string, value: string): void {
+    try {
+      localStorage.setItem(key, value);
+      unsavedProgress.delete(key);
+    } catch {
+      unsavedProgress.set(key, value);
+    }
+  },
+  removeItem(key: string): void {
+    unsavedProgress.delete(key);
+    try { localStorage.removeItem(key); } catch { /* 当前会话仍可继续使用 */ }
+  },
+};
+
 /** 周末双倍 XP 标记：用于 UI 展示 */
 export function isWeekendBonusActive(): boolean {
   const d = new Date().getDay();
@@ -283,6 +314,7 @@ export const useProgressStore = create<ProgressState>()(
       xpHistory: {},
       lessonHistory: {},
       lastDailyRewardDate: "",
+      lastDailyGoalRewardDate: "",
 
       // v6
       selectedGrade: null,
@@ -311,13 +343,17 @@ export const useProgressStore = create<ProgressState>()(
         let gemsGained = 3;
         if (stars === 2) gemsGained += 5;
         if (stars === 3) gemsGained += 10;
-        const isFirstPerfect = stars === 3 && !get().perfectedLessons[lessonId];
+        const isFirstPerfect = accuracy >= 1 && !get().perfectedLessons[lessonId];
         if (isFirstPerfect) gemsGained += 15;
 
         set(state => {
           const isSameDay = state.lastXpDate === today;
           const prevTodayXp = isSameDay ? state.todayXp : 0;
           const newTodayXp = prevTodayXp + xpGained;
+          const previousBest = state.completedLessons[lessonId];
+          const bestResult = previousBest && previousBest.accuracy >= accuracy
+            ? previousBest
+            : result;
 
           // === 历史聚合：用于周报 ===
           const newXpHistory = pruneHistory({
@@ -334,7 +370,8 @@ export const useProgressStore = create<ProgressState>()(
           if (
             prevTodayXp < state.dailyGoal &&
             newTodayXp >= state.dailyGoal &&
-            state.dailyGoal > 0
+            state.dailyGoal > 0 &&
+            state.lastDailyGoalRewardDate !== today
           ) {
             bonusGoalGems = 20;
           }
@@ -342,9 +379,11 @@ export const useProgressStore = create<ProgressState>()(
 
           return {
             xp: state.xp + xpGained,
-            completedLessons: { ...state.completedLessons, [lessonId]: result },
+            completedLessons: { ...state.completedLessons, [lessonId]: bestResult },
             todayXp: newTodayXp,
+            todayTimeMs: isSameDay ? state.todayTimeMs : 0,
             lastXpDate: today,
+            lastDailyGoalRewardDate: bonusGoalGems > 0 ? today : state.lastDailyGoalRewardDate,
             gems: state.gems + totalGems,
             lifetimeGems: state.lifetimeGems + totalGems,
             xpHistory: newXpHistory,
@@ -595,6 +634,7 @@ export const useProgressStore = create<ProgressState>()(
           const prev = isSameDay ? state.todayTimeMs : 0;
           return {
             todayTimeMs: prev + ms,
+            todayXp: isSameDay ? state.todayXp : 0,
             lastXpDate: today,
           };
         });
@@ -610,36 +650,11 @@ export const useProgressStore = create<ProgressState>()(
 
       reviewMistake: (lessonId, questionId, isCorrect) => {
         set(state => ({
-          mistakesBank: state.mistakesBank
-            .map(m => {
-              if (m.lessonId !== lessonId || m.question.id !== questionId) return m;
-              const today = new Date();
-              const todayDateStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
-              if (!isCorrect) {
-                // 答错 → 重置回 box 1
-                return {
-                  ...m,
-                  box: 1 as const,
-                  correctCount: 0,
-                  lastReviewedAt: today.toISOString(),
-                  nextReviewDate: todayDateStr,
-                };
-              }
-              const correctCount = (m.correctCount ?? 0) + 1;
-              const currentBox = m.box ?? 1;
-              const nextBox: 1 | 2 | 3 = currentBox >= 3 ? 3 : ((currentBox + 1) as 2 | 3);
-              const intervalDays = nextBox === 2 ? 1 : nextBox === 3 ? 3 : 7;
-              const next = new Date(today);
-              next.setDate(next.getDate() + intervalDays);
-              const nextDateStr = `${next.getFullYear()}-${String(next.getMonth() + 1).padStart(2, "0")}-${String(next.getDate()).padStart(2, "0")}`;
-              return {
-                ...m,
-                box: nextBox,
-                correctCount,
-                lastReviewedAt: today.toISOString(),
-                nextReviewDate: nextDateStr,
-              };
-            }),
+          mistakesBank: state.mistakesBank.map(m =>
+            m.lessonId === lessonId && m.question.id === questionId
+              ? reviewSrsEntry(m, isCorrect)
+              : m,
+          ),
         }));
       },
 
@@ -680,14 +695,15 @@ export const useProgressStore = create<ProgressState>()(
     }),
     {
       name: "csf-progress-v1",
-      storage: createJSONStorage(() => localStorage),
+      storage: createJSONStorage(() => progressStorage),
       // 版本迁移：
       //   v1 → v2：新增 hearts / dailyGoal / freezes / activeLesson
       //   v2 → v3：新增 gems / lifetimeGems / claimedChests / perfectedLessons + autoNarrate
       //   v3 → v4：新增美妆系统 ownedCosmetics / equippedXxx + claimedStreakRewards + 时间关怀
       //   v4 → v5：新增 xpHistory / lessonHistory / lastDailyRewardDate
       //   v5 → v6：新增 selectedGrade（首次进入引导选择年级）
-      version: 6,
+      //   v6 → v7：独立记录每日目标奖励日期，保留已达成当天的领取状态
+      version: 7,
       migrate: (persistedState: unknown) => {
         const state = (persistedState as Partial<ProgressState>) ?? {};
         const starterOwned = Object.fromEntries(
@@ -719,6 +735,11 @@ export const useProgressStore = create<ProgressState>()(
           xpHistory: state.xpHistory ?? {},
           lessonHistory: state.lessonHistory ?? {},
           lastDailyRewardDate: state.lastDailyRewardDate ?? "",
+          lastDailyGoalRewardDate: state.lastDailyGoalRewardDate ?? (
+            (state.todayXp ?? 0) >= (state.dailyGoal ?? DEFAULT_DAILY_GOAL)
+              ? (state.lastXpDate ?? "")
+              : ""
+          ),
           // v6
           selectedGrade: state.selectedGrade ?? null,
         } as ProgressState;

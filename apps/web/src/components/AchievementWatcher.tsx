@@ -12,6 +12,7 @@ import { useProgressStore } from "@/store/progress";
 import {
   ALL_ACHIEVEMENTS,
   computeUnlockedAchievementIds,
+  rememberUnlockedAchievementIds,
 } from "@/lib/achievements";
 import { useToast } from "./Toast";
 import { playSfx } from "@/lib/sfx";
@@ -23,19 +24,23 @@ export function AchievementWatcher() {
 
   useEffect(() => {
     // 初始化：当前已解锁集，初次不弹任何 toast
-    seen.current = new Set(
-      computeUnlockedAchievementIds(useProgressStore.getState()),
-    );
+    const initial = computeUnlockedAchievementIds(useProgressStore.getState());
+    rememberUnlockedAchievementIds(initial);
+    seen.current = new Set(initial);
 
     const unsub = useProgressStore.subscribe(state => {
       const current = new Set(computeUnlockedAchievementIds(state));
+      rememberUnlockedAchievementIds(current);
       if (!seen.current) {
         seen.current = current;
         return;
       }
       const newly: string[] = [];
       current.forEach(id => {
-        if (!seen.current!.has(id)) newly.push(id);
+        if (!seen.current!.has(id)) {
+          newly.push(id);
+          seen.current!.add(id);
+        }
       });
       if (newly.length > 0) {
         for (const id of newly) {
@@ -47,7 +52,6 @@ export function AchievementWatcher() {
           }
         }
       }
-      seen.current = current;
     });
 
     return unsub;

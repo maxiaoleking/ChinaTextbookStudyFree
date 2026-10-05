@@ -63,4 +63,6 @@ scripts/tts/manifest.json
 scripts/tts/ui_manifest.json
 data/passages/
 data/stories/
+data/content-revision/
 release-assets/
+deploy-output/

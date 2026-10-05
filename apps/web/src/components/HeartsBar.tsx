@@ -30,7 +30,7 @@ export function HeartsBar({ total, remaining }: HeartsBarProps) {
   }, [remaining]);
 
   return (
-    <div className="flex items-center gap-1 relative">
+    <div role="img" aria-label={`剩余 ${remaining} 颗心，共 ${total} 颗`} className="flex items-center gap-1 relative shrink-0">
       {Array.from({ length: total }).map((_, i) => {
         const alive = i < remaining;
         const isBreaking = lostIndex === i;

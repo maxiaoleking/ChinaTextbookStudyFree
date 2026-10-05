@@ -10,7 +10,11 @@ async function getIndex(): Promise<SiteIndex> {
   return JSON.parse(await fs.readFile(p, "utf-8"));
 }
 
-async function getOutline(bookId: string): Promise<Outline> {
+interface OutlineWithLessons extends Outline {
+  lessons: { id: string; unitNumber: number }[];
+}
+
+async function getOutline(bookId: string): Promise<OutlineWithLessons> {
   const p = path.join(process.cwd(), "public", "data", "books", bookId, "outline.json");
   return JSON.parse(await fs.readFile(p, "utf-8"));
 }
@@ -18,10 +22,10 @@ async function getOutline(bookId: string): Promise<Outline> {
 async function getUnitSummaries(
   bookId: string,
   unitNum: number,
-  kpCount: number,
+  outline: OutlineWithLessons,
 ): Promise<KnowledgeSummary[]> {
   const out: KnowledgeSummary[] = [];
-  for (let i = 1; i <= kpCount; i++) {
+  for (const meta of outline.lessons.filter(lesson => lesson.unitNumber === unitNum)) {
     const lessonPath = path.join(
       process.cwd(),
       "public",
@@ -29,7 +33,7 @@ async function getUnitSummaries(
       "books",
       bookId,
       "lessons",
-      `${bookId}-u${unitNum}-kp${i}.json`,
+      `${meta.id}.json`,
     );
     try {
       const lesson = JSON.parse(await fs.readFile(lessonPath, "utf-8"));
@@ -71,7 +75,7 @@ export default async function GuidePage({
   const unit = outline.units.find(u => u.unit_number === unitNum);
   if (!unit) notFound();
 
-  const summaries = await getUnitSummaries(bookId, unitNum, unit.knowledge_points.length);
+  const summaries = await getUnitSummaries(bookId, unitNum, outline);
 
   return <GuideClient book={book} unit={unit} summaries={summaries} />;
 }

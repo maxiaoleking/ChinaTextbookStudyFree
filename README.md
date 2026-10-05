@@ -1,5 +1,9 @@
 # ChinaStudyFree · 小学全科 AI 学习平台
 
+**在线体验：[小猫头鹰课堂](https://d3nmsqi4n72idj.cloudfront.net/)** · 支持电脑和手机浏览器，无需安装。
+
+> **v1.2.0 完整资源包**：包含新版188篇语文阅读、936道配套题及全部既有四科资源。安装与升级请优先查看 [新版安装说明](docs/release-install.md)，使用 Release 的 `web-source.zip` 配套源码和校验安装器。
+
 > **一个免费、开源、纯公益的小学全科学习平台**
 >
 > 我们相信：**每一个中国孩子，无论身处北上广深，还是大山深处的乡村小学，都应该拥有一样好的学习资源。**
@@ -76,7 +80,7 @@
 | **知识点全解** | 每个知识点配有清晰讲解、核心概念、公式与易错点 |
 | **课文听读** | 语文/英语课文逐句朗读，支持跟读练习，展示课本原页 |
 | **课外故事** | 每单元 2 篇 AI 分级故事 + 阅读理解题 + 儿童插画配图 |
-| **全站 TTS** | 题目、选项、讲解、故事文本均可点击朗读（Opus 格式，71,500+ 音频） |
+| **全站 TTS** | 题目、选项、讲解、故事文本均可朗读；Web 使用 51,640 个兼容 MP3 音频，保留原 Opus 资源 |
 | **学习进度** | 自动保存每课完成情况与正确率，故事阅读支持星星评级 |
 | **连击系统** | 连续答对触发连击动画与语音激励 |
 
@@ -123,6 +127,8 @@ powershell -ExecutionPolicy Bypass -File scripts\download-assets.ps1
 | `data-source.zip` | passages + stories 源 JSON | ~811 KB | `data/` |
 
 ### 3. 运行 Web 端
+
+需要 Python 3.9+ 与提供 `libmp3lame` 的 FFmpeg。Web 构建会为实际使用的原音频生成兼容旧版 iPhone 的 MP3，保留原来的声音与 Opus 文件；后续构建使用校验缓存，不重新调用语音模型。
 
 ```bash
 cd apps/web
@@ -189,6 +195,10 @@ open ChinaTextbookStudy.xcodeproj
 更多上架相关细节见 [`apps/mobile/APPSTORE.md`](apps/mobile/APPSTORE.md)。
 
 ### 5. （可选）运行数据生成 Pipeline
+
+语文课外阅读的课文难度校准、题库审计，以及 GPT-6 Luna / Muse / Gemini TTS
+修订流程见 [内容质量审计与升级说明](docs/content-quality-review.md)。
+新版流程先生成各年级样例，审核、配图和配音完成后再替换，并保留原数据备份。
 
 如需从教材 PDF 重新生成题库数据：
 

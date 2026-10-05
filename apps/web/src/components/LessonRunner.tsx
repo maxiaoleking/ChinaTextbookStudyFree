@@ -9,7 +9,7 @@ import type { Lesson, KnowledgeSummary } from "@/types";
 import { gradeAnswer } from "@/lib/grade";
 import { cn } from "@/lib/cn";
 import { MathText } from "@/components/MathText";
-import { useProgressStore, MAX_HEARTS, FIRST_PERFECT_XP_BONUS } from "@/store/progress";
+import { useProgressStore, MAX_HEARTS, FIRST_PERFECT_XP_BONUS, isWeekendBonusActive } from "@/store/progress";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
 import { useProgressTicker, formatMsCountdown } from "@/lib/useProgressTicker";
@@ -20,7 +20,11 @@ import { QuestionRenderer, type QuestionPhase } from "./question/QuestionRendere
 import { Mascot, type MascotMood, type MascotReaction } from "./Mascot";
 import { MuteToggle, AutoNarrateToggle, useSyncMute } from "./MuteToggle";
 import { TTSButton } from "./TTSButton";
-import { useAutoNarrate } from "@/lib/useAutoNarrate";
+import { useIntroNarration } from "@/lib/useIntroNarration";
+import { NarrationNextButton } from "./NarrationNextButton";
+import { useLearningTime } from "@/lib/useLearningTime";
+import { isAnswerComplete } from "@/lib/questionAnswer";
+import { isNewLessonTimeLimited } from "@/lib/learningLimit";
 import { uiAudio } from "@/lib/uiAudio";
 import { playTTS } from "@/lib/tts";
 import { ChestModal } from "./ChestModal";
@@ -183,6 +187,7 @@ interface SessionStats {
   xp: number;
   perfect: boolean;
   firstPerfect: boolean;
+  bonusMultiplier: number;
   maxCombo: number;
   durationSec: number;
   gemsEarned: number;
@@ -199,7 +204,6 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
   const upsertLessonSession = useProgressStore(s => s.upsertLessonSession);
   const clearLessonSession = useProgressStore(s => s.clearLessonSession);
   const addGems = useProgressStore(s => s.addGems);
-  const markPerfected = useProgressStore(s => s.markPerfected);
   const claimChest = useProgressStore(s => s.claimChest);
   const alreadyPerfected = useProgressStore(
     s => !!s.perfectedLessons[lesson.id],
@@ -228,8 +232,8 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
   const [mistakeCount, setMistakeCount] = useState(0);
   const [done, setDone] = useState(false);
   const [sessionStats, setSessionStats] = useState<SessionStats | null>(null);
-  // 起始时若心数为 0，直接显示失败页
-  const [failed, setFailed] = useState(() => hearts <= 0);
+  // Decide after persisted progress and expired heart timers have been restored.
+  const [failed, setFailed] = useState(false);
   const [combo, setCombo] = useState(0);
   const [maxCombo, setMaxCombo] = useState(0);
   // +XP 飘字动画队列
@@ -253,6 +257,11 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
   const [exitConfirmMounted, setExitConfirmMounted] = useState(false);
   const [showExitConfirm, setShowExitConfirm] = useState(false);
   const [showIntro, setShowIntro] = useState(lesson.knowledge !== null);
+  const [timeLimited, setTimeLimited] = useState(false);
+  useLearningTime(ready && !done && !failed && !timeLimited);
+  const [feedbackHeight, setFeedbackHeight] = useState(0);
+  const checkedIndexRef = useRef(-1);
+  const continuedIndexRef = useRef(-1);
 
   const shakeControls = useAnimation();
   const progressControls = useAnimation();
@@ -263,14 +272,33 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
 
   // 会话恢复：挂载时若存在同课程的持久化进度，恢复到上次答到的题目
   useEffect(() => {
+    useProgressStore.getState().refreshHearts();
     const stored = useProgressStore.getState().activeLesson;
+    if (isNewLessonTimeLimited(useProgressStore.getState(), lesson.id)) {
+      setTimeLimited(true);
+      setReady(true);
+      return;
+    }
+    setFailed(useProgressStore.getState().hearts <= 0);
     if (stored && stored.lessonId === lesson.id) {
       // 确保 index 不越界（课程可能更新，题目数变化）
-      const safeIndex = Math.min(stored.index, Math.max(0, lesson.questions.length - 1));
+      const safeIndex = Math.max(0, Math.min(stored.index, Math.max(0, lesson.questions.length - 1)));
       setIndex(safeIndex);
-      setCorrectCount(stored.correctCount);
-      setMistakeCount(stored.mistakeCount);
+      const alreadyChecked = stored.phase === "checked" ||
+        (!stored.phase && stored.correctCount + stored.mistakeCount > safeIndex);
+      const answeredCount = safeIndex + (alreadyChecked ? 1 : 0);
+      const savedMistakes = Math.min(Math.max(0, stored.mistakeCount), answeredCount);
+      const savedCorrect = Math.min(Math.max(0, stored.correctCount), answeredCount - savedMistakes);
+      setCorrectCount(savedCorrect);
+      setMistakeCount(savedMistakes);
       setCombo(stored.combo);
+      setMaxCombo(stored.maxCombo ?? stored.combo);
+      setSessionXpPreview(savedCorrect * XP_PER_CORRECT);
+      setAnswer(stored.answer ?? "");
+      // Older sessions did not save the feedback phase. Do not count that question twice.
+      setPhase(alreadyChecked ? "checked" : "answering");
+      setIsCorrect(stored.isCorrect ?? null);
+      checkedIndexRef.current = alreadyChecked ? safeIndex : -1;
       startTimeRef.current = stored.startedAt || Date.now();
       // 有进度时默认跳过知识点介绍（用户已经看过了）
       setShowIntro(false);
@@ -284,7 +312,7 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
 
   // 持久化会话：只要还在答题，就把核心进度写回 store
   useEffect(() => {
-    if (!ready || done || failed) return;
+    if (!ready || showIntro || done || failed || timeLimited) return;
     upsertLessonSession({
       lessonId: lesson.id,
       index,
@@ -292,16 +320,28 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
       mistakeCount,
       combo,
       startedAt: startTimeRef.current,
+      phase,
+      answer,
+      isCorrect,
+      maxCombo,
+      sessionXpPreview,
     });
   }, [
     ready,
+    showIntro,
     done,
     failed,
+    timeLimited,
     lesson.id,
     index,
     correctCount,
     mistakeCount,
     combo,
+    phase,
+    answer,
+    isCorrect,
+    maxCombo,
+    sessionXpPreview,
     upsertLessonSession,
   ]);
 
@@ -356,9 +396,11 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
     };
   }, []);
 
-  function handleCheck() {
-    if (!answer.trim()) return;
-    const ok = gradeAnswer(current, answer);
+  function handleCheck(skipped = false) {
+    if (phase !== "answering" || done || failed || checkedIndexRef.current === index) return;
+    if (!skipped && !isAnswerComplete(current, answer)) return;
+    checkedIndexRef.current = index;
+    const ok = !skipped && gradeAnswer(current, answer);
     setIsCorrect(ok);
     setPhase("checked");
 
@@ -460,19 +502,20 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
       setTimeout(() => playSfx("heartLoss"), 120);
 
       loseHeart();
-      // hearts 是 store 订阅值，下一次渲染会更新；这里直接判断下一次会是多少
-      if (hearts - 1 <= 0) {
+      // The timer may have replenished a heart since this render.
+      if (useProgressStore.getState().hearts <= 0) {
         setFailed(true);
       }
     }
   }
 
   function handleContinue() {
-    if (failed) return;
+    if (failed || done || phase !== "checked" || continuedIndexRef.current === index) return;
+    continuedIndexRef.current = index;
     if (index + 1 >= total) {
       const accuracy = correctCount / total;
       const baseXp = correctCount * XP_PER_CORRECT;
-      const perfect = mistakeCount === 0;
+      const perfect = correctCount === total && mistakeCount === 0;
       const perfectBonus = perfect ? PERFECT_BONUS : 0;
 
       // 首次三星（零失误）额外奖励
@@ -487,22 +530,26 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
           : null;
 
       // 写入 store（记录 + 宝箱领取 + 首次完美标记）
-      if (firstPerfect) markPerfected(lesson.id);
       if (chestReward) {
         claimChest(chestReward.slot.id);
         addGems(chestReward.gems);
       }
+      const xpBefore = useProgressStore.getState().xp;
+      const gemsBefore = useProgressStore.getState().gems;
       recordComplete(lesson.id, lesson.title, accuracy, xp);
+      const earnedXp = useProgressStore.getState().xp - xpBefore;
+      const earnedGems = useProgressStore.getState().gems - gemsBefore + (chestReward?.gems ?? 0);
 
       // 冻结一份展示快照供 CompletionScreen 用
       setSessionStats({
         accuracy,
-        xp,
+        xp: earnedXp,
         perfect,
         firstPerfect,
+        bonusMultiplier: isWeekendBonusActive() ? 2 : 1,
         maxCombo,
         durationSec: Math.round((Date.now() - startTimeRef.current) / 1000),
-        gemsEarned: chestReward?.gems ?? 0,
+        gemsEarned: earnedGems,
         chestReward,
       });
       setDone(true);
@@ -540,6 +587,17 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
   }
 
   // ============ 完成页 ============
+  if (timeLimited) {
+    return (
+      <main className="min-h-screen bg-bg-soft flex flex-col items-center justify-center px-6 text-center">
+        <Mascot mood="think" size={120} />
+        <h1 className="mt-6 text-2xl font-extrabold text-ink">今天学得很认真，休息一下吧</h1>
+        <p className="mt-3 max-w-sm text-ink-light">已达到家长设置的每日学习时间上限，明天可以继续开始新课程。</p>
+        <button type="button" onClick={() => router.push(`/book/${lesson.bookId}/`)} className="btn-chunky-primary mt-6 w-full max-w-sm">返回课程</button>
+      </main>
+    );
+  }
+
   if (done && sessionStats) {
     return (
       <CompletionScreen
@@ -555,7 +613,7 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
     return (
       <FailScreen
         lesson={lesson}
-        onRetry={() => router.refresh()}
+        onRetry={() => { clearLessonSession(); window.location.reload(); }}
         onBack={() => router.push(`/book/${lesson.bookId}/`)}
       />
     );
@@ -577,8 +635,8 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
   return (
     <motion.main
       animate={shakeControls}
-      className="min-h-screen flex flex-col relative"
-      style={backdropStyle}
+      className="min-h-screen flex flex-col relative overflow-x-clip"
+      style={{ ...backdropStyle, paddingBottom: phase === "checked" ? feedbackHeight : undefined }}
     >
       {/* +XP 飘字层 —— fixed 定位独立于 layout，不影响滚动 */}
       <div className="pointer-events-none fixed inset-0 z-50">
@@ -656,16 +714,16 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
 
       {/* Top bar: close, progress, combo, hearts, mute */}
       <div className="bg-white border-b border-bg-softer">
-        <div className="max-w-md lg:max-w-2xl mx-auto px-3 py-2.5 flex items-center gap-2">
+        <div className="max-w-md lg:max-w-2xl mx-auto px-3 py-2.5 grid grid-cols-[44px_minmax(0,1fr)_auto] lg:flex items-center gap-2">
           <button
             type="button"
             onClick={handleRequestExit}
-            className="h-9 w-9 -ml-1 inline-flex items-center justify-center rounded-full text-ink-light hover:text-ink hover:bg-bg-softer transition-colors shrink-0"
+            className="h-11 w-11 inline-flex items-center justify-center rounded-full text-ink-light hover:text-ink hover:bg-bg-softer transition-colors shrink-0"
             aria-label="退出课程"
           >
             <Close className="w-5 h-5" />
           </button>
-          <div className="flex-1 h-3 bg-bg-softer rounded-full overflow-hidden">
+          <div className="min-w-0 flex-1 h-3 bg-bg-softer rounded-full overflow-hidden">
             <motion.div
               className="h-full bg-primary rounded-full origin-left"
               animate={progressControls}
@@ -674,6 +732,9 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
             />
           </div>
 
+          <HeartsBar total={MAX_HEARTS} remaining={hearts} />
+          <div className="col-span-3 flex items-center justify-between gap-2 lg:contents">
+          <div className="min-w-0 flex flex-wrap items-center gap-1.5 lg:contents">
           {/* Combo 徽章（顶栏） */}
           <AnimatePresence>
             {combo >= 3 && (
@@ -707,10 +768,13 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
             <span>{sessionXpPreview}</span>
           </motion.div>
 
-          <HeartsBar total={MAX_HEARTS} remaining={hearts} />
           <HeartTimer />
+          </div>
+          <div className="shrink-0 flex items-center gap-1 lg:contents">
           <AutoNarrateToggle />
           <MuteToggle />
+          </div>
+          </div>
         </div>
       </div>
 
@@ -777,7 +841,7 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
 
       {/* Bottom: SKIP / CHECK 双按钮（仿 Duolingo 真机底栏） */}
       {phase === "answering" && (
-        <div className="bg-white border-t-2 border-bg-softer">
+        <div className="bg-white border-t-2 border-bg-softer" style={{ paddingBottom: "env(safe-area-inset-bottom)" }}>
           <div className="max-w-md lg:max-w-2xl mx-auto px-5 py-4 flex items-center gap-3">
             <button
               type="button"
@@ -786,7 +850,7 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
                 haptic("light");
                 // 跳过：等价于直接判错并继续
                 setAnswer("");
-                handleCheck();
+                handleCheck(true);
               }}
               className="btn-chunky-ghost px-6"
               aria-label="跳过本题"
@@ -794,9 +858,9 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
               跳过
             </button>
             <button
-              onClick={handleCheck}
-              disabled={!answer.trim()}
-              className={answer.trim() ? "flex-1 btn-chunky-primary" : "flex-1 btn-chunky-disabled"}
+              onClick={() => handleCheck()}
+              disabled={!isAnswerComplete(current, answer)}
+              className={isAnswerComplete(current, answer) ? "flex-1 btn-chunky-primary" : "flex-1 btn-chunky-disabled"}
             >
               检查
             </button>
@@ -806,10 +870,11 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
 
       {phase === "checked" && (
         <FeedbackPanel
-          isCorrect={isCorrect ?? false}
+          isCorrect={isCorrect}
           explanation={current.explanation}
           explanationAudio={current.audio?.explanation ?? null}
           onContinue={handleContinue}
+          onHeightChange={setFeedbackHeight}
         />
       )}
     </motion.main>
@@ -859,7 +924,7 @@ function CompletionScreen({
   stats: SessionStats;
   onBack: () => void;
 }) {
-  const { accuracy, xp, perfect, firstPerfect, maxCombo, durationSec, gemsEarned, chestReward } = stats;
+  const { accuracy, xp, perfect, firstPerfect, bonusMultiplier, maxCombo, durationSec, gemsEarned, chestReward } = stats;
   const stars = accuracy >= 0.95 ? 3 : accuracy >= 0.75 ? 2 : 1;
   const [revealedStars, setRevealedStars] = useState(0);
   const [mascotReactKey, setMascotReactKey] = useState(0);
@@ -941,7 +1006,7 @@ function CompletionScreen({
         initial={{ scale: 0.6, opacity: 0, y: 20 }}
         animate={{ scale: 1, opacity: 1, y: 0 }}
         transition={{ type: "spring", damping: 16, stiffness: 220 }}
-        className="text-center relative z-10"
+        className="text-center relative z-10 w-full max-w-sm"
       >
         <Mascot mood="cheer" size={150} reactTo="levelup" reactKey={mascotReactKey} />
         <motion.h1
@@ -968,7 +1033,7 @@ function CompletionScreen({
               }}
             >
               <Star className="w-3.5 h-3.5 fill-current" />
-              <span>零失误 +{PERFECT_BONUS} XP</span>
+              <span>零失误 +{PERFECT_BONUS * bonusMultiplier} XP</span>
             </motion.div>
           )}
         </AnimatePresence>
@@ -987,7 +1052,7 @@ function CompletionScreen({
               }}
             >
               <Sparkle className="w-3.5 h-3.5" />
-              <span>首次完美 +{FIRST_PERFECT_XP_BONUS} XP</span>
+              <span>首次完美 +{FIRST_PERFECT_XP_BONUS * bonusMultiplier} XP</span>
             </motion.div>
           )}
         </AnimatePresence>
@@ -1015,7 +1080,7 @@ function CompletionScreen({
           })}
         </div>
 
-        <div className={`mt-8 grid gap-3 w-80 ${gemsEarned > 0 ? "grid-cols-4" : "grid-cols-3"}`}>
+        <div className={`mt-8 grid gap-3 w-full max-w-xs mx-auto ${gemsEarned > 0 ? "grid-cols-4" : "grid-cols-3"}`}>
           <StatCard label="经验值" value={`+${Math.round(xpDisplay)}`} color="text-secondary" />
           <StatCard label="准确率" value={`${Math.round(accDisplay)}%`} color="text-primary" />
           <StatCard
@@ -1199,6 +1264,8 @@ function IntroCard({
                   src={knowledge.audio?.common_mistakes?.[i] ?? null}
                   size="sm"
                   label="朗读"
+                  disabled={narration.status === "playing" || narration.status === "loading"}
+                  onPlay={narration.locked ? narration.start : undefined}
                 />
               </li>
             );
@@ -1236,24 +1303,19 @@ function IntroCard({
   const [pageIdx, setPageIdx] = useState(0);
   const [direction, setDirection] = useState<1 | -1>(1);
   const [mascotReactKey, setMascotReactKey] = useState(0);
-  // mistake 页：当前正在播的条目下标（-1 = 没在播）。
-  // useAutoNarrate 给出的 idx 是过滤后的 srcs 索引，索引 0 是 bubble，所以条目 i 对应过滤后 idx (i+1)。
-  const [playingMistakeIdx, setPlayingMistakeIdx] = useState(-1);
   const isLast = pageIdx >= pages.length - 1;
   const current = pages[pageIdx];
-
-  // 翻到某一页时：先播气泡短句（"一起学！"），再依次播该页的全部音频段
-  const cancelNarrate = useAutoNarrate(
+  const contentSources = current?.audioSrcs ?? [];
+  const narration = useIntroNarration(
     [uiAudio(current?.bubbleText ?? ""), ...(current?.audioSrcs ?? [])],
-    pageIdx,
-    {
-      onSrcStart: idx => {
-        // idx 0 是 bubble，>=1 才是内容段，对应原数组 idx-1
-        setPlayingMistakeIdx(idx >= 1 ? idx - 1 : -1);
-      },
-      onAllDone: () => setPlayingMistakeIdx(-1),
-    },
+    `${lesson.id}:${pageIdx}`,
+    contentSources.some(Boolean),
   );
+  const cancelNarrate = narration.cancel;
+  const bubbleCount = uiAudio(current?.bubbleText ?? "") ? 1 : 0;
+  const playingContent = narration.status === "playing" ? narration.segment - bubbleCount : -1;
+  const playableMistakes = contentSources.map((src, i) => src ? i : -1).filter(i => i >= 0);
+  const playingMistakeIdx = playingContent >= 0 ? (playableMistakes[playingContent] ?? -1) : -1;
 
   // 进入每一页时：触发吉祥物反应动画 + 分层音效
   // 注意：依赖里只放 pageIdx，不能放 current（current 是 pages[pageIdx]，每次渲染都是新对象引用，会触发无限循环）
@@ -1267,6 +1329,7 @@ function IntroCard({
   }, [pageIdx]);
 
   function goNext() {
+    if (narration.locked) return;
     cancelNarrate();
     if (isLast) {
       // 最后一步：从"学"过渡到"练"，多层音效 + 强反馈
@@ -1298,7 +1361,7 @@ function IntroCard({
   const Icon = current.icon;
 
   return (
-    <main className="min-h-screen bg-bg-soft flex flex-col">
+    <main className="min-h-screen bg-bg-soft flex flex-col overflow-x-clip">
       {/* 顶栏：关闭 + 进度点 */}
       <div className="bg-white border-b border-bg-softer">
         <div className="max-w-md lg:max-w-2xl mx-auto px-4 py-3 flex items-center gap-3">
@@ -1309,7 +1372,7 @@ function IntroCard({
               haptic("light");
               onExit();
             }}
-            className="text-ink-light hover:text-ink transition-colors shrink-0"
+            className="w-11 h-11 inline-flex items-center justify-center text-ink-light hover:text-ink transition-colors shrink-0"
             aria-label="退出课程"
           >
             <Close className="w-6 h-6" />
@@ -1435,7 +1498,9 @@ function IntroCard({
                   {current.title}
                 </h1>
                 {current.titleAudio && (
-                  <TTSButton src={current.titleAudio} label="朗读讲解" />
+                  <TTSButton src={current.titleAudio} label="朗读讲解"
+                    disabled={narration.status === "playing" || narration.status === "loading"}
+                    onPlay={narration.locked ? narration.start : undefined} />
                 )}
               </motion.div>
 
@@ -1454,7 +1519,14 @@ function IntroCard({
       </div>
 
       {/* 底部：上一步 + 主按钮 */}
-      <div className="bg-white border-t-2 border-bg-softer">
+      <div className="bg-white border-t-2 border-bg-softer" style={{ paddingBottom: "env(safe-area-inset-bottom)" }}>
+        {narration.locked && (narration.muted || narration.status === "error") && <div className="max-w-md lg:max-w-2xl mx-auto px-5 pt-3 text-center text-sm text-ink-light" role="status">
+          {narration.locked && narration.muted ? (
+            <><span>当前已静音，可以阅读后继续。</span><button type="button" onClick={narration.continueWithoutAudio} className="ml-3 font-bold text-secondary-dark underline">阅读后继续</button></>
+          ) : narration.locked && narration.status === "error" ? (
+            <><span>语音暂时无法播放。</span><button type="button" onClick={narration.start} className="ml-3 font-bold text-secondary-dark underline">重新播放</button><button type="button" onClick={narration.continueWithoutAudio} className="ml-3 font-bold text-ink-light underline">阅读后继续</button></>
+          ) : null}
+        </div>}
         <div className="max-w-md lg:max-w-2xl mx-auto px-5 py-4 flex items-center gap-3">
           {pageIdx > 0 ? (
             <motion.button
@@ -1467,41 +1539,12 @@ function IntroCard({
               ←
             </motion.button>
           ) : null}
-          <motion.button
-            type="button"
+          <NarrationNextButton
+            locked={narration.locked}
+            progress={narration.progress}
+            isLast={isLast}
             onClick={goNext}
-            whileTap={{ scale: 0.96 }}
-            animate={
-              isLast
-                ? {
-                    // 最后一页：按钮带呼吸式光晕 + 上下弹跳
-                    y: [0, -2, 0],
-                    boxShadow: [
-                      "0 4px 0 0 #58A700, 0 0 0 0 rgba(88,204,2,0.6)",
-                      "0 4px 0 0 #58A700, 0 0 0 14px rgba(88,204,2,0)",
-                      "0 4px 0 0 #58A700, 0 0 0 0 rgba(88,204,2,0.6)",
-                    ],
-                  }
-                : {}
-            }
-            transition={
-              isLast
-                ? { duration: 1.4, repeat: Infinity, ease: "easeInOut" }
-                : undefined
-            }
-            className="flex-1 btn-chunky-primary flex items-center justify-center gap-2"
-          >
-            {isLast && <Rocket className="w-5 h-5" />}
-            <span>{isLast ? "开始练习" : "下一步"}</span>
-            <motion.span
-              aria-hidden
-              animate={{ x: [0, 6, 0] }}
-              transition={{ duration: 1.0, repeat: Infinity, ease: "easeInOut" }}
-              className="inline-block"
-            >
-              →
-            </motion.span>
-          </motion.button>
+          />
         </div>
       </div>
     </main>

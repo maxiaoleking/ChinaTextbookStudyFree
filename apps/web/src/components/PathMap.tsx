@@ -305,7 +305,6 @@ export function PathMap({
  * - 节点以绝对定位放置到同一坐标系
  */
 const STAGE_WIDTH = 440;
-const STAGE_HALF = STAGE_WIDTH / 2;
 const NODE_SIZE = 80;
 const STEP_Y = 120;
 const PAD_TOP = 16;
@@ -368,9 +367,9 @@ function renderDecoIcon(kind: DecoKind, size: number) {
   }
 }
 
-function buildSnakePath(points: Array<{ x: number; y: number }>): string {
+function buildSnakePath(points: Array<{ x: number; y: number }>, stageWidth: number): string {
   if (points.length < 2) return "";
-  const toX = (x: number) => x + STAGE_HALF;
+  const toX = (x: number) => x + stageWidth / 2;
   let d = `M ${toX(points[0].x)} ${points[0].y}`;
   for (let i = 1; i < points.length; i++) {
     const a = points[i - 1];
@@ -408,6 +407,18 @@ function UnitPath({
   onChest,
   sectionRefs,
 }: UnitPathProps) {
+  const stageRef = useRef<HTMLDivElement>(null);
+  const [stageWidth, setStageWidth] = useState(STAGE_WIDTH);
+  useLayoutEffect(() => {
+    const stage = stageRef.current;
+    if (!stage) return;
+    const measure = () => setStageWidth(stage.clientWidth);
+    measure();
+    const observer = new ResizeObserver(measure);
+    observer.observe(stage);
+    return () => observer.disconnect();
+  }, []);
+
   const flat: FlatEntry[] = [];
   entries.forEach(([unitNum, group], gi) => {
     group.items.forEach((item, idx) => {
@@ -421,20 +432,21 @@ function UnitPath({
     });
   });
 
+  const horizontalScale = Math.min(1, Math.max(0, (stageWidth - NODE_SIZE - 32) / 220));
   const positions = flat.map((_, i) => ({
-    x: snakeOffset(i),
+    x: snakeOffset(i) * horizontalScale,
     y: PAD_TOP + NODE_SIZE / 2 + i * STEP_Y,
   }));
   const height = PAD_TOP + NODE_SIZE + Math.max(0, flat.length - 1) * STEP_Y + PAD_BOTTOM;
-  const pathD = buildSnakePath(positions);
+  const pathD = buildSnakePath(positions, stageWidth);
 
   return (
-    <div className="relative mx-auto" style={{ width: STAGE_WIDTH, height }}>
+    <div ref={stageRef} className="relative mx-auto w-full" style={{ maxWidth: STAGE_WIDTH, height }}>
       <svg
         className="absolute inset-0 pointer-events-none"
-        width={STAGE_WIDTH}
+        width={stageWidth}
         height={height}
-        viewBox={`0 0 ${STAGE_WIDTH} ${height}`}
+        viewBox={`0 0 ${stageWidth} ${height}`}
         aria-hidden
       >
         <path
@@ -451,7 +463,7 @@ function UnitPath({
       {generateDecorations(flat.length).map((d, i) => {
         if (d.atIndex >= flat.length) return null;
         const p = positions[d.atIndex];
-        const cx = d.side === 1 ? STAGE_WIDTH - d.size / 2 - 8 : d.size / 2 + 8;
+        const cx = d.side === 1 ? stageWidth - d.size / 2 - 8 : d.size / 2 + 8;
         const cy = p.y + d.yOffset;
         return (
           <motion.div
@@ -521,7 +533,7 @@ function UnitPath({
       {flat.map((entry, idx) => {
         const p = positions[idx];
         const style: CSSProperties = {
-          left: STAGE_HALF + p.x - NODE_SIZE / 2,
+          left: stageWidth / 2 + p.x - NODE_SIZE / 2,
           top: p.y - NODE_SIZE / 2,
           width: NODE_SIZE,
         };

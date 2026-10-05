@@ -9,6 +9,7 @@ import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
 import { playTTS } from "@/lib/tts";
 import { useAutoNarrate } from "@/lib/useAutoNarrate";
+import { gradeAnswer } from "@/lib/grade";
 import type { QuestionRendererProps } from "./QuestionRenderer";
 
 interface Ripple {
@@ -17,22 +18,10 @@ interface Ripple {
   y: number;
 }
 
-function normalizeOpt(s: string): string {
-  return s.trim().toLowerCase().replace(/\s+/g, "");
-}
-
 export function ChoiceQuestion({ question, answer, phase, isCorrect, onChange }: QuestionRendererProps) {
-  const rawCorrect = question.answer.trim();
-  let correctLetter = rawCorrect.toUpperCase().charAt(0);
-  // 若 answer 不是单字母 A-D，则在 options 里反查对应字母
-  if (!/^[A-D]$/.test(correctLetter) && question.options?.length) {
-    const cn = normalizeOpt(rawCorrect);
-    const idx = question.options.findIndex(o => {
-      const stripped = o.replace(/^[A-D][.、]\s*/, "");
-      return normalizeOpt(o) === cn || normalizeOpt(stripped) === cn;
-    });
-    if (idx >= 0) correctLetter = String.fromCharCode(65 + idx);
-  }
+  // Rendering and grading must agree even when the answer is English option text.
+  const correctLetter = question.options.map((_, i) => String.fromCharCode(65 + i))
+    .find(letter => gradeAnswer(question, letter));
   const [ripples, setRipples] = useState<Record<string, Ripple[]>>({});
   const idRef = useRef(0);
 

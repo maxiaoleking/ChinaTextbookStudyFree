@@ -187,6 +187,7 @@ async function buildPassages(): Promise<Set<string>> {
   let totalPassages = 0;
   let totalSentences = 0;
   let audioHit = 0;
+  let nonSpoken = 0;
   let passageWithImage = 0;
 
   for (const subject of subjectDirs) {
@@ -217,6 +218,8 @@ async function buildPassages(): Promise<Set<string>> {
           author?: string | null;
           language: "Chinese" | "English";
           sentences: string[];
+          readingNote?: string;
+          nonSpokenSentenceIndices?: number[];
           page_hint?: number | null;
         }>;
       };
@@ -252,8 +255,11 @@ async function buildPassages(): Promise<Set<string>> {
           pageHint: p.page_hint ?? null,
           pdfPage: info.pdfPage,
           pageImages,
-          sentences: p.sentences.map(s => {
-            const audio = audioFor(s);
+          readingNote: p.readingNote,
+          sentences: p.sentences.map((s, i) => {
+            const skipAudio = p.nonSpokenSentenceIndices?.includes(i);
+            if (skipAudio) nonSpoken++;
+            const audio = skipAudio ? undefined : audioFor(s);
             if (audio) audioHit++;
             totalSentences++;
             return { text: s, audio };
@@ -283,7 +289,7 @@ async function buildPassages(): Promise<Set<string>> {
 
   console.log(
     `📖 课文听读: ${totalBooks} 本 / ${totalPassages} 篇 / ${totalSentences} 句 ` +
-      `(${audioHit} 句已生成 TTS, ${totalSentences - audioHit} 句待合成)`,
+      `(${audioHit} 句已生成 TTS, ${totalSentences - audioHit - nonSpoken} 句待合成, ${nonSpoken} 处原书填空/图示不朗读)`,
   );
   console.log(
     `📕 课本原页: ${passageWithImage}/${totalPassages} 篇挂上了 pageImages`,

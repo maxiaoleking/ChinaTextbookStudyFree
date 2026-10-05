@@ -152,11 +152,11 @@
         "options": [
           "That dinosaur is tall than me.",
           "That dinosaur is taller than me.",
-          "That dinosaur is taller than I am.",
-          "That dinosaur is taller than me."
+          "That dinosaur is shorter than me.",
+          "I am taller than that dinosaur."
         ],
         "answer": "That dinosaur is taller than me.",
-        "explanation": "比较级句型为 A + be + adj-er + than + B。"
+        "explanation": "taller than 表示“比……高”。第一项没有使用比较级，第三项说恐龙比我矮，第四项说我比恐龙高，均不符合原句。"
       },
       {
         "id": 12,

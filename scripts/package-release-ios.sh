@@ -2,7 +2,7 @@
 # package-release-ios.sh — 为 iOS 端打 GitHub Release 资源
 #
 # 与 package-release.sh 的区别：
-#   1. opus → m4a 转码（iOS AVFoundation 不原生解 Opus）
+#   1. 原始音频 → m4a 转码（兼容 Web 的 .mp3 数据引用）
 #   2. 按 book 切包：每本教材一个 data zip + 一个 audio zip，配合 iOS 端
 #      "首次进入某本书才下载这本的资源" 的渐进体验
 #   3. 输出 ios-manifest.json 让 iOS 端按需查 URL/大小/校验和
@@ -70,7 +70,7 @@ for BOOK in "${BOOK_IDS[@]}"; do
 
   echo "=== $BOOK ==="
 
-  # 1) 从所有 lesson/passages/stories JSON 里抽出引用的 opus 路径
+  # 1) 两种 Web 数据后缀都按同一个内容 SHA 收集，不重复打包。
   AUDIO_LIST_FILE="$OUT/.${BOOK}.opus-list"
   python3 - "$BOOK_DATA_DIR" "$AUDIO_LIST_FILE" <<'PY'
 import json, os, re, sys
@@ -78,7 +78,7 @@ from pathlib import Path
 book_dir = Path(sys.argv[1])
 out = sys.argv[2]
 shas = set()
-pat = re.compile(r'/audio/([a-f0-9]{2})/([a-f0-9]+)\.opus')
+pat = re.compile(r'/audio/([a-f0-9]{2})/([a-f0-9]+)\.(?:opus|mp3)')
 for f in book_dir.rglob("*.json"):
     text = f.read_text(encoding="utf-8")
     for m in pat.finditer(text):
@@ -91,17 +91,23 @@ PY
 
   AUDIO_REF_COUNT=$(wc -l < "$AUDIO_LIST_FILE" | tr -d ' ')
 
-  # 2) 转码 opus → m4a（写到 cache 里，避免重复打包）
+  # 2) 优先原始 .opus，缺失时用同 SHA 的 .mp3；FFmpeg 自动识别实际容器。
   if [ "$AUDIO_REF_COUNT" -gt 0 ]; then
     echo "  转码 ($JOBS workers)..."
     < "$AUDIO_LIST_FILE" xargs -P "$JOBS" -I{} bash -c '
       rel="$1"
       src="'"$AUDIO_SRC"'/${rel}.opus"
+      if [ ! -f "$src" ]; then src="'"$AUDIO_SRC"'/${rel}.mp3"; fi
+      if [ ! -f "$src" ]; then
+        echo "  ❌ 找不到音频源: $rel" >&2
+        exit 1
+      fi
       dst="'"$TRANSCODE_CACHE"'/${rel}.m4a"
       if [ -f "$dst" ] && [ "$dst" -nt "$src" ]; then exit 0; fi
       mkdir -p "$(dirname "$dst")"
       ffmpeg -loglevel error -y -i "$src" -c:a aac -b:a "'"$AAC_BITRATE"'" -ac 1 "$dst" || {
-        echo "  ⚠ 转码失败: $rel"
+        echo "  ❌ 转码失败: $rel" >&2
+        exit 1
       }
     ' _ {}
   fi

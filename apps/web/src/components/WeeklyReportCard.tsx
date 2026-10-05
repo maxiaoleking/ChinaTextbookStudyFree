@@ -14,6 +14,8 @@ import { useMemo } from "react";
 import { motion } from "framer-motion";
 import { useProgressStore } from "@/store/progress";
 import { Calendar, TrendingUp, Lightning } from "@/components/icons";
+import { localStudyDate } from "@/lib/learningLimit";
+import { useProgressTicker } from "@/lib/useProgressTicker";
 
 function ymd(d: Date): string {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
@@ -32,17 +34,17 @@ function startOfWeek(d: Date): Date {
 const WEEKDAY_LABELS = ["一", "二", "三", "四", "五", "六", "日"];
 
 export function WeeklyReportCard() {
+  const now = useProgressTicker();
+  const todayKey = localStudyDate(now);
   const xpHistory = useProgressStore(s => s.xpHistory);
   const lessonHistory = useProgressStore(s => s.lessonHistory);
 
   const data = useMemo(() => {
-    const now = new Date();
-    const thisMonday = startOfWeek(now);
+    const thisMonday = startOfWeek(new Date(now));
     const lastMonday = new Date(thisMonday);
     lastMonday.setDate(lastMonday.getDate() - 7);
 
     const thisWeek: Array<{ date: string; label: string; xp: number; isToday: boolean }> = [];
-    const todayKey = ymd(now);
     for (let i = 0; i < 7; i++) {
       const d = new Date(thisMonday);
       d.setDate(d.getDate() + i);
@@ -83,7 +85,7 @@ export function WeeklyReportCard() {
       xpDelta,
       lessonDelta,
     };
-  }, [xpHistory, lessonHistory]);
+  }, [xpHistory, lessonHistory, todayKey]);
 
   return (
     <section
@@ -112,7 +114,7 @@ export function WeeklyReportCard() {
       {/* Stats 三连 */}
       <div className="grid grid-cols-3 gap-2 mb-4">
         <MiniStat label="本周 XP" value={data.totalXp} />
-        <MiniStat label="完成课时" value={data.totalLessons} />
+        <MiniStat label="学习次数" value={data.totalLessons} />
         <MiniStat label="学习天数" value={`${data.activeDays}/7`} />
       </div>
 

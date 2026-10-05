@@ -149,6 +149,8 @@ export interface Passage {
   author?: string | null;
   language: "Chinese" | "English";
   sentences: PassageSentence[];
+  /** 原书填空、图形或隐去内容的阅读说明。 */
+  readingNote?: string;
   /** Gemini 从页眉读到的印刷页码（debug 用，前端一般不用）*/
   pageHint?: number | null;
   /** 应用 book-level offset 后的真实 PDF 物理页 */

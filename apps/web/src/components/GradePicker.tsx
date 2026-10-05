@@ -48,7 +48,7 @@ export function GradePicker() {
   }
 
   return (
-    <div className="fixed inset-0 z-40 bg-bg flex flex-col">
+    <div className="fixed inset-0 z-50 bg-bg flex flex-col">
       <div className="flex-1 flex flex-col items-center justify-start pt-12 px-5 overflow-y-auto pb-32">
         {/* 顶部 mascot + 气泡 */}
         <motion.div
@@ -124,7 +124,7 @@ export function GradePicker() {
       </div>
 
       {/* 底部 sticky 继续按钮 */}
-      <div className="border-t-2 border-bg-softer bg-white">
+      <div className="border-t-2 border-bg-softer bg-white" style={{ paddingBottom: "env(safe-area-inset-bottom)" }}>
         <div className="max-w-md mx-auto px-5 py-4 flex justify-end">
           <AnimatePresence>
             {picked != null && (

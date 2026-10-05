@@ -13,6 +13,7 @@ import {
   ALL_ACHIEVEMENTS,
   computeUnlockedAchievementIds,
   markAllSeen,
+  achievementProgressSnapshot,
   type Achievement,
 } from "@/lib/achievements";
 import { useProgressStore } from "@/store/progress";
@@ -44,6 +45,7 @@ const ICON_MAP = {
 
 export function AchievementWall() {
   const state = useProgressStore();
+  const snapshot = useMemo(() => achievementProgressSnapshot(state), [state]);
   const unlockedIds = useMemo(() => computeUnlockedAchievementIds(state), [state]);
   const unlockedSet = useMemo(() => new Set(unlockedIds), [unlockedIds]);
 
@@ -74,7 +76,7 @@ export function AchievementWall() {
             key={a.id}
             ach={a}
             unlocked={unlockedSet.has(a.id)}
-            progress={a.getProgress(state)}
+            progress={a.getProgress(snapshot)}
             delay={idx * 0.025}
           />
         ))}

@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useLayoutEffect, useMemo, useRef } from "react";
 import { motion } from "framer-motion";
 import { CheckCircle, XCircle } from "@/components/icons";
 import { MathText } from "@/components/MathText";
@@ -11,21 +11,33 @@ import { useAutoNarrate } from "@/lib/useAutoNarrate";
 import { uiAudio } from "@/lib/uiAudio";
 
 interface FeedbackPanelProps {
-  isCorrect: boolean;
+  isCorrect: boolean | null;
   explanation: string;
   explanationAudio?: string | null;
   onContinue: () => void;
+  onHeightChange?: (height: number) => void;
 }
 
 const PRAISE_POOL = ["太棒了！", "完美！", "做得好！", "天才！", "继续保持！", "漂亮！"];
 const COMFORT_POOL = ["再想想", "差一点", "加油", "没关系", "下次就对！"];
 
-export function FeedbackPanel({ isCorrect, explanation, explanationAudio, onContinue }: FeedbackPanelProps) {
-  const bg = isCorrect ? "bg-primary/10 border-primary" : "bg-danger/10 border-danger";
-  const titleColor = isCorrect ? "text-primary-dark" : "text-danger-dark";
-  const btnCls = isCorrect ? "btn-chunky-primary" : "btn-chunky-danger";
+export function FeedbackPanel({ isCorrect, explanation, explanationAudio, onContinue, onHeightChange }: FeedbackPanelProps) {
+  const ref = useRef<HTMLDivElement>(null);
+  const bg = isCorrect === null ? "bg-white border-bg-softer" : isCorrect ? "bg-primary/10 border-primary" : "bg-danger/10 border-danger";
+  const titleColor = isCorrect === null ? "text-ink" : isCorrect ? "text-primary-dark" : "text-danger-dark";
+  const btnCls = isCorrect === false ? "btn-chunky-danger" : "btn-chunky-primary";
+  useLayoutEffect(() => {
+    const node = ref.current;
+    if (!node || !onHeightChange) return;
+    const measure = () => onHeightChange(node.offsetHeight);
+    measure();
+    const observer = new ResizeObserver(measure);
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [onHeightChange]);
 
   const title = useMemo(() => {
+    if (isCorrect === null) return "这题已完成";
     const pool = isCorrect ? PRAISE_POOL : COMFORT_POOL;
     return pool[Math.floor(Math.random() * pool.length)];
   }, [isCorrect]);
@@ -35,11 +47,12 @@ export function FeedbackPanel({ isCorrect, explanation, explanationAudio, onCont
 
   return (
     <motion.div
+      ref={ref}
       initial={{ y: 110, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ type: "spring", damping: 22, stiffness: 260 }}
-      className={`fixed bottom-0 left-0 right-0 border-t-4 ${bg} backdrop-blur-sm`}
-      style={{ boxShadow: "0 -8px 24px rgba(0,0,0,0.06)" }}
+      className={`fixed bottom-0 left-0 right-0 z-20 max-h-[60dvh] overflow-y-auto border-t-4 ${bg} backdrop-blur-sm`}
+      style={{ boxShadow: "0 -8px 24px rgba(0,0,0,0.06)", paddingBottom: "env(safe-area-inset-bottom)" }}
     >
       <div className="max-w-md lg:max-w-2xl mx-auto px-5 py-5">
         <div className={`flex items-center gap-3 mb-3 font-extrabold text-2xl ${titleColor}`}>
@@ -49,7 +62,7 @@ export function FeedbackPanel({ isCorrect, explanation, explanationAudio, onCont
             transition={{ type: "spring", damping: 12, stiffness: 260, delay: 0.05 }}
             className="inline-flex"
           >
-            {isCorrect ? <CheckCircle className="w-8 h-8" /> : <XCircle className="w-8 h-8" />}
+            {isCorrect === false ? <XCircle className="w-8 h-8" /> : <CheckCircle className="w-8 h-8" />}
           </motion.span>
           <motion.span
             initial={{ x: -10, opacity: 0 }}

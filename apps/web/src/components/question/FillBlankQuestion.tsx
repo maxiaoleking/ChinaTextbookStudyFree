@@ -8,6 +8,7 @@ import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
 import { useAutoNarrate } from "@/lib/useAutoNarrate";
 import type { QuestionRendererProps } from "./QuestionRenderer";
+import { answerInputLimit, appendAnswerKey, numericInputConfig } from "@/lib/questionInput";
 
 /**
  * 通用填空题：用于 fill_blank / calculation / word_problem 三种类型。
@@ -25,20 +26,15 @@ const KEYPAD_ROWS: string[][] = [
 export function FillBlankQuestion({ question, answer, phase, isCorrect, onChange }: QuestionRendererProps) {
   const disabled = phase === "checked";
   const cancelNarrate = useAutoNarrate([question.audio?.question], question.id);
+  const keys = [...KEYPAD_ROWS.flat(), ...(numericInputConfig(question.answer)?.extraKeys ?? [])];
 
   function handleKey(k: string) {
     if (disabled) return;
     cancelNarrate();
     playSfx("tap");
     haptic("light");
-    if (k === "⌫") {
-      onChange(answer.slice(0, -1));
-      return;
-    }
     if (k === "." && answer.includes(".")) return;
-    // 限制长度，防止误操作输入过长
-    if (answer.length >= 10) return;
-    onChange(answer + k);
+    onChange(appendAnswerKey(answer, k, question.answer));
   }
 
   let displayCls =
@@ -69,7 +65,21 @@ export function FillBlankQuestion({ question, answer, phase, isCorrect, onChange
         animate={{ scale: 1, opacity: 1 }}
         transition={{ type: "spring", damping: 18, stiffness: 260 }}
       >
-        {answer || <span className="text-ink-light/50 text-xl font-bold">点下方数字键</span>}
+        <input
+          aria-label="填写答案"
+          type="text"
+          inputMode={keys.some(key => ["/", "%"].includes(key)) ? "text" : "decimal"}
+          value={answer}
+          disabled={disabled}
+          maxLength={answerInputLimit(question.answer)}
+          autoComplete="off"
+          placeholder="输入答案或点下方数字"
+          onChange={e => {
+            cancelNarrate();
+            onChange(e.target.value.normalize("NFKC").replace(/[^0-9.+\-/%]/g, ""));
+          }}
+          className="min-w-0 w-full bg-transparent text-center outline-none placeholder:text-xl placeholder:font-bold placeholder:text-ink-light/50 disabled:opacity-100"
+        />
       </motion.div>
 
       {phase === "checked" && !isCorrect && (
@@ -84,10 +94,11 @@ export function FillBlankQuestion({ question, answer, phase, isCorrect, onChange
 
       {/* 屏幕数字键盘 */}
       <div className="mt-6 grid grid-cols-3 gap-3 select-none">
-        {KEYPAD_ROWS.flat().map(k => (
+        {keys.map(k => (
           <motion.button
             key={k}
             type="button"
+            aria-label={k === "⌫" ? "删除一个字符" : k}
             disabled={disabled}
             onClick={() => handleKey(k)}
             whileTap={!disabled ? { scale: 0.96 } : undefined}

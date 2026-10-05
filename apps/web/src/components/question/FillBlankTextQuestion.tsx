@@ -16,6 +16,7 @@ import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
 import { useAutoNarrate } from "@/lib/useAutoNarrate";
 import type { QuestionRendererProps } from "./QuestionRenderer";
+import { answerInputLimit, appendAnswerKey } from "@/lib/questionInput";
 
 /**
  * 常用汉字池 —— 用于生成干扰项，涵盖小学低年级高频字。
@@ -37,12 +38,14 @@ function seededShuffle<T>(arr: T[], seed: number): T[] {
 
 /** 根据答案生成候选字列表（答案字 + 干扰字，打散） */
 function buildCandidates(answerStr: string, questionId: number): string[] {
-  const answerChars = [...new Set(answerStr.split(""))];
+  const answerChars = [...new Set(Array.from(answerStr))];
   // 干扰字数量：至少让总数 >= 9，最多 12
   const need = Math.max(9, answerChars.length + 4);
   const distractorCount = need - answerChars.length;
 
-  const pool = DISTRACTOR_POOL.split("").filter(c => !answerChars.includes(c));
+  const englishAnswer = /^[a-zA-Z0-9\s.,!?'-]+$/.test(answerStr);
+  const source = englishAnswer ? "abcdefghijklmnopqrstuvwxyz" : DISTRACTOR_POOL;
+  const pool = [...new Set(Array.from(source))].filter(c => !answerChars.includes(c));
   // 从池中选干扰字（用 seed 稳定）
   const shuffledPool = seededShuffle(pool, questionId + 7);
   const distractors = shuffledPool.slice(0, distractorCount);
@@ -71,13 +74,7 @@ export function FillBlankTextQuestion({
     cancelNarrate();
     playSfx("tap");
     haptic("light");
-    if (k === "⌫") {
-      onChange(answer.slice(0, -1));
-      return;
-    }
-    // 限制长度，防止误操作
-    if (answer.length >= 10) return;
-    onChange(answer + k);
+    onChange(appendAnswerKey(answer, k, question.answer));
   }
 
   let displayCls =
@@ -112,7 +109,22 @@ export function FillBlankTextQuestion({
         animate={{ scale: 1, opacity: 1 }}
         transition={{ type: "spring", damping: 18, stiffness: 260 }}
       >
-        {answer || <span className="text-ink-light/50 text-xl font-bold">点下方汉字作答</span>}
+        <textarea
+          aria-label="填写答案"
+          value={answer}
+          disabled={disabled}
+          maxLength={answerInputLimit(question.answer)}
+          rows={Math.min(5, Math.max(1, Math.ceil(answer.length / 16)))}
+          autoComplete="off"
+          autoCapitalize="off"
+          spellCheck={false}
+          placeholder="输入答案或点下方字符"
+          onChange={e => {
+            cancelNarrate();
+            onChange(e.target.value);
+          }}
+          className="min-w-0 w-full resize-none bg-transparent text-center leading-relaxed break-all outline-none placeholder:text-xl placeholder:font-bold placeholder:text-ink-light/50 disabled:opacity-100"
+        />
       </motion.div>
 
       {phase === "checked" && !isCorrect && (
@@ -122,19 +134,20 @@ export function FillBlankTextQuestion({
           className="mt-3 text-center text-sm text-ink-light"
         >
           正确答案：
-          <span className="font-extrabold text-primary-dark">{question.answer}</span>
+          <span className="font-extrabold text-primary-dark break-all">{question.answer}</span>
         </motion.div>
       )}
 
       {/* 汉字键盘 */}
       <div
         className="mt-6 grid gap-3 select-none"
-        style={{ gridTemplateColumns: `repeat(${cols}, 1fr)` }}
+        style={{ gridTemplateColumns: `repeat(${cols}, minmax(0, 1fr))` }}
       >
         {candidates.map((ch, i) => (
           <motion.button
             key={`${ch}-${i}`}
             type="button"
+            aria-label={ch === " " ? "空格" : ch}
             disabled={disabled}
             onClick={() => handleKey(ch)}
             whileTap={!disabled ? { scale: 0.96 } : undefined}
@@ -150,6 +163,7 @@ export function FillBlankTextQuestion({
         {/* 退格键 */}
         <motion.button
           type="button"
+          aria-label="删除一个字符"
           disabled={disabled}
           onClick={() => handleKey("⌫")}
           whileTap={!disabled ? { scale: 0.96 } : undefined}

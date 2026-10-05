@@ -84,11 +84,11 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "多音字辨析",
-        "question": "选出下列句子中加下划线字读音正确的一项：要是你在野外迷了路，可千万别慌张（慌：huāng）。",
+        "question": "“要是你在野外迷了路，可千万别慌张。”句中“慌”的正确读音是：",
         "options": [
           "hāng",
           "huāng",
-          "huāng",
+          "huǎng",
           "huáng"
         ],
         "answer": "huāng",

@@ -14,6 +14,7 @@ import { FillBlankQuestion } from "./FillBlankQuestion";
 import { FillBlankTextQuestion } from "./FillBlankTextQuestion";
 import { WordOrderQuestion } from "./WordOrderQuestion";
 import { MatchingQuestion } from "./MatchingQuestion";
+import { numericInputConfig } from "@/lib/questionInput";
 
 export type QuestionPhase = "answering" | "checked";
 
@@ -36,7 +37,9 @@ export function QuestionRenderer(props: QuestionRendererProps) {
     case "fill_blank":
     case "calculation":
     case "word_problem":
-      return <FillBlankQuestion {...props} />;
+      return numericInputConfig(question.answer)
+        ? <FillBlankQuestion {...props} />
+        : <FillBlankTextQuestion {...props} />;
     case "fill_blank_text":
       return <FillBlankTextQuestion {...props} />;
     case "word_order":

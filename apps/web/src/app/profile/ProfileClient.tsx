@@ -22,8 +22,12 @@ import {
 } from "@/components/icons";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
+import { courseResults } from "@/lib/courseProgress";
+import { localStudyDate } from "@/lib/learningLimit";
+import { useProgressTicker } from "@/lib/useProgressTicker";
 
 export function ProfileClient() {
+  const today = localStudyDate(useProgressTicker());
   const xp = useProgressStore(s => s.xp);
   const streak = useProgressStore(s => s.streak);
   const freezes = useProgressStore(s => s.streakFreezes);
@@ -42,22 +46,23 @@ export function ProfileClient() {
     setDailyTimeLimit(min * 60_000);
   }
 
-  const completedCount = hydrated ? Object.keys(completedLessons).length : 0;
+  const courses = courseResults(completedLessons);
+  const completedCount = hydrated ? courses.length : 0;
   const totalStars = hydrated
-    ? Object.values(completedLessons).reduce((acc, r) => acc + r.stars, 0)
+    ? courses.reduce((acc, r) => acc + r.stars, 0)
     : 0;
-  const mistakesCount = hydrated ? mistakes.length : 0;
+  const mistakesCount = hydrated ? mistakes.filter(m => !m.nextReviewDate || m.nextReviewDate <= today).length : 0;
 
   return (
     <AppShell right={null} centerMaxWidth={920}>
     <main className="min-h-screen bg-bg-soft lg:bg-transparent relative">
       {/* Header —— 移动端白底 sticky；桌面端简化为 标题 + compact HUD */}
       <div className="bg-white border-b border-bg-softer sticky top-0 z-10 lg:bg-transparent lg:border-0 lg:static lg:mb-2">
-        <div className="max-w-2xl lg:max-w-4xl mx-auto flex items-center justify-between gap-3 px-4 py-3 lg:px-0 lg:py-2">
+        <div className="max-w-2xl lg:max-w-4xl mx-auto grid grid-cols-[44px_minmax(0,1fr)] items-center gap-x-3 gap-y-1 px-4 py-3 sm:flex sm:justify-between sm:gap-3 lg:px-0 lg:py-2">
           <SoundLink
             href="/"
             aria-label="返回"
-            className="inline-flex items-center justify-center w-10 h-10 rounded-full text-ink-light hover:text-primary hover:bg-bg-soft transition-colors shrink-0 lg:hidden"
+            className="inline-flex items-center justify-center w-11 h-11 rounded-full text-ink-light hover:text-primary hover:bg-bg-soft transition-colors shrink-0 lg:hidden"
           >
             <ArrowLeft className="w-5 h-5" />
           </SoundLink>
@@ -65,7 +70,7 @@ export function ProfileClient() {
             <div className="text-base font-extrabold text-ink truncate">我的主页</div>
           </div>
           <div className="hidden lg:block flex-1" />
-          <div className="shrink-0">
+          <div className="col-span-2 justify-self-end shrink-0">
             <StatsBar compact />
           </div>
         </div>
@@ -73,22 +78,22 @@ export function ProfileClient() {
 
       <div className="max-w-2xl lg:max-w-4xl mx-auto px-4 py-8">
         {/* 顶部：聪聪 + 问候 + 每日目标环 */}
-        <div className="flex items-center gap-6 mb-8">
+        <div className="grid grid-cols-[96px_minmax(0,1fr)] items-center gap-x-4 gap-y-4 sm:flex sm:gap-6 mb-8">
           <motion.div
             initial={{ x: -40, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ type: "spring", damping: 18 }}
           >
-            <Mascot mood="wave" size={120} />
+            <Mascot mood="wave" size={96} />
           </motion.div>
-          <div className="flex-1">
+          <div className="min-w-0 flex-1">
             <div className="text-sm text-ink-light">欢迎回来</div>
             <div className="text-2xl font-extrabold text-ink">聪明的同学</div>
             <div className="text-sm text-ink-light mt-1">
               {hydrated && streak > 0 ? `已连续学习 ${streak} 天` : "开始你的学习之旅"}
             </div>
           </div>
-          <DailyGoalRing size={100} />
+          <div className="col-span-2 justify-self-center sm:ml-auto sm:shrink-0"><DailyGoalRing size={100} /></div>
         </div>
 
         {/* 统计卡片网格 */}
@@ -182,7 +187,7 @@ export function ProfileClient() {
           <div className="flex-1">
             <div className="text-base font-extrabold text-ink">错题本</div>
             <div className="text-sm text-ink-light">
-              {mistakesCount > 0 ? `${mistakesCount} 道题待复习` : "暂无错题"}
+              {mistakesCount > 0 ? `${mistakesCount} 道题待复习` : hydrated && mistakes.length > 0 ? "今日无待复习题" : "暂无错题"}
             </div>
           </div>
           <div className="text-ink-softer text-xl">›</div>
@@ -264,4 +269,3 @@ function StatCard({
     </motion.div>
   );
 }
-

@@ -27,5 +27,5 @@ export default function LessonPageClient({
   lesson: Lesson;
   chestSlot: ChestSlot | null;
 }) {
-  return <LessonRunner lesson={lesson} chestSlot={chestSlot} />;
+  return <LessonRunner key={lesson.id} lesson={lesson} chestSlot={chestSlot} />;
 }

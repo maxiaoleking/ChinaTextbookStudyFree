@@ -13,7 +13,7 @@
  *   - 打开时锁 body 滚动
  */
 
-import { useEffect, useRef, useId } from "react";
+import { useEffect, useRef, useId, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface ModalProps {
@@ -39,6 +39,7 @@ export function Modal({ open, onClose, children, dismissible = true, ariaLabel }
   const dialogRef = useRef<HTMLDivElement>(null);
   const restoreFocusRef = useRef<HTMLElement | null>(null);
   const labelId = useId();
+  const [headingId, setHeadingId] = useState<string>();
 
   // Esc 关闭
   useEffect(() => {
@@ -61,6 +62,8 @@ export function Modal({ open, onClose, children, dismissible = true, ariaLabel }
     const raf = requestAnimationFrame(() => {
       const root = dialogRef.current;
       if (!root) return;
+      const heading = root.querySelector<HTMLElement>("h1,h2,h3");
+      if (heading) { heading.id ||= labelId; setHeadingId(heading.id); }
       const firstFocusable = root.querySelector<HTMLElement>(FOCUSABLE);
       (firstFocusable ?? root).focus();
     });
@@ -118,15 +121,15 @@ export function Modal({ open, onClose, children, dismissible = true, ariaLabel }
             ref={dialogRef}
             role="dialog"
             aria-modal="true"
-            aria-label={ariaLabel}
-            aria-labelledby={ariaLabel ? undefined : labelId}
+            aria-label={ariaLabel ?? (headingId ? undefined : "提示")}
+            aria-labelledby={ariaLabel ? undefined : headingId}
             tabIndex={-1}
             initial={{ y: 30, scale: 0.92, opacity: 0 }}
             animate={{ y: 0, scale: 1, opacity: 1 }}
             exit={{ y: 20, scale: 0.95, opacity: 0 }}
             transition={{ type: "spring", damping: 20, stiffness: 260 }}
             onClick={e => e.stopPropagation()}
-            className="w-full max-w-sm bg-white rounded-3xl border-2 border-bg-softer p-6 focus:outline-none"
+            className="w-full max-w-sm max-h-[calc(100dvh-2rem)] overflow-y-auto bg-white rounded-3xl border-2 border-bg-softer p-6 focus:outline-none"
             style={{ boxShadow: "0 10px 0 0 #e5e5e5, 0 16px 40px rgba(0,0,0,0.15)" }}
           >
             {children}

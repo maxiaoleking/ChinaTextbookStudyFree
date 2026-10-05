@@ -15,6 +15,7 @@ import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
 import { useProgressStore } from "@/store/progress";
 import { useProgressTicker, formatMsCountdown } from "@/lib/useProgressTicker";
+import { isNewLessonTimeLimited } from "@/lib/learningLimit";
 
 interface LessonStartModalProps {
   open: boolean;
@@ -45,26 +46,34 @@ export function LessonStartModal({
   const nextHeartAt = useProgressStore(s => s.nextHeartAt);
   const activeLesson = useProgressStore(s => s.activeLesson);
   const clearLessonSession = useProgressStore(s => s.clearLessonSession);
+  const dailyTimeLimitMs = useProgressStore(s => s.dailyTimeLimitMs);
+  const todayTimeMs = useProgressStore(s => s.todayTimeMs);
+  const lastXpDate = useProgressStore(s => s.lastXpDate);
 
-  const canStart = hearts > 0;
+  const limitState = { dailyTimeLimitMs, todayTimeMs, lastXpDate, activeLesson };
+  const timeLimited = isNewLessonTimeLimited(limitState, lessonId, now);
+  const canStart = hearts > 0 && !timeLimited;
+  const canRestart = hearts > 0 && !isNewLessonTimeLimited({ ...limitState, activeLesson: null }, lessonId, now);
   const msToNext = nextHeartAt ? Math.max(0, nextHeartAt - now) : 0;
   const estimatedXp = questionCount * 10;
 
   // 是否存在同一课程的未完成会话？
   const resume =
-    activeLesson && activeLesson.lessonId === lessonId && activeLesson.index > 0
+    activeLesson && activeLesson.lessonId === lessonId && (activeLesson.phase || activeLesson.index > 0 || activeLesson.correctCount + activeLesson.mistakeCount > 0)
       ? activeLesson
       : null;
-  const remaining = resume ? Math.max(0, questionCount - resume.index) : questionCount;
+  const resumedChecked = resume && (resume.phase === "checked" || (!resume.phase && resume.correctCount + resume.mistakeCount > resume.index));
+  const remaining = resume ? Math.max(0, questionCount - resume.index - (resumedChecked ? 1 : 0)) : questionCount;
 
   function handleStart() {
-    if (!canStart) return;
+    if (!canStart || isNewLessonTimeLimited(useProgressStore.getState(), lessonId)) return;
     playSfx("tap");
     haptic("medium");
     router.push(`/lesson/${bookId}/${lessonId}/`);
   }
 
   function handleRestart() {
+    if (!canRestart || isNewLessonTimeLimited({ ...useProgressStore.getState(), activeLesson: null }, lessonId)) return;
     // 放弃旧进度重新开始
     clearLessonSession();
     handleStart();
@@ -110,7 +119,10 @@ export function LessonStartModal({
           </div>
         </div>
 
-        {!canStart && (
+        {timeLimited && (
+          <p className="mt-4 rounded-2xl bg-warning/10 px-4 py-3 text-sm text-ink">今天已达到学习时间上限，休息一下，明天再来吧。</p>
+        )}
+        {hearts <= 0 && (
           <div className="mt-4 w-full rounded-2xl border-2 border-danger/30 bg-danger/10 px-4 py-3">
             <div className="flex items-center justify-center gap-2 text-danger font-extrabold">
               <Heart className="w-5 h-5" />
@@ -132,10 +144,10 @@ export function LessonStartModal({
           disabled={!canStart}
           className={canStart ? "btn-chunky-primary w-full mt-6" : "btn-chunky-disabled w-full mt-6"}
         >
-          {canStart ? (resume ? "继续学习" : "开始") : "等待恢复"}
+          {canStart ? (resume ? "继续学习" : "开始") : timeLimited ? "今天已达上限" : "等待恢复"}
         </button>
 
-        {resume && canStart && (
+        {resume && canRestart && (
           <button
             type="button"
             onClick={handleRestart}

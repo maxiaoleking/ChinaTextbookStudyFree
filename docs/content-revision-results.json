@@ -1,0 +1,3040 @@
+{
+  "published_in_web": 188,
+  "total": 188,
+  "questions": 936,
+  "media_references": 9186,
+  "unique_story_audio": 8993,
+  "audio_decoded": true,
+  "images_reviewed": true,
+  "errors": [],
+  "stories": [
+    {
+      "id": "chinese-g1down-s1-v2",
+      "bookId": "chinese-g1down",
+      "grade": 1,
+      "title": "风里的小纸船",
+      "chars": 171,
+      "reference_chars": 187,
+      "ratio": 0.914,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1down-s2-v2",
+      "bookId": "chinese-g1down",
+      "grade": 1,
+      "title": "桥边的小风车",
+      "chars": 174,
+      "reference_chars": 187,
+      "ratio": 0.93,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1down-s3-v2",
+      "bookId": "chinese-g1down",
+      "grade": 1,
+      "title": "小树站稳了",
+      "chars": 132,
+      "reference_chars": 130,
+      "ratio": 1.015,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1down-s4-v2",
+      "bookId": "chinese-g1down",
+      "grade": 1,
+      "title": "巷口的路灯",
+      "chars": 134,
+      "reference_chars": 130,
+      "ratio": 1.031,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1down-s5-v2",
+      "bookId": "chinese-g1down",
+      "grade": 1,
+      "title": "一把蓝伞下的伙伴",
+      "chars": 183,
+      "reference_chars": 187,
+      "ratio": 0.979,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1down-s6-v2",
+      "bookId": "chinese-g1down",
+      "grade": 1,
+      "title": "雨中的画纸",
+      "chars": 202,
+      "reference_chars": 187,
+      "ratio": 1.08,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1down-s7-v2",
+      "bookId": "chinese-g1down",
+      "grade": 1,
+      "title": "窗边的小灯",
+      "chars": 197,
+      "reference_chars": 187,
+      "ratio": 1.053,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1down-s8-v2",
+      "bookId": "chinese-g1down",
+      "grade": 1,
+      "title": "路边的菜篮子",
+      "chars": 176,
+      "reference_chars": 187,
+      "ratio": 0.941,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1down-s9-v2",
+      "bookId": "chinese-g1down",
+      "grade": 1,
+      "title": "雨天的纸船",
+      "chars": 177,
+      "reference_chars": 187,
+      "ratio": 0.947,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1down-s10-v2",
+      "bookId": "chinese-g1down",
+      "grade": 1,
+      "title": "雨后的画",
+      "chars": 187,
+      "reference_chars": 187,
+      "ratio": 1.0,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1down-s11-v2",
+      "bookId": "chinese-g1down",
+      "grade": 1,
+      "title": "夏日的小水桶",
+      "chars": 183,
+      "reference_chars": 187,
+      "ratio": 0.979,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1down-s12-v2",
+      "bookId": "chinese-g1down",
+      "grade": 1,
+      "title": "夏日的一阵风",
+      "chars": 186,
+      "reference_chars": 187,
+      "ratio": 0.995,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1down-s13-v2",
+      "bookId": "chinese-g1down",
+      "grade": 1,
+      "title": "雨伞回来了",
+      "chars": 171,
+      "reference_chars": 187,
+      "ratio": 0.914,
+      "questions": 4,
+      "skills": {
+        "vocabulary": 1,
+        "retrieval": 2,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1down-s14-v2",
+      "bookId": "chinese-g1down",
+      "grade": 1,
+      "title": "小水壶回来了",
+      "chars": 186,
+      "reference_chars": 187,
+      "ratio": 0.995,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1down-s15-v2",
+      "bookId": "chinese-g1down",
+      "grade": 1,
+      "title": "水洼边的小蚂蚁",
+      "chars": 294,
+      "reference_chars": 302,
+      "ratio": 0.974,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1down-s16-v2",
+      "bookId": "chinese-g1down",
+      "grade": 1,
+      "title": "墙根的蜗牛",
+      "chars": 333,
+      "reference_chars": 302,
+      "ratio": 1.103,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1up-s1-v2",
+      "bookId": "chinese-g1up",
+      "grade": 1,
+      "title": "门口的小伞",
+      "chars": 107,
+      "reference_chars": 100,
+      "ratio": 1.07,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1up-s2-v2",
+      "bookId": "chinese-g1up",
+      "grade": 1,
+      "title": "门口的小花盆",
+      "chars": 110,
+      "reference_chars": 100,
+      "ratio": 1.1,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1up-s3-v2",
+      "bookId": "chinese-g1up",
+      "grade": 1,
+      "title": "雨后的木牌",
+      "chars": 112,
+      "reference_chars": 100,
+      "ratio": 1.12,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1up-s4-v2",
+      "bookId": "chinese-g1up",
+      "grade": 1,
+      "title": "一片树叶",
+      "chars": 101,
+      "reference_chars": 100,
+      "ratio": 1.01,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1up-s5-v2",
+      "bookId": "chinese-g1up",
+      "grade": 1,
+      "title": "雨后的纸船",
+      "chars": 113,
+      "reference_chars": 100,
+      "ratio": 1.13,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1up-s6-v2",
+      "bookId": "chinese-g1up",
+      "grade": 1,
+      "title": "雨中的小猫",
+      "chars": 114,
+      "reference_chars": 100,
+      "ratio": 1.14,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1up-s7-v2",
+      "bookId": "chinese-g1up",
+      "grade": 1,
+      "title": "雨里的小纸船",
+      "chars": 115,
+      "reference_chars": 100,
+      "ratio": 1.15,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1up-s8-v2",
+      "bookId": "chinese-g1up",
+      "grade": 1,
+      "title": "树枝上的铃铛",
+      "chars": 90,
+      "reference_chars": 100,
+      "ratio": 0.9,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1up-s9-v2",
+      "bookId": "chinese-g1up",
+      "grade": 1,
+      "title": "水沟边的小蚂蚁",
+      "chars": 114,
+      "reference_chars": 100,
+      "ratio": 1.14,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1up-s10-v2",
+      "bookId": "chinese-g1up",
+      "grade": 1,
+      "title": "菜叶上的小蜗牛",
+      "chars": 113,
+      "reference_chars": 100,
+      "ratio": 1.13,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1up-s11-v2",
+      "bookId": "chinese-g1up",
+      "grade": 1,
+      "title": "等一等，番茄红了",
+      "chars": 108,
+      "reference_chars": 100,
+      "ratio": 1.08,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1up-s12-v2",
+      "bookId": "chinese-g1up",
+      "grade": 1,
+      "title": "亭边的帽子",
+      "chars": 92,
+      "reference_chars": 100,
+      "ratio": 0.92,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1up-s13-v2",
+      "bookId": "chinese-g1up",
+      "grade": 1,
+      "title": "雨中的小蜗牛",
+      "chars": 98,
+      "reference_chars": 98,
+      "ratio": 1.0,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1up-s14-v2",
+      "bookId": "chinese-g1up",
+      "grade": 1,
+      "title": "小芽旁的小石头",
+      "chars": 106,
+      "reference_chars": 98,
+      "ratio": 1.082,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1up-s15-v2",
+      "bookId": "chinese-g1up",
+      "grade": 1,
+      "title": "雨中的纸船",
+      "chars": 107,
+      "reference_chars": 100,
+      "ratio": 1.07,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g1up-s16-v2",
+      "bookId": "chinese-g1up",
+      "grade": 1,
+      "title": "水洼边的小麻雀",
+      "chars": 96,
+      "reference_chars": 100,
+      "ratio": 0.96,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2down-s1-v2",
+      "bookId": "chinese-g2down",
+      "grade": 2,
+      "title": "雨后的菜畦",
+      "chars": 333,
+      "reference_chars": 347,
+      "ratio": 0.96,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2down-s2-v2",
+      "bookId": "chinese-g2down",
+      "grade": 2,
+      "title": "春水里的纸船",
+      "chars": 390,
+      "reference_chars": 347,
+      "ratio": 1.124,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2down-s3-v2",
+      "bookId": "chinese-g2down",
+      "grade": 2,
+      "title": "车轮脱困以后",
+      "chars": 339,
+      "reference_chars": 347,
+      "ratio": 0.977,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2down-s4-v2",
+      "bookId": "chinese-g2down",
+      "grade": 2,
+      "title": "雨后的书角",
+      "chars": 360,
+      "reference_chars": 347,
+      "ratio": 1.037,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2down-s5-v2",
+      "bookId": "chinese-g2down",
+      "grade": 2,
+      "title": "安安的兔子灯",
+      "chars": 354,
+      "reference_chars": 347,
+      "ratio": 1.02,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2down-s6-v2",
+      "bookId": "chinese-g2down",
+      "grade": 2,
+      "title": "灯下的谜条",
+      "chars": 390,
+      "reference_chars": 347,
+      "ratio": 1.124,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2down-s7-v2",
+      "bookId": "chinese-g2down",
+      "grade": 2,
+      "title": "雨天的纸船",
+      "chars": 349,
+      "reference_chars": 347,
+      "ratio": 1.006,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2down-s8-v2",
+      "bookId": "chinese-g2down",
+      "grade": 2,
+      "title": "水洼里的船长",
+      "chars": 349,
+      "reference_chars": 347,
+      "ratio": 1.006,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2down-s9-v2",
+      "bookId": "chinese-g2down",
+      "grade": 2,
+      "title": "水沟里的叶子",
+      "chars": 413,
+      "reference_chars": 419,
+      "ratio": 0.986,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2down-s10-v2",
+      "bookId": "chinese-g2down",
+      "grade": 2,
+      "title": "卡住的小车",
+      "chars": 419,
+      "reference_chars": 419,
+      "ratio": 1.0,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2down-s11-v2",
+      "bookId": "chinese-g2down",
+      "grade": 2,
+      "title": "树影指路",
+      "chars": 329,
+      "reference_chars": 347,
+      "ratio": 0.948,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2down-s12-v2",
+      "bookId": "chinese-g2down",
+      "grade": 2,
+      "title": "小水沟的声音",
+      "chars": 341,
+      "reference_chars": 347,
+      "ratio": 0.983,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2down-s13-v2",
+      "bookId": "chinese-g2down",
+      "grade": 2,
+      "title": "沟口的几块砖",
+      "chars": 355,
+      "reference_chars": 347,
+      "ratio": 1.023,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2down-s14-v2",
+      "bookId": "chinese-g2down",
+      "grade": 2,
+      "title": "水沟边的小扫帚",
+      "chars": 325,
+      "reference_chars": 347,
+      "ratio": 0.937,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2down-s15-v2",
+      "bookId": "chinese-g2down",
+      "grade": 2,
+      "title": "石壁下的清泉",
+      "chars": 338,
+      "reference_chars": 347,
+      "ratio": 0.974,
+      "questions": 4,
+      "skills": {
+        "structure": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "retrieval": 1
+      }
+    },
+    {
+      "id": "chinese-g2down-s16-v2",
+      "bookId": "chinese-g2down",
+      "grade": 2,
+      "title": "回声口的由来",
+      "chars": 349,
+      "reference_chars": 347,
+      "ratio": 1.006,
+      "questions": 4,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g2up-s1-v2",
+      "bookId": "chinese-g2up",
+      "grade": 2,
+      "title": "院子里的水",
+      "chars": 273,
+      "reference_chars": 273,
+      "ratio": 1.0,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2up-s2-v2",
+      "bookId": "chinese-g2up",
+      "grade": 2,
+      "title": "蒲公英的种子",
+      "chars": 274,
+      "reference_chars": 273,
+      "ratio": 1.004,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2up-s3-v2",
+      "bookId": "chinese-g2up",
+      "grade": 2,
+      "title": "风吹走的小牌",
+      "chars": 281,
+      "reference_chars": 273,
+      "ratio": 1.029,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2up-s4-v2",
+      "bookId": "chinese-g2up",
+      "grade": 2,
+      "title": "河边的木牌",
+      "chars": 274,
+      "reference_chars": 273,
+      "ratio": 1.004,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2up-s5-v2",
+      "bookId": "chinese-g2up",
+      "grade": 2,
+      "title": "石桌上的太阳",
+      "chars": 271,
+      "reference_chars": 255,
+      "ratio": 1.063,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2up-s6-v2",
+      "bookId": "chinese-g2up",
+      "grade": 2,
+      "title": "菜畦边的木牌",
+      "chars": 266,
+      "reference_chars": 255,
+      "ratio": 1.043,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2up-s7-v2",
+      "bookId": "chinese-g2up",
+      "grade": 2,
+      "title": "桥边的木牌",
+      "chars": 298,
+      "reference_chars": 273,
+      "ratio": 1.092,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2up-s8-v2",
+      "bookId": "chinese-g2up",
+      "grade": 2,
+      "title": "河边的路牌",
+      "chars": 268,
+      "reference_chars": 273,
+      "ratio": 0.982,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2up-s9-v2",
+      "bookId": "chinese-g2up",
+      "grade": 2,
+      "title": "桶边的小纸船",
+      "chars": 202,
+      "reference_chars": 180,
+      "ratio": 1.122,
+      "questions": 4,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 2,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2up-s10-v2",
+      "bookId": "chinese-g2up",
+      "grade": 2,
+      "title": "水洼边的发现",
+      "chars": 195,
+      "reference_chars": 180,
+      "ratio": 1.083,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2up-s11-v2",
+      "bookId": "chinese-g2up",
+      "grade": 2,
+      "title": "桥边的检查",
+      "chars": 274,
+      "reference_chars": 273,
+      "ratio": 1.004,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2up-s12-v2",
+      "bookId": "chinese-g2up",
+      "grade": 2,
+      "title": "雨巷里的旧伞",
+      "chars": 263,
+      "reference_chars": 273,
+      "ratio": 0.963,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2up-s13-v2",
+      "bookId": "chinese-g2up",
+      "grade": 2,
+      "title": "小船去送风",
+      "chars": 316,
+      "reference_chars": 289,
+      "ratio": 1.093,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2up-s14-v2",
+      "bookId": "chinese-g2up",
+      "grade": 2,
+      "title": "雨沟里的航线",
+      "chars": 288,
+      "reference_chars": 289,
+      "ratio": 0.997,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g2up-s15-v2",
+      "bookId": "chinese-g2up",
+      "grade": 2,
+      "title": "水沟边的小船",
+      "chars": 281,
+      "reference_chars": 273,
+      "ratio": 1.029,
+      "questions": 4,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g2up-s16-v2",
+      "bookId": "chinese-g2up",
+      "grade": 2,
+      "title": "屋檐下的小猫",
+      "chars": 254,
+      "reference_chars": 273,
+      "ratio": 0.93,
+      "questions": 4,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1
+      }
+    },
+    {
+      "id": "chinese-g3down-s1-v2",
+      "bookId": "chinese-g3down",
+      "grade": 3,
+      "title": "水碟边的爪印",
+      "chars": 461,
+      "reference_chars": 466,
+      "ratio": 0.989,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3down-s2-v2",
+      "bookId": "chinese-g3down",
+      "grade": 3,
+      "title": "雨后的小路",
+      "chars": 458,
+      "reference_chars": 466,
+      "ratio": 0.983,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3down-s3-v2",
+      "bookId": "chinese-g3down",
+      "grade": 3,
+      "title": "桥边的木牌",
+      "chars": 490,
+      "reference_chars": 488,
+      "ratio": 1.004,
+      "questions": 5,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "evaluation": 1
+      }
+    },
+    {
+      "id": "chinese-g3down-s4-v2",
+      "bookId": "chinese-g3down",
+      "grade": 3,
+      "title": "蚂蚁的两条路",
+      "chars": 503,
+      "reference_chars": 488,
+      "ratio": 1.031,
+      "questions": 5,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g3down-s5-v2",
+      "bookId": "chinese-g3down",
+      "grade": 3,
+      "title": "兔子灯上的小余量",
+      "chars": 376,
+      "reference_chars": 398,
+      "ratio": 0.945,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3down-s6-v2",
+      "bookId": "chinese-g3down",
+      "grade": 3,
+      "title": "兔子灯上的梅花",
+      "chars": 401,
+      "reference_chars": 398,
+      "ratio": 1.008,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3down-s7-v2",
+      "bookId": "chinese-g3down",
+      "grade": 3,
+      "title": "雨后的小路",
+      "chars": 456,
+      "reference_chars": 464,
+      "ratio": 0.983,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3down-s8-v2",
+      "bookId": "chinese-g3down",
+      "grade": 3,
+      "title": "转弯处的水纹",
+      "chars": 444,
+      "reference_chars": 464,
+      "ratio": 0.957,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3down-s9-v2",
+      "bookId": "chinese-g3down",
+      "grade": 3,
+      "title": "借来一阵风",
+      "chars": 692,
+      "reference_chars": 724,
+      "ratio": 0.956,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3down-s10-v2",
+      "bookId": "chinese-g3down",
+      "grade": 3,
+      "title": "风的回信",
+      "chars": 683,
+      "reference_chars": 724,
+      "ratio": 0.943,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3down-s11-v2",
+      "bookId": "chinese-g3down",
+      "grade": 3,
+      "title": "巷口的纸船",
+      "chars": 459,
+      "reference_chars": 480,
+      "ratio": 0.956,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3down-s12-v2",
+      "bookId": "chinese-g3down",
+      "grade": 3,
+      "title": "纸船回家的路",
+      "chars": 464,
+      "reference_chars": 480,
+      "ratio": 0.967,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3down-s13-v2",
+      "bookId": "chinese-g3down",
+      "grade": 3,
+      "title": "雨后的石桥边",
+      "chars": 453,
+      "reference_chars": 446,
+      "ratio": 1.016,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3down-s14-v2",
+      "bookId": "chinese-g3down",
+      "grade": 3,
+      "title": "草丛里的星星",
+      "chars": 435,
+      "reference_chars": 446,
+      "ratio": 0.975,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3down-s15-v2",
+      "bookId": "chinese-g3down",
+      "grade": 3,
+      "title": "将军报时",
+      "chars": 425,
+      "reference_chars": 466,
+      "ratio": 0.912,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3down-s16-v2",
+      "bookId": "chinese-g3down",
+      "grade": 3,
+      "title": "后台的催客声",
+      "chars": 471,
+      "reference_chars": 466,
+      "ratio": 1.011,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3up-s1-v2",
+      "bookId": "chinese-g3up",
+      "grade": 3,
+      "title": "午后的纸风车",
+      "chars": 311,
+      "reference_chars": 295,
+      "ratio": 1.054,
+      "questions": 5,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 2
+      }
+    },
+    {
+      "id": "chinese-g3up-s2-v2",
+      "bookId": "chinese-g3up",
+      "grade": 3,
+      "title": "操场边的小水沟",
+      "chars": 286,
+      "reference_chars": 295,
+      "ratio": 0.969,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3up-s3-v2",
+      "bookId": "chinese-g3up",
+      "grade": 3,
+      "title": "银杏树下的水",
+      "chars": 418,
+      "reference_chars": 416,
+      "ratio": 1.005,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3up-s4-v2",
+      "bookId": "chinese-g3up",
+      "grade": 3,
+      "title": "秋风里的小木牌",
+      "chars": 440,
+      "reference_chars": 416,
+      "ratio": 1.058,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3up-s5-v2",
+      "bookId": "chinese-g3up",
+      "grade": 3,
+      "title": "雾里的铜铃",
+      "chars": 1245,
+      "reference_chars": 1318,
+      "ratio": 0.945,
+      "questions": 5,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 2,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3up-s6-v2",
+      "bookId": "chinese-g3up",
+      "grade": 3,
+      "title": "雾中的钟声",
+      "chars": 1248,
+      "reference_chars": 1318,
+      "ratio": 0.947,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "inference": 1,
+        "expression": 1,
+        "vocabulary": 1
+      }
+    },
+    {
+      "id": "chinese-g3up-s7-v2",
+      "bookId": "chinese-g3up",
+      "grade": 3,
+      "title": "窗边的三声轻响",
+      "chars": 1275,
+      "reference_chars": 1272,
+      "ratio": 1.002,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3up-s8-v2",
+      "bookId": "chinese-g3up",
+      "grade": 3,
+      "title": "工具棚里的咔嗒声",
+      "chars": 1281,
+      "reference_chars": 1272,
+      "ratio": 1.007,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3up-s9-v2",
+      "bookId": "chinese-g3up",
+      "grade": 3,
+      "title": "雨棚边的水珠",
+      "chars": 241,
+      "reference_chars": 242,
+      "ratio": 0.996,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3up-s10-v2",
+      "bookId": "chinese-g3up",
+      "grade": 3,
+      "title": "薄荷叶的小变化",
+      "chars": 236,
+      "reference_chars": 242,
+      "ratio": 0.975,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3up-s11-v2",
+      "bookId": "chinese-g3up",
+      "grade": 3,
+      "title": "青溪湾的快门",
+      "chars": 381,
+      "reference_chars": 416,
+      "ratio": 0.916,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "inference": 1,
+        "vocabulary": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3up-s12-v2",
+      "bookId": "chinese-g3up",
+      "grade": 3,
+      "title": "桥影里的写生本",
+      "chars": 397,
+      "reference_chars": 416,
+      "ratio": 0.954,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3up-s13-v2",
+      "bookId": "chinese-g3up",
+      "grade": 3,
+      "title": "雨后的石阶",
+      "chars": 381,
+      "reference_chars": 388,
+      "ratio": 0.982,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3up-s14-v2",
+      "bookId": "chinese-g3up",
+      "grade": 3,
+      "title": "蜗牛的亮痕",
+      "chars": 371,
+      "reference_chars": 388,
+      "ratio": 0.956,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3up-s15-v2",
+      "bookId": "chinese-g3up",
+      "grade": 3,
+      "title": "窗台边的书",
+      "chars": 419,
+      "reference_chars": 416,
+      "ratio": 1.007,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g3up-s16-v2",
+      "bookId": "chinese-g3up",
+      "grade": 3,
+      "title": "菜园里的绳结",
+      "chars": 381,
+      "reference_chars": 416,
+      "ratio": 0.916,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4down-s1-v2",
+      "bookId": "chinese-g4down",
+      "grade": 4,
+      "title": "水渠边的灯",
+      "chars": 573,
+      "reference_chars": 612,
+      "ratio": 0.936,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4down-s2-v2",
+      "bookId": "chinese-g4down",
+      "grade": 4,
+      "title": "弯道上的竹闸片",
+      "chars": 580,
+      "reference_chars": 612,
+      "ratio": 0.948,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4down-s3-v2",
+      "bookId": "chinese-g4down",
+      "grade": 4,
+      "title": "雾窗上的小路",
+      "chars": 631,
+      "reference_chars": 612,
+      "ratio": 1.031,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4down-s4-v2",
+      "bookId": "chinese-g4down",
+      "grade": 4,
+      "title": "檐口的水珠",
+      "chars": 632,
+      "reference_chars": 612,
+      "ratio": 1.033,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4down-s5-v2",
+      "bookId": "chinese-g4down",
+      "grade": 4,
+      "title": "巷子里的水声",
+      "chars": 556,
+      "reference_chars": 612,
+      "ratio": 0.908,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4down-s6-v2",
+      "bookId": "chinese-g4down",
+      "grade": 4,
+      "title": "把天空写进诗里",
+      "chars": 551,
+      "reference_chars": 612,
+      "ratio": 0.9,
+      "questions": 5,
+      "skills": {
+        "inference": 1,
+        "retrieval": 1,
+        "vocabulary": 1,
+        "structure": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4down-s7-v2",
+      "bookId": "chinese-g4down",
+      "grade": 4,
+      "title": "雨后的脚印",
+      "chars": 517,
+      "reference_chars": 551,
+      "ratio": 0.938,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4down-s8-v2",
+      "bookId": "chinese-g4down",
+      "grade": 4,
+      "title": "雨棚下的客人",
+      "chars": 551,
+      "reference_chars": 551,
+      "ratio": 1.0,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4down-s9-v2",
+      "bookId": "chinese-g4down",
+      "grade": 4,
+      "title": "桥边的蓝布袋",
+      "chars": 619,
+      "reference_chars": 612,
+      "ratio": 1.011,
+      "questions": 5,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g4down-s10-v2",
+      "bookId": "chinese-g4down",
+      "grade": 4,
+      "title": "山路尽头的水声",
+      "chars": 607,
+      "reference_chars": 612,
+      "ratio": 0.992,
+      "questions": 5,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g4down-s11-v2",
+      "bookId": "chinese-g4down",
+      "grade": 4,
+      "title": "离开前看一眼",
+      "chars": 562,
+      "reference_chars": 612,
+      "ratio": 0.918,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4down-s12-v2",
+      "bookId": "chinese-g4down",
+      "grade": 4,
+      "title": "窗边的旧书",
+      "chars": 570,
+      "reference_chars": 612,
+      "ratio": 0.931,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4down-s13-v2",
+      "bookId": "chinese-g4down",
+      "grade": 4,
+      "title": "巷口的风车",
+      "chars": 564,
+      "reference_chars": 612,
+      "ratio": 0.922,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4down-s14-v2",
+      "bookId": "chinese-g4down",
+      "grade": 4,
+      "title": "阅览室里的水痕",
+      "chars": 595,
+      "reference_chars": 612,
+      "ratio": 0.972,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4down-s15-v2",
+      "bookId": "chinese-g4down",
+      "grade": 4,
+      "title": "瓶子里的风",
+      "chars": 577,
+      "reference_chars": 612,
+      "ratio": 0.943,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4down-s16-v2",
+      "bookId": "chinese-g4down",
+      "grade": 4,
+      "title": "北山的小云",
+      "chars": 579,
+      "reference_chars": 612,
+      "ratio": 0.946,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4up-s1-v2",
+      "bookId": "chinese-g4up",
+      "grade": 4,
+      "title": "雾散时，山谷亮了",
+      "chars": 414,
+      "reference_chars": 419,
+      "ratio": 0.988,
+      "questions": 5,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g4up-s2-v2",
+      "bookId": "chinese-g4up",
+      "grade": 4,
+      "title": "溪边的水痕",
+      "chars": 383,
+      "reference_chars": 419,
+      "ratio": 0.914,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4up-s3-v2",
+      "bookId": "chinese-g4up",
+      "grade": 4,
+      "title": "雨水桶里的线索",
+      "chars": 525,
+      "reference_chars": 582,
+      "ratio": 0.902,
+      "questions": 5,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "evaluation": 1
+      }
+    },
+    {
+      "id": "chinese-g4up-s4-v2",
+      "bookId": "chinese-g4up",
+      "grade": 4,
+      "title": "雨水去哪儿了",
+      "chars": 558,
+      "reference_chars": 582,
+      "ratio": 0.959,
+      "questions": 5,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "evaluation": 1
+      }
+    },
+    {
+      "id": "chinese-g4up-s5-v2",
+      "bookId": "chinese-g4up",
+      "grade": 4,
+      "title": "水去了哪里",
+      "chars": 530,
+      "reference_chars": 545,
+      "ratio": 0.972,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4up-s6-v2",
+      "bookId": "chinese-g4up",
+      "grade": 4,
+      "title": "窗台上的水印",
+      "chars": 521,
+      "reference_chars": 545,
+      "ratio": 0.956,
+      "questions": 5,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g4up-s7-v2",
+      "bookId": "chinese-g4up",
+      "grade": 4,
+      "title": "山谷里的答声",
+      "chars": 452,
+      "reference_chars": 475,
+      "ratio": 0.952,
+      "questions": 5,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g4up-s8-v2",
+      "bookId": "chinese-g4up",
+      "grade": 4,
+      "title": "石缝里的水声",
+      "chars": 464,
+      "reference_chars": 475,
+      "ratio": 0.977,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4up-s9-v2",
+      "bookId": "chinese-g4up",
+      "grade": 4,
+      "title": "雨棚里的几行字",
+      "chars": 276,
+      "reference_chars": 269,
+      "ratio": 1.026,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4up-s10-v2",
+      "bookId": "chinese-g4up",
+      "grade": 4,
+      "title": "先救你的叶子",
+      "chars": 276,
+      "reference_chars": 269,
+      "ratio": 1.026,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4up-s11-v2",
+      "bookId": "chinese-g4up",
+      "grade": 4,
+      "title": "檐下那声轻响",
+      "chars": 518,
+      "reference_chars": 545,
+      "ratio": 0.95,
+      "questions": 5,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g4up-s12-v2",
+      "bookId": "chinese-g4up",
+      "grade": 4,
+      "title": "豆苗醒来的早晨",
+      "chars": 493,
+      "reference_chars": 545,
+      "ratio": 0.905,
+      "questions": 5,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g4up-s13-v2",
+      "bookId": "chinese-g4up",
+      "grade": 4,
+      "title": "渡口的灯",
+      "chars": 814,
+      "reference_chars": 750,
+      "ratio": 1.085,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4up-s14-v2",
+      "bookId": "chinese-g4up",
+      "grade": 4,
+      "title": "河岸上的旧尺",
+      "chars": 746,
+      "reference_chars": 750,
+      "ratio": 0.995,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4up-s15-v2",
+      "bookId": "chinese-g4up",
+      "grade": 4,
+      "title": "水留下的脚印",
+      "chars": 381,
+      "reference_chars": 417,
+      "ratio": 0.914,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g4up-s16-v2",
+      "bookId": "chinese-g4up",
+      "grade": 4,
+      "title": "桥洞里的回旋",
+      "chars": 465,
+      "reference_chars": 417,
+      "ratio": 1.115,
+      "questions": 5,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g5down-s1-v2",
+      "bookId": "chinese-g5down",
+      "grade": 5,
+      "title": "伞面上的蓝线",
+      "chars": 555,
+      "reference_chars": 551,
+      "ratio": 1.007,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5down-s2-v2",
+      "bookId": "chinese-g5down",
+      "grade": 5,
+      "title": "借书角的雨声",
+      "chars": 511,
+      "reference_chars": 551,
+      "ratio": 0.927,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5down-s3-v2",
+      "bookId": "chinese-g5down",
+      "grade": 5,
+      "title": "渡口的红布",
+      "chars": 521,
+      "reference_chars": 551,
+      "ratio": 0.946,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5down-s4-v2",
+      "bookId": "chinese-g5down",
+      "grade": 5,
+      "title": "桥头的铜铃",
+      "chars": 506,
+      "reference_chars": 551,
+      "ratio": 0.918,
+      "questions": 6,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 2,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5down-s5-v2",
+      "bookId": "chinese-g5down",
+      "grade": 5,
+      "title": "砖上的那个字",
+      "chars": 556,
+      "reference_chars": 551,
+      "ratio": 1.009,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5down-s6-v2",
+      "bookId": "chinese-g5down",
+      "grade": 5,
+      "title": "木牌上的“安”字",
+      "chars": 566,
+      "reference_chars": 551,
+      "ratio": 1.027,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5down-s7-v2",
+      "bookId": "chinese-g5down",
+      "grade": 5,
+      "title": "堤上的名字",
+      "chars": 710,
+      "reference_chars": 712,
+      "ratio": 0.997,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5down-s8-v2",
+      "bookId": "chinese-g5down",
+      "grade": 5,
+      "title": "水尺边的红线",
+      "chars": 696,
+      "reference_chars": 712,
+      "ratio": 0.978,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5down-s9-v2",
+      "bookId": "chinese-g5down",
+      "grade": 5,
+      "title": "修车铃声",
+      "chars": 499,
+      "reference_chars": 551,
+      "ratio": 0.906,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5down-s10-v2",
+      "bookId": "chinese-g5down",
+      "grade": 5,
+      "title": "一把旧椅子",
+      "chars": 560,
+      "reference_chars": 551,
+      "ratio": 1.016,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5down-s11-v2",
+      "bookId": "chinese-g5down",
+      "grade": 5,
+      "title": "让水自己指路",
+      "chars": 570,
+      "reference_chars": 552,
+      "ratio": 1.033,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5down-s12-v2",
+      "bookId": "chinese-g5down",
+      "grade": 5,
+      "title": "水从哪里来",
+      "chars": 558,
+      "reference_chars": 552,
+      "ratio": 1.011,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5down-s13-v2",
+      "bookId": "chinese-g5down",
+      "grade": 5,
+      "title": "海峡上的蓝布包",
+      "chars": 487,
+      "reference_chars": 512,
+      "ratio": 0.951,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5down-s14-v2",
+      "bookId": "chinese-g5down",
+      "grade": 5,
+      "title": "蓝布与水巷",
+      "chars": 495,
+      "reference_chars": 512,
+      "ratio": 0.967,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5down-s15-v2",
+      "bookId": "chinese-g5down",
+      "grade": 5,
+      "title": "一把伞的脾气",
+      "chars": 790,
+      "reference_chars": 779,
+      "ratio": 1.014,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5down-s16-v2",
+      "bookId": "chinese-g5down",
+      "grade": 5,
+      "title": "萝卜不认路",
+      "chars": 717,
+      "reference_chars": 779,
+      "ratio": 0.92,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5up-s1-v2",
+      "bookId": "chinese-g5up",
+      "grade": 5,
+      "title": "窗前的枣树",
+      "chars": 431,
+      "reference_chars": 389,
+      "ratio": 1.108,
+      "questions": 6,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 2,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5up-s2-v2",
+      "bookId": "chinese-g5up",
+      "grade": 5,
+      "title": "檐下的蓝碗",
+      "chars": 375,
+      "reference_chars": 389,
+      "ratio": 0.964,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5up-s3-v2",
+      "bookId": "chinese-g5up",
+      "grade": 5,
+      "title": "风起时的旧书会",
+      "chars": 644,
+      "reference_chars": 672,
+      "ratio": 0.958,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5up-s4-v2",
+      "bookId": "chinese-g5up",
+      "grade": 5,
+      "title": "旧仓里的照片",
+      "chars": 681,
+      "reference_chars": 672,
+      "ratio": 1.013,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5up-s5-v2",
+      "bookId": "chinese-g5up",
+      "grade": 5,
+      "title": "石桥上的水珠",
+      "chars": 682,
+      "reference_chars": 672,
+      "ratio": 1.015,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5up-s6-v2",
+      "bookId": "chinese-g5up",
+      "grade": 5,
+      "title": "石桥边的老井",
+      "chars": 661,
+      "reference_chars": 672,
+      "ratio": 0.984,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5up-s7-v2",
+      "bookId": "chinese-g5up",
+      "grade": 5,
+      "title": "船票上的名字",
+      "chars": 628,
+      "reference_chars": 672,
+      "ratio": 0.935,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5up-s8-v2",
+      "bookId": "chinese-g5up",
+      "grade": 5,
+      "title": "旧痕留在灯下",
+      "chars": 717,
+      "reference_chars": 672,
+      "ratio": 1.067,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5up-s9-v2",
+      "bookId": "chinese-g5up",
+      "grade": 5,
+      "title": "雨量筒旁的一张纸",
+      "chars": 739,
+      "reference_chars": 672,
+      "ratio": 1.1,
+      "questions": 6,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1,
+        "evaluation": 1
+      }
+    },
+    {
+      "id": "chinese-g5up-s10-v2",
+      "bookId": "chinese-g5up",
+      "grade": 5,
+      "title": "风向袋转过身",
+      "chars": 649,
+      "reference_chars": 672,
+      "ratio": 0.966,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5up-s11-v2",
+      "bookId": "chinese-g5up",
+      "grade": 5,
+      "title": "蓝布包里的垫圈",
+      "chars": 1405,
+      "reference_chars": 1367,
+      "ratio": 1.028,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5up-s12-v2",
+      "bookId": "chinese-g5up",
+      "grade": 5,
+      "title": "尺上的两道痕",
+      "chars": 1260,
+      "reference_chars": 1367,
+      "ratio": 0.922,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5up-s13-v2",
+      "bookId": "chinese-g5up",
+      "grade": 5,
+      "title": "山坳里的水声",
+      "chars": 651,
+      "reference_chars": 672,
+      "ratio": 0.969,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5up-s14-v2",
+      "bookId": "chinese-g5up",
+      "grade": 5,
+      "title": "秋渠听水",
+      "chars": 661,
+      "reference_chars": 672,
+      "ratio": 0.984,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5up-s15-v2",
+      "bookId": "chinese-g5up",
+      "grade": 5,
+      "title": "缺了一角的旧地图",
+      "chars": 661,
+      "reference_chars": 672,
+      "ratio": 0.984,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g5up-s16-v2",
+      "bookId": "chinese-g5up",
+      "grade": 5,
+      "title": "书页里的排水线索",
+      "chars": 670,
+      "reference_chars": 672,
+      "ratio": 0.997,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6down-s1-v2",
+      "bookId": "chinese-g6down",
+      "grade": 6,
+      "title": "鱼灯过桥",
+      "chars": 1022,
+      "reference_chars": 946,
+      "ratio": 1.08,
+      "questions": 6,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 2,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6down-s2-v2",
+      "bookId": "chinese-g6down",
+      "grade": 6,
+      "title": "桥洞里的鱼灯",
+      "chars": 876,
+      "reference_chars": 946,
+      "ratio": 0.926,
+      "questions": 6,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 2,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6down-s3-v2",
+      "bookId": "chinese-g6down",
+      "grade": 6,
+      "title": "河湾那盏灯",
+      "chars": 814,
+      "reference_chars": 826,
+      "ratio": 0.985,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6down-s4-v2",
+      "bookId": "chinese-g6down",
+      "grade": 6,
+      "title": "灯塔里的帆布带",
+      "chars": 829,
+      "reference_chars": 826,
+      "ratio": 1.004,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6down-s5-v2",
+      "bookId": "chinese-g6down",
+      "grade": 6,
+      "title": "修钟铺的最后一天",
+      "chars": 544,
+      "reference_chars": 540,
+      "ratio": 1.007,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6down-s6-v2",
+      "bookId": "chinese-g6down",
+      "grade": 6,
+      "title": "最后一筐梨",
+      "chars": 543,
+      "reference_chars": 540,
+      "ratio": 1.006,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6down-s7-v2",
+      "bookId": "chinese-g6down",
+      "grade": 6,
+      "title": "渠口的白线",
+      "chars": 696,
+      "reference_chars": 683,
+      "ratio": 1.019,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6down-s8-v2",
+      "bookId": "chinese-g6down",
+      "grade": 6,
+      "title": "灯塔下的旧记号",
+      "chars": 663,
+      "reference_chars": 683,
+      "ratio": 0.971,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6down-s9-v2",
+      "bookId": "chinese-g6down",
+      "grade": 6,
+      "title": "雨量筒旁的问号",
+      "chars": 808,
+      "reference_chars": 826,
+      "ratio": 0.978,
+      "questions": 6,
+      "skills": {
+        "vocabulary": 1,
+        "retrieval": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1,
+        "evaluation": 1
+      }
+    },
+    {
+      "id": "chinese-g6down-s10-v2",
+      "bookId": "chinese-g6down",
+      "grade": 6,
+      "title": "少掉的三厘米",
+      "chars": 861,
+      "reference_chars": 826,
+      "ratio": 1.042,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6down-s11-v2",
+      "bookId": "chinese-g6down",
+      "grade": 6,
+      "title": "那把旧木尺",
+      "chars": 795,
+      "reference_chars": 826,
+      "ratio": 0.962,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6down-s12-v2",
+      "bookId": "chinese-g6down",
+      "grade": 6,
+      "title": "那一格空着",
+      "chars": 921,
+      "reference_chars": 826,
+      "ratio": 1.115,
+      "questions": 6,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1,
+        "evaluation": 1
+      }
+    },
+    {
+      "id": "chinese-g6up-s1-v2",
+      "bookId": "chinese-g6up",
+      "grade": 6,
+      "title": "桥墩上的白线",
+      "chars": 771,
+      "reference_chars": 750,
+      "ratio": 1.028,
+      "questions": 6,
+      "skills": {
+        "evaluation": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1,
+        "retrieval": 1
+      }
+    },
+    {
+      "id": "chinese-g6up-s2-v2",
+      "bookId": "chinese-g6up",
+      "grade": 6,
+      "title": "蓝线记下的路",
+      "chars": 850,
+      "reference_chars": 750,
+      "ratio": 1.133,
+      "questions": 6,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1,
+        "evaluation": 1
+      }
+    },
+    {
+      "id": "chinese-g6up-s3-v2",
+      "bookId": "chinese-g6up",
+      "grade": 6,
+      "title": "河湾的梆子声",
+      "chars": 695,
+      "reference_chars": 750,
+      "ratio": 0.927,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6up-s4-v2",
+      "bookId": "chinese-g6up",
+      "grade": 6,
+      "title": "河对岸的磨坊",
+      "chars": 852,
+      "reference_chars": 750,
+      "ratio": 1.136,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6up-s5-v2",
+      "bookId": "chinese-g6up",
+      "grade": 6,
+      "title": "雨声停在旧影院",
+      "chars": 828,
+      "reference_chars": 750,
+      "ratio": 1.104,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6up-s6-v2",
+      "bookId": "chinese-g6up",
+      "grade": 6,
+      "title": "河湾图上的箭头",
+      "chars": 755,
+      "reference_chars": 750,
+      "ratio": 1.007,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6up-s7-v2",
+      "bookId": "chinese-g6up",
+      "grade": 6,
+      "title": "雾里的三声钟",
+      "chars": 780,
+      "reference_chars": 750,
+      "ratio": 1.04,
+      "questions": 6,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1,
+        "evaluation": 1
+      }
+    },
+    {
+      "id": "chinese-g6up-s8-v2",
+      "bookId": "chinese-g6up",
+      "grade": 6,
+      "title": "雾里的三声钟",
+      "chars": 703,
+      "reference_chars": 750,
+      "ratio": 0.937,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6up-s9-v2",
+      "bookId": "chinese-g6up",
+      "grade": 6,
+      "title": "木尺上的红线",
+      "chars": 703,
+      "reference_chars": 750,
+      "ratio": 0.937,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6up-s10-v2",
+      "bookId": "chinese-g6up",
+      "grade": 6,
+      "title": "闸边的一道缝",
+      "chars": 757,
+      "reference_chars": 750,
+      "ratio": 1.009,
+      "questions": 6,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1,
+        "evaluation": 1
+      }
+    },
+    {
+      "id": "chinese-g6up-s11-v2",
+      "bookId": "chinese-g6up",
+      "grade": 6,
+      "title": "溪边的记录",
+      "chars": 690,
+      "reference_chars": 750,
+      "ratio": 0.92,
+      "questions": 6,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1,
+        "evaluation": 1
+      }
+    },
+    {
+      "id": "chinese-g6up-s12-v2",
+      "bookId": "chinese-g6up",
+      "grade": 6,
+      "title": "芦苇湾的雨水口",
+      "chars": 739,
+      "reference_chars": 750,
+      "ratio": 0.985,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "structure": 1,
+        "expression": 1
+      }
+    },
+    {
+      "id": "chinese-g6up-s13-v2",
+      "bookId": "chinese-g6up",
+      "grade": 6,
+      "title": "旧翅膀飞起来",
+      "chars": 759,
+      "reference_chars": 750,
+      "ratio": 1.012,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6up-s14-v2",
+      "bookId": "chinese-g6up",
+      "grade": 6,
+      "title": "墙上的一条河",
+      "chars": 806,
+      "reference_chars": 750,
+      "ratio": 1.075,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6up-s15-v2",
+      "bookId": "chinese-g6up",
+      "grade": 6,
+      "title": "井房里的刻痕",
+      "chars": 742,
+      "reference_chars": 750,
+      "ratio": 0.989,
+      "questions": 6,
+      "skills": {
+        "retrieval": 2,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1
+      }
+    },
+    {
+      "id": "chinese-g6up-s16-v2",
+      "bookId": "chinese-g6up",
+      "grade": 6,
+      "title": "水位尺上的刻痕",
+      "chars": 759,
+      "reference_chars": 750,
+      "ratio": 1.012,
+      "questions": 6,
+      "skills": {
+        "retrieval": 1,
+        "vocabulary": 1,
+        "inference": 1,
+        "expression": 1,
+        "structure": 1,
+        "evaluation": 1
+      }
+    }
+  ]
+}

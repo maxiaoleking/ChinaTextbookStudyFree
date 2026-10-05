@@ -8,12 +8,12 @@
  *
  * 交互：
  *   - 上方"已选区"按点击顺序展示
- *   - 下方"待选区"展示尚未点选的词语
+ *   - 下方词语保持原位置；选过的词保留不可点击的占位
  *   - 点击已选区的词可以撤回
  *   - 全部点完后自动 join 成 string 写入 answer，触发 onChange
  */
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/cn";
 import { MathText } from "@/components/MathText";
@@ -22,6 +22,7 @@ import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
 import { playTTS } from "@/lib/tts";
 import { useAutoNarrate } from "@/lib/useAutoNarrate";
+import { wordOrderIndices } from "@/lib/questionAnswer";
 import type { QuestionRendererProps } from "./QuestionRenderer";
 
 export function WordOrderQuestion({
@@ -35,20 +36,19 @@ export function WordOrderQuestion({
   const options = question.options ?? [];
   const cancelNarrate = useAutoNarrate([question.audio?.question], question.id);
 
-  // 已选索引列表（指向 options 中的 index）
-  const [picked, setPicked] = useState<number[]>([]);
+  // Preserve clicked identities for repeated words; external/restored answers stay controlled.
+  const selectionKey = JSON.stringify([question.id, question.question, options]);
+  const [selection, setSelection] = useState(() => ({
+    key: selectionKey, answer, indices: wordOrderIndices(options, answer),
+  }));
+  const picked = useMemo(() => selection.key === selectionKey && selection.answer === answer
+    ? selection.indices : wordOrderIndices(options, answer), [selection, selectionKey, options, answer]);
 
-  // 题目切换时重置
-  useEffect(() => {
-    setPicked([]);
-  }, [question.id]);
-
-  // picked 变化时同步到外部 answer
-  useEffect(() => {
-    const text = picked.map(i => options[i]).join(",");
-    if (text !== answer) onChange(text);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [picked]);
+  function updateSelection(indices: number[]) {
+    const nextAnswer = indices.map(index => options[index]).join(",");
+    setSelection({ key: selectionKey, answer: nextAnswer, indices });
+    onChange(nextAnswer);
+  }
 
   /** 播放第 i 个选项的 TTS */
   function playOptionAudio(i: number) {
@@ -63,24 +63,20 @@ export function WordOrderQuestion({
     playSfx("tap");
     haptic("light");
     playOptionAudio(i);
-    setPicked(p => [...p, i]);
+    updateSelection([...picked, i]);
   }
 
   function unpick(i: number) {
     if (disabled) return;
+    cancelNarrate();
     playSfx("tap");
     haptic("light");
     playOptionAudio(i);
-    setPicked(p => p.filter(x => x !== i));
+    updateSelection(picked.filter(index => index !== i));
   }
 
-  const remaining = useMemo(
-    () => options.map((_, i) => i).filter(i => !picked.includes(i)),
-    [options, picked],
-  );
-
   // checked 阶段下，把正确序列拆出来供对照展示
-  const correctSeq = phase === "checked" ? question.answer.split(",").map(s => s.trim()) : [];
+  const correctSeq = phase === "checked" ? question.answer.replace(/，/g, ",").split(",").map(s => s.trim()) : [];
 
   return (
     <div className="w-full">
@@ -94,7 +90,7 @@ export function WordOrderQuestion({
       {/* 已选区 */}
       <div
         className={cn(
-          "min-h-[64px] rounded-2xl border-2 border-dashed p-3 flex flex-wrap gap-2 mb-4 transition-colors",
+          "h-36 sm:h-28 overflow-y-auto rounded-2xl border-2 border-dashed p-3 flex flex-wrap items-start content-start gap-2 mb-4 transition-colors",
           disabled
             ? isCorrect
               ? "border-primary bg-primary/15"
@@ -125,7 +121,8 @@ export function WordOrderQuestion({
               whileTap={!disabled ? { scale: 0.98 } : undefined}
               onClick={() => unpick(i)}
               disabled={disabled}
-              className="h-10 px-4 inline-flex items-center rounded-xl bg-secondary text-white font-extrabold text-base"
+              aria-label={`移除词语 ${options[i]}`}
+              className="min-h-11 max-w-full px-4 py-2 inline-flex items-center rounded-xl bg-secondary text-white font-extrabold text-base break-words whitespace-normal text-left"
               style={{ boxShadow: "0 3px 0 0 #1899d6" }}
             >
               {options[i]}
@@ -136,24 +133,26 @@ export function WordOrderQuestion({
 
       {/* 待选区 */}
       <div className="flex flex-wrap gap-2">
-        {remaining.map(i => (
+        {options.map((_, i) => {
+          const selected = picked.includes(i);
+          return (
           <motion.button
             key={`opt-${i}`}
             type="button"
-            layout
-            whileTap={!disabled ? { scale: 0.98 } : undefined}
+            whileTap={!disabled && !selected ? { scale: 0.98 } : undefined}
             onClick={() => pick(i)}
-            disabled={disabled}
-            className="h-10 px-4 inline-flex items-center rounded-xl bg-white border-2 border-bg-softer text-ink font-extrabold text-base hover:border-secondary transition-colors"
+            disabled={disabled || selected}
+            aria-label={`${selected ? "已选择" : "选择词语"} ${options[i]}`}
+            className={cn("min-h-11 max-w-full px-4 py-2 inline-flex items-center rounded-xl bg-white border-2 border-bg-softer text-ink font-extrabold text-base transition-colors break-words whitespace-normal text-left",
+              selected ? "opacity-30 cursor-default" : "hover:border-secondary")}
             style={{ boxShadow: "0 3px 0 0 #e5e5e5" }}
           >
             {options[i]}
           </motion.button>
-        ))}
-        {remaining.length === 0 && disabled === false && (
-          <span className="text-xs text-ink-softer self-center">已全部选完，请检查</span>
-        )}
+          );
+        })}
       </div>
+      {picked.length === options.length && !disabled && <p className="mt-3 text-xs text-ink-softer">已全部选完，请检查</p>}
 
       {/* 错误时显示正确答案 */}
       {phase === "checked" && !isCorrect && (

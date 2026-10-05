@@ -20,7 +20,7 @@ import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
 import { useProgressStore } from "@/store/progress";
 import { ALL_COSMETICS } from "@/lib/cosmetics";
-import { hasUnseenAchievements } from "@/lib/achievements";
+import { hasUnseenAchievements, subscribeAchievementChanges } from "@/lib/achievements";
 import type { ComponentType } from "react";
 
 interface NavItem {
@@ -89,10 +89,13 @@ export function BottomNav() {
   const pathname = usePathname() ?? "/";
   const [hydrated, setHydrated] = useState(false);
   useEffect(() => setHydrated(true), []);
+  const [, refreshAchievements] = useState(0);
+  useEffect(() => subscribeAchievementChanges(() => refreshAchievements(v => v + 1)), []);
 
   const mistakes = useProgressStore(s => s.mistakesBank);
   const gems = useProgressStore(s => s.gems);
   const ownedCosmetics = useProgressStore(s => s.ownedCosmetics);
+  const selectedGrade = useProgressStore(s => s.selectedGrade);
 
   // 错题本徽章：今日可复习的数量
   const today = todayStr();
@@ -108,8 +111,16 @@ export function BottomNav() {
   // 个人中心徽章：未读成就
   const profileHasUnseen = hydrated && hasUnseenAchievements();
 
-  // 内嵌路径检查：sub-route 上的 lesson runner / reading 隐藏
-  if (HIDDEN_PREFIXES.some(p => pathname.startsWith(p))) return null;
+  // Story readers also have a fixed action bar; keep the navigation on story lists.
+  const isStoryReader = /^\/stories\/[^/]+\/[^/]+\/?$/.test(pathname);
+  const isKnowledgeGuide = /^\/book\/[^/]+\/guide\/[^/]+\/?$/.test(pathname);
+  const isGradePicker = pathname === "/" && (!hydrated || selectedGrade == null);
+  const hidden = isGradePicker || isStoryReader || isKnowledgeGuide || HIDDEN_PREFIXES.some(p => pathname.startsWith(p));
+  useEffect(() => {
+    document.body.classList.toggle("with-bottom-nav", !hidden);
+    return () => document.body.classList.remove("with-bottom-nav");
+  }, [hidden]);
+  if (hidden) return null;
 
   function getBadge(item: NavItem): { count?: number; dot?: boolean } | null {
     if (item.matchPrefix === "/review" && reviewBadge > 0) return { count: reviewBadge };

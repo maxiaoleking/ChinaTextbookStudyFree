@@ -1,0 +1,2727 @@
+{
+  "scope": "本地数据全量结构统计 + 规则筛查；不代表逐题语义审核",
+  "reading": [
+    {
+      "grade": 1,
+      "passages": 97,
+      "prose_and_story_count": 36,
+      "passage_chars_median": 133.5,
+      "stories": 32,
+      "story_chars_median": 123.5,
+      "length_ratio": 0.925,
+      "questions_per_story": {
+        "4": 32
+      },
+      "passages_without_unit": 97
+    },
+    {
+      "grade": 2,
+      "passages": 87,
+      "prose_and_story_count": 56,
+      "passage_chars_median": 312.5,
+      "stories": 32,
+      "story_chars_median": 320.5,
+      "length_ratio": 1.026,
+      "questions_per_story": {
+        "4": 32
+      },
+      "passages_without_unit": 87
+    },
+    {
+      "grade": 3,
+      "passages": 80,
+      "prose_and_story_count": 57,
+      "passage_chars_median": 444,
+      "stories": 32,
+      "story_chars_median": 442.0,
+      "length_ratio": 0.995,
+      "questions_per_story": {
+        "5": 32
+      },
+      "passages_without_unit": 80
+    },
+    {
+      "grade": 4,
+      "passages": 92,
+      "prose_and_story_count": 56,
+      "passage_chars_median": 585.0,
+      "stories": 32,
+      "story_chars_median": 553.5,
+      "length_ratio": 0.946,
+      "questions_per_story": {
+        "5": 32
+      },
+      "passages_without_unit": 92
+    },
+    {
+      "grade": 5,
+      "passages": 98,
+      "prose_and_story_count": 67,
+      "passage_chars_median": 637,
+      "stories": 32,
+      "story_chars_median": 646.5,
+      "length_ratio": 1.015,
+      "questions_per_story": {
+        "6": 32
+      },
+      "passages_without_unit": 98
+    },
+    {
+      "grade": 6,
+      "passages": 96,
+      "prose_and_story_count": 54,
+      "passage_chars_median": 795.5,
+      "stories": 28,
+      "story_chars_median": 765.0,
+      "length_ratio": 0.962,
+      "questions_per_story": {
+        "6": 28
+      },
+      "passages_without_unit": 96
+    }
+  ],
+  "subjects": {
+    "math": {
+      "units": 106,
+      "web_questions": 2438,
+      "exam_questions_not_built_into_web": 2438,
+      "outline_knowledge_points": 372,
+      "questions_per_outline_point_median": 6.0,
+      "zero_question_points": 1,
+      "points_below_four_questions": 52,
+      "low_coverage": [
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit3.json",
+          "point": "通过符号(=、>、<)比较大小",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit5.json",
+          "point": "连加、连减运算",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit5.json",
+          "point": "加减混合运算",
+          "count": 2
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit5.json",
+          "point": "解决问题（原来有多少）",
+          "count": 1
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit6.json",
+          "point": "计数单位“十”与数位认识",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学三年级上册_unit2.json",
+          "point": "用估算解决实际问题",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学三年级上册_unit4.json",
+          "point": "解决问题策略的选择",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学三年级上册_unit7.json",
+          "point": "拼图周长的变化规律",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学三年级上册_unit10.json",
+          "point": "逆向思维与逻辑推导",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学二年级上册_unit1.json",
+          "point": "统一长度单位的必要性",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学二年级上册_unit2.json",
+          "point": "含小括号的加减混合运算",
+          "count": 2
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学二年级上册_unit4.json",
+          "point": "乘法的初步认识",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit1.json",
+          "point": "小数乘法解决问题（估算与分段计费）",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit3.json",
+          "point": "用计算器探索规律",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit4.json",
+          "point": "可能性的大小应用（设计方案）",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit5.json",
+          "point": "方程的意义与等式的性质",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit5.json",
+          "point": "列方程解决稍复杂的实际问题（和倍、行程问题）",
+          "count": 2
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit6.json",
+          "point": "组合图形的面积与不规则图形估算",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学六年级上册_unit1.json",
+          "point": "分数乘分数的计算法则",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学六年级上册_unit2.json",
+          "point": "观测点的相对性",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学六年级上册_unit3.json",
+          "point": "工程问题（单位1的假设法）",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学六年级上册_unit5.json",
+          "point": "扇形的认识与圆心角",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学六年级上册_unit6.json",
+          "point": "生活中的百分数（利率/折扣）",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书 · 数学四年级上册_unit5.json",
+          "point": "平行线与垂线的画法",
+          "count": 0
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学三年级下册_unit1.json",
+          "point": "简单行走路线的描述",
+          "count": 2
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学三年级下册_unit2.json",
+          "point": "除法估算",
+          "count": 2
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学三年级下册_unit2.json",
+          "point": "除法的验算",
+          "count": 2
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学三年级下册_unit5.json",
+          "point": "面积的含义与比较",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学三年级下册_unit9.json",
+          "point": "统计图表与数据解读",
+          "count": 2
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学二年级下册_unit1.json",
+          "point": "收集数据的方法",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学二年级下册_unit6.json",
+          "point": "除法竖式的写法",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学二年级下册_unit6.json",
+          "point": "利用余数解决周期问题",
+          "count": 2
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学二年级下册_unit7.json",
+          "point": "近似数与估算",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学二年级下册_unit9.json",
+          "point": "列表法与对应关系",
+          "count": 2
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学五年级下册_unit3.json",
+          "point": "表面积计算与展开图",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学五年级下册_unit3.json",
+          "point": "容积与不规则物体体积测量",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学五年级下册_unit3.json",
+          "point": "立体图形涂色与堆叠规律探索",
+          "count": 2
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学五年级下册_unit4.json",
+          "point": "分数与除法的关系",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学五年级下册_unit4.json",
+          "point": "真分数、假分数与带分数",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学五年级下册_unit4.json",
+          "point": "分数的基本性质",
+          "count": 2
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学五年级下册_unit4.json",
+          "point": "分数和小数的互化",
+          "count": 2
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学五年级下册_unit9.json",
+          "point": "统计与概率综合分析",
+          "count": 2
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学六年级下册_unit2.json",
+          "point": "百分数综合方案对比",
+          "count": 2
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学六年级下册_unit4.json",
+          "point": "图形的放大与缩小",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学六年级下册_unit6.json",
+          "point": "统计图分析与概率决策",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学四年级下册_unit1.json",
+          "point": "解决问题：租船/租车优化方案",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学四年级下册_unit3.json",
+          "point": "减法的简便运算性质",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学四年级下册_unit4.json",
+          "point": "小数的读法与写法",
+          "count": 2
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学四年级下册_unit4.json",
+          "point": "小数的性质与化简改写",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学四年级下册_unit5.json",
+          "point": "三角形三边关系定理",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学四年级下册_unit6.json",
+          "point": "整数运算律推广到小数",
+          "count": 3
+        },
+        {
+          "file": "output/math/quizzes/义务教育教科书·数学四年级下册_unit9.json",
+          "point": "列表法与逻辑推理",
+          "count": 2
+        }
+      ],
+      "question_types": {
+        "true_false": 530,
+        "choice": 1378,
+        "fill_blank": 318,
+        "calculation": 212
+      },
+      "difficulty_labels": {
+        "1": 1392,
+        "2": 851,
+        "3": 195
+      },
+      "duplicate_question_stem_groups": [
+        [
+          {
+            "file": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit4.json",
+            "id": 2
+          },
+          {
+            "file": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit9.json",
+            "id": 2
+          }
+        ],
+        [
+          {
+            "file": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit4.json",
+            "id": 9
+          },
+          {
+            "file": "output/math/quizzes/义务教育教科书 · 数学二年级上册_unit5.json",
+            "id": 16
+          }
+        ],
+        [
+          {
+            "file": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit6.json",
+            "id": 15
+          },
+          {
+            "file": "output/math/quizzes/义务教育教科书·数学一年级下册_unit4.json",
+            "id": 12
+          }
+        ],
+        [
+          {
+            "file": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit8.json",
+            "id": 15
+          },
+          {
+            "file": "output/math/quizzes/义务教育教科书·数学一年级下册_unit2.json",
+            "id": 14
+          }
+        ],
+        [
+          {
+            "file": "output/math/quizzes/义务教育教科书 · 数学二年级上册_unit2.json",
+            "id": 2
+          },
+          {
+            "file": "output/math/quizzes/义务教育教科书·数学四年级下册_unit1.json",
+            "id": 1
+          }
+        ],
+        [
+          {
+            "file": "output/math/quizzes/义务教育教科书 · 数学二年级上册_unit3.json",
+            "id": 15
+          },
+          {
+            "file": "output/math/quizzes/义务教育教科书 · 数学四年级上册_unit3.json",
+            "id": 12
+          }
+        ],
+        [
+          {
+            "file": "output/math/quizzes/义务教育教科书 · 数学二年级上册_unit3.json",
+            "id": 22
+          },
+          {
+            "file": "output/math/quizzes/义务教育教科书 · 数学六年级上册_unit2.json",
+            "id": 22
+          }
+        ],
+        [
+          {
+            "file": "output/math/quizzes/义务教育教科书 · 数学二年级上册_unit5.json",
+            "id": 22
+          },
+          {
+            "file": "output/math/quizzes/义务教育教科书 · 数学二年级上册_unit8.json",
+            "id": 22
+          }
+        ],
+        [
+          {
+            "file": "output/math/quizzes/义务教育教科书 · 数学二年级上册_unit8.json",
+            "id": 3
+          },
+          {
+            "file": "output/math/quizzes/义务教育教科书·数学三年级下册_unit8.json",
+            "id": 1
+          }
+        ],
+        [
+          {
+            "file": "output/math/quizzes/义务教育教科书 · 数学六年级上册_unit3.json",
+            "id": 22
+          },
+          {
+            "file": "output/math/quizzes/义务教育教科书 · 数学六年级上册_unit9.json",
+            "id": 23
+          }
+        ],
+        [
+          {
+            "file": "output/math/quizzes/义务教育教科书 · 数学四年级上册_unit1.json",
+            "id": 23
+          },
+          {
+            "file": "output/math/quizzes/义务教育教科书 · 数学四年级上册_unit9.json",
+            "id": 22
+          }
+        ],
+        [
+          {
+            "file": "output/math/quizzes/义务教育教科书·数学一年级下册_unit1.json",
+            "id": 1
+          },
+          {
+            "file": "output/math/quizzes/义务教育教科书·数学一年级下册_unit8.json",
+            "id": 4
+          }
+        ],
+        [
+          {
+            "file": "output/math/quizzes/义务教育教科书·数学二年级下册_unit7.json",
+            "id": 6
+          },
+          {
+            "file": "output/math/quizzes/义务教育教科书·数学二年级下册_unit10.json",
+            "id": 6
+          }
+        ],
+        [
+          {
+            "file": "output/math/quizzes/义务教育教科书·数学五年级下册_unit2.json",
+            "id": 2
+          },
+          {
+            "file": "output/math/quizzes/义务教育教科书·数学五年级下册_unit9.json",
+            "id": 2
+          }
+        ],
+        [
+          {
+            "file": "output/math/quizzes/义务教育教科书·数学五年级下册_unit2.json",
+            "id": 14
+          },
+          {
+            "file": "output/math/quizzes/义务教育教科书·数学五年级下册_unit9.json",
+            "id": 14
+          }
+        ],
+        [
+          {
+            "file": "output/math/quizzes/义务教育教科书·数学五年级下册_unit9.json",
+            "id": 22
+          },
+          {
+            "file": "output/math/quizzes/义务教育教科书·数学六年级下册_unit6.json",
+            "id": 22
+          }
+        ]
+      ]
+    },
+    "chinese": {
+      "units": 94,
+      "web_questions": 2154,
+      "exam_questions_not_built_into_web": 2152,
+      "outline_knowledge_points": 299,
+      "questions_per_outline_point_median": 5,
+      "zero_question_points": 29,
+      "points_below_four_questions": 99,
+      "low_coverage": [
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit2.json",
+          "point": "田字格基础与基本笔顺",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit3.json",
+          "point": "j、q、x与ü相拼规则",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit8.json",
+          "point": "口语交际：场景音量控制",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文一年级下册_unit1.json",
+          "point": "汉语拼音字母表",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文一年级下册_unit3.json",
+          "point": "口语交际：礼貌请求",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文一年级下册_unit4.json",
+          "point": "长句子停顿朗读",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文一年级下册_unit4.json",
+          "point": "端午民俗与背景认知",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文一年级下册_unit5.json",
+          "point": "歇后语积累与应用",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级上册_unit2.json",
+          "point": "日记的书写格式",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级上册_unit3.json",
+          "point": "自主编创童话故事",
+          "count": 1
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级上册_unit4.json",
+          "point": "续编故事的逻辑性",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级上册_unit5.json",
+          "point": "事物的动态与静态观察",
+          "count": 1
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级上册_unit5.json",
+          "point": "观察事物的细微变化",
+          "count": 1
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级上册_unit5.json",
+          "point": "分类归纳观察所得",
+          "count": 1
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级上册_unit7.json",
+          "point": "句式的丰富与延展",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级上册_unit7.json",
+          "point": "人与自然的和谐主题",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级上册_unit8.json",
+          "point": "文言文的初步阅读",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级上册_unit8.json",
+          "point": "人物心理与言外之意",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级上册_unit8.json",
+          "point": "礼貌请教的策略",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级下册_unit2.json",
+          "point": "寓言寓意的理解与生活关联",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级下册_unit2.json",
+          "point": "看图画写一写：有序观察与逻辑构建",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级下册_unit2.json",
+          "point": "通知的规范格式书写",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级下册_unit3.json",
+          "point": "中国古代科技发明与历史演变",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级下册_unit4.json",
+          "point": "科学实验过程的有序逻辑记录",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级下册_unit5.json",
+          "point": "镜像宇宙与想象思维建模",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级下册_unit5.json",
+          "point": "想象与现实情感的结合",
+          "count": 1
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级下册_unit7.json",
+          "point": "多角度自然景象观察法",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级下册_unit7.json",
+          "point": "说明性文章的常见方法（列数字/作比较）",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级下册_unit7.json",
+          "point": "口语交际中的劝告技巧",
+          "count": 1
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级下册_unit8.json",
+          "point": "复述故事的策略与支架应用",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级下册_unit8.json",
+          "point": "转述句的改写规则",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文三年级下册_unit8.json",
+          "point": "民间故事的幽默感与思维反转",
+          "count": 1
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文二年级上册_unit4.json",
+          "point": "留言条的书写规范",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文二年级上册_unit5.json",
+          "point": "商量的口语交际技巧",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文二年级上册_unit7.json",
+          "point": "“无论...还是...”复杂句式",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文二年级上册_unit8.json",
+          "point": "成语故事内涵辨析",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文二年级上册_unit8.json",
+          "point": "拟声词的情境模拟",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文二年级上册_unit8.json",
+          "point": "八字成语与动物归类",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文二年级下册_unit1.json",
+          "point": "比喻与拟人修辞的辨析活用",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文二年级下册_unit1.json",
+          "point": "左上与左下包围结构汉字书写",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文二年级下册_unit2.json",
+          "point": "口语交际中的语气委婉表达",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文二年级下册_unit5.json",
+          "point": "寓言成语的核心内涵理解",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文二年级下册_unit5.json",
+          "point": "多角度观察与客观评价他人",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文二年级下册_unit5.json",
+          "point": "实践验证与独立思考能力",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文二年级下册_unit6.json",
+          "point": "太空生活失重现象的因果推论",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文二年级下册_unit6.json",
+          "point": "地质化石与地理变迁的科普认知",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文二年级下册_unit7.json",
+          "point": "自我认同与正向思维建立",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文二年级下册_unit7.json",
+          "point": "环境改造与劳动价值体现",
+          "count": 1
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文二年级下册_unit7.json",
+          "point": "故事脉络的逻辑梳理与续编",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级上册_unit3.json",
+          "point": "创造性复述故事",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级上册_unit6.json",
+          "point": "书信的格式与情感表达",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级上册_unit7.json",
+          "point": "即景观察的逻辑顺序",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级上册_unit8.json",
+          "point": "楷书结构特征赏析",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级下册_unit1.json",
+          "point": "借物/事抒情的方法",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级下册_unit1.json",
+          "point": "习作：把情感写具体",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级下册_unit2.json",
+          "point": "书写读后感",
+          "count": 1
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级下册_unit3.json",
+          "point": "搜集资料的基本方法",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级下册_unit3.json",
+          "point": "简单的研究报告撰写",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级下册_unit4.json",
+          "point": "爱国诗词意境鉴赏",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级下册_unit4.json",
+          "point": "抓动作神态体会内心",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级下册_unit4.json",
+          "point": "习作：描写人物的心理状态",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级下册_unit5.json",
+          "point": "侧面描写与烘托",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级下册_unit5.json",
+          "point": "选用典型事例表现人物",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级下册_unit6.json",
+          "point": "文言逻辑谬误分析",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级下册_unit6.json",
+          "point": "探险故事的情节设计",
+          "count": 1
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级下册_unit7.json",
+          "point": "不同文体的表达差异",
+          "count": 1
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级下册_unit7.json",
+          "point": "整理资料介绍文化遗产",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级下册_unit8.json",
+          "point": "叙事中的自嘲与真诚",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文五年级下册_unit8.json",
+          "point": "漫画启示类习作",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文六年级上册_unit2.json",
+          "point": "点面结合的场面描写",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文六年级上册_unit2.json",
+          "point": "革命英雄人物形象塑造",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文六年级上册_unit2.json",
+          "point": "对话描写的多样化表达",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文六年级上册_unit6.json",
+          "point": "倡议书的格式与写作",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文六年级下册_unit1.json",
+          "point": "详写与略写的处理技巧",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文六年级下册_unit1.json",
+          "point": "按时间顺序记叙的方法",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文六年级下册_unit1.json",
+          "point": "“先总后分”的逻辑结构",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文六年级下册_unit2.json",
+          "point": "对比翻译法与语言特色",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文六年级下册_unit3.json",
+          "point": "融情于景与融情于事",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文六年级下册_unit3.json",
+          "point": "环境描写随心情变化",
+          "count": 1
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文六年级下册_unit5.json",
+          "point": "科幻想象与逻辑构建",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文四年级上册_unit4.json",
+          "point": "感悟神话神奇的想象",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文四年级上册_unit4.json",
+          "point": "神话题材叙事结构复述",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文四年级上册_unit6.json",
+          "point": "记叙文长话短说（缩句）",
+          "count": 3
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文四年级上册_unit7.json",
+          "point": "理解重点词句的时代含义",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文四年级下册_unit1.json",
+          "point": "口语交际：转述",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文四年级下册_unit2.json",
+          "point": "阅读策略：提问并解决问题",
+          "count": 1
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文四年级下册_unit3.json",
+          "point": "诗歌语言的凝练与独特性",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文四年级下册_unit3.json",
+          "point": "短诗创作与集册",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文四年级下册_unit4.json",
+          "point": "动作与神态的细节描写",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文四年级下册_unit4.json",
+          "point": "冒号的用法与排版规范",
+          "count": 2
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文四年级下册_unit5.json",
+          "point": "移步换景的游览顺序",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文四年级下册_unit5.json",
+          "point": "游记过渡句的衔接",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文四年级下册_unit5.json",
+          "point": "场景细节的详略安排",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文四年级下册_unit7.json",
+          "point": "侧面描写与反衬手法",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文四年级下册_unit7.json",
+          "point": "咏物言志诗的鉴赏",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文四年级下册_unit7.json",
+          "point": "习作：我的“自画像”",
+          "count": 0
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文四年级下册_unit8.json",
+          "point": "童话想象与现实心理",
+          "count": 1
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文四年级下册_unit8.json",
+          "point": "近义词语的辨析与运用",
+          "count": 1
+        },
+        {
+          "file": "output/chinese/quizzes/义务教育教科书·语文四年级下册_unit8.json",
+          "point": "经典故事新编",
+          "count": 0
+        }
+      ],
+      "question_types": {
+        "true_false": 470,
+        "choice": 939,
+        "fill_blank_text": 282,
+        "matching": 279,
+        "word_order": 184
+      },
+      "difficulty_labels": {
+        "1": 1213,
+        "2": 793,
+        "3": 148
+      },
+      "duplicate_question_stem_groups": [
+        [
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit1.json",
+            "id": 22
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit1.json",
+            "id": 23
+          }
+        ],
+        [
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit2.json",
+            "id": 23
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit3.json",
+            "id": 22
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit4.json",
+            "id": 22
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit4.json",
+            "id": 23
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit5.json",
+            "id": 22
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit5.json",
+            "id": 23
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit6.json",
+            "id": 22
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit6.json",
+            "id": 23
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit7.json",
+            "id": 22
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit7.json",
+            "id": 23
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit8.json",
+            "id": 22
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit8.json",
+            "id": 23
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文一年级下册_unit1.json",
+            "id": 22
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文一年级下册_unit3.json",
+            "id": 22
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文一年级下册_unit5.json",
+            "id": 22
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文一年级下册_unit5.json",
+            "id": 23
+          }
+        ],
+        [
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文三年级上册_unit5.json",
+            "id": 22
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文二年级下册_unit6.json",
+            "id": 22
+          }
+        ],
+        [
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文三年级上册_unit8.json",
+            "id": 7
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文五年级下册_unit6.json",
+            "id": 8
+          }
+        ],
+        [
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文三年级下册_unit5.json",
+            "id": 7
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文四年级上册_unit7.json",
+            "id": 6
+          }
+        ],
+        [
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文三年级下册_unit8.json",
+            "id": 6
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文六年级上册_unit2.json",
+            "id": 6
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文六年级上册_unit4.json",
+            "id": 6
+          }
+        ],
+        [
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文二年级上册_unit5.json",
+            "id": 22
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文二年级上册_unit5.json",
+            "id": 23
+          }
+        ],
+        [
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文二年级下册_unit7.json",
+            "id": 6
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文五年级上册_unit2.json",
+            "id": 14
+          }
+        ],
+        [
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文二年级下册_unit7.json",
+            "id": 22
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文二年级下册_unit7.json",
+            "id": 23
+          }
+        ],
+        [
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文五年级上册_unit4.json",
+            "id": 6
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文六年级上册_unit1.json",
+            "id": 6
+          }
+        ],
+        [
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文五年级上册_unit6.json",
+            "id": 6
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文五年级下册_unit7.json",
+            "id": 8
+          },
+          {
+            "file": "output/chinese/quizzes/义务教育教科书·语文四年级下册_unit2.json",
+            "id": 6
+          }
+        ]
+      ]
+    },
+    "english": {
+      "units": 48,
+      "web_questions": 1102,
+      "exam_questions_not_built_into_web": 1096,
+      "outline_knowledge_points": 160,
+      "questions_per_outline_point_median": 1.0,
+      "zero_question_points": 75,
+      "points_below_four_questions": 102,
+      "low_coverage": [
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit1.json",
+          "point": "见面问候与自我介绍句型",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit1.json",
+          "point": "常用学习用品词汇识记",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit1.json",
+          "point": "物品持有表达句型",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit3.json",
+          "point": "字母Ee至Ii的音形辨析",
+          "count": 3
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit4.json",
+          "point": "字母Jj至Nn的音形辨析",
+          "count": 3
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit5.json",
+          "point": "字母Oo至Tt的音形辨析",
+          "count": 2
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit6.json",
+          "point": "数字6-10的认读与应用",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit6.json",
+          "point": "年龄询问与生日祝福",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit6.json",
+          "point": "字母Uu至Zz的音形辨析",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit1.json",
+          "point": "语音：字母y在词尾的发音",
+          "count": 2
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit2.json",
+          "point": "频度副词often的用法",
+          "count": 3
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit2.json",
+          "point": "语音：字母组合ee和ea的发音",
+          "count": 2
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit3.json",
+          "point": "饮食名词与味道形容词",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit3.json",
+          "point": "表达饮食意愿与偏好",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit3.json",
+          "point": "名词复数的变化规则",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit3.json",
+          "point": "语音：字母组合ow的发音规律",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit4.json",
+          "point": "语音：字母组合oo的发音辨析",
+          "count": 2
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit5.json",
+          "point": "空间位置的综合描述",
+          "count": 2
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit5.json",
+          "point": "语音：字母组合ai和ay的发音",
+          "count": 3
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit6.json",
+          "point": "限定词any在疑问句中的用法",
+          "count": 3
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit6.json",
+          "point": "语音：字母组合ou的发音规律",
+          "count": 2
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit2.json",
+          "point": "交通工具及出行方式表达",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit2.json",
+          "point": "频度副词在出行习惯中的应用",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit2.json",
+          "point": "交通标志与安全规则",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit3.json",
+          "point": "be going to 结构表示计划",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit3.json",
+          "point": "计划相关的活动词汇与时间状语",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit3.json",
+          "point": "询问并交流未来行程安排",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit4.json",
+          "point": "个人兴趣爱好表达 (Hobbies)",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit4.json",
+          "point": "一般现在时第三人称单数陈述",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit4.json",
+          "point": "询问他人信息的特殊疑问句",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit5.json",
+          "point": "职业名词与工作场所对应",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit5.json",
+          "point": "职业及通勤方式的询问",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit5.json",
+          "point": "职业规划与个人兴趣的逻辑关联",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit6.json",
+          "point": "情绪与心理状态形容词",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit6.json",
+          "point": "针对负面情绪提出缓解建议",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit6.json",
+          "point": "条件句中表达情绪调节",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit7.json",
+          "point": "寓言故事要素拆解与理解",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit7.json",
+          "point": "综合语言功能句型总结",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit7.json",
+          "point": "语音语调与连读技巧",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）四年级上册_unit1.json",
+          "point": "元音字母a在开音节中的发音",
+          "count": 2
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）四年级上册_unit2.json",
+          "point": "学习用品及书籍词汇",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）四年级上册_unit2.json",
+          "point": "询问书包内物品",
+          "count": 1
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）四年级上册_unit2.json",
+          "point": "元音字母i在开音节中的发音",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）四年级上册_unit3.json",
+          "point": "人物外貌与性格描述",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）四年级上册_unit3.json",
+          "point": "询问他人身份与特征",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）四年级上册_unit3.json",
+          "point": "元音字母o在开音节中的发音",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）四年级上册_unit4.json",
+          "point": "居室名称与家具词汇",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）四年级上册_unit4.json",
+          "point": "元音字母u在开音节中的发音",
+          "count": 1
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）四年级上册_unit5.json",
+          "point": "食物与餐具词汇",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）四年级上册_unit5.json",
+          "point": "点餐与就餐礼貌表达",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）四年级上册_unit5.json",
+          "point": "字母e在单词结尾的发音规律",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）四年级上册_unit6.json",
+          "point": "家庭成员与职业名称",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）四年级上册_unit6.json",
+          "point": "询问家庭人数与职业",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）四年级上册_unit6.json",
+          "point": "五大元音字母发音综合辨析",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）三年级下册_unit1.json",
+          "point": "元音字母a在闭音节中的发音",
+          "count": 2
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）三年级下册_unit2.json",
+          "point": "元音字母e在闭音节中的发音",
+          "count": 3
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）三年级下册_unit3.json",
+          "point": "元音字母i在闭音节中的发音",
+          "count": 3
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）三年级下册_unit4.json",
+          "point": "方位介词的辨析与应用",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）三年级下册_unit4.json",
+          "point": "询问位置及其一般疑问句回答",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）三年级下册_unit4.json",
+          "point": "元音字母o在闭音节中的发音",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）三年级下册_unit5.json",
+          "point": "元音字母u在闭音节中的发音",
+          "count": 2
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）五年级下册_unit1.json",
+          "point": "日常作息动词短语与时间表达",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）五年级下册_unit1.json",
+          "point": "询问并回答作息时间 (When句型)",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）五年级下册_unit1.json",
+          "point": "字母组合cl和pl的发音规律",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）五年级下册_unit2.json",
+          "point": "字母组合br和gr的发音规律",
+          "count": 2
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）五年级下册_unit3.json",
+          "point": "询问活动举办的时间 (When is...?)",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）五年级下册_unit3.json",
+          "point": "字母组合ch和sh的发音规律",
+          "count": 2
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）五年级下册_unit4.json",
+          "point": "序数词的构成与缩写规则",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）五年级下册_unit4.json",
+          "point": "具体日期的表达法",
+          "count": 1
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）五年级下册_unit4.json",
+          "point": "询问生日或具体活动的日期",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）五年级下册_unit4.json",
+          "point": "字母组合th的发音规律",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）五年级下册_unit5.json",
+          "point": "字母组合-ng和-nk的发音规律",
+          "count": 1
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）五年级下册_unit6.json",
+          "point": "现在进行时的一般疑问句",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）五年级下册_unit6.json",
+          "point": "公共场所的行为准则与祈使句",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）五年级下册_unit6.json",
+          "point": "字母组合wh的发音规律",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）六年级下册_unit1.json",
+          "point": "形容词比较级的规则构成",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）六年级下册_unit1.json",
+          "point": "测量数据与尺寸的询问与表达",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）六年级下册_unit1.json",
+          "point": "A be 比较级 than B 句型运用",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）六年级下册_unit2.json",
+          "point": "动词过去式的规则变化",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）六年级下册_unit2.json",
+          "point": "一般过去时肯定句陈述",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）六年级下册_unit2.json",
+          "point": "一般过去时疑问句及其简略回答",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）六年级下册_unit3.json",
+          "point": "高频不规则动词过去式转换",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）六年级下册_unit3.json",
+          "point": "过去旅程及交通方式的询问",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）六年级下册_unit3.json",
+          "point": "过去发生事件的逻辑叙述",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）六年级下册_unit4.json",
+          "point": "There be 句型的时态对比",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）六年级下册_unit4.json",
+          "point": "个人能力与爱好的对比表达",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）六年级下册_unit4.json",
+          "point": "形容词最高级的初步感知与应用",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）六年级下册_unit5.json",
+          "point": "词汇逻辑分类与冠词搭配",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）六年级下册_unit5.json",
+          "point": "叙事逻辑连接词的应用",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）六年级下册_unit5.json",
+          "point": "一般将来时的计划与展望",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit1.json",
+          "point": "字母组合er在词尾的发音规则",
+          "count": 1
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit3.json",
+          "point": "天气形容词的认读",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit3.json",
+          "point": "询问天气状况",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit3.json",
+          "point": "基于天气的活动建议",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit4.json",
+          "point": "农场蔬菜与动物词汇(复数)",
+          "count": 3
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit4.json",
+          "point": "these与those指代辨析",
+          "count": 1
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit4.json",
+          "point": "询问物品数量",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit4.json",
+          "point": "字母组合ar和al的发音规律",
+          "count": 1
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit5.json",
+          "point": "衣物类词汇与动词搭配",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit5.json",
+          "point": "询问物品归属(所有格)",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit5.json",
+          "point": "名词性物主代词mine与yours",
+          "count": 0
+        },
+        {
+          "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit6.json",
+          "point": "字母组合le在词尾的发音",
+          "count": 2
+        }
+      ],
+      "question_types": {
+        "true_false": 240,
+        "choice": 480,
+        "fill_blank_text": 192,
+        "matching": 96,
+        "word_order": 94
+      },
+      "difficulty_labels": {
+        "1": 603,
+        "2": 411,
+        "3": 88
+      },
+      "duplicate_question_stem_groups": [
+        [
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit1.json",
+            "id": 20
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit2.json",
+            "id": 20
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit3.json",
+            "id": 20
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）四年级上册_unit5.json",
+            "id": 20
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit3.json",
+            "id": 20
+          }
+        ],
+        [
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit1.json",
+            "id": 22
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit1.json",
+            "id": 23
+          }
+        ],
+        [
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit3.json",
+            "id": 23
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit6.json",
+            "id": 22
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit6.json",
+            "id": 23
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit2.json",
+            "id": 22
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit2.json",
+            "id": 23
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit3.json",
+            "id": 22
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit3.json",
+            "id": 23
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）三年级下册_unit4.json",
+            "id": 22
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）三年级下册_unit4.json",
+            "id": 23
+          }
+        ],
+        [
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit4.json",
+            "id": 20
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）四年级上册_unit3.json",
+            "id": 20
+          }
+        ],
+        [
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit6.json",
+            "id": 21
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit5.json",
+            "id": 20
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit3.json",
+            "id": 20
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit5.json",
+            "id": 20
+          }
+        ],
+        [
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit6.json",
+            "id": 22
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）五年级上册_unit6.json",
+            "id": 23
+          }
+        ],
+        [
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit1.json",
+            "id": 22
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit1.json",
+            "id": 23
+          }
+        ],
+        [
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit4.json",
+            "id": 20
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）五年级下册_unit6.json",
+            "id": 20
+          }
+        ],
+        [
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit7.json",
+            "id": 20
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit4.json",
+            "id": 20
+          }
+        ],
+        [
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit7.json",
+            "id": 22
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）六年级上册_unit7.json",
+            "id": 23
+          }
+        ],
+        [
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）四年级上册_unit1.json",
+            "id": 20
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit1.json",
+            "id": 20
+          }
+        ],
+        [
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）五年级下册_unit5.json",
+            "id": 22
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）五年级下册_unit5.json",
+            "id": 23
+          }
+        ],
+        [
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）五年级下册_unit6.json",
+            "id": 22
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）五年级下册_unit6.json",
+            "id": 23
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）六年级下册_unit5.json",
+            "id": 22
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）六年级下册_unit5.json",
+            "id": 23
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit4.json",
+            "id": 22
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit4.json",
+            "id": 23
+          }
+        ],
+        [
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）六年级下册_unit2.json",
+            "id": 22
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）六年级下册_unit2.json",
+            "id": 23
+          }
+        ],
+        [
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit2.json",
+            "id": 20
+          },
+          {
+            "file": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit2.json",
+            "id": 21
+          }
+        ]
+      ]
+    },
+    "science": {
+      "units": 37,
+      "web_questions": 851,
+      "exam_questions_not_built_into_web": 850,
+      "outline_knowledge_points": 197,
+      "questions_per_outline_point_median": 2,
+      "zero_question_points": 85,
+      "points_below_four_questions": 131,
+      "low_coverage": [
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学一年级上册_unit1.json",
+          "point": "植物的辨别与生命意识",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学一年级上册_unit1.json",
+          "point": "根据叶寻找和辨认植物",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学一年级上册_unit2.json",
+          "point": "校园植物的实地调查",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学一年级上册_unit2.json",
+          "point": "植物的共性总结",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学一年级上册_unit2.json",
+          "point": "植物与人类生活的关系",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学一年级上册_unit3.json",
+          "point": "观察中的直观比较",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学一年级下册_unit1.json",
+          "point": "观察并描述物体的特征",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学一年级下册_unit1.json",
+          "point": "比较物体的轻重",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学一年级下册_unit1.json",
+          "point": "物体的形状与空间填充",
+          "count": 2
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学一年级下册_unit1.json",
+          "point": "根据特征给物体分类",
+          "count": 2
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学一年级下册_unit1.json",
+          "point": "水的特征观察与对比",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学一年级下册_unit1.json",
+          "point": "认识空气及其特征",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学一年级下册_unit2.json",
+          "point": "动物的基本特征与辨别",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学一年级下册_unit2.json",
+          "point": "校园动物的寻找与观察",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学一年级下册_unit2.json",
+          "point": "观察蜗牛的结构与运动",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学一年级下册_unit2.json",
+          "point": "动物生存需求与环境搭建",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学一年级下册_unit2.json",
+          "point": "鱼的结构与水中适应",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学一年级下册_unit2.json",
+          "point": "动物的多样性与分类",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级上册_unit1.json",
+          "point": "物质在水中的溶解限度",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级上册_unit1.json",
+          "point": "加快溶解的方法及对比实验",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级上册_unit2.json",
+          "point": "热空气上升及风的成因",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级上册_unit3.json",
+          "point": "气温计的读数与测量",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级上册_unit3.json",
+          "point": "降水量的测量与降水等级",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级上册_unit3.json",
+          "point": "风向与风力的观测",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级上册_unit3.json",
+          "point": "云量的识别与形态分类",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级上册_unit3.json",
+          "point": "天气预报的制作流程",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级上册_unit3.json",
+          "point": "天气与气候的差异",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级下册_unit1.json",
+          "point": "参照物与运动状态判断",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级下册_unit1.json",
+          "point": "位置的描述（方向与距离）",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级下册_unit1.json",
+          "point": "运动轨迹的分类（直线与曲线）",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级下册_unit2.json",
+          "point": "蚕的生长发育阶段（变态发育）",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级下册_unit2.json",
+          "point": "动物的繁殖方式（卵生与胎生）",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级下册_unit2.json",
+          "point": "动物的生命周期规律",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级下册_unit3.json",
+          "point": "天体特征对比（太阳与月球）",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级下册_unit3.json",
+          "point": "影子的产生条件与变化规律",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级下册_unit3.json",
+          "point": "月相变化的周期性规律",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级下册_unit3.json",
+          "point": "地球形状的认知证据",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学三年级下册_unit3.json",
+          "point": "地球表面的海陆分布",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学二年级上册_unit1.json",
+          "point": "地球家园的组成要素",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学二年级上册_unit1.json",
+          "point": "土壤与生物的生存关系",
+          "count": 2
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学二年级上册_unit1.json",
+          "point": "天气现象及其影响",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学二年级上册_unit1.json",
+          "point": "人类与健康的地球关系",
+          "count": 2
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学二年级上册_unit2.json",
+          "point": "自然世界与人工世界",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学二年级上册_unit2.json",
+          "point": "书的历史与材料演变",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学二年级上册_unit2.json",
+          "point": "改变材料形状增强性能",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学二年级上册_unit2.json",
+          "point": "物品的组成与功能设计",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学二年级上册_unit2.json",
+          "point": "材料的来源与回收利用",
+          "count": 2
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学二年级下册_unit1.json",
+          "point": "磁铁的非接触吸引与隔物吸铁",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学二年级下册_unit1.json",
+          "point": "制作简易水浮式指南针",
+          "count": 2
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学二年级下册_unit2.json",
+          "point": "综合运用感官进行观察与比较",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学二年级下册_unit2.json",
+          "point": "人体反应速度的测试与提升",
+          "count": 2
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学二年级下册_unit2.json",
+          "point": "身体信息的记录、推测与健康保护",
+          "count": 1
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级上册_unit1.json",
+          "point": "光源的辨析",
+          "count": 2
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级上册_unit1.json",
+          "point": "光的直线传播与遮挡",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级上册_unit1.json",
+          "point": "光的折射现象",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级上册_unit1.json",
+          "point": "光的色散与合成",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级上册_unit1.json",
+          "point": "光的反射与潜望镜原理",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级上册_unit2.json",
+          "point": "典型地形地貌的特征与成因",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级上册_unit2.json",
+          "point": "地球内部圈层结构",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级上册_unit2.json",
+          "point": "地震与火山的成因",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级上册_unit2.json",
+          "point": "风与水对外力的侵蚀与沉积作用",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级上册_unit3.json",
+          "point": "水钟的设计与水位控制",
+          "count": 2
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级上册_unit3.json",
+          "point": "计时工具的演变与精准计时",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级上册_unit4.json",
+          "point": "体质监测与BMI计算",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit1.json",
+          "point": "种子发芽的对比实验设计",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit1.json",
+          "point": "种子发芽实验的数据分析与结论",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit1.json",
+          "point": "植物生长对光照的需求与光合作用",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit1.json",
+          "point": "动物对环境的选择性（蚯蚓实验）",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit1.json",
+          "point": "生物对环境改变的适应行为",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit1.json",
+          "point": "食物链与食物网的构建",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit1.json",
+          "point": "生态系统的定义与生态瓶制作",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit2.json",
+          "point": "船的历史、动力演变与结构优化",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit2.json",
+          "point": "用沉的材料造船与浮力原理",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit2.json",
+          "point": "增加船的载重量及其影响因素",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit2.json",
+          "point": "船的动力系统与方向控制装置",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit2.json",
+          "point": "工程设计流程：设计、制作与测试小船",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit3.json",
+          "point": "人类活动引发的环境问题及后果",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit3.json",
+          "point": "珍惜水资源与农业滴灌技术",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit3.json",
+          "point": "分析实际环境问题的多元决策",
+          "count": 2
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit4.json",
+          "point": "水的状态变化与温度关系",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit4.json",
+          "point": "水的蒸发与凝结中的能量传递",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit4.json",
+          "point": "热传导：热在金属中的传递规律",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit4.json",
+          "point": "热在液体和气体中的对流现象",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学五年级下册_unit4.json",
+          "point": "保温杯的设计原理（减缓热传递）",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级上册_unit1.json",
+          "point": "放大镜的特征与功能",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级上册_unit1.json",
+          "point": "组合凸透镜与显微镜原理",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级上册_unit1.json",
+          "point": "洋葱表皮细胞装片制作与观察",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级上册_unit1.json",
+          "point": "生物细胞的多样性",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级上册_unit1.json",
+          "point": "水中微小生物的观察与控制",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级上册_unit1.json",
+          "point": "微生物与人类健康的关系",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级上册_unit2.json",
+          "point": "昼夜交替现象的成因假设",
+          "count": 2
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级上册_unit2.json",
+          "point": "人类认识地球运动的历史学说",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级上册_unit3.json",
+          "point": "斜面的省力作用与应用",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级上册_unit4.json",
+          "point": "奥斯特实验：电生磁现象",
+          "count": 2
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级上册_unit4.json",
+          "point": "电磁铁的制作与属性验证",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级上册_unit4.json",
+          "point": "影响电磁铁磁性强弱的因素",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级上册_unit4.json",
+          "point": "电动机的结构与工作原理",
+          "count": 2
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级上册_unit4.json",
+          "point": "太阳能作为地球能量的源头",
+          "count": 2
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级下册_unit2.json",
+          "point": "校园生物大搜索与调查",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级下册_unit2.json",
+          "point": "二歧分类法及其应用",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级下册_unit2.json",
+          "point": "植物与动物的遗传与变异",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级下册_unit2.json",
+          "point": "古代生物化石与演化",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级下册_unit2.json",
+          "point": "生物多样性的保护意义与措施",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级下册_unit3.json",
+          "point": "八颗行星的运行规律与建模",
+          "count": 1
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级下册_unit3.json",
+          "point": "日食的成因与模拟实验",
+          "count": 1
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级下册_unit3.json",
+          "point": "星座的认识与星座模型构建",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学六年级下册_unit3.json",
+          "point": "银河系及浩瀚的宇宙",
+          "count": 3
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级上册_unit1.json",
+          "point": "声音的产生与描述",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级上册_unit1.json",
+          "point": "声音的传播介质",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级上册_unit1.json",
+          "point": "人耳的结构与听觉形成",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级上册_unit1.json",
+          "point": "音量与音高的变化规律",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级上册_unit1.json",
+          "point": "弦乐器的音高控制",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级上册_unit2.json",
+          "point": "测量与提升肺活量",
+          "count": 2
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级上册_unit2.json",
+          "point": "食物的分类与统计",
+          "count": 2
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级上册_unit2.json",
+          "point": "食物中的营养成分及其检测",
+          "count": 1
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级上册_unit2.json",
+          "point": "平衡膳食宝塔的应用",
+          "count": 2
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级上册_unit3.json",
+          "point": "重力与拉力对运动的影响",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级上册_unit3.json",
+          "point": "反冲力的应用与气球小车",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级上册_unit3.json",
+          "point": "弹力与弹簧测力计的使用",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级上册_unit3.json",
+          "point": "摩擦力的产生与增减",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级上册_unit3.json",
+          "point": "能量与运动速度的关系",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级上册_unit3.json",
+          "point": "动力小车的设计与迭代",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级下册_unit1.json",
+          "point": "种子的外部特征与结构",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级下册_unit1.json",
+          "point": "种植活动与生长观察记录",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级下册_unit1.json",
+          "point": "根、茎、叶的生理功能",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级下册_unit1.json",
+          "point": "花、果实和种子的发育与传播",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级下册_unit1.json",
+          "point": "植物的生命周期与环境需求",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级下册_unit2.json",
+          "point": "闭合电路的形成与控制",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级下册_unit2.json",
+          "point": "电路故障的检测与排除",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级下册_unit2.json",
+          "point": "隐蔽连接的逻辑推测",
+          "count": 0
+        },
+        {
+          "file": "output/science/quizzes/义务教育教科书·科学四年级下册_unit2.json",
+          "point": "导体与绝缘体的辨析及安全用电",
+          "count": 0
+        }
+      ],
+      "question_types": {
+        "true_false": 185,
+        "choice": 481,
+        "fill_blank": 74,
+        "fill_blank_text": 111
+      },
+      "difficulty_labels": {
+        "1": 410,
+        "2": 362,
+        "3": 79
+      },
+      "duplicate_question_stem_groups": []
+    }
+  },
+  "flags": [],
+  "missing_audio": [],
+  "invalid_passage_segments": [],
+  "intentional_nonspoken_segments": [
+    {
+      "bookId": "chinese-g5down",
+      "id": "chinese-g5down-p20",
+      "subject": "chinese",
+      "grade": 5,
+      "sentence_index": 4,
+      "text": "字形的象形性较强，写法也不固定，如，“田”字可以写作〔六种甲骨文字形，见课本原页〕。",
+      "reason": "方括号是古文字图示的说明。请查看课本原页第48页的实际字形；这两句不作跟读音频。"
+    },
+    {
+      "bookId": "chinese-g5down",
+      "id": "chinese-g5down-p20",
+      "subject": "chinese",
+      "grade": 5,
+      "sentence_index": 8,
+      "text": "有些字形繁简差别很大，如，“车”字早期一般写作〔四种早期金文字形〕，看上去很烦琐，中晚期一般写作〔两种中晚期金文字形〕，与现在的繁体字“車”差别不大。",
+      "reason": "方括号是古文字图示的说明。请查看课本原页第48页的实际字形；这两句不作跟读音频。"
+    },
+    {
+      "bookId": "english-g4up",
+      "id": "english-g4up-p7",
+      "subject": "english",
+      "grade": 4,
+      "sentence_index": 8,
+      "text": "What's this? It's a ____.",
+      "reason": "横线来自课本黑板上的填空，保留原样，不直接给出答案；该句不作跟读音频。"
+    },
+    {
+      "bookId": "english-g6down",
+      "id": "english-g6down-p14",
+      "subject": "english",
+      "grade": 6,
+      "sentence_index": 0,
+      "text": "Wu Binbin: Mum, I ____ an interesting dream last night.",
+      "reason": "这是教材中的听力填空。横线保留原样，未填答案的句子不作跟读音频。"
+    },
+    {
+      "bookId": "english-g6down",
+      "id": "english-g6down-p14",
+      "subject": "english",
+      "grade": 6,
+      "sentence_index": 2,
+      "text": "Wu Binbin: I had a race with Dad and Max, but I ____ ____ ____.",
+      "reason": "这是教材中的听力填空。横线保留原样，未填答案的句子不作跟读音频。"
+    },
+    {
+      "bookId": "english-g6down",
+      "id": "english-g6down-p14",
+      "subject": "english",
+      "grade": 6,
+      "sentence_index": 4,
+      "text": "Wu Binbin: Robin ____ me some water. I ____ it and then could run very fast. Suddenly I tripped and fell. Then I woke up.",
+      "reason": "这是教材中的听力填空。横线保留原样，未填答案的句子不作跟读音频。"
+    },
+    {
+      "bookId": "english-g6up",
+      "id": "english-g6up-p19",
+      "subject": "english",
+      "grade": 6,
+      "sentence_index": 2,
+      "text": "Call Amy: 134…",
+      "reason": "电话号码后面的数字在教材原图中已模糊处理，这里用省略号表示，不补造号码，也不朗读不完整号码。"
+    },
+    {
+      "bookId": "english-g6up",
+      "id": "english-g6up-p19",
+      "subject": "english",
+      "grade": 6,
+      "sentence_index": 8,
+      "text": "Call Mike: 136…",
+      "reason": "电话号码后面的数字在教材原图中已模糊处理，这里用省略号表示，不补造号码，也不朗读不完整号码。"
+    }
+  ]
+}

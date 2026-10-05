@@ -3,12 +3,15 @@
 /**
  * RightRail —— 桌面端右侧 rail（仿 Duolingo web）
  *
- * 顺序：StatsBar HUD / DailyQuestsCard / LeaderboardTeaserCard / CreateProfilePromptCard / 页脚
+ * 顺序：StatsBar HUD / 学习里程碑 / 每日任务
  */
 
 import { StatsBar } from "@/components/StatsBar";
 import { useProgressStore } from "@/store/progress";
 import { Lightning, Trophy } from "@/components/icons";
+import { countCompletedCourses } from "@/lib/courseProgress";
+import { localStudyDate } from "@/lib/learningLimit";
+import { useProgressTicker } from "@/lib/useProgressTicker";
 
 export function RightRail() {
   return (
@@ -16,10 +19,8 @@ export function RightRail() {
       <div className="flex justify-end">
         <StatsBar compact />
       </div>
-      <LeaderboardTeaserCard />
+      <LearningMilestoneCard />
       <DailyQuestsCard />
-      <CreateProfilePromptCard />
-      <FooterLinks />
     </div>
   );
 }
@@ -35,20 +36,26 @@ function CardShell({ children }: { children: React.ReactNode }) {
   );
 }
 
-function LeaderboardTeaserCard() {
-  const completed = useProgressStore(s => Object.keys(s.completedLessons).length);
+function LearningMilestoneCard() {
+  const completed = useProgressStore(s => countCompletedCourses(s.completedLessons));
   const NEED = 10;
   const remaining = Math.max(0, NEED - completed);
-  if (remaining === 0) return null;
+  const reached = remaining === 0;
+  const pct = Math.min(100, (completed / NEED) * 100);
   return (
     <CardShell>
       <div className="flex items-center gap-3">
-        <div className="w-10 h-10 rounded-xl bg-bg-soft border-2 border-bg-softer flex items-center justify-center shrink-0">
-          <Trophy className="w-5 h-5 text-ink-softer" />
+        <div className={`w-10 h-10 rounded-xl border-2 flex items-center justify-center shrink-0 ${reached ? "bg-primary/10 border-primary/30" : "bg-bg-soft border-bg-softer"}`}>
+          <Trophy className={`w-5 h-5 ${reached ? "text-primary-dark" : "text-ink-softer"}`} />
         </div>
         <div className="flex-1 min-w-0">
-          <div className="text-sm font-extrabold text-ink">解锁排行榜</div>
-          <div className="text-xs text-ink-light mt-0.5">还差 {remaining} 节课</div>
+          <div className="text-sm font-extrabold text-ink">学习里程碑</div>
+          <div className="text-xs text-ink-light mt-0.5">
+            {reached ? "已完成 10 节课，继续加油！" : `已完成 ${completed}/10 节课 · 还差 ${remaining} 节`}
+          </div>
+          <div className="h-2 rounded-full bg-bg-softer overflow-hidden mt-2" role="progressbar" aria-label="完成10节课" aria-valuemin={0} aria-valuemax={10} aria-valuenow={Math.min(completed, NEED)}>
+            <div className="h-full rounded-full bg-primary transition-all" style={{ width: `${pct}%` }} />
+          </div>
         </div>
       </div>
     </CardShell>
@@ -56,9 +63,12 @@ function LeaderboardTeaserCard() {
 }
 
 function DailyQuestsCard() {
+  const now = useProgressTicker();
   const todayXp = useProgressStore(s => s.todayXp);
+  const lastXpDate = useProgressStore(s => s.lastXpDate);
+  const displayXp = lastXpDate === localStudyDate(now) ? todayXp : 0;
   const target = 10;
-  const pct = Math.min(100, Math.round((todayXp / target) * 100));
+  const pct = Math.min(100, Math.round((displayXp / target) * 100));
   return (
     <CardShell>
       <div className="text-sm font-extrabold text-ink mb-2">每日任务</div>
@@ -75,19 +85,11 @@ function DailyQuestsCard() {
               />
             </div>
             <div className="text-[10px] font-extrabold text-ink-softer tabular-nums shrink-0">
-              {Math.min(todayXp, target)}/{target}
+              {Math.min(displayXp, target)}/{target}
             </div>
           </div>
         </div>
       </div>
     </CardShell>
   );
-}
-
-function CreateProfilePromptCard() {
-  return null;
-}
-
-function FooterLinks() {
-  return null;
 }

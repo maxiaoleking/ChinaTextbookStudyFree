@@ -7,9 +7,14 @@ import { Play, Pause } from "lucide-react";
 import { Volume, Check, XMark, Star, Lightning } from "@/components/icons";
 import { InnerHeader } from "@/components/InnerHeader";
 import { QuestionRenderer, type QuestionPhase } from "@/components/question/QuestionRenderer";
-import { playTTS, stopTTS } from "@/lib/tts";
+import { playTTSResult, stopTTS } from "@/lib/tts";
+import { playSentenceSequence } from "@/lib/readingPlayback";
+import { useLearningTime } from "@/lib/useLearningTime";
+import { MuteToggle, useSyncMute } from "@/components/MuteToggle";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
+import { gradeAnswer } from "@/lib/grade";
+import { isAnswerComplete } from "@/lib/questionAnswer";
 import { cn } from "@/lib/cn";
 import { useProgressStore } from "@/store/progress";
 import type { Story, StoryQuestion, Question } from "@/types";
@@ -20,6 +25,7 @@ const GOOD_THRESHOLD = 0.8;
 
 const STORY_REWARDS_KEY = "csf-story-rewards-v1";
 function hasStoryReward(storyId: string): boolean {
+  if (useProgressStore.getState().completedLessons[`story-${storyId}`]) return true;
   if (typeof window === "undefined") return false;
   try {
     const raw = window.localStorage.getItem(STORY_REWARDS_KEY);
@@ -63,11 +69,25 @@ interface Props {
 }
 
 export default function StoryReaderClient({ story, backHref }: Props) {
-  const router = useRouter();
   const [phase, setPhase] = useState<Phase>("reading");
+  useLearningTime(phase !== "result");
+  useSyncMute();
+  const router = useRouter();
   const [mode, setMode] = useState<PlayMode>("idle");
+  const modeRef = useRef<PlayMode>("idle");
+  const updateMode = useCallback((next: PlayMode) => { modeRef.current = next; setMode(next); }, []);
   const [currentIndex, setCurrentIndex] = useState<number | null>(null);
-  const abortRef = useRef(false);
+  const generationRef = useRef(0);
+  const [audioError, setAudioError] = useState<string | null>(null);
+  const muted = useProgressStore(s => s.muted);
+  useEffect(() => {
+    if (!muted || modeRef.current === "idle") return;
+    generationRef.current++;
+    stopTTS();
+    updateMode("idle");
+    setCurrentIndex(null);
+    setAudioError("当前已静音，可以打开声音后重新开始。");
+  }, [muted, updateMode]);
 
   // Quiz state
   const [qIdx, setQIdx] = useState(0);
@@ -75,12 +95,14 @@ export default function StoryReaderClient({ story, backHref }: Props) {
   const [qPhase, setQPhase] = useState<QuestionPhase>("answering");
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [correctCount, setCorrectCount] = useState(0);
+  const checkedQuestionRef = useRef<number | null>(qPhase === "checked" ? qIdx : null);
+  const continuedQuestionRef = useRef<number | null>(null);
 
   const recordXp = useProgressStore(s => s.recordLessonComplete);
 
   // 离开页面时停止
   useEffect(() => {
-    return () => { abortRef.current = true; stopTTS(); };
+    return () => { generationRef.current++; stopTTS(); };
   }, []);
 
   const hasAudio = story.sentences.some(s => s.audio);
@@ -88,41 +110,46 @@ export default function StoryReaderClient({ story, backHref }: Props) {
   const playSingle = useCallback(async (idx: number) => {
     const s = story.sentences[idx];
     if (!s?.audio) return;
+    const generation = ++generationRef.current;
     stopTTS();
-    setMode("playing");
+    setAudioError(null);
+    updateMode("playing");
     setCurrentIndex(idx);
-    await playTTS(s.audio);
+    const result = await playTTSResult(s.audio);
+    if (generation !== generationRef.current) return;
+    if (result !== "ended" && result !== "interrupted") {
+      setAudioError(result === "muted" ? "当前已静音，请打开声音后再听故事。" : "语音暂时无法播放，请重试。");
+    }
     setCurrentIndex(null);
-    setMode("idle");
-  }, [story]);
+    updateMode("idle");
+  }, [story, updateMode]);
 
   const playAll = useCallback(async () => {
-    if (mode === "playing") {
-      abortRef.current = true;
+    if (modeRef.current === "playing") {
+      generationRef.current++;
       stopTTS();
-      setMode("idle");
+      updateMode("idle");
       setCurrentIndex(null);
       return;
     }
-    abortRef.current = false;
-    setMode("playing");
-    for (let i = 0; i < story.sentences.length; i++) {
-      if (abortRef.current) break;
-      const s = story.sentences[i];
-      if (!s.audio) continue;
-      setCurrentIndex(i);
-      await playTTS(s.audio);
-      if (abortRef.current) break;
-    }
+    const generation = ++generationRef.current;
+    const isCurrent = () => generation === generationRef.current;
+    stopTTS();
+    setAudioError(null);
+    updateMode("playing");
+    const result = await playSentenceSequence(story.sentences, { isCurrent, onSentence: setCurrentIndex });
+    if (!isCurrent()) return;
+    if (result.failure) setAudioError(result.failure === "muted" ? "当前已静音，请打开声音后再听故事。" : "语音暂时无法播放，请重试。");
     setCurrentIndex(null);
-    setMode("idle");
-  }, [mode, story]);
+    updateMode("idle");
+  }, [story, updateMode]);
 
   const startQuiz = () => {
-    abortRef.current = true;
+    if (story.questions.length === 0) return;
+    generationRef.current++;
     stopTTS();
     setCurrentIndex(null);
-    setMode("idle");
+    updateMode("idle");
     setPhase("quiz");
   };
 
@@ -131,25 +158,9 @@ export default function StoryReaderClient({ story, backHref }: Props) {
   const currentQuestion = currentQ ? toQuestion(currentQ) : null;
 
   const checkAnswer = () => {
-    if (!currentQ || !answer.trim()) return;
-    let correct = false;
-    const norm = (s: string) => s.trim().toLowerCase().replace(/\s+/g, "");
-
-    if (currentQ.type === "true_false") {
-      const trueVals = new Set(["对", "true", "正确"]);
-      const falseVals = new Set(["错", "false", "错误"]);
-      const userTrue = trueVals.has(norm(answer));
-      const userFalse = falseVals.has(norm(answer));
-      const correctTrue = trueVals.has(norm(currentQ.answer));
-      correct = (userTrue && correctTrue) || (userFalse && !correctTrue);
-    } else if (currentQ.type === "choice") {
-      const userChar = answer.trim().toUpperCase().charAt(0);
-      const idx = currentQ.options.findIndex(o => norm(o) === norm(currentQ.answer));
-      const correctChar = idx >= 0 ? String.fromCharCode(65 + idx) : "";
-      correct = userChar === correctChar;
-    } else {
-      correct = norm(answer) === norm(currentQ.answer);
-    }
+    if (qPhase !== "answering" || checkedQuestionRef.current === qIdx || !currentQuestion || !isAnswerComplete(currentQuestion, answer)) return;
+    checkedQuestionRef.current = qIdx;
+    const correct = gradeAnswer(toQuestion(currentQ), answer);
 
     setIsCorrect(correct);
     setQPhase("checked");
@@ -164,6 +175,8 @@ export default function StoryReaderClient({ story, backHref }: Props) {
   };
 
   const nextQuestion = () => {
+    if (qPhase !== "checked" || checkedQuestionRef.current !== qIdx || continuedQuestionRef.current === qIdx) return;
+    continuedQuestionRef.current = qIdx;
     if (qIdx + 1 < story.questions.length) {
       setQIdx(qIdx + 1);
       setAnswer("");
@@ -186,16 +199,16 @@ export default function StoryReaderClient({ story, backHref }: Props) {
   const stars = accuracy >= 0.95 ? 3 : accuracy >= 0.75 ? 2 : 1;
 
   return (
-    <main className="min-h-screen bg-bg-soft pb-24">
+    <main className="min-h-screen bg-bg-soft pb-[calc(6rem+env(safe-area-inset-bottom))]">
       <InnerHeader
         backHref={backHref}
         title={story.title}
         subtitle={`第${story.unitNumber}单元 · ${story.unitTitle}`}
-        right={phase === "quiz" ? (
+        right={<div className="flex items-center gap-3"><MuteToggle />{phase === "quiz" && (
           <span className="text-xs font-bold text-primary tabular-nums">
             {qIdx + 1}/{story.questions.length}
           </span>
-        ) : undefined}
+        )}</div>}
         bottom={phase === "quiz" ? (
           <div className="h-1 bg-bg-softer">
             <motion.div
@@ -255,7 +268,7 @@ export default function StoryReaderClient({ story, backHref }: Props) {
                           onClick={() => playSingle(i)}
                           disabled={!s.audio || mode !== "idle"}
                           className={cn(
-                            "shrink-0 w-7 h-7 inline-flex items-center justify-center rounded-full",
+                            "shrink-0 w-11 h-11 inline-flex items-center justify-center rounded-full",
                             "bg-bg-soft text-primary hover:bg-primary/10 transition-colors",
                             (!s.audio || mode !== "idle") && "opacity-40 cursor-not-allowed",
                           )}
@@ -264,7 +277,7 @@ export default function StoryReaderClient({ story, backHref }: Props) {
                         </button>
                         <span
                           className={cn(
-                            "text-lg leading-[2] text-ink",
+                            "min-w-0 flex-1 break-words text-lg leading-[2] text-ink",
                             active && "font-bold text-primary",
                           )}
                         >
@@ -330,14 +343,14 @@ export default function StoryReaderClient({ story, backHref }: Props) {
             {qPhase === "answering" ? (
               <button
                 onClick={checkAnswer}
-                disabled={!answer.trim()}
+                disabled={!isAnswerComplete(currentQuestion, answer)}
                 className={cn(
                   "w-full py-4 rounded-2xl text-lg font-extrabold transition-colors",
-                  answer.trim()
+                  isAnswerComplete(currentQuestion, answer)
                     ? "bg-primary text-white hover:bg-primary-dark"
                     : "bg-bg-softer text-ink-softer cursor-not-allowed",
                 )}
-                style={answer.trim() ? { boxShadow: "0 4px 0 0 var(--color-primary-dark, #1a7f37)" } : undefined}
+                style={isAnswerComplete(currentQuestion, answer) ? { boxShadow: "0 4px 0 0 var(--color-primary-dark, #1a7f37)" } : undefined}
               >
                 检查答案
               </button>
@@ -409,6 +422,8 @@ export default function StoryReaderClient({ story, backHref }: Props) {
                   setQPhase("answering");
                   setIsCorrect(null);
                   setCorrectCount(0);
+                  checkedQuestionRef.current = null;
+                  continuedQuestionRef.current = null;
                 }}
                 className="w-full py-3 rounded-2xl bg-white border-2 border-bg-softer text-ink font-bold hover:border-primary/40 transition-colors"
               >
@@ -421,7 +436,7 @@ export default function StoryReaderClient({ story, backHref }: Props) {
 
       {/* 底部操作栏 — 仅阅读阶段 */}
       {phase === "reading" && (
-        <div className="fixed bottom-0 inset-x-0 bg-white border-t border-bg-softer shadow-[0_-4px_12px_rgba(0,0,0,0.04)]">
+        <div className="fixed bottom-0 inset-x-0 bg-white border-t border-bg-softer shadow-[0_-4px_12px_rgba(0,0,0,0.04)]" style={{ paddingBottom: "env(safe-area-inset-bottom)" }}>
           <div className="max-w-md lg:max-w-6xl mx-auto px-4 py-3 flex gap-3">
             <motion.button
               type="button"
@@ -451,12 +466,14 @@ export default function StoryReaderClient({ story, backHref }: Props) {
               type="button"
               whileTap={{ scale: 0.96 }}
               onClick={startQuiz}
+              disabled={story.questions.length === 0}
               className="flex-1 gap-2 btn-chunky-secondary"
             >
               <Lightning className="w-5 h-5" />
               开始答题
             </motion.button>
           </div>
+          {audioError && <div className="max-w-md lg:max-w-6xl mx-auto px-4 pb-2 text-xs text-danger" role="status">{audioError}</div>}
         </div>
       )}
     </main>

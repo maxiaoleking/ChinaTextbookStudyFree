@@ -48,16 +48,18 @@ final class AudioPlayer: NSObject, ObservableObject {
 
     // MARK: - Path resolution
 
-    /// Map a `Question.audio` style path (e.g. "/audio/8e/8ec5...opus") to
+    /// Map an original .opus or Web .mp3 audio path to
     /// the local m4a file installed by SeedInstaller / AssetDownloader.
     func resolve(_ path: String) -> URL? {
-        // Drop optional leading slash, swap .opus → .m4a, drop "audio/" prefix
+        // Drop optional leading slash, swap either source suffix to .m4a,
+        // and drop "audio/" prefix
         // because we rebase against `sandboxAudioRoot` which already points at
         // `Application Support/cstf/audio/`.
         var rel = path
         if rel.hasPrefix("/") { rel.removeFirst() }
         if rel.hasPrefix("audio/") { rel.removeFirst("audio/".count) }
         if rel.hasSuffix(".opus") { rel = String(rel.dropLast(".opus".count)) + ".m4a" }
+        else if rel.hasSuffix(".mp3") { rel = String(rel.dropLast(".mp3".count)) + ".m4a" }
         let url = DataLoader.shared.sandboxAudioRoot.appendingPathComponent(rel)
         return FileManager.default.fileExists(atPath: url.path) ? url : nil
     }

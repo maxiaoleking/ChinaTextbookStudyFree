@@ -51,41 +51,42 @@ export function useAutoNarrate(
   const onAllDoneRef = useRef(onAllDone);
   onAllDoneRef.current = onAllDone;
 
-  const cancelledRef = useRef(false);
+  const generationRef = useRef(0);
 
   const cancel = useCallback(() => {
-    cancelledRef.current = true;
+    generationRef.current++;
     stopTTS();
   }, []);
 
   useEffect(() => {
     if (!autoNarrate || muted) return;
-    cancelledRef.current = false;
+    const generation = ++generationRef.current;
+    const isCurrent = () => generation === generationRef.current;
 
     const run = async () => {
       // 可选入场延迟（默认 0，不打断用户手势链）
       if (startDelayMs > 0) {
         await sleep(startDelayMs);
-        if (cancelledRef.current) return;
+        if (!isCurrent()) return;
       }
 
       const list = srcsRef.current.filter(
         (s): s is string => typeof s === "string" && s.length > 0,
       );
       for (let i = 0; i < list.length; i++) {
-        if (cancelledRef.current) return;
+        if (!isCurrent()) return;
         onSrcStartRef.current?.(i);
         await playTTS(list[i]);
-        if (cancelledRef.current) return;
+        if (!isCurrent()) return;
         if (i < list.length - 1) await sleep(gapMs);
       }
-      if (!cancelledRef.current) onAllDoneRef.current?.();
+      if (isCurrent()) onAllDoneRef.current?.();
     };
 
     void run();
 
     return () => {
-      cancelledRef.current = true;
+      generationRef.current++;
       stopTTS();
       onAllDoneRef.current?.();
     };

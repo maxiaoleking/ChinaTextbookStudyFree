@@ -50,7 +50,9 @@ export function DailyRewardWatcher() {
       // 周末 XP 双倍提示（每天只提一次）
       if (isWeekendBonusActive()) {
         const seenKey = `csf-weekend-bonus-seen-${todayStr()}`;
-        if (typeof window !== "undefined" && !localStorage.getItem(seenKey)) {
+        let seen = false;
+        try { seen = !!localStorage.getItem(seenKey); } catch { /* Keep the app usable without browser storage. */ }
+        if (!seen) {
           window.setTimeout(() => {
             toast.info("🎉 周末双倍 XP 已开启！", 3200);
           }, 800);

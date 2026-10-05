@@ -9,6 +9,7 @@
 
 import dynamic from "next/dynamic";
 import { Fragment } from "react";
+import { splitMathText } from "@/lib/mathText";
 
 // react-katex + katex 的体积较大 (~100KB+)，改为按需加载，
 // 让 LessonRunner 初次渲染时不阻塞在 KaTeX chunk 上。
@@ -34,48 +35,23 @@ interface MathTextProps {
 }
 
 export function MathText({ text, block = false }: MathTextProps) {
-  // 用 $...$ 分段（也支持 $$...$$ 块级）
-  const parts: { type: "text" | "inline" | "block"; value: string }[] = [];
-  let i = 0;
-  while (i < text.length) {
-    if (text[i] === "$") {
-      // 查找配对的 $
-      const isBlock = text[i + 1] === "$";
-      const open = isBlock ? 2 : 1;
-      const end = text.indexOf(isBlock ? "$$" : "$", i + open);
-      if (end === -1) {
-        // 没配对，当普通字符
-        parts.push({ type: "text", value: text.slice(i) });
-        break;
-      }
-      parts.push({
-        type: isBlock ? "block" : "inline",
-        value: text.slice(i + open, end),
-      });
-      i = end + open;
-    } else {
-      // 找到下一个 $
-      const next = text.indexOf("$", i);
-      if (next === -1) {
-        parts.push({ type: "text", value: text.slice(i) });
-        break;
-      }
-      parts.push({ type: "text", value: text.slice(i, next) });
-      i = next;
-    }
-  }
+  const parts = splitMathText(text);
 
   return (
-    <span>
+    <span className="min-w-0 max-w-full break-words">
       {parts.map((p, idx) => {
         if (p.type === "text") return <Fragment key={idx}>{p.value}</Fragment>;
         if (p.type === "block")
           return (
-            <span key={idx} className="block my-2">
-              <BlockMath math={p.value} />
+            <span key={idx} className="block my-2 max-w-full overflow-x-auto">
+              <BlockMath math={p.value} renderError={() => <span>{p.value}</span>} />
             </span>
           );
-        return <InlineMath key={idx} math={p.value} />;
+        return (
+          <span key={idx} className="inline-block max-w-full overflow-x-auto align-middle">
+            <InlineMath math={p.value} renderError={() => <span>{p.value}</span>} />
+          </span>
+        );
       })}
     </span>
   );

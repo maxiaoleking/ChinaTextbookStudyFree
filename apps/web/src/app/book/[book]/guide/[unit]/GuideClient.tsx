@@ -9,11 +9,15 @@
  *   - 底部"下一步 →" 推进；最后一张显示"完成"
  */
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { BookOpen, Close } from "@/components/icons";
 import { TTSButton } from "@/components/TTSButton";
+import { MathText } from "@/components/MathText";
+import { MuteToggle, useSyncMute } from "@/components/MuteToggle";
+import { useProgressStore } from "@/store/progress";
+import { stopTTS } from "@/lib/tts";
 import { cn } from "@/lib/cn";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
@@ -27,7 +31,16 @@ interface GuideClientProps {
 }
 
 export function GuideClient({ book, unit, summaries }: GuideClientProps) {
+  useSyncMute();
   const router = useRouter();
+  const muted = useProgressStore(s => s.muted);
+  const autoNarrate = useProgressStore(s => s.autoNarrate);
+  const [hydrated, setHydrated] = useState(false);
+  useEffect(() => {
+    setHydrated(useProgressStore.persist.hasHydrated());
+    return useProgressStore.persist.onFinishHydration(() => setHydrated(true));
+  }, []);
+  useEffect(() => { if (muted) stopTTS(); }, [muted]);
   const [idx, setIdx] = useState(0);
   const total = summaries.length;
   const current = summaries[idx];
@@ -77,17 +90,17 @@ export function GuideClient({ book, unit, summaries }: GuideClientProps) {
           type="button"
           aria-label="关闭"
           onClick={close}
-          className="shrink-0 w-9 h-9 rounded-full inline-flex items-center justify-center text-ink-light hover:bg-bg-soft transition-colors"
+          className="shrink-0 w-11 h-11 rounded-full inline-flex items-center justify-center text-ink-light hover:bg-bg-soft transition-colors"
         >
           <Close className="w-5 h-5" />
         </button>
-        <div className="flex-1 flex items-center justify-center gap-1.5">
+        <div className="flex-1 min-w-0 flex items-center justify-center gap-1.5">
           {Array.from({ length: total }).map((_, i) => (
             <span
               key={i}
               className={cn(
-                "h-1.5 rounded-full transition-all",
-                i === idx ? "w-8 bg-secondary" : i < idx ? "w-6 bg-secondary/60" : "w-6 bg-bg-softer",
+                "h-1.5 min-w-0 flex-1 max-w-8 rounded-full transition-all",
+                i === idx ? "bg-secondary" : i < idx ? "bg-secondary/60" : "bg-bg-softer",
               )}
             />
           ))}
@@ -95,10 +108,11 @@ export function GuideClient({ book, unit, summaries }: GuideClientProps) {
         <div className="shrink-0 text-xs font-extrabold text-ink-light w-10 text-right tabular-nums">
           {idx + 1}/{total}
         </div>
+        <MuteToggle className="!h-11 !w-11 shrink-0" />
       </header>
 
       {/* 主体 slide */}
-      <div className="flex-1 flex flex-col overflow-y-auto">
+      <div className="flex-1 flex flex-col overflow-y-auto overflow-x-hidden">
         <AnimatePresence mode="wait">
           <motion.div
             key={idx}
@@ -133,13 +147,14 @@ export function GuideClient({ book, unit, summaries }: GuideClientProps) {
             <div className="mt-8 flex items-center gap-3 justify-center">
               <div className="text-2xl font-extrabold text-ink tracking-tight">这是什么？</div>
               {current.audio?.core_concept && (
-                <TTSButton src={current.audio.core_concept} autoPlay preload size="md" />
+                <TTSButton key={current.audio.core_concept} src={current.audio.core_concept}
+                  autoPlay={hydrated && !muted && autoNarrate} preload size="md" />
               )}
             </div>
 
             {/* 描述（核心概念） */}
             <div className="mt-3 text-[15px] text-ink-light leading-relaxed text-center max-w-lg">
-              {current.core_concept}
+              <MathText text={current.core_concept} />
             </div>
 
             {/* 小贴士 */}
@@ -153,7 +168,7 @@ export function GuideClient({ book, unit, summaries }: GuideClientProps) {
                     <div className="text-[10px] font-extrabold uppercase tracking-wider text-gold mb-1">
                       小贴士
                     </div>
-                    <div className="text-sm text-ink leading-snug">{current.tips}</div>
+                    <div className="text-sm text-ink leading-snug"><MathText text={current.tips} /></div>
                   </div>
                 </div>
               </div>
@@ -175,7 +190,7 @@ export function GuideClient({ book, unit, summaries }: GuideClientProps) {
                           className="mt-0.5"
                         />
                       )}
-                      <span className="flex-1">{m}</span>
+                      <span className="min-w-0 flex-1"><MathText text={m} /></span>
                     </li>
                   ))}
                 </ul>
@@ -186,7 +201,8 @@ export function GuideClient({ book, unit, summaries }: GuideClientProps) {
       </div>
 
       {/* 底部 CTA */}
-      <div className="p-4 border-t border-bg-softer bg-white">
+      <div className="p-4 border-t border-bg-softer bg-white"
+        style={{ paddingBottom: "calc(1rem + env(safe-area-inset-bottom))" }}>
         <div className="max-w-lg mx-auto flex gap-3">
           {idx > 0 && (
             <button
