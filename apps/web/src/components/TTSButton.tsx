@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Volume } from "@/components/icons";
 import { cn } from "@/lib/cn";
@@ -15,6 +15,9 @@ interface TTSButtonProps {
   size?: "sm" | "md";
   className?: string;
   label?: string;
+  disabled?: boolean;
+  /** Let lesson introductions own playback until the first full listen finishes. */
+  onPlay?: () => void;
 }
 
 /**
@@ -27,12 +30,27 @@ export function TTSButton({
   size = "md",
   className,
   label = "朗读",
+  disabled = false,
+  onPlay,
 }: TTSButtonProps) {
   const [playing, setPlaying] = useState(false);
+  const generationRef = useRef(0);
+  const playingSourceRef = useRef<string | null>(null);
 
   useEffect(() => {
     if (preload) preloadTTS(src);
   }, [src, preload]);
+
+  useEffect(() => {
+    setPlaying(false);
+    return () => {
+      generationRef.current++;
+      if (src && playingSourceRef.current === src) {
+        stopTTS(src ?? undefined);
+        playingSourceRef.current = null;
+      }
+    };
+  }, [src]);
 
   useEffect(() => {
     if (!autoPlay || !src) return;
@@ -40,28 +58,33 @@ export function TTSButton({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [src, autoPlay]);
 
-  useEffect(() => () => {
-    if (playing) stopTTS();
-  }, [playing]);
-
   if (!src) return null;
 
   async function play(e?: React.MouseEvent) {
     e?.stopPropagation();
     e?.preventDefault();
+    if (disabled) return;
+    if (onPlay) { onPlay(); return; }
+    if (!src) return;
+    const generation = ++generationRef.current;
+    playingSourceRef.current = src;
     setPlaying(true);
     await playTTS(src);
-    setPlaying(false);
+    if (generation === generationRef.current) {
+      playingSourceRef.current = null;
+      setPlaying(false);
+    }
   }
 
-  const dim = size === "sm" ? "w-7 h-7" : "w-9 h-9";
+  const dim = "w-11 h-11";
   const icon = size === "sm" ? "w-4 h-4" : "w-5 h-5";
 
   return (
     <motion.span
       role="button"
-      tabIndex={0}
+      tabIndex={disabled ? -1 : 0}
       aria-label={label}
+      aria-disabled={disabled}
       onClick={play}
       onKeyDown={(e: React.KeyboardEvent) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); play(); } }}
       whileTap={{ scale: 0.9 }}
@@ -70,6 +93,7 @@ export function TTSButton({
         "bg-bg-soft text-primary hover:bg-primary/10 transition-colors shrink-0",
         dim,
         playing && "animate-pulse text-primary",
+        disabled && "opacity-40 !cursor-default",
         className,
       )}
     >
