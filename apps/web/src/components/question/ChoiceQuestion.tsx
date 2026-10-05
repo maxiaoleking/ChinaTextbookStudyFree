@@ -10,16 +10,13 @@ import { haptic } from "@/lib/haptic";
 import { playTTS } from "@/lib/tts";
 import { useAutoNarrate } from "@/lib/useAutoNarrate";
 import { shouldIgnoreKey } from "./keyboard";
+import { correctChoiceLetter } from "@/lib/grade";
 import type { QuestionRendererProps } from "./QuestionRenderer";
 
 interface Ripple {
   id: number;
   x: number;
   y: number;
-}
-
-function normalizeOpt(s: string): string {
-  return s.trim().toLowerCase().replace(/\s+/g, "");
 }
 
 export function ChoiceQuestion({
@@ -30,17 +27,7 @@ export function ChoiceQuestion({
   onChange,
   locked = false,
 }: QuestionRendererProps) {
-  const rawCorrect = question.answer.trim();
-  let correctLetter = rawCorrect.toUpperCase().charAt(0);
-  // 若 answer 不是单字母 A-D，则在 options 里反查对应字母
-  if (!/^[A-D]$/.test(correctLetter) && question.options?.length) {
-    const cn = normalizeOpt(rawCorrect);
-    const idx = question.options.findIndex(o => {
-      const stripped = o.replace(/^[A-D][.、]\s*/, "");
-      return normalizeOpt(o) === cn || normalizeOpt(stripped) === cn;
-    });
-    if (idx >= 0) correctLetter = String.fromCharCode(65 + idx);
-  }
+  const correctLetter = correctChoiceLetter(question);
   const [ripples, setRipples] = useState<Record<string, Ripple[]>>({});
   const idRef = useRef(0);
 

@@ -48,6 +48,17 @@ final class GradeTests: XCTestCase {
         XCTAssertTrue(Grade.gradeAnswer(question: qq, userAnswer: "B"))
     }
 
+    func testIssue2DoesNotTreatAnswerTextAsFirstLetter() {
+        for text in ["a < b", "apple", "cat", "dog", "a"] {
+            let qq = q(type: .choice, answer: text,
+                       options: ["other", text, "none", "last"])
+            XCTAssertEqual(Grade.correctChoiceLetter(question: qq), "B")
+            XCTAssertTrue(Grade.gradeAnswer(question: qq, userAnswer: "B"))
+            XCTAssertFalse(Grade.gradeAnswer(question: qq, userAnswer: "A"))
+            XCTAssertFalse(Grade.gradeAnswer(question: qq, userAnswer: "banana"))
+        }
+    }
+
     func testFillBlankNumeric() {
         let qq = q(type: .fillBlank, answer: "12")
         XCTAssertTrue(Grade.gradeAnswer(question: qq, userAnswer: "12"))

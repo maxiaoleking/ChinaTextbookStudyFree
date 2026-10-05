@@ -10,6 +10,7 @@ import { InnerHeader } from "@/components/InnerHeader";
 import { QuestionRenderer, type QuestionPhase } from "@/components/question/QuestionRenderer";
 import { playTTS, stopTTS } from "@/lib/tts";
 import { playSfx } from "@/lib/sfx";
+import { gradeAnswer } from "@/lib/grade";
 import { haptic } from "@/lib/haptic";
 import { cn } from "@/lib/cn";
 import { useProgressStore } from "@/store/progress";
@@ -112,24 +113,7 @@ export default function StoryReaderClient({ story, backHref }: Props) {
 
   const checkAnswer = () => {
     if (!currentQ || !answer.trim()) return;
-    let correct = false;
-    const norm = (s: string) => s.trim().toLowerCase().replace(/\s+/g, "");
-
-    if (currentQ.type === "true_false") {
-      const trueVals = new Set(["对", "true", "正确"]);
-      const falseVals = new Set(["错", "false", "错误"]);
-      const userTrue = trueVals.has(norm(answer));
-      const userFalse = falseVals.has(norm(answer));
-      const correctTrue = trueVals.has(norm(currentQ.answer));
-      correct = (userTrue && correctTrue) || (userFalse && !correctTrue);
-    } else if (currentQ.type === "choice") {
-      const userChar = answer.trim().toUpperCase().charAt(0);
-      const idx = currentQ.options.findIndex(o => norm(o) === norm(currentQ.answer));
-      const correctChar = idx >= 0 ? String.fromCharCode(65 + idx) : "";
-      correct = userChar === correctChar;
-    } else {
-      correct = norm(answer) === norm(currentQ.answer);
-    }
+    const correct = gradeAnswer(toQuestion(currentQ), answer);
 
     setIsCorrect(correct);
     setQPhase("checked");
