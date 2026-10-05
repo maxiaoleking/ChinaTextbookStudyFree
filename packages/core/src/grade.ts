@@ -28,6 +28,19 @@ function normalizeNumeric(s: string): string {
     .replace(/^0+(\d)/, "$1");
 }
 
+/** Resolve full option text first: an answer such as "a < b" is not label A. */
+export function correctChoiceLetter(question: Pick<Question, "answer" | "options">): string | null {
+  const correct = question.answer.trim();
+  const options = question.options ?? [];
+  const strip = (text: string) => text.replace(/^[A-D][.、]\s*/i, "");
+  let index = options.findIndex(option => option.trim() === correct);
+  if (index < 0) index = options.findIndex(option => normalize(option) === normalize(correct));
+  if (index < 0) index = options.findIndex(option => normalize(strip(option)) === normalize(correct));
+  if (index >= 0) return String.fromCharCode(65 + index);
+  const label = correct.match(/^([A-D])(?:$|[.、]\s*)/i)?.[1].toUpperCase() ?? null;
+  return label && label.charCodeAt(0) - 65 < options.length ? label : null;
+}
+
 export function gradeAnswer(question: Question, userAnswer: string): boolean {
   if (!userAnswer || !userAnswer.trim()) return false;
   const correct = question.answer;
@@ -44,24 +57,8 @@ export function gradeAnswer(question: Question, userAnswer: string): boolean {
     }
 
     case "choice": {
-      // 答案可能是 "B"（位置字母）、"B. 60秒"，也可能直接存选项内容（如 "bookstore"、"a < b"）。
-      // 内容优先：先按选项内容反查下标；查不到再按首字符当位置字母。
-      // 顺序不能反 —— 否则 "an"/"at"/"a < b" 这类以 a–d 开头的内容会被误当成位置字母，导致判错。
-      const u = userAnswer.trim().toUpperCase().charAt(0);
-      let c: string | null = null;
-      if (question.options?.length) {
-        const cn = normalize(correct);
-        const idx = question.options.findIndex(o => {
-          const stripped = o.replace(/^[A-D][.、]\s*/, "");
-          return normalize(o) === cn || normalize(stripped) === cn;
-        });
-        if (idx >= 0) c = String.fromCharCode(65 + idx);
-      }
-      if (c === null) {
-        const first = correct.trim().toUpperCase().charAt(0);
-        if (/^[A-D]$/.test(first)) c = first;
-      }
-      return c !== null && u === c;
+      const label = correctChoiceLetter(question);
+      return label !== null && userAnswer.normalize("NFKC").trim().toUpperCase() === label;
     }
 
     case "fill_blank":
