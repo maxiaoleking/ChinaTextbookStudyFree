@@ -176,6 +176,9 @@ def self_test() -> int:
         original_hashes = [digest(opus_mp3), digest(opus_ogg)]
         result = convert()
         assert {asset["action"] for asset in result["assets"]} == {"copied_mp3", "transcoded_ogg"}
+        assert document.stat().st_mode & 0o044 == 0o044, "Public JSON must be readable by the web server"
+        for source in (opus_mp3, opus_ogg):
+            assert source.with_suffix(".mp3").stat().st_mode & 0o044 == 0o044, "Public MP3 must be readable by the web server"
         assert digest(opus_mp3) == digest(opus_mp3.with_suffix(".mp3"))
         assert [digest(opus_mp3), digest(opus_ogg)] == original_hashes
         assert check(public, ui, binary, 2, ["/audio/aa/encoded.mp3"])["status"] == "passed"
@@ -184,6 +187,13 @@ def self_test() -> int:
         assert all(asset["action"] == "cached" for asset in result["assets"])
         assert result["json_files_changed"] == 0
         passed.append("idempotent rerun uses source/config/output-hash cache")
+        document.chmod(0o600)
+        opus_ogg.with_suffix(".mp3").chmod(0o600)
+        result = convert()
+        assert all(asset["action"] == "cached" for asset in result["assets"])
+        assert document.stat().st_mode & 0o044 == 0o044
+        assert opus_ogg.with_suffix(".mp3").stat().st_mode & 0o044 == 0o044
+        passed.append("cached public outputs repair restrictive permissions without re-encoding")
         generate(opus_mp3, "libmp3lame", 880)
         result = convert()
         assert next(asset for asset in result["assets"] if asset["source_url"].endswith("copied.opus"))["action"] == "copied_mp3"

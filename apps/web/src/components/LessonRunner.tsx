@@ -262,10 +262,13 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
   const backdropId = useProgressStore(s => s.equippedBackdrop);
   const backdropStyle = useMemo<React.CSSProperties>(() => {
     const item = getCosmeticById(backdropId) as LessonBackdrop | undefined;
-    if (!item || item.type !== "lesson_backdrop") {
-      return { background: "#F7F7F7" };
+    if (!item || item.type !== "lesson_backdrop" || item.id === "backdrop_default") {
+      return { background: "var(--app-bg, #F7F7F7)" };
     }
-    return { background: item.data.background };
+    // Keep equipped backgrounds visible while preserving dark-mode text contrast.
+    return {
+      background: `linear-gradient(var(--lesson-backdrop-overlay, transparent), var(--lesson-backdrop-overlay, transparent)), ${item.data.background}`,
+    };
   }, [backdropId]);
   const prefersReduced = useReducedMotion();
 

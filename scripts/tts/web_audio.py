@@ -55,7 +55,7 @@ def digest(path: Path) -> str:
     return hasher.hexdigest()
 
 
-def atomic_bytes(path: Path, payload: bytes) -> None:
+def atomic_bytes(path: Path, payload: bytes, mode: int | None = None) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, name = tempfile.mkstemp(prefix=f".{path.name}.", suffix=".tmp", dir=path.parent)
     try:
@@ -63,6 +63,8 @@ def atomic_bytes(path: Path, payload: bytes) -> None:
             stream.write(payload)
             stream.flush()
             os.fsync(stream.fileno())
+        if mode is not None:
+            os.chmod(name, mode)
         os.replace(name, path)
     finally:
         Path(name).unlink(missing_ok=True)
@@ -212,6 +214,7 @@ def build_one(item: dict[str, Any], binary: str) -> dict[str, Any]:
         output_hash, output_bytes = digest(temporary), temporary.stat().st_size
         with temporary.open("rb") as stream:
             os.fsync(stream.fileno())
+        temporary.chmod(0o644)
         os.replace(temporary, target)
         return {"source_url": item["source_url"], "target_url": item["target_url"],
                 "source_sha256": item["source_sha256"], "target_sha256": output_hash,
@@ -239,12 +242,12 @@ def rewrite_json(originals: dict[Path, bytes], replacements: dict[str, str]) -> 
     changed: list[Path] = []
     try:
         for path, updated in staged:
-            atomic_bytes(path, updated)
+            atomic_bytes(path, updated, mode=0o644)
             changed.append(path)
     except BaseException:
         # Per-file writes are atomic. Also roll back completed writes if commit fails.
         for path in reversed(changed):
-            atomic_bytes(path, originals[path])
+            atomic_bytes(path, originals[path], mode=0o644)
         raise
     return len(staged)
 
@@ -351,10 +354,14 @@ def run(args: argparse.Namespace) -> int:
                 raise AudioBuildError(f"Source changed before JSON commit: {key}")
             if audio_format(Path(item["target"])) != "mp3" or digest(Path(item["target"])) != entries[key]["target_sha256"]:
                 raise AudioBuildError(f"MP3 changed before JSON commit: {item['target_url']}")
+            Path(item["target"]).chmod(0o644)
             if time.monotonic() - last_progress >= 5:
                 print(f"[web-audio] final validation {index}/{len(items)}", flush=True)
                 last_progress = time.monotonic()
         report["json_files_changed"] = rewrite_json(originals, replacements)
+        # Also repair files produced by older runs, even when bytes need no rewrite.
+        for path in originals:
+            path.chmod(0o644)
         report["status"] = "passed"
     except Exception as exc:
         report["status"] = "failed"
