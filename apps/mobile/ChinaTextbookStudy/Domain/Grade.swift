@@ -30,20 +30,26 @@ enum Grade {
             return u == c
 
         case .choice:
+            // 答案可能是位置字母（"B"、"B. 60秒"），也可能直接存选项内容
+            // （"bookstore"、"a < b"）。内容优先：先按选项内容精确反查下标，
+            // 查不到再按首字符当位置字母。顺序不能反 —— 否则 "an"/"at"/"a < b"
+            // 这类以 a–d 开头的内容会被误当成位置字母，导致判错。
             let u = String(trimmed.uppercased().first ?? " ")
-            var c = String(correct.trimmingCharacters(in: .whitespacesAndNewlines).uppercased().first ?? " ")
-            // If `answer` is not a single A-D letter, look it up in options.
-            let isLetter = c.count == 1 && (c >= "A" && c <= "D")
-            if !isLetter, !question.options.isEmpty {
+            var c: String? = nil
+            if !question.options.isEmpty {
                 let cn = normalize(correct)
-                let idx = question.options.firstIndex { opt in
+                if let idx = question.options.firstIndex(where: { opt in
                     let stripped = stripOptionPrefix(opt)
                     return normalize(opt) == cn || normalize(stripped) == cn
-                }
-                if let idx, idx < 4 {
+                }), idx < 4 {
                     c = String(UnicodeScalar(65 + idx)!)
                 }
             }
+            if c == nil {
+                let first = String(correct.trimmingCharacters(in: .whitespacesAndNewlines).uppercased().first ?? " ")
+                if first >= "A" && first <= "D" { c = first }
+            }
+            guard let c else { return false }
             return u == c
 
         case .fillBlank, .calculation, .wordProblem:
