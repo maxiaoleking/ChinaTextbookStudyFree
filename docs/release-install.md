@@ -2,7 +2,13 @@
 
 本版为完整 Web 数据包，包含既有四科数据和媒体，并用新版替换188篇语文扩展阅读；96篇英语故事保留。无需先安装 v1.1.0。
 
-## 推荐：使用配套 Web 源码
+## 当前线上版本与资源包快照
+
+当前线上入口：[小猫头鹰课堂](https://d3nmsqi4n72idj.cloudfront.net/)。复现最新线上 Web，请按 [README 的快速开始](../README.md#-快速开始) 克隆 `codex/publish-tested-web` 分支，安装本 Release 资源，再启动。该分支额外需要带 `libmp3lame` 的 FFmpeg，构建时从原音频生成 Web MP3，不调用付费语音模型。
+
+本 Release 的 `web-source.zip` 早于 2026-10-03 的手机语音兼容、首次讲解播放和按钮边框进度修复；资源包不包含单独的 Web MP3 包。以下步骤用于复现资源包发布时的源码快照。
+
+## 使用资源包配套 Web 源码
 
 下载本 Release 的 `web-source.zip`，解压到一个新目录。进入其中的 `ChinaTextbookStudyFree-web`，执行（Python 3.9+、Node.js 20+）：
 
@@ -28,7 +34,7 @@ python3 scripts/install-release.py --tag v1.2.0-assets --archives-dir /path/to/d
 
 | 附件 | 解压到仓库目录 | 内容 |
 | --- | --- | --- |
-| audio.tar.gz | apps/web/public | 含 audio/ 顶层目录；81,017个 Opus |
+| audio.tar.gz | apps/web/public | 含 audio/ 顶层目录；81,017个原音频文件，以 Opus 为主 |
 | data.zip | apps/web/public/data | 44册四科数据、2,166个课节、6,545道单元题、779篇课文、284篇故事 |
 | data-source.zip | data | passages/ 和 stories/ 源 JSON，共40个册文件 |
 | story-images.zip | apps/web/public/story-images | 472张图，包含284张原图与188张新版图 |
