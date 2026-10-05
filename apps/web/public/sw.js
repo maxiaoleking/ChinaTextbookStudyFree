@@ -10,7 +10,7 @@
  * next 静态导出（output: "export"）下手写注册即可，注册脚本在 layout.tsx。
  */
 
-const VERSION = "v1";
+const VERSION = "v2";
 const SHELL_CACHE = `ctsf-shell-${VERSION}`;
 const DATA_CACHE = `ctsf-data-${VERSION}`;
 const STATIC_CACHE = `ctsf-static-${VERSION}`;
@@ -49,7 +49,7 @@ async function staleWhileRevalidate(cacheName, request) {
   const cached = await cache.match(request);
   const network = fetch(request)
     .then(res => {
-      if (res && res.ok) cache.put(request, res.clone());
+      if (res && res.ok) cache.put(request, res.clone()).catch(() => {});
       return res;
     })
     .catch(() => undefined);
@@ -61,7 +61,7 @@ async function networkFirst(cacheName, request, fallbackUrl) {
   const cache = await caches.open(cacheName);
   try {
     const res = await fetch(request);
-    if (res && res.ok) cache.put(request, res.clone());
+    if (res && res.ok) cache.put(request, res.clone()).catch(() => {});
     return res;
   } catch (e) {
     const cached = await cache.match(request);
@@ -80,13 +80,15 @@ async function cacheFirst(cacheName, request) {
   const cached = await cache.match(request);
   if (cached) return cached;
   const res = await fetch(request);
-  if (res && res.ok) cache.put(request, res.clone());
+  if (res && res.ok) cache.put(request, res.clone()).catch(() => {});
   return res;
 }
 
 self.addEventListener("fetch", event => {
   const { request } = event;
-  if (request.method !== "GET") return;
+  // Let the browser handle byte ranges directly. Cache API cannot store 206
+  // responses, and a cached full response must not replace a requested range.
+  if (request.method !== "GET" || request.headers.has("range")) return;
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
