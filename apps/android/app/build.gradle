@@ -1,0 +1,26 @@
+plugins { id 'com.android.application' }
+
+def webAppUrl = providers.gradleProperty('webAppUrl').getOrElse('https://d3nmsqi4n72idj.cloudfront.net/')
+def parsedUrl = new URI(webAppUrl)
+if (parsedUrl.scheme != 'https' || !parsedUrl.host || parsedUrl.userInfo || parsedUrl.query || parsedUrl.fragment) {
+    throw new GradleException('webAppUrl must be an HTTPS URL without credentials, query or fragment')
+}
+android {
+    namespace 'org.chinatextbook.study'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'org.chinatextbook.study'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '0.1.0'
+        buildConfigField 'String', 'WEB_APP_URL', '"' + webAppUrl.replace('\\', '\\\\').replace('"', '\\"') + '"'
+    }
+    buildFeatures { buildConfig true }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    buildTypes { release { minifyEnabled false } }
+}
+dependencies { testImplementation 'junit:junit:4.13.2' }

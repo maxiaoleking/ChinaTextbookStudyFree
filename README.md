@@ -108,6 +108,8 @@
 
 **Docker 家庭部署：**包含 Dockerfile 的当前代码版本支持 `docker compose up -d --build`，会自动下载完整资源并构建，无需自行安装 Node.js、Python 或 FFmpeg；见 [Docker 安装说明](docs/docker.md)。本节以下命令仍用于复现线上 Web 分支。
 
+**安卓自行安装：**用 Android Studio 打开 `apps/android`，或从 GitHub Actions 下载构建成功的调试 APK。当前是加载 HTTPS 课堂的在线客户端；构建步骤、录音权限和已知限制见 [安卓工程说明](docs/android.md)。
+
 ### 1. 克隆仓库
 
 以下步骤启动当前线上版本。需要 Node.js 20+、Python 3.9+，以及带 `libmp3lame` 的 FFmpeg；请将 Python 和 FFmpeg 加入系统 PATH。
