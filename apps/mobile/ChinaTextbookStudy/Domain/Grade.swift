@@ -30,27 +30,8 @@ enum Grade {
             return u == c
 
         case .choice:
-            // 答案可能是位置字母（"B"、"B. 60秒"），也可能直接存选项内容
-            // （"bookstore"、"a < b"）。内容优先：先按选项内容精确反查下标，
-            // 查不到再按首字符当位置字母。顺序不能反 —— 否则 "an"/"at"/"a < b"
-            // 这类以 a–d 开头的内容会被误当成位置字母，导致判错。
-            let u = String(trimmed.uppercased().first ?? " ")
-            var c: String? = nil
-            if !question.options.isEmpty {
-                let cn = normalize(correct)
-                if let idx = question.options.firstIndex(where: { opt in
-                    let stripped = stripOptionPrefix(opt)
-                    return normalize(opt) == cn || normalize(stripped) == cn
-                }), idx < 4 {
-                    c = String(UnicodeScalar(65 + idx)!)
-                }
-            }
-            if c == nil {
-                let first = String(correct.trimmingCharacters(in: .whitespacesAndNewlines).uppercased().first ?? " ")
-                if first >= "A" && first <= "D" { c = first }
-            }
-            guard let c else { return false }
-            return u == c
+            guard let c = correctChoiceLetter(question: question) else { return false }
+            return trimmed.uppercased() == c
 
         case .fillBlank, .calculation, .wordProblem:
             if normalize(userAnswer) == normalize(correct) { return true }
@@ -75,6 +56,24 @@ enum Grade {
 
     // MARK: - normalization helpers
 
+    static func correctChoiceLetter(question: Question) -> String? {
+        let answer = question.answer.trimmingCharacters(in: .whitespacesAndNewlines)
+        let exact = question.options.firstIndex { $0.trimmingCharacters(in: .whitespacesAndNewlines) == answer }
+        let normalized = question.options.firstIndex { normalize($0) == normalize(answer) }
+        let stripped = question.options.firstIndex { normalize(stripOptionPrefix($0)) == normalize(answer) }
+        if let index = exact ?? normalized ?? stripped {
+            return String(UnicodeScalar(65 + index)!)
+        }
+        let raw = answer.uppercased()
+        guard let first = raw.first, ("A"..."D").contains(String(first)) else { return nil }
+        let tail = raw.dropFirst()
+        guard tail.isEmpty || tail.first == "." || tail.first == "、" else { return nil }
+        let label = String(first)
+        guard let scalar = label.unicodeScalars.first,
+              Int(scalar.value) - 65 < question.options.count else { return nil }
+        return label
+    }
+
     static func normalize(_ s: String) -> String {
         var out = s.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
         out = out.components(separatedBy: .whitespacesAndNewlines).joined()
@@ -87,11 +86,12 @@ enum Grade {
 
     /// Strip leading "A. " / "B、" prefixes from option text.
     private static func stripOptionPrefix(_ s: String) -> String {
-        guard let first = s.first, ("A"..."D").contains(first) else { return s }
+        guard let first = s.first, ("A"..."D").contains(String(first).uppercased()) else { return s }
         var idx = s.index(after: s.startIndex)
         if idx < s.endIndex {
             let c = s[idx]
-            if c == "." || c == "、" { idx = s.index(after: idx) }
+            guard c == "." || c == "、" else { return s }
+            idx = s.index(after: idx)
             while idx < s.endIndex, s[idx].isWhitespace { idx = s.index(after: idx) }
             return String(s[idx...])
         }

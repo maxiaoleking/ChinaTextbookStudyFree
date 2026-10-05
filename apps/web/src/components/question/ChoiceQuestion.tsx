@@ -10,16 +10,13 @@ import { haptic } from "@/lib/haptic";
 import { playTTS } from "@/lib/tts";
 import { useAutoNarrate } from "@/lib/useAutoNarrate";
 import { shouldIgnoreKey } from "./keyboard";
+import { correctChoiceLetter } from "@/lib/grade";
 import type { QuestionRendererProps } from "./QuestionRenderer";
 
 interface Ripple {
   id: number;
   x: number;
   y: number;
-}
-
-function normalizeOpt(s: string): string {
-  return s.trim().toLowerCase().replace(/\s+/g, "");
 }
 
 export function ChoiceQuestion({
@@ -30,23 +27,7 @@ export function ChoiceQuestion({
   onChange,
   locked = false,
 }: QuestionRendererProps) {
-  // 与 grade.ts 的判分口径一致：先按选项内容反查（答案可能直接存选项内容，
-  // 如 "bookstore"/"a < b"），查不到再按首字符当位置字母。
-  // 顺序不能反 —— "an"/"at"/"a < b" 这类以 a–d 开头的内容会被误当成位置字母，高亮错选项。
-  const rawCorrect = question.answer.trim();
-  let correctLetter = "";
-  if (question.options?.length) {
-    const cn = normalizeOpt(rawCorrect);
-    const idx = question.options.findIndex(o => {
-      const stripped = o.replace(/^[A-D][.、]\s*/, "");
-      return normalizeOpt(o) === cn || normalizeOpt(stripped) === cn;
-    });
-    if (idx >= 0) correctLetter = String.fromCharCode(65 + idx);
-  }
-  if (!correctLetter) {
-    const first = rawCorrect.toUpperCase().charAt(0);
-    if (/^[A-D]$/.test(first)) correctLetter = first;
-  }
+  const correctLetter = correctChoiceLetter(question);
   const [ripples, setRipples] = useState<Record<string, Ripple[]>>({});
   const idRef = useRef(0);
 
