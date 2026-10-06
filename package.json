@@ -9,7 +9,10 @@
   "scripts": {
     "dev": "npm run dev --workspace=china-study-free",
     "build": "npm run build --workspace=china-study-free",
+    "prebuild": "npm run validate:data -- --no-audio-check",
     "type-check": "npm run type-check --workspaces --if-present",
-    "test": "npm test --workspace=@cstf/core"
+    "test": "npm test --workspace=@cstf/core",
+    "validate:data": "tsx scripts/validate-data.ts",
+    "lock:glyphs": "tsx scripts/lock-glyphs.ts"
   }
 }

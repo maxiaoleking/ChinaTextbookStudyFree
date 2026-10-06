@@ -1,0 +1,24 @@
+name: Data & Core Gate
+# 题库数据（output/**）和共享判分逻辑（packages/core）是 Web/客户端共同的真相源，
+# 任何一条算错、渲染不出、字形漂移都直接体现在孩子看到的题目上，所以 push/PR 都拦。
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      # 与本地开发一致（Node 22 LTS）；audio 资源走 Releases，不在 git 里，故校验跳过音频文件
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run type-check
+      - run: npm test
+      - run: npm run validate:data -- --no-audio-check

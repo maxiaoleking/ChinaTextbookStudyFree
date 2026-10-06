@@ -306,6 +306,13 @@ def main() -> int:
             json.dumps(glyph, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
         )
 
+    # 字形一变，版本锁必须同步变（validate-data 会逐字比对 sha256）
+    subprocess.run(
+        ["npx", "tsx", str(ROOT / "scripts" / "lock-glyphs.ts")],
+        cwd=ROOT,
+        check=True,
+    )
+
     attr = WEB_PUBLIC / "writing"
     attr.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(src / "ARPHICPL.TXT", attr / "ARPHICPL.TXT")

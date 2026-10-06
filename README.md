@@ -166,6 +166,8 @@ npm run dev
 
 生产构建执行 `npm run build`，静态站点输出到 `apps/web/out/`；部署静态文件即可，不需要 Node.js 业务后端。类型检查使用 `npm run type-check`。
 
+发布前先跑数据门禁 `npm run validate:data`：它按题型回算答案、用前端同款 KaTeX 试渲染 `$...$`、核对音频引用与写字字形是否与 `apps/web/public/writing/glyph-lock.json` 记录的来源版本一致，有 error 即退出码非 0。`npm run build` 已自动前置执行这道门禁（用 `--no-audio-check` 跳过音频存在性，因为媒体按 Release 分发、不在 git 里）；下载完资源后可以跑一次全量校验把 16000 多条音频引用一并核对。字形来源固定为 `hanzi-writer-data`，取数版本改动后用 `npm run lock:glyphs` 重新锁定。同样的三步（类型检查、共享核心测试、数据门禁）由 `.github/workflows/ci.yml` 在每次 push / PR 上执行。
+
 ### 电脑、手机与部署
 
 电脑使用侧栏和宽屏阅读布局，手机使用底部导航和单列阅读。此前线上版本已检查 23 类页面 × 7 种尺寸（320×568 至 1920×1080），并测试完整答题、阅读、刷新恢复、错题、商店和家长时间限制。2026-10-05 的 `main` 更新另通过 45 项线上 HTTP 检查、完整文件与媒体引用核对，并验证 320、390 和 1440 像素宽度的课程讲解播放与边框进度。手机尺寸模拟不等于真机验收：真实 iPhone/Android、抖音内置浏览器的播放和麦克风权限仍需复核。详见 [Web 深测报告](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/codex/publish-tested-web/docs/web-deep-qa-2026-10-03.md)。
