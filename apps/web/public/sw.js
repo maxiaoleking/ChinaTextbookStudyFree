@@ -3,7 +3,8 @@
  *
  * 策略：
  *   - 壳层（导航请求 / manifest / 图标）：网络优先，失败回缓存 —— 离线也能进入上次访问过的页面
- *   - 课程数据 JSON（/data/**）与 TTS 音频（/audio/**）：stale-while-revalidate
+ *   - 课程数据 JSON（/data/**）：网络优先，失败回缓存 —— 题库修正必须在部署后立即生效
+ *   - TTS 音频（/audio/**，内容寻址不可变）：stale-while-revalidate
  *     —— 先用缓存秒开，后台悄悄刷新
  *   - 静态构建产物（/_next/static/**，内容寻址不变）：缓存优先
  *
@@ -13,8 +14,14 @@
 // v6 = 本地新增写字科目；v7 = 合入上游「audio byte-range 不走缓存」修复，
 // 缓存键换代才能让老设备丢掉旧的整包音频缓存
 const VERSION = "v7";
+// 课程 JSON 单独一条换代线，且不与音频共用缓存策略：题库会随版本修正
+// （答案改错、LaTeX 修复），若继续 stale-while-revalidate，部署完孩子第一屏
+// 读到的仍是修正前的旧题，表现为「明明重新部署了，这关还是错的」。
+const LESSON_DATA_VERSION = "v1";
 const SHELL_CACHE = `ctsf-shell-${VERSION}`;
-const DATA_CACHE = `ctsf-data-${VERSION}`;
+const DATA_CACHE = `ctsf-lesson-${LESSON_DATA_VERSION}`;
+// 沿用旧键名：音频不可变，改名会让每台设备重下一遍 1.2GB
+const AUDIO_CACHE = `ctsf-data-${VERSION}`;
 const STATIC_CACHE = `ctsf-static-${VERSION}`;
 const POLLY_CACHE = `ctsf-polly-${VERSION}`;
 
@@ -36,12 +43,35 @@ self.addEventListener("install", event => {
   );
 });
 
+/**
+ * 老版本 SW 把课程 JSON 和音频混在同一个 stale-while-revalidate 缓存里。
+ * 缓存键换代后这些条目不会再被读到，但留着就是几百份旧题：设备可能仍在
+ * 用未更新的 SW 通过它们回吐「修正前的题目」。激活时一次性清掉 /data/*。
+ */
+async function purgeLessonsFromAudioCache() {
+  const cache = await caches.open(AUDIO_CACHE);
+  const keys = await cache.keys();
+  await Promise.all(
+    keys
+      .filter(r => new URL(r.url).pathname.startsWith("/data/"))
+      .map(r => cache.delete(r)),
+  );
+}
+
 self.addEventListener("activate", event => {
-  const keep = new Set([SHELL_CACHE, DATA_CACHE, STATIC_CACHE, POLLY_CACHE]);
+  const keep = new Set([
+    SHELL_CACHE,
+    DATA_CACHE,
+    AUDIO_CACHE,
+    STATIC_CACHE,
+    POLLY_CACHE,
+  ]);
   event.waitUntil(
     caches
       .keys()
       .then(keys => Promise.all(keys.filter(k => !keep.has(k)).map(k => caches.delete(k))))
+      .then(() => purgeLessonsFromAudioCache())
+      .catch(() => {})
       .then(() => self.clients.claim()),
   );
 });
@@ -105,9 +135,17 @@ self.addEventListener("fetch", event => {
 
   if (url.origin !== self.location.origin) return;
 
-  // 课程 JSON 与音频：stale-while-revalidate
-  if (url.pathname.startsWith("/data/") || url.pathname.startsWith("/audio/")) {
-    event.respondWith(staleWhileRevalidate(DATA_CACHE, request));
+  // 课程 JSON 与写字笔顺数据：网络优先，断网才回缓存。
+  // 笔顺字形按汉字命名（/writing/glyphs/一.json），修字时文件名不变，
+  // 缓存优先会让写字关卡继续读旧笔画 —— 和题库同属「必须立刻生效」一类。
+  if (url.pathname.startsWith("/data/") || url.pathname.startsWith("/writing/")) {
+    event.respondWith(networkFirst(DATA_CACHE, request));
+    return;
+  }
+
+  // 音频：stale-while-revalidate（内容不可变，秒开优先）
+  if (url.pathname.startsWith("/audio/")) {
+    event.respondWith(staleWhileRevalidate(AUDIO_CACHE, request));
     return;
   }
 
