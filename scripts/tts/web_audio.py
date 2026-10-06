@@ -278,6 +278,7 @@ def run(args: argparse.Namespace) -> int:
             except (ValueError, OSError):
                 cached = {}
         items: dict[str, dict[str, Any]] = {}
+        native: dict[str, dict[str, Any]] = {}
         replacements: dict[str, str] = {}
         last_progress = time.monotonic()
         print(f"[web-audio] preflight: {len(urls)} unique references, {args.workers} workers", flush=True)
@@ -286,9 +287,29 @@ def run(args: argparse.Namespace) -> int:
             source = referenced.with_suffix(".opus")
             # Prefer the current immutable source even when JSON already references MP3.
             if not source.is_file():
+                # 认字/ela 的真人音频从采集那天起就只有 .mp3（没有 .opus 原件可比对）。
+                # 这类引用本身就是不可变源：验魔数后按原样记账，不再要求 ffmpeg 转码，
+                # 否则整个 Web 构建会因为这几千条合法资产而被判定为不可验证。
                 if referenced.suffix == ".mp3" and referenced.is_file():
-                    raise AudioBuildError(f"Original .opus source is missing for {url}; refusing an unverifiable cached MP3.")
-                raise AudioBuildError(f"Referenced source is missing: {url}")
+                    fmt = audio_format(referenced)
+                    if fmt != "mp3":
+                        raise AudioBuildError(f"Native MP3 is not actually MP3 ({fmt}): {url}")
+                    native_url = "/" + referenced.relative_to(args.public_root.resolve()).as_posix()
+                    if native_url not in native:
+                        native[native_url] = {
+                            "source": str(referenced), "target": str(referenced),
+                            "source_url": native_url, "target_url": native_url,
+                            "source_sha256": digest(referenced), "input_format": "mp3",
+                            "action": "native", "elapsed_seconds": 0,
+                            "config_sha256": CONFIG_SHA256,
+                            "target_sha256": digest(referenced),
+                        }
+                else:
+                    raise AudioBuildError(f"Referenced source is missing: {url}")
+                if time.monotonic() - last_progress >= 5:
+                    print(f"[web-audio] preflight {index}/{len(urls)}", flush=True)
+                    last_progress = time.monotonic()
+                continue
             target = source.with_suffix(".mp3")
             source_url = "/" + source.relative_to(args.public_root.resolve()).as_posix()
             target_url = "/" + target.relative_to(args.public_root.resolve()).as_posix()
@@ -318,6 +339,7 @@ def run(args: argparse.Namespace) -> int:
                 print(f"[web-audio] cache checked {len(entries) + len(pending)}/{len(items)}", flush=True)
                 last_progress = time.monotonic()
         report["source_assets"] = len(items)
+        report["native_assets"] = len(native)
         print(f"[web-audio] build: {len(pending)} pending, {len(entries)} cached", flush=True)
         errors: list[str] = []
         with ThreadPoolExecutor(max_workers=args.workers) as pool:
@@ -358,6 +380,8 @@ def run(args: argparse.Namespace) -> int:
             if time.monotonic() - last_progress >= 5:
                 print(f"[web-audio] final validation {index}/{len(items)}", flush=True)
                 last_progress = time.monotonic()
+        # 原生 MP3 不参与转码，只在所有转换落定后并入台账
+        entries.update(native)
         report["json_files_changed"] = rewrite_json(originals, replacements)
         # Also repair files produced by older runs, even when bytes need no rewrite.
         for path in originals:
