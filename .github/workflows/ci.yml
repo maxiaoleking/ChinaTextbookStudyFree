@@ -1,14 +1,23 @@
 name: Data & Core Gate
 # 题库数据（output/**）和共享判分逻辑（packages/core）是 Web/客户端共同的真相源，
 # 任何一条算错、渲染不出、字形漂移都直接体现在孩子看到的题目上，所以 push/PR 都拦。
+# 打 tag（和手动 dispatch）额外跑构建产物对账：源侧校验拦不住「build-data 静默
+# 跳过一本书」，只有把 output/ 推出的应有书目和 public/data/ 的实际产物对上账才算发布就绪。
 on:
   push:
+    # 两个过滤器是「或」关系且会互相收窄：只写 tags 会让普通分支 push 不再触发门禁，
+    # 所以 branches 必须显式保留 '**'
+    branches:
+      - '**'
+    tags:
+      - 'v*'
   pull_request:
   workflow_dispatch:
 permissions:
   contents: read
 jobs:
   gate:
+    if: startsWith(github.ref, 'refs/tags/') == false
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -22,3 +31,21 @@ jobs:
       - run: npm run type-check
       - run: npm test
       - run: npm run validate:data -- --no-audio-check
+
+  # 发布门禁：内容源校验 + 真跑一次数据构建 + 产物逐本对账
+  release-artifacts:
+    if: startsWith(github.ref, 'refs/tags/') || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run validate:data -- --no-audio-check
+      # 只跑 build-data.ts，不跑 apps/web 的 build:data —— 后者串了 web_audio.py，
+      # 要调付费语音 API；产物对账只需要 JSON 产物，音频缺失本来就不计入完整性
+      - run: npx tsx apps/web/scripts/build-data.ts
+      - run: npm run verify:artifacts

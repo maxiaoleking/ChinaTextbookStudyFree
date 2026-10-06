@@ -13,6 +13,7 @@
     "type-check": "npm run type-check --workspaces --if-present",
     "test": "npm test --workspace=@cstf/core",
     "validate:data": "tsx scripts/validate-data.ts",
+    "verify:artifacts": "tsx scripts/verify-build-artifacts.ts",
     "lock:glyphs": "tsx scripts/lock-glyphs.ts"
   }
 }
