@@ -1,0 +1,1086 @@
+{
+  "textbook": "CCSS 美国小学英语一年级上册",
+  "unit": "长元音与 Magic E · Long Vowels",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "Unit 4「长元音与 Magic E · Long Vowels」英文练习",
+    "total_score": 100,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "knowledge_point": "e 让元音变长",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Add a silent e to cap. What is the new word?",
+        "options": [
+          "fight",
+          "pet",
+          "drink",
+          "cape"
+        ],
+        "answer": "cape",
+        "explanation": "cap becomes cape, and the a becomes a long vowel sound."
+      },
+      {
+        "id": 2,
+        "knowledge_point": "e 让元音变长",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Add a silent e to tap. What is the new word?",
+        "options": [
+          "boat",
+          "kid",
+          "tape",
+          "bank"
+        ],
+        "answer": "tape",
+        "explanation": "tap becomes tape, and the a becomes a long vowel sound."
+      },
+      {
+        "id": 3,
+        "knowledge_point": "e 让元音变长",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Add a silent e to hat. What is the new word?",
+        "options": [
+          "rain",
+          "kick",
+          "soap",
+          "hate"
+        ],
+        "answer": "hate",
+        "explanation": "hat becomes hate, and the a becomes a long vowel sound."
+      },
+      {
+        "id": 4,
+        "knowledge_point": "e 让元音变长",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Add a silent e to man. What is the new word?",
+        "options": [
+          "net",
+          "rain",
+          "sank",
+          "mane"
+        ],
+        "answer": "mane",
+        "explanation": "man becomes mane, and the a becomes a long vowel sound."
+      },
+      {
+        "id": 5,
+        "knowledge_point": "e 让元音变长",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Add a silent e to pin. What is the new word?",
+        "options": [
+          "tug",
+          "van",
+          "pine",
+          "dug"
+        ],
+        "answer": "pine",
+        "explanation": "pin becomes pine, and the i becomes a long vowel sound."
+      },
+      {
+        "id": 6,
+        "knowledge_point": "e 让元音变长",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Add a silent e to kit. What is the new word?",
+        "options": [
+          "foam",
+          "main",
+          "bump",
+          "kite"
+        ],
+        "answer": "kite",
+        "explanation": "kit becomes kite, and the i becomes a long vowel sound."
+      },
+      {
+        "id": 7,
+        "knowledge_point": "e 让元音变长",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Add a silent e to bit. What is the new word?",
+        "options": [
+          "bite",
+          "map",
+          "hot",
+          "meat"
+        ],
+        "answer": "bite",
+        "explanation": "bit becomes bite, and the i becomes a long vowel sound."
+      },
+      {
+        "id": 8,
+        "knowledge_point": "e 让元音变长",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Add a silent e to hid. What is the new word?",
+        "options": [
+          "big",
+          "tip",
+          "hide",
+          "lip"
+        ],
+        "answer": "hide",
+        "explanation": "hid becomes hide, and the i becomes a long vowel sound."
+      },
+      {
+        "id": 9,
+        "knowledge_point": "e 让元音变长",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Add a silent e to hop. What is the new word?",
+        "options": [
+          "hope",
+          "train",
+          "ten",
+          "main"
+        ],
+        "answer": "hope",
+        "explanation": "hop becomes hope, and the o becomes a long vowel sound."
+      },
+      {
+        "id": 10,
+        "knowledge_point": "e 让元音变长",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Add a silent e to not. What is the new word?",
+        "options": [
+          "use",
+          "hide",
+          "think",
+          "note"
+        ],
+        "answer": "note",
+        "explanation": "not becomes note, and the o becomes a long vowel sound."
+      },
+      {
+        "id": 11,
+        "knowledge_point": "e 让元音变长",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Add a silent e to rob. What is the new word?",
+        "options": [
+          "lip",
+          "sat",
+          "soap",
+          "robe"
+        ],
+        "answer": "robe",
+        "explanation": "rob becomes robe, and the o becomes a long vowel sound."
+      },
+      {
+        "id": 12,
+        "knowledge_point": "e 让元音变长",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Add a silent e to cub. What is the new word?",
+        "options": [
+          "dream",
+          "rip",
+          "cube",
+          "stamp"
+        ],
+        "answer": "cube",
+        "explanation": "cub becomes cube, and the u becomes a long vowel sound."
+      },
+      {
+        "id": 13,
+        "knowledge_point": "e 让元音变长",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Add a silent e to us. What is the new word?",
+        "options": [
+          "use",
+          "pet",
+          "fan",
+          "kid"
+        ],
+        "answer": "use",
+        "explanation": "us becomes use, and the u becomes a long vowel sound."
+      },
+      {
+        "id": 14,
+        "knowledge_point": "元音组合",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word uses the vowel team igh?",
+        "options": [
+          "rain",
+          "dream",
+          "shoe",
+          "night"
+        ],
+        "answer": "night",
+        "explanation": "night is spelled with igh."
+      },
+      {
+        "id": 15,
+        "knowledge_point": "元音组合",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word uses the vowel team ai?",
+        "options": [
+          "right",
+          "shoe",
+          "boat",
+          "wait"
+        ],
+        "answer": "wait",
+        "explanation": "wait is spelled with ai."
+      },
+      {
+        "id": 16,
+        "knowledge_point": "元音组合",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word uses the vowel team oe?",
+        "options": [
+          "seed",
+          "hoe",
+          "fight",
+          "three"
+        ],
+        "answer": "hoe",
+        "explanation": "hoe is spelled with oe."
+      },
+      {
+        "id": 17,
+        "knowledge_point": "元音组合",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word uses the vowel team ee?",
+        "options": [
+          "tail",
+          "say",
+          "tree",
+          "meat"
+        ],
+        "answer": "tree",
+        "explanation": "tree is spelled with ee."
+      },
+      {
+        "id": 18,
+        "knowledge_point": "元音组合",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word uses the vowel team ee?",
+        "options": [
+          "bay",
+          "might",
+          "tree",
+          "mean"
+        ],
+        "answer": "tree",
+        "explanation": "tree is spelled with ee."
+      },
+      {
+        "id": 19,
+        "knowledge_point": "元音组合",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word uses the vowel team ee?",
+        "options": [
+          "meet",
+          "peak",
+          "ray",
+          "meat"
+        ],
+        "answer": "meet",
+        "explanation": "meet is spelled with ee."
+      },
+      {
+        "id": 20,
+        "knowledge_point": "元音组合",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word uses the vowel team ea?",
+        "options": [
+          "eat",
+          "seed",
+          "bay",
+          "right"
+        ],
+        "answer": "eat",
+        "explanation": "eat is spelled with ea."
+      },
+      {
+        "id": 21,
+        "knowledge_point": "元音组合",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word uses the vowel team ai?",
+        "options": [
+          "say",
+          "toe",
+          "day",
+          "pain"
+        ],
+        "answer": "pain",
+        "explanation": "pain is spelled with ai."
+      },
+      {
+        "id": 22,
+        "knowledge_point": "元音组合",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word uses the vowel team ee?",
+        "options": [
+          "coat",
+          "nail",
+          "free",
+          "peak"
+        ],
+        "answer": "free",
+        "explanation": "free is spelled with ee."
+      },
+      {
+        "id": 23,
+        "knowledge_point": "元音组合",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word uses the vowel team ea?",
+        "options": [
+          "oak",
+          "hoe",
+          "tight",
+          "eat"
+        ],
+        "answer": "eat",
+        "explanation": "eat is spelled with ea."
+      },
+      {
+        "id": 24,
+        "knowledge_point": "元音组合",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word uses the vowel team igh?",
+        "options": [
+          "night",
+          "sea",
+          "play",
+          "toe"
+        ],
+        "answer": "night",
+        "explanation": "night is spelled with igh."
+      },
+      {
+        "id": 25,
+        "knowledge_point": "元音组合",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word uses the vowel team ea?",
+        "options": [
+          "foam",
+          "fight",
+          "eat",
+          "soap"
+        ],
+        "answer": "eat",
+        "explanation": "eat is spelled with ea."
+      },
+      {
+        "id": 26,
+        "knowledge_point": "元音组合",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word uses the vowel team igh?",
+        "options": [
+          "pain",
+          "tail",
+          "might",
+          "feet"
+        ],
+        "answer": "might",
+        "explanation": "might is spelled with igh."
+      },
+      {
+        "id": 27,
+        "knowledge_point": "元音组合",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word uses the vowel team ea?",
+        "options": [
+          "main",
+          "right",
+          "bay",
+          "read"
+        ],
+        "answer": "read",
+        "explanation": "read is spelled with ea."
+      },
+      {
+        "id": 28,
+        "knowledge_point": "开闭音节配对",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Match each short-vowel word with its long-vowel word.",
+        "options": [
+          "not",
+          "tap",
+          "cap",
+          "hop",
+          "cape",
+          "hope",
+          "note",
+          "tape"
+        ],
+        "answer": "A-3,D-2,B-4,C-1",
+        "explanation": "Adding a silent e makes the vowel long."
+      },
+      {
+        "id": 29,
+        "knowledge_point": "开闭音节配对",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Match each word with the vowel sound you hear.",
+        "options": [
+          "cake",
+          "bed",
+          "hat",
+          "tree",
+          "short e",
+          "long e",
+          "short a",
+          "long a"
+        ],
+        "answer": "C-3,A-4,B-1,D-2",
+        "explanation": "hat and bed have short vowels; cake and tree have long vowels."
+      },
+      {
+        "id": 30,
+        "knowledge_point": "长音拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Which letters are missing? f___t",
+        "options": [],
+        "answer": "ee",
+        "explanation": "feet uses the vowel team ee."
+      },
+      {
+        "id": 31,
+        "knowledge_point": "长音拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Which letters are missing? b___",
+        "options": [],
+        "answer": "ee",
+        "explanation": "bee uses the vowel team ee."
+      },
+      {
+        "id": 32,
+        "knowledge_point": "长音拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Which letters are missing? dr___m",
+        "options": [],
+        "answer": "ea",
+        "explanation": "dream uses the vowel team ea."
+      },
+      {
+        "id": 33,
+        "knowledge_point": "长音拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Which letters are missing? l___f",
+        "options": [],
+        "answer": "ea",
+        "explanation": "leaf uses the vowel team ea."
+      },
+      {
+        "id": 34,
+        "knowledge_point": "长音拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Which letters are missing? ___k",
+        "options": [],
+        "answer": "oa",
+        "explanation": "oak uses the vowel team oa."
+      },
+      {
+        "id": 35,
+        "knowledge_point": "长音拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Which letters are missing? b___t",
+        "options": [],
+        "answer": "oa",
+        "explanation": "boat uses the vowel team oa."
+      },
+      {
+        "id": 36,
+        "knowledge_point": "长音拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Which letters are missing? m___n",
+        "options": [],
+        "answer": "ai",
+        "explanation": "main uses the vowel team ai."
+      },
+      {
+        "id": 37,
+        "knowledge_point": "长音拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Which letters are missing? tr___n",
+        "options": [],
+        "answer": "ai",
+        "explanation": "train uses the vowel team ai."
+      },
+      {
+        "id": 38,
+        "knowledge_point": "长音拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Which letters are missing? d___",
+        "options": [],
+        "answer": "ay",
+        "explanation": "day uses the vowel team ay."
+      },
+      {
+        "id": 39,
+        "knowledge_point": "长音拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Which letters are missing? w___",
+        "options": [],
+        "answer": "ay",
+        "explanation": "way uses the vowel team ay."
+      },
+      {
+        "id": 40,
+        "knowledge_point": "长音拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Which letters are missing? m___t",
+        "options": [],
+        "answer": "igh",
+        "explanation": "might uses the vowel team igh."
+      },
+      {
+        "id": 41,
+        "knowledge_point": "长音拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Which letters are missing? l___t",
+        "options": [],
+        "answer": "igh",
+        "explanation": "light uses the vowel team igh."
+      },
+      {
+        "id": 42,
+        "knowledge_point": "长音拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Which letters are missing? t___",
+        "options": [],
+        "answer": "oe",
+        "explanation": "toe uses the vowel team oe."
+      },
+      {
+        "id": 43,
+        "knowledge_point": "长音拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Which letters are missing? sh___",
+        "options": [],
+        "answer": "oe",
+        "explanation": "shoe uses the vowel team oe."
+      },
+      {
+        "id": 44,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "tape has a long a sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "The silent e makes the a long in tape."
+      },
+      {
+        "id": 45,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "bite has a long i sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "The silent e makes the i long in bite."
+      },
+      {
+        "id": 46,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "pine has a long i sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "The silent e makes the i long in pine."
+      },
+      {
+        "id": 47,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "pine has a long i sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "The silent e makes the i long in pine."
+      },
+      {
+        "id": 48,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "cape has a long a sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "The silent e makes the a long in cape."
+      },
+      {
+        "id": 49,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "hate has a long a sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "The silent e makes the a long in hate."
+      },
+      {
+        "id": 50,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "kite has a long i sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "The silent e makes the i long in kite."
+      },
+      {
+        "id": 51,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "cape has a long a sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "The silent e makes the a long in cape."
+      },
+      {
+        "id": 52,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "cap has a long a sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "cap has the short a sound."
+      },
+      {
+        "id": 53,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "jam has a long a sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "jam has the short a sound."
+      },
+      {
+        "id": 54,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "map has a long a sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "map has the short a sound."
+      },
+      {
+        "id": 55,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "rug has a long u sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "rug has the short u sound."
+      },
+      {
+        "id": 56,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "wig has a long i sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "wig has the short i sound."
+      },
+      {
+        "id": 57,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "hen has a long e sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "hen has the short e sound."
+      },
+      {
+        "id": 58,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "sink has a long i sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "sink has the short i sound."
+      },
+      {
+        "id": 59,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "sand has a long a sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "sand has the short a sound."
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 4「长元音与 Magic E · Long Vowels」综合挑战",
+    "total_score": 100,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "id": 3,
+        "knowledge_point": "e 让元音变长",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Add a silent e to hat. What is the new word?",
+        "options": [
+          "rain",
+          "kick",
+          "soap",
+          "hate"
+        ],
+        "answer": "hate",
+        "explanation": "hat becomes hate, and the a becomes a long vowel sound."
+      },
+      {
+        "id": 9,
+        "knowledge_point": "e 让元音变长",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Add a silent e to hop. What is the new word?",
+        "options": [
+          "hope",
+          "train",
+          "ten",
+          "main"
+        ],
+        "answer": "hope",
+        "explanation": "hop becomes hope, and the o becomes a long vowel sound."
+      },
+      {
+        "id": 12,
+        "knowledge_point": "e 让元音变长",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Add a silent e to cub. What is the new word?",
+        "options": [
+          "dream",
+          "rip",
+          "cube",
+          "stamp"
+        ],
+        "answer": "cube",
+        "explanation": "cub becomes cube, and the u becomes a long vowel sound."
+      },
+      {
+        "id": 26,
+        "knowledge_point": "元音组合",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word uses the vowel team igh?",
+        "options": [
+          "pain",
+          "tail",
+          "might",
+          "feet"
+        ],
+        "answer": "might",
+        "explanation": "might is spelled with igh."
+      },
+      {
+        "id": 20,
+        "knowledge_point": "元音组合",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word uses the vowel team ea?",
+        "options": [
+          "eat",
+          "seed",
+          "bay",
+          "right"
+        ],
+        "answer": "eat",
+        "explanation": "eat is spelled with ea."
+      },
+      {
+        "id": 24,
+        "knowledge_point": "元音组合",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word uses the vowel team igh?",
+        "options": [
+          "night",
+          "sea",
+          "play",
+          "toe"
+        ],
+        "answer": "night",
+        "explanation": "night is spelled with igh."
+      },
+      {
+        "id": 29,
+        "knowledge_point": "开闭音节配对",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Match each word with the vowel sound you hear.",
+        "options": [
+          "cake",
+          "bed",
+          "hat",
+          "tree",
+          "short e",
+          "long e",
+          "short a",
+          "long a"
+        ],
+        "answer": "C-3,A-4,B-1,D-2",
+        "explanation": "hat and bed have short vowels; cake and tree have long vowels."
+      },
+      {
+        "id": 28,
+        "knowledge_point": "开闭音节配对",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Match each short-vowel word with its long-vowel word.",
+        "options": [
+          "not",
+          "tap",
+          "cap",
+          "hop",
+          "cape",
+          "hope",
+          "note",
+          "tape"
+        ],
+        "answer": "A-3,D-2,B-4,C-1",
+        "explanation": "Adding a silent e makes the vowel long."
+      },
+      {
+        "id": 32,
+        "knowledge_point": "长音拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Which letters are missing? dr___m",
+        "options": [],
+        "answer": "ea",
+        "explanation": "dream uses the vowel team ea."
+      },
+      {
+        "id": 30,
+        "knowledge_point": "长音拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Which letters are missing? f___t",
+        "options": [],
+        "answer": "ee",
+        "explanation": "feet uses the vowel team ee."
+      },
+      {
+        "id": 33,
+        "knowledge_point": "长音拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Which letters are missing? l___f",
+        "options": [],
+        "answer": "ea",
+        "explanation": "leaf uses the vowel team ea."
+      },
+      {
+        "id": 46,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "pine has a long i sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "The silent e makes the i long in pine."
+      },
+      {
+        "id": 54,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "map has a long a sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "map has the short a sound."
+      },
+      {
+        "id": 49,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "hate has a long a sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "The silent e makes the a long in hate."
+      },
+      {
+        "id": 59,
+        "knowledge_point": "长音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "sand has a long a sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "sand has the short a sound."
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "e 让元音变长",
+      "core_concept": "词尾加不发音的 e，闭音节短元音变成长元音。（对应标准 RF.1.3c）",
+      "key_formula": "词尾加不发音的 e，前面的元音读字母本音：cap → cape。",
+      "common_mistakes": [
+        "把词尾 e 也读出来",
+        "忘记同时改变元音长度"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "元音组合",
+      "core_concept": "识别 ee / ea / oa / ai / ay / igh 等元音组合。（对应标准 RF.1.3c）",
+      "key_formula": "两个元音手拉手，通常只发第一个的长音：ee / ea / oa / ai。",
+      "common_mistakes": [
+        "挨个读两个元音字母",
+        "igh 读成 i + g + h"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "开闭音节配对",
+      "core_concept": "把短元音词与对应的长元音词配对。（对应标准 RF.1.3b, RF.1.3c）",
+      "key_formula": "闭音节 + e = 开音节，成对记忆：hop / hope。",
+      "common_mistakes": [
+        "配对时只看首字母",
+        "把 not / note 顺序写反"
+      ],
+      "tips": "看左边 → 想配对 → 点右边；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "长音拼写",
+      "core_concept": "补出长元音单词里缺的字母组合。（对应标准 RF.1.3c, L.1.2d）",
+      "key_formula": "听到长音却只写一个字母时，想想是不是漏了组合。",
+      "common_mistakes": [
+        "用同音的不同组合（ai 写成 ea）",
+        "漏掉词尾 e"
+      ],
+      "tips": "读题干 → 想拼写 → 打字作答；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "长音判断",
+      "core_concept": "判断单词中的元音是长音还是短音。（对应标准 RF.1.2a）",
+      "key_formula": "元音后面紧跟辅音多为短音，词尾有 e 或用组合多为长音。",
+      "common_mistakes": [
+        "把长音词误判为短音",
+        "被同形词族干扰"
+      ],
+      "tips": "先默读一遍 → 对照规则 → 判对错；生词先跟读两遍再做题，错题自动进错题本。"
+    }
+  ]
+}

@@ -1,0 +1,1703 @@
+{
+  "textbook": "CCSS 美国小学英语一年级上册",
+  "unit": "高频词与心词 · Sight Words",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "Unit 5「高频词与心词 · Sight Words」英文练习",
+    "total_score": 100,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is was?",
+        "options": [
+          "war",
+          "was",
+          "wax",
+          "saw"
+        ],
+        "answer": "was",
+        "explanation": "was is spelled w, a, s."
+      },
+      {
+        "id": 2,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is saw?",
+        "options": [
+          "saw",
+          "so",
+          "was",
+          "sea"
+        ],
+        "answer": "saw",
+        "explanation": "saw is spelled s, a, w."
+      },
+      {
+        "id": 3,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is there?",
+        "options": [
+          "where",
+          "these",
+          "there",
+          "three"
+        ],
+        "answer": "there",
+        "explanation": "there is spelled t, h, e, r, e."
+      },
+      {
+        "id": 4,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is here?",
+        "options": [
+          "three",
+          "share",
+          "here",
+          "where"
+        ],
+        "answer": "here",
+        "explanation": "here is spelled h, e, r, e."
+      },
+      {
+        "id": 5,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is then?",
+        "options": [
+          "then",
+          "them",
+          "than",
+          "when"
+        ],
+        "answer": "then",
+        "explanation": "then is spelled t, h, e, n."
+      },
+      {
+        "id": 6,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is them?",
+        "options": [
+          "them",
+          "theme",
+          "then",
+          "they"
+        ],
+        "answer": "them",
+        "explanation": "them is spelled t, h, e, m."
+      },
+      {
+        "id": 7,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is from?",
+        "options": [
+          "form",
+          "for",
+          "from",
+          "front"
+        ],
+        "answer": "from",
+        "explanation": "from is spelled f, r, o, m."
+      },
+      {
+        "id": 8,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is into?",
+        "options": [
+          "into",
+          "under",
+          "want",
+          "onto"
+        ],
+        "answer": "into",
+        "explanation": "into is spelled i, n, t, o."
+      },
+      {
+        "id": 9,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is come?",
+        "options": [
+          "some",
+          "come",
+          "home",
+          "came"
+        ],
+        "answer": "come",
+        "explanation": "come is spelled c, o, m, e."
+      },
+      {
+        "id": 10,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is walk?",
+        "options": [
+          "will",
+          "work",
+          "walk",
+          "way"
+        ],
+        "answer": "walk",
+        "explanation": "walk is spelled w, a, l, k."
+      },
+      {
+        "id": 11,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is want?",
+        "options": [
+          "want",
+          "will",
+          "well",
+          "went"
+        ],
+        "answer": "want",
+        "explanation": "want is spelled w, a, n, t."
+      },
+      {
+        "id": 12,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is were?",
+        "options": [
+          "wear",
+          "wet",
+          "were",
+          "where"
+        ],
+        "answer": "were",
+        "explanation": "were is spelled w, e, r, e."
+      },
+      {
+        "id": 13,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is when?",
+        "options": [
+          "when",
+          "were",
+          "who",
+          "what"
+        ],
+        "answer": "when",
+        "explanation": "when is spelled w, h, e, n."
+      },
+      {
+        "id": 14,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is know?",
+        "options": [
+          "now",
+          "new",
+          "no",
+          "know"
+        ],
+        "answer": "know",
+        "explanation": "know is spelled k, n, o, w."
+      },
+      {
+        "id": 15,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is thought?",
+        "options": [
+          "thought",
+          "third",
+          "though",
+          "through"
+        ],
+        "answer": "thought",
+        "explanation": "thought is spelled t, h, o, u, g, h, t."
+      },
+      {
+        "id": 16,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is little?",
+        "options": [
+          "ladder",
+          "later",
+          "little",
+          "letter"
+        ],
+        "answer": "little",
+        "explanation": "little is spelled l, i, t, t, l, e."
+      },
+      {
+        "id": 17,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is people?",
+        "options": [
+          "people",
+          "power",
+          "please",
+          "paper"
+        ],
+        "answer": "people",
+        "explanation": "people is spelled p, e, o, p, l, e."
+      },
+      {
+        "id": 18,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is because?",
+        "options": [
+          "because",
+          "between",
+          "behind",
+          "before"
+        ],
+        "answer": "because",
+        "explanation": "because is spelled b, e, c, a, u, s, e."
+      },
+      {
+        "id": 19,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is school?",
+        "options": [
+          "shoe",
+          "school",
+          "ship",
+          "shape"
+        ],
+        "answer": "school",
+        "explanation": "school is spelled s, c, h, o, o, l."
+      },
+      {
+        "id": 20,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is friend?",
+        "options": [
+          "friend",
+          "first",
+          "front",
+          "from"
+        ],
+        "answer": "friend",
+        "explanation": "friend is spelled f, r, i, e, n, d."
+      },
+      {
+        "id": 21,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is money?",
+        "options": [
+          "monkey",
+          "many",
+          "money",
+          "funny"
+        ],
+        "answer": "money",
+        "explanation": "money is spelled m, o, n, e, y."
+      },
+      {
+        "id": 22,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: I ___ a student.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "answer": "am",
+        "explanation": "The sentence is: I am a student."
+      },
+      {
+        "id": 23,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: She ___ a red apple.",
+        "options": [
+          "am",
+          "are",
+          "has",
+          "have"
+        ],
+        "answer": "has",
+        "explanation": "The sentence is: She has a red apple."
+      },
+      {
+        "id": 24,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: We ___ happy today.",
+        "options": [
+          "do",
+          "am",
+          "are",
+          "is"
+        ],
+        "answer": "are",
+        "explanation": "The sentence is: We are happy today."
+      },
+      {
+        "id": 25,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: He ___ to school every day.",
+        "options": [
+          "going",
+          "gone",
+          "go",
+          "goes"
+        ],
+        "answer": "goes",
+        "explanation": "The sentence is: He goes to school every day."
+      },
+      {
+        "id": 26,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: I see ___ elephant.",
+        "options": [
+          "two",
+          "of",
+          "an",
+          "many"
+        ],
+        "answer": "an",
+        "explanation": "The sentence is: I see an elephant."
+      },
+      {
+        "id": 27,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: Birds ___ in the sky.",
+        "options": [
+          "knock",
+          "fly",
+          "swim",
+          "dig"
+        ],
+        "answer": "fly",
+        "explanation": "The sentence is: Birds fly in the sky."
+      },
+      {
+        "id": 28,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: Fish live in the ___.",
+        "options": [
+          "sky",
+          "water",
+          "shoe",
+          "tree"
+        ],
+        "answer": "water",
+        "explanation": "The sentence is: Fish live in the water."
+      },
+      {
+        "id": 29,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: I eat soup with a ___.",
+        "options": [
+          "hat",
+          "ball",
+          "spoon",
+          "door"
+        ],
+        "answer": "spoon",
+        "explanation": "The sentence is: I eat soup with a spoon."
+      },
+      {
+        "id": 30,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: We read ___ at school.",
+        "options": [
+          "shoes",
+          "books",
+          "stars",
+          "balls"
+        ],
+        "answer": "books",
+        "explanation": "The sentence is: We read books at school."
+      },
+      {
+        "id": 31,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: What ___ your name?",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "do"
+        ],
+        "answer": "is",
+        "explanation": "The sentence is: What is your name?"
+      },
+      {
+        "id": 32,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: Thank you ___ your help.",
+        "options": [
+          "to",
+          "at",
+          "for",
+          "in"
+        ],
+        "answer": "for",
+        "explanation": "The sentence is: Thank you for your help."
+      },
+      {
+        "id": 33,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: The sun is big and ___.",
+        "options": [
+          "dark",
+          "wet",
+          "hot",
+          "cold"
+        ],
+        "answer": "hot",
+        "explanation": "The sentence is: The sun is big and hot."
+      },
+      {
+        "id": 34,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: Plants need water and ___.",
+        "options": [
+          "milk",
+          "snow",
+          "shoes",
+          "sun"
+        ],
+        "answer": "sun",
+        "explanation": "The sentence is: Plants need water and sun."
+      },
+      {
+        "id": 35,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: I am six ___ old.",
+        "options": [
+          "cups",
+          "cars",
+          "cats",
+          "years"
+        ],
+        "answer": "years",
+        "explanation": "The sentence is: I am six years old."
+      },
+      {
+        "id": 36,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: ___ is my book? It is on the table.",
+        "options": [
+          "Where",
+          "When",
+          "Who",
+          "What"
+        ],
+        "answer": "Where",
+        "explanation": "The sentence is: Where is my book? It is on the table."
+      },
+      {
+        "id": 37,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: They ___ watching TV.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "does"
+        ],
+        "answer": "are",
+        "explanation": "The sentence is: They are watching TV."
+      },
+      {
+        "id": 38,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: I do not ___ where he went.",
+        "options": [
+          "no",
+          "know",
+          "new",
+          "now"
+        ],
+        "answer": "know",
+        "explanation": "The sentence is: I do not know where he went."
+      },
+      {
+        "id": 39,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: We play ___ the playground.",
+        "options": [
+          "of",
+          "at",
+          "to",
+          "and"
+        ],
+        "answer": "at",
+        "explanation": "The sentence is: We play at the playground."
+      },
+      {
+        "id": 40,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: The cat is sleeping ___ the box.",
+        "options": [
+          "in",
+          "to",
+          "and",
+          "of"
+        ],
+        "answer": "in",
+        "explanation": "The sentence is: The cat is sleeping in the box."
+      },
+      {
+        "id": 41,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: I like apples ___ oranges.",
+        "options": [
+          "of",
+          "to",
+          "at",
+          "and"
+        ],
+        "answer": "and",
+        "explanation": "The sentence is: I like apples and oranges."
+      },
+      {
+        "id": 42,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: He ___ his homework after school.",
+        "options": [
+          "doing",
+          "do",
+          "done",
+          "does"
+        ],
+        "answer": "does",
+        "explanation": "The sentence is: He does his homework after school."
+      },
+      {
+        "id": 43,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: Can you ___ me your pen?",
+        "options": [
+          "go",
+          "give",
+          "see",
+          "say"
+        ],
+        "answer": "give",
+        "explanation": "The sentence is: Can you give me your pen?"
+      },
+      {
+        "id": 44,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: We ___ our friends at school.",
+        "options": [
+          "eat",
+          "drink",
+          "sleep",
+          "see"
+        ],
+        "answer": "see",
+        "explanation": "The sentence is: We see our friends at school."
+      },
+      {
+        "id": 45,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: My mother ___ me a goodnight kiss.",
+        "options": [
+          "takes",
+          "gives",
+          "bakes",
+          "drives"
+        ],
+        "answer": "gives",
+        "explanation": "The sentence is: My mother gives me a goodnight kiss."
+      },
+      {
+        "id": 46,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: I ___ a student.",
+        "options": [],
+        "answer": "am",
+        "explanation": "I am a student."
+      },
+      {
+        "id": 47,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: She ___ a red apple.",
+        "options": [],
+        "answer": "has",
+        "explanation": "She has a red apple."
+      },
+      {
+        "id": 48,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: We ___ happy today.",
+        "options": [],
+        "answer": "are",
+        "explanation": "We are happy today."
+      },
+      {
+        "id": 49,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: He ___ to school every day.",
+        "options": [],
+        "answer": "goes",
+        "explanation": "He goes to school every day."
+      },
+      {
+        "id": 50,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: I see ___ elephant.",
+        "options": [],
+        "answer": "an",
+        "explanation": "I see an elephant."
+      },
+      {
+        "id": 51,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: Birds ___ in the sky.",
+        "options": [],
+        "answer": "fly",
+        "explanation": "Birds fly in the sky."
+      },
+      {
+        "id": 52,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: Fish live in the ___.",
+        "options": [],
+        "answer": "water",
+        "explanation": "Fish live in the water."
+      },
+      {
+        "id": 53,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: I eat soup with a ___.",
+        "options": [],
+        "answer": "spoon",
+        "explanation": "I eat soup with a spoon."
+      },
+      {
+        "id": 54,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: We read ___ at school.",
+        "options": [],
+        "answer": "books",
+        "explanation": "We read books at school."
+      },
+      {
+        "id": 55,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: What ___ your name?",
+        "options": [],
+        "answer": "is",
+        "explanation": "What is your name?"
+      },
+      {
+        "id": 56,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: Thank you ___ your help.",
+        "options": [],
+        "answer": "for",
+        "explanation": "Thank you for your help."
+      },
+      {
+        "id": 57,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: The sun is big and ___.",
+        "options": [],
+        "answer": "hot",
+        "explanation": "The sun is big and hot."
+      },
+      {
+        "id": 58,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: Plants need water and ___.",
+        "options": [],
+        "answer": "sun",
+        "explanation": "Plants need water and sun."
+      },
+      {
+        "id": 59,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: I am six ___ old.",
+        "options": [],
+        "answer": "years",
+        "explanation": "I am six years old."
+      },
+      {
+        "id": 60,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: ___ is my book? It is on the table.",
+        "options": [],
+        "answer": "Where",
+        "explanation": "Where is my book? It is on the table."
+      },
+      {
+        "id": 61,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: They ___ watching TV.",
+        "options": [],
+        "answer": "are",
+        "explanation": "They are watching TV."
+      },
+      {
+        "id": 62,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: I do not ___ where he went.",
+        "options": [],
+        "answer": "know",
+        "explanation": "I do not know where he went."
+      },
+      {
+        "id": 63,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: We play ___ the playground.",
+        "options": [],
+        "answer": "at",
+        "explanation": "We play at the playground."
+      },
+      {
+        "id": 64,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: The cat is sleeping ___ the box.",
+        "options": [],
+        "answer": "in",
+        "explanation": "The cat is sleeping in the box."
+      },
+      {
+        "id": 65,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: I like apples ___ oranges.",
+        "options": [],
+        "answer": "and",
+        "explanation": "I like apples and oranges."
+      },
+      {
+        "id": 66,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: He ___ his homework after school.",
+        "options": [],
+        "answer": "does",
+        "explanation": "He does his homework after school."
+      },
+      {
+        "id": 67,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: Can you ___ me your pen?",
+        "options": [],
+        "answer": "give",
+        "explanation": "Can you give me your pen?"
+      },
+      {
+        "id": 68,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: We ___ our friends at school.",
+        "options": [],
+        "answer": "see",
+        "explanation": "We see our friends at school."
+      },
+      {
+        "id": 69,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: My mother ___ me a goodnight kiss.",
+        "options": [],
+        "answer": "gives",
+        "explanation": "My mother gives me a goodnight kiss."
+      },
+      {
+        "id": 70,
+        "knowledge_point": "连词成句",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "big",
+          "dog.",
+          "have",
+          "I",
+          "a"
+        ],
+        "answer": "I,have,a,big,dog.",
+        "explanation": "I have a big dog."
+      },
+      {
+        "id": 71,
+        "knowledge_point": "连词成句",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "She",
+          "run",
+          "very",
+          "fast.",
+          "can"
+        ],
+        "answer": "She,can,run,very,fast.",
+        "explanation": "She can run very fast."
+      },
+      {
+        "id": 72,
+        "knowledge_point": "连词成句",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "like",
+          "apples.",
+          "We",
+          "to",
+          "eat"
+        ],
+        "answer": "We,like,to,eat,apples.",
+        "explanation": "We like to eat apples."
+      },
+      {
+        "id": 73,
+        "knowledge_point": "连词成句",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "The",
+          "on",
+          "mat.",
+          "sat",
+          "the",
+          "cat"
+        ],
+        "answer": "The,cat,sat,on,the,mat.",
+        "explanation": "The cat sat on the mat."
+      },
+      {
+        "id": 74,
+        "knowledge_point": "连词成句",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "by",
+          "to",
+          "He",
+          "goes",
+          "bus.",
+          "school"
+        ],
+        "answer": "He,goes,to,school,by,bus.",
+        "explanation": "He goes to school by bus."
+      },
+      {
+        "id": 75,
+        "knowledge_point": "连词成句",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "mom",
+          "My",
+          "good",
+          "food.",
+          "cooks"
+        ],
+        "answer": "My,mom,cooks,good,food.",
+        "explanation": "My mom cooks good food."
+      },
+      {
+        "id": 76,
+        "knowledge_point": "连词成句",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "in",
+          "are",
+          "the",
+          "They",
+          "park.",
+          "playing"
+        ],
+        "answer": "They,are,playing,in,the,park.",
+        "explanation": "They are playing in the park."
+      },
+      {
+        "id": 77,
+        "knowledge_point": "连词成句",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "Do",
+          "water?",
+          "want",
+          "you",
+          "some"
+        ],
+        "answer": "Do,you,want,some,water?",
+        "explanation": "Do you want some water?"
+      },
+      {
+        "id": 78,
+        "knowledge_point": "连词成句",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "It",
+          "sunny",
+          "a",
+          "day.",
+          "is"
+        ],
+        "answer": "It,is,a,sunny,day.",
+        "explanation": "It is a sunny day."
+      },
+      {
+        "id": 79,
+        "knowledge_point": "连词成句",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "the",
+          "fly",
+          "can",
+          "Birds",
+          "sky.",
+          "in"
+        ],
+        "answer": "Birds,can,fly,in,the,sky.",
+        "explanation": "Birds can fly in the sky."
+      },
+      {
+        "id": 80,
+        "knowledge_point": "连词成句",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "see",
+          "star.",
+          "I",
+          "a",
+          "yellow"
+        ],
+        "answer": "I,see,a,yellow,star.",
+        "explanation": "I see a yellow star."
+      },
+      {
+        "id": 81,
+        "knowledge_point": "连词成句",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "small",
+          "The",
+          "a",
+          "has",
+          "ball.",
+          "dog"
+        ],
+        "answer": "The,dog,has,a,small,ball.",
+        "explanation": "The dog has a small ball."
+      },
+      {
+        "id": 82,
+        "knowledge_point": "连词成句",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "read",
+          "books",
+          "We",
+          "every",
+          "day."
+        ],
+        "answer": "We,read,books,every,day.",
+        "explanation": "We read books every day."
+      },
+      {
+        "id": 83,
+        "knowledge_point": "连词成句",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "table.",
+          "She",
+          "book",
+          "put",
+          "the",
+          "the",
+          "on"
+        ],
+        "answer": "She,put,the,book,on,the,table.",
+        "explanation": "She put the book on the table."
+      },
+      {
+        "id": 84,
+        "knowledge_point": "连词成句",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "color?",
+          "is",
+          "What",
+          "your",
+          "favorite"
+        ],
+        "answer": "What,is,your,favorite,color?",
+        "explanation": "What is your favorite color?"
+      },
+      {
+        "id": 85,
+        "knowledge_point": "连词成句",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "now.",
+          "Let",
+          "home",
+          "go",
+          "us"
+        ],
+        "answer": "Let,us,go,home,now.",
+        "explanation": "Let us go home now."
+      },
+      {
+        "id": 86,
+        "knowledge_point": "拼写判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word is spelled ords.",
+        "options": [],
+        "answer": "错",
+        "explanation": "The correct spelling is words."
+      },
+      {
+        "id": 87,
+        "knowledge_point": "拼写判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word is spelled must.",
+        "options": [],
+        "answer": "对",
+        "explanation": "The correct spelling is must."
+      },
+      {
+        "id": 88,
+        "knowledge_point": "拼写判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word is spelled use.",
+        "options": [],
+        "answer": "对",
+        "explanation": "The correct spelling is use."
+      },
+      {
+        "id": 89,
+        "knowledge_point": "拼写判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word is spelled yut.",
+        "options": [],
+        "answer": "错",
+        "explanation": "The correct spelling is out."
+      },
+      {
+        "id": 90,
+        "knowledge_point": "拼写判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word is spelled first.",
+        "options": [],
+        "answer": "对",
+        "explanation": "The correct spelling is first."
+      },
+      {
+        "id": 91,
+        "knowledge_point": "拼写判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word is spelled to.",
+        "options": [],
+        "answer": "对",
+        "explanation": "The correct spelling is to."
+      },
+      {
+        "id": 92,
+        "knowledge_point": "拼写判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word is spelled csuld.",
+        "options": [],
+        "answer": "错",
+        "explanation": "The correct spelling is could."
+      },
+      {
+        "id": 93,
+        "knowledge_point": "拼写判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word is spelled dows.",
+        "options": [],
+        "answer": "错",
+        "explanation": "The correct spelling is down."
+      },
+      {
+        "id": 94,
+        "knowledge_point": "拼写判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word is spelled give.",
+        "options": [],
+        "answer": "对",
+        "explanation": "The correct spelling is give."
+      },
+      {
+        "id": 95,
+        "knowledge_point": "拼写判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word is spelled wu.",
+        "options": [],
+        "answer": "错",
+        "explanation": "The correct spelling is we."
+      },
+      {
+        "id": 96,
+        "knowledge_point": "拼写判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word is spelled take.",
+        "options": [],
+        "answer": "对",
+        "explanation": "The correct spelling is take."
+      },
+      {
+        "id": 97,
+        "knowledge_point": "拼写判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word is spelled would.",
+        "options": [],
+        "answer": "对",
+        "explanation": "The correct spelling is would."
+      },
+      {
+        "id": 98,
+        "knowledge_point": "拼写判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word is spelled aae.",
+        "options": [],
+        "answer": "错",
+        "explanation": "The correct spelling is ate."
+      },
+      {
+        "id": 99,
+        "knowledge_point": "拼写判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word is spelled rlund.",
+        "options": [],
+        "answer": "错",
+        "explanation": "The correct spelling is round."
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 5「高频词与心词 · Sight Words」综合挑战",
+    "total_score": 100,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "id": 1,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is was?",
+        "options": [
+          "war",
+          "was",
+          "wax",
+          "saw"
+        ],
+        "answer": "was",
+        "explanation": "was is spelled w, a, s."
+      },
+      {
+        "id": 2,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is saw?",
+        "options": [
+          "saw",
+          "so",
+          "was",
+          "sea"
+        ],
+        "answer": "saw",
+        "explanation": "saw is spelled s, a, w."
+      },
+      {
+        "id": 5,
+        "knowledge_point": "看字母选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read the letters. Which word is then?",
+        "options": [
+          "then",
+          "them",
+          "than",
+          "when"
+        ],
+        "answer": "then",
+        "explanation": "then is spelled t, h, e, n."
+      },
+      {
+        "id": 25,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: He ___ to school every day.",
+        "options": [
+          "going",
+          "gone",
+          "go",
+          "goes"
+        ],
+        "answer": "goes",
+        "explanation": "The sentence is: He goes to school every day."
+      },
+      {
+        "id": 38,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: I do not ___ where he went.",
+        "options": [
+          "no",
+          "know",
+          "new",
+          "now"
+        ],
+        "answer": "know",
+        "explanation": "The sentence is: I do not know where he went."
+      },
+      {
+        "id": 28,
+        "knowledge_point": "句子选词填空",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the word that fits: Fish live in the ___.",
+        "options": [
+          "sky",
+          "water",
+          "shoe",
+          "tree"
+        ],
+        "answer": "water",
+        "explanation": "The sentence is: Fish live in the water."
+      },
+      {
+        "id": 56,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: Thank you ___ your help.",
+        "options": [],
+        "answer": "for",
+        "explanation": "Thank you for your help."
+      },
+      {
+        "id": 62,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: I do not ___ where he went.",
+        "options": [],
+        "answer": "know",
+        "explanation": "I do not know where he went."
+      },
+      {
+        "id": 67,
+        "knowledge_point": "高频词拼写",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Write the missing word: Can you ___ me your pen?",
+        "options": [],
+        "answer": "give",
+        "explanation": "Can you give me your pen?"
+      },
+      {
+        "id": 84,
+        "knowledge_point": "连词成句",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "color?",
+          "is",
+          "What",
+          "your",
+          "favorite"
+        ],
+        "answer": "What,is,your,favorite,color?",
+        "explanation": "What is your favorite color?"
+      },
+      {
+        "id": 83,
+        "knowledge_point": "连词成句",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "table.",
+          "She",
+          "book",
+          "put",
+          "the",
+          "the",
+          "on"
+        ],
+        "answer": "She,put,the,book,on,the,table.",
+        "explanation": "She put the book on the table."
+      },
+      {
+        "id": 71,
+        "knowledge_point": "连词成句",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "She",
+          "run",
+          "very",
+          "fast.",
+          "can"
+        ],
+        "answer": "She,can,run,very,fast.",
+        "explanation": "She can run very fast."
+      },
+      {
+        "id": 93,
+        "knowledge_point": "拼写判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word is spelled dows.",
+        "options": [],
+        "answer": "错",
+        "explanation": "The correct spelling is down."
+      },
+      {
+        "id": 95,
+        "knowledge_point": "拼写判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word is spelled wu.",
+        "options": [],
+        "answer": "错",
+        "explanation": "The correct spelling is we."
+      },
+      {
+        "id": 97,
+        "knowledge_point": "拼写判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word is spelled would.",
+        "options": [],
+        "answer": "对",
+        "explanation": "The correct spelling is would."
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "看字母选词",
+      "core_concept": "按拼写从形近词中认出目标高频词。（对应标准 RF.1.3g）",
+      "key_formula": "逐字母比对，别整词扫读：was / saw / war 字母一样顺序不同。",
+      "common_mistakes": [
+        "只看首字母就作答",
+        "把形近词当成同一个词"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "句子选词填空",
+      "core_concept": "在句子语境里选出正确的高频词。（对应标准 RF.1.3g, L.1.4a）",
+      "key_formula": "先读懂句子意思，再按语法搭配选词（I am / He goes）。",
+      "common_mistakes": [
+        "只按词频选最常见的词",
+        "忽略主谓一致"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "高频词拼写",
+      "core_concept": "把句子里缺的高频词写出来。（对应标准 L.1.2d）",
+      "key_formula": "心词不符合拼读规则，要整体记住字母顺序。",
+      "common_mistakes": [
+        "按读音拼写（them 写成 dem）",
+        "多写字母或漏写字母"
+      ],
+      "tips": "读题干 → 想拼写 → 打字作答；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "连词成句",
+      "core_concept": "把打乱的单词排成语法正确的句子。（对应标准 L.1.1j, RF.1.1a）",
+      "key_formula": "先找开头大写的词，句末带标点的词放最后。",
+      "common_mistakes": [
+        "把带句号的词放中间",
+        "忘了句首要大写"
+      ],
+      "tips": "先找第一个 → 依次点击 → 连成整句；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "拼写判断",
+      "core_concept": "判断高频词的拼写是否正确。（对应标准 L.1.2d）",
+      "key_formula": "对照见过的样子逐字母检查，尤其词尾。",
+      "common_mistakes": [
+        "把 -er / -re 顺序看反",
+        "漏掉双写字母"
+      ],
+      "tips": "先默读一遍 → 对照规则 → 判对错；生词先跟读两遍再做题，错题自动进错题本。"
+    }
+  ]
+}

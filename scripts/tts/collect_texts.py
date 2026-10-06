@@ -139,6 +139,14 @@ def pick_profile(subject: str, grade: int, language: str) -> tuple[str, str]:
             "情感饱满，节奏分明。",
         )
 
+    # ---- 认字（拼音 + 生字）----
+    if subject == "renzi":
+        return (
+            "vivian",
+            "用清晰缓慢的普通话领读，像小学语文老师带一年级孩子认字，"
+            "每个字、每个音节都读准，拼音要读出声调。",
+        )
+
     # ---- 科学 ----
     if subject == "science":
         if grade in LOW_GRADE:

@@ -1,0 +1,379 @@
+{
+  "textbook": "统编版小学写字练习一年级上册",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "识字（一）· 天地自然",
+      "knowledge_points": [
+        {
+          "name": "写字 第1组",
+          "description": "在「识字（一）· 天地自然」里按笔顺写「天、地、人、你」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第2组",
+          "description": "在「识字（一）· 天地自然」里按笔顺写「我、他、一、二」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第3组",
+          "description": "在「识字（一）· 天地自然」里按笔顺写「三、四、五、上」。",
+          "difficulty": 2,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第4组",
+          "description": "在「识字（一）· 天地自然」里按笔顺写「下、口、耳、目」。",
+          "difficulty": 2,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第5组",
+          "description": "在「识字（一）· 天地自然」里按笔顺写「手、足、日、月」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第6组",
+          "description": "在「识字（一）· 天地自然」里按笔顺写「水、火、山、石」。",
+          "difficulty": 2,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第7组",
+          "description": "在「识字（一）· 天地自然」里按笔顺写「田、禾、对、云」。",
+          "difficulty": 2,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第8组",
+          "description": "在「识字（一）· 天地自然」里按笔顺写「雨、风、花、鸟」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第9组",
+          "description": "在「识字（一）· 天地自然」里按笔顺写「虫、六、七、八」。",
+          "difficulty": 2,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第10组",
+          "description": "在「识字（一）· 天地自然」里按笔顺写「九、十」。",
+          "difficulty": 1,
+          "question_types": [
+            "写字"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "识字（二）· 家庭与身体",
+      "knowledge_points": [
+        {
+          "name": "写字 第1组",
+          "description": "在「识字（二）· 家庭与身体」里按笔顺写「爸、妈、哥、弟」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第2组",
+          "description": "在「识字（二）· 家庭与身体」里按笔顺写「姐、妹、爷、奶」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第3组",
+          "description": "在「识字（二）· 家庭与身体」里按笔顺写「家、大、小、多」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第4组",
+          "description": "在「识字（二）· 家庭与身体」里按笔顺写「少、牛、羊、鸟」。",
+          "difficulty": 2,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第5组",
+          "description": "在「识字（二）· 家庭与身体」里按笔顺写「虫、狗、猫、兔」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第6组",
+          "description": "在「识字（二）· 家庭与身体」里按笔顺写「心、头、面、身」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第7组",
+          "description": "在「识字（二）· 家庭与身体」里按笔顺写「米、饭、菜、果」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第8组",
+          "description": "在「识字（二）· 家庭与身体」里按笔顺写「白、黑、红、黄」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第9组",
+          "description": "在「识字（二）· 家庭与身体」里按笔顺写「蓝、绿」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "拼音识字 · 单韵母与声母",
+      "knowledge_points": [
+        {
+          "name": "写字 第1组",
+          "description": "在「拼音识字 · 单韵母与声母」里按笔顺写「的、了、在、有」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第2组",
+          "description": "在「拼音识字 · 单韵母与声母」里按笔顺写「不、子、来、去」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第3组",
+          "description": "在「拼音识字 · 单韵母与声母」里按笔顺写「出、入、开、关」。",
+          "difficulty": 2,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第4组",
+          "description": "在「拼音识字 · 单韵母与声母」里按笔顺写「坐、立、走、飞」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第5组",
+          "description": "在「拼音识字 · 单韵母与声母」里按笔顺写「看、听、说、读」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第6组",
+          "description": "在「拼音识字 · 单韵母与声母」里按笔顺写「写、学、生、字」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第7组",
+          "description": "在「拼音识字 · 单韵母与声母」里按笔顺写「文、书、本、笔」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第8组",
+          "description": "在「拼音识字 · 单韵母与声母」里按笔顺写「刀、尺」。",
+          "difficulty": 2,
+          "question_types": [
+            "写字"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "识字（三）· 数字与校园",
+      "knowledge_points": [
+        {
+          "name": "写字 第1组",
+          "description": "在「识字（三）· 数字与校园」里按笔顺写「东、西、南、北」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第2组",
+          "description": "在「识字（三）· 数字与校园」里按笔顺写「中、国、学、校」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第3组",
+          "description": "在「识字（三）· 数字与校园」里按笔顺写「老、师、同、好」。",
+          "difficulty": 2,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第4组",
+          "description": "在「识字（三）· 数字与校园」里按笔顺写「早、晚、星、光」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第5组",
+          "description": "在「识字（三）· 数字与校园」里按笔顺写「明、昨、今、年」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第6组",
+          "description": "在「识字（三）· 数字与校园」里按笔顺写「春、夏、秋、冬」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第7组",
+          "description": "在「识字（三）· 数字与校园」里按笔顺写「了、门、口、王」。",
+          "difficulty": 2,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第8组",
+          "description": "在「识字（三）· 数字与校园」里按笔顺写「土」。",
+          "difficulty": 1,
+          "question_types": [
+            "写字"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "综合认读 · 课文常用字",
+      "knowledge_points": [
+        {
+          "name": "写字 第1组",
+          "description": "在「综合认读 · 课文常用字」里按笔顺写「会、能、就、也」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第2组",
+          "description": "在「综合认读 · 课文常用字」里按笔顺写「都、很、太、阳」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第3组",
+          "description": "在「综合认读 · 课文常用字」里按笔顺写「气、天、空、海」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第4组",
+          "description": "在「综合认读 · 课文常用字」里按笔顺写「江、河、沙、草」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第5组",
+          "description": "在「综合认读 · 课文常用字」里按笔顺写「树、木、林、森」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第6组",
+          "description": "在「综合认读 · 课文常用字」里按笔顺写「竹、叶、花、香」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第7组",
+          "description": "在「综合认读 · 课文常用字」里按笔顺写「色、美、丽、长」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第8组",
+          "description": "在「综合认读 · 课文常用字」里按笔顺写「高、兴、快、乐」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        }
+      ]
+    }
+  ]
+}

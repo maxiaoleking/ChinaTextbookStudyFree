@@ -5,12 +5,15 @@ import { motion } from "framer-motion";
 import { Volume } from "@/components/icons";
 import { cn } from "@/lib/cn";
 import { playTTS, preloadTTS, stopTTS } from "@/lib/tts";
+import { isPinyinText, isOnlinePollyEnabled, localPinyinAudioSrc, onlinePollySrc } from "@/lib/pinyinSpeak";
 
 interface TTSButtonProps {
   src?: string | null;
+  /** 无预生成音频时的朗读原文（Web Speech 兜底） */
+  text?: string | null;
   /** 进入视图时自动预加载 */
   preload?: boolean;
-  /** 进入视图时自动播放一次（每次 src 变化触发） */
+  /** 进入视图时自动播放一次（每次 src/text 变化触发） */
   autoPlay?: boolean;
   size?: "sm" | "md";
   className?: string;
@@ -18,10 +21,11 @@ interface TTSButtonProps {
 }
 
 /**
- * 点击播放预生成的 TTS mp3。无 src 时不渲染。
+ * 点击播放预生成 TTS；无 src 时若有 text 则用系统语音兜底。
  */
 export function TTSButton({
   src,
+  text,
   preload = true,
   autoPlay = false,
   size = "md",
@@ -29,28 +33,34 @@ export function TTSButton({
   label = "朗读",
 }: TTSButtonProps) {
   const [playing, setPlaying] = useState(false);
+  const pinyinSrc = text && isPinyinText(text) ? localPinyinAudioSrc(text) : null;
+  const pollySrc = text && isOnlinePollyEnabled() ? onlinePollySrc(text) : null;
+  const hasVoice = Boolean(src || pollySrc || pinyinSrc || (text && text.trim()));
 
   useEffect(() => {
-    if (preload) preloadTTS(src);
-  }, [src, preload]);
+    if (!preload) return;
+    if (pollySrc) preloadTTS(pollySrc);
+    if (pinyinSrc) preloadTTS(pinyinSrc);
+    if (src) preloadTTS(src);
+  }, [src, pinyinSrc, pollySrc, preload]);
 
   useEffect(() => {
-    if (!autoPlay || !src) return;
+    if (!autoPlay || !hasVoice) return;
     void play();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [src, autoPlay]);
+  }, [src, text, autoPlay]);
 
   useEffect(() => () => {
     if (playing) stopTTS();
   }, [playing]);
 
-  if (!src) return null;
+  if (!hasVoice) return null;
 
   async function play(e?: React.MouseEvent) {
     e?.stopPropagation();
     e?.preventDefault();
     setPlaying(true);
-    await playTTS(src);
+    await playTTS(src, { text });
     setPlaying(false);
   }
 

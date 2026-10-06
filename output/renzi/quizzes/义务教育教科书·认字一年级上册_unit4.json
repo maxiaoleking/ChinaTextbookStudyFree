@@ -1,0 +1,2655 @@
+{
+  "textbook": "统编版小学认字一年级上册",
+  "unit": "识字（三）· 数字与校园",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "第4单元「识字（三）· 数字与校园」认字与拼音练习",
+    "total_score": 100,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「东」的正确读音是？（提示词：东西）",
+        "options": [
+          "nán",
+          "zhōng",
+          "dōng",
+          "guāng"
+        ],
+        "answer": "dōng",
+        "explanation": "「东」读作 dōng，可以组词「东西」。",
+        "audio": {
+          "question": "/audio/58/581966b16e10de8311da5e3de8dc674036784e4e.mp3",
+          "options": [
+            "/audio/pinyin/nan2.mp3",
+            "/audio/pinyin/zhong1.mp3",
+            "/audio/pinyin/dong1.mp3",
+            "/audio/pinyin/guang1.mp3"
+          ],
+          "explanation": "/audio/9e/9e617f106e2c08911d0c7a60e47cc086af2be42c.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「西」的正确读音是？（提示词：西瓜）",
+        "options": [
+          "nán",
+          "xué",
+          "xī",
+          "guó"
+        ],
+        "answer": "xī",
+        "explanation": "「西」读作 xī，可以组词「西瓜」。",
+        "audio": {
+          "question": "/audio/8d/8d230dbc0957105e12ea2c3cc8f0db0b6db7a6c6.mp3",
+          "options": [
+            "/audio/pinyin/nan2.mp3",
+            "/audio/pinyin/xue2.mp3",
+            "/audio/pinyin/xi1.mp3",
+            "/audio/pinyin/guo2.mp3"
+          ],
+          "explanation": "/audio/e6/e61c61d98a39eac4bf56085cf1ee8d30102473a1.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「南」的正确读音是？（提示词：南方）",
+        "options": [
+          "nán",
+          "zhōng",
+          "guó",
+          "lǎo"
+        ],
+        "answer": "nán",
+        "explanation": "「南」读作 nán，可以组词「南方」。",
+        "audio": {
+          "question": "/audio/7e/7ed6833f74f28e9127d1b90d7133e43cad228176.mp3",
+          "options": [
+            "/audio/pinyin/nan2.mp3",
+            "/audio/pinyin/zhong1.mp3",
+            "/audio/pinyin/guo2.mp3",
+            "/audio/pinyin/lao3.mp3"
+          ],
+          "explanation": "/audio/e8/e8e19df43f4ef2385cb760331a836acc7598a921.mp3"
+        }
+      },
+      {
+        "id": 4,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「北」的正确读音是？（提示词：北方）",
+        "options": [
+          "běi",
+          "nán",
+          "lǎo",
+          "zhōng"
+        ],
+        "answer": "běi",
+        "explanation": "「北」读作 běi，可以组词「北方」。",
+        "audio": {
+          "question": "/audio/27/2752b03a65b420dcd8035e2ce4b440199d85544e.mp3",
+          "options": [
+            "/audio/pinyin/bei3.mp3",
+            "/audio/pinyin/nan2.mp3",
+            "/audio/pinyin/lao3.mp3",
+            "/audio/pinyin/zhong1.mp3"
+          ],
+          "explanation": "/audio/1d/1d0fbc73818654fdb9e890743d782fe80ed6a0bb.mp3"
+        }
+      },
+      {
+        "id": 5,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「中」的正确读音是？（提示词：中间）",
+        "options": [
+          "xī",
+          "běi",
+          "xiào",
+          "zhōng"
+        ],
+        "answer": "zhōng",
+        "explanation": "「中」读作 zhōng，可以组词「中间」。",
+        "audio": {
+          "question": "/audio/82/8271023b46b7b88a49a47060f07d0df5ccdb59cb.mp3",
+          "options": [
+            "/audio/pinyin/xi1.mp3",
+            "/audio/pinyin/bei3.mp3",
+            "/audio/pinyin/xiao4.mp3",
+            "/audio/pinyin/zhong1.mp3"
+          ],
+          "explanation": "/audio/50/50ef2d2632adcaf1b5a9f83989a47d5731988719.mp3"
+        }
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「国」的正确读音是？（提示词：中国）",
+        "options": [
+          "běi",
+          "lǎo",
+          "guó",
+          "xī"
+        ],
+        "answer": "guó",
+        "explanation": "「国」读作 guó，可以组词「中国」。",
+        "audio": {
+          "question": "/audio/bb/bb82150ab37c8d19919eafdb07252afdbe35282d.mp3",
+          "options": [
+            "/audio/pinyin/bei3.mp3",
+            "/audio/pinyin/lao3.mp3",
+            "/audio/pinyin/guo2.mp3",
+            "/audio/pinyin/xi1.mp3"
+          ],
+          "explanation": "/audio/e6/e618f178804638727ad0d77a9ebd3f4cf8e6b2c4.mp3"
+        }
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「学」的正确读音是？（提示词：学校）",
+        "options": [
+          "dōng",
+          "běi",
+          "lǎo",
+          "xué"
+        ],
+        "answer": "xué",
+        "explanation": "「学」读作 xué，可以组词「学校」。",
+        "audio": {
+          "question": "/audio/70/7085c0b4083bbd66c8aba6b716544c9950b6e6fb.mp3",
+          "options": [
+            "/audio/pinyin/dong1.mp3",
+            "/audio/pinyin/bei3.mp3",
+            "/audio/pinyin/lao3.mp3",
+            "/audio/pinyin/xue2.mp3"
+          ],
+          "explanation": "/audio/3b/3bdf0a48a734a4b3a78c28d1e573023169d5de6e.mp3"
+        }
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「校」的正确读音是？（提示词：学校）",
+        "options": [
+          "nán",
+          "lǎo",
+          "xiào",
+          "dōng"
+        ],
+        "answer": "xiào",
+        "explanation": "「校」读作 xiào，可以组词「学校」。",
+        "audio": {
+          "question": "/audio/12/12bff3a28e6c448d470ee92bcea16171bc8fa597.mp3",
+          "options": [
+            "/audio/pinyin/nan2.mp3",
+            "/audio/pinyin/lao3.mp3",
+            "/audio/pinyin/xiao4.mp3",
+            "/audio/pinyin/dong1.mp3"
+          ],
+          "explanation": "/audio/c9/c9c3bb715c1ec7365b8c008f7c4d17cce46a7173.mp3"
+        }
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「老」的正确读音是？（提示词：老师）",
+        "options": [
+          "lǎo",
+          "dōng",
+          "le",
+          "běi"
+        ],
+        "answer": "lǎo",
+        "explanation": "「老」读作 lǎo，可以组词「老师」。",
+        "audio": {
+          "question": "/audio/f1/f170845113614ae274b4394781ca8ca234a02a68.mp3",
+          "options": [
+            "/audio/pinyin/lao3.mp3",
+            "/audio/pinyin/dong1.mp3",
+            "/audio/pinyin/le0.mp3",
+            "/audio/pinyin/bei3.mp3"
+          ],
+          "explanation": "/audio/55/55853190d23c2c26f2424e2dbf3fcabfee1a72f5.mp3"
+        }
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「师」的正确读音是？（提示词：老师）",
+        "options": [
+          "dōng",
+          "guó",
+          "shī",
+          "xī"
+        ],
+        "answer": "shī",
+        "explanation": "「师」读作 shī，可以组词「老师」。",
+        "audio": {
+          "question": "/audio/15/155831e367f21a88b69cdc5e27a93b117ba2d3d6.mp3",
+          "options": [
+            "/audio/pinyin/dong1.mp3",
+            "/audio/pinyin/guo2.mp3",
+            "/audio/pinyin/shi1.mp3",
+            "/audio/pinyin/xi1.mp3"
+          ],
+          "explanation": "/audio/f5/f565fab84d5b81d2504e2f4077bfad6b0add19ff.mp3"
+        }
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「同」的正确读音是？（提示词：同学）",
+        "options": [
+          "tǔ",
+          "dōng",
+          "tóng",
+          "xué"
+        ],
+        "answer": "tóng",
+        "explanation": "「同」读作 tóng，可以组词「同学」。",
+        "audio": {
+          "question": "/audio/84/84a0c749e8f78bf2953fd28e86bedec8d171c272.mp3",
+          "options": [
+            "/audio/pinyin/tu3.mp3",
+            "/audio/pinyin/dong1.mp3",
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/xue2.mp3"
+          ],
+          "explanation": "/audio/c8/c8a92137359855b9c924876e0a4eafd494435d15.mp3"
+        }
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「好」的正确读音是？（提示词：好人）",
+        "options": [
+          "xī",
+          "xiào",
+          "hǎo",
+          "guó"
+        ],
+        "answer": "hǎo",
+        "explanation": "「好」读作 hǎo，可以组词「好人」。",
+        "audio": {
+          "question": "/audio/cc/ccdbd3e058a483c70a6482d2d4d240b6e8338497.mp3",
+          "options": [
+            "/audio/pinyin/xi1.mp3",
+            "/audio/pinyin/xiao4.mp3",
+            "/audio/pinyin/hao3.mp3",
+            "/audio/pinyin/guo2.mp3"
+          ],
+          "explanation": "/audio/ca/ca0c2a2ccc327b1ac43e89faddd393d8d7d78126.mp3"
+        }
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「早」的正确读音是？（提示词：早上）",
+        "options": [
+          "zǎo",
+          "xī",
+          "běi",
+          "dōng"
+        ],
+        "answer": "zǎo",
+        "explanation": "「早」读作 zǎo，可以组词「早上」。",
+        "audio": {
+          "question": "/audio/d6/d695cb319144f45cc422851ebd623f2866b3996b.mp3",
+          "options": [
+            "/audio/pinyin/zao3.mp3",
+            "/audio/pinyin/xi1.mp3",
+            "/audio/pinyin/bei3.mp3",
+            "/audio/pinyin/dong1.mp3"
+          ],
+          "explanation": "/audio/8e/8efdd5870243b391d7eda46fb1747c25acb688f8.mp3"
+        }
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「晚」的正确读音是？（提示词：晚上）",
+        "options": [
+          "xī",
+          "guó",
+          "dōng",
+          "wǎn"
+        ],
+        "answer": "wǎn",
+        "explanation": "「晚」读作 wǎn，可以组词「晚上」。",
+        "audio": {
+          "question": "/audio/1b/1bb37fe2314b29d610eb0b67499f903778425ccc.mp3",
+          "options": [
+            "/audio/pinyin/xi1.mp3",
+            "/audio/pinyin/guo2.mp3",
+            "/audio/pinyin/dong1.mp3",
+            "/audio/pinyin/wan3.mp3"
+          ],
+          "explanation": "/audio/15/152be49b9b01f6c63127279ac17a913bec8093c7.mp3"
+        }
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「星」的正确读音是？（提示词：星星）",
+        "options": [
+          "xīng",
+          "xià",
+          "guó",
+          "nán"
+        ],
+        "answer": "xīng",
+        "explanation": "「星」读作 xīng，可以组词「星星」。",
+        "audio": {
+          "question": "/audio/3c/3c4d8625495a44e9ab890a10e08a513fc47ea194.mp3",
+          "options": [
+            "/audio/pinyin/xing1.mp3",
+            "/audio/pinyin/xia4.mp3",
+            "/audio/pinyin/guo2.mp3",
+            "/audio/pinyin/nan2.mp3"
+          ],
+          "explanation": "/audio/ee/ee46d0555547e8c9933f082fd99ad1c83f5ab00b.mp3"
+        }
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「光」的正确读音是？（提示词：阳光）",
+        "options": [
+          "xī",
+          "guó",
+          "guāng",
+          "dōng"
+        ],
+        "answer": "guāng",
+        "explanation": "「光」读作 guāng，可以组词「阳光」。",
+        "audio": {
+          "question": "/audio/c2/c21adc8a1f70c12fecad8e55b4f7cc46b4266d60.mp3",
+          "options": [
+            "/audio/pinyin/xi1.mp3",
+            "/audio/pinyin/guo2.mp3",
+            "/audio/pinyin/guang1.mp3",
+            "/audio/pinyin/dong1.mp3"
+          ],
+          "explanation": "/audio/fb/fbcefc2fcb33b911dac7e4af4916a97d29fc9ee8.mp3"
+        }
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「明」的正确读音是？（提示词：明天）",
+        "options": [
+          "nán",
+          "xī",
+          "míng",
+          "dōng"
+        ],
+        "answer": "míng",
+        "explanation": "「明」读作 míng，可以组词「明天」。",
+        "audio": {
+          "question": "/audio/93/939b4715d098c1be3a8a4970c1fcfd74fe6b1426.mp3",
+          "options": [
+            "/audio/pinyin/nan2.mp3",
+            "/audio/pinyin/xi1.mp3",
+            "/audio/pinyin/ming2.mp3",
+            "/audio/pinyin/dong1.mp3"
+          ],
+          "explanation": "/audio/38/38fcff7e1d634004aaa362f316f35093d3aaa92d.mp3"
+        }
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「昨」的正确读音是？（提示词：昨天）",
+        "options": [
+          "zuó",
+          "xī",
+          "běi",
+          "xiào"
+        ],
+        "answer": "zuó",
+        "explanation": "「昨」读作 zuó，可以组词「昨天」。",
+        "audio": {
+          "question": "/audio/c9/c9ca01fbd3cccca8fd85b6424f82faf20359b2f8.mp3",
+          "options": [
+            "/audio/pinyin/zuo2.mp3",
+            "/audio/pinyin/xi1.mp3",
+            "/audio/pinyin/bei3.mp3",
+            "/audio/pinyin/xiao4.mp3"
+          ],
+          "explanation": "/audio/c5/c5e3fb90f212e9bfbece40b4d35504438cc7a56d.mp3"
+        }
+      },
+      {
+        "id": 19,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「今」的正确读音是？（提示词：今天）",
+        "options": [
+          "xià",
+          "xiào",
+          "jīn",
+          "dōng"
+        ],
+        "answer": "jīn",
+        "explanation": "「今」读作 jīn，可以组词「今天」。",
+        "audio": {
+          "question": "/audio/9b/9b3aeae04f73efa65000aac8e2eeef6d21b87044.mp3",
+          "options": [
+            "/audio/pinyin/xia4.mp3",
+            "/audio/pinyin/xiao4.mp3",
+            "/audio/pinyin/jin1.mp3",
+            "/audio/pinyin/dong1.mp3"
+          ],
+          "explanation": "/audio/86/86bb45286b6260ea70c91486db385fe98278915f.mp3"
+        }
+      },
+      {
+        "id": 20,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「年」的正确读音是？（提示词：新年）",
+        "options": [
+          "dōng",
+          "nán",
+          "běi",
+          "nián"
+        ],
+        "answer": "nián",
+        "explanation": "「年」读作 nián，可以组词「新年」。",
+        "audio": {
+          "question": "/audio/99/99677d5445689868599c24e3af986b5b1228679e.mp3",
+          "options": [
+            "/audio/pinyin/dong1.mp3",
+            "/audio/pinyin/nan2.mp3",
+            "/audio/pinyin/bei3.mp3",
+            "/audio/pinyin/nian2.mp3"
+          ],
+          "explanation": "/audio/e2/e21e064f1578c211f88b4e839adfe76ee1316fdd.mp3"
+        }
+      },
+      {
+        "id": 21,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「春」的正确读音是？（提示词：春天）",
+        "options": [
+          "xué",
+          "xiào",
+          "chūn",
+          "nán"
+        ],
+        "answer": "chūn",
+        "explanation": "「春」读作 chūn，可以组词「春天」。",
+        "audio": {
+          "question": "/audio/be/be8ee4342035839fd299940791a6d3385e85f8a2.mp3",
+          "options": [
+            "/audio/pinyin/xue2.mp3",
+            "/audio/pinyin/xiao4.mp3",
+            "/audio/pinyin/chun1.mp3",
+            "/audio/pinyin/nan2.mp3"
+          ],
+          "explanation": "/audio/0f/0f9f30199bf9ec7649f05f94a487dfe65a6f5878.mp3"
+        }
+      },
+      {
+        "id": 22,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「夏」的正确读音是？（提示词：夏天）",
+        "options": [
+          "nán",
+          "dōng",
+          "xià",
+          "xué"
+        ],
+        "answer": "xià",
+        "explanation": "「夏」读作 xià，可以组词「夏天」。",
+        "audio": {
+          "question": "/audio/3c/3c9b62e9ce22600d651bdda68afa2b3a5024572d.mp3",
+          "options": [
+            "/audio/pinyin/nan2.mp3",
+            "/audio/pinyin/dong1.mp3",
+            "/audio/pinyin/xia4.mp3",
+            "/audio/pinyin/xue2.mp3"
+          ],
+          "explanation": "/audio/b2/b2c7f0bf734177e7133ae2915f3b4996ea49681b.mp3"
+        }
+      },
+      {
+        "id": 23,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「秋」的正确读音是？（提示词：秋天）",
+        "options": [
+          "guó",
+          "xué",
+          "qiū",
+          "xiào"
+        ],
+        "answer": "qiū",
+        "explanation": "「秋」读作 qiū，可以组词「秋天」。",
+        "audio": {
+          "question": "/audio/f7/f77a4289d783e9914c881ef5116b1164bf4cb562.mp3",
+          "options": [
+            "/audio/pinyin/guo2.mp3",
+            "/audio/pinyin/xue2.mp3",
+            "/audio/pinyin/qiu1.mp3",
+            "/audio/pinyin/xiao4.mp3"
+          ],
+          "explanation": "/audio/a6/a6b4c47bca164226a3862df8459988ea2cf4fc36.mp3"
+        }
+      },
+      {
+        "id": 24,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「冬」的正确读音是？（提示词：冬天）",
+        "options": [
+          "xiào",
+          "dōng",
+          "guó",
+          "nán"
+        ],
+        "answer": "dōng",
+        "explanation": "「冬」读作 dōng，可以组词「冬天」。",
+        "audio": {
+          "question": "/audio/e1/e1c061c637478dbe2fd5e71d58a067acb96ecbd7.mp3",
+          "options": [
+            "/audio/pinyin/xiao4.mp3",
+            "/audio/pinyin/dong1.mp3",
+            "/audio/pinyin/guo2.mp3",
+            "/audio/pinyin/nan2.mp3"
+          ],
+          "explanation": "/audio/a7/a7a59885350a33e3fe464e79f95220b118699aea.mp3"
+        }
+      },
+      {
+        "id": 25,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「了」的正确读音是？（提示词：来了）",
+        "options": [
+          "xiào",
+          "zhōng",
+          "běi",
+          "le"
+        ],
+        "answer": "le",
+        "explanation": "「了」读作 le，可以组词「来了」。",
+        "audio": {
+          "question": "/audio/e1/e1e3e1661eed020390f7b04ea680902dfca8ca09.mp3",
+          "options": [
+            "/audio/pinyin/xiao4.mp3",
+            "/audio/pinyin/zhong1.mp3",
+            "/audio/pinyin/bei3.mp3",
+            "/audio/pinyin/le0.mp3"
+          ],
+          "explanation": "/audio/19/191c13f43889529f18d9bd593665487e50fc4b07.mp3"
+        }
+      },
+      {
+        "id": 26,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「门」的正确读音是？（提示词：大门）",
+        "options": [
+          "nán",
+          "mén",
+          "běi",
+          "xué"
+        ],
+        "answer": "mén",
+        "explanation": "「门」读作 mén，可以组词「大门」。",
+        "audio": {
+          "question": "/audio/62/62fd9c9b59abc48865d9305eb8f9a26335e06ec6.mp3",
+          "options": [
+            "/audio/pinyin/nan2.mp3",
+            "/audio/pinyin/men2.mp3",
+            "/audio/pinyin/bei3.mp3",
+            "/audio/pinyin/xue2.mp3"
+          ],
+          "explanation": "/audio/26/26584bfce7c45ea1156b8d2c9d895a88ccdca41c.mp3"
+        }
+      },
+      {
+        "id": 27,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「口」的正确读音是？（提示词：门口）",
+        "options": [
+          "běi",
+          "kǒu",
+          "zhōng",
+          "le"
+        ],
+        "answer": "kǒu",
+        "explanation": "「口」读作 kǒu，可以组词「门口」。",
+        "audio": {
+          "question": "/audio/d9/d98613b630b54144cc0700b8738dea14d64fd84c.mp3",
+          "options": [
+            "/audio/pinyin/bei3.mp3",
+            "/audio/pinyin/kou3.mp3",
+            "/audio/pinyin/zhong1.mp3",
+            "/audio/pinyin/le0.mp3"
+          ],
+          "explanation": "/audio/8d/8d866b4e18d0fdcc4844d4f9b7ab294ca2b4de98.mp3"
+        }
+      },
+      {
+        "id": 28,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「王」的正确读音是？（提示词：国王）",
+        "options": [
+          "dōng",
+          "wáng",
+          "nán",
+          "wǎn"
+        ],
+        "answer": "wáng",
+        "explanation": "「王」读作 wáng，可以组词「国王」。",
+        "audio": {
+          "question": "/audio/ef/ef511c682c542908143a1e57ef3d9e4d6d4ce593.mp3",
+          "options": [
+            "/audio/pinyin/dong1.mp3",
+            "/audio/pinyin/wang2.mp3",
+            "/audio/pinyin/nan2.mp3",
+            "/audio/pinyin/wan3.mp3"
+          ],
+          "explanation": "/audio/0b/0bd5d4a741087310926aa2ecc1f6f1074f7ed84a.mp3"
+        }
+      },
+      {
+        "id": 29,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「土」的正确读音是？（提示词：泥土）",
+        "options": [
+          "guó",
+          "tǔ",
+          "xī",
+          "běi"
+        ],
+        "answer": "tǔ",
+        "explanation": "「土」读作 tǔ，可以组词「泥土」。",
+        "audio": {
+          "question": "/audio/9d/9da3f7ba7bafb8de82653f03aaf49a0e69c740ef.mp3",
+          "options": [
+            "/audio/pinyin/guo2.mp3",
+            "/audio/pinyin/tu3.mp3",
+            "/audio/pinyin/xi1.mp3",
+            "/audio/pinyin/bei3.mp3"
+          ],
+          "explanation": "/audio/ba/ba04cea40e92ee8fcdda25bd358f9b86fc44be26.mp3"
+        }
+      },
+      {
+        "id": 30,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「dōng」对应的汉字是？（词：东西）",
+        "options": [
+          "春",
+          "夏",
+          "光",
+          "东"
+        ],
+        "answer": "东",
+        "explanation": "「dōng」写作「东」，例如「东西」。",
+        "audio": {
+          "question": "/audio/c5/c5f16a3d3e3b4c8fbd6374f9c0a53f16f250d44d.mp3",
+          "options": [
+            "/audio/pinyin/chun1.mp3",
+            "/audio/pinyin/xia4.mp3",
+            "/audio/pinyin/guang1.mp3",
+            "/audio/pinyin/dong1.mp3"
+          ],
+          "explanation": "/audio/99/99e0b634fac4d92e0dffdcc34e3a798266b0ec00.mp3"
+        }
+      },
+      {
+        "id": 31,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「xī」对应的汉字是？（词：西瓜）",
+        "options": [
+          "明",
+          "东",
+          "西",
+          "早"
+        ],
+        "answer": "西",
+        "explanation": "「xī」写作「西」，例如「西瓜」。",
+        "audio": {
+          "question": "/audio/27/27379a8cf6bf80923a618cc3b5c88f6fd0416ccb.mp3",
+          "options": [
+            "/audio/pinyin/ming2.mp3",
+            "/audio/pinyin/dong1.mp3",
+            "/audio/pinyin/xi1.mp3",
+            "/audio/pinyin/zao3.mp3"
+          ],
+          "explanation": "/audio/4f/4f9871e9ff9d35756c3c983c1060ca82829314a8.mp3"
+        }
+      },
+      {
+        "id": 32,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「nán」对应的汉字是？（词：南方）",
+        "options": [
+          "星",
+          "明",
+          "南",
+          "好"
+        ],
+        "answer": "南",
+        "explanation": "「nán」写作「南」，例如「南方」。",
+        "audio": {
+          "question": "/audio/e8/e886f1f9b9f5b33abe047a91468e09a9d396b80d.mp3",
+          "options": [
+            "/audio/pinyin/xing1.mp3",
+            "/audio/pinyin/ming2.mp3",
+            "/audio/pinyin/nan2.mp3",
+            "/audio/pinyin/hao3.mp3"
+          ],
+          "explanation": "/audio/85/850049eb78db15c82cc30758e1b2dfb195a2970c.mp3"
+        }
+      },
+      {
+        "id": 33,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「běi」对应的汉字是？（词：北方）",
+        "options": [
+          "中",
+          "光",
+          "北",
+          "春"
+        ],
+        "answer": "北",
+        "explanation": "「běi」写作「北」，例如「北方」。",
+        "audio": {
+          "question": "/audio/b0/b021c2d33f2e3b4d78952b7cd4c0bccb76468404.mp3",
+          "options": [
+            "/audio/pinyin/zhong1.mp3",
+            "/audio/pinyin/guang1.mp3",
+            "/audio/pinyin/bei3.mp3",
+            "/audio/pinyin/chun1.mp3"
+          ],
+          "explanation": "/audio/ff/ffc2b82fd51793482bf6b0acb837166185ab085b.mp3"
+        }
+      },
+      {
+        "id": 34,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「zhōng」对应的汉字是？（词：中间）",
+        "options": [
+          "土",
+          "西",
+          "中",
+          "校"
+        ],
+        "answer": "中",
+        "explanation": "「zhōng」写作「中」，例如「中间」。",
+        "audio": {
+          "question": "/audio/21/210b738196af227b028cc79cc02501bcebbd1255.mp3",
+          "options": [
+            "/audio/pinyin/tu3.mp3",
+            "/audio/pinyin/xi1.mp3",
+            "/audio/pinyin/zhong1.mp3",
+            "/audio/pinyin/xiao4.mp3"
+          ],
+          "explanation": "/audio/98/98ae8cfc0a500dae5a1ab1e6252d0d7f96d1203e.mp3"
+        }
+      },
+      {
+        "id": 35,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「guó」对应的汉字是？（词：中国）",
+        "options": [
+          "晚",
+          "国",
+          "王",
+          "早"
+        ],
+        "answer": "国",
+        "explanation": "「guó」写作「国」，例如「中国」。",
+        "audio": {
+          "question": "/audio/f0/f0acc6b6757be210fb0c847919748d1db8931dab.mp3",
+          "options": [
+            "/audio/pinyin/wan3.mp3",
+            "/audio/pinyin/guo2.mp3",
+            "/audio/pinyin/wang2.mp3",
+            "/audio/pinyin/zao3.mp3"
+          ],
+          "explanation": "/audio/0a/0aa7476ab82e64fe158526902ed14220e9810464.mp3"
+        }
+      },
+      {
+        "id": 36,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「xué」对应的汉字是？（词：学校）",
+        "options": [
+          "星",
+          "光",
+          "学",
+          "师"
+        ],
+        "answer": "学",
+        "explanation": "「xué」写作「学」，例如「学校」。",
+        "audio": {
+          "question": "/audio/be/becea7f81e2998531b68c2c2458839532923a53c.mp3",
+          "options": [
+            "/audio/pinyin/xing1.mp3",
+            "/audio/pinyin/guang1.mp3",
+            "/audio/pinyin/xue2.mp3",
+            "/audio/pinyin/shi1.mp3"
+          ],
+          "explanation": "/audio/35/35b558d1321017464777020adef1f175e8ce87b1.mp3"
+        }
+      },
+      {
+        "id": 37,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「xiào」对应的汉字是？（词：学校）",
+        "options": [
+          "夏",
+          "校",
+          "早",
+          "中"
+        ],
+        "answer": "校",
+        "explanation": "「xiào」写作「校」，例如「学校」。",
+        "audio": {
+          "question": "/audio/a2/a25cd2a5dad20e4c6282d7092238cde5baa96307.mp3",
+          "options": [
+            "/audio/pinyin/xia4.mp3",
+            "/audio/pinyin/xiao4.mp3",
+            "/audio/pinyin/zao3.mp3",
+            "/audio/pinyin/zhong1.mp3"
+          ],
+          "explanation": "/audio/71/71340252a91a74356d9a27209af53977f89b2bb2.mp3"
+        }
+      },
+      {
+        "id": 38,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「lǎo」对应的汉字是？（词：老师）",
+        "options": [
+          "春",
+          "了",
+          "老",
+          "星"
+        ],
+        "answer": "老",
+        "explanation": "「lǎo」写作「老」，例如「老师」。",
+        "audio": {
+          "question": "/audio/d7/d7b0c672346f8440a02340b73630a3b663adac80.mp3",
+          "options": [
+            "/audio/pinyin/chun1.mp3",
+            "/audio/pinyin/le0.mp3",
+            "/audio/pinyin/lao3.mp3",
+            "/audio/pinyin/xing1.mp3"
+          ],
+          "explanation": "/audio/05/051d328f495edd7b570f10640150202624397880.mp3"
+        }
+      },
+      {
+        "id": 39,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「shī」对应的汉字是？（词：老师）",
+        "options": [
+          "了",
+          "秋",
+          "明",
+          "师"
+        ],
+        "answer": "师",
+        "explanation": "「shī」写作「师」，例如「老师」。",
+        "audio": {
+          "question": "/audio/f5/f508231fe94a37d4662e5a141a01ca943079a166.mp3",
+          "options": [
+            "/audio/pinyin/le0.mp3",
+            "/audio/pinyin/qiu1.mp3",
+            "/audio/pinyin/ming2.mp3",
+            "/audio/pinyin/shi1.mp3"
+          ],
+          "explanation": "/audio/7e/7ed8108f7ad0e7fb9e7c7a73a4af2337dc4c3195.mp3"
+        }
+      },
+      {
+        "id": 40,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「tóng」对应的汉字是？（词：同学）",
+        "options": [
+          "门",
+          "夏",
+          "同",
+          "年"
+        ],
+        "answer": "同",
+        "explanation": "「tóng」写作「同」，例如「同学」。",
+        "audio": {
+          "question": "/audio/57/57d902668f0f11bd27e5addcdd0fcb8323006105.mp3",
+          "options": [
+            "/audio/pinyin/men2.mp3",
+            "/audio/pinyin/xia4.mp3",
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/nian2.mp3"
+          ],
+          "explanation": "/audio/b2/b21c7138566d15bf2d13286fd57640d682c029c1.mp3"
+        }
+      },
+      {
+        "id": 41,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「hǎo」对应的汉字是？（词：好人）",
+        "options": [
+          "了",
+          "年",
+          "好",
+          "国"
+        ],
+        "answer": "好",
+        "explanation": "「hǎo」写作「好」，例如「好人」。",
+        "audio": {
+          "question": "/audio/1d/1d14f16abbf637469ecb49ae9f5b2ff1894fe21d.mp3",
+          "options": [
+            "/audio/pinyin/le0.mp3",
+            "/audio/pinyin/nian2.mp3",
+            "/audio/pinyin/hao3.mp3",
+            "/audio/pinyin/guo2.mp3"
+          ],
+          "explanation": "/audio/8e/8ee345516b2dcba39e431b1cbeb51b5b16c12344.mp3"
+        }
+      },
+      {
+        "id": 42,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「zǎo」对应的汉字是？（词：早上）",
+        "options": [
+          "早",
+          "土",
+          "晚",
+          "北"
+        ],
+        "answer": "早",
+        "explanation": "「zǎo」写作「早」，例如「早上」。",
+        "audio": {
+          "question": "/audio/88/885acae95bde212f4ac291bd607c31184eecc3ad.mp3",
+          "options": [
+            "/audio/pinyin/zao3.mp3",
+            "/audio/pinyin/tu3.mp3",
+            "/audio/pinyin/wan3.mp3",
+            "/audio/pinyin/bei3.mp3"
+          ],
+          "explanation": "/audio/eb/eb1c440b477106adc4be41c9efb7e81e36e9903b.mp3"
+        }
+      },
+      {
+        "id": 43,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「wǎn」对应的汉字是？（词：晚上）",
+        "options": [
+          "晚",
+          "王",
+          "北",
+          "门"
+        ],
+        "answer": "晚",
+        "explanation": "「wǎn」写作「晚」，例如「晚上」。",
+        "audio": {
+          "question": "/audio/f0/f07067e1c868d3b664cc12838c02513e6a2b851c.mp3",
+          "options": [
+            "/audio/pinyin/wan3.mp3",
+            "/audio/pinyin/wang2.mp3",
+            "/audio/pinyin/bei3.mp3",
+            "/audio/pinyin/men2.mp3"
+          ],
+          "explanation": "/audio/34/34ad0870d22dabcdd8817b75ab8787906410b326.mp3"
+        }
+      },
+      {
+        "id": 44,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「xīng」对应的汉字是？（词：星星）",
+        "options": [
+          "星",
+          "了",
+          "北",
+          "昨"
+        ],
+        "answer": "星",
+        "explanation": "「xīng」写作「星」，例如「星星」。",
+        "audio": {
+          "question": "/audio/4a/4a81c6a68231dac83ae7905d81c6a3ca51f929c3.mp3",
+          "options": [
+            "/audio/pinyin/xing1.mp3",
+            "/audio/pinyin/le0.mp3",
+            "/audio/pinyin/bei3.mp3",
+            "/audio/pinyin/zuo2.mp3"
+          ],
+          "explanation": "/audio/bd/bd3b71beb7f3b8c1e4f3930f49332daf9481826b.mp3"
+        }
+      },
+      {
+        "id": 45,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「guāng」对应的汉字是？（词：阳光）",
+        "options": [
+          "光",
+          "好",
+          "北",
+          "秋"
+        ],
+        "answer": "光",
+        "explanation": "「guāng」写作「光」，例如「阳光」。",
+        "audio": {
+          "question": "/audio/f5/f5c31f35431cac9d41e6e566a7f88a2be3739140.mp3",
+          "options": [
+            "/audio/pinyin/guang1.mp3",
+            "/audio/pinyin/hao3.mp3",
+            "/audio/pinyin/bei3.mp3",
+            "/audio/pinyin/qiu1.mp3"
+          ],
+          "explanation": "/audio/10/10d8172bab8c13203c11cbbfaf9cd6d51f3d61fb.mp3"
+        }
+      },
+      {
+        "id": 46,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「míng」对应的汉字是？（词：明天）",
+        "options": [
+          "校",
+          "春",
+          "王",
+          "明"
+        ],
+        "answer": "明",
+        "explanation": "「míng」写作「明」，例如「明天」。",
+        "audio": {
+          "question": "/audio/b3/b3aeef8c32f97058223ce84d54767fedee257d77.mp3",
+          "options": [
+            "/audio/pinyin/xiao4.mp3",
+            "/audio/pinyin/chun1.mp3",
+            "/audio/pinyin/wang2.mp3",
+            "/audio/pinyin/ming2.mp3"
+          ],
+          "explanation": "/audio/07/0729204d18dc2b50eeae17639ad1efa9ab0e54e1.mp3"
+        }
+      },
+      {
+        "id": 47,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「zuó」对应的汉字是？（词：昨天）",
+        "options": [
+          "明",
+          "星",
+          "早",
+          "昨"
+        ],
+        "answer": "昨",
+        "explanation": "「zuó」写作「昨」，例如「昨天」。",
+        "audio": {
+          "question": "/audio/f3/f3820741814fdecdf92ccf886b51c49cfd341ac4.mp3",
+          "options": [
+            "/audio/pinyin/ming2.mp3",
+            "/audio/pinyin/xing1.mp3",
+            "/audio/pinyin/zao3.mp3",
+            "/audio/pinyin/zuo2.mp3"
+          ],
+          "explanation": "/audio/e7/e75c3049013dd9f3cb70de61eeb72b1bb2c8f631.mp3"
+        }
+      },
+      {
+        "id": 48,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jīn」对应的汉字是？（词：今天）",
+        "options": [
+          "学",
+          "晚",
+          "光",
+          "今"
+        ],
+        "answer": "今",
+        "explanation": "「jīn」写作「今」，例如「今天」。",
+        "audio": {
+          "question": "/audio/56/560a4eccc36413468db907752e6a6d7452668a43.mp3",
+          "options": [
+            "/audio/pinyin/xue2.mp3",
+            "/audio/pinyin/wan3.mp3",
+            "/audio/pinyin/guang1.mp3",
+            "/audio/pinyin/jin1.mp3"
+          ],
+          "explanation": "/audio/22/223c29155175597468c9db86f0f62b12265017c2.mp3"
+        }
+      },
+      {
+        "id": 49,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「nián」对应的汉字是？（词：新年）",
+        "options": [
+          "年",
+          "北",
+          "冬",
+          "南"
+        ],
+        "answer": "年",
+        "explanation": "「nián」写作「年」，例如「新年」。",
+        "audio": {
+          "question": "/audio/76/7652371fe4735757c244e0ec8f7b4a5ac8858e5b.mp3",
+          "options": [
+            "/audio/pinyin/nian2.mp3",
+            "/audio/pinyin/bei3.mp3",
+            "/audio/pinyin/dong1.mp3",
+            "/audio/pinyin/nan2.mp3"
+          ],
+          "explanation": "/audio/32/3256885d63678c1cb49bf764ceda34e7cc16dddd.mp3"
+        }
+      },
+      {
+        "id": 50,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「chūn」对应的汉字是？（词：春天）",
+        "options": [
+          "春",
+          "门",
+          "南",
+          "北"
+        ],
+        "answer": "春",
+        "explanation": "「chūn」写作「春」，例如「春天」。",
+        "audio": {
+          "question": "/audio/56/56ef8dc80c5629effbac07e2a033924d6df9b093.mp3",
+          "options": [
+            "/audio/pinyin/chun1.mp3",
+            "/audio/pinyin/men2.mp3",
+            "/audio/pinyin/nan2.mp3",
+            "/audio/pinyin/bei3.mp3"
+          ],
+          "explanation": "/audio/f6/f6bc763f4c64b5d52ffa02c73149d557f6cce4cd.mp3"
+        }
+      },
+      {
+        "id": 51,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「xià」对应的汉字是？（词：夏天）",
+        "options": [
+          "口",
+          "北",
+          "夏",
+          "师"
+        ],
+        "answer": "夏",
+        "explanation": "「xià」写作「夏」，例如「夏天」。",
+        "audio": {
+          "question": "/audio/5d/5d32e5a3f055a42b5421abce3ceccacb2a26d2dd.mp3",
+          "options": [
+            "/audio/pinyin/kou3.mp3",
+            "/audio/pinyin/bei3.mp3",
+            "/audio/pinyin/xia4.mp3",
+            "/audio/pinyin/shi1.mp3"
+          ],
+          "explanation": "/audio/03/0373ed9544d2c549f21d7073f994cb3a18a82cff.mp3"
+        }
+      },
+      {
+        "id": 52,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「qiū」对应的汉字是？（词：秋天）",
+        "options": [
+          "中",
+          "秋",
+          "昨",
+          "校"
+        ],
+        "answer": "秋",
+        "explanation": "「qiū」写作「秋」，例如「秋天」。",
+        "audio": {
+          "question": "/audio/f3/f3ceb1fbe2b9bd71bf2dc95e3f3e4528458d62d9.mp3",
+          "options": [
+            "/audio/pinyin/zhong1.mp3",
+            "/audio/pinyin/qiu1.mp3",
+            "/audio/pinyin/zuo2.mp3",
+            "/audio/pinyin/xiao4.mp3"
+          ],
+          "explanation": "/audio/d2/d287c28a5a3572182e34f11dd999cfd85aab5a99.mp3"
+        }
+      },
+      {
+        "id": 53,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「dōng」对应的汉字是？（词：冬天）",
+        "options": [
+          "冬",
+          "早",
+          "南",
+          "夏"
+        ],
+        "answer": "冬",
+        "explanation": "「dōng」写作「冬」，例如「冬天」。",
+        "audio": {
+          "question": "/audio/cb/cb0bc61538ff43e0cdb81dffb06a92fafd6a8301.mp3",
+          "options": [
+            "/audio/pinyin/dong1.mp3",
+            "/audio/pinyin/zao3.mp3",
+            "/audio/pinyin/nan2.mp3",
+            "/audio/pinyin/xia4.mp3"
+          ],
+          "explanation": "/audio/b4/b416440c0810921524229f7bfd46c4e6a71f88c0.mp3"
+        }
+      },
+      {
+        "id": 54,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「le」对应的汉字是？（词：来了）",
+        "options": [
+          "好",
+          "国",
+          "了",
+          "夏"
+        ],
+        "answer": "了",
+        "explanation": "「le」写作「了」，例如「来了」。",
+        "audio": {
+          "question": "/audio/7f/7f3126373d7a6d6ae33f9def520d14c83ce48cc1.mp3",
+          "options": [
+            "/audio/pinyin/hao3.mp3",
+            "/audio/pinyin/guo2.mp3",
+            "/audio/pinyin/le0.mp3",
+            "/audio/pinyin/xia4.mp3"
+          ],
+          "explanation": "/audio/db/db26350871f56c55f3091ef6a2a9d9c6501edc3b.mp3"
+        }
+      },
+      {
+        "id": 55,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「mén」对应的汉字是？（词：大门）",
+        "options": [
+          "早",
+          "门",
+          "秋",
+          "北"
+        ],
+        "answer": "门",
+        "explanation": "「mén」写作「门」，例如「大门」。",
+        "audio": {
+          "question": "/audio/a6/a68c239dbd63ae18bc80ce2b31b55c0e964c2bd8.mp3",
+          "options": [
+            "/audio/pinyin/zao3.mp3",
+            "/audio/pinyin/men2.mp3",
+            "/audio/pinyin/qiu1.mp3",
+            "/audio/pinyin/bei3.mp3"
+          ],
+          "explanation": "/audio/bf/bf5014b90080d57da6a4115d80eb0c943bb0aaa1.mp3"
+        }
+      },
+      {
+        "id": 56,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「kǒu」对应的汉字是？（词：门口）",
+        "options": [
+          "中",
+          "东",
+          "口",
+          "昨"
+        ],
+        "answer": "口",
+        "explanation": "「kǒu」写作「口」，例如「门口」。",
+        "audio": {
+          "question": "/audio/5b/5ba62a37739c230a6f1f95a84da6d4740cdf1911.mp3",
+          "options": [
+            "/audio/pinyin/zhong1.mp3",
+            "/audio/pinyin/dong1.mp3",
+            "/audio/pinyin/kou3.mp3",
+            "/audio/pinyin/zuo2.mp3"
+          ],
+          "explanation": "/audio/d4/d4ea8eda23d9169a7417fe3534e27bed6a7b7612.mp3"
+        }
+      },
+      {
+        "id": 57,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「wáng」对应的汉字是？（词：国王）",
+        "options": [
+          "王",
+          "明",
+          "好",
+          "夏"
+        ],
+        "answer": "王",
+        "explanation": "「wáng」写作「王」，例如「国王」。",
+        "audio": {
+          "question": "/audio/50/50149750f1e213268ecb5068abc95bf3983df13b.mp3",
+          "options": [
+            "/audio/pinyin/wang2.mp3",
+            "/audio/pinyin/ming2.mp3",
+            "/audio/pinyin/hao3.mp3",
+            "/audio/pinyin/xia4.mp3"
+          ],
+          "explanation": "/audio/45/45503e247a9ae37019b9f3edfe3a97143e80f259.mp3"
+        }
+      },
+      {
+        "id": 58,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「tǔ」对应的汉字是？（词：泥土）",
+        "options": [
+          "春",
+          "土",
+          "了",
+          "国"
+        ],
+        "answer": "土",
+        "explanation": "「tǔ」写作「土」，例如「泥土」。",
+        "audio": {
+          "question": "/audio/6f/6fd605d23992db858d71e720db9388de47ad08e3.mp3",
+          "options": [
+            "/audio/pinyin/chun1.mp3",
+            "/audio/pinyin/tu3.mp3",
+            "/audio/pinyin/le0.mp3",
+            "/audio/pinyin/guo2.mp3"
+          ],
+          "explanation": "/audio/69/6945a440dd1064cfad536a890d28b6d97d0abbbe.mp3"
+        }
+      },
+      {
+        "id": 59,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「门」的拼音（词：大门）",
+        "options": [],
+        "answer": "mén",
+        "explanation": "「门」的拼音是 mén。",
+        "audio": {
+          "question": "/audio/b8/b86a3d14bc018eb7ba1b69505aaee4da30467022.mp3",
+          "explanation": "/audio/a0/a0887da03d8b148b643bda5c247d80d9b802a6d1.mp3"
+        }
+      },
+      {
+        "id": 60,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「昨」的拼音（词：昨天）",
+        "options": [],
+        "answer": "zuó",
+        "explanation": "「昨」的拼音是 zuó。",
+        "audio": {
+          "question": "/audio/3d/3d9662c04a4266710bb2c8b58be04feda3bb0989.mp3",
+          "explanation": "/audio/90/90250360322dfb7ef754c95261ce0d5a44ef2e22.mp3"
+        }
+      },
+      {
+        "id": 61,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「东」的拼音（词：东西）",
+        "options": [],
+        "answer": "dōng",
+        "explanation": "「东」的拼音是 dōng。",
+        "audio": {
+          "question": "/audio/b5/b5cf52bf3b0fa39efd025612473497470a14ae11.mp3",
+          "explanation": "/audio/1b/1b2a55a10f507a6466323dd2b26f204b91c8dc28.mp3"
+        }
+      },
+      {
+        "id": 62,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「学」的拼音（词：学校）",
+        "options": [],
+        "answer": "xué",
+        "explanation": "「学」的拼音是 xué。",
+        "audio": {
+          "question": "/audio/9f/9f9fac33178f8d00ab329a718bb62cb8b34ba3dd.mp3",
+          "explanation": "/audio/fb/fb3e8dcf1c32049bbd389b881a51d44a7006a0a0.mp3"
+        }
+      },
+      {
+        "id": 63,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「星」的拼音（词：星星）",
+        "options": [],
+        "answer": "xīng",
+        "explanation": "「星」的拼音是 xīng。",
+        "audio": {
+          "question": "/audio/2d/2d3cb22a606dd1e7dc4b147d268052f944c17d71.mp3",
+          "explanation": "/audio/6a/6a8c41f52f97e4139544ee358e2bf1444e749c4b.mp3"
+        }
+      },
+      {
+        "id": 64,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「师」的拼音（词：老师）",
+        "options": [],
+        "answer": "shī",
+        "explanation": "「师」的拼音是 shī。",
+        "audio": {
+          "question": "/audio/4c/4cb24f9088b8d18c0d0739439bc12a15dbfdb480.mp3",
+          "explanation": "/audio/ce/cef370599557814403f4c27387fbcf79204cab42.mp3"
+        }
+      },
+      {
+        "id": 65,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「明」的拼音（词：明天）",
+        "options": [],
+        "answer": "míng",
+        "explanation": "「明」的拼音是 míng。",
+        "audio": {
+          "question": "/audio/85/85f981daf9bf4ab8439a5606bef1bd2ad91d3311.mp3",
+          "explanation": "/audio/dc/dc682c3228f90a9582a8ea298e0df2e19474056c.mp3"
+        }
+      },
+      {
+        "id": 66,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「口」的拼音（词：门口）",
+        "options": [],
+        "answer": "kǒu",
+        "explanation": "「口」的拼音是 kǒu。",
+        "audio": {
+          "question": "/audio/da/da5579e2cf27f5a95e9f84090f6a334e55cebb08.mp3",
+          "explanation": "/audio/1f/1f24cb08d4ebbfb79b4b40aff13fcab7c778f137.mp3"
+        }
+      },
+      {
+        "id": 67,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「西」的拼音（词：西瓜）",
+        "options": [],
+        "answer": "xī",
+        "explanation": "「西」的拼音是 xī。",
+        "audio": {
+          "question": "/audio/37/372f48d4fd4ddc323c98a31df02c71c9892e32d5.mp3",
+          "explanation": "/audio/de/deef42df9f6af8dc5e49683e9abeb92fff045571.mp3"
+        }
+      },
+      {
+        "id": 68,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「春」的拼音（词：春天）",
+        "options": [],
+        "answer": "chūn",
+        "explanation": "「春」的拼音是 chūn。",
+        "audio": {
+          "question": "/audio/92/9200e4949e621ebe50e6856375383a029aeca076.mp3",
+          "explanation": "/audio/2b/2b4a3232e8595d76d8e215e1e507b9c8eaa026e1.mp3"
+        }
+      },
+      {
+        "id": 69,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「同」的拼音（词：同学）",
+        "options": [],
+        "answer": "tóng",
+        "explanation": "「同」的拼音是 tóng。",
+        "audio": {
+          "question": "/audio/8c/8cc680aad5f44d589e7250149eccd9bc7657d5fa.mp3",
+          "explanation": "/audio/8a/8a3268c0833978e00cf304a65b1e6c3f454bfa38.mp3"
+        }
+      },
+      {
+        "id": 70,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「今」的拼音（词：今天）",
+        "options": [],
+        "answer": "jīn",
+        "explanation": "「今」的拼音是 jīn。",
+        "audio": {
+          "question": "/audio/b8/b84c1704bbe79b38135b9663a5ec70846a64ccf6.mp3",
+          "explanation": "/audio/97/97720dbb5899b28e54af4fa1896657dd0743036c.mp3"
+        }
+      },
+      {
+        "id": 71,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「好」的拼音（词：好人）",
+        "options": [],
+        "answer": "hǎo",
+        "explanation": "「好」的拼音是 hǎo。",
+        "audio": {
+          "question": "/audio/90/900b273459af79dc65377859780b534d043eface.mp3",
+          "explanation": "/audio/d2/d28e5b4b7b8c272db1e4266fef75c6ee6e398ebe.mp3"
+        }
+      },
+      {
+        "id": 72,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「老」的拼音（词：老师）",
+        "options": [],
+        "answer": "lǎo",
+        "explanation": "「老」的拼音是 lǎo。",
+        "audio": {
+          "question": "/audio/5a/5a0d8d0fda28fa02120f7748a8e4dacd2942a4d7.mp3",
+          "explanation": "/audio/96/969aadd166f908ee2ff9d68c4f11beddff97a156.mp3"
+        }
+      },
+      {
+        "id": 73,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「冬」的拼音（词：冬天）",
+        "options": [],
+        "answer": "dōng",
+        "explanation": "「冬」的拼音是 dōng。",
+        "audio": {
+          "question": "/audio/d8/d8186cc6b60ab3ad68b1de6bdbc41ffe6956c298.mp3",
+          "explanation": "/audio/64/64fbcd585550f733a81a4fa6bc924fc7115d74e7.mp3"
+        }
+      },
+      {
+        "id": 74,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「早」的拼音（词：早上）",
+        "options": [],
+        "answer": "zǎo",
+        "explanation": "「早」的拼音是 zǎo。",
+        "audio": {
+          "question": "/audio/4a/4af960e9e7df36486804b34f3acdc73c851bc43e.mp3",
+          "explanation": "/audio/6e/6edfcd8965a6d2be98739bc3995586ea502f6445.mp3"
+        }
+      },
+      {
+        "id": 75,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「北」的拼音（词：北方）",
+        "options": [],
+        "answer": "běi",
+        "explanation": "「北」的拼音是 běi。",
+        "audio": {
+          "question": "/audio/f9/f950a589085e503c424c8334fa0b9f6909c17b5e.mp3",
+          "explanation": "/audio/f2/f234f2c9057780977be37df291df0c0c631872c7.mp3"
+        }
+      },
+      {
+        "id": 76,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「校」的拼音（词：学校）",
+        "options": [],
+        "answer": "xiào",
+        "explanation": "「校」的拼音是 xiào。",
+        "audio": {
+          "question": "/audio/c2/c251571efac2f739f69c6211d4eb1ca986334a82.mp3",
+          "explanation": "/audio/fa/fa57f5fad725656180d4e9af07bfaa6ac7b22f2d.mp3"
+        }
+      },
+      {
+        "id": 77,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「xià」对应的汉字（词：夏天）",
+        "options": [],
+        "answer": "夏",
+        "explanation": "「xià」对应的汉字是「夏」。",
+        "audio": {
+          "question": "/audio/15/150b622d369c0d03ad67d4c248557136a09dedb3.mp3",
+          "explanation": "/audio/7f/7f1a442e34f2b42d9f3ed03249f4f20611b50ba7.mp3"
+        }
+      },
+      {
+        "id": 78,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「zhōng」对应的汉字（词：中间）",
+        "options": [],
+        "answer": "中",
+        "explanation": "「zhōng」对应的汉字是「中」。",
+        "audio": {
+          "question": "/audio/88/888205bfe75040c0c416685d374886472393cb9d.mp3",
+          "explanation": "/audio/3d/3d375d608a4b88b8b4ae98a9ca18fa31e31e0f73.mp3"
+        }
+      },
+      {
+        "id": 79,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「běi」对应的汉字（词：北方）",
+        "options": [],
+        "answer": "北",
+        "explanation": "「běi」对应的汉字是「北」。",
+        "audio": {
+          "question": "/audio/3f/3fc794aab1f9501f9c7812c39e00ad9720ccac6b.mp3",
+          "explanation": "/audio/ea/ea8a606b689be10180f677530353aa8f542a2303.mp3"
+        }
+      },
+      {
+        "id": 80,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「guāng」对应的汉字（词：阳光）",
+        "options": [],
+        "answer": "光",
+        "explanation": "「guāng」对应的汉字是「光」。",
+        "audio": {
+          "question": "/audio/49/497e09f9bdda4b72d2fdeb1dc8084efcde6a1290.mp3",
+          "explanation": "/audio/3d/3dec11e450b8cdd9bf8966e2d2984d51452992fd.mp3"
+        }
+      },
+      {
+        "id": 81,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「xué」对应的汉字（词：学校）",
+        "options": [],
+        "answer": "学",
+        "explanation": "「xué」对应的汉字是「学」。",
+        "audio": {
+          "question": "/audio/ef/efb8f27a7b371a31fbe6f587ca99d790f1ae59fa.mp3",
+          "explanation": "/audio/1d/1df7204cdf9dad2315def3d34a542fddc1ce5cd7.mp3"
+        }
+      },
+      {
+        "id": 82,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「wǎn」对应的汉字（词：晚上）",
+        "options": [],
+        "answer": "晚",
+        "explanation": "「wǎn」对应的汉字是「晚」。",
+        "audio": {
+          "question": "/audio/ac/ace77492dbb9fe998cc3d61b09195b4b7f9b0a1f.mp3",
+          "explanation": "/audio/58/589bc1cb41bc5fcd08afc85508467f0f261274c2.mp3"
+        }
+      },
+      {
+        "id": 83,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「xīng」对应的汉字（词：星星）",
+        "options": [],
+        "answer": "星",
+        "explanation": "「xīng」对应的汉字是「星」。",
+        "audio": {
+          "question": "/audio/9b/9b1a376421da5b6a871d55eefb078c9153e82f8e.mp3",
+          "explanation": "/audio/0e/0ef9ecc7f296369b9e99ecf9a99885157ab00de0.mp3"
+        }
+      },
+      {
+        "id": 84,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「xiào」对应的汉字（词：学校）",
+        "options": [],
+        "answer": "校",
+        "explanation": "「xiào」对应的汉字是「校」。",
+        "audio": {
+          "question": "/audio/ae/ae8bd8685f77b0246c032842b18423cd81eada1a.mp3",
+          "explanation": "/audio/cb/cbef2d7f9f9a6fef33b0c42ed1fa5e101f22aa6a.mp3"
+        }
+      },
+      {
+        "id": 85,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「lǎo」对应的汉字（词：老师）",
+        "options": [],
+        "answer": "老",
+        "explanation": "「lǎo」对应的汉字是「老」。",
+        "audio": {
+          "question": "/audio/a7/a7fb8303ffeacdccd90084d336323d1b17f5dc5a.mp3",
+          "explanation": "/audio/72/7277e85f869dd3467d7ebd2efbf02fa0dcff8c49.mp3"
+        }
+      },
+      {
+        "id": 86,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「míng」对应的汉字（词：明天）",
+        "options": [],
+        "answer": "明",
+        "explanation": "「míng」对应的汉字是「明」。",
+        "audio": {
+          "question": "/audio/08/0875598d6669784704f5aeec3cf794113f37a390.mp3",
+          "explanation": "/audio/37/3777a57a81a0456943a5f5de93e8e815ed7e7415.mp3"
+        }
+      },
+      {
+        "id": 87,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「tóng」对应的汉字（词：同学）",
+        "options": [],
+        "answer": "同",
+        "explanation": "「tóng」对应的汉字是「同」。",
+        "audio": {
+          "question": "/audio/c5/c5ec64091ce5df04e1b1279a8360ee6a1686f5c3.mp3",
+          "explanation": "/audio/be/be5071f0d24bfd151fd0adc587996b18ca4c06ed.mp3"
+        }
+      },
+      {
+        "id": 88,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「nián」对应的汉字（词：新年）",
+        "options": [],
+        "answer": "年",
+        "explanation": "「nián」对应的汉字是「年」。",
+        "audio": {
+          "question": "/audio/82/8213b7c6001db737d50f8b1f4a1cfa3b57834a4d.mp3",
+          "explanation": "/audio/38/38ee685f93f1d625c48f59b251220441691a0ea3.mp3"
+        }
+      },
+      {
+        "id": 89,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「qiū」对应的汉字（词：秋天）",
+        "options": [],
+        "answer": "秋",
+        "explanation": "「qiū」对应的汉字是「秋」。",
+        "audio": {
+          "question": "/audio/1b/1b1a642691cb7bf33c728c147bbcdb8da7bd1dd9.mp3",
+          "explanation": "/audio/95/95427cdaee8fffdd0b9f11cfcd62239beae7a665.mp3"
+        }
+      },
+      {
+        "id": 90,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「le」对应的汉字（词：来了）",
+        "options": [],
+        "answer": "了",
+        "explanation": "「le」对应的汉字是「了」。",
+        "audio": {
+          "question": "/audio/8d/8df32451c5f6a81b05ec497b87d2daf99d5dc085.mp3",
+          "explanation": "/audio/6d/6dad37b10cd8a427a382c43935d2bf4fa41765f5.mp3"
+        }
+      },
+      {
+        "id": 91,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「zǎo」对应的汉字（词：早上）",
+        "options": [],
+        "answer": "早",
+        "explanation": "「zǎo」对应的汉字是「早」。",
+        "audio": {
+          "question": "/audio/00/00edfa53df023453c40a7fd45667270dfea131ec.mp3",
+          "explanation": "/audio/d8/d8edd7f882b19e3e6de63fe4f6703f6f282728aa.mp3"
+        }
+      },
+      {
+        "id": 92,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「jīn」对应的汉字（词：今天）",
+        "options": [],
+        "answer": "今",
+        "explanation": "「jīn」对应的汉字是「今」。",
+        "audio": {
+          "question": "/audio/34/34740d27df4d22ad70ae912d899a782ea41330ca.mp3",
+          "explanation": "/audio/eb/eb6914a487071646fdac352ef3d814e23b1af4a8.mp3"
+        }
+      },
+      {
+        "id": 93,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「kǒu」对应的汉字（词：门口）",
+        "options": [],
+        "answer": "口",
+        "explanation": "「kǒu」对应的汉字是「口」。",
+        "audio": {
+          "question": "/audio/96/965703ccd9d8a723d59c6a635fa3c0ddf9ba58cb.mp3",
+          "explanation": "/audio/5f/5f91c47c943f4c851de77bb3d736509ee5d67038.mp3"
+        }
+      },
+      {
+        "id": 94,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「tǔ」对应的汉字（词：泥土）",
+        "options": [],
+        "answer": "土",
+        "explanation": "「tǔ」对应的汉字是「土」。",
+        "audio": {
+          "question": "/audio/20/2055a593436e06df2ed1819a0c4fde4b53e280aa.mp3",
+          "explanation": "/audio/85/85ff8955abd239e9a8528f58ca7040111a8b9ebc.mp3"
+        }
+      },
+      {
+        "id": 95,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「西」读作 xī。（词：西瓜）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「西」的读音是 xī。",
+        "audio": {
+          "question": "/audio/c7/c7ef7053c18a65ac23d391dddf148675e05caade.mp3",
+          "explanation": "/audio/ea/ea9aab48824dfc2ec0f01371f487ec5fbd2624e2.mp3"
+        }
+      },
+      {
+        "id": 96,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「星」读作 xī。（词：星星）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「星」应读 xīng，不是 xī。",
+        "audio": {
+          "question": "/audio/03/03c3a3773e1fa4b419febf12847b1c61c921c68a.mp3",
+          "explanation": "/audio/61/6129b04f87004de98b80c3c9cbc7e877bc4c82cc.mp3"
+        }
+      },
+      {
+        "id": 97,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「了」读作 le。（词：来了）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「了」的读音是 le。",
+        "audio": {
+          "question": "/audio/a8/a896d43344f680626842b5a8611e097ec5fd89af.mp3",
+          "explanation": "/audio/04/048f7e5b68604928ed62750eafc3e89c13a8e7bb.mp3"
+        }
+      },
+      {
+        "id": 98,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「昨」读作 zǎo。（词：昨天）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「昨」应读 zuó，不是 zǎo。",
+        "audio": {
+          "question": "/audio/86/86361102b6729a55f0338f727b7ab54eeecf2b09.mp3",
+          "explanation": "/audio/57/57fabeca6cb1b14875c8e30d7cf702a0f21f81e1.mp3"
+        }
+      },
+      {
+        "id": 99,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「土」读作 tǔ。（词：泥土）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「土」的读音是 tǔ。",
+        "audio": {
+          "question": "/audio/60/60fc9bf52077b97b23db481fd6ec2e7023f8b0f5.mp3",
+          "explanation": "/audio/b9/b949312ad5ae5c7781d17cf9552478ad7cb760b8.mp3"
+        }
+      },
+      {
+        "id": 100,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「晚」读作 wáng。（词：晚上）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「晚」应读 wǎn，不是 wáng。",
+        "audio": {
+          "question": "/audio/e8/e8b251ae43071781618fab3438a312df1a8d1687.mp3",
+          "explanation": "/audio/05/0582ef171646e683e048e3606b9cac9d84f19990.mp3"
+        }
+      },
+      {
+        "id": 101,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「校」读作 xiào。（词：学校）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「校」的读音是 xiào。",
+        "audio": {
+          "question": "/audio/b7/b744c3ef148668c58d805dd194f27d18c509ee5f.mp3",
+          "explanation": "/audio/9c/9c33f994f652de16d546df40dd65a5461feeaa11.mp3"
+        }
+      },
+      {
+        "id": 102,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「东」读作 xī。（词：东西）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「东」应读 dōng，不是 xī。",
+        "audio": {
+          "question": "/audio/cc/cce6bd2dacf4aa6704b9adc63e425656f382a9e7.mp3",
+          "explanation": "/audio/ad/adb838b5a4557eb677635a125af2f5071e56d646.mp3"
+        }
+      },
+      {
+        "id": 103,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「夏」读作 xià。（词：夏天）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「夏」的读音是 xià。",
+        "audio": {
+          "question": "/audio/70/7036ff121e3c2bc067b870958b4f691e9674111e.mp3",
+          "explanation": "/audio/3e/3e7847e15b269ac76a7e3c377b139b3f85c36337.mp3"
+        }
+      },
+      {
+        "id": 104,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「明」读作 mén。（词：明天）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「明」应读 míng，不是 mén。",
+        "audio": {
+          "question": "/audio/bb/bb444a10054f9bdb2b98b9807cb6e50bb5286cf7.mp3",
+          "explanation": "/audio/ee/eeb52b2ec4e992d01172b3165ccb78c00afdfafd.mp3"
+        }
+      },
+      {
+        "id": 105,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「学」读作 xué。（词：学校）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「学」的读音是 xué。",
+        "audio": {
+          "question": "/audio/bd/bdae6e79bc4a4ae8e085cd73e0d5ce4e720a1f7f.mp3",
+          "explanation": "/audio/5f/5f56927c2df39f554f6e3b2c60165e87b6592d6d.mp3"
+        }
+      },
+      {
+        "id": 106,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「南」读作 nián。（词：南方）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「南」应读 nán，不是 nián。",
+        "audio": {
+          "question": "/audio/78/782fe51b82fce1cd98c38f6a245573b80c59ed56.mp3",
+          "explanation": "/audio/0a/0a16c707cea1113b1c62fb98ec3d4ddca45c9348.mp3"
+        }
+      },
+      {
+        "id": 107,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「早」读作 zǎo。（词：早上）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「早」的读音是 zǎo。",
+        "audio": {
+          "question": "/audio/4c/4c3039306a52e2e7e481d98baf13eb0450723349.mp3",
+          "explanation": "/audio/23/23a881205d485119aa95090917dbbe4cb159fb48.mp3"
+        }
+      },
+      {
+        "id": 108,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「光」读作 guó。（词：阳光）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「光」应读 guāng，不是 guó。",
+        "audio": {
+          "question": "/audio/cc/cccba846004cdd2616a69bddb852029ce9b85a76.mp3",
+          "explanation": "/audio/56/5687063d6db79cd224cb15a1f4e6ee927e2429f2.mp3"
+        }
+      },
+      {
+        "id": 109,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「同」读作 tóng。（词：同学）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「同」的读音是 tóng。",
+        "audio": {
+          "question": "/audio/ae/ae8909f934c58870e7b155246c7e77063dbc87a3.mp3",
+          "explanation": "/audio/4d/4d5211c854b438eaa837d5281ee79acabe52942a.mp3"
+        }
+      },
+      {
+        "id": 110,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「冬」读作 xīng。（词：冬天）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「冬」应读 dōng，不是 xīng。",
+        "audio": {
+          "question": "/audio/b1/b1a2567473ddc7e7c0d9f6fda91683aae7241e0c.mp3",
+          "explanation": "/audio/ef/ef042a98e7af5e758e31e154a307d075d8c6c85c.mp3"
+        }
+      }
+    ]
+  },
+  "exam": {
+    "title": "第4单元「识字（三）· 数字与校园」综合挑战",
+    "total_score": 100,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「师」的正确读音是？（提示词：老师）",
+        "options": [
+          "dōng",
+          "guó",
+          "shī",
+          "xī"
+        ],
+        "answer": "shī",
+        "explanation": "「师」读作 shī，可以组词「老师」。",
+        "audio": {
+          "question": "/audio/15/155831e367f21a88b69cdc5e27a93b117ba2d3d6.mp3",
+          "options": [
+            "/audio/pinyin/dong1.mp3",
+            "/audio/pinyin/guo2.mp3",
+            "/audio/pinyin/shi1.mp3",
+            "/audio/pinyin/xi1.mp3"
+          ],
+          "explanation": "/audio/f5/f565fab84d5b81d2504e2f4077bfad6b0add19ff.mp3"
+        }
+      },
+      {
+        "id": 28,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「王」的正确读音是？（提示词：国王）",
+        "options": [
+          "dōng",
+          "wáng",
+          "nán",
+          "wǎn"
+        ],
+        "answer": "wáng",
+        "explanation": "「王」读作 wáng，可以组词「国王」。",
+        "audio": {
+          "question": "/audio/ef/ef511c682c542908143a1e57ef3d9e4d6d4ce593.mp3",
+          "options": [
+            "/audio/pinyin/dong1.mp3",
+            "/audio/pinyin/wang2.mp3",
+            "/audio/pinyin/nan2.mp3",
+            "/audio/pinyin/wan3.mp3"
+          ],
+          "explanation": "/audio/0b/0bd5d4a741087310926aa2ecc1f6f1074f7ed84a.mp3"
+        }
+      },
+      {
+        "id": 26,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「门」的正确读音是？（提示词：大门）",
+        "options": [
+          "nán",
+          "mén",
+          "běi",
+          "xué"
+        ],
+        "answer": "mén",
+        "explanation": "「门」读作 mén，可以组词「大门」。",
+        "audio": {
+          "question": "/audio/62/62fd9c9b59abc48865d9305eb8f9a26335e06ec6.mp3",
+          "options": [
+            "/audio/pinyin/nan2.mp3",
+            "/audio/pinyin/men2.mp3",
+            "/audio/pinyin/bei3.mp3",
+            "/audio/pinyin/xue2.mp3"
+          ],
+          "explanation": "/audio/26/26584bfce7c45ea1156b8d2c9d895a88ccdca41c.mp3"
+        }
+      },
+      {
+        "id": 49,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「nián」对应的汉字是？（词：新年）",
+        "options": [
+          "年",
+          "北",
+          "冬",
+          "南"
+        ],
+        "answer": "年",
+        "explanation": "「nián」写作「年」，例如「新年」。",
+        "audio": {
+          "question": "/audio/76/7652371fe4735757c244e0ec8f7b4a5ac8858e5b.mp3",
+          "options": [
+            "/audio/pinyin/nian2.mp3",
+            "/audio/pinyin/bei3.mp3",
+            "/audio/pinyin/dong1.mp3",
+            "/audio/pinyin/nan2.mp3"
+          ],
+          "explanation": "/audio/32/3256885d63678c1cb49bf764ceda34e7cc16dddd.mp3"
+        }
+      },
+      {
+        "id": 36,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「xué」对应的汉字是？（词：学校）",
+        "options": [
+          "星",
+          "光",
+          "学",
+          "师"
+        ],
+        "answer": "学",
+        "explanation": "「xué」写作「学」，例如「学校」。",
+        "audio": {
+          "question": "/audio/be/becea7f81e2998531b68c2c2458839532923a53c.mp3",
+          "options": [
+            "/audio/pinyin/xing1.mp3",
+            "/audio/pinyin/guang1.mp3",
+            "/audio/pinyin/xue2.mp3",
+            "/audio/pinyin/shi1.mp3"
+          ],
+          "explanation": "/audio/35/35b558d1321017464777020adef1f175e8ce87b1.mp3"
+        }
+      },
+      {
+        "id": 37,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「xiào」对应的汉字是？（词：学校）",
+        "options": [
+          "夏",
+          "校",
+          "早",
+          "中"
+        ],
+        "answer": "校",
+        "explanation": "「xiào」写作「校」，例如「学校」。",
+        "audio": {
+          "question": "/audio/a2/a25cd2a5dad20e4c6282d7092238cde5baa96307.mp3",
+          "options": [
+            "/audio/pinyin/xia4.mp3",
+            "/audio/pinyin/xiao4.mp3",
+            "/audio/pinyin/zao3.mp3",
+            "/audio/pinyin/zhong1.mp3"
+          ],
+          "explanation": "/audio/71/71340252a91a74356d9a27209af53977f89b2bb2.mp3"
+        }
+      },
+      {
+        "id": 66,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「口」的拼音（词：门口）",
+        "options": [],
+        "answer": "kǒu",
+        "explanation": "「口」的拼音是 kǒu。",
+        "audio": {
+          "question": "/audio/da/da5579e2cf27f5a95e9f84090f6a334e55cebb08.mp3",
+          "explanation": "/audio/1f/1f24cb08d4ebbfb79b4b40aff13fcab7c778f137.mp3"
+        }
+      },
+      {
+        "id": 65,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「明」的拼音（词：明天）",
+        "options": [],
+        "answer": "míng",
+        "explanation": "「明」的拼音是 míng。",
+        "audio": {
+          "question": "/audio/85/85f981daf9bf4ab8439a5606bef1bd2ad91d3311.mp3",
+          "explanation": "/audio/dc/dc682c3228f90a9582a8ea298e0df2e19474056c.mp3"
+        }
+      },
+      {
+        "id": 60,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「昨」的拼音（词：昨天）",
+        "options": [],
+        "answer": "zuó",
+        "explanation": "「昨」的拼音是 zuó。",
+        "audio": {
+          "question": "/audio/3d/3d9662c04a4266710bb2c8b58be04feda3bb0989.mp3",
+          "explanation": "/audio/90/90250360322dfb7ef754c95261ce0d5a44ef2e22.mp3"
+        }
+      },
+      {
+        "id": 81,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「xué」对应的汉字（词：学校）",
+        "options": [],
+        "answer": "学",
+        "explanation": "「xué」对应的汉字是「学」。",
+        "audio": {
+          "question": "/audio/ef/efb8f27a7b371a31fbe6f587ca99d790f1ae59fa.mp3",
+          "explanation": "/audio/1d/1df7204cdf9dad2315def3d34a542fddc1ce5cd7.mp3"
+        }
+      },
+      {
+        "id": 94,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「tǔ」对应的汉字（词：泥土）",
+        "options": [],
+        "answer": "土",
+        "explanation": "「tǔ」对应的汉字是「土」。",
+        "audio": {
+          "question": "/audio/20/2055a593436e06df2ed1819a0c4fde4b53e280aa.mp3",
+          "explanation": "/audio/85/85ff8955abd239e9a8528f58ca7040111a8b9ebc.mp3"
+        }
+      },
+      {
+        "id": 78,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「zhōng」对应的汉字（词：中间）",
+        "options": [],
+        "answer": "中",
+        "explanation": "「zhōng」对应的汉字是「中」。",
+        "audio": {
+          "question": "/audio/88/888205bfe75040c0c416685d374886472393cb9d.mp3",
+          "explanation": "/audio/3d/3d375d608a4b88b8b4ae98a9ca18fa31e31e0f73.mp3"
+        }
+      },
+      {
+        "id": 107,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「早」读作 zǎo。（词：早上）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「早」的读音是 zǎo。",
+        "audio": {
+          "question": "/audio/4c/4c3039306a52e2e7e481d98baf13eb0450723349.mp3",
+          "explanation": "/audio/23/23a881205d485119aa95090917dbbe4cb159fb48.mp3"
+        }
+      },
+      {
+        "id": 103,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「夏」读作 xià。（词：夏天）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「夏」的读音是 xià。",
+        "audio": {
+          "question": "/audio/70/7036ff121e3c2bc067b870958b4f691e9674111e.mp3",
+          "explanation": "/audio/3e/3e7847e15b269ac76a7e3c377b139b3f85c36337.mp3"
+        }
+      },
+      {
+        "id": 101,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「校」读作 xiào。（词：学校）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「校」的读音是 xiào。",
+        "audio": {
+          "question": "/audio/b7/b744c3ef148668c58d805dd194f27d18c509ee5f.mp3",
+          "explanation": "/audio/9c/9c33f994f652de16d546df40dd65a5461feeaa11.mp3"
+        }
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "看字认拼音",
+      "core_concept": "掌握本单元 29 个生字的正确读音。",
+      "key_formula": "看字 → 想读音 → 对选项",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「识字（三）· 数字与校园」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "看拼音认字",
+      "core_concept": "建立拼音到字形的稳定映射。",
+      "key_formula": "拼读 → 想字形 → 对选项",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「识字（三）· 数字与校园」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "拼音填空",
+      "core_concept": "巩固声母、韵母与声调的书写。",
+      "key_formula": "字 → 声母 + 韵母 + 声调",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「识字（三）· 数字与校园」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "汉字填空",
+      "core_concept": "在语境提示下从拼音还原字形。",
+      "key_formula": "拼音 → 词义线索 → 写字",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「识字（三）· 数字与校园」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "读音判断",
+      "core_concept": "辨析易错读音与形近字读音。",
+      "key_formula": "对照标准读音，判断对/错",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「识字（三）· 数字与校园」生字表，再做练习；错题进错题本复习。"
+    }
+  ]
+}

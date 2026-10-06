@@ -4,11 +4,11 @@
  * 把 ../output/{subject}/ 下的 outlines/ + quizzes/ + knowledge/ 转换成
  * frontend/public/data/ 下前端可直接 fetch 的结构。
  *
- * 多学科支持：遍历 output/{math,chinese,english,science}/ 每个子目录。
+ * 多学科支持：遍历 output/{math,chinese,renzi,english,science}/ 每个子目录。
  *
  * bookId 规则：
  *   - math 维持 `g1up` 等老格式（兼容老用户 localStorage 进度）
- *   - 非 math 学科带前缀：`chinese-g1up` / `english-g3up` / `science-g1up`
+ *   - 非 math 学科带前缀：`chinese-g1up` / `renzi-g1up` / `english-g3up` / `science-g1up`
  */
 
 import { createHash } from "crypto";
@@ -46,8 +46,10 @@ const STORY_IMAGES_ROOT = path.resolve(ROOT, "public", "story-images");
 // TTS 音频映射：与 scripts/tts/collect_texts.py 的 hash 规则保持一致
 //   - normalize: trim + 折叠空白
 //   - hash:      sha1(text)
-//   - rel path:  /audio/<hash[0:2]>/<hash>.opus
-// 仅当对应 opus 已生成时才注入路径，避免前端 404。
+//   - rel path:  /audio/<hash[0:2]>/<hash>.(mp3|opus)
+// 仅当对应文件已生成时才注入路径，避免前端 404。
+// 认字的新音频由 scripts/renzi/build_renzi_audio.py 直接产出 .mp3（nginx 按扩展名
+// 给 MIME，省掉服务器上那步改名），所以 .mp3 优先于历史 .opus。
 // ============================================================
 
 function normalizeText(text: string): string {
@@ -58,9 +60,9 @@ function textHash(text: string): string {
   return createHash("sha1").update(text, "utf8").digest("hex");
 }
 
-function audioRel(text: string): string {
+function audioBase(text: string): string {
   const h = textHash(text);
-  return `${h.slice(0, 2)}/${h}.opus`;
+  return `${h.slice(0, 2)}/${h}`;
 }
 
 let audioIndex: Set<string> | null = null;
@@ -82,7 +84,7 @@ async function buildAudioIndex(): Promise<Set<string>> {
       continue;
     }
     for (const f of entries) {
-      if (f.endsWith(".opus")) set.add(`${b}/${f}`);
+      if (f.endsWith(".opus") || f.endsWith(".mp3")) set.add(`${b}/${f}`);
     }
   }
   audioIndex = set;
@@ -92,14 +94,55 @@ async function buildAudioIndex(): Promise<Set<string>> {
 function audioFor(text: string | undefined | null): string | undefined {
   if (!text) return undefined;
   const norm = normalizeText(text);
-  if (!norm) return undefined;
-  const rel = audioRel(norm);
-  if (audioIndex && audioIndex.has(rel)) return `/audio/${rel}`;
+  if (!norm || !audioIndex) return undefined;
+  const base = audioBase(norm);
+  for (const ext of [".mp3", ".opus"]) {
+    if (audioIndex.has(`${base}${ext}`)) return `/audio/${base}${ext}`;
+  }
   return undefined;
 }
 
 function stripOptionPrefix(opt: string): string {
   return opt.replace(/^[A-Da-d][.、]\s*/, "");
+}
+
+// ---- 拼音选项音频：优先注入本地 /audio/pinyin/{key}.mp3 -----------------
+// nginx 按扩展名给 MIME；本地镜像为 Polly 质量 mp3，避免前端把拼音读成英文字母。
+const PINYIN_TONE: Record<string, [string, number]> = {
+  "ā": ["a", 1], "á": ["a", 2], "ǎ": ["a", 3], "à": ["a", 4],
+  "ē": ["e", 1], "é": ["e", 2], "ě": ["e", 3], "è": ["e", 4],
+  "ī": ["i", 1], "í": ["i", 2], "ǐ": ["i", 3], "ì": ["i", 4],
+  "ō": ["o", 1], "ó": ["o", 2], "ǒ": ["o", 3], "ò": ["o", 4],
+  "ū": ["u", 1], "ú": ["u", 2], "ǔ": ["u", 3], "ù": ["u", 4],
+  "ǖ": ["v", 1], "ǘ": ["v", 2], "ǚ": ["v", 3], "ǜ": ["v", 4],
+  "ü": ["v", 0],
+};
+const PINYIN_ONLY_RE = /^[a-zA-ZüÜāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]+$/;
+
+function pinyinKeyOf(py: string): string {
+  let tone = 0;
+  let base = "";
+  for (const ch of py.trim()) {
+    const hit = PINYIN_TONE[ch];
+    if (hit) {
+      base += hit[0];
+      if (hit[1]) tone = hit[1];
+    } else if (ch === "ü") {
+      base += "v";
+    } else {
+      base += ch.toLowerCase();
+    }
+  }
+  return `${base}${tone}`;
+}
+
+function pinyinAudioRel(text: string): string | null {
+  const t = stripOptionPrefix(text || "").trim();
+  if (!t || !PINYIN_ONLY_RE.test(t)) return null;
+  const key = pinyinKeyOf(t);
+  const abs = path.join(AUDIO_ROOT, "pinyin", `${key}.mp3`);
+  if (!existsSync(abs)) return null;
+  return `/audio/pinyin/${key}.mp3`;
 }
 
 // ============================================================
@@ -152,15 +195,27 @@ function sampleUniform<T>(items: T[], cap: number): T[] {
 }
 
 function decorateQuestion(q: Question): Question {
-  const audio: NonNullable<Question["audio"]> = {};
-  const qa = audioFor(q.question);
-  if (qa) audio.question = qa;
+  // 认字题库的 audio 由 scripts/renzi/inject_renzi_audio.py 预先写好（真人音节 +
+  // 可朗读改写音频），这里只补空槽，不覆盖已注入的路径。
+  const audio: NonNullable<Question["audio"]> = { ...(q.audio ?? {}) };
+  if (!audio.question) {
+    const qa = pinyinAudioRel(q.question) ?? audioFor(q.question);
+    if (qa) audio.question = qa;
+  }
   if (q.options && q.options.length) {
-    const opts = q.options.map(o => audioFor(stripOptionPrefix(o)) ?? null);
+    const injected = audio.options ?? [];
+    // 拼音选项：本地 Polly 镜像优先；否则回退内容寻址 TTS
+    const opts = q.options.map((o, i) => {
+      if (injected[i]) return injected[i];
+      const body = stripOptionPrefix(o);
+      return pinyinAudioRel(body) ?? audioFor(body) ?? null;
+    });
     if (opts.some(Boolean)) audio.options = opts;
   }
-  const ea = audioFor(q.explanation);
-  if (ea) audio.explanation = ea;
+  if (!audio.explanation) {
+    const ea = audioFor(q.explanation);
+    if (ea) audio.explanation = ea;
+  }
   if (Object.keys(audio).length) q.audio = audio;
   return q;
 }
@@ -485,7 +540,10 @@ interface SubjectMeta {
 const SUBJECTS: SubjectMeta[] = [
   { id: "math", name: "数学", publisherLabel: "人教版" },
   { id: "chinese", name: "语文", publisherLabel: "统编版" },
+  { id: "renzi", name: "认字", publisherLabel: "统编版" },
+  { id: "writing", name: "写字练习", publisherLabel: "统编版" },
   { id: "english", name: "英语", publisherLabel: "人教版PEP" },
+  { id: "ela", name: "美国英语", publisherLabel: "CCSS" },
   { id: "science", name: "科学", publisherLabel: "教科版" },
 ];
 
@@ -760,8 +818,11 @@ async function main() {
   const subjectOrder: Record<string, number> = {
     math: 0,
     chinese: 1,
-    english: 2,
-    science: 3,
+    renzi: 2,
+    writing: 3,
+    english: 4,
+    ela: 5,
+    science: 6,
   };
   books.sort((a, b) => {
     const sa = subjectOrder[a.subject ?? "math"] ?? 99;

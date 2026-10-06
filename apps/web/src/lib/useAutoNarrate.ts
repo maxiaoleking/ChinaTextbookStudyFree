@@ -3,24 +3,22 @@
 /**
  * useAutoNarrate — 面向低龄的自动朗读 hook。
  *
- * 场景：进入一道题、一张知识卡、一次答题反馈时，
- * 自动串行播放给定音频（只播有 src 的部分），避免小学生找不到喇叭。
- *
- * 行为：
- *   - 当 key 变化（或 autoNarrate / muted 开关切换到可播）时触发
- *   - 串行播 srcs 里所有非空 src，每段之间留 gapMs 间隔
- *   - 组件卸载 / key 再次变化 / 调用返回的 cancel() → 立刻停止
- *   - autoNarrate=false 或全局 muted → 不播
- *
- * 使用：
- *   const cancelNarrate = useAutoNarrate([q.audio?.question], q.id);
- *   // 用户点选项时：
- *   onSelect={(v) => { cancelNarrate(); ... }}
+ * 支持预生成 src 与文本兜底：src 缺失时用 Web Speech 朗读 text
+ * （认字科目题干/选项在未合成音频前也能自动出声）。
  */
 
 import { useCallback, useEffect, useRef } from "react";
 import { playTTS, stopTTS } from "./tts";
 import { useProgressStore } from "@/store/progress";
+
+export type NarrateItem =
+  | string
+  | null
+  | undefined
+  | {
+      src?: string | null;
+      text?: string | null;
+    };
 
 interface Opts {
   /** 段间间隔，默认 200ms */
@@ -33,8 +31,21 @@ interface Opts {
   onAllDone?: () => void;
 }
 
+function normalizeItems(items: NarrateItem[]): Array<{ src?: string | null; text?: string | null }> {
+  return items
+    .map(item => {
+      if (item == null) return null;
+      if (typeof item === "string") return { src: item, text: null };
+      const hasSrc = typeof item.src === "string" && item.src.length > 0;
+      const hasText = typeof item.text === "string" && item.text.trim().length > 0;
+      if (!hasSrc && !hasText) return null;
+      return { src: item.src, text: item.text };
+    })
+    .filter(Boolean) as Array<{ src?: string | null; text?: string | null }>;
+}
+
 export function useAutoNarrate(
-  srcs: Array<string | null | undefined>,
+  srcs: NarrateItem[],
   key: string | number,
   opts: Opts = {},
 ): () => void {
@@ -42,8 +53,6 @@ export function useAutoNarrate(
   const autoNarrate = useProgressStore(s => s.autoNarrate);
   const muted = useProgressStore(s => s.muted);
 
-  // 用 ref 持有 srcs / 回调，避免引用变化造成 effect 反复重跑；
-  // 触发重播只依赖语义 key / 开关。
   const srcsRef = useRef(srcs);
   srcsRef.current = srcs;
   const onSrcStartRef = useRef(onSrcStart);
@@ -63,19 +72,17 @@ export function useAutoNarrate(
     cancelledRef.current = false;
 
     const run = async () => {
-      // 可选入场延迟（默认 0，不打断用户手势链）
       if (startDelayMs > 0) {
         await sleep(startDelayMs);
         if (cancelledRef.current) return;
       }
 
-      const list = srcsRef.current.filter(
-        (s): s is string => typeof s === "string" && s.length > 0,
-      );
+      const list = normalizeItems(srcsRef.current);
       for (let i = 0; i < list.length; i++) {
         if (cancelledRef.current) return;
         onSrcStartRef.current?.(i);
-        await playTTS(list[i]);
+        const item = list[i];
+        await playTTS(item.src, { text: item.text });
         if (cancelledRef.current) return;
         if (i < list.length - 1) await sleep(gapMs);
       }

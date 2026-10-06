@@ -63,6 +63,7 @@ import {
   type MascotTriggerContext,
 } from "@/lib/mascotTriggers";
 import { getCosmeticById, type LessonBackdrop } from "@/lib/cosmetics";
+import { useIsDark } from "./ThemeProvider";
 import { hasLessonProgress } from "@/lib/lessonSession";
 import { ShareCardButton } from "./ShareCardButton";
 import { renderBadgeCard, renderStreakCard, buildShareWeek } from "@/lib/shareCard";
@@ -84,6 +85,8 @@ function questionTagLabel(type: QuestionType): string {
       return "排序";
     case "matching":
       return "连线配对";
+    case "writing":
+      return "写字练习";
     default:
       return "新题";
   }
@@ -260,13 +263,20 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
   const hearts = useProgressStore(s => s.hearts);
   const gems = useProgressStore(s => s.gems);
   const backdropId = useProgressStore(s => s.equippedBackdrop);
+  const isDark = useIsDark();
   const backdropStyle = useMemo<React.CSSProperties>(() => {
     const item = getCosmeticById(backdropId) as LessonBackdrop | undefined;
-    if (!item || item.type !== "lesson_backdrop") {
-      return { background: "#F7F7F7" };
+    const bd = item?.type === "lesson_backdrop" ? item.data : undefined;
+    // 背景美妆是**内联样式**，会压过 .theme-dark 对工具类的重映射：
+    //   浅色背景 + 深色模式 → text-ink 变白，题干白字浅底看不见
+    //   深色背景 + 亮色模式 → 反过来深字深底
+    // 所以只在背景自报的深浅（needsOverlay 即"我是深色背景"）与当前模式一致时才用它，
+    // 其余情况退回 --app-bg-soft（亮 #F7F7F7 / 暗 #131F24）。
+    if (!bd || !!bd.needsOverlay !== isDark) {
+      return { background: "var(--app-bg-soft)" };
     }
-    return { background: item.data.background };
-  }, [backdropId]);
+    return { background: bd.background };
+  }, [backdropId, isDark]);
   const prefersReduced = useReducedMotion();
 
   // 周末双倍 XP（本地时间周六/周日）—— 所见即所得：预览/飘字/结算全部按 ×2 显示
@@ -1352,7 +1362,7 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
       <div className="sr-only" aria-live="polite" aria-atomic="true">
         {phase === "checked" && isCorrect === true && `回答正确。${current.explanation ?? ""}`}
         {phase === "checked" && isCorrect === false &&
-          `回答错误。正确答案是：${current.answer}。${current.explanation ?? ""}`}
+          `回答错误。${current.answer ? `正确答案是：${current.answer}。` : ""}${current.explanation ?? ""}`}
       </div>
 
       {/* Bottom: SKIP / CHECK 双按钮（仿 Duolingo 真机底栏） */}

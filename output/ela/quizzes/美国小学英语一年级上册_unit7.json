@@ -1,0 +1,1393 @@
+{
+  "textbook": "CCSS 美国小学英语一年级上册",
+  "unit": "句子与书写规范 · Sentences and Conventions",
+  "unit_number": 7,
+  "unit_test": {
+    "title": "Unit 7「句子与书写规范 · Sentences and Conventions」英文练习",
+    "total_score": 100,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "knowledge_point": "大写与标点",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which sentence is written correctly?",
+        "options": [
+          "i Like my cat.",
+          "I like my cat.",
+          "I like my Cat.",
+          "i like my cat."
+        ],
+        "answer": "I like my cat.",
+        "explanation": "I like my cat. starts with a capital letter and ends with the right mark."
+      },
+      {
+        "id": 2,
+        "knowledge_point": "大写与标点",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which sentence is written correctly?",
+        "options": [
+          "We go to School by bus.",
+          "We go to school bus.",
+          "We go to school by bus.",
+          "we go to school by bus."
+        ],
+        "answer": "We go to school by bus.",
+        "explanation": "We go to school by bus. starts with a capital letter and ends with the right mark."
+      },
+      {
+        "id": 3,
+        "knowledge_point": "大写与标点",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which sentence is written correctly?",
+        "options": [
+          "my name is Amy.",
+          "My name Amy is.",
+          "My name is amy.",
+          "My name is Amy."
+        ],
+        "answer": "My name is Amy.",
+        "explanation": "My name is Amy. starts with a capital letter and ends with the right mark."
+      },
+      {
+        "id": 4,
+        "knowledge_point": "大写与标点",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which sentence is written correctly?",
+        "options": [
+          "April fifth is my Birthday.",
+          "April fifth is my birthday.",
+          "april fifth is my birthday.",
+          "April fifth my is birthday."
+        ],
+        "answer": "April fifth is my birthday.",
+        "explanation": "April fifth is my birthday. starts with a capital letter and ends with the right mark."
+      },
+      {
+        "id": 5,
+        "knowledge_point": "大写与标点",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which sentence is written correctly?",
+        "options": [
+          "do you like milk?",
+          "Do you like milk?",
+          "You do like milk.",
+          "Do you like Milk?"
+        ],
+        "answer": "Do you like milk?",
+        "explanation": "Do you like milk? starts with a capital letter and ends with the right mark."
+      },
+      {
+        "id": 6,
+        "knowledge_point": "大写与标点",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which sentence is written correctly?",
+        "options": [
+          "What a big dog!",
+          "What a big Dog!",
+          "What a dog big!",
+          "what a big dog!"
+        ],
+        "answer": "What a big dog!",
+        "explanation": "What a big dog! starts with a capital letter and ends with the right mark."
+      },
+      {
+        "id": 7,
+        "knowledge_point": "大写与标点",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which sentence is written correctly?",
+        "options": [
+          "Tom can fast swim.",
+          "tom can swim fast.",
+          "Tom can swim fast.",
+          "Tom can Swim fast."
+        ],
+        "answer": "Tom can swim fast.",
+        "explanation": "Tom can swim fast. starts with a capital letter and ends with the right mark."
+      },
+      {
+        "id": 8,
+        "knowledge_point": "大写与标点",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which sentence is written correctly?",
+        "options": [
+          "the sun is bright.",
+          "The sun bright is.",
+          "The sun is bright.",
+          "Sun the is bright."
+        ],
+        "answer": "The sun is bright.",
+        "explanation": "The sun is bright. starts with a capital letter and ends with the right mark."
+      },
+      {
+        "id": 9,
+        "knowledge_point": "大写与标点",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which sentence is written correctly?",
+        "options": [
+          "I see a rainbow.",
+          "I a see rainbow.",
+          "I see a Rainbow.",
+          "i see a rainbow."
+        ],
+        "answer": "I see a rainbow.",
+        "explanation": "I see a rainbow. starts with a capital letter and ends with the right mark."
+      },
+      {
+        "id": 10,
+        "knowledge_point": "大写与标点",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which sentence is written correctly?",
+        "options": [
+          "she lives in new york.",
+          "She lives in New york.",
+          "She lives in New York.",
+          "She lives york in New."
+        ],
+        "answer": "She lives in New York.",
+        "explanation": "She lives in New York. starts with a capital letter and ends with the right mark."
+      },
+      {
+        "id": 11,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "eat",
+          "We",
+          "like",
+          "to",
+          "apples."
+        ],
+        "answer": "We,like,to,eat,apples.",
+        "explanation": "We like to eat apples."
+      },
+      {
+        "id": 12,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "water?",
+          "you",
+          "want",
+          "Do",
+          "some"
+        ],
+        "answer": "Do,you,want,some,water?",
+        "explanation": "Do you want some water?"
+      },
+      {
+        "id": 13,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "books",
+          "read",
+          "We",
+          "every",
+          "day."
+        ],
+        "answer": "We,read,books,every,day.",
+        "explanation": "We read books every day."
+      },
+      {
+        "id": 14,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "now.",
+          "home",
+          "go",
+          "Let",
+          "us"
+        ],
+        "answer": "Let,us,go,home,now.",
+        "explanation": "Let us go home now."
+      },
+      {
+        "id": 15,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "on",
+          "the",
+          "sat",
+          "The",
+          "mat.",
+          "cat"
+        ],
+        "answer": "The,cat,sat,on,the,mat.",
+        "explanation": "The cat sat on the mat."
+      },
+      {
+        "id": 16,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "a",
+          "dog.",
+          "I",
+          "have",
+          "big"
+        ],
+        "answer": "I,have,a,big,dog.",
+        "explanation": "I have a big dog."
+      },
+      {
+        "id": 17,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "ball.",
+          "The",
+          "small",
+          "has",
+          "dog",
+          "a"
+        ],
+        "answer": "The,dog,has,a,small,ball.",
+        "explanation": "The dog has a small ball."
+      },
+      {
+        "id": 18,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "star.",
+          "a",
+          "I",
+          "yellow",
+          "see"
+        ],
+        "answer": "I,see,a,yellow,star.",
+        "explanation": "I see a yellow star."
+      },
+      {
+        "id": 19,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "the",
+          "sky.",
+          "in",
+          "fly",
+          "can",
+          "Birds"
+        ],
+        "answer": "Birds,can,fly,in,the,sky.",
+        "explanation": "Birds can fly in the sky."
+      },
+      {
+        "id": 20,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "goes",
+          "by",
+          "bus.",
+          "school",
+          "He",
+          "to"
+        ],
+        "answer": "He,goes,to,school,by,bus.",
+        "explanation": "He goes to school by bus."
+      },
+      {
+        "id": 21,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "fast.",
+          "run",
+          "very",
+          "She",
+          "can"
+        ],
+        "answer": "She,can,run,very,fast.",
+        "explanation": "She can run very fast."
+      },
+      {
+        "id": 22,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "What",
+          "is",
+          "your",
+          "color?",
+          "favorite"
+        ],
+        "answer": "What,is,your,favorite,color?",
+        "explanation": "What is your favorite color?"
+      },
+      {
+        "id": 23,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the sentences in the right order.",
+        "options": [
+          "We draw a new end.",
+          "We read the book.",
+          "We talk about it."
+        ],
+        "answer": "We read the book.,We talk about it.,We draw a new end.",
+        "explanation": "We read the book. We talk about it. We draw a new end."
+      },
+      {
+        "id": 24,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the sentences in the right order.",
+        "options": [
+          "The flower opens.",
+          "The seed grows.",
+          "The bee comes."
+        ],
+        "answer": "The seed grows.,The flower opens.,The bee comes.",
+        "explanation": "The seed grows. The flower opens. The bee comes."
+      },
+      {
+        "id": 25,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the sentences in the right order.",
+        "options": [
+          "He goes to bed.",
+          "He packs his bag.",
+          "Sam eats his lunch."
+        ],
+        "answer": "Sam eats his lunch.,He packs his bag.,He goes to bed.",
+        "explanation": "Sam eats his lunch. He packs his bag. He goes to bed."
+      },
+      {
+        "id": 26,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the sentences in the right order.",
+        "options": [
+          "A chick comes out.",
+          "The hen lays an egg.",
+          "It pecks the ground."
+        ],
+        "answer": "The hen lays an egg.,A chick comes out.,It pecks the ground.",
+        "explanation": "The hen lays an egg. A chick comes out. It pecks the ground."
+      },
+      {
+        "id": 27,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the sentences in the right order.",
+        "options": [
+          "He runs to the door.",
+          "Tim hears the bell.",
+          "He opens it wide."
+        ],
+        "answer": "Tim hears the bell.,He runs to the door.,He opens it wide.",
+        "explanation": "Tim hears the bell. He runs to the door. He opens it wide."
+      },
+      {
+        "id": 28,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the sentences in the right order.",
+        "options": [
+          "I go outside.",
+          "I play in the snow.",
+          "I put on my coat."
+        ],
+        "answer": "I put on my coat.,I go outside.,I play in the snow.",
+        "explanation": "I put on my coat. I go outside. I play in the snow."
+      },
+      {
+        "id": 29,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is a noun (a person, place, or thing)?",
+        "options": [
+          "play",
+          "write",
+          "school",
+          "old"
+        ],
+        "answer": "school",
+        "explanation": "school names a thing - it is a noun."
+      },
+      {
+        "id": 30,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is a noun (a person, place, or thing)?",
+        "options": [
+          "book",
+          "red",
+          "jump",
+          "help"
+        ],
+        "answer": "book",
+        "explanation": "book names a thing - it is a noun."
+      },
+      {
+        "id": 31,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is a noun (a person, place, or thing)?",
+        "options": [
+          "park",
+          "happy",
+          "play",
+          "new"
+        ],
+        "answer": "park",
+        "explanation": "park names a thing - it is a noun."
+      },
+      {
+        "id": 32,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is a noun (a person, place, or thing)?",
+        "options": [
+          "big",
+          "swim",
+          "jump",
+          "apple"
+        ],
+        "answer": "apple",
+        "explanation": "apple names a thing - it is a noun."
+      },
+      {
+        "id": 33,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is a noun (a person, place, or thing)?",
+        "options": [
+          "sing",
+          "city",
+          "new",
+          "read"
+        ],
+        "answer": "city",
+        "explanation": "city names a thing - it is a noun."
+      },
+      {
+        "id": 34,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is a noun (a person, place, or thing)?",
+        "options": [
+          "jump",
+          "run",
+          "milk",
+          "kind"
+        ],
+        "answer": "milk",
+        "explanation": "milk names a thing - it is a noun."
+      },
+      {
+        "id": 35,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is a noun (a person, place, or thing)?",
+        "options": [
+          "teacher",
+          "play",
+          "sing",
+          "happy"
+        ],
+        "answer": "teacher",
+        "explanation": "teacher names a thing - it is a noun."
+      },
+      {
+        "id": 36,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is a noun (a person, place, or thing)?",
+        "options": [
+          "hand",
+          "read",
+          "jump",
+          "kind"
+        ],
+        "answer": "hand",
+        "explanation": "hand names a thing - it is a noun."
+      },
+      {
+        "id": 37,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is a noun (a person, place, or thing)?",
+        "options": [
+          "big",
+          "write",
+          "dog",
+          "jump"
+        ],
+        "answer": "dog",
+        "explanation": "dog names a thing - it is a noun."
+      },
+      {
+        "id": 38,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is a noun (a person, place, or thing)?",
+        "options": [
+          "car",
+          "eat",
+          "help",
+          "small"
+        ],
+        "answer": "car",
+        "explanation": "car names a thing - it is a noun."
+      },
+      {
+        "id": 39,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word is a verb (an action)?",
+        "options": [
+          "play",
+          "park",
+          "hand",
+          "dog"
+        ],
+        "answer": "play",
+        "explanation": "play is an action, so it is a verb."
+      },
+      {
+        "id": 40,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word is a verb (an action)?",
+        "options": [
+          "small",
+          "old",
+          "run",
+          "milk"
+        ],
+        "answer": "run",
+        "explanation": "run is an action, so it is a verb."
+      },
+      {
+        "id": 41,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word is a verb (an action)?",
+        "options": [
+          "dog",
+          "write",
+          "big",
+          "book"
+        ],
+        "answer": "write",
+        "explanation": "write is an action, so it is a verb."
+      },
+      {
+        "id": 42,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word is a verb (an action)?",
+        "options": [
+          "red",
+          "fly",
+          "school",
+          "dog"
+        ],
+        "answer": "fly",
+        "explanation": "fly is an action, so it is a verb."
+      },
+      {
+        "id": 43,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word is a verb (an action)?",
+        "options": [
+          "dog",
+          "eat",
+          "book",
+          "hand"
+        ],
+        "answer": "eat",
+        "explanation": "eat is an action, so it is a verb."
+      },
+      {
+        "id": 44,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word is a verb (an action)?",
+        "options": [
+          "swim",
+          "old",
+          "new",
+          "hot"
+        ],
+        "answer": "swim",
+        "explanation": "swim is an action, so it is a verb."
+      },
+      {
+        "id": 45,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word is a verb (an action)?",
+        "options": [
+          "happy",
+          "jump",
+          "school",
+          "city"
+        ],
+        "answer": "jump",
+        "explanation": "jump is an action, so it is a verb."
+      },
+      {
+        "id": 46,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word is a verb (an action)?",
+        "options": [
+          "teacher",
+          "read",
+          "new",
+          "kind"
+        ],
+        "answer": "read",
+        "explanation": "read is an action, so it is a verb."
+      },
+      {
+        "id": 47,
+        "knowledge_point": "代词与 be 动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the right word: He ___ tall.",
+        "options": [
+          "be",
+          "am",
+          "is",
+          "are"
+        ],
+        "answer": "is",
+        "explanation": "The sentence is: He is tall."
+      },
+      {
+        "id": 48,
+        "knowledge_point": "代词与 be 动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the right word: They ___ glad.",
+        "options": [
+          "are",
+          "is",
+          "was",
+          "am"
+        ],
+        "answer": "are",
+        "explanation": "The sentence is: They are glad."
+      },
+      {
+        "id": 49,
+        "knowledge_point": "代词与 be 动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the right word: You ___ my friend.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "does"
+        ],
+        "answer": "are",
+        "explanation": "The sentence is: You are my friend."
+      },
+      {
+        "id": 50,
+        "knowledge_point": "代词与 be 动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the right word: It ___ a small cat.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "were"
+        ],
+        "answer": "is",
+        "explanation": "The sentence is: It is a small cat."
+      },
+      {
+        "id": 51,
+        "knowledge_point": "代词与 be 动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the right word: I ___ a boy.",
+        "options": [
+          "be",
+          "is",
+          "am",
+          "are"
+        ],
+        "answer": "am",
+        "explanation": "The sentence is: I am a boy."
+      },
+      {
+        "id": 52,
+        "knowledge_point": "代词与 be 动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the right word: The dog ___ fast.",
+        "options": [
+          "run",
+          "runs to",
+          "are run",
+          "runs"
+        ],
+        "answer": "runs",
+        "explanation": "The sentence is: The dog runs fast."
+      },
+      {
+        "id": 53,
+        "knowledge_point": "代词与 be 动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the right word: We ___ to music.",
+        "options": [
+          "listen",
+          "listen of",
+          "listens",
+          "listening to is"
+        ],
+        "answer": "listen",
+        "explanation": "The sentence is: We listen to music."
+      },
+      {
+        "id": 54,
+        "knowledge_point": "代词与 be 动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the right word: Yesterday I ___ home.",
+        "options": [
+          "walk",
+          "walks",
+          "walked",
+          "will walk"
+        ],
+        "answer": "walked",
+        "explanation": "The sentence is: Yesterday I walked home."
+      },
+      {
+        "id": 55,
+        "knowledge_point": "代词与 be 动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the right word: Tomorrow we ___ a test.",
+        "options": [
+          "had",
+          "has",
+          "have",
+          "having"
+        ],
+        "answer": "have",
+        "explanation": "The sentence is: Tomorrow we have a test."
+      },
+      {
+        "id": 56,
+        "knowledge_point": "代词与 be 动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the right word: She can ___ a bike.",
+        "options": [
+          "rides",
+          "rode to",
+          "ride",
+          "riding"
+        ],
+        "answer": "ride",
+        "explanation": "The sentence is: She can ride a bike."
+      },
+      {
+        "id": 57,
+        "knowledge_point": "代词与 be 动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the right word: Give the book to ___.",
+        "options": [
+          "he",
+          "his",
+          "him",
+          "himself is"
+        ],
+        "answer": "him",
+        "explanation": "The sentence is: Give the book to him."
+      },
+      {
+        "id": 58,
+        "knowledge_point": "代词与 be 动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the right word: ___ is my sister.",
+        "options": [
+          "Her",
+          "Hers",
+          "She is is",
+          "She"
+        ],
+        "answer": "She",
+        "explanation": "The sentence is: She is my sister."
+      },
+      {
+        "id": 59,
+        "knowledge_point": "代词与 be 动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the right word: I like tea ___ coffee.",
+        "options": [
+          "to",
+          "because of a",
+          "and",
+          "of"
+        ],
+        "answer": "and",
+        "explanation": "The sentence is: I like tea and coffee."
+      },
+      {
+        "id": 60,
+        "knowledge_point": "代词与 be 动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the right word: The cat is ___ the table.",
+        "options": [
+          "to",
+          "under",
+          "and",
+          "of"
+        ],
+        "answer": "under",
+        "explanation": "The sentence is: The cat is under the table."
+      },
+      {
+        "id": 61,
+        "knowledge_point": "代词与 be 动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the right word: This bag is ___.",
+        "options": [
+          "my",
+          "I",
+          "mine",
+          "me"
+        ],
+        "answer": "mine",
+        "explanation": "The sentence is: This bag is mine."
+      },
+      {
+        "id": 62,
+        "knowledge_point": "句子判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The sentence 'i like my cat.' is written correctly.",
+        "options": [],
+        "answer": "错",
+        "explanation": "The word I is always capitalized, and the first word of a sentence starts big."
+      },
+      {
+        "id": 63,
+        "knowledge_point": "句子判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "A sentence ends with a period, a question mark, or an exclamation mark.",
+        "options": [],
+        "answer": "对",
+        "explanation": "Those are the three end marks."
+      },
+      {
+        "id": 64,
+        "knowledge_point": "句子判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word 'every' is a verb.",
+        "options": [],
+        "answer": "错",
+        "explanation": "every is not an action word."
+      },
+      {
+        "id": 65,
+        "knowledge_point": "句子判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "In the sentence 'We hop', the verb is correct.",
+        "options": [],
+        "answer": "对",
+        "explanation": "We hop, but he hops."
+      },
+      {
+        "id": 66,
+        "knowledge_point": "句子判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "Mom and April are proper nouns, so they start with a capital letter.",
+        "options": [],
+        "answer": "对",
+        "explanation": "Names of people and months are proper nouns."
+      },
+      {
+        "id": 67,
+        "knowledge_point": "句子判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word 'book' is a noun.",
+        "options": [],
+        "answer": "对",
+        "explanation": "book names a thing."
+      },
+      {
+        "id": 68,
+        "knowledge_point": "句子判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word 'under' is a verb.",
+        "options": [],
+        "answer": "错",
+        "explanation": "under is a preposition, not an action."
+      },
+      {
+        "id": 69,
+        "knowledge_point": "句子判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word 'ran' is a past-tense verb.",
+        "options": [],
+        "answer": "对",
+        "explanation": "Yesterday I ran."
+      },
+      {
+        "id": 70,
+        "knowledge_point": "句子判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "You should write 'my name is ann' as 'My name is Ann.'",
+        "options": [],
+        "answer": "对",
+        "explanation": "Capitalize the first word and both names."
+      },
+      {
+        "id": 71,
+        "knowledge_point": "句子判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word 'big' is an adjective.",
+        "options": [],
+        "answer": "对",
+        "explanation": "big describes a noun."
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 7「句子与书写规范 · Sentences and Conventions」综合挑战",
+    "total_score": 100,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "id": 3,
+        "knowledge_point": "大写与标点",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which sentence is written correctly?",
+        "options": [
+          "my name is Amy.",
+          "My name Amy is.",
+          "My name is amy.",
+          "My name is Amy."
+        ],
+        "answer": "My name is Amy.",
+        "explanation": "My name is Amy. starts with a capital letter and ends with the right mark."
+      },
+      {
+        "id": 1,
+        "knowledge_point": "大写与标点",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which sentence is written correctly?",
+        "options": [
+          "i Like my cat.",
+          "I like my cat.",
+          "I like my Cat.",
+          "i like my cat."
+        ],
+        "answer": "I like my cat.",
+        "explanation": "I like my cat. starts with a capital letter and ends with the right mark."
+      },
+      {
+        "id": 2,
+        "knowledge_point": "大写与标点",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which sentence is written correctly?",
+        "options": [
+          "We go to School by bus.",
+          "We go to school bus.",
+          "We go to school by bus.",
+          "we go to school by bus."
+        ],
+        "answer": "We go to school by bus.",
+        "explanation": "We go to school by bus. starts with a capital letter and ends with the right mark."
+      },
+      {
+        "id": 16,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "a",
+          "dog.",
+          "I",
+          "have",
+          "big"
+        ],
+        "answer": "I,have,a,big,dog.",
+        "explanation": "I have a big dog."
+      },
+      {
+        "id": 24,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the sentences in the right order.",
+        "options": [
+          "The flower opens.",
+          "The seed grows.",
+          "The bee comes."
+        ],
+        "answer": "The seed grows.,The flower opens.,The bee comes.",
+        "explanation": "The seed grows. The flower opens. The bee comes."
+      },
+      {
+        "id": 22,
+        "knowledge_point": "排句成文",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "question": "Put the words in order to make a sentence.",
+        "options": [
+          "What",
+          "is",
+          "your",
+          "color?",
+          "favorite"
+        ],
+        "answer": "What,is,your,favorite,color?",
+        "explanation": "What is your favorite color?"
+      },
+      {
+        "id": 40,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word is a verb (an action)?",
+        "options": [
+          "small",
+          "old",
+          "run",
+          "milk"
+        ],
+        "answer": "run",
+        "explanation": "run is an action, so it is a verb."
+      },
+      {
+        "id": 35,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is a noun (a person, place, or thing)?",
+        "options": [
+          "teacher",
+          "play",
+          "sing",
+          "happy"
+        ],
+        "answer": "teacher",
+        "explanation": "teacher names a thing - it is a noun."
+      },
+      {
+        "id": 33,
+        "knowledge_point": "名词与动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is a noun (a person, place, or thing)?",
+        "options": [
+          "sing",
+          "city",
+          "new",
+          "read"
+        ],
+        "answer": "city",
+        "explanation": "city names a thing - it is a noun."
+      },
+      {
+        "id": 51,
+        "knowledge_point": "代词与 be 动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the right word: I ___ a boy.",
+        "options": [
+          "be",
+          "is",
+          "am",
+          "are"
+        ],
+        "answer": "am",
+        "explanation": "The sentence is: I am a boy."
+      },
+      {
+        "id": 61,
+        "knowledge_point": "代词与 be 动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the right word: This bag is ___.",
+        "options": [
+          "my",
+          "I",
+          "mine",
+          "me"
+        ],
+        "answer": "mine",
+        "explanation": "The sentence is: This bag is mine."
+      },
+      {
+        "id": 49,
+        "knowledge_point": "代词与 be 动词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Choose the right word: You ___ my friend.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "does"
+        ],
+        "answer": "are",
+        "explanation": "The sentence is: You are my friend."
+      },
+      {
+        "id": 65,
+        "knowledge_point": "句子判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "In the sentence 'We hop', the verb is correct.",
+        "options": [],
+        "answer": "对",
+        "explanation": "We hop, but he hops."
+      },
+      {
+        "id": 67,
+        "knowledge_point": "句子判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "The word 'book' is a noun.",
+        "options": [],
+        "answer": "对",
+        "explanation": "book names a thing."
+      },
+      {
+        "id": 66,
+        "knowledge_point": "句子判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "Mom and April are proper nouns, so they start with a capital letter.",
+        "options": [],
+        "answer": "对",
+        "explanation": "Names of people and months are proper nouns."
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "大写与标点",
+      "core_concept": "句首大写、专有名词大写、句末用对标点。（对应标准 L.1.2a, L.1.2b）",
+      "key_formula": "句首、专有名词、单词 I 要大写；问句用 ?，感叹用 !。",
+      "common_mistakes": [
+        "普通名词也大写",
+        "陈述句写成问号"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "排句成文",
+      "core_concept": "把单词排成完整、正确的句子。（对应标准 L.1.1j）",
+      "key_formula": "按 谁 + 做 + 什么 的顺序排，最后检查标点。",
+      "common_mistakes": [
+        "把修饰词插在动词中间",
+        "句末词漏掉标点"
+      ],
+      "tips": "先找第一个 → 依次点击 → 连成整句；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "名词与动词",
+      "core_concept": "在词表里认出名词（人/地/物）与动词（动作）。（对应标准 L.1.1b）",
+      "key_formula": "名词是人和事物，动词是动作；能加 a / the 的多是名词。",
+      "common_mistakes": [
+        "把 -ing 结尾的名词当动词",
+        "同时是名 / 动词时选错"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "代词与 be 动词",
+      "core_concept": "主格/所有格代词与 am / is / are 的搭配。（对应标准 L.1.1c, L.1.1d）",
+      "key_formula": "I am / He is / They are；所有格用 my / his / their。",
+      "common_mistakes": [
+        "用 him 作主语",
+        "are 配第三人称单数"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "句子判断",
+      "core_concept": "判断一句话的大写、标点或语序是否正确。（对应标准 RF.1.1a）",
+      "key_formula": "看三件事：首字母、专有名词、句末标点。",
+      "common_mistakes": [
+        "只看单词拼写",
+        "忽略问句要用问号"
+      ],
+      "tips": "先默读一遍 → 对照规则 → 判对错；生词先跟读两遍再做题，错题自动进错题本。"
+    }
+  ]
+}

@@ -18,6 +18,18 @@
   --shadow-card-color: #e5e5e5;
   /* 当前路径节点光晕色 —— 随单元色由 PathMap 内联覆盖 */
   --node-glow-color: rgba(88, 204, 2, 0.35);
+
+  /* --app-* 底色/文字 token 的**亮色**缺省值（与 tailwind.config.ts 的 Duolingo 亮色板同 hex）。
+     下面 .theme-dark 会整组换成 night 色板；组件里需要内联背景时应引用这些变量，
+     不要再写死 hex —— 内联样式会压过 .theme-dark 的重映射。 */
+  --app-bg: #ffffff;
+  --app-bg-soft: #f7f7f7;
+  --app-bg-softer: #e5e5e5;
+  --app-card: #ffffff;
+  --app-border: #e5e5e5;
+  --app-ink: #4b4b4b;
+  --app-ink-light: #777777;
+  --app-ink-softer: #afafaf;
 }
 
 /* ============================================================

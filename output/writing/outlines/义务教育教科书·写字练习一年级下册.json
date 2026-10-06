@@ -1,0 +1,405 @@
+{
+  "textbook": "统编版小学写字练习一年级下册",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "识字（一）· 春天来了",
+      "knowledge_points": [
+        {
+          "name": "写字 第1组",
+          "description": "在「识字（一）· 春天来了」里按笔顺写「春、风、冬、雪」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第2组",
+          "description": "在「识字（一）· 春天来了」里按笔顺写「花、飞、入、姓」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第3组",
+          "description": "在「识字（一）· 春天来了」里按笔顺写「氏、什、么、双」。",
+          "difficulty": 2,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第4组",
+          "description": "在「识字（一）· 春天来了」里按笔顺写「国、王、方、青」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第5组",
+          "description": "在「识字（一）· 春天来了」里按笔顺写「清、气、晴、情」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第6组",
+          "description": "在「识字（一）· 春天来了」里按笔顺写「请、生、字、左」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第7组",
+          "description": "在「识字（一）· 春天来了」里按笔顺写「右、红、时、动」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第8组",
+          "description": "在「识字（一）· 春天来了」里按笔顺写「万、复、苏、柳」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第9组",
+          "description": "在「识字（一）· 春天来了」里按笔顺写「歌、舞、冰、泉」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第10组",
+          "description": "在「识字（一）· 春天来了」里按笔顺写「叮、咚」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "识字（二）· 同伴与活动",
+      "knowledge_points": [
+        {
+          "name": "写字 第1组",
+          "description": "在「识字（二）· 同伴与活动」里按笔顺写「吃、叫、主、江」。",
+          "difficulty": 2,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第2组",
+          "description": "在「识字（二）· 同伴与活动」里按笔顺写「住、没、以、会」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第3组",
+          "description": "在「识字（二）· 同伴与活动」里按笔顺写「走、北、京、广」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第4组",
+          "description": "在「识字（二）· 同伴与活动」里按笔顺写「过、各、种、样」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第5组",
+          "description": "在「识字（二）· 同伴与活动」里按笔顺写「伙、伴、这、那」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第6组",
+          "description": "在「识字（二）· 同伴与活动」里按笔顺写「太、阳、片、金」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第7组",
+          "description": "在「识字（二）· 同伴与活动」里按笔顺写「秋、因、为、思」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第8组",
+          "description": "在「识字（二）· 同伴与活动」里按笔顺写「床、前、光、低」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第9组",
+          "description": "在「识字（二）· 同伴与活动」里按笔顺写「故、乡、色、外」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第10组",
+          "description": "在「识字（二）· 同伴与活动」里按笔顺写「看、爸、晚、笑」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第11组",
+          "description": "在「识字（二）· 同伴与活动」里按笔顺写「再」。",
+          "difficulty": 2,
+          "question_types": [
+            "写字"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "识字（三）· 动物儿歌",
+      "knowledge_points": [
+        {
+          "name": "写字 第1组",
+          "description": "在「识字（三）· 动物儿歌」里按笔顺写「蜻、蜓、迷、藏」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第2组",
+          "description": "在「识字（三）· 动物儿歌」里按笔顺写「造、蚂、蚁、食」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第3组",
+          "description": "在「识字（三）· 动物儿歌」里按笔顺写「粮、蜘、蛛、网」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第4组",
+          "description": "在「识字（三）· 动物儿歌」里按笔顺写「圆、严、寒、酷」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第5组",
+          "description": "在「识字（三）· 动物儿歌」里按笔顺写「暑、晨、细、夕」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第6组",
+          "description": "在「识字（三）· 动物儿歌」里按笔顺写「朝、霞、杨、操」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第7组",
+          "description": "在「识字（三）· 动物儿歌」里按笔顺写「场、拔、拍、跑」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第8组",
+          "description": "在「识字（三）· 动物儿歌」里按笔顺写「踢、铃、热、闹」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第9组",
+          "description": "在「识字（三）· 动物儿歌」里按笔顺写「锻、炼、体、之」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第10组",
+          "description": "在「识字（三）· 动物儿歌」里按笔顺写「初、性、善、习」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第11组",
+          "description": "在「识字（三）· 动物儿歌」里按笔顺写「教、迁、贵、专」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第12组",
+          "description": "在「识字（三）· 动物儿歌」里按笔顺写「幼、玉、器、义」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "识字（四）· 课文生字",
+      "knowledge_points": [
+        {
+          "name": "写字 第1组",
+          "description": "在「识字（四）· 课文生字」里按笔顺写「首、采、无、树」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第2组",
+          "description": "在「识字（四）· 课文生字」里按笔顺写「爱、尖、角、亮」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第3组",
+          "description": "在「识字（四）· 课文生字」里按笔顺写「机、台、放、鱼」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第4组",
+          "description": "在「识字（四）· 课文生字」里按笔顺写「朵、美、直、呀」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第5组",
+          "description": "在「识字（四）· 课文生字」里按笔顺写「边、呢、吗、吧」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第6组",
+          "description": "在「识字（四）· 课文生字」里按笔顺写「加、文、次、找」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第7组",
+          "description": "在「识字（四）· 课文生字」里按笔顺写「平、办、让、包」。",
+          "difficulty": 2,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第8组",
+          "description": "在「识字（四）· 课文生字」里按笔顺写「钟、丁、元、迟」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第9组",
+          "description": "在「识字（四）· 课文生字」里按笔顺写「洗、背、叹、共」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第10组",
+          "description": "在「识字（四）· 课文生字」里按笔顺写「汽、决、定、已」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第11组",
+          "description": "在「识字（四）· 课文生字」里按笔顺写「经、物、虎、熊」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第12组",
+          "description": "在「识字（四）· 课文生字」里按笔顺写「通、注、意、遍」。",
+          "difficulty": 4,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第13组",
+          "description": "在「识字（四）· 课文生字」里按笔顺写「百、舌、页、弓」。",
+          "difficulty": 2,
+          "question_types": [
+            "写字"
+          ]
+        },
+        {
+          "name": "写字 第14组",
+          "description": "在「识字（四）· 课文生字」里按笔顺写「瓜、豆」。",
+          "difficulty": 3,
+          "question_types": [
+            "写字"
+          ]
+        }
+      ]
+    }
+  ]
+}

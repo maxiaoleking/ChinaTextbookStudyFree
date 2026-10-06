@@ -165,7 +165,7 @@ struct Outline: Codable, Hashable {
 }
 
 enum SubjectId: String, Codable, Hashable, CaseIterable {
-    case math, chinese, english, science
+    case math, chinese, renzi, english, ela, science
 }
 
 struct Book: Codable, Hashable, Identifiable {

@@ -1,0 +1,373 @@
+{
+  "textbook": "CCSS 美国小学英语一年级上册",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "字母与字母音 · Letters and Sounds",
+      "knowledge_points": [
+        {
+          "name": "字母大小写",
+          "description": "认识 26 个字母的大写与小写形式并互相配对。",
+          "difficulty": 1,
+          "question_types": [
+            "连线"
+          ]
+        },
+        {
+          "name": "书写字母",
+          "description": "按提示写出对应的大写或小写字母，掌握字母表顺序。",
+          "difficulty": 2,
+          "question_types": [
+            "填空"
+          ]
+        },
+        {
+          "name": "首音辨认",
+          "description": "听/看单词，判断开头的音（initial sound）。",
+          "difficulty": 1,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "尾音辨认",
+          "description": "判断单词结尾的音（final sound）。",
+          "difficulty": 2,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "长短音听辨",
+          "description": "区分单音节词里的长元音与短元音。",
+          "difficulty": 2,
+          "question_types": [
+            "判断"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "短元音拼读 · Short Vowel CVC",
+      "knowledge_points": [
+        {
+          "name": "词族认读",
+          "description": "识别 -at / -og / -ump 等词族（word family）里的成员词。",
+          "difficulty": 1,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "字母拼词",
+          "description": "把打乱的字母排成正确的 CVC 单词。",
+          "difficulty": 2,
+          "question_types": [
+            "排序"
+          ]
+        },
+        {
+          "name": "元音填空",
+          "description": "根据词族补上缺少的短元音字母。",
+          "difficulty": 2,
+          "question_types": [
+            "填空"
+          ]
+        },
+        {
+          "name": "押韵选词",
+          "description": "找出与例词押韵（rhyme）的单词。",
+          "difficulty": 2,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "短音判断",
+          "description": "判断单词是否属于给定词族、读音是否正确。",
+          "difficulty": 1,
+          "question_types": [
+            "判断"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "辅音组合 · Blends and Digraphs",
+      "knowledge_points": [
+        {
+          "name": "二合字母",
+          "description": "识别 sh / ch / th / wh / ck / ph 二合字母的读音。",
+          "difficulty": 1,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "连读辅音",
+          "description": "识别 bl / br / cl / st / tr 等辅音连读（blend）。",
+          "difficulty": 2,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "缺字母补全",
+          "description": "补出单词里缺失的两个辅音字母。",
+          "difficulty": 2,
+          "question_types": [
+            "填空"
+          ]
+        },
+        {
+          "name": "组合分类",
+          "description": "把单词与它所含的辅音组合配对。",
+          "difficulty": 2,
+          "question_types": [
+            "连线"
+          ]
+        },
+        {
+          "name": "读音判断",
+          "description": "判断某词的辅音组合归类是否正确。",
+          "difficulty": 1,
+          "question_types": [
+            "判断"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "长元音与 Magic E · Long Vowels",
+      "knowledge_points": [
+        {
+          "name": "e 让元音变长",
+          "description": "词尾加不发音的 e，闭音节短元音变成长元音。",
+          "difficulty": 1,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "元音组合",
+          "description": "识别 ee / ea / oa / ai / ay / igh 等元音组合。",
+          "difficulty": 2,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "开闭音节配对",
+          "description": "把短元音词与对应的长元音词配对。",
+          "difficulty": 2,
+          "question_types": [
+            "连线"
+          ]
+        },
+        {
+          "name": "长音拼写",
+          "description": "补出长元音单词里缺的字母组合。",
+          "difficulty": 3,
+          "question_types": [
+            "填空"
+          ]
+        },
+        {
+          "name": "长音判断",
+          "description": "判断单词中的元音是长音还是短音。",
+          "difficulty": 2,
+          "question_types": [
+            "判断"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "高频词与心词 · Sight Words",
+      "knowledge_points": [
+        {
+          "name": "看字母选词",
+          "description": "按拼写从形近词中认出目标高频词。",
+          "difficulty": 2,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "句子选词填空",
+          "description": "在句子语境里选出正确的高频词。",
+          "difficulty": 2,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "高频词拼写",
+          "description": "把句子里缺的高频词写出来。",
+          "difficulty": 3,
+          "question_types": [
+            "填空"
+          ]
+        },
+        {
+          "name": "连词成句",
+          "description": "把打乱的单词排成语法正确的句子。",
+          "difficulty": 3,
+          "question_types": [
+            "排序"
+          ]
+        },
+        {
+          "name": "拼写判断",
+          "description": "判断高频词的拼写是否正确。",
+          "difficulty": 1,
+          "question_types": [
+            "判断"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "词义与词形变化 · Meaning and Word Forms",
+      "knowledge_points": [
+        {
+          "name": "复数形式",
+          "description": "规则复数加 -s，s/x/z/ch/sh 结尾加 -es。",
+          "difficulty": 1,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "ing 和 ed 变化",
+          "description": "给动词加 -ing / -ed，注意双写与去 e。",
+          "difficulty": 2,
+          "question_types": [
+            "填空"
+          ]
+        },
+        {
+          "name": "前缀 un 和 re",
+          "description": "用 un-（否定）与 re-（再做一次）推词义。",
+          "difficulty": 2,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "词类分拣",
+          "description": "把单词按动物、颜色、衣物等类别归类。",
+          "difficulty": 2,
+          "question_types": [
+            "连线"
+          ]
+        },
+        {
+          "name": "词义关系",
+          "description": "按类别与关键特征解释词义，区分近义词。",
+          "difficulty": 3,
+          "question_types": [
+            "选择"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "句子与书写规范 · Sentences and Conventions",
+      "knowledge_points": [
+        {
+          "name": "大写与标点",
+          "description": "句首大写、专有名词大写、句末用对标点。",
+          "difficulty": 2,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "排句成文",
+          "description": "把单词排成完整、正确的句子。",
+          "difficulty": 3,
+          "question_types": [
+            "排序"
+          ]
+        },
+        {
+          "name": "名词与动词",
+          "description": "在词表里认出名词（人/地/物）与动词（动作）。",
+          "difficulty": 1,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "代词与 be 动词",
+          "description": "主格/所有格代词与 am / is / are 的搭配。",
+          "difficulty": 2,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "句子判断",
+          "description": "判断一句话的大写、标点或语序是否正确。",
+          "difficulty": 1,
+          "question_types": [
+            "判断"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 8,
+      "title": "阅读理解 · Reading Comprehension",
+      "knowledge_points": [
+        {
+          "name": "细节理解",
+          "description": "从短文中找出 who / what / where / when 的答案。",
+          "difficulty": 1,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "因果与顺序",
+          "description": "判断事件之间的原因与先后顺序。",
+          "difficulty": 2,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "主旨大意",
+          "description": "说出短文主要在讲什么。",
+          "difficulty": 3,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "词义猜测",
+          "description": "借助句子语境猜出词义。",
+          "difficulty": 3,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "故事排序",
+          "description": "把几句话按故事发生的先后排好。",
+          "difficulty": 2,
+          "question_types": [
+            "排序"
+          ]
+        }
+      ]
+    }
+  ]
+}

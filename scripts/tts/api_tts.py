@@ -34,7 +34,7 @@ import dashscope  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 MANIFEST_PATH = Path(__file__).resolve().parent / "manifest.json"
-AUDIO_ROOT = ROOT / "frontend" / "public" / "audio"
+AUDIO_ROOT = ROOT / "apps" / "web" / "public" / "audio"
 
 # 本地 CustomVoice speaker → DashScope qwen3-tts-flash 官方音色
 # 全部映射为适合小学生的女声（Cherry/Serena/Maia 都原生支持中英混合）。

@@ -1,0 +1,3487 @@
+{
+  "textbook": "统编版小学认字二年级上册",
+  "unit": "第一单元 · 自然观察",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第1单元「第一单元 · 自然观察」认字与拼音练习",
+    "total_score": 100,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「塘」的正确读音是？（提示词：池塘）",
+        "options": [
+          "wa",
+          "táng",
+          "huī",
+          "nǎo"
+        ],
+        "answer": "táng",
+        "explanation": "「塘」读作 táng，可以组词「池塘」。",
+        "audio": {
+          "question": "/audio/a3/a3ec5853c20132d4a86e453e2724f96ead3a1b53.mp3",
+          "options": [
+            "/audio/pinyin/wa0.mp3",
+            "/audio/pinyin/tang2.mp3",
+            "/audio/pinyin/hui1.mp3",
+            "/audio/pinyin/nao3.mp3"
+          ],
+          "explanation": "/audio/db/db62abf1da77dcdc11d3755288c67d2cd23f6005.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「脑」的正确读音是？（提示词：脑袋）",
+        "options": [
+          "yíng",
+          "nǎo",
+          "wa",
+          "dài"
+        ],
+        "answer": "nǎo",
+        "explanation": "「脑」读作 nǎo，可以组词「脑袋」。",
+        "audio": {
+          "question": "/audio/98/9867b4ccd469e39708423c4d72f893601f965572.mp3",
+          "options": [
+            "/audio/pinyin/ying2.mp3",
+            "/audio/pinyin/nao3.mp3",
+            "/audio/pinyin/wa0.mp3",
+            "/audio/pinyin/dai4.mp3"
+          ],
+          "explanation": "/audio/ab/ab28a2ff5f2f7cc66361fd25c766cb546a1a1d37.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「袋」的正确读音是？（提示词：脑袋）",
+        "options": [
+          "yíng",
+          "huī",
+          "táng",
+          "dài"
+        ],
+        "answer": "dài",
+        "explanation": "「袋」读作 dài，可以组词「脑袋」。",
+        "audio": {
+          "question": "/audio/e3/e33007efe786fc185ef7f8c81fd0f2c32c542af9.mp3",
+          "options": [
+            "/audio/pinyin/ying2.mp3",
+            "/audio/pinyin/hui1.mp3",
+            "/audio/pinyin/tang2.mp3",
+            "/audio/pinyin/dai4.mp3"
+          ],
+          "explanation": "/audio/cd/cd22c24bb0456a906bf016d29771622b3f71b3ca.mp3"
+        }
+      },
+      {
+        "id": 4,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「灰」的正确读音是？（提示词：灰色）",
+        "options": [
+          "wa",
+          "huī",
+          "ā",
+          "bǔ"
+        ],
+        "answer": "huī",
+        "explanation": "「灰」读作 huī，可以组词「灰色」。",
+        "audio": {
+          "question": "/audio/fb/fb6f967f48a12b9f58fd5cdf0cfa0db56b0df2c5.mp3",
+          "options": [
+            "/audio/pinyin/wa0.mp3",
+            "/audio/pinyin/hui1.mp3",
+            "/audio/pinyin/a1.mp3",
+            "/audio/pinyin/bu3.mp3"
+          ],
+          "explanation": "/audio/d9/d943387a538d83f4bdf398de8914d431b3607228.mp3"
+        }
+      },
+      {
+        "id": 5,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「哇」的正确读音是？（提示词：好哇）",
+        "options": [
+          "wa",
+          "ā",
+          "huī",
+          "táng"
+        ],
+        "answer": "wa",
+        "explanation": "「哇」读作 wa，可以组词「好哇」。",
+        "audio": {
+          "question": "/audio/41/41c2bce369bad119f1849fc104792282353426ea.mp3",
+          "options": [
+            "/audio/pinyin/wa0.mp3",
+            "/audio/pinyin/a1.mp3",
+            "/audio/pinyin/hui1.mp3",
+            "/audio/pinyin/tang2.mp3"
+          ],
+          "explanation": "/audio/d7/d76ad14cf6c42e806736113e87dfb08c9b7901de.mp3"
+        }
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「捕」的正确读音是？（提示词：捕捉）",
+        "options": [
+          "bǔ",
+          "dài",
+          "bēn",
+          "yí"
+        ],
+        "answer": "bǔ",
+        "explanation": "「捕」读作 bǔ，可以组词「捕捉」。",
+        "audio": {
+          "question": "/audio/3b/3b9cefe89e8ce8310ac2d71fcc3759d214423844.mp3",
+          "options": [
+            "/audio/pinyin/bu3.mp3",
+            "/audio/pinyin/dai4.mp3",
+            "/audio/pinyin/ben1.mp3",
+            "/audio/pinyin/yi2.mp3"
+          ],
+          "explanation": "/audio/8f/8f93a34bc0b49daf6bdd6bc8fe031eb8bf0e55e7.mp3"
+        }
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「迎」的正确读音是？（提示词：欢迎）",
+        "options": [
+          "wa",
+          "táng",
+          "yíng",
+          "bǔ"
+        ],
+        "answer": "yíng",
+        "explanation": "「迎」读作 yíng，可以组词「欢迎」。",
+        "audio": {
+          "question": "/audio/66/66d6458f15479ad6b6d4ae8043ef921b2ed60d40.mp3",
+          "options": [
+            "/audio/pinyin/wa0.mp3",
+            "/audio/pinyin/tang2.mp3",
+            "/audio/pinyin/ying2.mp3",
+            "/audio/pinyin/bu3.mp3"
+          ],
+          "explanation": "/audio/60/602626cda73ba4b79825e015a4be47afbd654193.mp3"
+        }
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「阿」的正确读音是？（提示词：阿姨）",
+        "options": [
+          "yíng",
+          "ā",
+          "yí",
+          "bǔ"
+        ],
+        "answer": "ā",
+        "explanation": "「阿」读作 ā，可以组词「阿姨」。",
+        "audio": {
+          "question": "/audio/6e/6e79f8a3105b497c365085a0b5b2769b1b508c92.mp3",
+          "options": [
+            "/audio/pinyin/ying2.mp3",
+            "/audio/pinyin/a1.mp3",
+            "/audio/pinyin/yi2.mp3",
+            "/audio/pinyin/bu3.mp3"
+          ],
+          "explanation": "/audio/ca/cad0ed6bee68696df6ea432643d09c28a293f388.mp3"
+        }
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「姨」的正确读音是？（提示词：阿姨）",
+        "options": [
+          "bǔ",
+          "yí",
+          "dài",
+          "wa"
+        ],
+        "answer": "yí",
+        "explanation": "「姨」读作 yí，可以组词「阿姨」。",
+        "audio": {
+          "question": "/audio/94/944c0f3382476be832271dced16201efbd60b7c7.mp3",
+          "options": [
+            "/audio/pinyin/bu3.mp3",
+            "/audio/pinyin/yi2.mp3",
+            "/audio/pinyin/dai4.mp3",
+            "/audio/pinyin/wa0.mp3"
+          ],
+          "explanation": "/audio/7c/7cf2e0aa54ed319f9943c3c755c4861d6173deef.mp3"
+        }
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「宽」的正确读音是？（提示词：宽阔）",
+        "options": [
+          "dài",
+          "yíng",
+          "kuān",
+          "ā"
+        ],
+        "answer": "kuān",
+        "explanation": "「宽」读作 kuān，可以组词「宽阔」。",
+        "audio": {
+          "question": "/audio/d8/d814aa993c8df5d7c9a7beec41fcedb21a9ddb9c.mp3",
+          "options": [
+            "/audio/pinyin/dai4.mp3",
+            "/audio/pinyin/ying2.mp3",
+            "/audio/pinyin/kuan1.mp3",
+            "/audio/pinyin/a1.mp3"
+          ],
+          "explanation": "/audio/3c/3cc75b8f966279f9d6b69c57d254e49db1fb400a.mp3"
+        }
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「龟」的正确读音是？（提示词：乌龟）",
+        "options": [
+          "ā",
+          "táng",
+          "guǎn",
+          "guī"
+        ],
+        "answer": "guī",
+        "explanation": "「龟」读作 guī，可以组词「乌龟」。",
+        "audio": {
+          "question": "/audio/42/428f6b3ef0caecc5ceed7b17337aa6292ba72c66.mp3",
+          "options": [
+            "/audio/pinyin/a1.mp3",
+            "/audio/pinyin/tang2.mp3",
+            "/audio/pinyin/guan3.mp3",
+            "/audio/pinyin/gui1.mp3"
+          ],
+          "explanation": "/audio/1d/1dc74f885c922d6e0045327305219b9e5859b5b5.mp3"
+        }
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「顶」的正确读音是？（提示词：头顶）",
+        "options": [
+          "ā",
+          "dǐ",
+          "bǔ",
+          "dǐng"
+        ],
+        "answer": "dǐng",
+        "explanation": "「顶」读作 dǐng，可以组词「头顶」。",
+        "audio": {
+          "question": "/audio/59/59b1375ac074f51ab5d2177cf181e3bff1f869c3.mp3",
+          "options": [
+            "/audio/pinyin/a1.mp3",
+            "/audio/pinyin/di3.mp3",
+            "/audio/pinyin/bu3.mp3",
+            "/audio/pinyin/ding3.mp3"
+          ],
+          "explanation": "/audio/2c/2cf6eff17e24a640a1bee4c307e54824a79386f0.mp3"
+        }
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「披」的正确读音是？（提示词：披上）",
+        "options": [
+          "nǎo",
+          "dài",
+          "pī",
+          "ā"
+        ],
+        "answer": "pī",
+        "explanation": "「披」读作 pī，可以组词「披上」。",
+        "audio": {
+          "question": "/audio/85/85d78a081895be945c53bfc7f553ffc7f92d28e4.mp3",
+          "options": [
+            "/audio/pinyin/nao3.mp3",
+            "/audio/pinyin/dai4.mp3",
+            "/audio/pinyin/pi1.mp3",
+            "/audio/pinyin/a1.mp3"
+          ],
+          "explanation": "/audio/b8/b8d930eb0d76f5cddaed4ff6fa14c115d46972de.mp3"
+        }
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「鼓」的正确读音是？（提示词：打鼓）",
+        "options": [
+          "bǔ",
+          "gǔ",
+          "guǎn",
+          "yíng"
+        ],
+        "answer": "gǔ",
+        "explanation": "「鼓」读作 gǔ，可以组词「打鼓」。",
+        "audio": {
+          "question": "/audio/ea/eac1bbabdf2cae4725082a04c1774fc9610bcf5e.mp3",
+          "options": [
+            "/audio/pinyin/bu3.mp3",
+            "/audio/pinyin/gu3.mp3",
+            "/audio/pinyin/guan3.mp3",
+            "/audio/pinyin/ying2.mp3"
+          ],
+          "explanation": "/audio/b8/b8ae823528e92c51be64d712621d4bd6e5181109.mp3"
+        }
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「晒」的正确读音是？（提示词：晒太阳）",
+        "options": [
+          "yíng",
+          "táng",
+          "dài",
+          "shài"
+        ],
+        "answer": "shài",
+        "explanation": "「晒」读作 shài，可以组词「晒太阳」。",
+        "audio": {
+          "question": "/audio/5e/5e4bb689f18a1ac4623aeec4c9cdd7412cf1761c.mp3",
+          "options": [
+            "/audio/pinyin/ying2.mp3",
+            "/audio/pinyin/tang2.mp3",
+            "/audio/pinyin/dai4.mp3",
+            "/audio/pinyin/shai4.mp3"
+          ],
+          "explanation": "/audio/b7/b7b610b49e9f4a718aa6f1c7311929421104c24b.mp3"
+        }
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「极」的正确读音是？（提示词：极好）",
+        "options": [
+          "wa",
+          "bǔ",
+          "jí",
+          "dài"
+        ],
+        "answer": "jí",
+        "explanation": "「极」读作 jí，可以组词「极好」。",
+        "audio": {
+          "question": "/audio/40/409120261e08dfe1244b0a9deccb741e4ec52120.mp3",
+          "options": [
+            "/audio/pinyin/wa0.mp3",
+            "/audio/pinyin/bu3.mp3",
+            "/audio/pinyin/ji2.mp3",
+            "/audio/pinyin/dai4.mp3"
+          ],
+          "explanation": "/audio/90/90dbd4f0df33979912d7bd69246fbf9d728c25d1.mp3"
+        }
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「傍」的正确读音是？（提示词：傍晚）",
+        "options": [
+          "yíng",
+          "dài",
+          "wa",
+          "bàng"
+        ],
+        "answer": "bàng",
+        "explanation": "「傍」读作 bàng，可以组词「傍晚」。",
+        "audio": {
+          "question": "/audio/01/01bebde5906326b6bd8f0d6352b387172a332c4d.mp3",
+          "options": [
+            "/audio/pinyin/ying2.mp3",
+            "/audio/pinyin/dai4.mp3",
+            "/audio/pinyin/wa0.mp3",
+            "/audio/pinyin/bang4.mp3"
+          ],
+          "explanation": "/audio/b8/b8529f980cdec99f88ba06b61ca20583618042fd.mp3"
+        }
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「管」的正确读音是？（提示词：管理）",
+        "options": [
+          "huī",
+          "táng",
+          "guǎn",
+          "ā"
+        ],
+        "answer": "guǎn",
+        "explanation": "「管」读作 guǎn，可以组词「管理」。",
+        "audio": {
+          "question": "/audio/a0/a08a41781918c99512932eff8cb7146aa8282840.mp3",
+          "options": [
+            "/audio/pinyin/hui1.mp3",
+            "/audio/pinyin/tang2.mp3",
+            "/audio/pinyin/guan3.mp3",
+            "/audio/pinyin/a1.mp3"
+          ],
+          "explanation": "/audio/6d/6dd92983602257ab88eb2a555503cc1cdeedb058.mp3"
+        }
+      },
+      {
+        "id": 19,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「越」的正确读音是？（提示词：越过）",
+        "options": [
+          "yuè",
+          "huī",
+          "yān",
+          "dài"
+        ],
+        "answer": "yuè",
+        "explanation": "「越」读作 yuè，可以组词「越过」。",
+        "audio": {
+          "question": "/audio/a3/a3f23006f01d1830636219ae7b36e189912b9500.mp3",
+          "options": [
+            "/audio/pinyin/yue4.mp3",
+            "/audio/pinyin/hui1.mp3",
+            "/audio/pinyin/yan1.mp3",
+            "/audio/pinyin/dai4.mp3"
+          ],
+          "explanation": "/audio/50/5051f848b16b0d28117502e2cec79b86653260b8.mp3"
+        }
+      },
+      {
+        "id": 20,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「滴」的正确读音是？（提示词：水滴）",
+        "options": [
+          "huī",
+          "dǐ",
+          "yíng",
+          "dī"
+        ],
+        "answer": "dī",
+        "explanation": "「滴」读作 dī，可以组词「水滴」。",
+        "audio": {
+          "question": "/audio/b3/b3f9029ac2a975848c1a6261ade45b7ebae7e8e9.mp3",
+          "options": [
+            "/audio/pinyin/hui1.mp3",
+            "/audio/pinyin/di3.mp3",
+            "/audio/pinyin/ying2.mp3",
+            "/audio/pinyin/di1.mp3"
+          ],
+          "explanation": "/audio/10/1060800108e8165434d9532fb8dc6abba3d20c25.mp3"
+        }
+      },
+      {
+        "id": 21,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「溪」的正确读音是？（提示词：小溪）",
+        "options": [
+          "xī",
+          "bǔ",
+          "fēn",
+          "dài"
+        ],
+        "answer": "xī",
+        "explanation": "「溪」读作 xī，可以组词「小溪」。",
+        "audio": {
+          "question": "/audio/51/511a73f8ea16724062007a74e763ddc06a4f04c5.mp3",
+          "options": [
+            "/audio/pinyin/xi1.mp3",
+            "/audio/pinyin/bu3.mp3",
+            "/audio/pinyin/fen1.mp3",
+            "/audio/pinyin/dai4.mp3"
+          ],
+          "explanation": "/audio/31/31ba96176cb7566cd4e84f2635b47ace703e3132.mp3"
+        }
+      },
+      {
+        "id": 22,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「奔」的正确读音是？（提示词：奔跑）",
+        "options": [
+          "bēn",
+          "bǔ",
+          "nǎo",
+          "ā"
+        ],
+        "answer": "bēn",
+        "explanation": "「奔」读作 bēn，可以组词「奔跑」。",
+        "audio": {
+          "question": "/audio/7d/7d5f4971cf1c4b8875b69f501e27df0d9c8b6e71.mp3",
+          "options": [
+            "/audio/pinyin/ben1.mp3",
+            "/audio/pinyin/bu3.mp3",
+            "/audio/pinyin/nao3.mp3",
+            "/audio/pinyin/a1.mp3"
+          ],
+          "explanation": "/audio/e9/e9f9d24d5c346da2c9edf8f18fddf6b52de293d2.mp3"
+        }
+      },
+      {
+        "id": 23,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「洋」的正确读音是？（提示词：海洋）",
+        "options": [
+          "nǎo",
+          "yuè",
+          "wa",
+          "yáng"
+        ],
+        "answer": "yáng",
+        "explanation": "「洋」读作 yáng，可以组词「海洋」。",
+        "audio": {
+          "question": "/audio/7d/7d6eb98ebb40c93913013e6a09e724c2fa6065e8.mp3",
+          "options": [
+            "/audio/pinyin/nao3.mp3",
+            "/audio/pinyin/yue4.mp3",
+            "/audio/pinyin/wa0.mp3",
+            "/audio/pinyin/yang2.mp3"
+          ],
+          "explanation": "/audio/5c/5cb57680683ccadd368bf728270c1f58e947d060.mp3"
+        }
+      },
+      {
+        "id": 24,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「坏」的正确读音是？（提示词：坏人）",
+        "options": [
+          "huī",
+          "bǔ",
+          "huài",
+          "táng"
+        ],
+        "answer": "huài",
+        "explanation": "「坏」读作 huài，可以组词「坏人」。",
+        "audio": {
+          "question": "/audio/39/39f263881817983f785f36cfe6632775c8baba90.mp3",
+          "options": [
+            "/audio/pinyin/hui1.mp3",
+            "/audio/pinyin/bu3.mp3",
+            "/audio/pinyin/huai4.mp3",
+            "/audio/pinyin/tang2.mp3"
+          ],
+          "explanation": "/audio/f7/f7284b37ad40411a49b95a687f09b24c103c0b7b.mp3"
+        }
+      },
+      {
+        "id": 25,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「淹」的正确读音是？（提示词：淹没）",
+        "options": [
+          "yān",
+          "bǔ",
+          "yíng",
+          "yáng"
+        ],
+        "answer": "yān",
+        "explanation": "「淹」读作 yān，可以组词「淹没」。",
+        "audio": {
+          "question": "/audio/a3/a3277ca08f6bf4918e7fa3bc87b8e86480e5cd36.mp3",
+          "options": [
+            "/audio/pinyin/yan1.mp3",
+            "/audio/pinyin/bu3.mp3",
+            "/audio/pinyin/ying2.mp3",
+            "/audio/pinyin/yang2.mp3"
+          ],
+          "explanation": "/audio/74/74552b3113321a048b927b1255d205a1d8d05541.mp3"
+        }
+      },
+      {
+        "id": 26,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「没」的正确读音是？（提示词：淹没）",
+        "options": [
+          "dài",
+          "bǔ",
+          "wa",
+          "mò"
+        ],
+        "answer": "mò",
+        "explanation": "「没」读作 mò，可以组词「淹没」。",
+        "audio": {
+          "question": "/audio/5d/5dbb406fa0514c0d0a9aebfdd15994701555b08a.mp3",
+          "options": [
+            "/audio/pinyin/dai4.mp3",
+            "/audio/pinyin/bu3.mp3",
+            "/audio/pinyin/wa0.mp3",
+            "/audio/pinyin/mo4.mp3"
+          ],
+          "explanation": "/audio/3c/3c9ee67e1501f35d4dfbc189d5a5242f7f203f54.mp3"
+        }
+      },
+      {
+        "id": 27,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「冲」的正确读音是？（提示词：冲走）",
+        "options": [
+          "cāi",
+          "ā",
+          "chōng",
+          "dài"
+        ],
+        "answer": "chōng",
+        "explanation": "「冲」读作 chōng，可以组词「冲走」。",
+        "audio": {
+          "question": "/audio/35/35ba17242f8d1899128b6d8deae4662752a91d6a.mp3",
+          "options": [
+            "/audio/pinyin/cai1.mp3",
+            "/audio/pinyin/a1.mp3",
+            "/audio/pinyin/chong1.mp3",
+            "/audio/pinyin/dai4.mp3"
+          ],
+          "explanation": "/audio/63/63cf42f213032c766bcb69b1ebb762f0cb0c9895.mp3"
+        }
+      },
+      {
+        "id": 28,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「毁」的正确读音是？（提示词：毁灭）",
+        "options": [
+          "huǐ",
+          "bǔ",
+          "dài",
+          "huī"
+        ],
+        "answer": "huǐ",
+        "explanation": "「毁」读作 huǐ，可以组词「毁灭」。",
+        "audio": {
+          "question": "/audio/b4/b4acd94208f3a7b85263763cddbc5a36868d898f.mp3",
+          "options": [
+            "/audio/pinyin/hui3.mp3",
+            "/audio/pinyin/bu3.mp3",
+            "/audio/pinyin/dai4.mp3",
+            "/audio/pinyin/hui1.mp3"
+          ],
+          "explanation": "/audio/b9/b940f4e730fc579253a85790738f8dfcd6e7b441.mp3"
+        }
+      },
+      {
+        "id": 29,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「屋」的正确读音是？（提示词：房屋）",
+        "options": [
+          "wū",
+          "wa",
+          "táng",
+          "dài"
+        ],
+        "answer": "wū",
+        "explanation": "「屋」读作 wū，可以组词「房屋」。",
+        "audio": {
+          "question": "/audio/99/990f37f89e3a584d3b19893bf0a8b62eb6e5e966.mp3",
+          "options": [
+            "/audio/pinyin/wu1.mp3",
+            "/audio/pinyin/wa0.mp3",
+            "/audio/pinyin/tang2.mp3",
+            "/audio/pinyin/dai4.mp3"
+          ],
+          "explanation": "/audio/ed/ed181ae241fb8222bd77a93988bd0493bf2bfce9.mp3"
+        }
+      },
+      {
+        "id": 30,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「猜」的正确读音是？（提示词：猜测）",
+        "options": [
+          "cū",
+          "cāi",
+          "nǎo",
+          "dài"
+        ],
+        "answer": "cāi",
+        "explanation": "「猜」读作 cāi，可以组词「猜测」。",
+        "audio": {
+          "question": "/audio/ae/aea71e88a87bb1074c878a71f1a98ff8c81fcff1.mp3",
+          "options": [
+            "/audio/pinyin/cu1.mp3",
+            "/audio/pinyin/cai1.mp3",
+            "/audio/pinyin/nao3.mp3",
+            "/audio/pinyin/dai4.mp3"
+          ],
+          "explanation": "/audio/59/599a5d0e92596c95f6114933d248eb20f523faa5.mp3"
+        }
+      },
+      {
+        "id": 31,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「植」的正确读音是？（提示词：植物）",
+        "options": [
+          "dài",
+          "zhí",
+          "táng",
+          "wa"
+        ],
+        "answer": "zhí",
+        "explanation": "「植」读作 zhí，可以组词「植物」。",
+        "audio": {
+          "question": "/audio/e0/e09b39b860b180d35460b3a80c519fd789c9e155.mp3",
+          "options": [
+            "/audio/pinyin/dai4.mp3",
+            "/audio/pinyin/zhi2.mp3",
+            "/audio/pinyin/tang2.mp3",
+            "/audio/pinyin/wa0.mp3"
+          ],
+          "explanation": "/audio/7f/7f7c8ea6e1efa7699b70f27cd7bba205839cc4a5.mp3"
+        }
+      },
+      {
+        "id": 32,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「如」的正确读音是？（提示词：如果）",
+        "options": [
+          "huī",
+          "yíng",
+          "shí",
+          "rú"
+        ],
+        "answer": "rú",
+        "explanation": "「如」读作 rú，可以组词「如果」。",
+        "audio": {
+          "question": "/audio/cb/cbbc263bb1063bd2c8d1fc431a9c94d995423557.mp3",
+          "options": [
+            "/audio/pinyin/hui1.mp3",
+            "/audio/pinyin/ying2.mp3",
+            "/audio/pinyin/shi2.mp3",
+            "/audio/pinyin/ru2.mp3"
+          ],
+          "explanation": "/audio/2d/2d7cd6de43f378f42e41701ff73fe2b419651184.mp3"
+        }
+      },
+      {
+        "id": 33,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「为」的正确读音是？（提示词：作为）",
+        "options": [
+          "ā",
+          "huī",
+          "táng",
+          "wéi"
+        ],
+        "answer": "wéi",
+        "explanation": "「为」读作 wéi，可以组词「作为」。",
+        "audio": {
+          "question": "/audio/7e/7e4c0995d880bcb88a5b53053c9cf2abdfcfd61a.mp3",
+          "options": [
+            "/audio/pinyin/a1.mp3",
+            "/audio/pinyin/hui1.mp3",
+            "/audio/pinyin/tang2.mp3",
+            "/audio/pinyin/wei2.mp3"
+          ],
+          "explanation": "/audio/64/64a2a75a6ff178b6968a5bd4d4a8e0d9e2b70465.mp3"
+        }
+      },
+      {
+        "id": 34,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「旅」的正确读音是？（提示词：旅行）",
+        "options": [
+          "lǚ",
+          "ā",
+          "yíng",
+          "bǔ"
+        ],
+        "answer": "lǚ",
+        "explanation": "「旅」读作 lǚ，可以组词「旅行」。",
+        "audio": {
+          "question": "/audio/71/711729cc8f3a4e6b74257e082047980b6f19fea4.mp3",
+          "options": [
+            "/audio/pinyin/lv3.mp3",
+            "/audio/pinyin/a1.mp3",
+            "/audio/pinyin/ying2.mp3",
+            "/audio/pinyin/bu3.mp3"
+          ],
+          "explanation": "/audio/83/83ecd55809d22e3be73ec6cc73f70e2857a9f355.mp3"
+        }
+      },
+      {
+        "id": 35,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「靠」的正确读音是？（提示词：依靠）",
+        "options": [
+          "kào",
+          "bǔ",
+          "huī",
+          "wa"
+        ],
+        "answer": "kào",
+        "explanation": "「靠」读作 kào，可以组词「依靠」。",
+        "audio": {
+          "question": "/audio/9b/9b6c0642e3bf9257fed7d157c1c28a1790ea64c2.mp3",
+          "options": [
+            "/audio/pinyin/kao4.mp3",
+            "/audio/pinyin/bu3.mp3",
+            "/audio/pinyin/hui1.mp3",
+            "/audio/pinyin/wa0.mp3"
+          ],
+          "explanation": "/audio/92/92e288a34e1f1da1edcb6665fd319f83574d4c3a.mp3"
+        }
+      },
+      {
+        "id": 36,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「备」的正确读音是？（提示词：准备）",
+        "options": [
+          "bǔ",
+          "dài",
+          "huī",
+          "bèi"
+        ],
+        "answer": "bèi",
+        "explanation": "「备」读作 bèi，可以组词「准备」。",
+        "audio": {
+          "question": "/audio/7c/7c181a90980549ee231889a97bf228497cef982b.mp3",
+          "options": [
+            "/audio/pinyin/bu3.mp3",
+            "/audio/pinyin/dai4.mp3",
+            "/audio/pinyin/hui1.mp3",
+            "/audio/pinyin/bei4.mp3"
+          ],
+          "explanation": "/audio/4e/4e2894191171b409ce8e133bb1ddb753cf2a6d5c.mp3"
+        }
+      },
+      {
+        "id": 37,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「纷」的正确读音是？（提示词：纷飞）",
+        "options": [
+          "yíng",
+          "fēn",
+          "ā",
+          "bǔ"
+        ],
+        "answer": "fēn",
+        "explanation": "「纷」读作 fēn，可以组词「纷飞」。",
+        "audio": {
+          "question": "/audio/be/be568e2055f15baed93f83e4ab3ed84f5e253414.mp3",
+          "options": [
+            "/audio/pinyin/ying2.mp3",
+            "/audio/pinyin/fen1.mp3",
+            "/audio/pinyin/a1.mp3",
+            "/audio/pinyin/bu3.mp3"
+          ],
+          "explanation": "/audio/48/48e7a0324defc1a6057c98ca7f74a0e2e698dab4.mp3"
+        }
+      },
+      {
+        "id": 38,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「刺」的正确读音是？（提示词：刺刀）",
+        "options": [
+          "nǎo",
+          "cì",
+          "dài",
+          "yíng"
+        ],
+        "answer": "cì",
+        "explanation": "「刺」读作 cì，可以组词「刺刀」。",
+        "audio": {
+          "question": "/audio/ac/ac81399f137ca274e7243ce9114c307c0c900558.mp3",
+          "options": [
+            "/audio/pinyin/nao3.mp3",
+            "/audio/pinyin/ci4.mp3",
+            "/audio/pinyin/dai4.mp3",
+            "/audio/pinyin/ying2.mp3"
+          ],
+          "explanation": "/audio/0b/0b164eb9c1206cae4555ea423d70e420dabd482c.mp3"
+        }
+      },
+      {
+        "id": 39,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「底」的正确读音是？（提示词：海底）",
+        "options": [
+          "dài",
+          "dǐ",
+          "huī",
+          "nǎo"
+        ],
+        "answer": "dǐ",
+        "explanation": "「底」读作 dǐ，可以组词「海底」。",
+        "audio": {
+          "question": "/audio/22/2213a9ed154c619adc43a38b690514c1d0a520c2.mp3",
+          "options": [
+            "/audio/pinyin/dai4.mp3",
+            "/audio/pinyin/di3.mp3",
+            "/audio/pinyin/hui1.mp3",
+            "/audio/pinyin/nao3.mp3"
+          ],
+          "explanation": "/audio/6d/6d350e26eeac4aa915aa4f4810c3e035b9f06a97.mp3"
+        }
+      },
+      {
+        "id": 40,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「炸」的正确读音是？（提示词：炸弹）",
+        "options": [
+          "nǎo",
+          "zhà",
+          "táng",
+          "yíng"
+        ],
+        "answer": "zhà",
+        "explanation": "「炸」读作 zhà，可以组词「炸弹」。",
+        "audio": {
+          "question": "/audio/c2/c2dbb3552a7fff8657d2d639bbfc4dcbf6c742bb.mp3",
+          "options": [
+            "/audio/pinyin/nao3.mp3",
+            "/audio/pinyin/zha4.mp3",
+            "/audio/pinyin/tang2.mp3",
+            "/audio/pinyin/ying2.mp3"
+          ],
+          "explanation": "/audio/7a/7a5de47410c1a33db4a2ba31d1dba913d7b8ce50.mp3"
+        }
+      },
+      {
+        "id": 41,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「离」的正确读音是？（提示词：离开）",
+        "options": [
+          "bǔ",
+          "nǎo",
+          "wa",
+          "lí"
+        ],
+        "answer": "lí",
+        "explanation": "「离」读作 lí，可以组词「离开」。",
+        "audio": {
+          "question": "/audio/7c/7cd17b58ef3b1bd58ec46c8cf6b28e995215d66a.mp3",
+          "options": [
+            "/audio/pinyin/bu3.mp3",
+            "/audio/pinyin/nao3.mp3",
+            "/audio/pinyin/wa0.mp3",
+            "/audio/pinyin/li2.mp3"
+          ],
+          "explanation": "/audio/1f/1ff3ecba06387abefc773d19818a48f829924215.mp3"
+        }
+      },
+      {
+        "id": 42,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「察」的正确读音是？（提示词：观察）",
+        "options": [
+          "chá",
+          "nǎo",
+          "táng",
+          "dài"
+        ],
+        "answer": "chá",
+        "explanation": "「察」读作 chá，可以组词「观察」。",
+        "audio": {
+          "question": "/audio/cb/cb6574b095b9168508373fc5351977cf60cc141b.mp3",
+          "options": [
+            "/audio/pinyin/cha2.mp3",
+            "/audio/pinyin/nao3.mp3",
+            "/audio/pinyin/tang2.mp3",
+            "/audio/pinyin/dai4.mp3"
+          ],
+          "explanation": "/audio/a9/a9390d4396d4cc19787ebe0e89447a7e9721f023.mp3"
+        }
+      },
+      {
+        "id": 43,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「识」的正确读音是？（提示词：认识）",
+        "options": [
+          "yíng",
+          "shí",
+          "táng",
+          "ā"
+        ],
+        "answer": "shí",
+        "explanation": "「识」读作 shí，可以组词「认识」。",
+        "audio": {
+          "question": "/audio/c9/c9731288be526a7a112e71905c7f0c503a57ac2a.mp3",
+          "options": [
+            "/audio/pinyin/ying2.mp3",
+            "/audio/pinyin/shi2.mp3",
+            "/audio/pinyin/tang2.mp3",
+            "/audio/pinyin/a1.mp3"
+          ],
+          "explanation": "/audio/24/24b82c9b6386643c20347a432df699aa4acc8e49.mp3"
+        }
+      },
+      {
+        "id": 44,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「粗」的正确读音是？（提示词：粗细）",
+        "options": [
+          "cū",
+          "cì",
+          "ā",
+          "dài"
+        ],
+        "answer": "cū",
+        "explanation": "「粗」读作 cū，可以组词「粗细」。",
+        "audio": {
+          "question": "/audio/fa/fa278595412e13dd064e0fcafe708b8c89b260e5.mp3",
+          "options": [
+            "/audio/pinyin/cu1.mp3",
+            "/audio/pinyin/ci4.mp3",
+            "/audio/pinyin/a1.mp3",
+            "/audio/pinyin/dai4.mp3"
+          ],
+          "explanation": "/audio/4c/4cdd1ecebf1d057602ef445e29865bf4265681bc.mp3"
+        }
+      },
+      {
+        "id": 45,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「得」的正确读音是？（提示词：得到）",
+        "options": [
+          "dé",
+          "bǔ",
+          "táng",
+          "yíng"
+        ],
+        "answer": "dé",
+        "explanation": "「得」读作 dé，可以组词「得到」。",
+        "audio": {
+          "question": "/audio/e4/e4c1524448ed1525ede12368241391dec8fd64e3.mp3",
+          "options": [
+            "/audio/pinyin/de2.mp3",
+            "/audio/pinyin/bu3.mp3",
+            "/audio/pinyin/tang2.mp3",
+            "/audio/pinyin/ying2.mp3"
+          ],
+          "explanation": "/audio/c8/c87e422e191bfa63f7d94ec19e30ecde2a0049c1.mp3"
+        }
+      },
+      {
+        "id": 46,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「táng」对应的汉字是？（词：池塘）",
+        "options": [
+          "塘",
+          "姨",
+          "迎",
+          "如"
+        ],
+        "answer": "塘",
+        "explanation": "「táng」写作「塘」，例如「池塘」。",
+        "audio": {
+          "question": "/audio/8a/8a902e2ec0d887fad34c438453455091ba8463d1.mp3",
+          "options": [
+            "/audio/pinyin/tang2.mp3",
+            "/audio/pinyin/yi2.mp3",
+            "/audio/pinyin/ying2.mp3",
+            "/audio/pinyin/ru2.mp3"
+          ],
+          "explanation": "/audio/10/1061382bf7125649fbd06cedb7e05e9bc652b4ec.mp3"
+        }
+      },
+      {
+        "id": 47,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「nǎo」对应的汉字是？（词：脑袋）",
+        "options": [
+          "越",
+          "冲",
+          "脑",
+          "顶"
+        ],
+        "answer": "脑",
+        "explanation": "「nǎo」写作「脑」，例如「脑袋」。",
+        "audio": {
+          "question": "/audio/06/06fdad5fd330277e515858361334684b3f20105e.mp3",
+          "options": [
+            "/audio/pinyin/yue4.mp3",
+            "/audio/pinyin/chong1.mp3",
+            "/audio/pinyin/nao3.mp3",
+            "/audio/pinyin/ding3.mp3"
+          ],
+          "explanation": "/audio/f6/f6d5b09de77197c9f863ccc889b7286cd39545ae.mp3"
+        }
+      },
+      {
+        "id": 48,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「dài」对应的汉字是？（词：脑袋）",
+        "options": [
+          "宽",
+          "姨",
+          "如",
+          "袋"
+        ],
+        "answer": "袋",
+        "explanation": "「dài」写作「袋」，例如「脑袋」。",
+        "audio": {
+          "question": "/audio/a5/a5bcff413f9097aa5083be7f077688bc133a93e1.mp3",
+          "options": [
+            "/audio/pinyin/kuan1.mp3",
+            "/audio/pinyin/yi2.mp3",
+            "/audio/pinyin/ru2.mp3",
+            "/audio/pinyin/dai4.mp3"
+          ],
+          "explanation": "/audio/2b/2be80091f6c706d79a5641a4f008f40de602d52d.mp3"
+        }
+      },
+      {
+        "id": 49,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「huī」对应的汉字是？（词：灰色）",
+        "options": [
+          "灰",
+          "得",
+          "阿",
+          "刺"
+        ],
+        "answer": "灰",
+        "explanation": "「huī」写作「灰」，例如「灰色」。",
+        "audio": {
+          "question": "/audio/b2/b22dad0368a3ee91cd0a465f4e55fa5ac49dc625.mp3",
+          "options": [
+            "/audio/pinyin/hui1.mp3",
+            "/audio/pinyin/de2.mp3",
+            "/audio/pinyin/a1.mp3",
+            "/audio/pinyin/ci4.mp3"
+          ],
+          "explanation": "/audio/03/030992fbb06520a61d2c748253b1098e5d364ef5.mp3"
+        }
+      },
+      {
+        "id": 50,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「wa」对应的汉字是？（词：好哇）",
+        "options": [
+          "塘",
+          "披",
+          "哇",
+          "迎"
+        ],
+        "answer": "哇",
+        "explanation": "「wa」写作「哇」，例如「好哇」。",
+        "audio": {
+          "question": "/audio/82/82fe84aaf31f8fb1b05d62d8c9b923396d48499f.mp3",
+          "options": [
+            "/audio/pinyin/tang2.mp3",
+            "/audio/pinyin/pi1.mp3",
+            "/audio/pinyin/wa0.mp3",
+            "/audio/pinyin/ying2.mp3"
+          ],
+          "explanation": "/audio/fb/fb4b614a2c78bb808a973299790a3e399944de0c.mp3"
+        }
+      },
+      {
+        "id": 51,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「bǔ」对应的汉字是？（词：捕捉）",
+        "options": [
+          "捕",
+          "淹",
+          "迎",
+          "溪"
+        ],
+        "answer": "捕",
+        "explanation": "「bǔ」写作「捕」，例如「捕捉」。",
+        "audio": {
+          "question": "/audio/9c/9cc6b27bf5879a3e4be19084f5bfe6c023dfa520.mp3",
+          "options": [
+            "/audio/pinyin/bu3.mp3",
+            "/audio/pinyin/yan1.mp3",
+            "/audio/pinyin/ying2.mp3",
+            "/audio/pinyin/xi1.mp3"
+          ],
+          "explanation": "/audio/c0/c09b06586a7f1db061e7d29919d647aafa40bc9d.mp3"
+        }
+      },
+      {
+        "id": 52,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「yíng」对应的汉字是？（词：欢迎）",
+        "options": [
+          "溪",
+          "迎",
+          "脑",
+          "炸"
+        ],
+        "answer": "迎",
+        "explanation": "「yíng」写作「迎」，例如「欢迎」。",
+        "audio": {
+          "question": "/audio/a1/a15026dc9aeeb4e40de1dd075e874bed33304d8d.mp3",
+          "options": [
+            "/audio/pinyin/xi1.mp3",
+            "/audio/pinyin/ying2.mp3",
+            "/audio/pinyin/nao3.mp3",
+            "/audio/pinyin/zha4.mp3"
+          ],
+          "explanation": "/audio/bf/bf3857a324ce3a1abca913fce5c13e19d7ecd4e2.mp3"
+        }
+      },
+      {
+        "id": 53,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「ā」对应的汉字是？（词：阿姨）",
+        "options": [
+          "洋",
+          "靠",
+          "屋",
+          "阿"
+        ],
+        "answer": "阿",
+        "explanation": "「ā」写作「阿」，例如「阿姨」。",
+        "audio": {
+          "question": "/audio/36/36d5f59f81111c759dd461f60e91b68df818d74b.mp3",
+          "options": [
+            "/audio/pinyin/yang2.mp3",
+            "/audio/pinyin/kao4.mp3",
+            "/audio/pinyin/wu1.mp3",
+            "/audio/pinyin/a1.mp3"
+          ],
+          "explanation": "/audio/d3/d31d30781dcd13c3c3ed4c3878710b14c2c7e61a.mp3"
+        }
+      },
+      {
+        "id": 54,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「yí」对应的汉字是？（词：阿姨）",
+        "options": [
+          "姨",
+          "得",
+          "旅",
+          "顶"
+        ],
+        "answer": "姨",
+        "explanation": "「yí」写作「姨」，例如「阿姨」。",
+        "audio": {
+          "question": "/audio/e7/e7852d3cd93a48475840d4c9a379f01f9f816f67.mp3",
+          "options": [
+            "/audio/pinyin/yi2.mp3",
+            "/audio/pinyin/de2.mp3",
+            "/audio/pinyin/lv3.mp3",
+            "/audio/pinyin/ding3.mp3"
+          ],
+          "explanation": "/audio/ab/abc169e2aeddec6fb39fe9e435ddbd4d485aa365.mp3"
+        }
+      },
+      {
+        "id": 55,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「kuān」对应的汉字是？（词：宽阔）",
+        "options": [
+          "坏",
+          "宽",
+          "脑",
+          "淹"
+        ],
+        "answer": "宽",
+        "explanation": "「kuān」写作「宽」，例如「宽阔」。",
+        "audio": {
+          "question": "/audio/d8/d8aeb603937e5df9a040e48d3e8e9cd4bcc9a222.mp3",
+          "options": [
+            "/audio/pinyin/huai4.mp3",
+            "/audio/pinyin/kuan1.mp3",
+            "/audio/pinyin/nao3.mp3",
+            "/audio/pinyin/yan1.mp3"
+          ],
+          "explanation": "/audio/f5/f5e4d980af2929fcf0e4fe3fcd75ba5febc34e56.mp3"
+        }
+      },
+      {
+        "id": 56,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「guī」对应的汉字是？（词：乌龟）",
+        "options": [
+          "洋",
+          "管",
+          "袋",
+          "龟"
+        ],
+        "answer": "龟",
+        "explanation": "「guī」写作「龟」，例如「乌龟」。",
+        "audio": {
+          "question": "/audio/c9/c90430b6f3709a1b5c6783c794f3086059569081.mp3",
+          "options": [
+            "/audio/pinyin/yang2.mp3",
+            "/audio/pinyin/guan3.mp3",
+            "/audio/pinyin/dai4.mp3",
+            "/audio/pinyin/gui1.mp3"
+          ],
+          "explanation": "/audio/40/409508d8012c074d958a019583da6dd843a9cd2b.mp3"
+        }
+      },
+      {
+        "id": 57,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「dǐng」对应的汉字是？（词：头顶）",
+        "options": [
+          "为",
+          "奔",
+          "袋",
+          "顶"
+        ],
+        "answer": "顶",
+        "explanation": "「dǐng」写作「顶」，例如「头顶」。",
+        "audio": {
+          "question": "/audio/7b/7b84ea7dbb714eb068bc82aca6270106d29ef31c.mp3",
+          "options": [
+            "/audio/pinyin/wei4.mp3",
+            "/audio/pinyin/ben1.mp3",
+            "/audio/pinyin/dai4.mp3",
+            "/audio/pinyin/ding3.mp3"
+          ],
+          "explanation": "/audio/9c/9cfe56a5da49a1bcdfd6dab0bc59834f85e63b55.mp3"
+        }
+      },
+      {
+        "id": 58,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「pī」对应的汉字是？（词：披上）",
+        "options": [
+          "察",
+          "姨",
+          "备",
+          "披"
+        ],
+        "answer": "披",
+        "explanation": "「pī」写作「披」，例如「披上」。",
+        "audio": {
+          "question": "/audio/67/67fc6b4d2e2c3d1f518b1177181e2fac7c19fb3b.mp3",
+          "options": [
+            "/audio/pinyin/cha2.mp3",
+            "/audio/pinyin/yi2.mp3",
+            "/audio/pinyin/bei4.mp3",
+            "/audio/pinyin/pi1.mp3"
+          ],
+          "explanation": "/audio/82/82f39e74293fb7c68caed00db532070d7b4c0f96.mp3"
+        }
+      },
+      {
+        "id": 59,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「gǔ」对应的汉字是？（词：打鼓）",
+        "options": [
+          "鼓",
+          "管",
+          "旅",
+          "毁"
+        ],
+        "answer": "鼓",
+        "explanation": "「gǔ」写作「鼓」，例如「打鼓」。",
+        "audio": {
+          "question": "/audio/dc/dc774e7f794a490b4f4657f0c7577e1aaef5589b.mp3",
+          "options": [
+            "/audio/pinyin/gu3.mp3",
+            "/audio/pinyin/guan3.mp3",
+            "/audio/pinyin/lv3.mp3",
+            "/audio/pinyin/hui3.mp3"
+          ],
+          "explanation": "/audio/9e/9e4e5d8d7f90077a7a7c456d60a66279ac420267.mp3"
+        }
+      },
+      {
+        "id": 60,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「shài」对应的汉字是？（词：晒太阳）",
+        "options": [
+          "鼓",
+          "如",
+          "滴",
+          "晒"
+        ],
+        "answer": "晒",
+        "explanation": "「shài」写作「晒」，例如「晒太阳」。",
+        "audio": {
+          "question": "/audio/56/563a61854a9ca753effb1dad4301dab355b2887d.mp3",
+          "options": [
+            "/audio/pinyin/gu3.mp3",
+            "/audio/pinyin/ru2.mp3",
+            "/audio/pinyin/di1.mp3",
+            "/audio/pinyin/shai4.mp3"
+          ],
+          "explanation": "/audio/21/2135f3272a493c733b4706e84ba804f51705a2db.mp3"
+        }
+      },
+      {
+        "id": 61,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jí」对应的汉字是？（词：极好）",
+        "options": [
+          "没",
+          "管",
+          "极",
+          "披"
+        ],
+        "answer": "极",
+        "explanation": "「jí」写作「极」，例如「极好」。",
+        "audio": {
+          "question": "/audio/3e/3e8e3216a316de99e63be55e5f8819d2e579901b.mp3",
+          "options": [
+            "/audio/pinyin/mei2.mp3",
+            "/audio/pinyin/guan3.mp3",
+            "/audio/pinyin/ji2.mp3",
+            "/audio/pinyin/pi1.mp3"
+          ],
+          "explanation": "/audio/e4/e472ac63032012ad6f688d497749c8822f98e94c.mp3"
+        }
+      },
+      {
+        "id": 62,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「bàng」对应的汉字是？（词：傍晚）",
+        "options": [
+          "旅",
+          "为",
+          "毁",
+          "傍"
+        ],
+        "answer": "傍",
+        "explanation": "「bàng」写作「傍」，例如「傍晚」。",
+        "audio": {
+          "question": "/audio/dd/ddb169e24d27ca2c801531b196cd601f3d1311e3.mp3",
+          "options": [
+            "/audio/pinyin/lv3.mp3",
+            "/audio/pinyin/wei4.mp3",
+            "/audio/pinyin/hui3.mp3",
+            "/audio/pinyin/bang4.mp3"
+          ],
+          "explanation": "/audio/b2/b2aac23294c9e7323f4d4c0e0e170ee244c29d31.mp3"
+        }
+      },
+      {
+        "id": 63,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「guǎn」对应的汉字是？（词：管理）",
+        "options": [
+          "管",
+          "没",
+          "坏",
+          "龟"
+        ],
+        "answer": "管",
+        "explanation": "「guǎn」写作「管」，例如「管理」。",
+        "audio": {
+          "question": "/audio/3e/3e4dec35947f8a158625418ffc5881cee5d19617.mp3",
+          "options": [
+            "/audio/pinyin/guan3.mp3",
+            "/audio/pinyin/mei2.mp3",
+            "/audio/pinyin/huai4.mp3",
+            "/audio/pinyin/gui1.mp3"
+          ],
+          "explanation": "/audio/81/81784acd1f55c7bcec93d4f648d3bb564503ea78.mp3"
+        }
+      },
+      {
+        "id": 64,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「yuè」对应的汉字是？（词：越过）",
+        "options": [
+          "坏",
+          "越",
+          "粗",
+          "底"
+        ],
+        "answer": "越",
+        "explanation": "「yuè」写作「越」，例如「越过」。",
+        "audio": {
+          "question": "/audio/05/059810d0333551434e891941b77c19c8459c57d3.mp3",
+          "options": [
+            "/audio/pinyin/huai4.mp3",
+            "/audio/pinyin/yue4.mp3",
+            "/audio/pinyin/cu1.mp3",
+            "/audio/pinyin/di3.mp3"
+          ],
+          "explanation": "/audio/1d/1d6bb18ce8559111d355dc9ac3a0d2747dd8667f.mp3"
+        }
+      },
+      {
+        "id": 65,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「dī」对应的汉字是？（词：水滴）",
+        "options": [
+          "纷",
+          "为",
+          "滴",
+          "奔"
+        ],
+        "answer": "滴",
+        "explanation": "「dī」写作「滴」，例如「水滴」。",
+        "audio": {
+          "question": "/audio/16/169100e5381792932ee064bc0efa56dcedccc21a.mp3",
+          "options": [
+            "/audio/pinyin/fen1.mp3",
+            "/audio/pinyin/wei4.mp3",
+            "/audio/pinyin/di1.mp3",
+            "/audio/pinyin/ben1.mp3"
+          ],
+          "explanation": "/audio/ca/ca9cfa628561eab5da6a7a2995424d9e9742b51f.mp3"
+        }
+      },
+      {
+        "id": 66,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「xī」对应的汉字是？（词：小溪）",
+        "options": [
+          "靠",
+          "傍",
+          "底",
+          "溪"
+        ],
+        "answer": "溪",
+        "explanation": "「xī」写作「溪」，例如「小溪」。",
+        "audio": {
+          "question": "/audio/70/70e1d31cd14919399a7658834bf75ce2ea094a54.mp3",
+          "options": [
+            "/audio/pinyin/kao4.mp3",
+            "/audio/pinyin/bang4.mp3",
+            "/audio/pinyin/di3.mp3",
+            "/audio/pinyin/xi1.mp3"
+          ],
+          "explanation": "/audio/54/540810d23dfce579cc5bd20c8fdf5bd022b32c79.mp3"
+        }
+      },
+      {
+        "id": 67,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「bēn」对应的汉字是？（词：奔跑）",
+        "options": [
+          "灰",
+          "为",
+          "奔",
+          "识"
+        ],
+        "answer": "奔",
+        "explanation": "「bēn」写作「奔」，例如「奔跑」。",
+        "audio": {
+          "question": "/audio/4a/4af36cf61d278861eb13a7f365deadea74f5b99d.mp3",
+          "options": [
+            "/audio/pinyin/hui1.mp3",
+            "/audio/pinyin/wei4.mp3",
+            "/audio/pinyin/ben1.mp3",
+            "/audio/pinyin/shi2.mp3"
+          ],
+          "explanation": "/audio/a8/a838794e71fd9475e211098de728b100f4f05d3b.mp3"
+        }
+      },
+      {
+        "id": 68,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「yáng」对应的汉字是？（词：海洋）",
+        "options": [
+          "洋",
+          "极",
+          "傍",
+          "奔"
+        ],
+        "answer": "洋",
+        "explanation": "「yáng」写作「洋」，例如「海洋」。",
+        "audio": {
+          "question": "/audio/00/0071c745cfbfec5944340bb8cae4fc6fca357f05.mp3",
+          "options": [
+            "/audio/pinyin/yang2.mp3",
+            "/audio/pinyin/ji2.mp3",
+            "/audio/pinyin/bang4.mp3",
+            "/audio/pinyin/ben1.mp3"
+          ],
+          "explanation": "/audio/73/73b7371426758dfeb37a0c3f2c2249d6bdf8f665.mp3"
+        }
+      },
+      {
+        "id": 69,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「huài」对应的汉字是？（词：坏人）",
+        "options": [
+          "屋",
+          "毁",
+          "备",
+          "坏"
+        ],
+        "answer": "坏",
+        "explanation": "「huài」写作「坏」，例如「坏人」。",
+        "audio": {
+          "question": "/audio/e1/e17c43352914d22d316fbda428abed1bb53c9848.mp3",
+          "options": [
+            "/audio/pinyin/wu1.mp3",
+            "/audio/pinyin/hui3.mp3",
+            "/audio/pinyin/bei4.mp3",
+            "/audio/pinyin/huai4.mp3"
+          ],
+          "explanation": "/audio/73/73c77f36c1ee7d42bffb805d6e34bb7285733c5b.mp3"
+        }
+      },
+      {
+        "id": 70,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「yān」对应的汉字是？（词：淹没）",
+        "options": [
+          "淹",
+          "溪",
+          "洋",
+          "旅"
+        ],
+        "answer": "淹",
+        "explanation": "「yān」写作「淹」，例如「淹没」。",
+        "audio": {
+          "question": "/audio/0b/0b92232138d3eb6e941a71773797261d9fd4ab4c.mp3",
+          "options": [
+            "/audio/pinyin/yan1.mp3",
+            "/audio/pinyin/xi1.mp3",
+            "/audio/pinyin/yang2.mp3",
+            "/audio/pinyin/lv3.mp3"
+          ],
+          "explanation": "/audio/6c/6c8e9243f7f6a74f95f6333514627385760e7e88.mp3"
+        }
+      },
+      {
+        "id": 71,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「mò」对应的汉字是？（词：淹没）",
+        "options": [
+          "刺",
+          "没",
+          "越",
+          "姨"
+        ],
+        "answer": "没",
+        "explanation": "「mò」写作「没」，例如「淹没」。",
+        "audio": {
+          "question": "/audio/20/20b7fdcb305491612c9c72fc8b2ad2128010e482.mp3",
+          "options": [
+            "/audio/pinyin/ci4.mp3",
+            "/audio/pinyin/mo4.mp3",
+            "/audio/pinyin/yue4.mp3",
+            "/audio/pinyin/yi2.mp3"
+          ],
+          "explanation": "/audio/50/50d8f27ca6996c091580ecfaddcf8e27e660c0e1.mp3"
+        }
+      },
+      {
+        "id": 72,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「chōng」对应的汉字是？（词：冲走）",
+        "options": [
+          "奔",
+          "坏",
+          "冲",
+          "得"
+        ],
+        "answer": "冲",
+        "explanation": "「chōng」写作「冲」，例如「冲走」。",
+        "audio": {
+          "question": "/audio/96/9696c27a549c23442f70c27a806c1206ee7e9df6.mp3",
+          "options": [
+            "/audio/pinyin/ben1.mp3",
+            "/audio/pinyin/huai4.mp3",
+            "/audio/pinyin/chong1.mp3",
+            "/audio/pinyin/de2.mp3"
+          ],
+          "explanation": "/audio/00/007ba763ecffd9c1ca3c46a61783c4a570d4106f.mp3"
+        }
+      },
+      {
+        "id": 73,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「huǐ」对应的汉字是？（词：毁灭）",
+        "options": [
+          "毁",
+          "哇",
+          "离",
+          "极"
+        ],
+        "answer": "毁",
+        "explanation": "「huǐ」写作「毁」，例如「毁灭」。",
+        "audio": {
+          "question": "/audio/f9/f94d8feb125db713b3706785f994c074aca1e5ca.mp3",
+          "options": [
+            "/audio/pinyin/hui3.mp3",
+            "/audio/pinyin/wa0.mp3",
+            "/audio/pinyin/li2.mp3",
+            "/audio/pinyin/ji2.mp3"
+          ],
+          "explanation": "/audio/c6/c6a79c0ee22e5cbe04ff5d50590a1b68a86e17e1.mp3"
+        }
+      },
+      {
+        "id": 74,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「wū」对应的汉字是？（词：房屋）",
+        "options": [
+          "溪",
+          "灰",
+          "晒",
+          "屋"
+        ],
+        "answer": "屋",
+        "explanation": "「wū」写作「屋」，例如「房屋」。",
+        "audio": {
+          "question": "/audio/b4/b47ba21865f6b26a52b16856abaf034e4582a5d7.mp3",
+          "options": [
+            "/audio/pinyin/xi1.mp3",
+            "/audio/pinyin/hui1.mp3",
+            "/audio/pinyin/shai4.mp3",
+            "/audio/pinyin/wu1.mp3"
+          ],
+          "explanation": "/audio/b8/b87c9ea8f8eb7f27f7d6e78ab5fc1a0923d67c71.mp3"
+        }
+      },
+      {
+        "id": 75,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「cāi」对应的汉字是？（词：猜测）",
+        "options": [
+          "冲",
+          "猜",
+          "傍",
+          "奔"
+        ],
+        "answer": "猜",
+        "explanation": "「cāi」写作「猜」，例如「猜测」。",
+        "audio": {
+          "question": "/audio/77/7793761ebdb2c1e291dc461f102800f011891766.mp3",
+          "options": [
+            "/audio/pinyin/chong1.mp3",
+            "/audio/pinyin/cai1.mp3",
+            "/audio/pinyin/bang4.mp3",
+            "/audio/pinyin/ben1.mp3"
+          ],
+          "explanation": "/audio/b2/b2ece6acb92e6064b2879fe5ea454f53a110e654.mp3"
+        }
+      },
+      {
+        "id": 76,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「zhí」对应的汉字是？（词：植物）",
+        "options": [
+          "炸",
+          "植",
+          "晒",
+          "管"
+        ],
+        "answer": "植",
+        "explanation": "「zhí」写作「植」，例如「植物」。",
+        "audio": {
+          "question": "/audio/62/627f301b4b84abd4973e150eeb2b10ff467e40b2.mp3",
+          "options": [
+            "/audio/pinyin/zha4.mp3",
+            "/audio/pinyin/zhi2.mp3",
+            "/audio/pinyin/shai4.mp3",
+            "/audio/pinyin/guan3.mp3"
+          ],
+          "explanation": "/audio/85/85f36ecf0270019c06a98dfc92be02fc207ebf3c.mp3"
+        }
+      },
+      {
+        "id": 77,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「rú」对应的汉字是？（词：如果）",
+        "options": [
+          "靠",
+          "备",
+          "如",
+          "披"
+        ],
+        "answer": "如",
+        "explanation": "「rú」写作「如」，例如「如果」。",
+        "audio": {
+          "question": "/audio/8e/8e5d7da8a54eb6e34792909388bb237654272578.mp3",
+          "options": [
+            "/audio/pinyin/kao4.mp3",
+            "/audio/pinyin/bei4.mp3",
+            "/audio/pinyin/ru2.mp3",
+            "/audio/pinyin/pi1.mp3"
+          ],
+          "explanation": "/audio/62/62b0c4faa4edf5cad3c9a6498815a56783cac1d2.mp3"
+        }
+      },
+      {
+        "id": 78,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「wéi」对应的汉字是？（词：作为）",
+        "options": [
+          "阿",
+          "顶",
+          "为",
+          "袋"
+        ],
+        "answer": "为",
+        "explanation": "「wéi」写作「为」，例如「作为」。",
+        "audio": {
+          "question": "/audio/26/2661ae0f4ddaa2d04f73cb1e14d74c1eb5939c5a.mp3",
+          "options": [
+            "/audio/pinyin/a1.mp3",
+            "/audio/pinyin/ding3.mp3",
+            "/audio/pinyin/wei2.mp3",
+            "/audio/pinyin/dai4.mp3"
+          ],
+          "explanation": "/audio/63/635ab2195c9406d02c0a88fae2a7e7e8c32758f8.mp3"
+        }
+      },
+      {
+        "id": 79,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「lǚ」对应的汉字是？（词：旅行）",
+        "options": [
+          "炸",
+          "屋",
+          "察",
+          "旅"
+        ],
+        "answer": "旅",
+        "explanation": "「lǚ」写作「旅」，例如「旅行」。",
+        "audio": {
+          "question": "/audio/be/be45f08b1a17d511e8990f4fec09c52653f63334.mp3",
+          "options": [
+            "/audio/pinyin/zha4.mp3",
+            "/audio/pinyin/wu1.mp3",
+            "/audio/pinyin/cha2.mp3",
+            "/audio/pinyin/lv3.mp3"
+          ],
+          "explanation": "/audio/15/15e770a55bfaa74ebd7f1ca3eaaeafe74662a27c.mp3"
+        }
+      },
+      {
+        "id": 80,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「kào」对应的汉字是？（词：依靠）",
+        "options": [
+          "龟",
+          "旅",
+          "靠",
+          "冲"
+        ],
+        "answer": "靠",
+        "explanation": "「kào」写作「靠」，例如「依靠」。",
+        "audio": {
+          "question": "/audio/86/86e5d75bfb64cb994f4b999b470bf3c59d275fd5.mp3",
+          "options": [
+            "/audio/pinyin/gui1.mp3",
+            "/audio/pinyin/lv3.mp3",
+            "/audio/pinyin/kao4.mp3",
+            "/audio/pinyin/chong1.mp3"
+          ],
+          "explanation": "/audio/e1/e1fe0dbb2ec37d2366fedd6c0b463786117fd3b7.mp3"
+        }
+      },
+      {
+        "id": 81,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「bèi」对应的汉字是？（词：准备）",
+        "options": [
+          "为",
+          "刺",
+          "备",
+          "如"
+        ],
+        "answer": "备",
+        "explanation": "「bèi」写作「备」，例如「准备」。",
+        "audio": {
+          "question": "/audio/6e/6e03bc2f68415aaf3b16c1171191910e599101f7.mp3",
+          "options": [
+            "/audio/pinyin/wei4.mp3",
+            "/audio/pinyin/ci4.mp3",
+            "/audio/pinyin/bei4.mp3",
+            "/audio/pinyin/ru2.mp3"
+          ],
+          "explanation": "/audio/b9/b9743823cb90507775b92ff2d94a18d5c59ae89d.mp3"
+        }
+      },
+      {
+        "id": 82,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「fēn」对应的汉字是？（词：纷飞）",
+        "options": [
+          "鼓",
+          "纷",
+          "刺",
+          "察"
+        ],
+        "answer": "纷",
+        "explanation": "「fēn」写作「纷」，例如「纷飞」。",
+        "audio": {
+          "question": "/audio/39/39510c74dc8fcc0c721ee867c12f738dd9b575c7.mp3",
+          "options": [
+            "/audio/pinyin/gu3.mp3",
+            "/audio/pinyin/fen1.mp3",
+            "/audio/pinyin/ci4.mp3",
+            "/audio/pinyin/cha2.mp3"
+          ],
+          "explanation": "/audio/5a/5a690be9c22d1c88c1a754f6d1e2c51f99f0c5bc.mp3"
+        }
+      },
+      {
+        "id": 83,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「cì」对应的汉字是？（词：刺刀）",
+        "options": [
+          "为",
+          "旅",
+          "刺",
+          "傍"
+        ],
+        "answer": "刺",
+        "explanation": "「cì」写作「刺」，例如「刺刀」。",
+        "audio": {
+          "question": "/audio/b2/b2129b08c5ec27b9992a645731278f66b98c493a.mp3",
+          "options": [
+            "/audio/pinyin/wei4.mp3",
+            "/audio/pinyin/lv3.mp3",
+            "/audio/pinyin/ci4.mp3",
+            "/audio/pinyin/bang4.mp3"
+          ],
+          "explanation": "/audio/7a/7a0c2f3bb3eb86a832c2cced213078b6d009d054.mp3"
+        }
+      },
+      {
+        "id": 84,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「dǐ」对应的汉字是？（词：海底）",
+        "options": [
+          "底",
+          "植",
+          "奔",
+          "离"
+        ],
+        "answer": "底",
+        "explanation": "「dǐ」写作「底」，例如「海底」。",
+        "audio": {
+          "question": "/audio/56/56c10ef00d2f7231ce3e561f808564301583b295.mp3",
+          "options": [
+            "/audio/pinyin/di3.mp3",
+            "/audio/pinyin/zhi2.mp3",
+            "/audio/pinyin/ben1.mp3",
+            "/audio/pinyin/li2.mp3"
+          ],
+          "explanation": "/audio/31/31d9a647d290a7185687adc33fa54e202d61e8f4.mp3"
+        }
+      },
+      {
+        "id": 85,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「zhà」对应的汉字是？（词：炸弹）",
+        "options": [
+          "备",
+          "极",
+          "炸",
+          "如"
+        ],
+        "answer": "炸",
+        "explanation": "「zhà」写作「炸」，例如「炸弹」。",
+        "audio": {
+          "question": "/audio/50/50178fff3fcb18cb81818613ca313032b80a2b76.mp3",
+          "options": [
+            "/audio/pinyin/bei4.mp3",
+            "/audio/pinyin/ji2.mp3",
+            "/audio/pinyin/zha4.mp3",
+            "/audio/pinyin/ru2.mp3"
+          ],
+          "explanation": "/audio/2a/2a105f2d034a051dade51687b56dff6b358f4b26.mp3"
+        }
+      },
+      {
+        "id": 86,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「lí」对应的汉字是？（词：离开）",
+        "options": [
+          "奔",
+          "离",
+          "龟",
+          "晒"
+        ],
+        "answer": "离",
+        "explanation": "「lí」写作「离」，例如「离开」。",
+        "audio": {
+          "question": "/audio/b9/b9dcb9fe1edd4e92535cfc233d37f2e78f6699dd.mp3",
+          "options": [
+            "/audio/pinyin/ben1.mp3",
+            "/audio/pinyin/li2.mp3",
+            "/audio/pinyin/gui1.mp3",
+            "/audio/pinyin/shai4.mp3"
+          ],
+          "explanation": "/audio/0b/0bb3c01b59920c26788ca8a814b058fb907da8ce.mp3"
+        }
+      },
+      {
+        "id": 87,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「chá」对应的汉字是？（词：观察）",
+        "options": [
+          "屋",
+          "底",
+          "察",
+          "龟"
+        ],
+        "answer": "察",
+        "explanation": "「chá」写作「察」，例如「观察」。",
+        "audio": {
+          "question": "/audio/25/25dea5cadb15e845da7890d050a75955d806efca.mp3",
+          "options": [
+            "/audio/pinyin/wu1.mp3",
+            "/audio/pinyin/di3.mp3",
+            "/audio/pinyin/cha2.mp3",
+            "/audio/pinyin/gui1.mp3"
+          ],
+          "explanation": "/audio/a9/a9e8701c7aef56353c5623309aceb2be11b2aa73.mp3"
+        }
+      },
+      {
+        "id": 88,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「shí」对应的汉字是？（词：认识）",
+        "options": [
+          "识",
+          "屋",
+          "炸",
+          "迎"
+        ],
+        "answer": "识",
+        "explanation": "「shí」写作「识」，例如「认识」。",
+        "audio": {
+          "question": "/audio/b6/b6a612a2f0e356ce62dd2b133d4ec84ff2c6846c.mp3",
+          "options": [
+            "/audio/pinyin/shi2.mp3",
+            "/audio/pinyin/wu1.mp3",
+            "/audio/pinyin/zha4.mp3",
+            "/audio/pinyin/ying2.mp3"
+          ],
+          "explanation": "/audio/ae/ae1112ea63a69baf2f1e787756da928c67b0d90e.mp3"
+        }
+      },
+      {
+        "id": 89,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「cū」对应的汉字是？（词：粗细）",
+        "options": [
+          "如",
+          "粗",
+          "鼓",
+          "猜"
+        ],
+        "answer": "粗",
+        "explanation": "「cū」写作「粗」，例如「粗细」。",
+        "audio": {
+          "question": "/audio/52/52feee02fef96591f37cf973e20336bcb4f5e6f1.mp3",
+          "options": [
+            "/audio/pinyin/ru2.mp3",
+            "/audio/pinyin/cu1.mp3",
+            "/audio/pinyin/gu3.mp3",
+            "/audio/pinyin/cai1.mp3"
+          ],
+          "explanation": "/audio/c5/c546326f98b9a3c37a313a027bac58758e7c4804.mp3"
+        }
+      },
+      {
+        "id": 90,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「dé」对应的汉字是？（词：得到）",
+        "options": [
+          "得",
+          "脑",
+          "越",
+          "如"
+        ],
+        "answer": "得",
+        "explanation": "「dé」写作「得」，例如「得到」。",
+        "audio": {
+          "question": "/audio/5a/5a81463652d1eba6a902366450dfc4cd7e98cc1e.mp3",
+          "options": [
+            "/audio/pinyin/de2.mp3",
+            "/audio/pinyin/nao3.mp3",
+            "/audio/pinyin/yue4.mp3",
+            "/audio/pinyin/ru2.mp3"
+          ],
+          "explanation": "/audio/04/044159e4406118a4e99da9a2dc9a0666e85926e5.mp3"
+        }
+      },
+      {
+        "id": 91,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「灰」的拼音（词：灰色）",
+        "options": [],
+        "answer": "huī",
+        "explanation": "「灰」的拼音是 huī。",
+        "audio": {
+          "question": "/audio/7d/7d9dc3784c1f224eb1cb5de33052b4f346e1a683.mp3",
+          "explanation": "/audio/97/97740e1acb3390263b00aeb32d6309091a250499.mp3"
+        }
+      },
+      {
+        "id": 92,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「淹」的拼音（词：淹没）",
+        "options": [],
+        "answer": "yān",
+        "explanation": "「淹」的拼音是 yān。",
+        "audio": {
+          "question": "/audio/0f/0f52fb258563873c6810f2901e377b3bed5975c0.mp3",
+          "explanation": "/audio/29/29bfa310688637927b2c028e20b1f38964010222.mp3"
+        }
+      },
+      {
+        "id": 93,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「管」的拼音（词：管理）",
+        "options": [],
+        "answer": "guǎn",
+        "explanation": "「管」的拼音是 guǎn。",
+        "audio": {
+          "question": "/audio/87/8789fa5cf688d588ed7ab90dec1244cbd6da1d86.mp3",
+          "explanation": "/audio/50/5037571289b38d3283149f3f681f278bfba219ae.mp3"
+        }
+      },
+      {
+        "id": 94,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「炸」的拼音（词：炸弹）",
+        "options": [],
+        "answer": "zhà",
+        "explanation": "「炸」的拼音是 zhà。",
+        "audio": {
+          "question": "/audio/3e/3e0c689cdfe752d0fd33a8205a800a1152248119.mp3",
+          "explanation": "/audio/fb/fb07820a8e98491d694ae6ad508026e13f033b6c.mp3"
+        }
+      },
+      {
+        "id": 95,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「识」的拼音（词：认识）",
+        "options": [],
+        "answer": "shí",
+        "explanation": "「识」的拼音是 shí。",
+        "audio": {
+          "question": "/audio/8b/8bd7bc4a2dbf985ec2e59e33b5beb56f6609580a.mp3",
+          "explanation": "/audio/a8/a8375ff289aaba70a2463eb5727ccfd8cbe9500e.mp3"
+        }
+      },
+      {
+        "id": 96,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「没」的拼音（词：淹没）",
+        "options": [],
+        "answer": "mò",
+        "explanation": "「没」的拼音是 mò。",
+        "audio": {
+          "question": "/audio/5c/5cadc83ded0e3df5c400f9f30856f058fd3516d7.mp3",
+          "explanation": "/audio/f4/f48eecc2b82b5d3bdc82616b1f129dfaa7d34b71.mp3"
+        }
+      },
+      {
+        "id": 97,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「植」的拼音（词：植物）",
+        "options": [],
+        "answer": "zhí",
+        "explanation": "「植」的拼音是 zhí。",
+        "audio": {
+          "question": "/audio/ef/ef13da7a3b3fb13b7900e62079d859c3a8a65146.mp3",
+          "explanation": "/audio/b0/b0f86dc09f833c41dc5ea2d25c0807e7fc1cf516.mp3"
+        }
+      },
+      {
+        "id": 98,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「姨」的拼音（词：阿姨）",
+        "options": [],
+        "answer": "yí",
+        "explanation": "「姨」的拼音是 yí。",
+        "audio": {
+          "question": "/audio/0c/0c7360d60be69e71ab2ab7fda5d9e8369b1ec8a9.mp3",
+          "explanation": "/audio/0e/0ec1185e8a50eaff11bf573b394135398fbb84ea.mp3"
+        }
+      },
+      {
+        "id": 99,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「毁」的拼音（词：毁灭）",
+        "options": [],
+        "answer": "huǐ",
+        "explanation": "「毁」的拼音是 huǐ。",
+        "audio": {
+          "question": "/audio/73/73f3a756ad33266ef0730d99ce3a53fb4c5089be.mp3",
+          "explanation": "/audio/2d/2d5e410490fa3fa5fba6745bb2f55f520a7932f2.mp3"
+        }
+      },
+      {
+        "id": 100,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「迎」的拼音（词：欢迎）",
+        "options": [],
+        "answer": "yíng",
+        "explanation": "「迎」的拼音是 yíng。",
+        "audio": {
+          "question": "/audio/41/41233cfbd5654112b0ba8fb41628de2c7ae5163c.mp3",
+          "explanation": "/audio/d5/d56962ac5b494fe5a6b3d0f8ce444113a3cf2dea.mp3"
+        }
+      },
+      {
+        "id": 101,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「鼓」的拼音（词：打鼓）",
+        "options": [],
+        "answer": "gǔ",
+        "explanation": "「鼓」的拼音是 gǔ。",
+        "audio": {
+          "question": "/audio/75/75bc42ad93b6e859c386954f13ea7496549f05c6.mp3",
+          "explanation": "/audio/52/5228fbdea919ab3abafdf2705a832fd69def54ff.mp3"
+        }
+      },
+      {
+        "id": 102,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「越」的拼音（词：越过）",
+        "options": [],
+        "answer": "yuè",
+        "explanation": "「越」的拼音是 yuè。",
+        "audio": {
+          "question": "/audio/04/0404ab53979e25f8bf4eb6a27c31d1afef97f441.mp3",
+          "explanation": "/audio/42/42e50e254241c4aafa43823f35be5b832530c766.mp3"
+        }
+      },
+      {
+        "id": 103,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「刺」的拼音（词：刺刀）",
+        "options": [],
+        "answer": "cì",
+        "explanation": "「刺」的拼音是 cì。",
+        "audio": {
+          "question": "/audio/1f/1fdd1e7d79a95c5138a2f823f9a7cd210da84280.mp3",
+          "explanation": "/audio/47/4785918f544c48ad00d61f85cc699fb222e37bee.mp3"
+        }
+      },
+      {
+        "id": 104,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「洋」的拼音（词：海洋）",
+        "options": [],
+        "answer": "yáng",
+        "explanation": "「洋」的拼音是 yáng。",
+        "audio": {
+          "question": "/audio/57/5738efac8395162688802fc135e7f4388ab3cb48.mp3",
+          "explanation": "/audio/b2/b2fc128cc49d01602eca65502d8a582845e6cc5c.mp3"
+        }
+      },
+      {
+        "id": 105,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「猜」的拼音（词：猜测）",
+        "options": [],
+        "answer": "cāi",
+        "explanation": "「猜」的拼音是 cāi。",
+        "audio": {
+          "question": "/audio/1a/1acb2f876079c3be9218d3af69387ce99711572d.mp3",
+          "explanation": "/audio/00/00f2c5b822573276dd4c42699d0f0312a3d6c5e0.mp3"
+        }
+      },
+      {
+        "id": 106,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「龟」的拼音（词：乌龟）",
+        "options": [],
+        "answer": "guī",
+        "explanation": "「龟」的拼音是 guī。",
+        "audio": {
+          "question": "/audio/4a/4a2d385ee6875b3fe1e856bce156da9dc6badccd.mp3",
+          "explanation": "/audio/af/afac688adc3f3e2653c8fcea65584bd6d539901c.mp3"
+        }
+      },
+      {
+        "id": 107,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「备」的拼音（词：准备）",
+        "options": [],
+        "answer": "bèi",
+        "explanation": "「备」的拼音是 bèi。",
+        "audio": {
+          "question": "/audio/f9/f9d2e89b6308782517d799b03932e479beabe62c.mp3",
+          "explanation": "/audio/cd/cdd01781d81b639ae75dc1248fc83372cb8a25d5.mp3"
+        }
+      },
+      {
+        "id": 108,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「靠」的拼音（词：依靠）",
+        "options": [],
+        "answer": "kào",
+        "explanation": "「靠」的拼音是 kào。",
+        "audio": {
+          "question": "/audio/55/55708d36fb402fdae06e0cffb04da048d268977f.mp3",
+          "explanation": "/audio/f2/f24f6bb98c3150401b2931b0852bc30fd8a04b2d.mp3"
+        }
+      },
+      {
+        "id": 109,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「lǚ」对应的汉字（词：旅行）",
+        "options": [],
+        "answer": "旅",
+        "explanation": "「lǚ」对应的汉字是「旅」。",
+        "audio": {
+          "question": "/audio/be/be1057e0e0176ead2cb10313a11271fc44ed2d71.mp3",
+          "explanation": "/audio/7f/7f7a64d6effa65586328c097133e8b9d5d5ff953.mp3"
+        }
+      },
+      {
+        "id": 110,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「yíng」对应的汉字（词：欢迎）",
+        "options": [],
+        "answer": "迎",
+        "explanation": "「yíng」对应的汉字是「迎」。",
+        "audio": {
+          "question": "/audio/35/35c2175d3b133bd0420c9fe1de2b51aa207fe657.mp3",
+          "explanation": "/audio/c5/c59fec5592f99f8aa75dce7455fbe88e04636def.mp3"
+        }
+      },
+      {
+        "id": 111,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「xī」对应的汉字（词：小溪）",
+        "options": [],
+        "answer": "溪",
+        "explanation": "「xī」对应的汉字是「溪」。",
+        "audio": {
+          "question": "/audio/6a/6a67177507ce2c645a18e7e769901e9f6c53094e.mp3",
+          "explanation": "/audio/d7/d74b0d4495e339ecdded39834591027b16800cb0.mp3"
+        }
+      },
+      {
+        "id": 112,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「wū」对应的汉字（词：房屋）",
+        "options": [],
+        "answer": "屋",
+        "explanation": "「wū」对应的汉字是「屋」。",
+        "audio": {
+          "question": "/audio/8a/8a161c04c1fb55beb0f0801d22f528b64db9b27e.mp3",
+          "explanation": "/audio/3a/3a90e54f0715474a4c6c290882fc48ba6667d925.mp3"
+        }
+      },
+      {
+        "id": 113,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「dǐng」对应的汉字（词：头顶）",
+        "options": [],
+        "answer": "顶",
+        "explanation": "「dǐng」对应的汉字是「顶」。",
+        "audio": {
+          "question": "/audio/6a/6a8cdca27e79fc5e61b6f1e871f68de6ed92573d.mp3",
+          "explanation": "/audio/dc/dc513ee8efdf8a2bfddaddc191da7a84780751a2.mp3"
+        }
+      },
+      {
+        "id": 114,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「chá」对应的汉字（词：观察）",
+        "options": [],
+        "answer": "察",
+        "explanation": "「chá」对应的汉字是「察」。",
+        "audio": {
+          "question": "/audio/f0/f01572c9db1053c43c0eb29bbebf90ec1bc47491.mp3",
+          "explanation": "/audio/a2/a28352a494692490d5301afa22240bebca6f1de6.mp3"
+        }
+      },
+      {
+        "id": 115,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「dé」对应的汉字（词：得到）",
+        "options": [],
+        "answer": "得",
+        "explanation": "「dé」对应的汉字是「得」。",
+        "audio": {
+          "question": "/audio/75/752435d0d547d0ec997cea0c944ec0a23513ddf0.mp3",
+          "explanation": "/audio/80/80f91b50fd92f157e7f2f30781ab995fd24ad19c.mp3"
+        }
+      },
+      {
+        "id": 116,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「bèi」对应的汉字（词：准备）",
+        "options": [],
+        "answer": "备",
+        "explanation": "「bèi」对应的汉字是「备」。",
+        "audio": {
+          "question": "/audio/bf/bfab18591d748dc56eccae13635a1921babf51e7.mp3",
+          "explanation": "/audio/33/3304c53ec45ca29e76ed863efafd39a1205197c0.mp3"
+        }
+      },
+      {
+        "id": 117,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「zhí」对应的汉字（词：植物）",
+        "options": [],
+        "answer": "植",
+        "explanation": "「zhí」对应的汉字是「植」。",
+        "audio": {
+          "question": "/audio/23/23974978286bb397e8c903e703db4589a78a6264.mp3",
+          "explanation": "/audio/25/25c54988cee5fa4add4e0a75e82e4f6a3cc6532f.mp3"
+        }
+      },
+      {
+        "id": 118,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「yí」对应的汉字（词：阿姨）",
+        "options": [],
+        "answer": "姨",
+        "explanation": "「yí」对应的汉字是「姨」。",
+        "audio": {
+          "question": "/audio/84/84e594e35ba5ab016e6f1cb0723711ac5338842f.mp3",
+          "explanation": "/audio/cc/cc9d46ba0dba977b86805d842bf8d6d6b5e4a87d.mp3"
+        }
+      },
+      {
+        "id": 119,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「wa」对应的汉字（词：好哇）",
+        "options": [],
+        "answer": "哇",
+        "explanation": "「wa」对应的汉字是「哇」。",
+        "audio": {
+          "question": "/audio/1b/1b2ad5e34fbbc481a2cab2a8d5dc3a326cb6e431.mp3",
+          "explanation": "/audio/da/daf3aa8f777bbe90220fe0647b5195bd6b2aad49.mp3"
+        }
+      },
+      {
+        "id": 120,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「yān」对应的汉字（词：淹没）",
+        "options": [],
+        "answer": "淹",
+        "explanation": "「yān」对应的汉字是「淹」。",
+        "audio": {
+          "question": "/audio/3c/3c3fa79bc68bf8cf03b8262e9cc31b2b59131ad2.mp3",
+          "explanation": "/audio/72/72180f4e3548face5babf4e07a10002d3237a053.mp3"
+        }
+      },
+      {
+        "id": 121,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「bēn」对应的汉字（词：奔跑）",
+        "options": [],
+        "answer": "奔",
+        "explanation": "「bēn」对应的汉字是「奔」。",
+        "audio": {
+          "question": "/audio/41/41432747fa641b34311bfe61440f3ad7bfe95a1b.mp3",
+          "explanation": "/audio/fa/fac78d968af0f8f09831fffde46b266249f5db7a.mp3"
+        }
+      },
+      {
+        "id": 122,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「fēn」对应的汉字（词：纷飞）",
+        "options": [],
+        "answer": "纷",
+        "explanation": "「fēn」对应的汉字是「纷」。",
+        "audio": {
+          "question": "/audio/87/87cc5de3f1c59ba7adc743801bd343c9afbd82ed.mp3",
+          "explanation": "/audio/d9/d9c04c98ddce69f998d1c5a083de79975059d43a.mp3"
+        }
+      },
+      {
+        "id": 123,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「huī」对应的汉字（词：灰色）",
+        "options": [],
+        "answer": "灰",
+        "explanation": "「huī」对应的汉字是「灰」。",
+        "audio": {
+          "question": "/audio/bf/bf4cc3549aa72adbd1e456132ea515d7201bf568.mp3",
+          "explanation": "/audio/32/323a8600278fd189a2e3fb52b075831844d963f3.mp3"
+        }
+      },
+      {
+        "id": 124,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「bǔ」对应的汉字（词：捕捉）",
+        "options": [],
+        "answer": "捕",
+        "explanation": "「bǔ」对应的汉字是「捕」。",
+        "audio": {
+          "question": "/audio/2e/2e680ae99fcb8c5f14af9df1f4feb58df8f4347b.mp3",
+          "explanation": "/audio/e6/e65fcd96b4ea10b623f81d3c74f4ec067e769726.mp3"
+        }
+      },
+      {
+        "id": 125,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「lí」对应的汉字（词：离开）",
+        "options": [],
+        "answer": "离",
+        "explanation": "「lí」对应的汉字是「离」。",
+        "audio": {
+          "question": "/audio/58/58755cead700e88b580314c1363410b4deac02be.mp3",
+          "explanation": "/audio/b6/b67cd3a0355c03e129cdeb173d011fa779569db3.mp3"
+        }
+      },
+      {
+        "id": 126,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「kuān」对应的汉字（词：宽阔）",
+        "options": [],
+        "answer": "宽",
+        "explanation": "「kuān」对应的汉字是「宽」。",
+        "audio": {
+          "question": "/audio/f9/f942a45d96588b402ea3ff162d6f29c61001c047.mp3",
+          "explanation": "/audio/53/530049f50f537f0fc1338b6d6e4f7251af735dc3.mp3"
+        }
+      },
+      {
+        "id": 127,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「龟」读作 guī。（词：乌龟）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「龟」的读音是 guī。",
+        "audio": {
+          "question": "/audio/76/7644f2128f5a6cb9165da896e4d5cb0f55debaef.mp3",
+          "explanation": "/audio/54/54e6df13eb0c11447e277e69e010ae9da4765dc0.mp3"
+        }
+      },
+      {
+        "id": 128,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「灰」读作 huài。（词：灰色）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「灰」应读 huī，不是 huài。",
+        "audio": {
+          "question": "/audio/bc/bc9bcd619b7a76d14ac419b5a02b952760bfb2a3.mp3",
+          "explanation": "/audio/2d/2d30e31bd326fa555df74b917f40b3ea54704775.mp3"
+        }
+      },
+      {
+        "id": 129,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「炸」读作 zhà。（词：炸弹）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「炸」的读音是 zhà。",
+        "audio": {
+          "question": "/audio/f3/f3739f8fe42f211fb7cf6bd3966945bb7f332bf0.mp3",
+          "explanation": "/audio/1f/1fc85fd7da026b6597df38248726b83b710bf640.mp3"
+        }
+      },
+      {
+        "id": 130,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「没」读作 bēn。（词：淹没）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「没」应读 mò，不是 bēn。",
+        "audio": {
+          "question": "/audio/fa/fa624b34a7051f9389ff23eb36376cc21f87fa26.mp3",
+          "explanation": "/audio/fa/fa7b2d2ab25cac5397744323cfdf0605c847c470.mp3"
+        }
+      },
+      {
+        "id": 131,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「察」读作 chá。（词：观察）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「察」的读音是 chá。",
+        "audio": {
+          "question": "/audio/d5/d531bb7b91ac8fefd6ff2954bd409ff065053f74.mp3",
+          "explanation": "/audio/09/09413af42b3db346fcc877115e3be9a52c653455.mp3"
+        }
+      },
+      {
+        "id": 132,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「傍」读作 bèi。（词：傍晚）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「傍」应读 bàng，不是 bèi。",
+        "audio": {
+          "question": "/audio/0b/0b553768be3231da760e4a72fd6aeff83784ea02.mp3",
+          "explanation": "/audio/14/1463a72c8f9520775413c991555103331caac9ca.mp3"
+        }
+      },
+      {
+        "id": 133,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「管」读作 guǎn。（词：管理）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「管」的读音是 guǎn。",
+        "audio": {
+          "question": "/audio/8c/8c9216aaa4f08e737256fa2e375726b81ef7fd32.mp3",
+          "explanation": "/audio/26/2601dc3fe67ecc300d5ff6d26b2e30198126998a.mp3"
+        }
+      },
+      {
+        "id": 134,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「旅」读作 lí。（词：旅行）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「旅」应读 lǚ，不是 lí。",
+        "audio": {
+          "question": "/audio/9f/9f6dda9754b589d20c690fd320137edc8945db21.mp3",
+          "explanation": "/audio/b7/b794107585fe9b108ae7089084d7603795a1ef3f.mp3"
+        }
+      },
+      {
+        "id": 135,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「晒」读作 shài。（词：晒太阳）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「晒」的读音是 shài。",
+        "audio": {
+          "question": "/audio/4a/4a6cd3feae1d93e80ade2a4a8ae52bac4955df68.mp3",
+          "explanation": "/audio/76/769c8eaabd75c1beaca48a2a494a27a5c95c48a2.mp3"
+        }
+      },
+      {
+        "id": 136,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「刺」读作 cū。（词：刺刀）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「刺」应读 cì，不是 cū。",
+        "audio": {
+          "question": "/audio/be/be0f92a741bcdb96725adcbff9aaf753fbf2febf.mp3",
+          "explanation": "/audio/37/37195a3c7b9c8884b78a71a2bf000f7ac05756bb.mp3"
+        }
+      },
+      {
+        "id": 137,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「越」读作 yuè。（词：越过）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「越」的读音是 yuè。",
+        "audio": {
+          "question": "/audio/54/54c455f32a9c1b10c5c2b9e6e455bb293c760318.mp3",
+          "explanation": "/audio/c9/c91101ae0a380629cd063d6f657e37ecbc3d8340.mp3"
+        }
+      },
+      {
+        "id": 138,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「坏」读作 huī。（词：坏人）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「坏」应读 huài，不是 huī。",
+        "audio": {
+          "question": "/audio/49/49397bb35089079ea198d294db0bb05d2e42f67e.mp3",
+          "explanation": "/audio/5d/5d7913983000c6a7ddd20ff2368a3d9a029dc1db.mp3"
+        }
+      },
+      {
+        "id": 139,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「脑」读作 nǎo。（词：脑袋）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「脑」的读音是 nǎo。",
+        "audio": {
+          "question": "/audio/a9/a939942fc8a40812e8aba99f79edd21f037b3927.mp3",
+          "explanation": "/audio/0a/0ab82c296b84af374acc3e56e3e1efb6cfa06d6e.mp3"
+        }
+      },
+      {
+        "id": 140,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「迎」读作 yí。（词：欢迎）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「迎」应读 yíng，不是 yí。",
+        "audio": {
+          "question": "/audio/e5/e5d603b16472c15395b031655c72017db0382d55.mp3",
+          "explanation": "/audio/89/89ea401e21f0c997afe82f9cb2bea374e444aac1.mp3"
+        }
+      },
+      {
+        "id": 141,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「冲」读作 chōng。（词：冲走）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「冲」的读音是 chōng。",
+        "audio": {
+          "question": "/audio/83/83f218f68fc2252603d1fd432cf6847567eee31a.mp3",
+          "explanation": "/audio/03/0320281ed73127cc900eb2f62e262f91f46618d8.mp3"
+        }
+      },
+      {
+        "id": 142,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「得」读作 dǐng。（词：得到）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「得」应读 dé，不是 dǐng。",
+        "audio": {
+          "question": "/audio/eb/eb6587b5f246b0c86216b00aa79cefb4ac2c3a84.mp3",
+          "explanation": "/audio/98/9846743e91e48f17638696b6657ffbc6812cb7fc.mp3"
+        }
+      }
+    ]
+  },
+  "exam": {
+    "title": "第1单元「第一单元 · 自然观察」综合挑战",
+    "total_score": 100,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "id": 40,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「炸」的正确读音是？（提示词：炸弹）",
+        "options": [
+          "nǎo",
+          "zhà",
+          "táng",
+          "yíng"
+        ],
+        "answer": "zhà",
+        "explanation": "「炸」读作 zhà，可以组词「炸弹」。",
+        "audio": {
+          "question": "/audio/c2/c2dbb3552a7fff8657d2d639bbfc4dcbf6c742bb.mp3",
+          "options": [
+            "/audio/pinyin/nao3.mp3",
+            "/audio/pinyin/zha4.mp3",
+            "/audio/pinyin/tang2.mp3",
+            "/audio/pinyin/ying2.mp3"
+          ],
+          "explanation": "/audio/7a/7a5de47410c1a33db4a2ba31d1dba913d7b8ce50.mp3"
+        }
+      },
+      {
+        "id": 5,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「哇」的正确读音是？（提示词：好哇）",
+        "options": [
+          "wa",
+          "ā",
+          "huī",
+          "táng"
+        ],
+        "answer": "wa",
+        "explanation": "「哇」读作 wa，可以组词「好哇」。",
+        "audio": {
+          "question": "/audio/41/41c2bce369bad119f1849fc104792282353426ea.mp3",
+          "options": [
+            "/audio/pinyin/wa0.mp3",
+            "/audio/pinyin/a1.mp3",
+            "/audio/pinyin/hui1.mp3",
+            "/audio/pinyin/tang2.mp3"
+          ],
+          "explanation": "/audio/d7/d76ad14cf6c42e806736113e87dfb08c9b7901de.mp3"
+        }
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「捕」的正确读音是？（提示词：捕捉）",
+        "options": [
+          "bǔ",
+          "dài",
+          "bēn",
+          "yí"
+        ],
+        "answer": "bǔ",
+        "explanation": "「捕」读作 bǔ，可以组词「捕捉」。",
+        "audio": {
+          "question": "/audio/3b/3b9cefe89e8ce8310ac2d71fcc3759d214423844.mp3",
+          "options": [
+            "/audio/pinyin/bu3.mp3",
+            "/audio/pinyin/dai4.mp3",
+            "/audio/pinyin/ben1.mp3",
+            "/audio/pinyin/yi2.mp3"
+          ],
+          "explanation": "/audio/8f/8f93a34bc0b49daf6bdd6bc8fe031eb8bf0e55e7.mp3"
+        }
+      },
+      {
+        "id": 86,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「lí」对应的汉字是？（词：离开）",
+        "options": [
+          "奔",
+          "离",
+          "龟",
+          "晒"
+        ],
+        "answer": "离",
+        "explanation": "「lí」写作「离」，例如「离开」。",
+        "audio": {
+          "question": "/audio/b9/b9dcb9fe1edd4e92535cfc233d37f2e78f6699dd.mp3",
+          "options": [
+            "/audio/pinyin/ben1.mp3",
+            "/audio/pinyin/li2.mp3",
+            "/audio/pinyin/gui1.mp3",
+            "/audio/pinyin/shai4.mp3"
+          ],
+          "explanation": "/audio/0b/0bb3c01b59920c26788ca8a814b058fb907da8ce.mp3"
+        }
+      },
+      {
+        "id": 54,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「yí」对应的汉字是？（词：阿姨）",
+        "options": [
+          "姨",
+          "得",
+          "旅",
+          "顶"
+        ],
+        "answer": "姨",
+        "explanation": "「yí」写作「姨」，例如「阿姨」。",
+        "audio": {
+          "question": "/audio/e7/e7852d3cd93a48475840d4c9a379f01f9f816f67.mp3",
+          "options": [
+            "/audio/pinyin/yi2.mp3",
+            "/audio/pinyin/de2.mp3",
+            "/audio/pinyin/lv3.mp3",
+            "/audio/pinyin/ding3.mp3"
+          ],
+          "explanation": "/audio/ab/abc169e2aeddec6fb39fe9e435ddbd4d485aa365.mp3"
+        }
+      },
+      {
+        "id": 78,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「wéi」对应的汉字是？（词：作为）",
+        "options": [
+          "阿",
+          "顶",
+          "为",
+          "袋"
+        ],
+        "answer": "为",
+        "explanation": "「wéi」写作「为」，例如「作为」。",
+        "audio": {
+          "question": "/audio/26/2661ae0f4ddaa2d04f73cb1e14d74c1eb5939c5a.mp3",
+          "options": [
+            "/audio/pinyin/a1.mp3",
+            "/audio/pinyin/ding3.mp3",
+            "/audio/pinyin/wei2.mp3",
+            "/audio/pinyin/dai4.mp3"
+          ],
+          "explanation": "/audio/63/635ab2195c9406d02c0a88fae2a7e7e8c32758f8.mp3"
+        }
+      },
+      {
+        "id": 96,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「没」的拼音（词：淹没）",
+        "options": [],
+        "answer": "mò",
+        "explanation": "「没」的拼音是 mò。",
+        "audio": {
+          "question": "/audio/5c/5cadc83ded0e3df5c400f9f30856f058fd3516d7.mp3",
+          "explanation": "/audio/f4/f48eecc2b82b5d3bdc82616b1f129dfaa7d34b71.mp3"
+        }
+      },
+      {
+        "id": 102,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「越」的拼音（词：越过）",
+        "options": [],
+        "answer": "yuè",
+        "explanation": "「越」的拼音是 yuè。",
+        "audio": {
+          "question": "/audio/04/0404ab53979e25f8bf4eb6a27c31d1afef97f441.mp3",
+          "explanation": "/audio/42/42e50e254241c4aafa43823f35be5b832530c766.mp3"
+        }
+      },
+      {
+        "id": 103,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「刺」的拼音（词：刺刀）",
+        "options": [],
+        "answer": "cì",
+        "explanation": "「刺」的拼音是 cì。",
+        "audio": {
+          "question": "/audio/1f/1fdd1e7d79a95c5138a2f823f9a7cd210da84280.mp3",
+          "explanation": "/audio/47/4785918f544c48ad00d61f85cc699fb222e37bee.mp3"
+        }
+      },
+      {
+        "id": 115,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「dé」对应的汉字（词：得到）",
+        "options": [],
+        "answer": "得",
+        "explanation": "「dé」对应的汉字是「得」。",
+        "audio": {
+          "question": "/audio/75/752435d0d547d0ec997cea0c944ec0a23513ddf0.mp3",
+          "explanation": "/audio/80/80f91b50fd92f157e7f2f30781ab995fd24ad19c.mp3"
+        }
+      },
+      {
+        "id": 109,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「lǚ」对应的汉字（词：旅行）",
+        "options": [],
+        "answer": "旅",
+        "explanation": "「lǚ」对应的汉字是「旅」。",
+        "audio": {
+          "question": "/audio/be/be1057e0e0176ead2cb10313a11271fc44ed2d71.mp3",
+          "explanation": "/audio/7f/7f7a64d6effa65586328c097133e8b9d5d5ff953.mp3"
+        }
+      },
+      {
+        "id": 120,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「yān」对应的汉字（词：淹没）",
+        "options": [],
+        "answer": "淹",
+        "explanation": "「yān」对应的汉字是「淹」。",
+        "audio": {
+          "question": "/audio/3c/3c3fa79bc68bf8cf03b8262e9cc31b2b59131ad2.mp3",
+          "explanation": "/audio/72/72180f4e3548face5babf4e07a10002d3237a053.mp3"
+        }
+      },
+      {
+        "id": 134,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「旅」读作 lí。（词：旅行）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「旅」应读 lǚ，不是 lí。",
+        "audio": {
+          "question": "/audio/9f/9f6dda9754b589d20c690fd320137edc8945db21.mp3",
+          "explanation": "/audio/b7/b794107585fe9b108ae7089084d7603795a1ef3f.mp3"
+        }
+      },
+      {
+        "id": 139,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「脑」读作 nǎo。（词：脑袋）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「脑」的读音是 nǎo。",
+        "audio": {
+          "question": "/audio/a9/a939942fc8a40812e8aba99f79edd21f037b3927.mp3",
+          "explanation": "/audio/0a/0ab82c296b84af374acc3e56e3e1efb6cfa06d6e.mp3"
+        }
+      },
+      {
+        "id": 140,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「迎」读作 yí。（词：欢迎）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「迎」应读 yíng，不是 yí。",
+        "audio": {
+          "question": "/audio/e5/e5d603b16472c15395b031655c72017db0382d55.mp3",
+          "explanation": "/audio/89/89ea401e21f0c997afe82f9cb2bea374e444aac1.mp3"
+        }
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "看字认拼音",
+      "core_concept": "掌握本单元 45 个生字的正确读音。",
+      "key_formula": "看字 → 想读音 → 对选项",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第一单元 · 自然观察」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "看拼音认字",
+      "core_concept": "建立拼音到字形的稳定映射。",
+      "key_formula": "拼读 → 想字形 → 对选项",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第一单元 · 自然观察」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "拼音填空",
+      "core_concept": "巩固声母、韵母与声调的书写。",
+      "key_formula": "字 → 声母 + 韵母 + 声调",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第一单元 · 自然观察」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "汉字填空",
+      "core_concept": "在语境提示下从拼音还原字形。",
+      "key_formula": "拼音 → 词义线索 → 写字",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第一单元 · 自然观察」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "读音判断",
+      "core_concept": "辨析易错读音与形近字读音。",
+      "key_formula": "对照标准读音，判断对/错",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第一单元 · 自然观察」生字表，再做练习；错题进错题本复习。"
+    }
+  ]
+}

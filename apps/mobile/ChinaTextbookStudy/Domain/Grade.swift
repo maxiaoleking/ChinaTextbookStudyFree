@@ -30,21 +30,40 @@ enum Grade {
             return u == c
 
         case .choice:
-            let u = String(trimmed.uppercased().first ?? " ")
-            var c = String(correct.trimmingCharacters(in: .whitespacesAndNewlines).uppercased().first ?? " ")
-            // If `answer` is not a single A-D letter, look it up in options.
-            let isLetter = c.count == 1 && (c >= "A" && c <= "D")
-            if !isLetter, !question.options.isEmpty {
+            // 用户侧只可能是选项字母或选项正文；标准答案可能是 "B" 或正文（含拼音 dì/bà 等）。
+            // 禁止把答案首字母 d 误当成选项 D —— 仅当整串是 A-D 单字母时才按字母解释。
+            let uRaw = trimmed
+            var cLetter: String? = nil
+            let correctTrimmed = correct.trimmingCharacters(in: .whitespacesAndNewlines)
+            if correctTrimmed.count == 1, let scal = correctTrimmed.uppercased().unicodeScalars.first,
+               scal.value >= 65, scal.value <= 68 {
+                cLetter = correctTrimmed.uppercased()
+            } else if !question.options.isEmpty {
                 let cn = normalize(correct)
-                let idx = question.options.firstIndex { opt in
+                if let idx = question.options.firstIndex(where: { opt in
                     let stripped = stripOptionPrefix(opt)
                     return normalize(opt) == cn || normalize(stripped) == cn
-                }
-                if let idx, idx < 4 {
-                    c = String(UnicodeScalar(65 + idx)!)
+                }), idx < 4 {
+                    cLetter = String(UnicodeScalar(65 + idx)!)
                 }
             }
-            return u == c
+            guard let cLetter else {
+                return normalize(userAnswer) == normalize(correct)
+            }
+            if uRaw.count == 1, let us = uRaw.uppercased().unicodeScalars.first,
+               us.value >= 65, us.value <= 68 {
+                return uRaw.uppercased() == cLetter
+            }
+            if !question.options.isEmpty {
+                let un = normalize(userAnswer)
+                if let idx = question.options.firstIndex(where: { opt in
+                    let stripped = stripOptionPrefix(opt)
+                    return normalize(opt) == un || normalize(stripped) == un
+                }), idx < 4 {
+                    return String(UnicodeScalar(65 + idx)!) == cLetter
+                }
+            }
+            return false
 
         case .fillBlank, .calculation, .wordProblem:
             if normalize(userAnswer) == normalize(correct) { return true }

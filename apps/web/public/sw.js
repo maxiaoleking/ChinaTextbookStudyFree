@@ -10,10 +10,11 @@
  * next 静态导出（output: "export"）下手写注册即可，注册脚本在 layout.tsx。
  */
 
-const VERSION = "v1";
+const VERSION = "v6"; // 新增写字科目：/data 是 stale-while-revalidate，不换代会让老设备看不到新课本
 const SHELL_CACHE = `ctsf-shell-${VERSION}`;
 const DATA_CACHE = `ctsf-data-${VERSION}`;
 const STATIC_CACHE = `ctsf-static-${VERSION}`;
+const POLLY_CACHE = `ctsf-polly-${VERSION}`;
 
 const SHELL_PRECACHE = [
   "/",
@@ -34,7 +35,7 @@ self.addEventListener("install", event => {
 });
 
 self.addEventListener("activate", event => {
-  const keep = new Set([SHELL_CACHE, DATA_CACHE, STATIC_CACHE]);
+  const keep = new Set([SHELL_CACHE, DATA_CACHE, STATIC_CACHE, POLLY_CACHE]);
   event.waitUntil(
     caches
       .keys()
@@ -88,6 +89,16 @@ self.addEventListener("fetch", event => {
   const { request } = event;
   if (request.method !== "GET") return;
   const url = new URL(request.url);
+
+  // 在线加强：Panda Polly 拼音/汉字发音 —— 缓存优先 + 网络回填
+  if (
+    url.hostname.endsWith("pandalearnchinese.com") &&
+    url.pathname.startsWith("/polly/speak/")
+  ) {
+    event.respondWith(cacheFirst(POLLY_CACHE, request));
+    return;
+  }
+
   if (url.origin !== self.location.origin) return;
 
   // 课程 JSON 与音频：stale-while-revalidate

@@ -1,0 +1,1196 @@
+{
+  "textbook": "CCSS 美国小学英语一年级上册",
+  "unit": "阅读理解 · Reading Comprehension",
+  "unit_number": 8,
+  "unit_test": {
+    "title": "Unit 8「阅读理解 · Reading Comprehension」英文练习",
+    "total_score": 100,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "knowledge_point": "细节理解",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Max is a brown dog. He likes to run in the yard. Every morning he brings his ball to the door. What color is Max?",
+        "options": [
+          "black",
+          "white",
+          "brown",
+          "red"
+        ],
+        "answer": "brown",
+        "explanation": "Max is a brown dog. He likes to run in the yard. Every morning he brings his ball to the door. The story says Max is a brown dog."
+      },
+      {
+        "id": 5,
+        "knowledge_point": "细节理解",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Ana puts a seed in a cup. She sets the cup on the window. She gives it water every day. A green shoot comes up. What does Ana put in the cup?",
+        "options": [
+          "a seed",
+          "a stone",
+          "an egg",
+          "a coin"
+        ],
+        "answer": "a seed",
+        "explanation": "Ana puts a seed in a cup. She sets the cup on the window. She gives it water every day. A green shoot comes up. Ana puts a seed in a cup."
+      },
+      {
+        "id": 9,
+        "knowledge_point": "细节理解",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: The rain stops. Tim puts on his boots. He jumps in a big puddle. The water goes up, and he laughs. What does Tim put on?",
+        "options": [
+          "his shoes",
+          "his coat",
+          "his boots",
+          "his hat"
+        ],
+        "answer": "his boots",
+        "explanation": "The rain stops. Tim puts on his boots. He jumps in a big puddle. The water goes up, and he laughs. Tim puts on his boots."
+      },
+      {
+        "id": 13,
+        "knowledge_point": "细节理解",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Mia has a red umbrella. It is windy. The umbrella turns up and flips. Mia laughs and runs home. What color is Mia's umbrella?",
+        "options": [
+          "blue",
+          "red",
+          "pink",
+          "black"
+        ],
+        "answer": "red",
+        "explanation": "Mia has a red umbrella. It is windy. The umbrella turns up and flips. Mia laughs and runs home. Mia has a red umbrella."
+      },
+      {
+        "id": 17,
+        "knowledge_point": "细节理解",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Ben finds a small bird under the bus. It cannot fly. Ben carries it to the grass. The bird hops away. Where does Ben find the bird?",
+        "options": [
+          "under the bus",
+          "on his bed",
+          "in a tree",
+          "in the grass"
+        ],
+        "answer": "under the bus",
+        "explanation": "Ben finds a small bird under the bus. It cannot fly. Ben carries it to the grass. The bird hops away. Ben finds the bird under the bus."
+      },
+      {
+        "id": 21,
+        "knowledge_point": "细节理解",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Sara and Sam share one cake. Sara cuts it in two. Sam takes the bigger piece, then gives the rest to Sara. Who cuts the cake?",
+        "options": [
+          "Sara",
+          "Mom",
+          "the teacher",
+          "Sam"
+        ],
+        "answer": "Sara",
+        "explanation": "Sara and Sam share one cake. Sara cuts it in two. Sam takes the bigger piece, then gives the rest to Sara. Sara cuts the cake in two."
+      },
+      {
+        "id": 25,
+        "knowledge_point": "细节理解",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: The moon is up. It looks like a banana. Tom draws the moon and the stars. He puts the paper on his wall. What does the moon look like?",
+        "options": [
+          "a ball",
+          "a shoe",
+          "a banana",
+          "a boat"
+        ],
+        "answer": "a banana",
+        "explanation": "The moon is up. It looks like a banana. Tom draws the moon and the stars. He puts the paper on his wall. The story says the moon looks like a banana."
+      },
+      {
+        "id": 29,
+        "knowledge_point": "细节理解",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Cows live on the farm. They eat green grass. A farmer milks them twice a day. The milk goes to the store. What do cows eat?",
+        "options": [
+          "red apples",
+          "white rice",
+          "green grass",
+          "dry leaves"
+        ],
+        "answer": "green grass",
+        "explanation": "Cows live on the farm. They eat green grass. A farmer milks them twice a day. The milk goes to the store. The cows eat green grass."
+      },
+      {
+        "id": 33,
+        "knowledge_point": "细节理解",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: It is cold. Lily wears her coat, her hat, and her mittens. She makes a snowman with a carrot nose. What is on the snowman's nose?",
+        "options": [
+          "a button",
+          "a carrot",
+          "a stone",
+          "a leaf"
+        ],
+        "answer": "a carrot",
+        "explanation": "It is cold. Lily wears her coat, her hat, and her mittens. She makes a snowman with a carrot nose. The snowman has a carrot nose."
+      },
+      {
+        "id": 37,
+        "knowledge_point": "细节理解",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: The class sees a caterpillar on the window. It eats a leaf. Two weeks later it is a butterfly and flies away. What does the caterpillar eat?",
+        "options": [
+          "a crumb of bread",
+          "a leaf",
+          "a pen",
+          "a small stone"
+        ],
+        "answer": "a leaf",
+        "explanation": "The class sees a caterpillar on the window. It eats a leaf. Two weeks later it is a butterfly and flies away. The caterpillar eats a leaf."
+      },
+      {
+        "id": 41,
+        "knowledge_point": "细节理解",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Owen is late for school. He runs down the street. He forgets his bag at home and must walk back. What does Owen forget?",
+        "options": [
+          "his bag",
+          "his key",
+          "his shoe",
+          "his hat"
+        ],
+        "answer": "his bag",
+        "explanation": "Owen is late for school. He runs down the street. He forgets his bag at home and must walk back. Owen forgets his bag at home."
+      },
+      {
+        "id": 45,
+        "knowledge_point": "细节理解",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Bees fly to the flowers. They take the sweet nectar home. Bees make honey in the hive for the winter. Where do the bees fly?",
+        "options": [
+          "to the river",
+          "to the store",
+          "to the flowers",
+          "to the moon"
+        ],
+        "answer": "to the flowers",
+        "explanation": "Bees fly to the flowers. They take the sweet nectar home. Bees make honey in the hive for the winter. The bees fly to the flowers."
+      },
+      {
+        "id": 2,
+        "knowledge_point": "因果与顺序",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Max is a brown dog. He likes to run in the yard. Every morning he brings his ball to the door. When does Max bring his ball to the door?",
+        "options": [
+          "every morning",
+          "after lunch",
+          "on Sunday",
+          "at night"
+        ],
+        "answer": "every morning",
+        "explanation": "Max is a brown dog. He likes to run in the yard. Every morning he brings his ball to the door. The story says every morning he brings his ball."
+      },
+      {
+        "id": 6,
+        "knowledge_point": "因果与顺序",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Ana puts a seed in a cup. She sets the cup on the window. She gives it water every day. A green shoot comes up. Why does Ana give the cup water?",
+        "options": [
+          "so the seed can grow",
+          "so it gets warm",
+          "so it stays clean",
+          "so she can drink it"
+        ],
+        "answer": "so the seed can grow",
+        "explanation": "Ana puts a seed in a cup. She sets the cup on the window. She gives it water every day. A green shoot comes up. Water helps the seed grow; that is why a shoot comes up."
+      },
+      {
+        "id": 10,
+        "knowledge_point": "因果与顺序",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: The rain stops. Tim puts on his boots. He jumps in a big puddle. The water goes up, and he laughs. Why does the water go up?",
+        "options": [
+          "because Tim digs it",
+          "because it is cold",
+          "because the rain comes back",
+          "because Tim jumps in it"
+        ],
+        "answer": "because Tim jumps in it",
+        "explanation": "The rain stops. Tim puts on his boots. He jumps in a big puddle. The water goes up, and he laughs. He jumps in the puddle, so the water splashes up."
+      },
+      {
+        "id": 14,
+        "knowledge_point": "因果与顺序",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Mia has a red umbrella. It is windy. The umbrella turns up and flips. Mia laughs and runs home. Why does the umbrella flip?",
+        "options": [
+          "because Mia runs fast",
+          "because it is windy",
+          "because it rains hard",
+          "because it is old"
+        ],
+        "answer": "because it is windy",
+        "explanation": "Mia has a red umbrella. It is windy. The umbrella turns up and flips. Mia laughs and runs home. The wind turns the umbrella up so it flips."
+      },
+      {
+        "id": 18,
+        "knowledge_point": "因果与顺序",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Ben finds a small bird under the bus. It cannot fly. Ben carries it to the grass. The bird hops away. Why does Ben carry the bird to the grass?",
+        "options": [
+          "because he is late",
+          "because it cannot fly",
+          "because the bus is gone",
+          "because it is hungry"
+        ],
+        "answer": "because it cannot fly",
+        "explanation": "Ben finds a small bird under the bus. It cannot fly. Ben carries it to the grass. The bird hops away. The bird cannot fly, so Ben helps it to the grass."
+      },
+      {
+        "id": 22,
+        "knowledge_point": "因果与顺序",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Sara and Sam share one cake. Sara cuts it in two. Sam takes the bigger piece, then gives the rest to Sara. Why can we say Sam is kind?",
+        "options": [
+          "he eats the whole cake",
+          "he cuts the cake",
+          "he gives the rest to Sara",
+          "he goes home"
+        ],
+        "answer": "he gives the rest to Sara",
+        "explanation": "Sara and Sam share one cake. Sara cuts it in two. Sam takes the bigger piece, then gives the rest to Sara. Sam gives the rest of his piece to Sara."
+      },
+      {
+        "id": 26,
+        "knowledge_point": "因果与顺序",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: The moon is up. It looks like a banana. Tom draws the moon and the stars. He puts the paper on his wall. Why does Tom draw the moon?",
+        "options": [
+          "because it looks interesting",
+          "because he is lost",
+          "because his teacher says so",
+          "because it is dark outside"
+        ],
+        "answer": "because it looks interesting",
+        "explanation": "The moon is up. It looks like a banana. Tom draws the moon and the stars. He puts the paper on his wall. The shape of the moon makes Tom want to draw it."
+      },
+      {
+        "id": 30,
+        "knowledge_point": "因果与顺序",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Cows live on the farm. They eat green grass. A farmer milks them twice a day. The milk goes to the store. Where does the milk go after the farm?",
+        "options": [
+          "to the store",
+          "to the school",
+          "to the moon",
+          "to the river"
+        ],
+        "answer": "to the store",
+        "explanation": "Cows live on the farm. They eat green grass. A farmer milks them twice a day. The milk goes to the store. The last sentence says the milk goes to the store."
+      },
+      {
+        "id": 34,
+        "knowledge_point": "因果与顺序",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: It is cold. Lily wears her coat, her hat, and her mittens. She makes a snowman with a carrot nose. Why does Lily wear mittens?",
+        "options": [
+          "because her hands are cold",
+          "because she is late",
+          "because she lost her gloves",
+          "because it is dark"
+        ],
+        "answer": "because her hands are cold",
+        "explanation": "It is cold. Lily wears her coat, her hat, and her mittens. She makes a snowman with a carrot nose. It is cold, so mittens keep her hands warm."
+      },
+      {
+        "id": 38,
+        "knowledge_point": "因果与顺序",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: The class sees a caterpillar on the window. It eats a leaf. Two weeks later it is a butterfly and flies away. What happens two weeks later?",
+        "options": [
+          "it grows bigger leaves",
+          "it loses its tail",
+          "it comes back to the class",
+          "it becomes a butterfly"
+        ],
+        "answer": "it becomes a butterfly",
+        "explanation": "The class sees a caterpillar on the window. It eats a leaf. Two weeks later it is a butterfly and flies away. The story says that after two weeks it is a butterfly."
+      },
+      {
+        "id": 42,
+        "knowledge_point": "因果与顺序",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Owen is late for school. He runs down the street. He forgets his bag at home and must walk back. Why must Owen walk back home?",
+        "options": [
+          "to get his bag",
+          "to meet his teacher",
+          "to feed his dog",
+          "to find his shoe"
+        ],
+        "answer": "to get his bag",
+        "explanation": "Owen is late for school. He runs down the street. He forgets his bag at home and must walk back. He left his bag at home, so he goes back for it."
+      },
+      {
+        "id": 46,
+        "knowledge_point": "因果与顺序",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Bees fly to the flowers. They take the sweet nectar home. Bees make honey in the hive for the winter. Why do bees make honey?",
+        "options": [
+          "to warm the sun",
+          "to have food in winter",
+          "to feed the birds",
+          "to water the plants"
+        ],
+        "answer": "to have food in winter",
+        "explanation": "Bees fly to the flowers. They take the sweet nectar home. Bees make honey in the hive for the winter. The honey is made for the winter."
+      },
+      {
+        "id": 3,
+        "knowledge_point": "主旨大意",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Max is a brown dog. He likes to run in the yard. Every morning he brings his ball to the door. What is this story mostly about?",
+        "options": [
+          "a fish in a pond",
+          "a bird in a tree",
+          "a cat on a bed",
+          "a dog and his morning ball"
+        ],
+        "answer": "a dog and his morning ball",
+        "explanation": "Max is a brown dog. He likes to run in the yard. Every morning he brings his ball to the door. All three sentences are about Max the dog and his ball."
+      },
+      {
+        "id": 7,
+        "knowledge_point": "主旨大意",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Ana puts a seed in a cup. She sets the cup on the window. She gives it water every day. A green shoot comes up. What is this story about?",
+        "options": [
+          "a window in the rain",
+          "a girl cleaning her room",
+          "a cup lost at school",
+          "a seed growing into a plant"
+        ],
+        "answer": "a seed growing into a plant",
+        "explanation": "Ana puts a seed in a cup. She sets the cup on the window. She gives it water every day. A green shoot comes up. The story follows a seed that gets water and grows."
+      },
+      {
+        "id": 11,
+        "knowledge_point": "主旨大意",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: The rain stops. Tim puts on his boots. He jumps in a big puddle. The water goes up, and he laughs. What is this story mostly about?",
+        "options": [
+          "walking to school",
+          "jumping in a puddle after rain",
+          "sleeping in the rain",
+          "buying new boots"
+        ],
+        "answer": "jumping in a puddle after rain",
+        "explanation": "The rain stops. Tim puts on his boots. He jumps in a big puddle. The water goes up, and he laughs. The story is about playing in a puddle when the rain stops."
+      },
+      {
+        "id": 15,
+        "knowledge_point": "主旨大意",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Mia has a red umbrella. It is windy. The umbrella turns up and flips. Mia laughs and runs home. What is this story about?",
+        "options": [
+          "a windy day with an umbrella",
+          "a rainy day at school",
+          "Mia's lost bag",
+          "a new red coat"
+        ],
+        "answer": "a windy day with an umbrella",
+        "explanation": "Mia has a red umbrella. It is windy. The umbrella turns up and flips. Mia laughs and runs home. The umbrella flips because of the wind."
+      },
+      {
+        "id": 19,
+        "knowledge_point": "主旨大意",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Ben finds a small bird under the bus. It cannot fly. Ben carries it to the grass. The bird hops away. What is this story mostly about?",
+        "options": [
+          "a game in the grass",
+          "a bird that can talk",
+          "a boy helping a small bird",
+          "a bus that is late"
+        ],
+        "answer": "a boy helping a small bird",
+        "explanation": "Ben finds a small bird under the bus. It cannot fly. Ben carries it to the grass. The bird hops away. The story is about Ben helping a bird that cannot fly."
+      },
+      {
+        "id": 23,
+        "knowledge_point": "主旨大意",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Sara and Sam share one cake. Sara cuts it in two. Sam takes the bigger piece, then gives the rest to Sara. What is this story about?",
+        "options": [
+          "a birthday party at school",
+          "two children sharing a cake",
+          "a cake left in the oven",
+          "Sara's new knife"
+        ],
+        "answer": "two children sharing a cake",
+        "explanation": "Sara and Sam share one cake. Sara cuts it in two. Sam takes the bigger piece, then gives the rest to Sara. The cake story is about sharing."
+      },
+      {
+        "id": 27,
+        "knowledge_point": "主旨大意",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: The moon is up. It looks like a banana. Tom draws the moon and the stars. He puts the paper on his wall. What is this story mostly about?",
+        "options": [
+          "a boy eating a banana",
+          "a boy drawing the night sky",
+          "a lost paper",
+          "a walk to school"
+        ],
+        "answer": "a boy drawing the night sky",
+        "explanation": "The moon is up. It looks like a banana. Tom draws the moon and the stars. He puts the paper on his wall. Tom draws the moon and the stars."
+      },
+      {
+        "id": 31,
+        "knowledge_point": "主旨大意",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Cows live on the farm. They eat green grass. A farmer milks them twice a day. The milk goes to the store. What is this story about?",
+        "options": [
+          "a store full of toys",
+          "milk coming from farm cows",
+          "grass in the park",
+          "a farmer's lost cow"
+        ],
+        "answer": "milk coming from farm cows",
+        "explanation": "Cows live on the farm. They eat green grass. A farmer milks them twice a day. The milk goes to the store. The story follows cows, milk, and where the milk goes."
+      },
+      {
+        "id": 35,
+        "knowledge_point": "主旨大意",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: It is cold. Lily wears her coat, her hat, and her mittens. She makes a snowman with a carrot nose. What is this story mostly about?",
+        "options": [
+          "buying a new coat",
+          "a lost carrot",
+          "Lily's long walk home",
+          "making a snowman on a cold day"
+        ],
+        "answer": "making a snowman on a cold day",
+        "explanation": "It is cold. Lily wears her coat, her hat, and her mittens. She makes a snowman with a carrot nose. Lily dresses for the cold and builds a snowman."
+      },
+      {
+        "id": 39,
+        "knowledge_point": "主旨大意",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: The class sees a caterpillar on the window. It eats a leaf. Two weeks later it is a butterfly and flies away. What is this story about?",
+        "options": [
+          "a class cleaning the window",
+          "a caterpillar turning into a butterfly",
+          "a leaf lost in the wind",
+          "a butterfly that cannot fly"
+        ],
+        "answer": "a caterpillar turning into a butterfly",
+        "explanation": "The class sees a caterpillar on the window. It eats a leaf. Two weeks later it is a butterfly and flies away. The story is about the change from caterpillar to butterfly."
+      },
+      {
+        "id": 43,
+        "knowledge_point": "主旨大意",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Owen is late for school. He runs down the street. He forgets his bag at home and must walk back. What is this story mostly about?",
+        "options": [
+          "a long walk to the farm",
+          "a late morning before school",
+          "a game of tag",
+          "a new bag for school"
+        ],
+        "answer": "a late morning before school",
+        "explanation": "Owen is late for school. He runs down the street. He forgets his bag at home and must walk back. Everything in the story happens because Owen is late."
+      },
+      {
+        "id": 47,
+        "knowledge_point": "主旨大意",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Bees fly to the flowers. They take the sweet nectar home. Bees make honey in the hive for the winter. What is this story about?",
+        "options": [
+          "a bird and a bee",
+          "flowers in a field",
+          "bees making honey",
+          "a cold winter day"
+        ],
+        "answer": "bees making honey",
+        "explanation": "Bees fly to the flowers. They take the sweet nectar home. Bees make honey in the hive for the winter. The story explains how bees turn nectar into honey."
+      },
+      {
+        "id": 4,
+        "knowledge_point": "词义猜测",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Max is a brown dog. He likes to run in the yard. Every morning he brings his ball to the door. In the story, yard means ___.",
+        "options": [
+          "a bed for a dog",
+          "a kind of ball",
+          "the ground next to a house",
+          "a place to buy milk"
+        ],
+        "answer": "the ground next to a house",
+        "explanation": "Max is a brown dog. He likes to run in the yard. Every morning he brings his ball to the door. A yard is the ground around a house."
+      },
+      {
+        "id": 8,
+        "knowledge_point": "词义猜测",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Ana puts a seed in a cup. She sets the cup on the window. She gives it water every day. A green shoot comes up. In the story, a shoot is ___.",
+        "options": [
+          "the name for water",
+          "a small stone",
+          "a kind of cup",
+          "the first green growth of a plant"
+        ],
+        "answer": "the first green growth of a plant",
+        "explanation": "Ana puts a seed in a cup. She sets the cup on the window. She gives it water every day. A green shoot comes up. A shoot is the young green part that comes up."
+      },
+      {
+        "id": 12,
+        "knowledge_point": "词义猜测",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: The rain stops. Tim puts on his boots. He jumps in a big puddle. The water goes up, and he laughs. A puddle is ___.",
+        "options": [
+          "a kind of hat",
+          "a loud noise",
+          "a pair of boots",
+          "a small pool of water on the ground"
+        ],
+        "answer": "a small pool of water on the ground",
+        "explanation": "The rain stops. Tim puts on his boots. He jumps in a big puddle. The water goes up, and he laughs. A puddle is a little pool of water on the ground."
+      },
+      {
+        "id": 16,
+        "knowledge_point": "词义猜测",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Mia has a red umbrella. It is windy. The umbrella turns up and flips. Mia laughs and runs home. Windy means ___.",
+        "options": [
+          "the ground is wet",
+          "it is very hot",
+          "the sky is dark",
+          "the air is moving a lot"
+        ],
+        "answer": "the air is moving a lot",
+        "explanation": "Mia has a red umbrella. It is windy. The umbrella turns up and flips. Mia laughs and runs home. Windy describes weather with moving air."
+      },
+      {
+        "id": 20,
+        "knowledge_point": "词义猜测",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Ben finds a small bird under the bus. It cannot fly. Ben carries it to the grass. The bird hops away. In the story, hops means ___.",
+        "options": [
+          "swims fast",
+          "flies high",
+          "jumps on small feet",
+          "sleeps deep"
+        ],
+        "answer": "jumps on small feet",
+        "explanation": "Ben finds a small bird under the bus. It cannot fly. Ben carries it to the grass. The bird hops away. Birds hop; they take small jumps."
+      },
+      {
+        "id": 24,
+        "knowledge_point": "词义猜测",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Sara and Sam share one cake. Sara cuts it in two. Sam takes the bigger piece, then gives the rest to Sara. Share means ___.",
+        "options": [
+          "to cook food",
+          "to give part of something",
+          "to hide a cake",
+          "to eat all by yourself"
+        ],
+        "answer": "to give part of something",
+        "explanation": "Sara and Sam share one cake. Sara cuts it in two. Sam takes the bigger piece, then gives the rest to Sara. To share is to give part of what you have."
+      },
+      {
+        "id": 28,
+        "knowledge_point": "词义猜测",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: The moon is up. It looks like a banana. Tom draws the moon and the stars. He puts the paper on his wall. A wall is ___.",
+        "options": [
+          "a kind of light",
+          "the side of a room",
+          "a place to sleep",
+          "a drawing tool"
+        ],
+        "answer": "the side of a room",
+        "explanation": "The moon is up. It looks like a banana. Tom draws the moon and the stars. He puts the paper on his wall. A wall is the side of a room."
+      },
+      {
+        "id": 32,
+        "knowledge_point": "词义猜测",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Cows live on the farm. They eat green grass. A farmer milks them twice a day. The milk goes to the store. A farmer is the person who ___.",
+        "options": [
+          "takes care of farm animals",
+          "fixes cars",
+          "drives a school bus",
+          "sells shoes"
+        ],
+        "answer": "takes care of farm animals",
+        "explanation": "Cows live on the farm. They eat green grass. A farmer milks them twice a day. The milk goes to the store. A farmer works on a farm with the animals."
+      },
+      {
+        "id": 36,
+        "knowledge_point": "词义猜测",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: It is cold. Lily wears her coat, her hat, and her mittens. She makes a snowman with a carrot nose. Mittens are worn on the ___.",
+        "options": [
+          "back",
+          "head",
+          "feet",
+          "hands"
+        ],
+        "answer": "hands",
+        "explanation": "It is cold. Lily wears her coat, her hat, and her mittens. She makes a snowman with a carrot nose. Mittens keep your hands warm."
+      },
+      {
+        "id": 40,
+        "knowledge_point": "词义猜测",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: The class sees a caterpillar on the window. It eats a leaf. Two weeks later it is a butterfly and flies away. A caterpillar is ___.",
+        "options": [
+          "a big bird in a tree",
+          "a cold day of rain",
+          "a kind of green leaf",
+          "a small insect that looks like a worm"
+        ],
+        "answer": "a small insect that looks like a worm",
+        "explanation": "The class sees a caterpillar on the window. It eats a leaf. Two weeks later it is a butterfly and flies away. A caterpillar is the young, crawling stage of a butterfly."
+      },
+      {
+        "id": 44,
+        "knowledge_point": "词义猜测",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Owen is late for school. He runs down the street. He forgets his bag at home and must walk back. If you are late, you are ___.",
+        "options": [
+          "far away",
+          "still asleep",
+          "very fast",
+          "not on time"
+        ],
+        "answer": "not on time",
+        "explanation": "Owen is late for school. He runs down the street. He forgets his bag at home and must walk back. Late means not on time."
+      },
+      {
+        "id": 48,
+        "knowledge_point": "词义猜测",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Bees fly to the flowers. They take the sweet nectar home. Bees make honey in the hive for the winter. A hive is the bees' ___.",
+        "options": [
+          "wing",
+          "flower",
+          "home",
+          "song"
+        ],
+        "answer": "home",
+        "explanation": "Bees fly to the flowers. They take the sweet nectar home. Bees make honey in the hive for the winter. A hive is where bees live and make honey."
+      },
+      {
+        "id": 49,
+        "knowledge_point": "故事排序",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the sentences in story order.",
+        "options": [
+          "The bee comes.",
+          "The flower opens.",
+          "The seed grows."
+        ],
+        "answer": "The seed grows.,The flower opens.,The bee comes.",
+        "explanation": "The seed grows. The flower opens. The bee comes."
+      },
+      {
+        "id": 50,
+        "knowledge_point": "故事排序",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the sentences in story order.",
+        "options": [
+          "I put on my coat.",
+          "I play in the snow.",
+          "I go outside."
+        ],
+        "answer": "I put on my coat.,I go outside.,I play in the snow.",
+        "explanation": "I put on my coat. I go outside. I play in the snow."
+      },
+      {
+        "id": 51,
+        "knowledge_point": "故事排序",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the sentences in story order.",
+        "options": [
+          "He puts his bone in.",
+          "He walks away.",
+          "Max digs a hole."
+        ],
+        "answer": "Max digs a hole.,He puts his bone in.,He walks away.",
+        "explanation": "Max digs a hole. He puts his bone in. He walks away."
+      },
+      {
+        "id": 52,
+        "knowledge_point": "故事排序",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the sentences in story order.",
+        "options": [
+          "Ana waters the cup.",
+          "A leaf opens.",
+          "A shoot comes up."
+        ],
+        "answer": "Ana waters the cup.,A shoot comes up.,A leaf opens.",
+        "explanation": "Ana waters the cup. A shoot comes up. A leaf opens."
+      },
+      {
+        "id": 53,
+        "knowledge_point": "故事排序",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the sentences in story order.",
+        "options": [
+          "He runs to the door.",
+          "He opens it wide.",
+          "Tim hears the bell."
+        ],
+        "answer": "Tim hears the bell.,He runs to the door.,He opens it wide.",
+        "explanation": "Tim hears the bell. He runs to the door. He opens it wide."
+      },
+      {
+        "id": 54,
+        "knowledge_point": "故事排序",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the sentences in story order.",
+        "options": [
+          "It pecks the ground.",
+          "A chick comes out.",
+          "The hen lays an egg."
+        ],
+        "answer": "The hen lays an egg.,A chick comes out.,It pecks the ground.",
+        "explanation": "The hen lays an egg. A chick comes out. It pecks the ground."
+      },
+      {
+        "id": 55,
+        "knowledge_point": "故事排序",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the sentences in story order.",
+        "options": [
+          "We draw a new end.",
+          "We talk about it.",
+          "We read the book."
+        ],
+        "answer": "We read the book.,We talk about it.,We draw a new end.",
+        "explanation": "We read the book. We talk about it. We draw a new end."
+      },
+      {
+        "id": 56,
+        "knowledge_point": "故事排序",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the sentences in story order.",
+        "options": [
+          "He packs his bag.",
+          "He goes to bed.",
+          "Sam eats his lunch."
+        ],
+        "answer": "Sam eats his lunch.,He packs his bag.,He goes to bed.",
+        "explanation": "Sam eats his lunch. He packs his bag. He goes to bed."
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 8「阅读理解 · Reading Comprehension」综合挑战",
+    "total_score": 100,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "id": 21,
+        "knowledge_point": "细节理解",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Sara and Sam share one cake. Sara cuts it in two. Sam takes the bigger piece, then gives the rest to Sara. Who cuts the cake?",
+        "options": [
+          "Sara",
+          "Mom",
+          "the teacher",
+          "Sam"
+        ],
+        "answer": "Sara",
+        "explanation": "Sara and Sam share one cake. Sara cuts it in two. Sam takes the bigger piece, then gives the rest to Sara. Sara cuts the cake in two."
+      },
+      {
+        "id": 1,
+        "knowledge_point": "细节理解",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Max is a brown dog. He likes to run in the yard. Every morning he brings his ball to the door. What color is Max?",
+        "options": [
+          "black",
+          "white",
+          "brown",
+          "red"
+        ],
+        "answer": "brown",
+        "explanation": "Max is a brown dog. He likes to run in the yard. Every morning he brings his ball to the door. The story says Max is a brown dog."
+      },
+      {
+        "id": 37,
+        "knowledge_point": "细节理解",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: The class sees a caterpillar on the window. It eats a leaf. Two weeks later it is a butterfly and flies away. What does the caterpillar eat?",
+        "options": [
+          "a crumb of bread",
+          "a leaf",
+          "a pen",
+          "a small stone"
+        ],
+        "answer": "a leaf",
+        "explanation": "The class sees a caterpillar on the window. It eats a leaf. Two weeks later it is a butterfly and flies away. The caterpillar eats a leaf."
+      },
+      {
+        "id": 6,
+        "knowledge_point": "因果与顺序",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Ana puts a seed in a cup. She sets the cup on the window. She gives it water every day. A green shoot comes up. Why does Ana give the cup water?",
+        "options": [
+          "so the seed can grow",
+          "so it gets warm",
+          "so it stays clean",
+          "so she can drink it"
+        ],
+        "answer": "so the seed can grow",
+        "explanation": "Ana puts a seed in a cup. She sets the cup on the window. She gives it water every day. A green shoot comes up. Water helps the seed grow; that is why a shoot comes up."
+      },
+      {
+        "id": 26,
+        "knowledge_point": "因果与顺序",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: The moon is up. It looks like a banana. Tom draws the moon and the stars. He puts the paper on his wall. Why does Tom draw the moon?",
+        "options": [
+          "because it looks interesting",
+          "because he is lost",
+          "because his teacher says so",
+          "because it is dark outside"
+        ],
+        "answer": "because it looks interesting",
+        "explanation": "The moon is up. It looks like a banana. Tom draws the moon and the stars. He puts the paper on his wall. The shape of the moon makes Tom want to draw it."
+      },
+      {
+        "id": 34,
+        "knowledge_point": "因果与顺序",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: It is cold. Lily wears her coat, her hat, and her mittens. She makes a snowman with a carrot nose. Why does Lily wear mittens?",
+        "options": [
+          "because her hands are cold",
+          "because she is late",
+          "because she lost her gloves",
+          "because it is dark"
+        ],
+        "answer": "because her hands are cold",
+        "explanation": "It is cold. Lily wears her coat, her hat, and her mittens. She makes a snowman with a carrot nose. It is cold, so mittens keep her hands warm."
+      },
+      {
+        "id": 35,
+        "knowledge_point": "主旨大意",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: It is cold. Lily wears her coat, her hat, and her mittens. She makes a snowman with a carrot nose. What is this story mostly about?",
+        "options": [
+          "buying a new coat",
+          "a lost carrot",
+          "Lily's long walk home",
+          "making a snowman on a cold day"
+        ],
+        "answer": "making a snowman on a cold day",
+        "explanation": "It is cold. Lily wears her coat, her hat, and her mittens. She makes a snowman with a carrot nose. Lily dresses for the cold and builds a snowman."
+      },
+      {
+        "id": 19,
+        "knowledge_point": "主旨大意",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Ben finds a small bird under the bus. It cannot fly. Ben carries it to the grass. The bird hops away. What is this story mostly about?",
+        "options": [
+          "a game in the grass",
+          "a bird that can talk",
+          "a boy helping a small bird",
+          "a bus that is late"
+        ],
+        "answer": "a boy helping a small bird",
+        "explanation": "Ben finds a small bird under the bus. It cannot fly. Ben carries it to the grass. The bird hops away. The story is about Ben helping a bird that cannot fly."
+      },
+      {
+        "id": 31,
+        "knowledge_point": "主旨大意",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Cows live on the farm. They eat green grass. A farmer milks them twice a day. The milk goes to the store. What is this story about?",
+        "options": [
+          "a store full of toys",
+          "milk coming from farm cows",
+          "grass in the park",
+          "a farmer's lost cow"
+        ],
+        "answer": "milk coming from farm cows",
+        "explanation": "Cows live on the farm. They eat green grass. A farmer milks them twice a day. The milk goes to the store. The story follows cows, milk, and where the milk goes."
+      },
+      {
+        "id": 28,
+        "knowledge_point": "词义猜测",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: The moon is up. It looks like a banana. Tom draws the moon and the stars. He puts the paper on his wall. A wall is ___.",
+        "options": [
+          "a kind of light",
+          "the side of a room",
+          "a place to sleep",
+          "a drawing tool"
+        ],
+        "answer": "the side of a room",
+        "explanation": "The moon is up. It looks like a banana. Tom draws the moon and the stars. He puts the paper on his wall. A wall is the side of a room."
+      },
+      {
+        "id": 40,
+        "knowledge_point": "词义猜测",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: The class sees a caterpillar on the window. It eats a leaf. Two weeks later it is a butterfly and flies away. A caterpillar is ___.",
+        "options": [
+          "a big bird in a tree",
+          "a cold day of rain",
+          "a kind of green leaf",
+          "a small insect that looks like a worm"
+        ],
+        "answer": "a small insect that looks like a worm",
+        "explanation": "The class sees a caterpillar on the window. It eats a leaf. Two weeks later it is a butterfly and flies away. A caterpillar is the young, crawling stage of a butterfly."
+      },
+      {
+        "id": 44,
+        "knowledge_point": "词义猜测",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Read: Owen is late for school. He runs down the street. He forgets his bag at home and must walk back. If you are late, you are ___.",
+        "options": [
+          "far away",
+          "still asleep",
+          "very fast",
+          "not on time"
+        ],
+        "answer": "not on time",
+        "explanation": "Owen is late for school. He runs down the street. He forgets his bag at home and must walk back. Late means not on time."
+      },
+      {
+        "id": 53,
+        "knowledge_point": "故事排序",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the sentences in story order.",
+        "options": [
+          "He runs to the door.",
+          "He opens it wide.",
+          "Tim hears the bell."
+        ],
+        "answer": "Tim hears the bell.,He runs to the door.,He opens it wide.",
+        "explanation": "Tim hears the bell. He runs to the door. He opens it wide."
+      },
+      {
+        "id": 49,
+        "knowledge_point": "故事排序",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the sentences in story order.",
+        "options": [
+          "The bee comes.",
+          "The flower opens.",
+          "The seed grows."
+        ],
+        "answer": "The seed grows.,The flower opens.,The bee comes.",
+        "explanation": "The seed grows. The flower opens. The bee comes."
+      },
+      {
+        "id": 52,
+        "knowledge_point": "故事排序",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the sentences in story order.",
+        "options": [
+          "Ana waters the cup.",
+          "A leaf opens.",
+          "A shoot comes up."
+        ],
+        "answer": "Ana waters the cup.,A shoot comes up.,A leaf opens.",
+        "explanation": "Ana waters the cup. A shoot comes up. A leaf opens."
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "细节理解",
+      "core_concept": "从短文中找出 who / what / where / when 的答案。（对应标准 RL.1.1, RI.1.1）",
+      "key_formula": "答案一定在原文里，回原文找同一个词或换说法的句子。",
+      "common_mistakes": [
+        "凭记忆作答不回看",
+        "把相似细节混用"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "因果与顺序",
+      "core_concept": "判断事件之间的原因与先后顺序。（对应标准 RL.1.1, RI.1.3）",
+      "key_formula": "because 回答为什么，then / next 表示接下来。",
+      "common_mistakes": [
+        "把时间先后当成原因",
+        "选原文没提到的理由"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "主旨大意",
+      "core_concept": "说出短文主要在讲什么。（对应标准 RL.1.2, RI.1.2）",
+      "key_formula": "想「整篇主要在说谁、说什么事」，不要只盯一句话。",
+      "common_mistakes": [
+        "选只覆盖细节的选项",
+        "加入自己想象的内容"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "词义猜测",
+      "core_concept": "借助句子语境猜出词义。（对应标准 L.1.4a, RI.1.4）",
+      "key_formula": "用同句的线索：举例、对比、重复出现的动作。",
+      "common_mistakes": [
+        "脱离句子按字母猜",
+        "把生词读成形近熟词"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "故事排序",
+      "core_concept": "把几句话按故事发生的先后排好。（对应标准 W.1.3, RL.1.2）",
+      "key_formula": "找起点（谁在哪里），再看接下来发生了什么，最后是结果。",
+      "common_mistakes": [
+        "把结尾句放在开头",
+        "忽略表示顺序的连接词"
+      ],
+      "tips": "先找第一个 → 依次点击 → 连成整句；生词先跟读两遍再做题，错题自动进错题本。"
+    }
+  ]
+}

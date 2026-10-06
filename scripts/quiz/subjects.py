@@ -13,7 +13,7 @@ pipeline.py 和 prompts.py 都从这里取数。新增学科只需在此加一�
 from __future__ import annotations
 from typing import TypedDict, Literal
 
-SubjectId = Literal["math", "chinese", "english", "science"]
+SubjectId = Literal["math", "chinese", "renzi", "english", "ela", "science"]
 
 
 class SubjectConfig(TypedDict):
@@ -89,6 +89,29 @@ CHINESE: SubjectConfig = {
 
 
 # ============================================================
+# 认字：统编版识字表衍生，一至三年级 × 2 学期 = 6 册（拼音 + 生字练习）
+# ============================================================
+RENZI: SubjectConfig = {
+    "display_name": "认字",
+    "curriculum": "《义务教育语文课程标准（2022年版）》识字与写字",
+    "github_path": "小学/语文/统编版",
+    "publisher_label": "统编版",
+    "textbooks": [
+        "义务教育教科书·认字一年级上册.json",
+        "义务教育教科书·认字一年级下册.json",
+        "义务教育教科书·认字二年级上册.json",
+        "义务教育教科书·认字二年级下册.json",
+        "义务教育教科书·认字三年级上册.json",
+        "义务教育教科书·认字三年级下册.json",
+    ],
+    "grade_range": (1, 3),
+    "quiz_prompt": "QUIZ_PROMPT_RENZI",
+    "quiz_schema": "QUIZ_SCHEMA_RENZI",
+    "question_types": ["true_false", "choice", "fill_blank_text"],
+}
+
+
+# ============================================================
 # 英语：人教版 PEP 三年级起点，3-6 年级 × 2 学期 = 8 册
 # TODO: 实施前用 GitHub API 确认实际 PDF 文件名
 # ============================================================
@@ -111,6 +134,23 @@ ENGLISH: SubjectConfig = {
         "义务教育教科书·英语（三年级起点）六年级下册.pdf",
     ],
     "grade_range": (3, 6),
+    "quiz_prompt": "QUIZ_PROMPT_ENGLISH",
+    "quiz_schema": "QUIZ_SCHEMA_ENGLISH",
+    "question_types": ["true_false", "choice", "fill_blank_text", "word_order", "matching"],
+}
+
+
+# ============================================================
+# 美国英语（ELA）：CCSS Grade 1。数据由 scripts/ela/generate_ela_data.py 本地生成，
+# 没有配套 PDF 教材 —— 因此刻意不进 ALL_SUBJECT_IDS，PDF→LLM 管线不处理该学科。
+# ============================================================
+ELA: SubjectConfig = {
+    "display_name": "美国英语",
+    "curriculum": "Common Core State Standards — English Language Arts, Grade 1",
+    "github_path": "",
+    "publisher_label": "CCSS",
+    "textbooks": [],
+    "grade_range": (1, 1),
     "quiz_prompt": "QUIZ_PROMPT_ENGLISH",
     "quiz_schema": "QUIZ_SCHEMA_ENGLISH",
     "question_types": ["true_false", "choice", "fill_blank_text", "word_order", "matching"],
@@ -150,12 +190,14 @@ SCIENCE: SubjectConfig = {
 SUBJECTS: dict[str, SubjectConfig] = {
     "math": MATH,
     "chinese": CHINESE,
+    "renzi": RENZI,
     "english": ENGLISH,
+    "ela": ELA,
     "science": SCIENCE,
 }
 
 
-ALL_SUBJECT_IDS = ["math", "chinese", "english", "science"]
+ALL_SUBJECT_IDS = ["math", "chinese", "renzi", "english", "science"]
 
 
 def get_subject_cfg(subject_id: str) -> SubjectConfig:
@@ -166,8 +208,12 @@ def get_subject_cfg(subject_id: str) -> SubjectConfig:
 
 def detect_subject_from_stem(stem: str) -> str:
     """从教材文件名（stem，不含后缀）推断学科。"""
+    if "认字" in stem:
+        return "renzi"
     if "语文" in stem:
         return "chinese"
+    if "美国英语" in stem:
+        return "ela"
     if "英语" in stem or "PEP" in stem:
         return "english"
     if "科学" in stem:

@@ -1,0 +1,1658 @@
+{
+  "textbook": "CCSS 美国小学英语一年级上册",
+  "unit": "短元音拼读 · Short Vowel CVC",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "Unit 2「短元音拼读 · Short Vowel CVC」英文练习",
+    "total_score": 100,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is in the ink family?",
+        "options": [
+          "jug",
+          "run",
+          "hug",
+          "pink"
+        ],
+        "answer": "pink",
+        "explanation": "'pink' is in the ink word family."
+      },
+      {
+        "id": 2,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is in the ig family?",
+        "options": [
+          "big",
+          "jog",
+          "hid",
+          "land"
+        ],
+        "answer": "big",
+        "explanation": "'big' is in the ig word family."
+      },
+      {
+        "id": 3,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is in the ink family?",
+        "options": [
+          "bun",
+          "lap",
+          "sink",
+          "cat"
+        ],
+        "answer": "sink",
+        "explanation": "'sink' is in the ink word family."
+      },
+      {
+        "id": 4,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is in the ap family?",
+        "options": [
+          "lap",
+          "wag",
+          "pig",
+          "pot"
+        ],
+        "answer": "lap",
+        "explanation": "'lap' is in the ap word family."
+      },
+      {
+        "id": 5,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is in the ick family?",
+        "options": [
+          "jump",
+          "tick",
+          "ten",
+          "lip"
+        ],
+        "answer": "tick",
+        "explanation": "'tick' is in the ick word family."
+      },
+      {
+        "id": 6,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is in the en family?",
+        "options": [
+          "ten",
+          "lump",
+          "man",
+          "hip"
+        ],
+        "answer": "ten",
+        "explanation": "'ten' is in the en word family."
+      },
+      {
+        "id": 7,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is in the ug family?",
+        "options": [
+          "bug",
+          "fin",
+          "tank",
+          "got"
+        ],
+        "answer": "bug",
+        "explanation": "'bug' is in the ug word family."
+      },
+      {
+        "id": 8,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is in the en family?",
+        "options": [
+          "lamp",
+          "fan",
+          "den",
+          "bin"
+        ],
+        "answer": "den",
+        "explanation": "'den' is in the en word family."
+      },
+      {
+        "id": 9,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is in the ig family?",
+        "options": [
+          "jig",
+          "cot",
+          "lamp",
+          "jog"
+        ],
+        "answer": "jig",
+        "explanation": "'jig' is in the ig word family."
+      },
+      {
+        "id": 10,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is in the in family?",
+        "options": [
+          "fin",
+          "yam",
+          "den",
+          "dip"
+        ],
+        "answer": "fin",
+        "explanation": "'fin' is in the in word family."
+      },
+      {
+        "id": 11,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is in the in family?",
+        "options": [
+          "bank",
+          "ten",
+          "dump",
+          "bin"
+        ],
+        "answer": "bin",
+        "explanation": "'bin' is in the in word family."
+      },
+      {
+        "id": 12,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is in the et family?",
+        "options": [
+          "rid",
+          "tank",
+          "hat",
+          "met"
+        ],
+        "answer": "met",
+        "explanation": "'met' is in the et word family."
+      },
+      {
+        "id": 13,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is in the and family?",
+        "options": [
+          "let",
+          "cap",
+          "cat",
+          "sand"
+        ],
+        "answer": "sand",
+        "explanation": "'sand' is in the and word family."
+      },
+      {
+        "id": 14,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is in the ag family?",
+        "options": [
+          "tag",
+          "sink",
+          "pet",
+          "gap"
+        ],
+        "answer": "tag",
+        "explanation": "'tag' is in the ag word family."
+      },
+      {
+        "id": 15,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word does NOT belong to the et family?",
+        "options": [
+          "met",
+          "rip",
+          "get",
+          "wet"
+        ],
+        "answer": "rip",
+        "explanation": "wet, get, met are in the et family, but rip is not."
+      },
+      {
+        "id": 16,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word does NOT belong to the ank family?",
+        "options": [
+          "tub",
+          "bank",
+          "rank",
+          "sank"
+        ],
+        "answer": "tub",
+        "explanation": "rank, sank, bank are in the ank family, but tub is not."
+      },
+      {
+        "id": 17,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word does NOT belong to the ip family?",
+        "options": [
+          "rip",
+          "dip",
+          "mop",
+          "sip"
+        ],
+        "answer": "mop",
+        "explanation": "sip, dip, rip are in the ip family, but mop is not."
+      },
+      {
+        "id": 18,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word does NOT belong to the ag family?",
+        "options": [
+          "tag",
+          "rag",
+          "wag",
+          "mop"
+        ],
+        "answer": "mop",
+        "explanation": "tag, wag, rag are in the ag family, but mop is not."
+      },
+      {
+        "id": 19,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word does NOT belong to the an family?",
+        "options": [
+          "pan",
+          "van",
+          "man",
+          "mug"
+        ],
+        "answer": "mug",
+        "explanation": "man, van, pan are in the an family, but mug is not."
+      },
+      {
+        "id": 20,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word does NOT belong to the ot family?",
+        "options": [
+          "tot",
+          "dot",
+          "cot",
+          "dug"
+        ],
+        "answer": "dug",
+        "explanation": "cot, tot, dot are in the ot family, but dug is not."
+      },
+      {
+        "id": 21,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word does NOT belong to the in family?",
+        "options": [
+          "pin",
+          "bin",
+          "land",
+          "win"
+        ],
+        "answer": "land",
+        "explanation": "win, bin, pin are in the in family, but land is not."
+      },
+      {
+        "id": 22,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word does NOT belong to the and family?",
+        "options": [
+          "hand",
+          "band",
+          "hip",
+          "sand"
+        ],
+        "answer": "hip",
+        "explanation": "sand, band, hand are in the and family, but hip is not."
+      },
+      {
+        "id": 23,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word does NOT belong to the id family?",
+        "options": [
+          "kid",
+          "tug",
+          "hid",
+          "bid"
+        ],
+        "answer": "tug",
+        "explanation": "kid, hid, bid are in the id family, but tug is not."
+      },
+      {
+        "id": 24,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word does NOT belong to the ig family?",
+        "options": [
+          "jug",
+          "jig",
+          "wig",
+          "pig"
+        ],
+        "answer": "jug",
+        "explanation": "jig, wig, pig are in the ig family, but jug is not."
+      },
+      {
+        "id": 25,
+        "knowledge_point": "字母拼词",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the letters in order to make a word: d, e, n.",
+        "options": [
+          "e",
+          "d",
+          "n"
+        ],
+        "answer": "d,e,n",
+        "explanation": "The word is den."
+      },
+      {
+        "id": 26,
+        "knowledge_point": "字母拼词",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the letters in order to make a word: p, e, n.",
+        "options": [
+          "n",
+          "p",
+          "e"
+        ],
+        "answer": "p,e,n",
+        "explanation": "The word is pen."
+      },
+      {
+        "id": 27,
+        "knowledge_point": "字母拼词",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the letters in order to make a word: f, u, n.",
+        "options": [
+          "f",
+          "n",
+          "u"
+        ],
+        "answer": "f,u,n",
+        "explanation": "The word is fun."
+      },
+      {
+        "id": 28,
+        "knowledge_point": "字母拼词",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the letters in order to make a word: c, o, t.",
+        "options": [
+          "t",
+          "c",
+          "o"
+        ],
+        "answer": "c,o,t",
+        "explanation": "The word is cot."
+      },
+      {
+        "id": 29,
+        "knowledge_point": "字母拼词",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the letters in order to make a word: s, a, n, d.",
+        "options": [
+          "d",
+          "s",
+          "a",
+          "n"
+        ],
+        "answer": "s,a,n,d",
+        "explanation": "The word is sand."
+      },
+      {
+        "id": 30,
+        "knowledge_point": "字母拼词",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the letters in order to make a word: s, u, b.",
+        "options": [
+          "s",
+          "b",
+          "u"
+        ],
+        "answer": "s,u,b",
+        "explanation": "The word is sub."
+      },
+      {
+        "id": 31,
+        "knowledge_point": "字母拼词",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the letters in order to make a word: n, e, t.",
+        "options": [
+          "n",
+          "t",
+          "e"
+        ],
+        "answer": "n,e,t",
+        "explanation": "The word is net."
+      },
+      {
+        "id": 32,
+        "knowledge_point": "字母拼词",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the letters in order to make a word: p, o, t.",
+        "options": [
+          "t",
+          "o",
+          "p"
+        ],
+        "answer": "p,o,t",
+        "explanation": "The word is pot."
+      },
+      {
+        "id": 33,
+        "knowledge_point": "字母拼词",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the letters in order to make a word: d, u, g.",
+        "options": [
+          "g",
+          "d",
+          "u"
+        ],
+        "answer": "d,u,g",
+        "explanation": "The word is dug."
+      },
+      {
+        "id": 34,
+        "knowledge_point": "字母拼词",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the letters in order to make a word: y, a, m.",
+        "options": [
+          "y",
+          "m",
+          "a"
+        ],
+        "answer": "y,a,m",
+        "explanation": "The word is yam."
+      },
+      {
+        "id": 35,
+        "knowledge_point": "字母拼词",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the letters in order to make a word: v, a, n.",
+        "options": [
+          "v",
+          "n",
+          "a"
+        ],
+        "answer": "v,a,n",
+        "explanation": "The word is van."
+      },
+      {
+        "id": 36,
+        "knowledge_point": "字母拼词",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the letters in order to make a word: m, o, p.",
+        "options": [
+          "p",
+          "m",
+          "o"
+        ],
+        "answer": "m,o,p",
+        "explanation": "The word is mop."
+      },
+      {
+        "id": 37,
+        "knowledge_point": "字母拼词",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the letters in order to make a word: t, h, i, n, k.",
+        "options": [
+          "t",
+          "k",
+          "h",
+          "n",
+          "i"
+        ],
+        "answer": "t,h,i,n,k",
+        "explanation": "The word is think."
+      },
+      {
+        "id": 38,
+        "knowledge_point": "字母拼词",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the letters in order to make a word: j, u, g.",
+        "options": [
+          "u",
+          "j",
+          "g"
+        ],
+        "answer": "j,u,g",
+        "explanation": "The word is jug."
+      },
+      {
+        "id": 39,
+        "knowledge_point": "字母拼词",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the letters in order to make a word: t, u, g.",
+        "options": [
+          "u",
+          "g",
+          "t"
+        ],
+        "answer": "t,u,g",
+        "explanation": "The word is tug."
+      },
+      {
+        "id": 40,
+        "knowledge_point": "字母拼词",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the letters in order to make a word: h, e, n.",
+        "options": [
+          "n",
+          "h",
+          "e"
+        ],
+        "answer": "h,e,n",
+        "explanation": "The word is hen."
+      },
+      {
+        "id": 41,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: f___t",
+        "options": [],
+        "answer": "a",
+        "explanation": "fat has the short a sound."
+      },
+      {
+        "id": 42,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: g___t",
+        "options": [],
+        "answer": "e",
+        "explanation": "get has the short e sound."
+      },
+      {
+        "id": 43,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: r___d",
+        "options": [],
+        "answer": "i",
+        "explanation": "rid has the short i sound."
+      },
+      {
+        "id": 44,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: d___g",
+        "options": [],
+        "answer": "i",
+        "explanation": "dig has the short i sound."
+      },
+      {
+        "id": 45,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: t___t",
+        "options": [],
+        "answer": "o",
+        "explanation": "tot has the short o sound."
+      },
+      {
+        "id": 46,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: h___g",
+        "options": [],
+        "answer": "u",
+        "explanation": "hug has the short u sound."
+      },
+      {
+        "id": 47,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: n___p",
+        "options": [],
+        "answer": "a",
+        "explanation": "nap has the short a sound."
+      },
+      {
+        "id": 48,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: t___n",
+        "options": [],
+        "answer": "e",
+        "explanation": "ten has the short e sound."
+      },
+      {
+        "id": 49,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: p___n",
+        "options": [],
+        "answer": "i",
+        "explanation": "pin has the short i sound."
+      },
+      {
+        "id": 50,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: j___g",
+        "options": [],
+        "answer": "o",
+        "explanation": "jog has the short o sound."
+      },
+      {
+        "id": 51,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: m___p",
+        "options": [],
+        "answer": "o",
+        "explanation": "mop has the short o sound."
+      },
+      {
+        "id": 52,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: t___b",
+        "options": [],
+        "answer": "u",
+        "explanation": "tub has the short u sound."
+      },
+      {
+        "id": 53,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: r___n",
+        "options": [],
+        "answer": "a",
+        "explanation": "ran has the short a sound."
+      },
+      {
+        "id": 54,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: j___m",
+        "options": [],
+        "answer": "a",
+        "explanation": "jam has the short a sound."
+      },
+      {
+        "id": 55,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: w___g",
+        "options": [],
+        "answer": "a",
+        "explanation": "wag has the short a sound."
+      },
+      {
+        "id": 56,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: f___n",
+        "options": [],
+        "answer": "u",
+        "explanation": "fun has the short u sound."
+      },
+      {
+        "id": 57,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: r___p",
+        "options": [],
+        "answer": "i",
+        "explanation": "rip has the short i sound."
+      },
+      {
+        "id": 58,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: k___ck",
+        "options": [],
+        "answer": "i",
+        "explanation": "kick has the short i sound."
+      },
+      {
+        "id": 59,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: p___mp",
+        "options": [],
+        "answer": "u",
+        "explanation": "pump has the short u sound."
+      },
+      {
+        "id": 60,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: c___mp",
+        "options": [],
+        "answer": "a",
+        "explanation": "camp has the short a sound."
+      },
+      {
+        "id": 61,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: l___nd",
+        "options": [],
+        "answer": "a",
+        "explanation": "land has the short a sound."
+      },
+      {
+        "id": 62,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: dr___nk",
+        "options": [],
+        "answer": "i",
+        "explanation": "drink has the short i sound."
+      },
+      {
+        "id": 63,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: r___nk",
+        "options": [],
+        "answer": "a",
+        "explanation": "rank has the short a sound."
+      },
+      {
+        "id": 64,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with cat?",
+        "options": [
+          "hand",
+          "did",
+          "tick",
+          "hat"
+        ],
+        "answer": "hat",
+        "explanation": "hat and cat rhyme - both end in at."
+      },
+      {
+        "id": 65,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with bet?",
+        "options": [
+          "tan",
+          "sat",
+          "jet",
+          "jog"
+        ],
+        "answer": "jet",
+        "explanation": "jet and bet rhyme - both end in et."
+      },
+      {
+        "id": 66,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with did?",
+        "options": [
+          "kid",
+          "dump",
+          "dug",
+          "hump"
+        ],
+        "answer": "kid",
+        "explanation": "kid and did rhyme - both end in id."
+      },
+      {
+        "id": 67,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with dig?",
+        "options": [
+          "hen",
+          "sub",
+          "met",
+          "jig"
+        ],
+        "answer": "jig",
+        "explanation": "jig and dig rhyme - both end in ig."
+      },
+      {
+        "id": 68,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with pot?",
+        "options": [
+          "bin",
+          "lot",
+          "rag",
+          "sap"
+        ],
+        "answer": "lot",
+        "explanation": "lot and pot rhyme - both end in ot."
+      },
+      {
+        "id": 69,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with mug?",
+        "options": [
+          "think",
+          "pot",
+          "pen",
+          "hug"
+        ],
+        "answer": "hug",
+        "explanation": "hug and mug rhyme - both end in ug."
+      },
+      {
+        "id": 70,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with tap?",
+        "options": [
+          "sap",
+          "jet",
+          "dump",
+          "pick"
+        ],
+        "answer": "sap",
+        "explanation": "sap and tap rhyme - both end in ap."
+      },
+      {
+        "id": 71,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with ten?",
+        "options": [
+          "sap",
+          "lump",
+          "hip",
+          "den"
+        ],
+        "answer": "den",
+        "explanation": "den and ten rhyme - both end in en."
+      },
+      {
+        "id": 72,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with win?",
+        "options": [
+          "lump",
+          "sank",
+          "dog",
+          "pin"
+        ],
+        "answer": "pin",
+        "explanation": "pin and win rhyme - both end in in."
+      },
+      {
+        "id": 73,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with fog?",
+        "options": [
+          "dog",
+          "get",
+          "cop",
+          "tick"
+        ],
+        "answer": "dog",
+        "explanation": "dog and fog rhyme - both end in og."
+      },
+      {
+        "id": 74,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with mop?",
+        "options": [
+          "jig",
+          "bat",
+          "hop",
+          "net"
+        ],
+        "answer": "hop",
+        "explanation": "hop and mop rhyme - both end in op."
+      },
+      {
+        "id": 75,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with tub?",
+        "options": [
+          "rid",
+          "mat",
+          "did",
+          "hub"
+        ],
+        "answer": "hub",
+        "explanation": "hub and tub rhyme - both end in ub."
+      },
+      {
+        "id": 76,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with tan?",
+        "options": [
+          "band",
+          "sub",
+          "wig",
+          "can"
+        ],
+        "answer": "can",
+        "explanation": "can and tan rhyme - both end in an."
+      },
+      {
+        "id": 77,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with ram?",
+        "options": [
+          "set",
+          "van",
+          "ham",
+          "cot"
+        ],
+        "answer": "ham",
+        "explanation": "ham and ram rhyme - both end in am."
+      },
+      {
+        "id": 78,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with tag?",
+        "options": [
+          "van",
+          "bag",
+          "lap",
+          "pet"
+        ],
+        "answer": "bag",
+        "explanation": "bag and tag rhyme - both end in ag."
+      },
+      {
+        "id": 79,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with gun?",
+        "options": [
+          "sap",
+          "net",
+          "fun",
+          "pot"
+        ],
+        "answer": "fun",
+        "explanation": "fun and gun rhyme - both end in un."
+      },
+      {
+        "id": 80,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with hip?",
+        "options": [
+          "mug",
+          "tank",
+          "tug",
+          "rip"
+        ],
+        "answer": "rip",
+        "explanation": "rip and hip rhyme - both end in ip."
+      },
+      {
+        "id": 81,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with pick?",
+        "options": [
+          "jam",
+          "bug",
+          "cub",
+          "sick"
+        ],
+        "answer": "sick",
+        "explanation": "sick and pick rhyme - both end in ick."
+      },
+      {
+        "id": 82,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with dump?",
+        "options": [
+          "mat",
+          "cat",
+          "bump",
+          "bat"
+        ],
+        "answer": "bump",
+        "explanation": "bump and dump rhyme - both end in ump."
+      },
+      {
+        "id": 83,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with camp?",
+        "options": [
+          "stamp",
+          "sink",
+          "fin",
+          "did"
+        ],
+        "answer": "stamp",
+        "explanation": "stamp and camp rhyme - both end in amp."
+      },
+      {
+        "id": 84,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with land?",
+        "options": [
+          "sand",
+          "hub",
+          "dump",
+          "lot"
+        ],
+        "answer": "sand",
+        "explanation": "sand and land rhyme - both end in and."
+      },
+      {
+        "id": 85,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with sink?",
+        "options": [
+          "den",
+          "pink",
+          "wet",
+          "pot"
+        ],
+        "answer": "pink",
+        "explanation": "pink and sink rhyme - both end in ink."
+      },
+      {
+        "id": 86,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with tank?",
+        "options": [
+          "sank",
+          "hen",
+          "hop",
+          "bun"
+        ],
+        "answer": "sank",
+        "explanation": "sank and tank rhyme - both end in ank."
+      },
+      {
+        "id": 87,
+        "knowledge_point": "短音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "pig belongs to the ap family.",
+        "options": [],
+        "answer": "错",
+        "explanation": "pig belongs to the ig family."
+      },
+      {
+        "id": 88,
+        "knowledge_point": "短音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "can belongs to the an family.",
+        "options": [],
+        "answer": "对",
+        "explanation": "can belongs to the an family."
+      },
+      {
+        "id": 89,
+        "knowledge_point": "短音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "think belongs to the ink family.",
+        "options": [],
+        "answer": "对",
+        "explanation": "think belongs to the ink family."
+      },
+      {
+        "id": 90,
+        "knowledge_point": "短音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "rig belongs to the ig family.",
+        "options": [],
+        "answer": "对",
+        "explanation": "rig belongs to the ig family."
+      },
+      {
+        "id": 91,
+        "knowledge_point": "短音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "sap belongs to the ap family.",
+        "options": [],
+        "answer": "对",
+        "explanation": "sap belongs to the ap family."
+      },
+      {
+        "id": 92,
+        "knowledge_point": "短音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "lamp belongs to the amp family.",
+        "options": [],
+        "answer": "对",
+        "explanation": "lamp belongs to the amp family."
+      },
+      {
+        "id": 93,
+        "knowledge_point": "短音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "hump belongs to the ump family.",
+        "options": [],
+        "answer": "对",
+        "explanation": "hump belongs to the ump family."
+      },
+      {
+        "id": 94,
+        "knowledge_point": "短音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "hid belongs to the ap family.",
+        "options": [],
+        "answer": "错",
+        "explanation": "hid belongs to the id family."
+      },
+      {
+        "id": 95,
+        "knowledge_point": "短音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "lap belongs to the ag family.",
+        "options": [],
+        "answer": "错",
+        "explanation": "lap belongs to the ap family."
+      },
+      {
+        "id": 96,
+        "knowledge_point": "短音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "lump belongs to the ump family.",
+        "options": [],
+        "answer": "对",
+        "explanation": "lump belongs to the ump family."
+      },
+      {
+        "id": 97,
+        "knowledge_point": "短音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "tip belongs to the in family.",
+        "options": [],
+        "answer": "错",
+        "explanation": "tip belongs to the ip family."
+      },
+      {
+        "id": 98,
+        "knowledge_point": "短音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "camp belongs to the amp family.",
+        "options": [],
+        "answer": "对",
+        "explanation": "camp belongs to the amp family."
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 2「短元音拼读 · Short Vowel CVC」综合挑战",
+    "total_score": 100,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "id": 11,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is in the in family?",
+        "options": [
+          "bank",
+          "ten",
+          "dump",
+          "bin"
+        ],
+        "answer": "bin",
+        "explanation": "'bin' is in the in word family."
+      },
+      {
+        "id": 20,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word does NOT belong to the ot family?",
+        "options": [
+          "tot",
+          "dot",
+          "cot",
+          "dug"
+        ],
+        "answer": "dug",
+        "explanation": "cot, tot, dot are in the ot family, but dug is not."
+      },
+      {
+        "id": 13,
+        "knowledge_point": "词族认读",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word is in the and family?",
+        "options": [
+          "let",
+          "cap",
+          "cat",
+          "sand"
+        ],
+        "answer": "sand",
+        "explanation": "'sand' is in the and word family."
+      },
+      {
+        "id": 40,
+        "knowledge_point": "字母拼词",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the letters in order to make a word: h, e, n.",
+        "options": [
+          "n",
+          "h",
+          "e"
+        ],
+        "answer": "h,e,n",
+        "explanation": "The word is hen."
+      },
+      {
+        "id": 26,
+        "knowledge_point": "字母拼词",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the letters in order to make a word: p, e, n.",
+        "options": [
+          "n",
+          "p",
+          "e"
+        ],
+        "answer": "p,e,n",
+        "explanation": "The word is pen."
+      },
+      {
+        "id": 31,
+        "knowledge_point": "字母拼词",
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Put the letters in order to make a word: n, e, t.",
+        "options": [
+          "n",
+          "t",
+          "e"
+        ],
+        "answer": "n,e,t",
+        "explanation": "The word is net."
+      },
+      {
+        "id": 49,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: p___n",
+        "options": [],
+        "answer": "i",
+        "explanation": "pin has the short i sound."
+      },
+      {
+        "id": 58,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: k___ck",
+        "options": [],
+        "answer": "i",
+        "explanation": "kick has the short i sound."
+      },
+      {
+        "id": 63,
+        "knowledge_point": "元音填空",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Fill in the missing vowel: r___nk",
+        "options": [],
+        "answer": "a",
+        "explanation": "rank has the short a sound."
+      },
+      {
+        "id": 64,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with cat?",
+        "options": [
+          "hand",
+          "did",
+          "tick",
+          "hat"
+        ],
+        "answer": "hat",
+        "explanation": "hat and cat rhyme - both end in at."
+      },
+      {
+        "id": 82,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with dump?",
+        "options": [
+          "mat",
+          "cat",
+          "bump",
+          "bat"
+        ],
+        "answer": "bump",
+        "explanation": "bump and dump rhyme - both end in ump."
+      },
+      {
+        "id": 78,
+        "knowledge_point": "押韵选词",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word rhymes with tag?",
+        "options": [
+          "van",
+          "bag",
+          "lap",
+          "pet"
+        ],
+        "answer": "bag",
+        "explanation": "bag and tag rhyme - both end in ag."
+      },
+      {
+        "id": 88,
+        "knowledge_point": "短音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "can belongs to the an family.",
+        "options": [],
+        "answer": "对",
+        "explanation": "can belongs to the an family."
+      },
+      {
+        "id": 90,
+        "knowledge_point": "短音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "rig belongs to the ig family.",
+        "options": [],
+        "answer": "对",
+        "explanation": "rig belongs to the ig family."
+      },
+      {
+        "id": 98,
+        "knowledge_point": "短音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "camp belongs to the amp family.",
+        "options": [],
+        "answer": "对",
+        "explanation": "camp belongs to the amp family."
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "词族认读",
+      "core_concept": "识别 -at / -og / -ump 等词族（word family）里的成员词。（对应标准 RF.1.3b）",
+      "key_formula": "词族 = 韵脚相同的词，-at 族有 cat / hat / sat。",
+      "common_mistakes": [
+        "以为结尾字母相同就同族（lamp 不属于 -ump）",
+        "把视觉相似词归错族"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "字母拼词",
+      "core_concept": "把打乱的字母排成正确的 CVC 单词。（对应标准 RF.1.2d, RF.1.3b）",
+      "key_formula": "先读出每个字母，再按从左到右拼回单词。",
+      "common_mistakes": [
+        "打乱后只记首尾字母",
+        "双写音被漏掉，如 ump 少写 m"
+      ],
+      "tips": "先找第一个 → 依次点击 → 连成整句；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "元音填空",
+      "core_concept": "根据词族补上缺少的短元音字母。（对应标准 RF.1.2a, RF.1.3b）",
+      "key_formula": "CVC 词中间只有一个元音字母，a e i o u 五选一。",
+      "common_mistakes": [
+        "用词族默认元音套所有词",
+        "把 y 当成 a e i o u 之一"
+      ],
+      "tips": "读题干 → 想拼写 → 打字作答；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "押韵选词",
+      "core_concept": "找出与例词押韵（rhyme）的单词。（对应标准 RF.1.3b）",
+      "key_formula": "押韵看韵脚：从第一个元音到词尾要完全相同。",
+      "common_mistakes": [
+        "只看结尾一个字母",
+        "把 think / bank 当成押韵"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "短音判断",
+      "core_concept": "判断单词是否属于给定词族、读音是否正确。（对应标准 RF.1.3b）",
+      "key_formula": "闭音节（辅音收尾）里的元音一般读短音。",
+      "common_mistakes": [
+        "把词族名和读音混为一谈",
+        "见到 -ck 就以为元音变长"
+      ],
+      "tips": "先默读一遍 → 对照规则 → 判对错；生词先跟读两遍再做题，错题自动进错题本。"
+    }
+  ]
+}

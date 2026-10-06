@@ -1,5 +1,15 @@
 # ChinaStudyFree · 小学全科 AI 学习平台
 
+> **本仓库是原作者 [wuwangzhang1216](https://github.com/wuwangzhang1216)（steve wu）的
+> [ChinaTextbookStudyFree](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree) 的 fork，
+> 沿用上游 MIT License，上游是本项目的主仓库与唯一事实来源。**
+>
+> 这里只保留家庭 / 局域网自建部署所需的本地改动：
+> - 新增「认字」「写字」「美国英语（ela）」三个学科的数据与生成脚本
+> - 深色模式下答题页题干不可见的修复（`globals.css` / `ThemeProvider` / `LessonRunner`）
+> - `serve-web.mjs`：零依赖静态服务器，带 `/api` 云存档反代与音频魔数识别
+> - 音频、课本扫描页、构建产物等媒体资源不入库（见 `.gitignore`），按上游 Release 分发
+
 > **一个免费、开源、纯公益的小学全科学习平台**
 >
 > 我们相信：**每一个中国孩子，无论身处北上广深，还是大山深处的乡村小学，都应该拥有一样好的学习资源。**

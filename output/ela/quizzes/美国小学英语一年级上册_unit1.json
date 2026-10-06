@@ -1,0 +1,1247 @@
+{
+  "textbook": "CCSS 美国小学英语一年级上册",
+  "unit": "字母与字母音 · Letters and Sounds",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "Unit 1「字母与字母音 · Letters and Sounds」英文练习",
+    "total_score": 100,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "knowledge_point": "字母大小写",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Match each small letter with its big letter.",
+        "options": [
+          "s",
+          "t",
+          "m",
+          "i",
+          "S",
+          "M",
+          "T",
+          "I"
+        ],
+        "answer": "D-4,C-2,A-1,B-3",
+        "explanation": "The small letter and the big letter are two forms of the same letter."
+      },
+      {
+        "id": 2,
+        "knowledge_point": "字母大小写",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Match each small letter with its big letter.",
+        "options": [
+          "a",
+          "h",
+          "e",
+          "j",
+          "E",
+          "A",
+          "H",
+          "J"
+        ],
+        "answer": "A-2,C-1,B-3,D-4",
+        "explanation": "The small letter and the big letter are two forms of the same letter."
+      },
+      {
+        "id": 3,
+        "knowledge_point": "字母大小写",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Match each small letter with its big letter.",
+        "options": [
+          "y",
+          "x",
+          "b",
+          "w",
+          "Y",
+          "X",
+          "B",
+          "W"
+        ],
+        "answer": "C-3,D-4,B-2,A-1",
+        "explanation": "The small letter and the big letter are two forms of the same letter."
+      },
+      {
+        "id": 4,
+        "knowledge_point": "字母大小写",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Match each small letter with its big letter.",
+        "options": [
+          "l",
+          "c",
+          "f",
+          "z",
+          "L",
+          "F",
+          "C",
+          "Z"
+        ],
+        "answer": "B-3,C-2,A-1,D-4",
+        "explanation": "The small letter and the big letter are two forms of the same letter."
+      },
+      {
+        "id": 5,
+        "knowledge_point": "字母大小写",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Match each small letter with its big letter.",
+        "options": [
+          "q",
+          "r",
+          "g",
+          "p",
+          "P",
+          "Q",
+          "G",
+          "R"
+        ],
+        "answer": "C-3,D-1,A-2,B-4",
+        "explanation": "The small letter and the big letter are two forms of the same letter."
+      },
+      {
+        "id": 6,
+        "knowledge_point": "字母大小写",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Match each small letter with its big letter.",
+        "options": [
+          "k",
+          "o",
+          "d",
+          "v",
+          "O",
+          "D",
+          "V",
+          "K"
+        ],
+        "answer": "C-2,A-4,B-1,D-3",
+        "explanation": "The small letter and the big letter are two forms of the same letter."
+      },
+      {
+        "id": 7,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the big letter for 'l'.",
+        "options": [],
+        "answer": "L",
+        "explanation": "The big form of 'l' is 'L'."
+      },
+      {
+        "id": 8,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the big letter for 'c'.",
+        "options": [],
+        "answer": "C",
+        "explanation": "The big form of 'c' is 'C'."
+      },
+      {
+        "id": 9,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the big letter for 'n'.",
+        "options": [],
+        "answer": "N",
+        "explanation": "The big form of 'n' is 'N'."
+      },
+      {
+        "id": 10,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the big letter for 'i'.",
+        "options": [],
+        "answer": "I",
+        "explanation": "The big form of 'i' is 'I'."
+      },
+      {
+        "id": 11,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the big letter for 'y'.",
+        "options": [],
+        "answer": "Y",
+        "explanation": "The big form of 'y' is 'Y'."
+      },
+      {
+        "id": 12,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the big letter for 'o'.",
+        "options": [],
+        "answer": "O",
+        "explanation": "The big form of 'o' is 'O'."
+      },
+      {
+        "id": 13,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the big letter for 'j'.",
+        "options": [],
+        "answer": "J",
+        "explanation": "The big form of 'j' is 'J'."
+      },
+      {
+        "id": 14,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the big letter for 'h'.",
+        "options": [],
+        "answer": "H",
+        "explanation": "The big form of 'h' is 'H'."
+      },
+      {
+        "id": 15,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the big letter for 'v'.",
+        "options": [],
+        "answer": "V",
+        "explanation": "The big form of 'v' is 'V'."
+      },
+      {
+        "id": 16,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the big letter for 'g'.",
+        "options": [],
+        "answer": "G",
+        "explanation": "The big form of 'g' is 'G'."
+      },
+      {
+        "id": 17,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the small letter for 'B'.",
+        "options": [],
+        "answer": "b",
+        "explanation": "The small form of 'B' is 'b'."
+      },
+      {
+        "id": 18,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the small letter for 'Q'.",
+        "options": [],
+        "answer": "q",
+        "explanation": "The small form of 'Q' is 'q'."
+      },
+      {
+        "id": 19,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the small letter for 'D'.",
+        "options": [],
+        "answer": "d",
+        "explanation": "The small form of 'D' is 'd'."
+      },
+      {
+        "id": 20,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the small letter for 'S'.",
+        "options": [],
+        "answer": "s",
+        "explanation": "The small form of 'S' is 's'."
+      },
+      {
+        "id": 21,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the small letter for 'H'.",
+        "options": [],
+        "answer": "h",
+        "explanation": "The small form of 'H' is 'h'."
+      },
+      {
+        "id": 22,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the small letter for 'J'.",
+        "options": [],
+        "answer": "j",
+        "explanation": "The small form of 'J' is 'j'."
+      },
+      {
+        "id": 23,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the small letter for 'M'.",
+        "options": [],
+        "answer": "m",
+        "explanation": "The small form of 'M' is 'm'."
+      },
+      {
+        "id": 24,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the small letter for 'C'.",
+        "options": [],
+        "answer": "c",
+        "explanation": "The small form of 'C' is 'c'."
+      },
+      {
+        "id": 25,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letter comes between Q and S?",
+        "options": [],
+        "answer": "R",
+        "explanation": "In the alphabet, R comes between Q and S."
+      },
+      {
+        "id": 26,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letter comes between R and T?",
+        "options": [],
+        "answer": "S",
+        "explanation": "In the alphabet, S comes between R and T."
+      },
+      {
+        "id": 27,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letter comes between E and G?",
+        "options": [],
+        "answer": "F",
+        "explanation": "In the alphabet, F comes between E and G."
+      },
+      {
+        "id": 28,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letter comes between B and D?",
+        "options": [],
+        "answer": "C",
+        "explanation": "In the alphabet, C comes between B and D."
+      },
+      {
+        "id": 29,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letter comes between X and Z?",
+        "options": [],
+        "answer": "Y",
+        "explanation": "In the alphabet, Y comes between X and Z."
+      },
+      {
+        "id": 30,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letter comes between T and V?",
+        "options": [],
+        "answer": "U",
+        "explanation": "In the alphabet, U comes between T and V."
+      },
+      {
+        "id": 31,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word begins with the sound 'c'?",
+        "options": [
+          "cat",
+          "get",
+          "big",
+          "pan"
+        ],
+        "answer": "cat",
+        "explanation": "'cat' begins with the sound c."
+      },
+      {
+        "id": 32,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word begins with the sound 'b'?",
+        "options": [
+          "bet",
+          "gun",
+          "ran",
+          "drink"
+        ],
+        "answer": "bet",
+        "explanation": "'bet' begins with the sound b."
+      },
+      {
+        "id": 33,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word begins with the sound 'b'?",
+        "options": [
+          "jog",
+          "bid",
+          "lip",
+          "log"
+        ],
+        "answer": "bid",
+        "explanation": "'bid' begins with the sound b."
+      },
+      {
+        "id": 34,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word begins with the sound 'r'?",
+        "options": [
+          "pop",
+          "rig",
+          "hid",
+          "pen"
+        ],
+        "answer": "rig",
+        "explanation": "'rig' begins with the sound r."
+      },
+      {
+        "id": 35,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word begins with the sound 'p'?",
+        "options": [
+          "win",
+          "jug",
+          "tan",
+          "pot"
+        ],
+        "answer": "pot",
+        "explanation": "'pot' begins with the sound p."
+      },
+      {
+        "id": 36,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word begins with the sound 't'?",
+        "options": [
+          "tug",
+          "pot",
+          "lap",
+          "rid"
+        ],
+        "answer": "tug",
+        "explanation": "'tug' begins with the sound t."
+      },
+      {
+        "id": 37,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word begins with the sound 'n'?",
+        "options": [
+          "tan",
+          "fan",
+          "tap",
+          "nap"
+        ],
+        "answer": "nap",
+        "explanation": "'nap' begins with the sound n."
+      },
+      {
+        "id": 38,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word begins with the sound 'h'?",
+        "options": [
+          "pump",
+          "hen",
+          "tank",
+          "pan"
+        ],
+        "answer": "hen",
+        "explanation": "'hen' begins with the sound h."
+      },
+      {
+        "id": 39,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word begins with the sound 'w'?",
+        "options": [
+          "win",
+          "big",
+          "sub",
+          "mug"
+        ],
+        "answer": "win",
+        "explanation": "'win' begins with the sound w."
+      },
+      {
+        "id": 40,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word begins with the sound 'j'?",
+        "options": [
+          "man",
+          "hand",
+          "jog",
+          "hen"
+        ],
+        "answer": "jog",
+        "explanation": "'jog' begins with the sound j."
+      },
+      {
+        "id": 41,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word begins with the sound 'm'?",
+        "options": [
+          "fat",
+          "bug",
+          "mop",
+          "dump"
+        ],
+        "answer": "mop",
+        "explanation": "'mop' begins with the sound m."
+      },
+      {
+        "id": 42,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word begins with the sound 'h'?",
+        "options": [
+          "sip",
+          "rat",
+          "pet",
+          "hub"
+        ],
+        "answer": "hub",
+        "explanation": "'hub' begins with the sound h."
+      },
+      {
+        "id": 43,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word begins with the sound 'f'?",
+        "options": [
+          "fan",
+          "sap",
+          "jog",
+          "did"
+        ],
+        "answer": "fan",
+        "explanation": "'fan' begins with the sound f."
+      },
+      {
+        "id": 44,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word begins with the sound 'j'?",
+        "options": [
+          "hid",
+          "big",
+          "jam",
+          "get"
+        ],
+        "answer": "jam",
+        "explanation": "'jam' begins with the sound j."
+      },
+      {
+        "id": 45,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend 'bl'?",
+        "options": [
+          "stone",
+          "kick",
+          "man",
+          "black"
+        ],
+        "answer": "black",
+        "explanation": "'black' begins with bl."
+      },
+      {
+        "id": 46,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend 'br'?",
+        "options": [
+          "mat",
+          "rat",
+          "hen",
+          "bring"
+        ],
+        "answer": "bring",
+        "explanation": "'bring' begins with br."
+      },
+      {
+        "id": 47,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend 'cl'?",
+        "options": [
+          "truck",
+          "clock",
+          "cub",
+          "wig"
+        ],
+        "answer": "clock",
+        "explanation": "'clock' begins with cl."
+      },
+      {
+        "id": 48,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend 'pl'?",
+        "options": [
+          "plum",
+          "close",
+          "black",
+          "did"
+        ],
+        "answer": "plum",
+        "explanation": "'plum' begins with pl."
+      },
+      {
+        "id": 49,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend 'st'?",
+        "options": [
+          "man",
+          "den",
+          "stop",
+          "gun"
+        ],
+        "answer": "stop",
+        "explanation": "'stop' begins with st."
+      },
+      {
+        "id": 50,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend 'sp'?",
+        "options": [
+          "wet",
+          "spot",
+          "plus",
+          "men"
+        ],
+        "answer": "spot",
+        "explanation": "'spot' begins with sp."
+      },
+      {
+        "id": 51,
+        "knowledge_point": "尾音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word ends with the sound 't'?",
+        "options": [
+          "pick",
+          "hub",
+          "hen",
+          "net"
+        ],
+        "answer": "net",
+        "explanation": "'net' ends with the sound t."
+      },
+      {
+        "id": 52,
+        "knowledge_point": "尾音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word ends with the sound 'p'?",
+        "options": [
+          "pop",
+          "tick",
+          "did",
+          "cat"
+        ],
+        "answer": "pop",
+        "explanation": "'pop' ends with the sound p."
+      },
+      {
+        "id": 53,
+        "knowledge_point": "尾音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word ends with the sound 'n'?",
+        "options": [
+          "drink",
+          "dip",
+          "lip",
+          "fan"
+        ],
+        "answer": "fan",
+        "explanation": "'fan' ends with the sound n."
+      },
+      {
+        "id": 54,
+        "knowledge_point": "尾音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word ends with the sound 'm'?",
+        "options": [
+          "ham",
+          "men",
+          "map",
+          "dump"
+        ],
+        "answer": "ham",
+        "explanation": "'ham' ends with the sound m."
+      },
+      {
+        "id": 55,
+        "knowledge_point": "尾音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word ends with the sound 'd'?",
+        "options": [
+          "stamp",
+          "band",
+          "dot",
+          "ran"
+        ],
+        "answer": "band",
+        "explanation": "'band' ends with the sound d."
+      },
+      {
+        "id": 56,
+        "knowledge_point": "尾音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word ends with the sound 'k'?",
+        "options": [
+          "big",
+          "sank",
+          "ham",
+          "sat"
+        ],
+        "answer": "sank",
+        "explanation": "'sank' ends with the sound k."
+      },
+      {
+        "id": 57,
+        "knowledge_point": "长短音听辨",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "'sink' has a long i sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "'sink' has the short i sound."
+      },
+      {
+        "id": 58,
+        "knowledge_point": "长短音听辨",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "'fun' has a long u sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "'fun' has the short u sound."
+      },
+      {
+        "id": 59,
+        "knowledge_point": "长短音听辨",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "'fat' has a long a sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "'fat' has the short a sound."
+      },
+      {
+        "id": 60,
+        "knowledge_point": "长短音听辨",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "'pin' has a short i sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "'pin' has the short i sound."
+      },
+      {
+        "id": 61,
+        "knowledge_point": "长短音听辨",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "'sand' has a short a sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "'sand' has the short a sound."
+      },
+      {
+        "id": 62,
+        "knowledge_point": "长短音听辨",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "'lamp' has a long a sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "'lamp' has the short a sound."
+      },
+      {
+        "id": 63,
+        "knowledge_point": "长短音听辨",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "'lip' has a short i sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "'lip' has the short i sound."
+      },
+      {
+        "id": 64,
+        "knowledge_point": "长短音听辨",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "'gap' has a long a sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "'gap' has the short a sound."
+      },
+      {
+        "id": 65,
+        "knowledge_point": "长短音听辨",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "'hope' has a short o sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "'hope' has the long o sound."
+      },
+      {
+        "id": 66,
+        "knowledge_point": "长短音听辨",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "'use' has a long u sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "'use' has the long u sound."
+      },
+      {
+        "id": 67,
+        "knowledge_point": "长短音听辨",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "'cape' has a short a sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "'cape' has the long a sound."
+      },
+      {
+        "id": 68,
+        "knowledge_point": "长短音听辨",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "'pray' has a long a sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "'pray' has the long a sound."
+      },
+      {
+        "id": 69,
+        "knowledge_point": "长短音听辨",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "'foam' has a short o sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "'foam' has the long o sound."
+      },
+      {
+        "id": 70,
+        "knowledge_point": "长短音听辨",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "'light' has a long i sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "'light' has the long i sound."
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 1「字母与字母音 · Letters and Sounds」综合挑战",
+    "total_score": 100,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "id": 4,
+        "knowledge_point": "字母大小写",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Match each small letter with its big letter.",
+        "options": [
+          "l",
+          "c",
+          "f",
+          "z",
+          "L",
+          "F",
+          "C",
+          "Z"
+        ],
+        "answer": "B-3,C-2,A-1,D-4",
+        "explanation": "The small letter and the big letter are two forms of the same letter."
+      },
+      {
+        "id": 1,
+        "knowledge_point": "字母大小写",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Match each small letter with its big letter.",
+        "options": [
+          "s",
+          "t",
+          "m",
+          "i",
+          "S",
+          "M",
+          "T",
+          "I"
+        ],
+        "answer": "D-4,C-2,A-1,B-3",
+        "explanation": "The small letter and the big letter are two forms of the same letter."
+      },
+      {
+        "id": 3,
+        "knowledge_point": "字母大小写",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Match each small letter with its big letter.",
+        "options": [
+          "y",
+          "x",
+          "b",
+          "w",
+          "Y",
+          "X",
+          "B",
+          "W"
+        ],
+        "answer": "C-3,D-4,B-2,A-1",
+        "explanation": "The small letter and the big letter are two forms of the same letter."
+      },
+      {
+        "id": 10,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the big letter for 'i'.",
+        "options": [],
+        "answer": "I",
+        "explanation": "The big form of 'i' is 'I'."
+      },
+      {
+        "id": 12,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Write the big letter for 'o'.",
+        "options": [],
+        "answer": "O",
+        "explanation": "The big form of 'o' is 'O'."
+      },
+      {
+        "id": 27,
+        "knowledge_point": "书写字母",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letter comes between E and G?",
+        "options": [],
+        "answer": "F",
+        "explanation": "In the alphabet, F comes between E and G."
+      },
+      {
+        "id": 41,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word begins with the sound 'm'?",
+        "options": [
+          "fat",
+          "bug",
+          "mop",
+          "dump"
+        ],
+        "answer": "mop",
+        "explanation": "'mop' begins with the sound m."
+      },
+      {
+        "id": 43,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word begins with the sound 'f'?",
+        "options": [
+          "fan",
+          "sap",
+          "jog",
+          "did"
+        ],
+        "answer": "fan",
+        "explanation": "'fan' begins with the sound f."
+      },
+      {
+        "id": 35,
+        "knowledge_point": "首音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word begins with the sound 'p'?",
+        "options": [
+          "win",
+          "jug",
+          "tan",
+          "pot"
+        ],
+        "answer": "pot",
+        "explanation": "'pot' begins with the sound p."
+      },
+      {
+        "id": 54,
+        "knowledge_point": "尾音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word ends with the sound 'm'?",
+        "options": [
+          "ham",
+          "men",
+          "map",
+          "dump"
+        ],
+        "answer": "ham",
+        "explanation": "'ham' ends with the sound m."
+      },
+      {
+        "id": 52,
+        "knowledge_point": "尾音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word ends with the sound 'p'?",
+        "options": [
+          "pop",
+          "tick",
+          "did",
+          "cat"
+        ],
+        "answer": "pop",
+        "explanation": "'pop' ends with the sound p."
+      },
+      {
+        "id": 53,
+        "knowledge_point": "尾音辨认",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word ends with the sound 'n'?",
+        "options": [
+          "drink",
+          "dip",
+          "lip",
+          "fan"
+        ],
+        "answer": "fan",
+        "explanation": "'fan' ends with the sound n."
+      },
+      {
+        "id": 65,
+        "knowledge_point": "长短音听辨",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "'hope' has a short o sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "'hope' has the long o sound."
+      },
+      {
+        "id": 61,
+        "knowledge_point": "长短音听辨",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "'sand' has a short a sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "'sand' has the short a sound."
+      },
+      {
+        "id": 59,
+        "knowledge_point": "长短音听辨",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "question": "'fat' has a long a sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "'fat' has the short a sound."
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "字母大小写",
+      "core_concept": "认识 26 个字母的大写与小写形式并互相配对。（对应标准 RF.1.1, L.1.1a）",
+      "key_formula": "一个大写一个小写是同一个字母的两种写法。",
+      "common_mistakes": [
+        "把 b 看成 d、p 看成 q",
+        "忘记 M/N 与 W/V 的小写形式"
+      ],
+      "tips": "看左边 → 想配对 → 点右边；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "书写字母",
+      "core_concept": "按提示写出对应的大写或小写字母，掌握字母表顺序。（对应标准 L.1.1a）",
+      "key_formula": "字母表顺序固定：A B C D …，前后字母要背熟。",
+      "common_mistakes": [
+        "只背唱名，说不出相邻字母",
+        "大小写混着写"
+      ],
+      "tips": "读题干 → 想拼写 → 打字作答；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "首音辨认",
+      "core_concept": "听/看单词，判断开头的音（initial sound）。（对应标准 RF.1.2c）",
+      "key_formula": "initial sound 就是单词最开头的那个音，不是字母名。",
+      "common_mistakes": [
+        "把字母名 /siː/ 当成音 /s/",
+        "看到 ch 拆成 c + h 两个音"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "尾音辨认",
+      "core_concept": "判断单词结尾的音（final sound）。（对应标准 RF.1.2c, RF.1.2d）",
+      "key_formula": "final sound 看单词最后一个音，注意词尾不发音的 e。",
+      "common_mistakes": [
+        "把 -ed 读成两个音",
+        "忽略词尾辅音连读里的第二个音"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "长短音听辨",
+      "core_concept": "区分单音节词里的长元音与短元音。（对应标准 RF.1.2a）",
+      "key_formula": "长元音念字母本音（cake 的 a），短元音念短音（cat 的 a）。",
+      "common_mistakes": [
+        "看到 a 一律读短音",
+        "把元音组合当成两个音"
+      ],
+      "tips": "先默读一遍 → 对照规则 → 判对错；生词先跟读两遍再做题，错题自动进错题本。"
+    }
+  ]
+}

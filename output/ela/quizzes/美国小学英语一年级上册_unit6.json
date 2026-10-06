@@ -1,0 +1,1567 @@
+{
+  "textbook": "CCSS 美国小学英语一年级上册",
+  "unit": "词义与词形变化 · Meaning and Word Forms",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "Unit 6「词义与词形变化 · Meaning and Word Forms」英文练习",
+    "total_score": 100,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of box?",
+        "options": [
+          "boxs",
+          "boxes",
+          "balls",
+          "hats"
+        ],
+        "answer": "boxes",
+        "explanation": "box becomes boxes."
+      },
+      {
+        "id": 2,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of bus?",
+        "options": [
+          "cars",
+          "benches",
+          "boxes",
+          "buses"
+        ],
+        "answer": "buses",
+        "explanation": "bus becomes buses."
+      },
+      {
+        "id": 3,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of dish?",
+        "options": [
+          "fishes",
+          "dish",
+          "shoes",
+          "dishes"
+        ],
+        "answer": "dishes",
+        "explanation": "dish becomes dishes."
+      },
+      {
+        "id": 4,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of watch?",
+        "options": [
+          "boxes",
+          "jars",
+          "watch",
+          "watches"
+        ],
+        "answer": "watches",
+        "explanation": "watch becomes watches."
+      },
+      {
+        "id": 5,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of brush?",
+        "options": [
+          "watches",
+          "brushes",
+          "benches",
+          "dogs"
+        ],
+        "answer": "brushes",
+        "explanation": "brush becomes brushes."
+      },
+      {
+        "id": 6,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of bench?",
+        "options": [
+          "cats",
+          "benches",
+          "wheels",
+          "buses"
+        ],
+        "answer": "benches",
+        "explanation": "bench becomes benches."
+      },
+      {
+        "id": 7,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of match?",
+        "options": [
+          "pins",
+          "matches",
+          "boxes",
+          "dogs"
+        ],
+        "answer": "matches",
+        "explanation": "match becomes matches."
+      },
+      {
+        "id": 8,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of fish?",
+        "options": [
+          "balls",
+          "hats",
+          "watches",
+          "fishes"
+        ],
+        "answer": "fishes",
+        "explanation": "fish becomes fishes."
+      },
+      {
+        "id": 9,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of cat?",
+        "options": [
+          "cats",
+          "balls",
+          "wheels",
+          "hats"
+        ],
+        "answer": "cats",
+        "explanation": "cat becomes cats."
+      },
+      {
+        "id": 10,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of dog?",
+        "options": [
+          "pins",
+          "cats",
+          "cups",
+          "dogs"
+        ],
+        "answer": "dogs",
+        "explanation": "dog becomes dogs."
+      },
+      {
+        "id": 11,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of bag?",
+        "options": [
+          "bags",
+          "wheels",
+          "bag",
+          "cars"
+        ],
+        "answer": "bags",
+        "explanation": "bag becomes bags."
+      },
+      {
+        "id": 12,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of pin?",
+        "options": [
+          "benches",
+          "cars",
+          "pins",
+          "shoes"
+        ],
+        "answer": "pins",
+        "explanation": "pin becomes pins."
+      },
+      {
+        "id": 13,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of cup?",
+        "options": [
+          "benches",
+          "cups",
+          "cars",
+          "fishes"
+        ],
+        "answer": "cups",
+        "explanation": "cup becomes cups."
+      },
+      {
+        "id": 14,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of ball?",
+        "options": [
+          "eggs",
+          "cups",
+          "balls",
+          "matches"
+        ],
+        "answer": "balls",
+        "explanation": "ball becomes balls."
+      },
+      {
+        "id": 15,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of car?",
+        "options": [
+          "cars",
+          "eggs",
+          "wheels",
+          "cats"
+        ],
+        "answer": "cars",
+        "explanation": "car becomes cars."
+      },
+      {
+        "id": 16,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of egg?",
+        "options": [
+          "buses",
+          "brushes",
+          "eggs",
+          "boxes"
+        ],
+        "answer": "eggs",
+        "explanation": "egg becomes eggs."
+      },
+      {
+        "id": 17,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of wheel?",
+        "options": [
+          "bags",
+          "wheels",
+          "cups",
+          "pins"
+        ],
+        "answer": "wheels",
+        "explanation": "wheel becomes wheels."
+      },
+      {
+        "id": 18,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of hat?",
+        "options": [
+          "buses",
+          "hats",
+          "bags",
+          "jars"
+        ],
+        "answer": "hats",
+        "explanation": "hat becomes hats."
+      },
+      {
+        "id": 19,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of shoe?",
+        "options": [
+          "cats",
+          "fishes",
+          "wheels",
+          "shoes"
+        ],
+        "answer": "shoes",
+        "explanation": "shoe becomes shoes."
+      },
+      {
+        "id": 20,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of jar?",
+        "options": [
+          "jares",
+          "watches",
+          "jars",
+          "brushes"
+        ],
+        "answer": "jars",
+        "explanation": "jar becomes jars."
+      },
+      {
+        "id": 21,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of run.",
+        "options": [],
+        "answer": "running",
+        "explanation": "run becomes running with -ing."
+      },
+      {
+        "id": 22,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of jump.",
+        "options": [],
+        "answer": "jumping",
+        "explanation": "jump becomes jumping with -ing."
+      },
+      {
+        "id": 23,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of sit.",
+        "options": [],
+        "answer": "sitting",
+        "explanation": "sit becomes sitting with -ing."
+      },
+      {
+        "id": 24,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of hop.",
+        "options": [],
+        "answer": "hopping",
+        "explanation": "hop becomes hopping with -ing."
+      },
+      {
+        "id": 25,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of clap.",
+        "options": [],
+        "answer": "clapping",
+        "explanation": "clap becomes clapping with -ing."
+      },
+      {
+        "id": 26,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of cry.",
+        "options": [],
+        "answer": "crying",
+        "explanation": "cry becomes crying with -ing."
+      },
+      {
+        "id": 27,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of play.",
+        "options": [],
+        "answer": "playing",
+        "explanation": "play becomes playing with -ing."
+      },
+      {
+        "id": 28,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of make.",
+        "options": [],
+        "answer": "making",
+        "explanation": "make becomes making with -ing."
+      },
+      {
+        "id": 29,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of take.",
+        "options": [],
+        "answer": "taking",
+        "explanation": "take becomes taking with -ing."
+      },
+      {
+        "id": 30,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of ride.",
+        "options": [],
+        "answer": "riding",
+        "explanation": "ride becomes riding with -ing."
+      },
+      {
+        "id": 31,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of swim.",
+        "options": [],
+        "answer": "swimming",
+        "explanation": "swim becomes swimming with -ing."
+      },
+      {
+        "id": 32,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of sing.",
+        "options": [],
+        "answer": "singing",
+        "explanation": "sing becomes singing with -ing."
+      },
+      {
+        "id": 33,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of dance.",
+        "options": [],
+        "answer": "dancing",
+        "explanation": "dance becomes dancing with -ing."
+      },
+      {
+        "id": 34,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of walk.",
+        "options": [],
+        "answer": "walking",
+        "explanation": "walk becomes walking with -ing."
+      },
+      {
+        "id": 35,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of talk.",
+        "options": [],
+        "answer": "talking",
+        "explanation": "talk becomes talking with -ing."
+      },
+      {
+        "id": 36,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of read.",
+        "options": [],
+        "answer": "reading",
+        "explanation": "read becomes reading with -ing."
+      },
+      {
+        "id": 37,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of draw.",
+        "options": [],
+        "answer": "drawing",
+        "explanation": "draw becomes drawing with -ing."
+      },
+      {
+        "id": 38,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of drive.",
+        "options": [],
+        "answer": "driving",
+        "explanation": "drive becomes driving with -ing."
+      },
+      {
+        "id": 39,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of fly.",
+        "options": [],
+        "answer": "flying",
+        "explanation": "fly becomes flying with -ing."
+      },
+      {
+        "id": 40,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of clean.",
+        "options": [],
+        "answer": "cleaning",
+        "explanation": "clean becomes cleaning with -ing."
+      },
+      {
+        "id": 41,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ed form of walk.",
+        "options": [],
+        "answer": "walked",
+        "explanation": "walk becomes walked with -ed."
+      },
+      {
+        "id": 42,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ed form of jump.",
+        "options": [],
+        "answer": "jumped",
+        "explanation": "jump becomes jumped with -ed."
+      },
+      {
+        "id": 43,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ed form of play.",
+        "options": [],
+        "answer": "played",
+        "explanation": "play becomes played with -ed."
+      },
+      {
+        "id": 44,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ed form of help.",
+        "options": [],
+        "answer": "helped",
+        "explanation": "help becomes helped with -ed."
+      },
+      {
+        "id": 45,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ed form of look.",
+        "options": [],
+        "answer": "looked",
+        "explanation": "look becomes looked with -ed."
+      },
+      {
+        "id": 46,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ed form of call.",
+        "options": [],
+        "answer": "called",
+        "explanation": "call becomes called with -ed."
+      },
+      {
+        "id": 47,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ed form of ask.",
+        "options": [],
+        "answer": "asked",
+        "explanation": "ask becomes asked with -ed."
+      },
+      {
+        "id": 48,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ed form of turn.",
+        "options": [],
+        "answer": "turned",
+        "explanation": "turn becomes turned with -ed."
+      },
+      {
+        "id": 49,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ed form of wash.",
+        "options": [],
+        "answer": "washed",
+        "explanation": "wash becomes washed with -ed."
+      },
+      {
+        "id": 50,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ed form of watch.",
+        "options": [],
+        "answer": "watched",
+        "explanation": "watch becomes watched with -ed."
+      },
+      {
+        "id": 51,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ed form of want.",
+        "options": [],
+        "answer": "wanted",
+        "explanation": "want becomes wanted with -ed."
+      },
+      {
+        "id": 52,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ed form of paint.",
+        "options": [],
+        "answer": "painted",
+        "explanation": "paint becomes painted with -ed."
+      },
+      {
+        "id": 53,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ed form of open.",
+        "options": [],
+        "answer": "opened",
+        "explanation": "open becomes opened with -ed."
+      },
+      {
+        "id": 54,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ed form of close.",
+        "options": [],
+        "answer": "closed",
+        "explanation": "close becomes closed with -ed."
+      },
+      {
+        "id": 55,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ed form of rake.",
+        "options": [],
+        "answer": "raked",
+        "explanation": "rake becomes raked with -ed."
+      },
+      {
+        "id": 56,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ed form of clean.",
+        "options": [],
+        "answer": "cleaned",
+        "explanation": "clean becomes cleaned with -ed."
+      },
+      {
+        "id": 57,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "un- means not. What does undo mean?",
+        "options": [
+          "not do",
+          "very do",
+          "before do",
+          "again do"
+        ],
+        "answer": "not do",
+        "explanation": "undo = not do."
+      },
+      {
+        "id": 58,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "un- means not. What does untie mean?",
+        "options": [
+          "not tie",
+          "very tie",
+          "before tie",
+          "again tie"
+        ],
+        "answer": "not tie",
+        "explanation": "untie = not tie."
+      },
+      {
+        "id": 59,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "un- means not. What does unhappy mean?",
+        "options": [
+          "not happy",
+          "again happy",
+          "very happy",
+          "before happy"
+        ],
+        "answer": "not happy",
+        "explanation": "unhappy = not happy."
+      },
+      {
+        "id": 60,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "un- means not. What does unfair mean?",
+        "options": [
+          "not fair",
+          "before fair",
+          "very fair",
+          "again fair"
+        ],
+        "answer": "not fair",
+        "explanation": "unfair = not fair."
+      },
+      {
+        "id": 61,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "un- means not. What does unkind mean?",
+        "options": [
+          "again kind",
+          "before kind",
+          "very kind",
+          "not kind"
+        ],
+        "answer": "not kind",
+        "explanation": "unkind = not kind."
+      },
+      {
+        "id": 62,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "un- means not. What does unpack mean?",
+        "options": [
+          "very pack",
+          "again pack",
+          "not pack",
+          "before pack"
+        ],
+        "answer": "not pack",
+        "explanation": "unpack = not pack."
+      },
+      {
+        "id": 63,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "un- means not. What does unfold mean?",
+        "options": [
+          "again fold",
+          "not fold",
+          "very fold",
+          "before fold"
+        ],
+        "answer": "not fold",
+        "explanation": "unfold = not fold."
+      },
+      {
+        "id": 64,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "un- means not. What does unlucky mean?",
+        "options": [
+          "very lucky",
+          "before lucky",
+          "not lucky",
+          "again lucky"
+        ],
+        "answer": "not lucky",
+        "explanation": "unlucky = not lucky."
+      },
+      {
+        "id": 65,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "un- means not. What does untidy mean?",
+        "options": [
+          "before tidy",
+          "again tidy",
+          "very tidy",
+          "not tidy"
+        ],
+        "answer": "not tidy",
+        "explanation": "untidy = not tidy."
+      },
+      {
+        "id": 66,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "un- means not. What does unplug mean?",
+        "options": [
+          "very plug",
+          "before plug",
+          "not plug",
+          "again plug"
+        ],
+        "answer": "not plug",
+        "explanation": "unplug = not plug."
+      },
+      {
+        "id": 67,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "un- means not. What does unload mean?",
+        "options": [
+          "not load",
+          "very load",
+          "before load",
+          "again load"
+        ],
+        "answer": "not load",
+        "explanation": "unload = not load."
+      },
+      {
+        "id": 68,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "un- means not. What does unzip mean?",
+        "options": [
+          "not zip",
+          "very zip",
+          "before zip",
+          "again zip"
+        ],
+        "answer": "not zip",
+        "explanation": "unzip = not zip."
+      },
+      {
+        "id": 69,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "re- means again. What does redo mean?",
+        "options": [
+          "very do",
+          "not do",
+          "do do again",
+          "anti do"
+        ],
+        "answer": "do do again",
+        "explanation": "redo = do do again."
+      },
+      {
+        "id": 70,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "re- means again. What does remix mean?",
+        "options": [
+          "not mix",
+          "very mix",
+          "do mix again",
+          "anti mix"
+        ],
+        "answer": "do mix again",
+        "explanation": "remix = do mix again."
+      },
+      {
+        "id": 71,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "re- means again. What does replay mean?",
+        "options": [
+          "anti play",
+          "very play",
+          "not play",
+          "do play again"
+        ],
+        "answer": "do play again",
+        "explanation": "replay = do play again."
+      },
+      {
+        "id": 72,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "re- means again. What does return mean?",
+        "options": [
+          "not turn",
+          "very turn",
+          "do turn again",
+          "anti turn"
+        ],
+        "answer": "do turn again",
+        "explanation": "return = do turn again."
+      },
+      {
+        "id": 73,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "re- means again. What does rewrite mean?",
+        "options": [
+          "not write",
+          "very write",
+          "do write again",
+          "anti write"
+        ],
+        "answer": "do write again",
+        "explanation": "rewrite = do write again."
+      },
+      {
+        "id": 74,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "re- means again. What does rebuild mean?",
+        "options": [
+          "anti build",
+          "not build",
+          "very build",
+          "do build again"
+        ],
+        "answer": "do build again",
+        "explanation": "rebuild = do build again."
+      },
+      {
+        "id": 75,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "re- means again. What does retell mean?",
+        "options": [
+          "not tell",
+          "anti tell",
+          "very tell",
+          "do tell again"
+        ],
+        "answer": "do tell again",
+        "explanation": "retell = do tell again."
+      },
+      {
+        "id": 76,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "re- means again. What does reheat mean?",
+        "options": [
+          "not heat",
+          "anti heat",
+          "do heat again",
+          "very heat"
+        ],
+        "answer": "do heat again",
+        "explanation": "reheat = do heat again."
+      },
+      {
+        "id": 77,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "re- means again. What does refill mean?",
+        "options": [
+          "anti fill",
+          "not fill",
+          "do fill again",
+          "very fill"
+        ],
+        "answer": "do fill again",
+        "explanation": "refill = do fill again."
+      },
+      {
+        "id": 78,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "re- means again. What does rerun mean?",
+        "options": [
+          "anti run",
+          "not run",
+          "do run again",
+          "very run"
+        ],
+        "answer": "do run again",
+        "explanation": "rerun = do run again."
+      },
+      {
+        "id": 79,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "re- means again. What does review mean?",
+        "options": [
+          "do view again",
+          "anti view",
+          "not view",
+          "very view"
+        ],
+        "answer": "do view again",
+        "explanation": "review = do view again."
+      },
+      {
+        "id": 80,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "re- means again. What does replace mean?",
+        "options": [
+          "do place again",
+          "very place",
+          "anti place",
+          "not place"
+        ],
+        "answer": "do place again",
+        "explanation": "replace = do place again."
+      },
+      {
+        "id": 81,
+        "knowledge_point": "词类分拣",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Match each word with its category.",
+        "options": [
+          "blue",
+          "socks",
+          "pig",
+          "bread",
+          "an animal",
+          "a color",
+          "food",
+          "clothes"
+        ],
+        "answer": "C-1,A-2,B-4,D-3",
+        "explanation": "Sorting words into groups helps you remember them."
+      },
+      {
+        "id": 82,
+        "knowledge_point": "词类分拣",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Match each word with its category.",
+        "options": [
+          "hand",
+          "wind",
+          "bag",
+          "sister",
+          "family",
+          "a body part",
+          "school things",
+          "weather"
+        ],
+        "answer": "B-4,A-2,C-3,D-1",
+        "explanation": "Sorting words into groups helps you remember them."
+      },
+      {
+        "id": 83,
+        "knowledge_point": "词义关系",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "question": "A duck is a bird that ___.",
+        "options": [
+          "barks",
+          "flies high",
+          "swims",
+          "digs holes"
+        ],
+        "answer": "swims",
+        "explanation": "A duck is a bird that swims."
+      },
+      {
+        "id": 84,
+        "knowledge_point": "词义关系",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "question": "A tiger is a large cat with ___.",
+        "options": [
+          "scales",
+          "stripes",
+          "wings",
+          "horns"
+        ],
+        "answer": "stripes",
+        "explanation": "A tiger is a large cat with stripes."
+      },
+      {
+        "id": 85,
+        "knowledge_point": "词义关系",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "question": "If you are exhausted, you are ___.",
+        "options": [
+          "very hungry",
+          "very cold",
+          "very fast",
+          "very tired"
+        ],
+        "answer": "very tired",
+        "explanation": "If you are exhausted, you are very tired."
+      },
+      {
+        "id": 86,
+        "knowledge_point": "词义关系",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "question": "If you whisper, you speak ___.",
+        "options": [
+          "very loudly",
+          "very quietly",
+          "angrily",
+          "in your sleep"
+        ],
+        "answer": "very quietly",
+        "explanation": "If you whisper, you speak very quietly."
+      },
+      {
+        "id": 87,
+        "knowledge_point": "词义关系",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "question": "A peek is a ___ look.",
+        "options": [
+          "sweet",
+          "loud",
+          "quick",
+          "long"
+        ],
+        "answer": "quick",
+        "explanation": "A peek is a quick look."
+      },
+      {
+        "id": 88,
+        "knowledge_point": "词义关系",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "question": "A giant is much ___ than a boy.",
+        "options": [
+          "older",
+          "smaller",
+          "quieter",
+          "larger"
+        ],
+        "answer": "larger",
+        "explanation": "A giant is much larger than a boy."
+      },
+      {
+        "id": 89,
+        "knowledge_point": "词义关系",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "question": "A cozy room is a ___ room.",
+        "options": [
+          "very cold",
+          "very empty",
+          "very dark",
+          "warm and comfortable"
+        ],
+        "answer": "warm and comfortable",
+        "explanation": "A cozy room is a warm and comfortable room."
+      },
+      {
+        "id": 90,
+        "knowledge_point": "词义关系",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "question": "When you giggle, you ___.",
+        "options": [
+          "run fast",
+          "fall asleep",
+          "cry loudly",
+          "laugh in a short way"
+        ],
+        "answer": "laugh in a short way",
+        "explanation": "When you giggle, you laugh in a short way."
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 6「词义与词形变化 · Meaning and Word Forms」综合挑战",
+    "total_score": 100,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "id": 1,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of box?",
+        "options": [
+          "boxs",
+          "boxes",
+          "balls",
+          "hats"
+        ],
+        "answer": "boxes",
+        "explanation": "box becomes boxes."
+      },
+      {
+        "id": 19,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of shoe?",
+        "options": [
+          "cats",
+          "fishes",
+          "wheels",
+          "shoes"
+        ],
+        "answer": "shoes",
+        "explanation": "shoe becomes shoes."
+      },
+      {
+        "id": 5,
+        "knowledge_point": "复数形式",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "What is the plural of brush?",
+        "options": [
+          "watches",
+          "brushes",
+          "benches",
+          "dogs"
+        ],
+        "answer": "brushes",
+        "explanation": "brush becomes brushes."
+      },
+      {
+        "id": 27,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of play.",
+        "options": [],
+        "answer": "playing",
+        "explanation": "play becomes playing with -ing."
+      },
+      {
+        "id": 24,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ing form of hop.",
+        "options": [],
+        "answer": "hopping",
+        "explanation": "hop becomes hopping with -ing."
+      },
+      {
+        "id": 44,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ed form of help.",
+        "options": [],
+        "answer": "helped",
+        "explanation": "help becomes helped with -ed."
+      },
+      {
+        "id": 73,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "re- means again. What does rewrite mean?",
+        "options": [
+          "not write",
+          "very write",
+          "do write again",
+          "anti write"
+        ],
+        "answer": "do write again",
+        "explanation": "rewrite = do write again."
+      },
+      {
+        "id": 74,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "re- means again. What does rebuild mean?",
+        "options": [
+          "anti build",
+          "not build",
+          "very build",
+          "do build again"
+        ],
+        "answer": "do build again",
+        "explanation": "rebuild = do build again."
+      },
+      {
+        "id": 64,
+        "knowledge_point": "前缀 un 和 re",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "un- means not. What does unlucky mean?",
+        "options": [
+          "very lucky",
+          "before lucky",
+          "not lucky",
+          "again lucky"
+        ],
+        "answer": "not lucky",
+        "explanation": "unlucky = not lucky."
+      },
+      {
+        "id": 81,
+        "knowledge_point": "词类分拣",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Match each word with its category.",
+        "options": [
+          "blue",
+          "socks",
+          "pig",
+          "bread",
+          "an animal",
+          "a color",
+          "food",
+          "clothes"
+        ],
+        "answer": "C-1,A-2,B-4,D-3",
+        "explanation": "Sorting words into groups helps you remember them."
+      },
+      {
+        "id": 82,
+        "knowledge_point": "词类分拣",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Match each word with its category.",
+        "options": [
+          "hand",
+          "wind",
+          "bag",
+          "sister",
+          "family",
+          "a body part",
+          "school things",
+          "weather"
+        ],
+        "answer": "B-4,A-2,C-3,D-1",
+        "explanation": "Sorting words into groups helps you remember them."
+      },
+      {
+        "id": 88,
+        "knowledge_point": "词义关系",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "question": "A giant is much ___ than a boy.",
+        "options": [
+          "older",
+          "smaller",
+          "quieter",
+          "larger"
+        ],
+        "answer": "larger",
+        "explanation": "A giant is much larger than a boy."
+      },
+      {
+        "id": 83,
+        "knowledge_point": "词义关系",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "question": "A duck is a bird that ___.",
+        "options": [
+          "barks",
+          "flies high",
+          "swims",
+          "digs holes"
+        ],
+        "answer": "swims",
+        "explanation": "A duck is a bird that swims."
+      },
+      {
+        "id": 85,
+        "knowledge_point": "词义关系",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "question": "If you are exhausted, you are ___.",
+        "options": [
+          "very hungry",
+          "very cold",
+          "very fast",
+          "very tired"
+        ],
+        "answer": "very tired",
+        "explanation": "If you are exhausted, you are very tired."
+      },
+      {
+        "id": 46,
+        "knowledge_point": "ing 和 ed 变化",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Write the -ed form of call.",
+        "options": [],
+        "answer": "called",
+        "explanation": "call becomes called with -ed."
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "复数形式",
+      "core_concept": "规则复数加 -s，s/x/z/ch/sh 结尾加 -es。（对应标准 L.1.1f）",
+      "key_formula": "一般加 -s；s / x / z / ch / sh 结尾加 -es。",
+      "common_mistakes": [
+        "watch 写成 watchs",
+        "把不规则变化（feet）当成规则"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "ing 和 ed 变化",
+      "core_concept": "给动词加 -ing / -ed，注意双写与去 e。（对应标准 RF.1.3f, L.1.4c）",
+      "key_formula": "重读闭音节要双写尾字母再加 -ing（run → running）。",
+      "common_mistakes": [
+        "sit 写成 sitting 时漏双写",
+        "去 e 加 ing 时把 e 保留（danceing）"
+      ],
+      "tips": "读题干 → 想拼写 → 打字作答；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "前缀 un 和 re",
+      "core_concept": "用 un-（否定）与 re-（再做一次）推词义。（对应标准 L.1.4b）",
+      "key_formula": "un- = not（没有），re- = again（再做一次）。",
+      "common_mistakes": [
+        "把 re- 当成否定",
+        "去掉前缀后拼错词根"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "词类分拣",
+      "core_concept": "把单词按动物、颜色、衣物等类别归类。（对应标准 L.1.5a）",
+      "key_formula": "问自己：这是动物、颜色、还是穿在身上的？",
+      "common_mistakes": [
+        "按首字母而不是词义分类",
+        "一词多义时选错类别"
+      ],
+      "tips": "看左边 → 想配对 → 点右边；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "词义关系",
+      "core_concept": "按类别与关键特征解释词义，区分近义词。（对应标准 L.1.5b, L.1.5d）",
+      "key_formula": "用类别加关键特征解释词：duck 是会游泳的鸟。",
+      "common_mistakes": [
+        "只说外形不说类别",
+        "把反义词当成同类词"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    }
+  ]
+}

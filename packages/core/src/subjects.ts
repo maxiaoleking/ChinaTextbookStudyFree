@@ -11,7 +11,7 @@ export interface SubjectConfig {
   /** 徽章：边框 / 背景 / 文字 Tailwind 类 */
   badgeClasses: string;
   /** 主色（用于图标等强调场景） */
-  accent: "primary" | "danger" | "secondary" | "warning";
+  accent: "primary" | "danger" | "secondary" | "warning" | "purple";
 }
 
 export const SUBJECTS: Record<SubjectId, SubjectConfig> = {
@@ -27,11 +27,29 @@ export const SUBJECTS: Record<SubjectId, SubjectConfig> = {
     badgeClasses: "border-danger/40 bg-danger/10 text-danger-dark",
     accent: "danger",
   },
+  renzi: {
+    id: "renzi",
+    label: "认字",
+    badgeClasses: "border-purple/40 bg-purple/10 text-purple-dark",
+    accent: "purple",
+  },
+  writing: {
+    id: "writing",
+    label: "写字练习",
+    badgeClasses: "border-sea/40 bg-sea/10 text-humpback",
+    accent: "secondary",
+  },
   english: {
     id: "english",
     label: "英语",
     badgeClasses: "border-secondary/40 bg-secondary/10 text-secondary-dark",
     accent: "secondary",
+  },
+  ela: {
+    id: "ela",
+    label: "美国英语",
+    badgeClasses: "border-fox/40 bg-fox/15 text-ink",
+    accent: "warning",
   },
   science: {
     id: "science",

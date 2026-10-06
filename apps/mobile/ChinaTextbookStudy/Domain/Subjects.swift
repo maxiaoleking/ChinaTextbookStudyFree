@@ -21,10 +21,20 @@ enum Subjects {
             accent: Color(red: 1, green: 0.294, blue: 0.294),         // #FF4B4B
             accentDark: Color(red: 0.898, green: 0.282, blue: 0.302)  // #E5484D
         ),
+        .renzi: SubjectConfig(
+            id: .renzi, label: "认字",
+            accent: Color(red: 0.808, green: 0.510, blue: 1),         // #CE82FF beetle
+            accentDark: Color(red: 0.608, green: 0.310, blue: 0.847)  // #9B4FD8
+        ),
         .english: SubjectConfig(
             id: .english, label: "英语",
             accent: Color(red: 0.110, green: 0.690, blue: 0.965),    // #1CB0F6
             accentDark: Color(red: 0.094, green: 0.600, blue: 0.839) // #1899D6
+        ),
+        .ela: SubjectConfig(
+            id: .ela, label: "美国英语",
+            accent: Color(red: 1, green: 0.588, blue: 0),             // #FF9600 fox
+            accentDark: Color(red: 0.851, green: 0.498, blue: 0)      // #D97F00
         ),
         .science: SubjectConfig(
             id: .science, label: "科学",

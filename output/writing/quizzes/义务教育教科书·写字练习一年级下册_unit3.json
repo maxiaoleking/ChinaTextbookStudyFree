@@ -1,0 +1,1287 @@
+{
+  "textbook": "统编版小学写字练习一年级下册",
+  "unit": "识字（三）· 动物儿歌",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第3单元「识字（三）· 动物儿歌」写字练习",
+    "total_score": 100,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "id": 1,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "写字 第1组",
+        "question": "照笔顺一笔一画写「蜻」（qīng，蜻蜓）",
+        "options": [],
+        "answer": "",
+        "explanation": "「蜻」共 14 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "蜻",
+          "pinyin": "qīng",
+          "word": "蜻蜓",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/qing1.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "写字 第1组",
+        "question": "照笔顺一笔一画写「蜓」（tíng，蜻蜓）",
+        "options": [],
+        "answer": "",
+        "explanation": "「蜓」共 12 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "蜓",
+          "pinyin": "tíng",
+          "word": "蜻蜓",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/ting2.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 3,
+        "knowledge_point": "写字 第1组",
+        "question": "照笔顺一笔一画写「迷」（mí，迷路）",
+        "options": [],
+        "answer": "",
+        "explanation": "「迷」共 9 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "迷",
+          "pinyin": "mí",
+          "word": "迷路",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/mi2.mp3"
+        }
+      },
+      {
+        "id": 4,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "写字 第1组",
+        "question": "照笔顺一笔一画写「藏」（cáng，捉迷藏）",
+        "options": [],
+        "answer": "",
+        "explanation": "「藏」共 17 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "藏",
+          "pinyin": "cáng",
+          "word": "捉迷藏",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/cang2.mp3"
+        }
+      },
+      {
+        "id": 5,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 3,
+        "knowledge_point": "写字 第2组",
+        "question": "照笔顺一笔一画写「造」（zào，建造）",
+        "options": [],
+        "answer": "",
+        "explanation": "「造」共 10 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "造",
+          "pinyin": "zào",
+          "word": "建造",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/zao4.mp3"
+        }
+      },
+      {
+        "id": 6,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 3,
+        "knowledge_point": "写字 第2组",
+        "question": "照笔顺一笔一画写「蚂」（mǎ，蚂蚁）",
+        "options": [],
+        "answer": "",
+        "explanation": "「蚂」共 9 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "蚂",
+          "pinyin": "mǎ",
+          "word": "蚂蚁",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/ma3.mp3"
+        }
+      },
+      {
+        "id": 7,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 3,
+        "knowledge_point": "写字 第2组",
+        "question": "照笔顺一笔一画写「蚁」（yǐ，蚂蚁）",
+        "options": [],
+        "answer": "",
+        "explanation": "「蚁」共 9 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "蚁",
+          "pinyin": "yǐ",
+          "word": "蚂蚁",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/yi3.mp3"
+        }
+      },
+      {
+        "id": 8,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 3,
+        "knowledge_point": "写字 第2组",
+        "question": "照笔顺一笔一画写「食」（shí，食物）",
+        "options": [],
+        "answer": "",
+        "explanation": "「食」共 9 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "食",
+          "pinyin": "shí",
+          "word": "食物",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/shi2.mp3"
+        }
+      },
+      {
+        "id": 9,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "写字 第3组",
+        "question": "照笔顺一笔一画写「粮」（liáng，粮食）",
+        "options": [],
+        "answer": "",
+        "explanation": "「粮」共 13 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "粮",
+          "pinyin": "liáng",
+          "word": "粮食",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/liang2.mp3"
+        }
+      },
+      {
+        "id": 10,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "写字 第3组",
+        "question": "照笔顺一笔一画写「蜘」（zhī，蜘蛛）",
+        "options": [],
+        "answer": "",
+        "explanation": "「蜘」共 14 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "蜘",
+          "pinyin": "zhī",
+          "word": "蜘蛛",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/zhi1.mp3"
+        }
+      },
+      {
+        "id": 11,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "写字 第3组",
+        "question": "照笔顺一笔一画写「蛛」（zhū，蜘蛛）",
+        "options": [],
+        "answer": "",
+        "explanation": "「蛛」共 12 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "蛛",
+          "pinyin": "zhū",
+          "word": "蜘蛛",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/zhu1.mp3"
+        }
+      },
+      {
+        "id": 12,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 2,
+        "knowledge_point": "写字 第3组",
+        "question": "照笔顺一笔一画写「网」（wǎng，上网）",
+        "options": [],
+        "answer": "",
+        "explanation": "「网」共 6 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "网",
+          "pinyin": "wǎng",
+          "word": "上网",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/wang3.mp3"
+        }
+      },
+      {
+        "id": 13,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 3,
+        "knowledge_point": "写字 第4组",
+        "question": "照笔顺一笔一画写「圆」（yuán，圆形）",
+        "options": [],
+        "answer": "",
+        "explanation": "「圆」共 10 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "圆",
+          "pinyin": "yuán",
+          "word": "圆形",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/yuan2.mp3"
+        }
+      },
+      {
+        "id": 14,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 3,
+        "knowledge_point": "写字 第4组",
+        "question": "照笔顺一笔一画写「严」（yán，严格）",
+        "options": [],
+        "answer": "",
+        "explanation": "「严」共 7 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "严",
+          "pinyin": "yán",
+          "word": "严格",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/yan2.mp3"
+        }
+      },
+      {
+        "id": 15,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "写字 第4组",
+        "question": "照笔顺一笔一画写「寒」（hán，寒冷）",
+        "options": [],
+        "answer": "",
+        "explanation": "「寒」共 12 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "寒",
+          "pinyin": "hán",
+          "word": "寒冷",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/han2.mp3"
+        }
+      },
+      {
+        "id": 16,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "写字 第4组",
+        "question": "照笔顺一笔一画写「酷」（kù，冷酷）",
+        "options": [],
+        "answer": "",
+        "explanation": "「酷」共 14 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "酷",
+          "pinyin": "kù",
+          "word": "冷酷",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/ku4.mp3"
+        }
+      },
+      {
+        "id": 17,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "写字 第5组",
+        "question": "照笔顺一笔一画写「暑」（shǔ，暑假）",
+        "options": [],
+        "answer": "",
+        "explanation": "「暑」共 12 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "暑",
+          "pinyin": "shǔ",
+          "word": "暑假",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/shu3.mp3"
+        }
+      },
+      {
+        "id": 18,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "写字 第5组",
+        "question": "照笔顺一笔一画写「晨」（chén，早晨）",
+        "options": [],
+        "answer": "",
+        "explanation": "「晨」共 11 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "晨",
+          "pinyin": "chén",
+          "word": "早晨",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/chen2.mp3"
+        }
+      },
+      {
+        "id": 19,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 3,
+        "knowledge_point": "写字 第5组",
+        "question": "照笔顺一笔一画写「细」（xì，仔细）",
+        "options": [],
+        "answer": "",
+        "explanation": "「细」共 8 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "细",
+          "pinyin": "xì",
+          "word": "仔细",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/xi4.mp3"
+        }
+      },
+      {
+        "id": 20,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 1,
+        "knowledge_point": "写字 第5组",
+        "question": "照笔顺一笔一画写「夕」（xī，夕阳）",
+        "options": [],
+        "answer": "",
+        "explanation": "「夕」共 3 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "夕",
+          "pinyin": "xī",
+          "word": "夕阳",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/xi1.mp3"
+        }
+      },
+      {
+        "id": 21,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "写字 第6组",
+        "question": "照笔顺一笔一画写「朝」（zhāo，朝阳）",
+        "options": [],
+        "answer": "",
+        "explanation": "「朝」共 12 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "朝",
+          "pinyin": "zhāo",
+          "word": "朝阳",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/zhao1.mp3"
+        }
+      },
+      {
+        "id": 22,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "写字 第6组",
+        "question": "照笔顺一笔一画写「霞」（xiá，朝霞）",
+        "options": [],
+        "answer": "",
+        "explanation": "「霞」共 17 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "霞",
+          "pinyin": "xiá",
+          "word": "朝霞",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/xia2.mp3"
+        }
+      },
+      {
+        "id": 23,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 3,
+        "knowledge_point": "写字 第6组",
+        "question": "照笔顺一笔一画写「杨」（yáng，杨树）",
+        "options": [],
+        "answer": "",
+        "explanation": "「杨」共 7 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "杨",
+          "pinyin": "yáng",
+          "word": "杨树",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/yang2.mp3"
+        }
+      },
+      {
+        "id": 24,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "写字 第6组",
+        "question": "照笔顺一笔一画写「操」（cāo，操场）",
+        "options": [],
+        "answer": "",
+        "explanation": "「操」共 16 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "操",
+          "pinyin": "cāo",
+          "word": "操场",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/cao1.mp3"
+        }
+      },
+      {
+        "id": 25,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 2,
+        "knowledge_point": "写字 第7组",
+        "question": "照笔顺一笔一画写「场」（chǎng，操场）",
+        "options": [],
+        "answer": "",
+        "explanation": "「场」共 6 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "场",
+          "pinyin": "chǎng",
+          "word": "操场",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/chang3.mp3"
+        }
+      },
+      {
+        "id": 26,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 3,
+        "knowledge_point": "写字 第7组",
+        "question": "照笔顺一笔一画写「拔」（bá，拔河）",
+        "options": [],
+        "answer": "",
+        "explanation": "「拔」共 8 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "拔",
+          "pinyin": "bá",
+          "word": "拔河",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/ba2.mp3"
+        }
+      },
+      {
+        "id": 27,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 3,
+        "knowledge_point": "写字 第7组",
+        "question": "照笔顺一笔一画写「拍」（pāi，拍手）",
+        "options": [],
+        "answer": "",
+        "explanation": "「拍」共 8 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "拍",
+          "pinyin": "pāi",
+          "word": "拍手",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/pai1.mp3"
+        }
+      },
+      {
+        "id": 28,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "写字 第7组",
+        "question": "照笔顺一笔一画写「跑」（pǎo，跑步）",
+        "options": [],
+        "answer": "",
+        "explanation": "「跑」共 12 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "跑",
+          "pinyin": "pǎo",
+          "word": "跑步",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/pao3.mp3"
+        }
+      },
+      {
+        "id": 29,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "写字 第8组",
+        "question": "照笔顺一笔一画写「踢」（tī，踢球）",
+        "options": [],
+        "answer": "",
+        "explanation": "「踢」共 15 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "踢",
+          "pinyin": "tī",
+          "word": "踢球",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/ti1.mp3"
+        }
+      },
+      {
+        "id": 30,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 3,
+        "knowledge_point": "写字 第8组",
+        "question": "照笔顺一笔一画写「铃」（líng，铃声）",
+        "options": [],
+        "answer": "",
+        "explanation": "「铃」共 10 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "铃",
+          "pinyin": "líng",
+          "word": "铃声",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/ling2.mp3"
+        }
+      },
+      {
+        "id": 31,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 3,
+        "knowledge_point": "写字 第8组",
+        "question": "照笔顺一笔一画写「热」（rè，热闹）",
+        "options": [],
+        "answer": "",
+        "explanation": "「热」共 10 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "热",
+          "pinyin": "rè",
+          "word": "热闹",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/re4.mp3"
+        }
+      },
+      {
+        "id": 32,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 3,
+        "knowledge_point": "写字 第8组",
+        "question": "照笔顺一笔一画写「闹」（nào，热闹）",
+        "options": [],
+        "answer": "",
+        "explanation": "「闹」共 8 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "闹",
+          "pinyin": "nào",
+          "word": "热闹",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/nao4.mp3"
+        }
+      },
+      {
+        "id": 33,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "写字 第9组",
+        "question": "照笔顺一笔一画写「锻」（duàn，锻炼）",
+        "options": [],
+        "answer": "",
+        "explanation": "「锻」共 14 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "锻",
+          "pinyin": "duàn",
+          "word": "锻炼",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/duan4.mp3"
+        }
+      },
+      {
+        "id": 34,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 3,
+        "knowledge_point": "写字 第9组",
+        "question": "照笔顺一笔一画写「炼」（liàn，锻炼）",
+        "options": [],
+        "answer": "",
+        "explanation": "「炼」共 9 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "炼",
+          "pinyin": "liàn",
+          "word": "锻炼",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/lian4.mp3"
+        }
+      },
+      {
+        "id": 35,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 3,
+        "knowledge_point": "写字 第9组",
+        "question": "照笔顺一笔一画写「体」（tǐ，体育）",
+        "options": [],
+        "answer": "",
+        "explanation": "「体」共 7 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "体",
+          "pinyin": "tǐ",
+          "word": "体育",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/ti3.mp3"
+        }
+      },
+      {
+        "id": 36,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 1,
+        "knowledge_point": "写字 第9组",
+        "question": "照笔顺一笔一画写「之」（zhī，之前）",
+        "options": [],
+        "answer": "",
+        "explanation": "「之」共 3 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "之",
+          "pinyin": "zhī",
+          "word": "之前",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/zhi1.mp3"
+        }
+      },
+      {
+        "id": 37,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 3,
+        "knowledge_point": "写字 第10组",
+        "question": "照笔顺一笔一画写「初」（chū，当初）",
+        "options": [],
+        "answer": "",
+        "explanation": "「初」共 7 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "初",
+          "pinyin": "chū",
+          "word": "当初",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/chu1.mp3"
+        }
+      },
+      {
+        "id": 38,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 3,
+        "knowledge_point": "写字 第10组",
+        "question": "照笔顺一笔一画写「性」（xìng，性格）",
+        "options": [],
+        "answer": "",
+        "explanation": "「性」共 8 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "性",
+          "pinyin": "xìng",
+          "word": "性格",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/xing4.mp3"
+        }
+      },
+      {
+        "id": 39,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "写字 第10组",
+        "question": "照笔顺一笔一画写「善」（shàn，善良）",
+        "options": [],
+        "answer": "",
+        "explanation": "「善」共 12 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "善",
+          "pinyin": "shàn",
+          "word": "善良",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/shan4.mp3"
+        }
+      },
+      {
+        "id": 40,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 1,
+        "knowledge_point": "写字 第10组",
+        "question": "照笔顺一笔一画写「习」（xí，学习）",
+        "options": [],
+        "answer": "",
+        "explanation": "「习」共 3 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "习",
+          "pinyin": "xí",
+          "word": "学习",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/xi2.mp3"
+        }
+      },
+      {
+        "id": 41,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "写字 第11组",
+        "question": "照笔顺一笔一画写「教」（jiào，教师）",
+        "options": [],
+        "answer": "",
+        "explanation": "「教」共 11 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "教",
+          "pinyin": "jiào",
+          "word": "教师",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/jiao4.mp3"
+        }
+      },
+      {
+        "id": 42,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 2,
+        "knowledge_point": "写字 第11组",
+        "question": "照笔顺一笔一画写「迁」（qiān，迁移）",
+        "options": [],
+        "answer": "",
+        "explanation": "「迁」共 6 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "迁",
+          "pinyin": "qiān",
+          "word": "迁移",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/qian1.mp3"
+        }
+      },
+      {
+        "id": 43,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 3,
+        "knowledge_point": "写字 第11组",
+        "question": "照笔顺一笔一画写「贵」（guì，宝贵）",
+        "options": [],
+        "answer": "",
+        "explanation": "「贵」共 9 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "贵",
+          "pinyin": "guì",
+          "word": "宝贵",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/gui4.mp3"
+        }
+      },
+      {
+        "id": 44,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 2,
+        "knowledge_point": "写字 第11组",
+        "question": "照笔顺一笔一画写「专」（zhuān，专心）",
+        "options": [],
+        "answer": "",
+        "explanation": "「专」共 4 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "专",
+          "pinyin": "zhuān",
+          "word": "专心",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/zhuan1.mp3"
+        }
+      },
+      {
+        "id": 45,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 2,
+        "knowledge_point": "写字 第12组",
+        "question": "照笔顺一笔一画写「幼」（yòu，幼儿）",
+        "options": [],
+        "answer": "",
+        "explanation": "「幼」共 5 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "幼",
+          "pinyin": "yòu",
+          "word": "幼儿",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/you4.mp3"
+        }
+      },
+      {
+        "id": 46,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 2,
+        "knowledge_point": "写字 第12组",
+        "question": "照笔顺一笔一画写「玉」（yù，玉米）",
+        "options": [],
+        "answer": "",
+        "explanation": "「玉」共 5 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "玉",
+          "pinyin": "yù",
+          "word": "玉米",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/yu4.mp3"
+        }
+      },
+      {
+        "id": 47,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "写字 第12组",
+        "question": "照笔顺一笔一画写「器」（qì，机器）",
+        "options": [],
+        "answer": "",
+        "explanation": "「器」共 16 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "器",
+          "pinyin": "qì",
+          "word": "机器",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/qi4.mp3"
+        }
+      },
+      {
+        "id": 48,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 1,
+        "knowledge_point": "写字 第12组",
+        "question": "照笔顺一笔一画写「义」（yì，意义）",
+        "options": [],
+        "answer": "",
+        "explanation": "「义」共 3 画，跟着高亮从第一笔开始写，起笔收笔都落在灰色笔画上。",
+        "writing": {
+          "char": "义",
+          "pinyin": "yì",
+          "word": "意义",
+          "mode": "trace",
+          "threshold": 0.7
+        },
+        "audio": {
+          "question": "/audio/pinyin/yi4.mp3"
+        }
+      }
+    ]
+  },
+  "exam": {
+    "title": "第3单元写字挑战",
+    "total_score": 100,
+    "time_minutes": 10,
+    "questions": [
+      {
+        "id": 1,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "整字默写",
+        "question": "在田字格里写出「蜻」（qīng，蜻蜓）",
+        "options": [],
+        "answer": "",
+        "explanation": "「蜻」共 14 画，写在格子正中，横平竖直、笔画写满整格。",
+        "writing": {
+          "char": "蜻",
+          "pinyin": "qīng",
+          "word": "蜻蜓",
+          "mode": "whole",
+          "threshold": 0.5
+        },
+        "audio": {
+          "question": "/audio/pinyin/qing1.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "整字默写",
+        "question": "在田字格里写出「粮」（liáng，粮食）",
+        "options": [],
+        "answer": "",
+        "explanation": "「粮」共 13 画，写在格子正中，横平竖直、笔画写满整格。",
+        "writing": {
+          "char": "粮",
+          "pinyin": "liáng",
+          "word": "粮食",
+          "mode": "whole",
+          "threshold": 0.5
+        },
+        "audio": {
+          "question": "/audio/pinyin/liang2.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "整字默写",
+        "question": "在田字格里写出「暑」（shǔ，暑假）",
+        "options": [],
+        "answer": "",
+        "explanation": "「暑」共 12 画，写在格子正中，横平竖直、笔画写满整格。",
+        "writing": {
+          "char": "暑",
+          "pinyin": "shǔ",
+          "word": "暑假",
+          "mode": "whole",
+          "threshold": 0.5
+        },
+        "audio": {
+          "question": "/audio/pinyin/shu3.mp3"
+        }
+      },
+      {
+        "id": 4,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 2,
+        "knowledge_point": "整字默写",
+        "question": "在田字格里写出「场」（chǎng，操场）",
+        "options": [],
+        "answer": "",
+        "explanation": "「场」共 6 画，写在格子正中，横平竖直、笔画写满整格。",
+        "writing": {
+          "char": "场",
+          "pinyin": "chǎng",
+          "word": "操场",
+          "mode": "whole",
+          "threshold": 0.56
+        },
+        "audio": {
+          "question": "/audio/pinyin/chang3.mp3"
+        }
+      },
+      {
+        "id": 5,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "整字默写",
+        "question": "在田字格里写出「锻」（duàn，锻炼）",
+        "options": [],
+        "answer": "",
+        "explanation": "「锻」共 14 画，写在格子正中，横平竖直、笔画写满整格。",
+        "writing": {
+          "char": "锻",
+          "pinyin": "duàn",
+          "word": "锻炼",
+          "mode": "whole",
+          "threshold": 0.5
+        },
+        "audio": {
+          "question": "/audio/pinyin/duan4.mp3"
+        }
+      },
+      {
+        "id": 6,
+        "type": "writing",
+        "score": 25,
+        "difficulty": 4,
+        "knowledge_point": "整字默写",
+        "question": "在田字格里写出「教」（jiào，教师）",
+        "options": [],
+        "answer": "",
+        "explanation": "「教」共 11 画，写在格子正中，横平竖直、笔画写满整格。",
+        "writing": {
+          "char": "教",
+          "pinyin": "jiào",
+          "word": "教师",
+          "mode": "whole",
+          "threshold": 0.5
+        },
+        "audio": {
+          "question": "/audio/pinyin/jiao4.mp3"
+        }
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "写字 第1组",
+      "core_concept": "在「识字（三）· 动物儿歌」里按笔顺写「蜻、蜓、迷、藏」。",
+      "key_formula": "先横后竖，先撇后捺，从上到下，从左到右",
+      "common_mistakes": [
+        "起笔位置偏出灰色笔画",
+        "把两笔连成一笔写",
+        "笔顺颠倒（先写右边再写左边）"
+      ],
+      "tips": "握笔轻一点，看准起笔的那个小黑点再下笔。"
+    },
+    {
+      "point": "写字 第2组",
+      "core_concept": "在「识字（三）· 动物儿歌」里按笔顺写「造、蚂、蚁、食」。",
+      "key_formula": "先横后竖，先撇后捺，从上到下，从左到右",
+      "common_mistakes": [
+        "起笔位置偏出灰色笔画",
+        "把两笔连成一笔写",
+        "笔顺颠倒（先写右边再写左边）"
+      ],
+      "tips": "握笔轻一点，看准起笔的那个小黑点再下笔。"
+    },
+    {
+      "point": "写字 第3组",
+      "core_concept": "在「识字（三）· 动物儿歌」里按笔顺写「粮、蜘、蛛、网」。",
+      "key_formula": "先横后竖，先撇后捺，从上到下，从左到右",
+      "common_mistakes": [
+        "起笔位置偏出灰色笔画",
+        "把两笔连成一笔写",
+        "笔顺颠倒（先写右边再写左边）"
+      ],
+      "tips": "握笔轻一点，看准起笔的那个小黑点再下笔。"
+    },
+    {
+      "point": "写字 第4组",
+      "core_concept": "在「识字（三）· 动物儿歌」里按笔顺写「圆、严、寒、酷」。",
+      "key_formula": "先横后竖，先撇后捺，从上到下，从左到右",
+      "common_mistakes": [
+        "起笔位置偏出灰色笔画",
+        "把两笔连成一笔写",
+        "笔顺颠倒（先写右边再写左边）"
+      ],
+      "tips": "握笔轻一点，看准起笔的那个小黑点再下笔。"
+    },
+    {
+      "point": "写字 第5组",
+      "core_concept": "在「识字（三）· 动物儿歌」里按笔顺写「暑、晨、细、夕」。",
+      "key_formula": "先横后竖，先撇后捺，从上到下，从左到右",
+      "common_mistakes": [
+        "起笔位置偏出灰色笔画",
+        "把两笔连成一笔写",
+        "笔顺颠倒（先写右边再写左边）"
+      ],
+      "tips": "握笔轻一点，看准起笔的那个小黑点再下笔。"
+    },
+    {
+      "point": "写字 第6组",
+      "core_concept": "在「识字（三）· 动物儿歌」里按笔顺写「朝、霞、杨、操」。",
+      "key_formula": "先横后竖，先撇后捺，从上到下，从左到右",
+      "common_mistakes": [
+        "起笔位置偏出灰色笔画",
+        "把两笔连成一笔写",
+        "笔顺颠倒（先写右边再写左边）"
+      ],
+      "tips": "握笔轻一点，看准起笔的那个小黑点再下笔。"
+    },
+    {
+      "point": "写字 第7组",
+      "core_concept": "在「识字（三）· 动物儿歌」里按笔顺写「场、拔、拍、跑」。",
+      "key_formula": "先横后竖，先撇后捺，从上到下，从左到右",
+      "common_mistakes": [
+        "起笔位置偏出灰色笔画",
+        "把两笔连成一笔写",
+        "笔顺颠倒（先写右边再写左边）"
+      ],
+      "tips": "握笔轻一点，看准起笔的那个小黑点再下笔。"
+    },
+    {
+      "point": "写字 第8组",
+      "core_concept": "在「识字（三）· 动物儿歌」里按笔顺写「踢、铃、热、闹」。",
+      "key_formula": "先横后竖，先撇后捺，从上到下，从左到右",
+      "common_mistakes": [
+        "起笔位置偏出灰色笔画",
+        "把两笔连成一笔写",
+        "笔顺颠倒（先写右边再写左边）"
+      ],
+      "tips": "握笔轻一点，看准起笔的那个小黑点再下笔。"
+    },
+    {
+      "point": "写字 第9组",
+      "core_concept": "在「识字（三）· 动物儿歌」里按笔顺写「锻、炼、体、之」。",
+      "key_formula": "先横后竖，先撇后捺，从上到下，从左到右",
+      "common_mistakes": [
+        "起笔位置偏出灰色笔画",
+        "把两笔连成一笔写",
+        "笔顺颠倒（先写右边再写左边）"
+      ],
+      "tips": "握笔轻一点，看准起笔的那个小黑点再下笔。"
+    },
+    {
+      "point": "写字 第10组",
+      "core_concept": "在「识字（三）· 动物儿歌」里按笔顺写「初、性、善、习」。",
+      "key_formula": "先横后竖，先撇后捺，从上到下，从左到右",
+      "common_mistakes": [
+        "起笔位置偏出灰色笔画",
+        "把两笔连成一笔写",
+        "笔顺颠倒（先写右边再写左边）"
+      ],
+      "tips": "握笔轻一点，看准起笔的那个小黑点再下笔。"
+    },
+    {
+      "point": "写字 第11组",
+      "core_concept": "在「识字（三）· 动物儿歌」里按笔顺写「教、迁、贵、专」。",
+      "key_formula": "先横后竖，先撇后捺，从上到下，从左到右",
+      "common_mistakes": [
+        "起笔位置偏出灰色笔画",
+        "把两笔连成一笔写",
+        "笔顺颠倒（先写右边再写左边）"
+      ],
+      "tips": "握笔轻一点，看准起笔的那个小黑点再下笔。"
+    },
+    {
+      "point": "写字 第12组",
+      "core_concept": "在「识字（三）· 动物儿歌」里按笔顺写「幼、玉、器、义」。",
+      "key_formula": "先横后竖，先撇后捺，从上到下，从左到右",
+      "common_mistakes": [
+        "起笔位置偏出灰色笔画",
+        "把两笔连成一笔写",
+        "笔顺颠倒（先写右边再写左边）"
+      ],
+      "tips": "握笔轻一点，看准起笔的那个小黑点再下笔。"
+    }
+  ]
+}

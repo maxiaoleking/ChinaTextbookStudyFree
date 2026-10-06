@@ -630,7 +630,7 @@ def main():
     parser = argparse.ArgumentParser(description="小学多学科教材 AI 题库生成 Pipeline v3")
     parser.add_argument(
         "--subject", type=str, default="math",
-        choices=["math", "chinese", "english", "science", "all"],
+        choices=["math", "chinese", "renzi", "english", "science", "all"],
         help="要处理的学科（默认 math）",
     )
     parser.add_argument(

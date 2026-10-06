@@ -1,0 +1,3331 @@
+{
+  "textbook": "统编版小学认字二年级下册",
+  "unit": "第三单元 · 识字与传统文化",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第3单元「第三单元 · 识字与传统文化」认字与拼音练习",
+    "total_score": 100,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「州」的正确读音是？（提示词：广州）",
+        "options": [
+          "zhōu",
+          "dǎo",
+          "huá",
+          "xiá"
+        ],
+        "answer": "zhōu",
+        "explanation": "「州」读作 zhōu，可以组词「广州」。",
+        "audio": {
+          "question": "/audio/ff/ffde82cefce9682f7ce169e8d55e5313de372fec.mp3",
+          "options": [
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/dao3.mp3",
+            "/audio/pinyin/hua2.mp3",
+            "/audio/pinyin/xia2.mp3"
+          ],
+          "explanation": "/audio/c2/c2169e66867a063b24286f9fe9ec4879f6cbd751.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「华」的正确读音是？（提示词：中华）",
+        "options": [
+          "huá",
+          "xiá",
+          "zhōu",
+          "dǎo"
+        ],
+        "answer": "huá",
+        "explanation": "「华」读作 huá，可以组词「中华」。",
+        "audio": {
+          "question": "/audio/49/494c2776372a21c3d4d8e3a34d5c7c0d09ace4f2.mp3",
+          "options": [
+            "/audio/pinyin/hua2.mp3",
+            "/audio/pinyin/xia2.mp3",
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/dao3.mp3"
+          ],
+          "explanation": "/audio/56/560c3c769d4a7681e158bfbb1ec76c0af4dfa56f.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「岛」的正确读音是？（提示词：小岛）",
+        "options": [
+          "dǎo",
+          "dàn",
+          "huá",
+          "fèn"
+        ],
+        "answer": "dǎo",
+        "explanation": "「岛」读作 dǎo，可以组词「小岛」。",
+        "audio": {
+          "question": "/audio/18/18eb9947ad11ea4648d2e3baecb4cf5b0476b210.mp3",
+          "options": [
+            "/audio/pinyin/dao3.mp3",
+            "/audio/pinyin/dan4.mp3",
+            "/audio/pinyin/hua2.mp3",
+            "/audio/pinyin/fen4.mp3"
+          ],
+          "explanation": "/audio/14/14ba69e0c0cf2c62b9b39c2bb11c2dfc1c8e431c.mp3"
+        }
+      },
+      {
+        "id": 4,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「峡」的正确读音是？（提示词：海峡）",
+        "options": [
+          "yǔ",
+          "yì",
+          "qí",
+          "xiá"
+        ],
+        "answer": "xiá",
+        "explanation": "「峡」读作 xiá，可以组词「海峡」。",
+        "audio": {
+          "question": "/audio/69/69a0bf41ad510567541b9362f489f9e96162c839.mp3",
+          "options": [
+            "/audio/pinyin/yu3.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/qi2.mp3",
+            "/audio/pinyin/xia2.mp3"
+          ],
+          "explanation": "/audio/9c/9cb8b4804e9e50d38487fa5b51ca25f28bb7d0d4.mp3"
+        }
+      },
+      {
+        "id": 5,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「与」的正确读音是？（提示词：与其）",
+        "options": [
+          "huá",
+          "yǔ",
+          "zhōu",
+          "yì"
+        ],
+        "answer": "yǔ",
+        "explanation": "「与」读作 yǔ，可以组词「与其」。",
+        "audio": {
+          "question": "/audio/52/52c03f8e042178d03e1c5046a565b39fa9018f79.mp3",
+          "options": [
+            "/audio/pinyin/hua2.mp3",
+            "/audio/pinyin/yu3.mp3",
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/yi4.mp3"
+          ],
+          "explanation": "/audio/bb/bbc663258dd90b6f8da03efb5c5841379123b0ad.mp3"
+        }
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「陆」的正确读音是？（提示词：陆地）",
+        "options": [
+          "qí",
+          "lù",
+          "huá",
+          "xiá"
+        ],
+        "answer": "lù",
+        "explanation": "「陆」读作 lù，可以组词「陆地」。",
+        "audio": {
+          "question": "/audio/f6/f6dfc215cc0605ef147f4e8409af988fe5a7890b.mp3",
+          "options": [
+            "/audio/pinyin/qi2.mp3",
+            "/audio/pinyin/lu4.mp3",
+            "/audio/pinyin/hua2.mp3",
+            "/audio/pinyin/xia2.mp3"
+          ],
+          "explanation": "/audio/78/788c882696ee3079d11cf05319ced81d0e4fb611.mp3"
+        }
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「谊」的正确读音是？（提示词：友谊）",
+        "options": [
+          "yì",
+          "fèn",
+          "zhōu",
+          "xiá"
+        ],
+        "answer": "yì",
+        "explanation": "「谊」读作 yì，可以组词「友谊」。",
+        "audio": {
+          "question": "/audio/a8/a8a541f68724e5162274515ab6675a75374e4f24.mp3",
+          "options": [
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/fen4.mp3",
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/xia2.mp3"
+          ],
+          "explanation": "/audio/3c/3c1be7c3dae5cc1c560cdc92447cdc1274b6a3a4.mp3"
+        }
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「齐」的正确读音是？（提示词：整齐）",
+        "options": [
+          "qí",
+          "qié",
+          "fèn",
+          "lù"
+        ],
+        "answer": "qí",
+        "explanation": "「齐」读作 qí，可以组词「整齐」。",
+        "audio": {
+          "question": "/audio/da/da6b68011c7b12368a53b33e9388438ceee592b1.mp3",
+          "options": [
+            "/audio/pinyin/qi2.mp3",
+            "/audio/pinyin/qie2.mp3",
+            "/audio/pinyin/fen4.mp3",
+            "/audio/pinyin/lu4.mp3"
+          ],
+          "explanation": "/audio/77/775fca34df6385032f58304fdeb0e3efa57d3bd0.mp3"
+        }
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「奋」的正确读音是？（提示词：奋斗）",
+        "options": [
+          "fèn",
+          "yǔ",
+          "qí",
+          "yì"
+        ],
+        "answer": "fèn",
+        "explanation": "「奋」读作 fèn，可以组词「奋斗」。",
+        "audio": {
+          "question": "/audio/5a/5a474cd200b7161740e5a74ff8ad349760fee191.mp3",
+          "options": [
+            "/audio/pinyin/fen4.mp3",
+            "/audio/pinyin/yu3.mp3",
+            "/audio/pinyin/qi2.mp3",
+            "/audio/pinyin/yi4.mp3"
+          ],
+          "explanation": "/audio/50/50dad75937f671c92240662b155621f3e8ea322b.mp3"
+        }
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「发」的正确读音是？（提示词：发奋）",
+        "options": [
+          "fā",
+          "fèn",
+          "xiá",
+          "dǎo"
+        ],
+        "answer": "fā",
+        "explanation": "「发」读作 fā，可以组词「发奋」。",
+        "audio": {
+          "question": "/audio/4a/4a2f3c061b8fc62e14a6f8044a0f5329330182ef.mp3",
+          "options": [
+            "/audio/pinyin/fa1.mp3",
+            "/audio/pinyin/fen4.mp3",
+            "/audio/pinyin/xia2.mp3",
+            "/audio/pinyin/dao3.mp3"
+          ],
+          "explanation": "/audio/2a/2ad3b3264dfaca723b9ee3d3d7c6efd3e758ba58.mp3"
+        }
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「贴」的正确读音是？（提示词：贴纸）",
+        "options": [
+          "xiá",
+          "yì",
+          "tuán",
+          "tiē"
+        ],
+        "answer": "tiē",
+        "explanation": "「贴」读作 tiē，可以组词「贴纸」。",
+        "audio": {
+          "question": "/audio/d4/d4a1406ac8f9fc0d95a8cc802165a60dbda0407d.mp3",
+          "options": [
+            "/audio/pinyin/xia2.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/tuan2.mp3",
+            "/audio/pinyin/tie1.mp3"
+          ],
+          "explanation": "/audio/b1/b188435d2900accf35295934c62ce8cd948806ad.mp3"
+        }
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「街」的正确读音是？（提示词：大街）",
+        "options": [
+          "jī",
+          "yǔ",
+          "lù",
+          "jiē"
+        ],
+        "answer": "jiē",
+        "explanation": "「街」读作 jiē，可以组词「大街」。",
+        "audio": {
+          "question": "/audio/99/992fa6065c673fb4153603c51aad8311bf4683cf.mp3",
+          "options": [
+            "/audio/pinyin/ji1.mp3",
+            "/audio/pinyin/yu3.mp3",
+            "/audio/pinyin/lu4.mp3",
+            "/audio/pinyin/jie1.mp3"
+          ],
+          "explanation": "/audio/af/af8b3ddc1ca1b2ea1c7b2f89bcd89b6a61ccdd22.mp3"
+        }
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「舟」的正确读音是？（提示词：小舟）",
+        "options": [
+          "zhuǎn",
+          "yì",
+          "zhōu",
+          "dǎo"
+        ],
+        "answer": "zhōu",
+        "explanation": "「舟」读作 zhōu，可以组词「小舟」。",
+        "audio": {
+          "question": "/audio/18/1838fa43389e9323c084846f0b6928866b1aa561.mp3",
+          "options": [
+            "/audio/pinyin/zhuan3.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/dao3.mp3"
+          ],
+          "explanation": "/audio/10/10bf64e6711a2b51d15b3bd2caa9041b72170307.mp3"
+        }
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「艾」的正确读音是？（提示词：艾草）",
+        "options": [
+          "xiá",
+          "qí",
+          "zhōu",
+          "ài"
+        ],
+        "answer": "ài",
+        "explanation": "「艾」读作 ài，可以组词「艾草」。",
+        "audio": {
+          "question": "/audio/8f/8f9cb10b9ad5566f630a66bdc2ed8fc88e7f880c.mp3",
+          "options": [
+            "/audio/pinyin/xia2.mp3",
+            "/audio/pinyin/qi2.mp3",
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/ai4.mp3"
+          ],
+          "explanation": "/audio/2c/2cba1298540683098c3e3c9a37da36812b1207c5.mp3"
+        }
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「敬」的正确读音是？（提示词：尊敬）",
+        "options": [
+          "yì",
+          "lù",
+          "jìng",
+          "xiá"
+        ],
+        "answer": "jìng",
+        "explanation": "「敬」读作 jìng，可以组词「尊敬」。",
+        "audio": {
+          "question": "/audio/1d/1dcdf8186b9a14f3ed42fe6d4c3c2fdbdfc45d73.mp3",
+          "options": [
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/lu4.mp3",
+            "/audio/pinyin/jing4.mp3",
+            "/audio/pinyin/xia2.mp3"
+          ],
+          "explanation": "/audio/77/77693547468260aebbfab076bee68bbbb4e17838.mp3"
+        }
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「转」的正确读音是？（提示词：转身）",
+        "options": [
+          "zhōu",
+          "zhuǎn",
+          "lù",
+          "yì"
+        ],
+        "answer": "zhuǎn",
+        "explanation": "「转」读作 zhuǎn，可以组词「转身」。",
+        "audio": {
+          "question": "/audio/9a/9a6c7e9410dc06d2e16612dc84b9236f87223057.mp3",
+          "options": [
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/zhuan3.mp3",
+            "/audio/pinyin/lu4.mp3",
+            "/audio/pinyin/yi4.mp3"
+          ],
+          "explanation": "/audio/db/db5e138b42432b90e2569425ee217c15fb9465dd.mp3"
+        }
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「团」的正确读音是？（提示词：团结）",
+        "options": [
+          "tuán",
+          "yì",
+          "qí",
+          "huá"
+        ],
+        "answer": "tuán",
+        "explanation": "「团」读作 tuán，可以组词「团结」。",
+        "audio": {
+          "question": "/audio/c1/c113ed6fb82ebf53d9a020650d332e5275361b61.mp3",
+          "options": [
+            "/audio/pinyin/tuan2.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/qi2.mp3",
+            "/audio/pinyin/hua2.mp3"
+          ],
+          "explanation": "/audio/ac/accf55a2689461d09226f5aa70bdfed2ce21f0ae.mp3"
+        }
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「热」的正确读音是？（提示词：热爱）",
+        "options": [
+          "yì",
+          "lù",
+          "rè",
+          "ròu"
+        ],
+        "answer": "rè",
+        "explanation": "「热」读作 rè，可以组词「热爱」。",
+        "audio": {
+          "question": "/audio/e5/e5fd18b11f84e7758c6157d2f991242e8e6a18f6.mp3",
+          "options": [
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/lu4.mp3",
+            "/audio/pinyin/re4.mp3",
+            "/audio/pinyin/rou4.mp3"
+          ],
+          "explanation": "/audio/55/55f4f1c93487d75213e6d54b01c125e31967fd4d.mp3"
+        }
+      },
+      {
+        "id": 19,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「闹」的正确读音是？（提示词：热闹）",
+        "options": [
+          "yì",
+          "huá",
+          "nào",
+          "zhōu"
+        ],
+        "answer": "nào",
+        "explanation": "「闹」读作 nào，可以组词「热闹」。",
+        "audio": {
+          "question": "/audio/c9/c9f2cca3d9aa4a47af8b56ccb2ab2333566c4bf4.mp3",
+          "options": [
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/hua2.mp3",
+            "/audio/pinyin/nao4.mp3",
+            "/audio/pinyin/zhou1.mp3"
+          ],
+          "explanation": "/audio/ef/efccca2905cd92b2647986db432cc5c1d84d28b0.mp3"
+        }
+      },
+      {
+        "id": 20,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「贝」的正确读音是？（提示词：贝壳）",
+        "options": [
+          "yǔ",
+          "bèi",
+          "yì",
+          "qí"
+        ],
+        "answer": "bèi",
+        "explanation": "「贝」读作 bèi，可以组词「贝壳」。",
+        "audio": {
+          "question": "/audio/b0/b0b01e5bdcd13278e542330bcede98cfa595c5a3.mp3",
+          "options": [
+            "/audio/pinyin/yu3.mp3",
+            "/audio/pinyin/bei4.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/qi2.mp3"
+          ],
+          "explanation": "/audio/21/21fcce4be087b0c2a7923ed5011b039c0df0a273.mp3"
+        }
+      },
+      {
+        "id": 21,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「壳」的正确读音是？（提示词：贝壳）",
+        "options": [
+          "zhōu",
+          "dǎo",
+          "ké",
+          "yǔ"
+        ],
+        "answer": "ké",
+        "explanation": "「壳」读作 ké，可以组词「贝壳」。",
+        "audio": {
+          "question": "/audio/57/57e0d858d694e9889eac185125d9c08ea1e93188.mp3",
+          "options": [
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/dao3.mp3",
+            "/audio/pinyin/ke2.mp3",
+            "/audio/pinyin/yu3.mp3"
+          ],
+          "explanation": "/audio/64/64b47afecc697b9cc980ede8ade9225b3967a491.mp3"
+        }
+      },
+      {
+        "id": 22,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「甲」的正确读音是？（提示词：甲骨）",
+        "options": [
+          "jiǎ",
+          "xiá",
+          "dǎo",
+          "yì"
+        ],
+        "answer": "jiǎ",
+        "explanation": "「甲」读作 jiǎ，可以组词「甲骨」。",
+        "audio": {
+          "question": "/audio/04/047392aac263e8728c8d9aa6f6038491bde3af0a.mp3",
+          "options": [
+            "/audio/pinyin/jia3.mp3",
+            "/audio/pinyin/xia2.mp3",
+            "/audio/pinyin/dao3.mp3",
+            "/audio/pinyin/yi4.mp3"
+          ],
+          "explanation": "/audio/bf/bf39b66c97705bf96233a26586b36b2ee8e9b567.mp3"
+        }
+      },
+      {
+        "id": 23,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「骨」的正确读音是？（提示词：骨头）",
+        "options": [
+          "zhōu",
+          "gòu",
+          "yǔ",
+          "gǔ"
+        ],
+        "answer": "gǔ",
+        "explanation": "「骨」读作 gǔ，可以组词「骨头」。",
+        "audio": {
+          "question": "/audio/ce/ce44f5e0a72b96f559224859177ae0d2d06d5840.mp3",
+          "options": [
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/gou4.mp3",
+            "/audio/pinyin/yu3.mp3",
+            "/audio/pinyin/gu3.mp3"
+          ],
+          "explanation": "/audio/7e/7ec735ee4870ed4410fcef208c53af09a6717e73.mp3"
+        }
+      },
+      {
+        "id": 24,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「钱」的正确读音是？（提示词：金钱）",
+        "options": [
+          "yì",
+          "dǎo",
+          "lù",
+          "qián"
+        ],
+        "answer": "qián",
+        "explanation": "「钱」读作 qián，可以组词「金钱」。",
+        "audio": {
+          "question": "/audio/ae/aeda0d113aad861d692eb10f84b643474f59027f.mp3",
+          "options": [
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/dao3.mp3",
+            "/audio/pinyin/lu4.mp3",
+            "/audio/pinyin/qian2.mp3"
+          ],
+          "explanation": "/audio/36/36278bce7570c1e7af9aebca76abecfbf9a93d45.mp3"
+        }
+      },
+      {
+        "id": 25,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「币」的正确读音是？（提示词：硬币）",
+        "options": [
+          "dǎo",
+          "qí",
+          "bì",
+          "lù"
+        ],
+        "answer": "bì",
+        "explanation": "「币」读作 bì，可以组词「硬币」。",
+        "audio": {
+          "question": "/audio/6d/6d195b279ce23ddc4561d8d7cd25e18ca03ef1ac.mp3",
+          "options": [
+            "/audio/pinyin/dao3.mp3",
+            "/audio/pinyin/qi2.mp3",
+            "/audio/pinyin/bi4.mp3",
+            "/audio/pinyin/lu4.mp3"
+          ],
+          "explanation": "/audio/f6/f694231f9e37586cf6d041f0a4d3b2747f905f7c.mp3"
+        }
+      },
+      {
+        "id": 26,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「财」的正确读音是？（提示词：财产）",
+        "options": [
+          "lù",
+          "xiá",
+          "cái",
+          "qí"
+        ],
+        "answer": "cái",
+        "explanation": "「财」读作 cái，可以组词「财产」。",
+        "audio": {
+          "question": "/audio/cc/cc60faac01e6b1762bec554650a8357c60cf8b30.mp3",
+          "options": [
+            "/audio/pinyin/lu4.mp3",
+            "/audio/pinyin/xia2.mp3",
+            "/audio/pinyin/cai2.mp3",
+            "/audio/pinyin/qi2.mp3"
+          ],
+          "explanation": "/audio/84/84f72c90561ea7867f19def2e014fe8876fff2ee.mp3"
+        }
+      },
+      {
+        "id": 27,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「关」的正确读音是？（提示词：关心）",
+        "options": [
+          "huá",
+          "zhōu",
+          "guān",
+          "dǎo"
+        ],
+        "answer": "guān",
+        "explanation": "「关」读作 guān，可以组词「关心」。",
+        "audio": {
+          "question": "/audio/e2/e2037c67998ccd62f646190c14202ac614793eac.mp3",
+          "options": [
+            "/audio/pinyin/hua2.mp3",
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/guan1.mp3",
+            "/audio/pinyin/dao3.mp3"
+          ],
+          "explanation": "/audio/c4/c4a0c313496ead07cf2b622e5bc35a3e8564d879.mp3"
+        }
+      },
+      {
+        "id": 28,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「购」的正确读音是？（提示词：购买）",
+        "options": [
+          "qí",
+          "xiá",
+          "yì",
+          "gòu"
+        ],
+        "answer": "gòu",
+        "explanation": "「购」读作 gòu，可以组词「购买」。",
+        "audio": {
+          "question": "/audio/30/309b68775146ffdd087147cd56c9eb8bf967d1e1.mp3",
+          "options": [
+            "/audio/pinyin/qi2.mp3",
+            "/audio/pinyin/xia2.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/gou4.mp3"
+          ],
+          "explanation": "/audio/16/16f4bc6ae28c73ae4bad0eda090fe449175a293a.mp3"
+        }
+      },
+      {
+        "id": 29,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「赔」的正确读音是？（提示词：赔偿）",
+        "options": [
+          "dǎo",
+          "péi",
+          "zhōu",
+          "pín"
+        ],
+        "answer": "péi",
+        "explanation": "「赔」读作 péi，可以组词「赔偿」。",
+        "audio": {
+          "question": "/audio/18/1830bc83ea86478f5a8bebb5bf8f356613b7e744.mp3",
+          "options": [
+            "/audio/pinyin/dao3.mp3",
+            "/audio/pinyin/pei2.mp3",
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/pin2.mp3"
+          ],
+          "explanation": "/audio/80/802c8e56f472efe003d438c0df02c0e718490a8f.mp3"
+        }
+      },
+      {
+        "id": 30,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「贫」的正确读音是？（提示词：贫穷）",
+        "options": [
+          "xiá",
+          "yì",
+          "pín",
+          "zhōu"
+        ],
+        "answer": "pín",
+        "explanation": "「贫」读作 pín，可以组词「贫穷」。",
+        "audio": {
+          "question": "/audio/83/83beba15dee4bcfd2e07d82620d9962f1bb5a76d.mp3",
+          "options": [
+            "/audio/pinyin/xia2.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/pin2.mp3",
+            "/audio/pinyin/zhou1.mp3"
+          ],
+          "explanation": "/audio/3b/3b479d15fae9ac532add8d0f4174d14f24717e01.mp3"
+        }
+      },
+      {
+        "id": 31,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「烧」的正确读音是？（提示词：烧火）",
+        "options": [
+          "dǎo",
+          "yì",
+          "shāo",
+          "xiá"
+        ],
+        "answer": "shāo",
+        "explanation": "「烧」读作 shāo，可以组词「烧火」。",
+        "audio": {
+          "question": "/audio/11/11e6f3a7373e935fd750ce5fc7bc3db9f2255d25.mp3",
+          "options": [
+            "/audio/pinyin/dao3.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/shao1.mp3",
+            "/audio/pinyin/xia2.mp3"
+          ],
+          "explanation": "/audio/e5/e57a978c63de3ad5128f462dcb42f71f1486eb4b.mp3"
+        }
+      },
+      {
+        "id": 32,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「茄」的正确读音是？（提示词：茄子）",
+        "options": [
+          "huá",
+          "xiá",
+          "qí",
+          "qié"
+        ],
+        "answer": "qié",
+        "explanation": "「茄」读作 qié，可以组词「茄子」。",
+        "audio": {
+          "question": "/audio/72/72608491abca88e5c705826618a39c7c805adaf5.mp3",
+          "options": [
+            "/audio/pinyin/hua2.mp3",
+            "/audio/pinyin/xia2.mp3",
+            "/audio/pinyin/qi2.mp3",
+            "/audio/pinyin/qie2.mp3"
+          ],
+          "explanation": "/audio/b6/b63af18a8ad04c4518c81405b91338f058ba444d.mp3"
+        }
+      },
+      {
+        "id": 33,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「烤」的正确读音是？（提示词：烤火）",
+        "options": [
+          "ké",
+          "kǎo",
+          "dǎo",
+          "qí"
+        ],
+        "answer": "kǎo",
+        "explanation": "「烤」读作 kǎo，可以组词「烤火」。",
+        "audio": {
+          "question": "/audio/05/05d991fa77cebed5ef0c1c1064717b33600ae8ac.mp3",
+          "options": [
+            "/audio/pinyin/ke2.mp3",
+            "/audio/pinyin/kao3.mp3",
+            "/audio/pinyin/dao3.mp3",
+            "/audio/pinyin/qi2.mp3"
+          ],
+          "explanation": "/audio/19/190f3afc5855be8ef79b149bd65a3fc4fb132662.mp3"
+        }
+      },
+      {
+        "id": 34,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「鸭」的正确读音是？（提示词：鸭子）",
+        "options": [
+          "xiá",
+          "lù",
+          "yā",
+          "dǎo"
+        ],
+        "answer": "yā",
+        "explanation": "「鸭」读作 yā，可以组词「鸭子」。",
+        "audio": {
+          "question": "/audio/11/1158e6bf8492802e12da6325433359de0f5f12bb.mp3",
+          "options": [
+            "/audio/pinyin/xia2.mp3",
+            "/audio/pinyin/lu4.mp3",
+            "/audio/pinyin/ya1.mp3",
+            "/audio/pinyin/dao3.mp3"
+          ],
+          "explanation": "/audio/d8/d83cd059c553882e80c5fe80e90621327740e85c.mp3"
+        }
+      },
+      {
+        "id": 35,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「肉」的正确读音是？（提示词：牛肉）",
+        "options": [
+          "xiá",
+          "dǎo",
+          "ròu",
+          "huá"
+        ],
+        "answer": "ròu",
+        "explanation": "「肉」读作 ròu，可以组词「牛肉」。",
+        "audio": {
+          "question": "/audio/c0/c0585c0f7b08822c4565f859f6ec821bb0e6a372.mp3",
+          "options": [
+            "/audio/pinyin/xia2.mp3",
+            "/audio/pinyin/dao3.mp3",
+            "/audio/pinyin/rou4.mp3",
+            "/audio/pinyin/hua2.mp3"
+          ],
+          "explanation": "/audio/12/123accaf427a44ab07c380b3d121d0af67a15bd7.mp3"
+        }
+      },
+      {
+        "id": 36,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「鸡」的正确读音是？（提示词：鸡蛋）",
+        "options": [
+          "xiá",
+          "yǔ",
+          "jī",
+          "zhōu"
+        ],
+        "answer": "jī",
+        "explanation": "「鸡」读作 jī，可以组词「鸡蛋」。",
+        "audio": {
+          "question": "/audio/22/22a44cf48b9a2fa28e402861481175dd8857b6a8.mp3",
+          "options": [
+            "/audio/pinyin/xia2.mp3",
+            "/audio/pinyin/yu3.mp3",
+            "/audio/pinyin/ji1.mp3",
+            "/audio/pinyin/zhou1.mp3"
+          ],
+          "explanation": "/audio/67/67d1096ae6c8558d5ed348c2d25ea1a73427e89f.mp3"
+        }
+      },
+      {
+        "id": 37,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「蛋」的正确读音是？（提示词：鸡蛋）",
+        "options": [
+          "yì",
+          "qí",
+          "dàn",
+          "dǎo"
+        ],
+        "answer": "dàn",
+        "explanation": "「蛋」读作 dàn，可以组词「鸡蛋」。",
+        "audio": {
+          "question": "/audio/b2/b28a9e3b0f5600a9f8bf8378217d1a0643154f21.mp3",
+          "options": [
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/qi2.mp3",
+            "/audio/pinyin/dan4.mp3",
+            "/audio/pinyin/dao3.mp3"
+          ],
+          "explanation": "/audio/9a/9a6ed050f04d180ce83e7dd484eec31f32711e96.mp3"
+        }
+      },
+      {
+        "id": 38,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「炒」的正确读音是？（提示词：炒菜）",
+        "options": [
+          "chǎo",
+          "qí",
+          "yì",
+          "huá"
+        ],
+        "answer": "chǎo",
+        "explanation": "「炒」读作 chǎo，可以组词「炒菜」。",
+        "audio": {
+          "question": "/audio/e1/e1f6e4a99cc10a7d2206b68e21f1028fefe618a5.mp3",
+          "options": [
+            "/audio/pinyin/chao3.mp3",
+            "/audio/pinyin/qi2.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/hua2.mp3"
+          ],
+          "explanation": "/audio/d6/d68f75f81eb55a96a8135eba6087d12db2d979b3.mp3"
+        }
+      },
+      {
+        "id": 39,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「饭」的正确读音是？（提示词：吃饭）",
+        "options": [
+          "qí",
+          "huá",
+          "yì",
+          "fàn"
+        ],
+        "answer": "fàn",
+        "explanation": "「饭」读作 fàn，可以组词「吃饭」。",
+        "audio": {
+          "question": "/audio/dc/dc152dea162e5a36d26c276c9e3d7c4ebfda8e86.mp3",
+          "options": [
+            "/audio/pinyin/qi2.mp3",
+            "/audio/pinyin/hua2.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/fan4.mp3"
+          ],
+          "explanation": "/audio/5c/5c73826b2e3b8c383b67940bfc11c30fa29e9031.mp3"
+        }
+      },
+      {
+        "id": 40,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「粥」的正确读音是？（提示词：喝粥）",
+        "options": [
+          "yǔ",
+          "zhōu",
+          "qí",
+          "huá"
+        ],
+        "answer": "zhōu",
+        "explanation": "「粥」读作 zhōu，可以组词「喝粥」。",
+        "audio": {
+          "question": "/audio/16/1618d36a2bd77c98e3ee3f4e799aa9c397537d0f.mp3",
+          "options": [
+            "/audio/pinyin/yu3.mp3",
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/qi2.mp3",
+            "/audio/pinyin/hua2.mp3"
+          ],
+          "explanation": "/audio/2d/2ddfbd7bbf1c1071ee062dfcb0e8c9734020476f.mp3"
+        }
+      },
+      {
+        "id": 41,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「饺」的正确读音是？（提示词：饺子）",
+        "options": [
+          "jī",
+          "huá",
+          "yì",
+          "jiǎo"
+        ],
+        "answer": "jiǎo",
+        "explanation": "「饺」读作 jiǎo，可以组词「饺子」。",
+        "audio": {
+          "question": "/audio/83/8363b2c41f816ea244bf62acd7177bf9ff3fe632.mp3",
+          "options": [
+            "/audio/pinyin/ji1.mp3",
+            "/audio/pinyin/hua2.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/jiao3.mp3"
+          ],
+          "explanation": "/audio/8b/8be8a1e6ef844e05d233a185c472e196f6244700.mp3"
+        }
+      },
+      {
+        "id": 42,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「酱」的正确读音是？（提示词：酱油）",
+        "options": [
+          "jiàng",
+          "zhōu",
+          "yì",
+          "yǔ"
+        ],
+        "answer": "jiàng",
+        "explanation": "「酱」读作 jiàng，可以组词「酱油」。",
+        "audio": {
+          "question": "/audio/6d/6d6a94516571c92641b996f2d6fe7a0450f36993.mp3",
+          "options": [
+            "/audio/pinyin/jiang4.mp3",
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/yu3.mp3"
+          ],
+          "explanation": "/audio/91/91afe889c60eee94656d039203c071aee57c79d2.mp3"
+        }
+      },
+      {
+        "id": 43,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「zhōu」对应的汉字是？（词：广州）",
+        "options": [
+          "炒",
+          "华",
+          "关",
+          "州"
+        ],
+        "answer": "州",
+        "explanation": "「zhōu」写作「州」，例如「广州」。",
+        "audio": {
+          "question": "/audio/ca/ca4bf2c992990bdbeaa3859ae60910c744219bd9.mp3",
+          "options": [
+            "/audio/pinyin/chao3.mp3",
+            "/audio/pinyin/hua2.mp3",
+            "/audio/pinyin/guan1.mp3",
+            "/audio/pinyin/zhou1.mp3"
+          ],
+          "explanation": "/audio/0e/0e7c5596626fe212f7cd4410c64199c3d5ac3930.mp3"
+        }
+      },
+      {
+        "id": 44,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「huá」对应的汉字是？（词：中华）",
+        "options": [
+          "骨",
+          "敬",
+          "华",
+          "热"
+        ],
+        "answer": "华",
+        "explanation": "「huá」写作「华」，例如「中华」。",
+        "audio": {
+          "question": "/audio/44/4426eb539575c9c9ca6602cf7c8788763907d9e4.mp3",
+          "options": [
+            "/audio/pinyin/gu3.mp3",
+            "/audio/pinyin/jing4.mp3",
+            "/audio/pinyin/hua2.mp3",
+            "/audio/pinyin/re4.mp3"
+          ],
+          "explanation": "/audio/bd/bd1c8479fbcbadd12e67c4e8fd94ccf01e8215b1.mp3"
+        }
+      },
+      {
+        "id": 45,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「dǎo」对应的汉字是？（词：小岛）",
+        "options": [
+          "岛",
+          "州",
+          "闹",
+          "鸡"
+        ],
+        "answer": "岛",
+        "explanation": "「dǎo」写作「岛」，例如「小岛」。",
+        "audio": {
+          "question": "/audio/91/91f3d4c1f1ab63da16521b2eee0fd165001320d8.mp3",
+          "options": [
+            "/audio/pinyin/dao3.mp3",
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/nao4.mp3",
+            "/audio/pinyin/ji1.mp3"
+          ],
+          "explanation": "/audio/4d/4df3b4d3bae197203d3ae08fadf6188962d9bdf8.mp3"
+        }
+      },
+      {
+        "id": 46,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「xiá」对应的汉字是？（词：海峡）",
+        "options": [
+          "峡",
+          "热",
+          "岛",
+          "街"
+        ],
+        "answer": "峡",
+        "explanation": "「xiá」写作「峡」，例如「海峡」。",
+        "audio": {
+          "question": "/audio/79/79fbf5ac84ee1d8f3bd9cc339b14374b65826d33.mp3",
+          "options": [
+            "/audio/pinyin/xia2.mp3",
+            "/audio/pinyin/re4.mp3",
+            "/audio/pinyin/dao3.mp3",
+            "/audio/pinyin/jie1.mp3"
+          ],
+          "explanation": "/audio/c3/c340198a6ba07d10ac538e63d866e35f5571cec4.mp3"
+        }
+      },
+      {
+        "id": 47,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「yǔ」对应的汉字是？（词：与其）",
+        "options": [
+          "烤",
+          "与",
+          "财",
+          "奋"
+        ],
+        "answer": "与",
+        "explanation": "「yǔ」写作「与」，例如「与其」。",
+        "audio": {
+          "question": "/audio/9a/9ab594152d1fc43193e3b7166df30ab984e64ed5.mp3",
+          "options": [
+            "/audio/pinyin/kao3.mp3",
+            "/audio/pinyin/yu3.mp3",
+            "/audio/pinyin/cai2.mp3",
+            "/audio/pinyin/fen4.mp3"
+          ],
+          "explanation": "/audio/ec/ec4fd48cd7b27c6e36c43f4be5efef587e62ce32.mp3"
+        }
+      },
+      {
+        "id": 48,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「lù」对应的汉字是？（词：陆地）",
+        "options": [
+          "陆",
+          "热",
+          "钱",
+          "财"
+        ],
+        "answer": "陆",
+        "explanation": "「lù」写作「陆」，例如「陆地」。",
+        "audio": {
+          "question": "/audio/a3/a3f3f6b0870ff01a001becdf23e54414825ce7fd.mp3",
+          "options": [
+            "/audio/pinyin/lu4.mp3",
+            "/audio/pinyin/re4.mp3",
+            "/audio/pinyin/qian2.mp3",
+            "/audio/pinyin/cai2.mp3"
+          ],
+          "explanation": "/audio/d5/d5013b05763909ce1bd85e51ce294acc326f2788.mp3"
+        }
+      },
+      {
+        "id": 49,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「yì」对应的汉字是？（词：友谊）",
+        "options": [
+          "陆",
+          "赔",
+          "谊",
+          "购"
+        ],
+        "answer": "谊",
+        "explanation": "「yì」写作「谊」，例如「友谊」。",
+        "audio": {
+          "question": "/audio/4f/4fd51cb40d05b7b32791ee1b6f6fae181cd3b205.mp3",
+          "options": [
+            "/audio/pinyin/lu4.mp3",
+            "/audio/pinyin/pei2.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/gou4.mp3"
+          ],
+          "explanation": "/audio/3a/3a12035b80fc09abc608b0b8f05c633b70417d8b.mp3"
+        }
+      },
+      {
+        "id": 50,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「qí」对应的汉字是？（词：整齐）",
+        "options": [
+          "肉",
+          "齐",
+          "贴",
+          "饺"
+        ],
+        "answer": "齐",
+        "explanation": "「qí」写作「齐」，例如「整齐」。",
+        "audio": {
+          "question": "/audio/32/3248f8037d6694a0d6f4ce5227e84fb11758c82a.mp3",
+          "options": [
+            "/audio/pinyin/rou4.mp3",
+            "/audio/pinyin/qi2.mp3",
+            "/audio/pinyin/tie1.mp3",
+            "/audio/pinyin/jiao3.mp3"
+          ],
+          "explanation": "/audio/e9/e9d74a6467beb071745a4a7d2f28d3cf85e40cc2.mp3"
+        }
+      },
+      {
+        "id": 51,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「fèn」对应的汉字是？（词：奋斗）",
+        "options": [
+          "烤",
+          "州",
+          "币",
+          "奋"
+        ],
+        "answer": "奋",
+        "explanation": "「fèn」写作「奋」，例如「奋斗」。",
+        "audio": {
+          "question": "/audio/5b/5bdcb61d95cbcb28eb9b550698482fa89de5199c.mp3",
+          "options": [
+            "/audio/pinyin/kao3.mp3",
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/bi4.mp3",
+            "/audio/pinyin/fen4.mp3"
+          ],
+          "explanation": "/audio/e4/e4821310778b94635067cd5f3c7a49016c7480b8.mp3"
+        }
+      },
+      {
+        "id": 52,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「fā」对应的汉字是？（词：发奋）",
+        "options": [
+          "茄",
+          "发",
+          "敬",
+          "峡"
+        ],
+        "answer": "发",
+        "explanation": "「fā」写作「发」，例如「发奋」。",
+        "audio": {
+          "question": "/audio/10/102c7ffeb298200f5c1686891ebe0efbec9cf2c0.mp3",
+          "options": [
+            "/audio/pinyin/jia1.mp3",
+            "/audio/pinyin/fa1.mp3",
+            "/audio/pinyin/jing4.mp3",
+            "/audio/pinyin/xia2.mp3"
+          ],
+          "explanation": "/audio/44/445b0af9a99bbbb11ffacc8bb49c853f98aaadd9.mp3"
+        }
+      },
+      {
+        "id": 53,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「tiē」对应的汉字是？（词：贴纸）",
+        "options": [
+          "壳",
+          "粥",
+          "贴",
+          "币"
+        ],
+        "answer": "贴",
+        "explanation": "「tiē」写作「贴」，例如「贴纸」。",
+        "audio": {
+          "question": "/audio/08/08e04d62a687653777d44f4e123497cd463e16c6.mp3",
+          "options": [
+            "/audio/pinyin/ke2.mp3",
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/tie1.mp3",
+            "/audio/pinyin/bi4.mp3"
+          ],
+          "explanation": "/audio/ad/ad7eb49d156f7c7a480c3a14cdc61fd930010dca.mp3"
+        }
+      },
+      {
+        "id": 54,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jiē」对应的汉字是？（词：大街）",
+        "options": [
+          "峡",
+          "蛋",
+          "财",
+          "街"
+        ],
+        "answer": "街",
+        "explanation": "「jiē」写作「街」，例如「大街」。",
+        "audio": {
+          "question": "/audio/d2/d2fe7e8e0a8f663de0e1ac24b687f98506a7c149.mp3",
+          "options": [
+            "/audio/pinyin/xia2.mp3",
+            "/audio/pinyin/dan4.mp3",
+            "/audio/pinyin/cai2.mp3",
+            "/audio/pinyin/jie1.mp3"
+          ],
+          "explanation": "/audio/9a/9a3dbf954f14d44363e855a42c1f05ba4bec2715.mp3"
+        }
+      },
+      {
+        "id": 55,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「zhōu」对应的汉字是？（词：小舟）",
+        "options": [
+          "舟",
+          "贴",
+          "团",
+          "岛"
+        ],
+        "answer": "舟",
+        "explanation": "「zhōu」写作「舟」，例如「小舟」。",
+        "audio": {
+          "question": "/audio/43/43dcd1ecef06f325e49c4ccff1428ef8464cd0e6.mp3",
+          "options": [
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/tie1.mp3",
+            "/audio/pinyin/tuan2.mp3",
+            "/audio/pinyin/dao3.mp3"
+          ],
+          "explanation": "/audio/b6/b6367d8a8d1b7312998c41c16e470ac2fce51e72.mp3"
+        }
+      },
+      {
+        "id": 56,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「ài」对应的汉字是？（词：艾草）",
+        "options": [
+          "财",
+          "峡",
+          "团",
+          "艾"
+        ],
+        "answer": "艾",
+        "explanation": "「ài」写作「艾」，例如「艾草」。",
+        "audio": {
+          "question": "/audio/c0/c0f24d0031a9da565e6075963c0f69a7ccd6d3e8.mp3",
+          "options": [
+            "/audio/pinyin/cai2.mp3",
+            "/audio/pinyin/xia2.mp3",
+            "/audio/pinyin/tuan2.mp3",
+            "/audio/pinyin/ai4.mp3"
+          ],
+          "explanation": "/audio/14/144e884685e67324c836be242be90a38d5c74f84.mp3"
+        }
+      },
+      {
+        "id": 57,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jìng」对应的汉字是？（词：尊敬）",
+        "options": [
+          "敬",
+          "华",
+          "烤",
+          "艾"
+        ],
+        "answer": "敬",
+        "explanation": "「jìng」写作「敬」，例如「尊敬」。",
+        "audio": {
+          "question": "/audio/2a/2a743bc1024de94166fda891703e67392c48d4b1.mp3",
+          "options": [
+            "/audio/pinyin/jing4.mp3",
+            "/audio/pinyin/hua2.mp3",
+            "/audio/pinyin/kao3.mp3",
+            "/audio/pinyin/ai4.mp3"
+          ],
+          "explanation": "/audio/02/022265feef664880c56b58403035a198b32c700b.mp3"
+        }
+      },
+      {
+        "id": 58,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「zhuǎn」对应的汉字是？（词：转身）",
+        "options": [
+          "财",
+          "闹",
+          "转",
+          "鸡"
+        ],
+        "answer": "转",
+        "explanation": "「zhuǎn」写作「转」，例如「转身」。",
+        "audio": {
+          "question": "/audio/5e/5eee1a23d0513b61102da7091f4e55a8d3d61696.mp3",
+          "options": [
+            "/audio/pinyin/cai2.mp3",
+            "/audio/pinyin/nao4.mp3",
+            "/audio/pinyin/zhuan3.mp3",
+            "/audio/pinyin/ji1.mp3"
+          ],
+          "explanation": "/audio/42/4203f91f6abea40d5c844c9625271aff34aa719a.mp3"
+        }
+      },
+      {
+        "id": 59,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「tuán」对应的汉字是？（词：团结）",
+        "options": [
+          "酱",
+          "财",
+          "峡",
+          "团"
+        ],
+        "answer": "团",
+        "explanation": "「tuán」写作「团」，例如「团结」。",
+        "audio": {
+          "question": "/audio/15/157d44fe829c5b20090f792eadc88c388e4b6bc3.mp3",
+          "options": [
+            "/audio/pinyin/jiang4.mp3",
+            "/audio/pinyin/cai2.mp3",
+            "/audio/pinyin/xia2.mp3",
+            "/audio/pinyin/tuan2.mp3"
+          ],
+          "explanation": "/audio/8c/8c448cf643618908f0ccc228f9061acb23cdc0ee.mp3"
+        }
+      },
+      {
+        "id": 60,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「rè」对应的汉字是？（词：热爱）",
+        "options": [
+          "酱",
+          "热",
+          "与",
+          "饭"
+        ],
+        "answer": "热",
+        "explanation": "「rè」写作「热」，例如「热爱」。",
+        "audio": {
+          "question": "/audio/ea/ead08dc5b146b7723b8398a550b7b068f4320021.mp3",
+          "options": [
+            "/audio/pinyin/jiang4.mp3",
+            "/audio/pinyin/re4.mp3",
+            "/audio/pinyin/yu3.mp3",
+            "/audio/pinyin/fan4.mp3"
+          ],
+          "explanation": "/audio/f9/f94ffffb2b313c4223444a11e0b0bd3c15d848b3.mp3"
+        }
+      },
+      {
+        "id": 61,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「nào」对应的汉字是？（词：热闹）",
+        "options": [
+          "关",
+          "闹",
+          "团",
+          "财"
+        ],
+        "answer": "闹",
+        "explanation": "「nào」写作「闹」，例如「热闹」。",
+        "audio": {
+          "question": "/audio/f0/f03648ab5ba89f343cf9f47ab8b17bd0316b50f2.mp3",
+          "options": [
+            "/audio/pinyin/guan1.mp3",
+            "/audio/pinyin/nao4.mp3",
+            "/audio/pinyin/tuan2.mp3",
+            "/audio/pinyin/cai2.mp3"
+          ],
+          "explanation": "/audio/3c/3c8990480cd2e0f890fc4be35560a31dd1f9d2b6.mp3"
+        }
+      },
+      {
+        "id": 62,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「bèi」对应的汉字是？（词：贝壳）",
+        "options": [
+          "岛",
+          "贝",
+          "肉",
+          "鸭"
+        ],
+        "answer": "贝",
+        "explanation": "「bèi」写作「贝」，例如「贝壳」。",
+        "audio": {
+          "question": "/audio/ec/ec04e40b7ecd11036e8e3d0dadea9506ebbb9593.mp3",
+          "options": [
+            "/audio/pinyin/dao3.mp3",
+            "/audio/pinyin/bei4.mp3",
+            "/audio/pinyin/rou4.mp3",
+            "/audio/pinyin/ya1.mp3"
+          ],
+          "explanation": "/audio/bc/bc26e113ffb4a280e9e237c01e4196a11831a12d.mp3"
+        }
+      },
+      {
+        "id": 63,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「ké」对应的汉字是？（词：贝壳）",
+        "options": [
+          "壳",
+          "赔",
+          "蛋",
+          "齐"
+        ],
+        "answer": "壳",
+        "explanation": "「ké」写作「壳」，例如「贝壳」。",
+        "audio": {
+          "question": "/audio/a1/a105dd9ebd46a7cb8cdfdad2b1ac258a13e19c24.mp3",
+          "options": [
+            "/audio/pinyin/ke2.mp3",
+            "/audio/pinyin/pei2.mp3",
+            "/audio/pinyin/dan4.mp3",
+            "/audio/pinyin/qi2.mp3"
+          ],
+          "explanation": "/audio/08/083efa4b7e156261f42226bf8763b294527a0e2d.mp3"
+        }
+      },
+      {
+        "id": 64,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jiǎ」对应的汉字是？（词：甲骨）",
+        "options": [
+          "赔",
+          "饭",
+          "贝",
+          "甲"
+        ],
+        "answer": "甲",
+        "explanation": "「jiǎ」写作「甲」，例如「甲骨」。",
+        "audio": {
+          "question": "/audio/f4/f44e68a824a2a438a1def1e62df4cbdbc9fce55e.mp3",
+          "options": [
+            "/audio/pinyin/pei2.mp3",
+            "/audio/pinyin/fan4.mp3",
+            "/audio/pinyin/bei4.mp3",
+            "/audio/pinyin/jia3.mp3"
+          ],
+          "explanation": "/audio/b9/b985078e40be4f50fc72ca597ca26d561ffadf23.mp3"
+        }
+      },
+      {
+        "id": 65,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「gǔ」对应的汉字是？（词：骨头）",
+        "options": [
+          "烤",
+          "饭",
+          "骨",
+          "闹"
+        ],
+        "answer": "骨",
+        "explanation": "「gǔ」写作「骨」，例如「骨头」。",
+        "audio": {
+          "question": "/audio/35/35dec51f80ad9117113f3f51ca98d70264fb01af.mp3",
+          "options": [
+            "/audio/pinyin/kao3.mp3",
+            "/audio/pinyin/fan4.mp3",
+            "/audio/pinyin/gu3.mp3",
+            "/audio/pinyin/nao4.mp3"
+          ],
+          "explanation": "/audio/d1/d1bcf1d6c3de07af1c78238d50555fdfa483cc17.mp3"
+        }
+      },
+      {
+        "id": 66,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「qián」对应的汉字是？（词：金钱）",
+        "options": [
+          "钱",
+          "敬",
+          "炒",
+          "热"
+        ],
+        "answer": "钱",
+        "explanation": "「qián」写作「钱」，例如「金钱」。",
+        "audio": {
+          "question": "/audio/51/519a8e6fd5b2c6785bba900369e17f153d0532a8.mp3",
+          "options": [
+            "/audio/pinyin/qian2.mp3",
+            "/audio/pinyin/jing4.mp3",
+            "/audio/pinyin/chao3.mp3",
+            "/audio/pinyin/re4.mp3"
+          ],
+          "explanation": "/audio/87/8794f06a9a17003c6ac8d1d32d487d42ef3c194a.mp3"
+        }
+      },
+      {
+        "id": 67,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「bì」对应的汉字是？（词：硬币）",
+        "options": [
+          "甲",
+          "币",
+          "谊",
+          "街"
+        ],
+        "answer": "币",
+        "explanation": "「bì」写作「币」，例如「硬币」。",
+        "audio": {
+          "question": "/audio/34/34c2b777168f8136fdf820a331af050247c44011.mp3",
+          "options": [
+            "/audio/pinyin/jia3.mp3",
+            "/audio/pinyin/bi4.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/jie1.mp3"
+          ],
+          "explanation": "/audio/86/868af05e0300020b0e6fc38cebda226fa9b2e918.mp3"
+        }
+      },
+      {
+        "id": 68,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「cái」对应的汉字是？（词：财产）",
+        "options": [
+          "财",
+          "甲",
+          "艾",
+          "闹"
+        ],
+        "answer": "财",
+        "explanation": "「cái」写作「财」，例如「财产」。",
+        "audio": {
+          "question": "/audio/84/8491d5730bb923bc571d22ec84e1dc0412187616.mp3",
+          "options": [
+            "/audio/pinyin/cai2.mp3",
+            "/audio/pinyin/jia3.mp3",
+            "/audio/pinyin/ai4.mp3",
+            "/audio/pinyin/nao4.mp3"
+          ],
+          "explanation": "/audio/78/78d2a31510ef33abec703c95d175bc58c67c7c83.mp3"
+        }
+      },
+      {
+        "id": 69,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「guān」对应的汉字是？（词：关心）",
+        "options": [
+          "关",
+          "饭",
+          "壳",
+          "鸭"
+        ],
+        "answer": "关",
+        "explanation": "「guān」写作「关」，例如「关心」。",
+        "audio": {
+          "question": "/audio/b9/b9d92d7ef2a1b04512c6080151ccf8f739ece484.mp3",
+          "options": [
+            "/audio/pinyin/guan1.mp3",
+            "/audio/pinyin/fan4.mp3",
+            "/audio/pinyin/ke2.mp3",
+            "/audio/pinyin/ya1.mp3"
+          ],
+          "explanation": "/audio/a1/a1ec14553a78620e3ab12008569da78cb81332be.mp3"
+        }
+      },
+      {
+        "id": 70,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「gòu」对应的汉字是？（词：购买）",
+        "options": [
+          "钱",
+          "华",
+          "奋",
+          "购"
+        ],
+        "answer": "购",
+        "explanation": "「gòu」写作「购」，例如「购买」。",
+        "audio": {
+          "question": "/audio/25/25339e93fe246b1b5a217f7520e372623dc535f6.mp3",
+          "options": [
+            "/audio/pinyin/qian2.mp3",
+            "/audio/pinyin/hua2.mp3",
+            "/audio/pinyin/fen4.mp3",
+            "/audio/pinyin/gou4.mp3"
+          ],
+          "explanation": "/audio/02/02301deaa1d88d6e5b4859439e0cbeb4b2a01511.mp3"
+        }
+      },
+      {
+        "id": 71,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「péi」对应的汉字是？（词：赔偿）",
+        "options": [
+          "烧",
+          "谊",
+          "赔",
+          "转"
+        ],
+        "answer": "赔",
+        "explanation": "「péi」写作「赔」，例如「赔偿」。",
+        "audio": {
+          "question": "/audio/82/82b37f88f479b0cf28121b976ee81954e9aa4a63.mp3",
+          "options": [
+            "/audio/pinyin/shao1.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/pei2.mp3",
+            "/audio/pinyin/zhuan3.mp3"
+          ],
+          "explanation": "/audio/e5/e582c26def06b89e22867ae18cd2213c64cc52c4.mp3"
+        }
+      },
+      {
+        "id": 72,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「pín」对应的汉字是？（词：贫穷）",
+        "options": [
+          "谊",
+          "发",
+          "贫",
+          "饭"
+        ],
+        "answer": "贫",
+        "explanation": "「pín」写作「贫」，例如「贫穷」。",
+        "audio": {
+          "question": "/audio/f3/f3db740dc232a9ef725a811ef7f247df350506cd.mp3",
+          "options": [
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/fa1.mp3",
+            "/audio/pinyin/pin2.mp3",
+            "/audio/pinyin/fan4.mp3"
+          ],
+          "explanation": "/audio/93/93b335878bebe135a6d15213ea638a2e820ba243.mp3"
+        }
+      },
+      {
+        "id": 73,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「shāo」对应的汉字是？（词：烧火）",
+        "options": [
+          "街",
+          "敬",
+          "烧",
+          "谊"
+        ],
+        "answer": "烧",
+        "explanation": "「shāo」写作「烧」，例如「烧火」。",
+        "audio": {
+          "question": "/audio/21/21042f6b9be5cd5b18cdf33e0b439bccafd05494.mp3",
+          "options": [
+            "/audio/pinyin/jie1.mp3",
+            "/audio/pinyin/jing4.mp3",
+            "/audio/pinyin/shao1.mp3",
+            "/audio/pinyin/yi4.mp3"
+          ],
+          "explanation": "/audio/c0/c0bf5ae565256fc91d57ded1f4c0d0aa9104fbab.mp3"
+        }
+      },
+      {
+        "id": 74,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「qié」对应的汉字是？（词：茄子）",
+        "options": [
+          "州",
+          "茄",
+          "谊",
+          "热"
+        ],
+        "answer": "茄",
+        "explanation": "「qié」写作「茄」，例如「茄子」。",
+        "audio": {
+          "question": "/audio/27/27849e55ba01bf5d51b5aabaf5f2e6fc99613d4d.mp3",
+          "options": [
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/qie2.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/re4.mp3"
+          ],
+          "explanation": "/audio/39/39118bdac2325f9aeabe5cc3261dccbabb0966ec.mp3"
+        }
+      },
+      {
+        "id": 75,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「kǎo」对应的汉字是？（词：烤火）",
+        "options": [
+          "财",
+          "烤",
+          "街",
+          "酱"
+        ],
+        "answer": "烤",
+        "explanation": "「kǎo」写作「烤」，例如「烤火」。",
+        "audio": {
+          "question": "/audio/0e/0e0a7984c35a5d9de366e32f3e79490b93f4f156.mp3",
+          "options": [
+            "/audio/pinyin/cai2.mp3",
+            "/audio/pinyin/kao3.mp3",
+            "/audio/pinyin/jie1.mp3",
+            "/audio/pinyin/jiang4.mp3"
+          ],
+          "explanation": "/audio/9c/9cf68a2f11befb1e86315aca036e14b00e39ac65.mp3"
+        }
+      },
+      {
+        "id": 76,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「yā」对应的汉字是？（词：鸭子）",
+        "options": [
+          "舟",
+          "鸭",
+          "壳",
+          "敬"
+        ],
+        "answer": "鸭",
+        "explanation": "「yā」写作「鸭」，例如「鸭子」。",
+        "audio": {
+          "question": "/audio/93/93b1051a2f33acc63473717b57fa6268a48ac267.mp3",
+          "options": [
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/ya1.mp3",
+            "/audio/pinyin/ke2.mp3",
+            "/audio/pinyin/jing4.mp3"
+          ],
+          "explanation": "/audio/44/44919f32d6c52183353b8e92a7dd7425c31859f0.mp3"
+        }
+      },
+      {
+        "id": 77,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「ròu」对应的汉字是？（词：牛肉）",
+        "options": [
+          "闹",
+          "艾",
+          "肉",
+          "购"
+        ],
+        "answer": "肉",
+        "explanation": "「ròu」写作「肉」，例如「牛肉」。",
+        "audio": {
+          "question": "/audio/60/60ff7321f8109653c0eaf4cc4a4e974252f94d41.mp3",
+          "options": [
+            "/audio/pinyin/nao4.mp3",
+            "/audio/pinyin/ai4.mp3",
+            "/audio/pinyin/rou4.mp3",
+            "/audio/pinyin/gou4.mp3"
+          ],
+          "explanation": "/audio/b6/b6d60d59d8d5073a48c93eb4ee33288cb94ab075.mp3"
+        }
+      },
+      {
+        "id": 78,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jī」对应的汉字是？（词：鸡蛋）",
+        "options": [
+          "敬",
+          "鸡",
+          "陆",
+          "转"
+        ],
+        "answer": "鸡",
+        "explanation": "「jī」写作「鸡」，例如「鸡蛋」。",
+        "audio": {
+          "question": "/audio/1d/1d269e791a99032f56fb423dad63b982cb391df0.mp3",
+          "options": [
+            "/audio/pinyin/jing4.mp3",
+            "/audio/pinyin/ji1.mp3",
+            "/audio/pinyin/lu4.mp3",
+            "/audio/pinyin/zhuan3.mp3"
+          ],
+          "explanation": "/audio/21/21bb5cd3a8267521291c603f23378933c4b01ca0.mp3"
+        }
+      },
+      {
+        "id": 79,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「dàn」对应的汉字是？（词：鸡蛋）",
+        "options": [
+          "峡",
+          "甲",
+          "蛋",
+          "岛"
+        ],
+        "answer": "蛋",
+        "explanation": "「dàn」写作「蛋」，例如「鸡蛋」。",
+        "audio": {
+          "question": "/audio/11/11b1fdcbed963e11cdcb711543a7c5c1e9e895d4.mp3",
+          "options": [
+            "/audio/pinyin/xia2.mp3",
+            "/audio/pinyin/jia3.mp3",
+            "/audio/pinyin/dan4.mp3",
+            "/audio/pinyin/dao3.mp3"
+          ],
+          "explanation": "/audio/38/3874174bd540977a1e3f1e7bca20f65007c460bc.mp3"
+        }
+      },
+      {
+        "id": 80,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「chǎo」对应的汉字是？（词：炒菜）",
+        "options": [
+          "钱",
+          "峡",
+          "炒",
+          "粥"
+        ],
+        "answer": "炒",
+        "explanation": "「chǎo」写作「炒」，例如「炒菜」。",
+        "audio": {
+          "question": "/audio/68/68fb8540d75deef0e98a6179d8a6f0f8992af9b4.mp3",
+          "options": [
+            "/audio/pinyin/qian2.mp3",
+            "/audio/pinyin/xia2.mp3",
+            "/audio/pinyin/chao3.mp3",
+            "/audio/pinyin/zhou1.mp3"
+          ],
+          "explanation": "/audio/de/de0b9042b1f88eb24952f530e9a6bd71e8ad7ae7.mp3"
+        }
+      },
+      {
+        "id": 81,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「fàn」对应的汉字是？（词：吃饭）",
+        "options": [
+          "酱",
+          "发",
+          "饭",
+          "岛"
+        ],
+        "answer": "饭",
+        "explanation": "「fàn」写作「饭」，例如「吃饭」。",
+        "audio": {
+          "question": "/audio/f4/f4543570c86f50eac47f914ba30cfe7d0ec35e87.mp3",
+          "options": [
+            "/audio/pinyin/jiang4.mp3",
+            "/audio/pinyin/fa1.mp3",
+            "/audio/pinyin/fan4.mp3",
+            "/audio/pinyin/dao3.mp3"
+          ],
+          "explanation": "/audio/23/236d6ac701148bbbd89f6f3f9c7904a2f6ce7eee.mp3"
+        }
+      },
+      {
+        "id": 82,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「zhōu」对应的汉字是？（词：喝粥）",
+        "options": [
+          "艾",
+          "粥",
+          "与",
+          "舟"
+        ],
+        "answer": "粥",
+        "explanation": "「zhōu」写作「粥」，例如「喝粥」。",
+        "audio": {
+          "question": "/audio/d1/d1700a5030953ca3a433bd459a9eeae966a9ce44.mp3",
+          "options": [
+            "/audio/pinyin/ai4.mp3",
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/yu3.mp3",
+            "/audio/pinyin/zhou1.mp3"
+          ],
+          "explanation": "/audio/82/8277ddf2b2435787f717a932e1ba9f9d6e958c2b.mp3"
+        }
+      },
+      {
+        "id": 83,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jiǎo」对应的汉字是？（词：饺子）",
+        "options": [
+          "烤",
+          "关",
+          "贫",
+          "饺"
+        ],
+        "answer": "饺",
+        "explanation": "「jiǎo」写作「饺」，例如「饺子」。",
+        "audio": {
+          "question": "/audio/10/1042334beb487317169631e4d3aa6dc71ce72e61.mp3",
+          "options": [
+            "/audio/pinyin/kao3.mp3",
+            "/audio/pinyin/guan1.mp3",
+            "/audio/pinyin/pin2.mp3",
+            "/audio/pinyin/jiao3.mp3"
+          ],
+          "explanation": "/audio/fe/fef583517fb11bc3cedf999b29e0ed2d3a5ebec8.mp3"
+        }
+      },
+      {
+        "id": 84,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jiàng」对应的汉字是？（词：酱油）",
+        "options": [
+          "州",
+          "饭",
+          "酱",
+          "赔"
+        ],
+        "answer": "酱",
+        "explanation": "「jiàng」写作「酱」，例如「酱油」。",
+        "audio": {
+          "question": "/audio/73/73226e6df8500dc71ebfa42855a013fde754857e.mp3",
+          "options": [
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/fan4.mp3",
+            "/audio/pinyin/jiang4.mp3",
+            "/audio/pinyin/pei2.mp3"
+          ],
+          "explanation": "/audio/df/dfe175a3493439e53fbb36e44d61e7cef3bfb8c5.mp3"
+        }
+      },
+      {
+        "id": 85,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「烧」的拼音（词：烧火）",
+        "options": [],
+        "answer": "shāo",
+        "explanation": "「烧」的拼音是 shāo。",
+        "audio": {
+          "question": "/audio/76/76bdbf123032a606d6cf6352ccbea9d142b9742a.mp3",
+          "explanation": "/audio/54/5487dd9f4191c7f0f308df03f3fefbf3c3066e8c.mp3"
+        }
+      },
+      {
+        "id": 86,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「炒」的拼音（词：炒菜）",
+        "options": [],
+        "answer": "chǎo",
+        "explanation": "「炒」的拼音是 chǎo。",
+        "audio": {
+          "question": "/audio/64/6453da0d1c396fd32157fb62c08a1feff9d686e2.mp3",
+          "explanation": "/audio/be/becbe1b8584251877c370a879a4377e5a1c7c654.mp3"
+        }
+      },
+      {
+        "id": 87,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「华」的拼音（词：中华）",
+        "options": [],
+        "answer": "huá",
+        "explanation": "「华」的拼音是 huá。",
+        "audio": {
+          "question": "/audio/5d/5d2c3ab00c1190f3c67c24c23c5204c9cf308097.mp3",
+          "explanation": "/audio/3a/3ae7061cea12ed71722bfbcc756d2addb0dbbec5.mp3"
+        }
+      },
+      {
+        "id": 88,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「饭」的拼音（词：吃饭）",
+        "options": [],
+        "answer": "fàn",
+        "explanation": "「饭」的拼音是 fàn。",
+        "audio": {
+          "question": "/audio/36/3697b395cbbceda2cd74fb9846d5a306070b73fc.mp3",
+          "explanation": "/audio/15/155aa9755e9a27504079cba1f6408147586e586f.mp3"
+        }
+      },
+      {
+        "id": 89,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「贫」的拼音（词：贫穷）",
+        "options": [],
+        "answer": "pín",
+        "explanation": "「贫」的拼音是 pín。",
+        "audio": {
+          "question": "/audio/41/4164ce82ac8d0b703b60cfa15b73bc3cbd51659f.mp3",
+          "explanation": "/audio/98/985180be3822fe3e49dafc44749dc4394385e93b.mp3"
+        }
+      },
+      {
+        "id": 90,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「甲」的拼音（词：甲骨）",
+        "options": [],
+        "answer": "jiǎ",
+        "explanation": "「甲」的拼音是 jiǎ。",
+        "audio": {
+          "question": "/audio/78/78d968790b7d57d97b0adae5a7ed04cd32a3c48a.mp3",
+          "explanation": "/audio/c8/c82a0c851a1881ab351291c95e90997f696c1cbb.mp3"
+        }
+      },
+      {
+        "id": 91,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「肉」的拼音（词：牛肉）",
+        "options": [],
+        "answer": "ròu",
+        "explanation": "「肉」的拼音是 ròu。",
+        "audio": {
+          "question": "/audio/47/4743c8e1e8317fb4063952b5dabf064b7f6eef41.mp3",
+          "explanation": "/audio/ab/ab8582343fadafffdfc810c66c969ab3e018a0d6.mp3"
+        }
+      },
+      {
+        "id": 92,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「峡」的拼音（词：海峡）",
+        "options": [],
+        "answer": "xiá",
+        "explanation": "「峡」的拼音是 xiá。",
+        "audio": {
+          "question": "/audio/d4/d4a79d379ba09ef90d273b8b7a4aedf838ca811d.mp3",
+          "explanation": "/audio/ff/ff0c0384e2edc81b20e398a970b9b62e28b2a4ce.mp3"
+        }
+      },
+      {
+        "id": 93,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「关」的拼音（词：关心）",
+        "options": [],
+        "answer": "guān",
+        "explanation": "「关」的拼音是 guān。",
+        "audio": {
+          "question": "/audio/0c/0c849df6440fee5d06b80e79f6b0a86b41537081.mp3",
+          "explanation": "/audio/62/6286ce03a0457ca39dcbabe3772a2c58e5bf8023.mp3"
+        }
+      },
+      {
+        "id": 94,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「闹」的拼音（词：热闹）",
+        "options": [],
+        "answer": "nào",
+        "explanation": "「闹」的拼音是 nào。",
+        "audio": {
+          "question": "/audio/cb/cb6fe3bcb9067db3b86082c35f5f88d2e4e0bf61.mp3",
+          "explanation": "/audio/04/044d650df93ea0ad826995b0d4e43e700349c7e1.mp3"
+        }
+      },
+      {
+        "id": 95,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「购」的拼音（词：购买）",
+        "options": [],
+        "answer": "gòu",
+        "explanation": "「购」的拼音是 gòu。",
+        "audio": {
+          "question": "/audio/8d/8d9d4cd080408faeb18b701bcd104f77a60857f4.mp3",
+          "explanation": "/audio/c8/c8c1d6656833c374e2fe0ae8add7c37e091d33b4.mp3"
+        }
+      },
+      {
+        "id": 96,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「与」的拼音（词：与其）",
+        "options": [],
+        "answer": "yǔ",
+        "explanation": "「与」的拼音是 yǔ。",
+        "audio": {
+          "question": "/audio/95/95de2107ffb26d7b097ca7ee4939b2ef658c8c49.mp3",
+          "explanation": "/audio/6f/6f0e8822ca9a9f065c0ef962143dd160e2186c71.mp3"
+        }
+      },
+      {
+        "id": 97,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「酱」的拼音（词：酱油）",
+        "options": [],
+        "answer": "jiàng",
+        "explanation": "「酱」的拼音是 jiàng。",
+        "audio": {
+          "question": "/audio/92/92ec7decc554bff5389a4ba4f793f5aa444db2b5.mp3",
+          "explanation": "/audio/1e/1e01d956063eaebd4c6bba5772e12c3c8d1d5a60.mp3"
+        }
+      },
+      {
+        "id": 98,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「鸡」的拼音（词：鸡蛋）",
+        "options": [],
+        "answer": "jī",
+        "explanation": "「鸡」的拼音是 jī。",
+        "audio": {
+          "question": "/audio/b8/b8cd77b46ec41c0509ecef5ca546facf42d2df98.mp3",
+          "explanation": "/audio/d7/d7d8fe1fe91042a42d17edb9da06cd78c1c5a745.mp3"
+        }
+      },
+      {
+        "id": 99,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「发」的拼音（词：发奋）",
+        "options": [],
+        "answer": "fā",
+        "explanation": "「发」的拼音是 fā。",
+        "audio": {
+          "question": "/audio/bb/bb0b9bd1b9d323e77ac2498b628eaddfef16b46f.mp3",
+          "explanation": "/audio/53/532f5d5fc616f376f9692905deedae97af3a1d44.mp3"
+        }
+      },
+      {
+        "id": 100,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「州」的拼音（词：广州）",
+        "options": [],
+        "answer": "zhōu",
+        "explanation": "「州」的拼音是 zhōu。",
+        "audio": {
+          "question": "/audio/79/794540cc67f904bc610a46a16d1bf4e2f4d74775.mp3",
+          "explanation": "/audio/54/546c9953bc5b04efc70bb2a97091798d479723f7.mp3"
+        }
+      },
+      {
+        "id": 101,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「蛋」的拼音（词：鸡蛋）",
+        "options": [],
+        "answer": "dàn",
+        "explanation": "「蛋」的拼音是 dàn。",
+        "audio": {
+          "question": "/audio/2c/2c4b05e628fc961be097a6580675bf0a13905e24.mp3",
+          "explanation": "/audio/7e/7e8dd406de9ebd9af0e8d7fbc957201fc16dabe4.mp3"
+        }
+      },
+      {
+        "id": 102,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「舟」的拼音（词：小舟）",
+        "options": [],
+        "answer": "zhōu",
+        "explanation": "「舟」的拼音是 zhōu。",
+        "audio": {
+          "question": "/audio/57/57c2d456c1b6ce875c8f887c79b895b6c34d7039.mp3",
+          "explanation": "/audio/58/586f5748a988e659e367ab2afe1bd0b7b6676fc2.mp3"
+        }
+      },
+      {
+        "id": 103,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「bì」对应的汉字（词：硬币）",
+        "options": [],
+        "answer": "币",
+        "explanation": "「bì」对应的汉字是「币」。",
+        "audio": {
+          "question": "/audio/5b/5bddd9764d961710d8baf662fcf91953e7dd0645.mp3",
+          "explanation": "/audio/6f/6faa300284b3d616429363447aaa04d3a6bbf21b.mp3"
+        }
+      },
+      {
+        "id": 104,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「zhōu」对应的汉字（词：广州）",
+        "options": [],
+        "answer": "州",
+        "explanation": "「zhōu」对应的汉字是「州」。",
+        "audio": {
+          "question": "/audio/7a/7a9a2f37c7ff23b8aea8ba5ef25ba90e2c12cc15.mp3",
+          "explanation": "/audio/4d/4d9a5a35d05e595c0a7d910fe5a60cf6d09e2a2c.mp3"
+        }
+      },
+      {
+        "id": 105,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「zhōu」对应的汉字（词：小舟）",
+        "options": [],
+        "answer": "舟",
+        "explanation": "「zhōu」对应的汉字是「舟」。",
+        "audio": {
+          "question": "/audio/10/10b42f7422112475768525744fdc810e9bee7271.mp3",
+          "explanation": "/audio/4f/4f6daffabc5295e5492f7edad43800847d3d76c8.mp3"
+        }
+      },
+      {
+        "id": 106,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「ài」对应的汉字（词：艾草）",
+        "options": [],
+        "answer": "艾",
+        "explanation": "「ài」对应的汉字是「艾」。",
+        "audio": {
+          "question": "/audio/77/773148634c87e5a934796366b75a6a4dac67e291.mp3",
+          "explanation": "/audio/1e/1e861c56640e25728a0239dae8fcff4e89d29ada.mp3"
+        }
+      },
+      {
+        "id": 107,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「gǔ」对应的汉字（词：骨头）",
+        "options": [],
+        "answer": "骨",
+        "explanation": "「gǔ」对应的汉字是「骨」。",
+        "audio": {
+          "question": "/audio/99/99293cb908627cd3284f56d338ccc8ccea590663.mp3",
+          "explanation": "/audio/51/51fda342b280b38fa8f5c0baffaccab988efa7db.mp3"
+        }
+      },
+      {
+        "id": 108,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「shāo」对应的汉字（词：烧火）",
+        "options": [],
+        "answer": "烧",
+        "explanation": "「shāo」对应的汉字是「烧」。",
+        "audio": {
+          "question": "/audio/5d/5dc0cf2a420b6f6054b001771b346b8e3196450f.mp3",
+          "explanation": "/audio/2c/2ca399b8292ce4831dd4ddde22f0bfd606f61c35.mp3"
+        }
+      },
+      {
+        "id": 109,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「pín」对应的汉字（词：贫穷）",
+        "options": [],
+        "answer": "贫",
+        "explanation": "「pín」对应的汉字是「贫」。",
+        "audio": {
+          "question": "/audio/f4/f4d31363f79daf88488087e42d09ff4d4c1bf6f3.mp3",
+          "explanation": "/audio/a6/a60f8f398791a4badc730af9d6ffcde3c62b9181.mp3"
+        }
+      },
+      {
+        "id": 110,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「nào」对应的汉字（词：热闹）",
+        "options": [],
+        "answer": "闹",
+        "explanation": "「nào」对应的汉字是「闹」。",
+        "audio": {
+          "question": "/audio/07/070fec572208ccb30dc74de582e9bac756df6fe7.mp3",
+          "explanation": "/audio/9f/9f9589d80c2bd54f84804bc2965cb068827b527e.mp3"
+        }
+      },
+      {
+        "id": 111,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「ké」对应的汉字（词：贝壳）",
+        "options": [],
+        "answer": "壳",
+        "explanation": "「ké」对应的汉字是「壳」。",
+        "audio": {
+          "question": "/audio/dc/dcf36ac3e66189dade7d8744a3675228a4bad96d.mp3",
+          "explanation": "/audio/80/80a3e309b8a283d43d14315c7a414f1ba8cb0bd3.mp3"
+        }
+      },
+      {
+        "id": 112,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「dàn」对应的汉字（词：鸡蛋）",
+        "options": [],
+        "answer": "蛋",
+        "explanation": "「dàn」对应的汉字是「蛋」。",
+        "audio": {
+          "question": "/audio/c4/c4673e516d74645ec89cd8dd45e93274dd70e055.mp3",
+          "explanation": "/audio/3a/3a34221e38c6d1707783b32686eee205fa746acf.mp3"
+        }
+      },
+      {
+        "id": 113,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「tiē」对应的汉字（词：贴纸）",
+        "options": [],
+        "answer": "贴",
+        "explanation": "「tiē」对应的汉字是「贴」。",
+        "audio": {
+          "question": "/audio/3e/3ed7fec89b677bcda8f88945fa9b0e11c4462c56.mp3",
+          "explanation": "/audio/7e/7e71741ee10dd7aa8b909bdb93ddb74bdf2f2f53.mp3"
+        }
+      },
+      {
+        "id": 114,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「tuán」对应的汉字（词：团结）",
+        "options": [],
+        "answer": "团",
+        "explanation": "「tuán」对应的汉字是「团」。",
+        "audio": {
+          "question": "/audio/d6/d667261adc147067974da6c7aa3b2fa3fe9aa620.mp3",
+          "explanation": "/audio/20/20846baa6964294324134785cc732cbf0a940258.mp3"
+        }
+      },
+      {
+        "id": 115,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「yǔ」对应的汉字（词：与其）",
+        "options": [],
+        "answer": "与",
+        "explanation": "「yǔ」对应的汉字是「与」。",
+        "audio": {
+          "question": "/audio/86/8620199a9d26eb005e3ec37f209e626e2e4c4c79.mp3",
+          "explanation": "/audio/0f/0f2593c4c9ca13f36699b9a248cc3b460cfdfd00.mp3"
+        }
+      },
+      {
+        "id": 116,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「huá」对应的汉字（词：中华）",
+        "options": [],
+        "answer": "华",
+        "explanation": "「huá」对应的汉字是「华」。",
+        "audio": {
+          "question": "/audio/85/85cedb708a98ff0cb5564ecf32ad39071240f587.mp3",
+          "explanation": "/audio/72/726c9dcfe3f876917bd26b064c6396ff106d3bf9.mp3"
+        }
+      },
+      {
+        "id": 117,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「bèi」对应的汉字（词：贝壳）",
+        "options": [],
+        "answer": "贝",
+        "explanation": "「bèi」对应的汉字是「贝」。",
+        "audio": {
+          "question": "/audio/06/06f271b47f31a00fc937e44ffb30b421399e5b16.mp3",
+          "explanation": "/audio/d2/d26c0218eaa2230890ebd1e1497140fce28d08b8.mp3"
+        }
+      },
+      {
+        "id": 118,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「jī」对应的汉字（词：鸡蛋）",
+        "options": [],
+        "answer": "鸡",
+        "explanation": "「jī」对应的汉字是「鸡」。",
+        "audio": {
+          "question": "/audio/f0/f027d0610fc2b0c1580181a85e1286f707964e3a.mp3",
+          "explanation": "/audio/13/136061d38f1bb3d30eb97d07930ebd740ca8a603.mp3"
+        }
+      },
+      {
+        "id": 119,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「qián」对应的汉字（词：金钱）",
+        "options": [],
+        "answer": "钱",
+        "explanation": "「qián」对应的汉字是「钱」。",
+        "audio": {
+          "question": "/audio/d1/d154c7592ff0711e0728284bf9adcdc1445e94ca.mp3",
+          "explanation": "/audio/15/15514db9cf9964786592c6a8dcf3973950df9993.mp3"
+        }
+      },
+      {
+        "id": 120,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「jìng」对应的汉字（词：尊敬）",
+        "options": [],
+        "answer": "敬",
+        "explanation": "「jìng」对应的汉字是「敬」。",
+        "audio": {
+          "question": "/audio/d9/d9457921103441e40b7dfc3ff21661e46d184f16.mp3",
+          "explanation": "/audio/e4/e49fb33af83baccbbbeb6760a5ee818dd3560d72.mp3"
+        }
+      },
+      {
+        "id": 121,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「饺」读作 jiǎo。（词：饺子）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「饺」的读音是 jiǎo。",
+        "audio": {
+          "question": "/audio/e7/e7f8727a96829b08fc7a79ead8df784d34c92275.mp3",
+          "explanation": "/audio/64/64f916afda24c17ff7c44be7cbb4fc46977671ee.mp3"
+        }
+      },
+      {
+        "id": 122,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「骨」读作 guān。（词：骨头）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「骨」应读 gǔ，不是 guān。",
+        "audio": {
+          "question": "/audio/6b/6b08260a3f8e16476c927d5c6fe7794cf87e84de.mp3",
+          "explanation": "/audio/92/92f77badfad7494da5e72289a6c7ea5e606f8040.mp3"
+        }
+      },
+      {
+        "id": 123,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「贴」读作 tiē。（词：贴纸）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「贴」的读音是 tiē。",
+        "audio": {
+          "question": "/audio/53/53e5799c72e62551c8a2e13914069923ffe533ef.mp3",
+          "explanation": "/audio/53/53974b1808b6fd7c301c7e16ddf7f360a7193446.mp3"
+        }
+      },
+      {
+        "id": 124,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「岛」读作 dàn。（词：小岛）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「岛」应读 dǎo，不是 dàn。",
+        "audio": {
+          "question": "/audio/da/da7c01ace6b9ab68ccbb6c0ee36499880fd4291d.mp3",
+          "explanation": "/audio/8c/8cf2e3c4e487646873ee7e6e92243fa96528aa85.mp3"
+        }
+      },
+      {
+        "id": 125,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「钱」读作 qián。（词：金钱）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「钱」的读音是 qián。",
+        "audio": {
+          "question": "/audio/e0/e042bd0542310e2094622948ed6e5cf33229f3af.mp3",
+          "explanation": "/audio/3c/3c68f65446934e3515501f6039befec1b0c33b7a.mp3"
+        }
+      },
+      {
+        "id": 126,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「关」读作 gǔ。（词：关心）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「关」应读 guān，不是 gǔ。",
+        "audio": {
+          "question": "/audio/34/340fa5b318626dd1b9f78e8f03f59e253f92a695.mp3",
+          "explanation": "/audio/64/643a62fa3e22e384573c7ef0046c71dc94f70bca.mp3"
+        }
+      },
+      {
+        "id": 127,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「与」读作 yǔ。（词：与其）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「与」的读音是 yǔ。",
+        "audio": {
+          "question": "/audio/34/3414ac42a318570ad8e3e1d1b398907d00490d4e.mp3",
+          "explanation": "/audio/ea/eac3359aa8bbd1301897748c918e325bb5dd0ef4.mp3"
+        }
+      },
+      {
+        "id": 128,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「财」读作 chǎo。（词：财产）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「财」应读 cái，不是 chǎo。",
+        "audio": {
+          "question": "/audio/a1/a1d2d804deee61502b274c14b233e943adbba60b.mp3",
+          "explanation": "/audio/d6/d651ab503622dd6892402af36ac5609c4bad5237.mp3"
+        }
+      },
+      {
+        "id": 129,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「艾」读作 ài。（词：艾草）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「艾」的读音是 ài。",
+        "audio": {
+          "question": "/audio/d3/d3d0ecbee5e3514ba41f818425db018915754714.mp3",
+          "explanation": "/audio/bc/bcc783cd6f8921969fc24fd531d7fffb75022bf2.mp3"
+        }
+      },
+      {
+        "id": 130,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「鸭」读作 yì。（词：鸭子）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「鸭」应读 yā，不是 yì。",
+        "audio": {
+          "question": "/audio/05/05f26d0e052a2243ea5d03bc20c9bf2c6244a232.mp3",
+          "explanation": "/audio/ad/ad3c9fbf55a26a70e5c6b1d2a501908e5d8721b2.mp3"
+        }
+      },
+      {
+        "id": 131,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「币」读作 bì。（词：硬币）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「币」的读音是 bì。",
+        "audio": {
+          "question": "/audio/90/902abfa6d895efeb0976ade03fb70d3f1c7be229.mp3",
+          "explanation": "/audio/92/9288cb128221a7c1797e372e8d3d8c15197053a4.mp3"
+        }
+      },
+      {
+        "id": 132,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「茄」读作 qián。（词：茄子）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「茄」应读 qié，不是 qián。",
+        "audio": {
+          "question": "/audio/0b/0b08d295a571e2bea4fd4fd024848e7f388b57eb.mp3",
+          "explanation": "/audio/25/25e49cfd26ce54b4dcb2390453ce9562286a2aad.mp3"
+        }
+      },
+      {
+        "id": 133,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「齐」读作 qí。（词：整齐）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「齐」的读音是 qí。",
+        "audio": {
+          "question": "/audio/40/405ab74676cd6d3d20644a43cc0496fac93e34cd.mp3",
+          "explanation": "/audio/c1/c147a960eef5d34cec1f6d361425384d91b8e285.mp3"
+        }
+      },
+      {
+        "id": 134,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「肉」读作 rè。（词：牛肉）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「肉」应读 ròu，不是 rè。",
+        "audio": {
+          "question": "/audio/3b/3b2b082daf36f17dfffe3791e0800b88405a4bec.mp3",
+          "explanation": "/audio/37/3723fde3fb00ff4d74e84359a2bf86f59c0981c2.mp3"
+        }
+      },
+      {
+        "id": 135,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「敬」读作 jìng。（词：尊敬）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「敬」的读音是 jìng。",
+        "audio": {
+          "question": "/audio/7c/7c91825ac15e1955687c2e929c074ef4139198fc.mp3",
+          "explanation": "/audio/de/de955b25517315a3ed4e5ef0c5817bf06b81eab6.mp3"
+        }
+      },
+      {
+        "id": 136,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「壳」读作 kǎo。（词：贝壳）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「壳」应读 ké，不是 kǎo。",
+        "audio": {
+          "question": "/audio/83/83a3a41130624c4c5e80090185739ca3b26a3569.mp3",
+          "explanation": "/audio/07/076fd7fdf7598eded5cfe63bbba61fcab8c5b907.mp3"
+        }
+      }
+    ]
+  },
+  "exam": {
+    "title": "第3单元「第三单元 · 识字与传统文化」综合挑战",
+    "total_score": 100,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「艾」的正确读音是？（提示词：艾草）",
+        "options": [
+          "xiá",
+          "qí",
+          "zhōu",
+          "ài"
+        ],
+        "answer": "ài",
+        "explanation": "「艾」读作 ài，可以组词「艾草」。",
+        "audio": {
+          "question": "/audio/8f/8f9cb10b9ad5566f630a66bdc2ed8fc88e7f880c.mp3",
+          "options": [
+            "/audio/pinyin/xia2.mp3",
+            "/audio/pinyin/qi2.mp3",
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/ai4.mp3"
+          ],
+          "explanation": "/audio/2c/2cba1298540683098c3e3c9a37da36812b1207c5.mp3"
+        }
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「街」的正确读音是？（提示词：大街）",
+        "options": [
+          "jī",
+          "yǔ",
+          "lù",
+          "jiē"
+        ],
+        "answer": "jiē",
+        "explanation": "「街」读作 jiē，可以组词「大街」。",
+        "audio": {
+          "question": "/audio/99/992fa6065c673fb4153603c51aad8311bf4683cf.mp3",
+          "options": [
+            "/audio/pinyin/ji1.mp3",
+            "/audio/pinyin/yu3.mp3",
+            "/audio/pinyin/lu4.mp3",
+            "/audio/pinyin/jie1.mp3"
+          ],
+          "explanation": "/audio/af/af8b3ddc1ca1b2ea1c7b2f89bcd89b6a61ccdd22.mp3"
+        }
+      },
+      {
+        "id": 25,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「币」的正确读音是？（提示词：硬币）",
+        "options": [
+          "dǎo",
+          "qí",
+          "bì",
+          "lù"
+        ],
+        "answer": "bì",
+        "explanation": "「币」读作 bì，可以组词「硬币」。",
+        "audio": {
+          "question": "/audio/6d/6d195b279ce23ddc4561d8d7cd25e18ca03ef1ac.mp3",
+          "options": [
+            "/audio/pinyin/dao3.mp3",
+            "/audio/pinyin/qi2.mp3",
+            "/audio/pinyin/bi4.mp3",
+            "/audio/pinyin/lu4.mp3"
+          ],
+          "explanation": "/audio/f6/f694231f9e37586cf6d041f0a4d3b2747f905f7c.mp3"
+        }
+      },
+      {
+        "id": 50,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「qí」对应的汉字是？（词：整齐）",
+        "options": [
+          "肉",
+          "齐",
+          "贴",
+          "饺"
+        ],
+        "answer": "齐",
+        "explanation": "「qí」写作「齐」，例如「整齐」。",
+        "audio": {
+          "question": "/audio/32/3248f8037d6694a0d6f4ce5227e84fb11758c82a.mp3",
+          "options": [
+            "/audio/pinyin/rou4.mp3",
+            "/audio/pinyin/qi2.mp3",
+            "/audio/pinyin/tie1.mp3",
+            "/audio/pinyin/jiao3.mp3"
+          ],
+          "explanation": "/audio/e9/e9d74a6467beb071745a4a7d2f28d3cf85e40cc2.mp3"
+        }
+      },
+      {
+        "id": 74,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「qié」对应的汉字是？（词：茄子）",
+        "options": [
+          "州",
+          "茄",
+          "谊",
+          "热"
+        ],
+        "answer": "茄",
+        "explanation": "「qié」写作「茄」，例如「茄子」。",
+        "audio": {
+          "question": "/audio/27/27849e55ba01bf5d51b5aabaf5f2e6fc99613d4d.mp3",
+          "options": [
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/qie2.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/re4.mp3"
+          ],
+          "explanation": "/audio/39/39118bdac2325f9aeabe5cc3261dccbabb0966ec.mp3"
+        }
+      },
+      {
+        "id": 66,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「qián」对应的汉字是？（词：金钱）",
+        "options": [
+          "钱",
+          "敬",
+          "炒",
+          "热"
+        ],
+        "answer": "钱",
+        "explanation": "「qián」写作「钱」，例如「金钱」。",
+        "audio": {
+          "question": "/audio/51/519a8e6fd5b2c6785bba900369e17f153d0532a8.mp3",
+          "options": [
+            "/audio/pinyin/qian2.mp3",
+            "/audio/pinyin/jing4.mp3",
+            "/audio/pinyin/chao3.mp3",
+            "/audio/pinyin/re4.mp3"
+          ],
+          "explanation": "/audio/87/8794f06a9a17003c6ac8d1d32d487d42ef3c194a.mp3"
+        }
+      },
+      {
+        "id": 100,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「州」的拼音（词：广州）",
+        "options": [],
+        "answer": "zhōu",
+        "explanation": "「州」的拼音是 zhōu。",
+        "audio": {
+          "question": "/audio/79/794540cc67f904bc610a46a16d1bf4e2f4d74775.mp3",
+          "explanation": "/audio/54/546c9953bc5b04efc70bb2a97091798d479723f7.mp3"
+        }
+      },
+      {
+        "id": 96,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「与」的拼音（词：与其）",
+        "options": [],
+        "answer": "yǔ",
+        "explanation": "「与」的拼音是 yǔ。",
+        "audio": {
+          "question": "/audio/95/95de2107ffb26d7b097ca7ee4939b2ef658c8c49.mp3",
+          "explanation": "/audio/6f/6f0e8822ca9a9f065c0ef962143dd160e2186c71.mp3"
+        }
+      },
+      {
+        "id": 86,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「炒」的拼音（词：炒菜）",
+        "options": [],
+        "answer": "chǎo",
+        "explanation": "「炒」的拼音是 chǎo。",
+        "audio": {
+          "question": "/audio/64/6453da0d1c396fd32157fb62c08a1feff9d686e2.mp3",
+          "explanation": "/audio/be/becbe1b8584251877c370a879a4377e5a1c7c654.mp3"
+        }
+      },
+      {
+        "id": 111,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「ké」对应的汉字（词：贝壳）",
+        "options": [],
+        "answer": "壳",
+        "explanation": "「ké」对应的汉字是「壳」。",
+        "audio": {
+          "question": "/audio/dc/dcf36ac3e66189dade7d8744a3675228a4bad96d.mp3",
+          "explanation": "/audio/80/80a3e309b8a283d43d14315c7a414f1ba8cb0bd3.mp3"
+        }
+      },
+      {
+        "id": 115,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「yǔ」对应的汉字（词：与其）",
+        "options": [],
+        "answer": "与",
+        "explanation": "「yǔ」对应的汉字是「与」。",
+        "audio": {
+          "question": "/audio/86/8620199a9d26eb005e3ec37f209e626e2e4c4c79.mp3",
+          "explanation": "/audio/0f/0f2593c4c9ca13f36699b9a248cc3b460cfdfd00.mp3"
+        }
+      },
+      {
+        "id": 106,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「ài」对应的汉字（词：艾草）",
+        "options": [],
+        "answer": "艾",
+        "explanation": "「ài」对应的汉字是「艾」。",
+        "audio": {
+          "question": "/audio/77/773148634c87e5a934796366b75a6a4dac67e291.mp3",
+          "explanation": "/audio/1e/1e861c56640e25728a0239dae8fcff4e89d29ada.mp3"
+        }
+      },
+      {
+        "id": 128,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「财」读作 chǎo。（词：财产）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「财」应读 cái，不是 chǎo。",
+        "audio": {
+          "question": "/audio/a1/a1d2d804deee61502b274c14b233e943adbba60b.mp3",
+          "explanation": "/audio/d6/d651ab503622dd6892402af36ac5609c4bad5237.mp3"
+        }
+      },
+      {
+        "id": 132,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「茄」读作 qián。（词：茄子）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「茄」应读 qié，不是 qián。",
+        "audio": {
+          "question": "/audio/0b/0b08d295a571e2bea4fd4fd024848e7f388b57eb.mp3",
+          "explanation": "/audio/25/25e49cfd26ce54b4dcb2390453ce9562286a2aad.mp3"
+        }
+      },
+      {
+        "id": 125,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「钱」读作 qián。（词：金钱）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「钱」的读音是 qián。",
+        "audio": {
+          "question": "/audio/e0/e042bd0542310e2094622948ed6e5cf33229f3af.mp3",
+          "explanation": "/audio/3c/3c68f65446934e3515501f6039befec1b0c33b7a.mp3"
+        }
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "看字认拼音",
+      "core_concept": "掌握本单元 42 个生字的正确读音。",
+      "key_formula": "看字 → 想读音 → 对选项",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第三单元 · 识字与传统文化」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "看拼音认字",
+      "core_concept": "建立拼音到字形的稳定映射。",
+      "key_formula": "拼读 → 想字形 → 对选项",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第三单元 · 识字与传统文化」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "拼音填空",
+      "core_concept": "巩固声母、韵母与声调的书写。",
+      "key_formula": "字 → 声母 + 韵母 + 声调",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第三单元 · 识字与传统文化」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "汉字填空",
+      "core_concept": "在语境提示下从拼音还原字形。",
+      "key_formula": "拼音 → 词义线索 → 写字",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第三单元 · 识字与传统文化」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "读音判断",
+      "core_concept": "辨析易错读音与形近字读音。",
+      "key_formula": "对照标准读音，判断对/错",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第三单元 · 识字与传统文化」生字表，再做练习；错题进错题本复习。"
+    }
+  ]
+}

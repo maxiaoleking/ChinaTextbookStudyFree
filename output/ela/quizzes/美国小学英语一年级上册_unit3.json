@@ -1,0 +1,1052 @@
+{
+  "textbook": "CCSS 美国小学英语一年级上册",
+  "unit": "辅音组合 · Blends and Digraphs",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "Unit 3「辅音组合 · Blends and Digraphs」英文练习",
+    "total_score": 100,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "knowledge_point": "二合字母",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word has the sh sound?",
+        "options": [
+          "ship",
+          "thank",
+          "clear",
+          "back"
+        ],
+        "answer": "ship",
+        "explanation": "ship has the sh sound."
+      },
+      {
+        "id": 2,
+        "knowledge_point": "二合字母",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word has the sh sound?",
+        "options": [
+          "bath",
+          "step",
+          "shop",
+          "block"
+        ],
+        "answer": "shop",
+        "explanation": "shop has the sh sound."
+      },
+      {
+        "id": 3,
+        "knowledge_point": "二合字母",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word has the ch sound?",
+        "options": [
+          "chin",
+          "plan",
+          "back",
+          "path"
+        ],
+        "answer": "chin",
+        "explanation": "chin has the ch sound."
+      },
+      {
+        "id": 4,
+        "knowledge_point": "二合字母",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word has the ch sound?",
+        "options": [
+          "tree",
+          "chip",
+          "neck",
+          "stone"
+        ],
+        "answer": "chip",
+        "explanation": "chip has the ch sound."
+      },
+      {
+        "id": 5,
+        "knowledge_point": "二合字母",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word has the th sound?",
+        "options": [
+          "shape",
+          "sheep",
+          "plum",
+          "thank"
+        ],
+        "answer": "thank",
+        "explanation": "thank has the th sound."
+      },
+      {
+        "id": 6,
+        "knowledge_point": "二合字母",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word has the th sound?",
+        "options": [
+          "sack",
+          "teeth",
+          "beach",
+          "trick"
+        ],
+        "answer": "teeth",
+        "explanation": "teeth has the th sound."
+      },
+      {
+        "id": 7,
+        "knowledge_point": "二合字母",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word has the wh sound?",
+        "options": [
+          "why",
+          "broom",
+          "dress",
+          "wash"
+        ],
+        "answer": "why",
+        "explanation": "why has the wh sound."
+      },
+      {
+        "id": 8,
+        "knowledge_point": "二合字母",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word has the wh sound?",
+        "options": [
+          "white",
+          "drip",
+          "star",
+          "stand"
+        ],
+        "answer": "white",
+        "explanation": "white has the wh sound."
+      },
+      {
+        "id": 9,
+        "knowledge_point": "二合字母",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word has the ck sound?",
+        "options": [
+          "stand",
+          "pack",
+          "trip",
+          "clap"
+        ],
+        "answer": "pack",
+        "explanation": "pack has the ck sound."
+      },
+      {
+        "id": 10,
+        "knowledge_point": "二合字母",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word has the ck sound?",
+        "options": [
+          "stone",
+          "blend",
+          "sack",
+          "step"
+        ],
+        "answer": "sack",
+        "explanation": "sack has the ck sound."
+      },
+      {
+        "id": 11,
+        "knowledge_point": "二合字母",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word has the ph sound?",
+        "options": [
+          "drop",
+          "rock",
+          "stand",
+          "photo"
+        ],
+        "answer": "photo",
+        "explanation": "photo has the ph sound."
+      },
+      {
+        "id": 12,
+        "knowledge_point": "二合字母",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word has the ph sound?",
+        "options": [
+          "plan",
+          "wheel",
+          "phone",
+          "true"
+        ],
+        "answer": "phone",
+        "explanation": "phone has the ph sound."
+      },
+      {
+        "id": 13,
+        "knowledge_point": "连读辅音",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend bl?",
+        "options": [
+          "block",
+          "train",
+          "shape",
+          "shell"
+        ],
+        "answer": "block",
+        "explanation": "block begins with bl."
+      },
+      {
+        "id": 14,
+        "knowledge_point": "连读辅音",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend bl?",
+        "options": [
+          "sport",
+          "plane",
+          "trip",
+          "blink"
+        ],
+        "answer": "blink",
+        "explanation": "blink begins with bl."
+      },
+      {
+        "id": 15,
+        "knowledge_point": "连读辅音",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend br?",
+        "options": [
+          "brown",
+          "beach",
+          "cloth",
+          "shirt"
+        ],
+        "answer": "brown",
+        "explanation": "brown begins with br."
+      },
+      {
+        "id": 16,
+        "knowledge_point": "连读辅音",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend br?",
+        "options": [
+          "brown",
+          "drum",
+          "ship",
+          "spoon"
+        ],
+        "answer": "brown",
+        "explanation": "brown begins with br."
+      },
+      {
+        "id": 17,
+        "knowledge_point": "连读辅音",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend cl?",
+        "options": [
+          "clap",
+          "path",
+          "thick",
+          "brother"
+        ],
+        "answer": "clap",
+        "explanation": "clap begins with cl."
+      },
+      {
+        "id": 18,
+        "knowledge_point": "连读辅音",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend cl?",
+        "options": [
+          "step",
+          "clock",
+          "where",
+          "stick"
+        ],
+        "answer": "clock",
+        "explanation": "clock begins with cl."
+      },
+      {
+        "id": 19,
+        "knowledge_point": "连读辅音",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend pl?",
+        "options": [
+          "spin",
+          "white",
+          "play",
+          "spill"
+        ],
+        "answer": "play",
+        "explanation": "play begins with pl."
+      },
+      {
+        "id": 20,
+        "knowledge_point": "连读辅音",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend pl?",
+        "options": [
+          "plan",
+          "shirt",
+          "back",
+          "bring"
+        ],
+        "answer": "plan",
+        "explanation": "plan begins with pl."
+      },
+      {
+        "id": 21,
+        "knowledge_point": "连读辅音",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend st?",
+        "options": [
+          "wheel",
+          "lunch",
+          "stone",
+          "graph"
+        ],
+        "answer": "stone",
+        "explanation": "stone begins with st."
+      },
+      {
+        "id": 22,
+        "knowledge_point": "连读辅音",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend st?",
+        "options": [
+          "which",
+          "stick",
+          "plus",
+          "drive"
+        ],
+        "answer": "stick",
+        "explanation": "stick begins with st."
+      },
+      {
+        "id": 23,
+        "knowledge_point": "连读辅音",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend sp?",
+        "options": [
+          "sport",
+          "check",
+          "star",
+          "blend"
+        ],
+        "answer": "sport",
+        "explanation": "sport begins with sp."
+      },
+      {
+        "id": 24,
+        "knowledge_point": "连读辅音",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend sp?",
+        "options": [
+          "stay",
+          "blue",
+          "spoon",
+          "truck"
+        ],
+        "answer": "spoon",
+        "explanation": "spoon begins with sp."
+      },
+      {
+        "id": 25,
+        "knowledge_point": "连读辅音",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend dr?",
+        "options": [
+          "drop",
+          "chick",
+          "whale",
+          "spin"
+        ],
+        "answer": "drop",
+        "explanation": "drop begins with dr."
+      },
+      {
+        "id": 26,
+        "knowledge_point": "连读辅音",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend dr?",
+        "options": [
+          "shell",
+          "stone",
+          "draw",
+          "beach"
+        ],
+        "answer": "draw",
+        "explanation": "draw begins with dr."
+      },
+      {
+        "id": 27,
+        "knowledge_point": "连读辅音",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend tr?",
+        "options": [
+          "chin",
+          "true",
+          "sheep",
+          "cloth"
+        ],
+        "answer": "true",
+        "explanation": "true begins with tr."
+      },
+      {
+        "id": 28,
+        "knowledge_point": "连读辅音",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend tr?",
+        "options": [
+          "tree",
+          "bath",
+          "thick",
+          "cloth"
+        ],
+        "answer": "tree",
+        "explanation": "tree begins with tr."
+      },
+      {
+        "id": 29,
+        "knowledge_point": "缺字母补全",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letters are missing? wa___",
+        "options": [],
+        "answer": "sh",
+        "explanation": "wash has sh."
+      },
+      {
+        "id": 30,
+        "knowledge_point": "缺字母补全",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letters are missing? lun___",
+        "options": [],
+        "answer": "ch",
+        "explanation": "lunch has ch."
+      },
+      {
+        "id": 31,
+        "knowledge_point": "缺字母补全",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letters are missing? bo___",
+        "options": [],
+        "answer": "th",
+        "explanation": "both has th."
+      },
+      {
+        "id": 32,
+        "knowledge_point": "缺字母补全",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letters are missing? ___ip",
+        "options": [],
+        "answer": "wh",
+        "explanation": "whip starts with wh."
+      },
+      {
+        "id": 33,
+        "knowledge_point": "缺字母补全",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letters are missing? pa___",
+        "options": [],
+        "answer": "ck",
+        "explanation": "pack has ck."
+      },
+      {
+        "id": 34,
+        "knowledge_point": "缺字母补全",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letters are missing? ___oto",
+        "options": [],
+        "answer": "ph",
+        "explanation": "photo starts with ph."
+      },
+      {
+        "id": 35,
+        "knowledge_point": "缺字母补全",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letters are missing? ___ack",
+        "options": [],
+        "answer": "bl",
+        "explanation": "black begins with bl."
+      },
+      {
+        "id": 36,
+        "knowledge_point": "缺字母补全",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letters are missing? ___own",
+        "options": [],
+        "answer": "br",
+        "explanation": "brown begins with br."
+      },
+      {
+        "id": 37,
+        "knowledge_point": "缺字母补全",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letters are missing? ___oud",
+        "options": [],
+        "answer": "cl",
+        "explanation": "cloud begins with cl."
+      },
+      {
+        "id": 38,
+        "knowledge_point": "缺字母补全",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letters are missing? ___ay",
+        "options": [],
+        "answer": "pl",
+        "explanation": "play begins with pl."
+      },
+      {
+        "id": 39,
+        "knowledge_point": "缺字母补全",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letters are missing? ___ore",
+        "options": [],
+        "answer": "st",
+        "explanation": "store begins with st."
+      },
+      {
+        "id": 40,
+        "knowledge_point": "缺字母补全",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letters are missing? ___ider",
+        "options": [],
+        "answer": "sp",
+        "explanation": "spider begins with sp."
+      },
+      {
+        "id": 41,
+        "knowledge_point": "缺字母补全",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letters are missing? ___um",
+        "options": [],
+        "answer": "dr",
+        "explanation": "drum begins with dr."
+      },
+      {
+        "id": 42,
+        "knowledge_point": "缺字母补全",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letters are missing? ___uck",
+        "options": [],
+        "answer": "tr",
+        "explanation": "truck begins with tr."
+      },
+      {
+        "id": 43,
+        "knowledge_point": "组合分类",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Match each word with the two letters it uses.",
+        "options": [
+          "rock",
+          "graph",
+          "much",
+          "sheep",
+          "sh",
+          "ck",
+          "ch",
+          "ph"
+        ],
+        "answer": "D-1,A-2,B-4,C-3",
+        "explanation": "Each word is matched with the digraph inside it."
+      },
+      {
+        "id": 44,
+        "knowledge_point": "组合分类",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Match each word with the blend it begins with.",
+        "options": [
+          "dream",
+          "tree",
+          "clock",
+          "spill",
+          "sp",
+          "dr",
+          "cl",
+          "tr"
+        ],
+        "answer": "D-1,A-2,B-4,C-3",
+        "explanation": "A blend keeps both letter sounds."
+      },
+      {
+        "id": 45,
+        "knowledge_point": "读音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "phone has the sh sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "phone has the ph sound."
+      },
+      {
+        "id": 46,
+        "knowledge_point": "读音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "kick has the wh sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "kick has the ck sound."
+      },
+      {
+        "id": 47,
+        "knowledge_point": "读音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "wheel has the ch sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "wheel has the wh sound."
+      },
+      {
+        "id": 48,
+        "knowledge_point": "读音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "rich has the th sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "rich has the ch sound."
+      },
+      {
+        "id": 49,
+        "knowledge_point": "读音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "what has the ch sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "what has the wh sound."
+      },
+      {
+        "id": 50,
+        "knowledge_point": "读音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "thumb has the sh sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "thumb has the th sound."
+      },
+      {
+        "id": 51,
+        "knowledge_point": "读音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "why has the ck sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "why has the wh sound."
+      },
+      {
+        "id": 52,
+        "knowledge_point": "读音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "shine has the sh sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "shine has the sh sound."
+      },
+      {
+        "id": 53,
+        "knowledge_point": "读音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "thank has the th sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "thank has the th sound."
+      },
+      {
+        "id": 54,
+        "knowledge_point": "读音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "neck has the ch sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "neck has the ck sound."
+      },
+      {
+        "id": 55,
+        "knowledge_point": "读音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 3,
+        "question": "who has the wh sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "who is an exception - it starts with the sound h."
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 3「辅音组合 · Blends and Digraphs」综合挑战",
+    "total_score": 100,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "id": 11,
+        "knowledge_point": "二合字母",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word has the ph sound?",
+        "options": [
+          "drop",
+          "rock",
+          "stand",
+          "photo"
+        ],
+        "answer": "photo",
+        "explanation": "photo has the ph sound."
+      },
+      {
+        "id": 6,
+        "knowledge_point": "二合字母",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word has the th sound?",
+        "options": [
+          "sack",
+          "teeth",
+          "beach",
+          "trick"
+        ],
+        "answer": "teeth",
+        "explanation": "teeth has the th sound."
+      },
+      {
+        "id": 9,
+        "knowledge_point": "二合字母",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word has the ck sound?",
+        "options": [
+          "stand",
+          "pack",
+          "trip",
+          "clap"
+        ],
+        "answer": "pack",
+        "explanation": "pack has the ck sound."
+      },
+      {
+        "id": 26,
+        "knowledge_point": "连读辅音",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend dr?",
+        "options": [
+          "shell",
+          "stone",
+          "draw",
+          "beach"
+        ],
+        "answer": "draw",
+        "explanation": "draw begins with dr."
+      },
+      {
+        "id": 23,
+        "knowledge_point": "连读辅音",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend sp?",
+        "options": [
+          "sport",
+          "check",
+          "star",
+          "blend"
+        ],
+        "answer": "sport",
+        "explanation": "sport begins with sp."
+      },
+      {
+        "id": 21,
+        "knowledge_point": "连读辅音",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which word begins with the blend st?",
+        "options": [
+          "wheel",
+          "lunch",
+          "stone",
+          "graph"
+        ],
+        "answer": "stone",
+        "explanation": "stone begins with st."
+      },
+      {
+        "id": 32,
+        "knowledge_point": "缺字母补全",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letters are missing? ___ip",
+        "options": [],
+        "answer": "wh",
+        "explanation": "whip starts with wh."
+      },
+      {
+        "id": 40,
+        "knowledge_point": "缺字母补全",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letters are missing? ___ider",
+        "options": [],
+        "answer": "sp",
+        "explanation": "spider begins with sp."
+      },
+      {
+        "id": 39,
+        "knowledge_point": "缺字母补全",
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Which letters are missing? ___ore",
+        "options": [],
+        "answer": "st",
+        "explanation": "store begins with st."
+      },
+      {
+        "id": 44,
+        "knowledge_point": "组合分类",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Match each word with the blend it begins with.",
+        "options": [
+          "dream",
+          "tree",
+          "clock",
+          "spill",
+          "sp",
+          "dr",
+          "cl",
+          "tr"
+        ],
+        "answer": "D-1,A-2,B-4,C-3",
+        "explanation": "A blend keeps both letter sounds."
+      },
+      {
+        "id": 43,
+        "knowledge_point": "组合分类",
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "question": "Match each word with the two letters it uses.",
+        "options": [
+          "rock",
+          "graph",
+          "much",
+          "sheep",
+          "sh",
+          "ck",
+          "ch",
+          "ph"
+        ],
+        "answer": "D-1,A-2,B-4,C-3",
+        "explanation": "Each word is matched with the digraph inside it."
+      },
+      {
+        "id": 45,
+        "knowledge_point": "读音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "phone has the sh sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "phone has the ph sound."
+      },
+      {
+        "id": 51,
+        "knowledge_point": "读音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "why has the ck sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "why has the wh sound."
+      },
+      {
+        "id": 49,
+        "knowledge_point": "读音判断",
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "question": "what has the ch sound.",
+        "options": [],
+        "answer": "错",
+        "explanation": "what has the wh sound."
+      },
+      {
+        "id": 1,
+        "knowledge_point": "二合字母",
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "question": "Which word has the sh sound?",
+        "options": [
+          "ship",
+          "thank",
+          "clear",
+          "back"
+        ],
+        "answer": "ship",
+        "explanation": "ship has the sh sound."
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "二合字母",
+      "core_concept": "识别 sh / ch / th / wh / ck / ph 二合字母的读音。（对应标准 RF.1.3a）",
+      "key_formula": "sh / ch / th / wh / ck / ph 两个字母只发一个音。",
+      "common_mistakes": [
+        "把 digraph 拆成两个音",
+        "wh 与 who 例外：who 读 /h/"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "连读辅音",
+      "core_concept": "识别 bl / br / cl / st / tr 等辅音连读（blend）。（对应标准 RF.1.2b）",
+      "key_formula": "blend 里两个辅音都保留自己的音：bl = b + l。",
+      "common_mistakes": [
+        "把 blend 当成 digraph",
+        "漏读 blend 里的 l 或 r"
+      ],
+      "tips": "先听读音 / 看拼写 → 再排除 → 选答案；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "缺字母补全",
+      "core_concept": "补出单词里缺失的两个辅音字母。（对应标准 RF.1.3a）",
+      "key_formula": "先读出整词，再补出缺的那两个字母。",
+      "common_mistakes": [
+        "补成读音相近的另一组（sh 写成 s）",
+        "把大写位置留空"
+      ],
+      "tips": "读题干 → 想拼写 → 打字作答；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "组合分类",
+      "core_concept": "把单词与它所含的辅音组合配对。（对应标准 RF.1.3a）",
+      "key_formula": "按词里真正听到的那个音归类，而不是看字母多不多。",
+      "common_mistakes": [
+        "一词含两个组合时选错（which 含 wh 和 ch）",
+        "把词首 / 词中位置当成分类依据"
+      ],
+      "tips": "看左边 → 想配对 → 点右边；生词先跟读两遍再做题，错题自动进错题本。"
+    },
+    {
+      "point": "读音判断",
+      "core_concept": "判断某词的辅音组合归类是否正确。（对应标准 RF.1.3a, RF.1.2b）",
+      "key_formula": "判断前先默读一遍，再看描述是否与实际一致。",
+      "common_mistakes": [
+        "凭印象判断，不拼读",
+        "把例外词当成规则词"
+      ],
+      "tips": "先默读一遍 → 对照规则 → 判对错；生词先跟读两遍再做题，错题自动进错题本。"
+    }
+  ]
+}

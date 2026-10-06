@@ -123,7 +123,9 @@ export default function StoryReaderClient({ story, backHref }: Props) {
       const correctTrue = trueVals.has(norm(currentQ.answer));
       correct = (userTrue && correctTrue) || (userFalse && !correctTrue);
     } else if (currentQ.type === "choice") {
-      const userChar = answer.trim().toUpperCase().charAt(0);
+      const raw = answer.trim();
+      // 仅整串为 A-D 时才按字母；避免正文答案首字母被误判
+      const userChar = /^[A-Da-d]$/.test(raw) ? raw.toUpperCase() : raw.toUpperCase().charAt(0);
       const idx = currentQ.options.findIndex(o => norm(o) === norm(currentQ.answer));
       const correctChar = idx >= 0 ? String.fromCharCode(65 + idx) : "";
       correct = userChar === correctChar;

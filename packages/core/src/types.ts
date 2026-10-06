@@ -10,7 +10,8 @@ export type QuestionType =
   | "fill_blank_text"   // 文字输入（语文 / 英语 / 科学术语）
   | "word_order"        // 词语排序（语文 / 英语）
   | "matching"          // 连线配对（语文 / 英语）
-  | "word_problem";     // 历史保留
+  | "word_problem"      // 历史保留
+  | "writing";          // 写字练习（iPad + Apple Pencil 手写判分）
 
 export interface Question {
   id: number;
@@ -28,6 +29,38 @@ export interface Question {
     options?: (string | null)[];
     explanation?: string;
   };
+  /** 仅 type === "writing"：手写题的字形与判分参数 */
+  writing?: WritingSpec;
+}
+
+/**
+ * 写字练习题参数。
+ *
+ * 字形数据（笔画轮廓 SVG path + 每笔 median 折线，1024 坐标系）由
+ * scripts/writing/generate_writing_data.py 从 hanzi-writer-data 里挑出用到的字，
+ * 落到 apps/web/public/writing/glyphs/{char}.json，前端按
+ * `/writing/glyphs/${encodeURIComponent(char)}.json` 取。
+ */
+export interface WritingSpec {
+  /** 要写的字 */
+  char: string;
+  pinyin: string;
+  /** 组词，用于题干与反馈 */
+  word: string;
+  /** trace = 按笔顺逐笔跟写；whole = 整字自由书写后一次性评分 */
+  mode: "trace" | "whole";
+  /** 合格线 0-1；低于该分数判为未通过 */
+  threshold: number;
+}
+
+/** 字形数据文件（public/writing/glyphs/{char}.json） */
+export interface CharacterGlyph {
+  /** 每笔的轮廓 SVG path（1024 见方坐标系，y 轴向上） */
+  strokes: string[];
+  /** 每笔的中线折线，数组顺序即标准笔顺 */
+  medians: number[][][];
+  /** 部件（偏旁）分组，可选 */
+  radStrokes?: number[];
 }
 
 // ============================================================
@@ -109,7 +142,14 @@ export interface Outline {
  * 学科标识 —— 当前只有 math；未来添加 chinese/english/science 时保持同一 key。
  * 字段在 Book 上为可选以便老数据降级到 "math"。
  */
-export type SubjectId = "math" | "chinese" | "english" | "science";
+export type SubjectId =
+  | "math"
+  | "chinese"
+  | "renzi"
+  | "writing"
+  | "english"
+  | "ela"
+  | "science";
 
 export interface Book {
   id: string; // 'g3up'

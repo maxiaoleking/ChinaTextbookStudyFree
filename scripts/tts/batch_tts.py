@@ -33,7 +33,7 @@ import torch
 
 ROOT = Path(__file__).resolve().parents[2]
 MANIFEST_PATH = Path(__file__).resolve().parent / "manifest.json"
-AUDIO_ROOT = ROOT / "frontend" / "public" / "audio"
+AUDIO_ROOT = ROOT / "apps" / "web" / "public" / "audio"
 
 
 def get_device():

@@ -130,12 +130,15 @@ export function ActiveBookSync({ bookId, grade }: { bookId: string; grade: numbe
 // 列出本年级各科教材（选择即 setActiveBookId 并跳转），附换年级入口。
 // ============================================================
 
-const SUBJECT_ORDER: SubjectId[] = ["math", "chinese", "english", "science"];
+const SUBJECT_ORDER: SubjectId[] = ["math", "chinese", "renzi", "writing", "english", "ela", "science"];
 
 const SUBJECT_STYLE: Record<SubjectId, { color: string; glyph: string }> = {
   math: { color: "#58CC02", glyph: "数" },
   chinese: { color: "#FF4B4B", glyph: "语" },
+  renzi: { color: "#CE82FF", glyph: "字" },
+  writing: { color: "#235390", glyph: "写" },
   english: { color: "#1CB0F6", glyph: "A" },
+  ela: { color: "#FF9600", glyph: "Aa" },
   science: { color: "#FFC800", glyph: "科" },
 };
 

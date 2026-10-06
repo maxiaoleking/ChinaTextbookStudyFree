@@ -1,0 +1,2915 @@
+{
+  "textbook": "统编版小学认字一年级上册",
+  "unit": "识字（二）· 家庭与身体",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第2单元「识字（二）· 家庭与身体」认字与拼音练习",
+    "total_score": 100,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「爸」的正确读音是？（提示词：爸爸）",
+        "options": [
+          "mèi",
+          "gē",
+          "yé",
+          "bà"
+        ],
+        "answer": "bà",
+        "explanation": "「爸」读作 bà，可以组词「爸爸」。",
+        "audio": {
+          "question": "/audio/8f/8f6f89771673238a187e88a1b98302afa42c1b53.mp3",
+          "options": [
+            "/audio/pinyin/mei4.mp3",
+            "/audio/pinyin/ge1.mp3",
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/ba4.mp3"
+          ],
+          "explanation": "/audio/8f/8f64280221839520b780bd7c1866471d71c837bf.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「妈」的正确读音是？（提示词：妈妈）",
+        "options": [
+          "gē",
+          "yé",
+          "dì",
+          "mā"
+        ],
+        "answer": "mā",
+        "explanation": "「妈」读作 mā，可以组词「妈妈」。",
+        "audio": {
+          "question": "/audio/f0/f0cb4a0d1b29afc13e40b13ac3636bd1504b3df7.mp3",
+          "options": [
+            "/audio/pinyin/ge1.mp3",
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/ma1.mp3"
+          ],
+          "explanation": "/audio/e9/e9f9ab76f720f1be400e52b6a12aa90d36971e7f.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「哥」的正确读音是？（提示词：哥哥）",
+        "options": [
+          "guǒ",
+          "yé",
+          "gē",
+          "nǎi"
+        ],
+        "answer": "gē",
+        "explanation": "「哥」读作 gē，可以组词「哥哥」。",
+        "audio": {
+          "question": "/audio/db/dbe47321681498749f08385cf6751f54498b0654.mp3",
+          "options": [
+            "/audio/pinyin/guo3.mp3",
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/ge1.mp3",
+            "/audio/pinyin/nai3.mp3"
+          ],
+          "explanation": "/audio/0c/0cfa1d76fd8209510db4b0c87fd690f62fe00302.mp3"
+        }
+      },
+      {
+        "id": 4,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「弟」的正确读音是？（提示词：弟弟）",
+        "options": [
+          "jiě",
+          "jiā",
+          "dì",
+          "mā"
+        ],
+        "answer": "dì",
+        "explanation": "「弟」读作 dì，可以组词「弟弟」。",
+        "audio": {
+          "question": "/audio/53/5336859ccfa6acc8aec8e81e159020bb8c283092.mp3",
+          "options": [
+            "/audio/pinyin/jie3.mp3",
+            "/audio/pinyin/jia1.mp3",
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/ma1.mp3"
+          ],
+          "explanation": "/audio/99/99e4f55e24b996387d6266774b79da14ea727c13.mp3"
+        }
+      },
+      {
+        "id": 5,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「姐」的正确读音是？（提示词：姐姐）",
+        "options": [
+          "jiě",
+          "mèi",
+          "dì",
+          "jiā"
+        ],
+        "answer": "jiě",
+        "explanation": "「姐」读作 jiě，可以组词「姐姐」。",
+        "audio": {
+          "question": "/audio/eb/eb0062a8dcb5dac17c16af2e6d6653a3ef964f8f.mp3",
+          "options": [
+            "/audio/pinyin/jie3.mp3",
+            "/audio/pinyin/mei4.mp3",
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/jia1.mp3"
+          ],
+          "explanation": "/audio/40/4024e6055b1f9e26e99bc05a451c1e482b52ed97.mp3"
+        }
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「妹」的正确读音是？（提示词：妹妹）",
+        "options": [
+          "mèi",
+          "dì",
+          "yé",
+          "mā"
+        ],
+        "answer": "mèi",
+        "explanation": "「妹」读作 mèi，可以组词「妹妹」。",
+        "audio": {
+          "question": "/audio/65/65571deffc3065dcafe4bed278371c1a4a4103f4.mp3",
+          "options": [
+            "/audio/pinyin/mei4.mp3",
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/ma1.mp3"
+          ],
+          "explanation": "/audio/0a/0af6833ebe703322f1754d5bb7cdfc0e4dfa63de.mp3"
+        }
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「爷」的正确读音是？（提示词：爷爷）",
+        "options": [
+          "yé",
+          "dì",
+          "mā",
+          "yáng"
+        ],
+        "answer": "yé",
+        "explanation": "「爷」读作 yé，可以组词「爷爷」。",
+        "audio": {
+          "question": "/audio/e5/e5b7c1c6b438e8a58fb915e819a5257e6f432dca.mp3",
+          "options": [
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/ma1.mp3",
+            "/audio/pinyin/yang2.mp3"
+          ],
+          "explanation": "/audio/4c/4c5b4286d1fa1c715988573645dd76c653d0235b.mp3"
+        }
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「奶」的正确读音是？（提示词：奶奶）",
+        "options": [
+          "jiā",
+          "dì",
+          "yé",
+          "nǎi"
+        ],
+        "answer": "nǎi",
+        "explanation": "「奶」读作 nǎi，可以组词「奶奶」。",
+        "audio": {
+          "question": "/audio/7a/7a864cad7c6e54a7008f48ecee0eb17d46ef02f4.mp3",
+          "options": [
+            "/audio/pinyin/jia1.mp3",
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/nai3.mp3"
+          ],
+          "explanation": "/audio/12/12d78bf1dac3b14b80036969c3fd34e29745ba7d.mp3"
+        }
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「家」的正确读音是？（提示词：回家）",
+        "options": [
+          "bà",
+          "dì",
+          "jiā",
+          "nǎi"
+        ],
+        "answer": "jiā",
+        "explanation": "「家」读作 jiā，可以组词「回家」。",
+        "audio": {
+          "question": "/audio/d6/d66b2e19f3b1a224d6769889f1b6b2f94850f5ed.mp3",
+          "options": [
+            "/audio/pinyin/ba4.mp3",
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/jia1.mp3",
+            "/audio/pinyin/nai3.mp3"
+          ],
+          "explanation": "/audio/1b/1bb3d955b24b48a748459120205626aeb005f7c6.mp3"
+        }
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「大」的正确读音是？（提示词：大人）",
+        "options": [
+          "jiě",
+          "bà",
+          "dà",
+          "mèi"
+        ],
+        "answer": "dà",
+        "explanation": "「大」读作 dà，可以组词「大人」。",
+        "audio": {
+          "question": "/audio/0b/0bcf3d30a9ebd651273f956eff276d2a53be00ec.mp3",
+          "options": [
+            "/audio/pinyin/jie3.mp3",
+            "/audio/pinyin/ba4.mp3",
+            "/audio/pinyin/da4.mp3",
+            "/audio/pinyin/mei4.mp3"
+          ],
+          "explanation": "/audio/9c/9c744a8918cb21a70ae7c67e5a513768c84c3343.mp3"
+        }
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「小」的正确读音是？（提示词：小鸟）",
+        "options": [
+          "mèi",
+          "jiě",
+          "bà",
+          "xiǎo"
+        ],
+        "answer": "xiǎo",
+        "explanation": "「小」读作 xiǎo，可以组词「小鸟」。",
+        "audio": {
+          "question": "/audio/7c/7cec095875914c1b3e5e4f4caf81eb8e4e681c47.mp3",
+          "options": [
+            "/audio/pinyin/mei4.mp3",
+            "/audio/pinyin/jie3.mp3",
+            "/audio/pinyin/ba4.mp3",
+            "/audio/pinyin/xiao3.mp3"
+          ],
+          "explanation": "/audio/b4/b4366af5d2ed35e1b138e637ef7bdb3fa0f17cca.mp3"
+        }
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「多」的正确读音是？（提示词：多少）",
+        "options": [
+          "yé",
+          "duō",
+          "jiě",
+          "mā"
+        ],
+        "answer": "duō",
+        "explanation": "「多」读作 duō，可以组词「多少」。",
+        "audio": {
+          "question": "/audio/bc/bcdde303f6f39dea990dad372101b9bc206d42a8.mp3",
+          "options": [
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/duo1.mp3",
+            "/audio/pinyin/jie3.mp3",
+            "/audio/pinyin/ma1.mp3"
+          ],
+          "explanation": "/audio/fa/fa97b9d26d4b2fb969d66fb3a53117d4464906fa.mp3"
+        }
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「少」的正确读音是？（提示词：很少）",
+        "options": [
+          "shǎo",
+          "mā",
+          "yé",
+          "bà"
+        ],
+        "answer": "shǎo",
+        "explanation": "「少」读作 shǎo，可以组词「很少」。",
+        "audio": {
+          "question": "/audio/0a/0ad5a4478db84199304124df2c883573c4900f40.mp3",
+          "options": [
+            "/audio/pinyin/shao3.mp3",
+            "/audio/pinyin/ma1.mp3",
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/ba4.mp3"
+          ],
+          "explanation": "/audio/ef/ef55846a57b3a45afea9de3887b39e335093bdbf.mp3"
+        }
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「牛」的正确读音是？（提示词：小牛）",
+        "options": [
+          "mā",
+          "bà",
+          "dì",
+          "niú"
+        ],
+        "answer": "niú",
+        "explanation": "「牛」读作 niú，可以组词「小牛」。",
+        "audio": {
+          "question": "/audio/44/4409ce021e8f092900da93201939c69043899d2e.mp3",
+          "options": [
+            "/audio/pinyin/ma1.mp3",
+            "/audio/pinyin/ba4.mp3",
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/niu2.mp3"
+          ],
+          "explanation": "/audio/9d/9db1d588fe7b0bfcb8ed2acc21258dce5dd39b9c.mp3"
+        }
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「羊」的正确读音是？（提示词：山羊）",
+        "options": [
+          "gē",
+          "mā",
+          "mèi",
+          "yáng"
+        ],
+        "answer": "yáng",
+        "explanation": "「羊」读作 yáng，可以组词「山羊」。",
+        "audio": {
+          "question": "/audio/c8/c8a8183d68c941e828d6b123b9aa1475af6e0a5e.mp3",
+          "options": [
+            "/audio/pinyin/ge1.mp3",
+            "/audio/pinyin/ma1.mp3",
+            "/audio/pinyin/mei4.mp3",
+            "/audio/pinyin/yang2.mp3"
+          ],
+          "explanation": "/audio/eb/eb0dd728e5e63f1d264cdeaa8c1d4f96dbefe4f1.mp3"
+        }
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「鸟」的正确读音是？（提示词：飞鸟）",
+        "options": [
+          "dì",
+          "niǎo",
+          "jiě",
+          "mā"
+        ],
+        "answer": "niǎo",
+        "explanation": "「鸟」读作 niǎo，可以组词「飞鸟」。",
+        "audio": {
+          "question": "/audio/5c/5cdda8d01efd5fb31d6e5ff5eae2bf37120d3df0.mp3",
+          "options": [
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/niao3.mp3",
+            "/audio/pinyin/jie3.mp3",
+            "/audio/pinyin/ma1.mp3"
+          ],
+          "explanation": "/audio/bd/bdd07a9bc3f627e155f6d49e68a0411123e65827.mp3"
+        }
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「虫」的正确读音是？（提示词：毛虫）",
+        "options": [
+          "mā",
+          "mèi",
+          "dì",
+          "chóng"
+        ],
+        "answer": "chóng",
+        "explanation": "「虫」读作 chóng，可以组词「毛虫」。",
+        "audio": {
+          "question": "/audio/4a/4a6cd99c1bd50463b64de992acede3ca2d388f62.mp3",
+          "options": [
+            "/audio/pinyin/ma1.mp3",
+            "/audio/pinyin/mei4.mp3",
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/chong2.mp3"
+          ],
+          "explanation": "/audio/84/8461a42286d92e806acb595fcd4da5daafe38f73.mp3"
+        }
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「狗」的正确读音是？（提示词：小狗）",
+        "options": [
+          "nǎi",
+          "mā",
+          "gǒu",
+          "gē"
+        ],
+        "answer": "gǒu",
+        "explanation": "「狗」读作 gǒu，可以组词「小狗」。",
+        "audio": {
+          "question": "/audio/55/55feadb66887fecb756a70b793d63d64dbf4cade.mp3",
+          "options": [
+            "/audio/pinyin/nai3.mp3",
+            "/audio/pinyin/ma1.mp3",
+            "/audio/pinyin/gou3.mp3",
+            "/audio/pinyin/ge1.mp3"
+          ],
+          "explanation": "/audio/d3/d35c666f4c5b2a48782106a1794223e00cc14926.mp3"
+        }
+      },
+      {
+        "id": 19,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「猫」的正确读音是？（提示词：小猫）",
+        "options": [
+          "mā",
+          "yé",
+          "mèi",
+          "māo"
+        ],
+        "answer": "māo",
+        "explanation": "「猫」读作 māo，可以组词「小猫」。",
+        "audio": {
+          "question": "/audio/76/76a343f660eaeba66c770d55d2681367cf295095.mp3",
+          "options": [
+            "/audio/pinyin/ma1.mp3",
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/mei4.mp3",
+            "/audio/pinyin/mao1.mp3"
+          ],
+          "explanation": "/audio/5f/5f6e23399a1c1db108b80f5f3ef6bddb66ac9d09.mp3"
+        }
+      },
+      {
+        "id": 20,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「兔」的正确读音是？（提示词：兔子）",
+        "options": [
+          "dì",
+          "tù",
+          "gē",
+          "jiě"
+        ],
+        "answer": "tù",
+        "explanation": "「兔」读作 tù，可以组词「兔子」。",
+        "audio": {
+          "question": "/audio/71/7150294a4ab95959b30205fd09f12e3ffc1e22df.mp3",
+          "options": [
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/tu4.mp3",
+            "/audio/pinyin/ge1.mp3",
+            "/audio/pinyin/jie3.mp3"
+          ],
+          "explanation": "/audio/6e/6e8463b62ed7670767af9eb2a70ff29242287206.mp3"
+        }
+      },
+      {
+        "id": 21,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「心」的正确读音是？（提示词：开心）",
+        "options": [
+          "xiǎo",
+          "bà",
+          "xīn",
+          "nǎi"
+        ],
+        "answer": "xīn",
+        "explanation": "「心」读作 xīn，可以组词「开心」。",
+        "audio": {
+          "question": "/audio/d9/d98198ab79a5807b203e9bfd999edf2f6a9f6c8b.mp3",
+          "options": [
+            "/audio/pinyin/xiao3.mp3",
+            "/audio/pinyin/ba4.mp3",
+            "/audio/pinyin/xin1.mp3",
+            "/audio/pinyin/nai3.mp3"
+          ],
+          "explanation": "/audio/f9/f962f46a8a8fe8d0e0f6825b8f6ae79842be9c15.mp3"
+        }
+      },
+      {
+        "id": 22,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「头」的正确读音是？（提示词：头发）",
+        "options": [
+          "mā",
+          "tóu",
+          "mèi",
+          "tù"
+        ],
+        "answer": "tóu",
+        "explanation": "「头」读作 tóu，可以组词「头发」。",
+        "audio": {
+          "question": "/audio/ba/bae81bd35494895831c9ece448e73da456afbaf1.mp3",
+          "options": [
+            "/audio/pinyin/ma1.mp3",
+            "/audio/pinyin/tou2.mp3",
+            "/audio/pinyin/mei4.mp3",
+            "/audio/pinyin/tu4.mp3"
+          ],
+          "explanation": "/audio/39/39bd522a37068a4ff2abd99b48aa7618d3f3d13b.mp3"
+        }
+      },
+      {
+        "id": 23,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「面」的正确读音是？（提示词：面包）",
+        "options": [
+          "yé",
+          "jiě",
+          "miàn",
+          "mǐ"
+        ],
+        "answer": "miàn",
+        "explanation": "「面」读作 miàn，可以组词「面包」。",
+        "audio": {
+          "question": "/audio/c4/c431d8fcf8180b8dad9a8377613a404c487869b7.mp3",
+          "options": [
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/jie3.mp3",
+            "/audio/pinyin/mian4.mp3",
+            "/audio/pinyin/mi3.mp3"
+          ],
+          "explanation": "/audio/d5/d55fa2dfdfea0564b45c0541969b600266343f7c.mp3"
+        }
+      },
+      {
+        "id": 24,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「身」的正确读音是？（提示词：身体）",
+        "options": [
+          "shēn",
+          "yé",
+          "nǎi",
+          "shǎo"
+        ],
+        "answer": "shēn",
+        "explanation": "「身」读作 shēn，可以组词「身体」。",
+        "audio": {
+          "question": "/audio/ff/ff53fc9bea5b7f71581a503163f3bc1fb70a6c0a.mp3",
+          "options": [
+            "/audio/pinyin/shen1.mp3",
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/nai3.mp3",
+            "/audio/pinyin/shao3.mp3"
+          ],
+          "explanation": "/audio/24/249712e7f2c386fe4b52a1c0b0f1578efe829114.mp3"
+        }
+      },
+      {
+        "id": 25,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「米」的正确读音是？（提示词：大米）",
+        "options": [
+          "mǐ",
+          "mèi",
+          "mā",
+          "mā"
+        ],
+        "answer": "mǐ",
+        "explanation": "「米」读作 mǐ，可以组词「大米」。",
+        "audio": {
+          "question": "/audio/50/50dd452b769af5642bef07a407f948d6147c1695.mp3",
+          "options": [
+            "/audio/pinyin/mi3.mp3",
+            "/audio/pinyin/mei4.mp3",
+            "/audio/pinyin/ma1.mp3",
+            "/audio/pinyin/ma1.mp3"
+          ],
+          "explanation": "/audio/f9/f98b115633ba553bfd6693f6bb486e43b5e5ae7c.mp3"
+        }
+      },
+      {
+        "id": 26,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「饭」的正确读音是？（提示词：米饭）",
+        "options": [
+          "yé",
+          "fàn",
+          "jiě",
+          "mèi"
+        ],
+        "answer": "fàn",
+        "explanation": "「饭」读作 fàn，可以组词「米饭」。",
+        "audio": {
+          "question": "/audio/02/0208de1ca146e7bae8358edcea441f2a8ee14e1e.mp3",
+          "options": [
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/fan4.mp3",
+            "/audio/pinyin/jie3.mp3",
+            "/audio/pinyin/mei4.mp3"
+          ],
+          "explanation": "/audio/86/862557a6907c259609a545e0429a504f9995865f.mp3"
+        }
+      },
+      {
+        "id": 27,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「菜」的正确读音是？（提示词：青菜）",
+        "options": [
+          "jiě",
+          "mā",
+          "yé",
+          "cài"
+        ],
+        "answer": "cài",
+        "explanation": "「菜」读作 cài，可以组词「青菜」。",
+        "audio": {
+          "question": "/audio/aa/aa4b74f4a87ca6be8bb3a94a76e794bb7b52a938.mp3",
+          "options": [
+            "/audio/pinyin/jie3.mp3",
+            "/audio/pinyin/ma1.mp3",
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/cai4.mp3"
+          ],
+          "explanation": "/audio/45/45dc83dea9a676130511193e5c4f1dc342ecad17.mp3"
+        }
+      },
+      {
+        "id": 28,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「果」的正确读音是？（提示词：水果）",
+        "options": [
+          "yé",
+          "mā",
+          "guǒ",
+          "gē"
+        ],
+        "answer": "guǒ",
+        "explanation": "「果」读作 guǒ，可以组词「水果」。",
+        "audio": {
+          "question": "/audio/f6/f6cfbcc32d8df20ce21ab0abadacd884557d1515.mp3",
+          "options": [
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/ma1.mp3",
+            "/audio/pinyin/guo3.mp3",
+            "/audio/pinyin/ge1.mp3"
+          ],
+          "explanation": "/audio/21/2192a231b56e0043a3a07133419b94d4011f83df.mp3"
+        }
+      },
+      {
+        "id": 29,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「白」的正确读音是？（提示词：白云）",
+        "options": [
+          "jiě",
+          "bái",
+          "yé",
+          "mā"
+        ],
+        "answer": "bái",
+        "explanation": "「白」读作 bái，可以组词「白云」。",
+        "audio": {
+          "question": "/audio/4e/4e96f11da13b09440a8f18a9f103a44adf6429a5.mp3",
+          "options": [
+            "/audio/pinyin/jie3.mp3",
+            "/audio/pinyin/bai2.mp3",
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/ma1.mp3"
+          ],
+          "explanation": "/audio/32/321d1083487e5596e44ffd0db534a58e2f5f9275.mp3"
+        }
+      },
+      {
+        "id": 30,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「黑」的正确读音是？（提示词：黑色）",
+        "options": [
+          "jiě",
+          "hēi",
+          "gē",
+          "nǎi"
+        ],
+        "answer": "hēi",
+        "explanation": "「黑」读作 hēi，可以组词「黑色」。",
+        "audio": {
+          "question": "/audio/46/467203388fd80196dc121f327fa3b100e4952111.mp3",
+          "options": [
+            "/audio/pinyin/jie3.mp3",
+            "/audio/pinyin/hei1.mp3",
+            "/audio/pinyin/ge1.mp3",
+            "/audio/pinyin/nai3.mp3"
+          ],
+          "explanation": "/audio/55/55d3ea2166e6aabf612e27143ce5d88b672346d5.mp3"
+        }
+      },
+      {
+        "id": 31,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「红」的正确读音是？（提示词：红花）",
+        "options": [
+          "nǎi",
+          "yé",
+          "hóng",
+          "bà"
+        ],
+        "answer": "hóng",
+        "explanation": "「红」读作 hóng，可以组词「红花」。",
+        "audio": {
+          "question": "/audio/20/209366dd676fad15ac265792948d062e732a910b.mp3",
+          "options": [
+            "/audio/pinyin/nai3.mp3",
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/hong2.mp3",
+            "/audio/pinyin/ba4.mp3"
+          ],
+          "explanation": "/audio/31/3191cad0cfd50a3d8f0937c9fad464916d0379dc.mp3"
+        }
+      },
+      {
+        "id": 32,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「黄」的正确读音是？（提示词：黄河）",
+        "options": [
+          "mèi",
+          "mā",
+          "gē",
+          "huáng"
+        ],
+        "answer": "huáng",
+        "explanation": "「黄」读作 huáng，可以组词「黄河」。",
+        "audio": {
+          "question": "/audio/7c/7cc36663e3b6ebcad895d393fbcc747e84213d44.mp3",
+          "options": [
+            "/audio/pinyin/mei4.mp3",
+            "/audio/pinyin/ma1.mp3",
+            "/audio/pinyin/ge1.mp3",
+            "/audio/pinyin/huang2.mp3"
+          ],
+          "explanation": "/audio/a5/a53c4d4b65feb4c4798db82480a02dced0fe2322.mp3"
+        }
+      },
+      {
+        "id": 33,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「蓝」的正确读音是？（提示词：蓝天）",
+        "options": [
+          "lán",
+          "lǜ",
+          "yé",
+          "gē"
+        ],
+        "answer": "lán",
+        "explanation": "「蓝」读作 lán，可以组词「蓝天」。",
+        "audio": {
+          "question": "/audio/5f/5f3bb8421af6c6e45d2bbcbddb5da097c4a9a21d.mp3",
+          "options": [
+            "/audio/pinyin/lan2.mp3",
+            "/audio/pinyin/lv4.mp3",
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/ge1.mp3"
+          ],
+          "explanation": "/audio/76/76cb4769ce1ca7c2cee1d970597ab6f201adefff.mp3"
+        }
+      },
+      {
+        "id": 34,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「绿」的正确读音是？（提示词：绿草）",
+        "options": [
+          "dì",
+          "mèi",
+          "lán",
+          "lǜ"
+        ],
+        "answer": "lǜ",
+        "explanation": "「绿」读作 lǜ，可以组词「绿草」。",
+        "audio": {
+          "question": "/audio/d7/d749d3c4331b839e8d532c72c963c7c31bec6c80.mp3",
+          "options": [
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/mei4.mp3",
+            "/audio/pinyin/lan2.mp3",
+            "/audio/pinyin/lv4.mp3"
+          ],
+          "explanation": "/audio/ac/ac89d99852b9caaaefc041f48f331e9db3d6b077.mp3"
+        }
+      },
+      {
+        "id": 35,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「bà」对应的汉字是？（词：爸爸）",
+        "options": [
+          "牛",
+          "爸",
+          "狗",
+          "妈"
+        ],
+        "answer": "爸",
+        "explanation": "「bà」写作「爸」，例如「爸爸」。",
+        "audio": {
+          "question": "/audio/37/371ec8cfccfc219b1c41453830e839e729b64491.mp3",
+          "options": [
+            "/audio/pinyin/niu2.mp3",
+            "/audio/pinyin/ba4.mp3",
+            "/audio/pinyin/gou3.mp3",
+            "/audio/pinyin/ma1.mp3"
+          ],
+          "explanation": "/audio/f1/f12e5e6253f3d0cb0161d7c50cd7d6b6292fbbdd.mp3"
+        }
+      },
+      {
+        "id": 36,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「mā」对应的汉字是？（词：妈妈）",
+        "options": [
+          "白",
+          "妈",
+          "米",
+          "哥"
+        ],
+        "answer": "妈",
+        "explanation": "「mā」写作「妈」，例如「妈妈」。",
+        "audio": {
+          "question": "/audio/56/568947749610be54adbb2421ab86a287c87e4bd3.mp3",
+          "options": [
+            "/audio/pinyin/bai2.mp3",
+            "/audio/pinyin/ma1.mp3",
+            "/audio/pinyin/mi3.mp3",
+            "/audio/pinyin/ge1.mp3"
+          ],
+          "explanation": "/audio/cb/cbc9e031021b8c61b2007cdb23af1ac500edfd84.mp3"
+        }
+      },
+      {
+        "id": 37,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「gē」对应的汉字是？（词：哥哥）",
+        "options": [
+          "哥",
+          "鸟",
+          "果",
+          "菜"
+        ],
+        "answer": "哥",
+        "explanation": "「gē」写作「哥」，例如「哥哥」。",
+        "audio": {
+          "question": "/audio/8c/8c1ce992c35cccdcf94454a5dafffbb35222582b.mp3",
+          "options": [
+            "/audio/pinyin/ge1.mp3",
+            "/audio/pinyin/niao3.mp3",
+            "/audio/pinyin/guo3.mp3",
+            "/audio/pinyin/cai4.mp3"
+          ],
+          "explanation": "/audio/e2/e2caf06483e57865dbd801fc1b9d20167c6a4cb3.mp3"
+        }
+      },
+      {
+        "id": 38,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「dì」对应的汉字是？（词：弟弟）",
+        "options": [
+          "身",
+          "爷",
+          "弟",
+          "兔"
+        ],
+        "answer": "弟",
+        "explanation": "「dì」写作「弟」，例如「弟弟」。",
+        "audio": {
+          "question": "/audio/e3/e3ffe2cb1ffa819d7563088415bd9b9529b417dc.mp3",
+          "options": [
+            "/audio/pinyin/shen1.mp3",
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/tu4.mp3"
+          ],
+          "explanation": "/audio/20/2054e872eef5b65dcd8501e7715667e82ca6448b.mp3"
+        }
+      },
+      {
+        "id": 39,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jiě」对应的汉字是？（词：姐姐）",
+        "options": [
+          "多",
+          "身",
+          "姐",
+          "饭"
+        ],
+        "answer": "姐",
+        "explanation": "「jiě」写作「姐」，例如「姐姐」。",
+        "audio": {
+          "question": "/audio/7f/7ff52bea2878c0d08ce1a9033d74830e9f753797.mp3",
+          "options": [
+            "/audio/pinyin/duo1.mp3",
+            "/audio/pinyin/shen1.mp3",
+            "/audio/pinyin/jie3.mp3",
+            "/audio/pinyin/fan4.mp3"
+          ],
+          "explanation": "/audio/2c/2c8abf4beb76aef4d7a960801e78c0f2f97f8833.mp3"
+        }
+      },
+      {
+        "id": 40,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「mèi」对应的汉字是？（词：妹妹）",
+        "options": [
+          "妹",
+          "弟",
+          "猫",
+          "多"
+        ],
+        "answer": "妹",
+        "explanation": "「mèi」写作「妹」，例如「妹妹」。",
+        "audio": {
+          "question": "/audio/df/df23c82bfa7a5d7dfd100844618623d4b6fdb626.mp3",
+          "options": [
+            "/audio/pinyin/mei4.mp3",
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/mao1.mp3",
+            "/audio/pinyin/duo1.mp3"
+          ],
+          "explanation": "/audio/62/62c30ac066d907807d87c66b70085613d0a88c32.mp3"
+        }
+      },
+      {
+        "id": 41,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「yé」对应的汉字是？（词：爷爷）",
+        "options": [
+          "多",
+          "爷",
+          "羊",
+          "头"
+        ],
+        "answer": "爷",
+        "explanation": "「yé」写作「爷」，例如「爷爷」。",
+        "audio": {
+          "question": "/audio/7d/7d6de85c7d268e2422d18e71f0d851bd740f5a91.mp3",
+          "options": [
+            "/audio/pinyin/duo1.mp3",
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/yang2.mp3",
+            "/audio/pinyin/tou2.mp3"
+          ],
+          "explanation": "/audio/7b/7b1ec2453558a448afbd80b6856fb008882c322b.mp3"
+        }
+      },
+      {
+        "id": 42,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「nǎi」对应的汉字是？（词：奶奶）",
+        "options": [
+          "弟",
+          "家",
+          "奶",
+          "小"
+        ],
+        "answer": "奶",
+        "explanation": "「nǎi」写作「奶」，例如「奶奶」。",
+        "audio": {
+          "question": "/audio/bc/bcb64aa4bd35cec1b43b9b65aac16e0c26ecf962.mp3",
+          "options": [
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/jia1.mp3",
+            "/audio/pinyin/nai3.mp3",
+            "/audio/pinyin/xiao3.mp3"
+          ],
+          "explanation": "/audio/ba/ba16d508f950195d7697457eddf0f91412d46916.mp3"
+        }
+      },
+      {
+        "id": 43,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jiā」对应的汉字是？（词：回家）",
+        "options": [
+          "少",
+          "果",
+          "家",
+          "多"
+        ],
+        "answer": "家",
+        "explanation": "「jiā」写作「家」，例如「回家」。",
+        "audio": {
+          "question": "/audio/ef/efc78e5ea6ebc5693c141d48c703c6f88e113783.mp3",
+          "options": [
+            "/audio/pinyin/shao3.mp3",
+            "/audio/pinyin/guo3.mp3",
+            "/audio/pinyin/jia1.mp3",
+            "/audio/pinyin/duo1.mp3"
+          ],
+          "explanation": "/audio/08/08ace0ca8361792bf4f900390e772e736c29d191.mp3"
+        }
+      },
+      {
+        "id": 44,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「dà」对应的汉字是？（词：大人）",
+        "options": [
+          "大",
+          "鸟",
+          "爸",
+          "黄"
+        ],
+        "answer": "大",
+        "explanation": "「dà」写作「大」，例如「大人」。",
+        "audio": {
+          "question": "/audio/41/41b9491b4526658c95448bdd12e70293f5665bd0.mp3",
+          "options": [
+            "/audio/pinyin/da4.mp3",
+            "/audio/pinyin/niao3.mp3",
+            "/audio/pinyin/ba4.mp3",
+            "/audio/pinyin/huang2.mp3"
+          ],
+          "explanation": "/audio/c7/c76668ace53d00a6c74d9c82dca4171d0dd77cc5.mp3"
+        }
+      },
+      {
+        "id": 45,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「xiǎo」对应的汉字是？（词：小鸟）",
+        "options": [
+          "大",
+          "饭",
+          "爸",
+          "小"
+        ],
+        "answer": "小",
+        "explanation": "「xiǎo」写作「小」，例如「小鸟」。",
+        "audio": {
+          "question": "/audio/86/86b4ffea7a2ca7aaa11652d8a26b351735319725.mp3",
+          "options": [
+            "/audio/pinyin/da4.mp3",
+            "/audio/pinyin/fan4.mp3",
+            "/audio/pinyin/ba4.mp3",
+            "/audio/pinyin/xiao3.mp3"
+          ],
+          "explanation": "/audio/70/70d2cc29fc70585644576ec527f4a54800bce29d.mp3"
+        }
+      },
+      {
+        "id": 46,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「duō」对应的汉字是？（词：多少）",
+        "options": [
+          "狗",
+          "弟",
+          "果",
+          "多"
+        ],
+        "answer": "多",
+        "explanation": "「duō」写作「多」，例如「多少」。",
+        "audio": {
+          "question": "/audio/d0/d006f15b06488912f0b40d7e55d320afc56e4e41.mp3",
+          "options": [
+            "/audio/pinyin/gou3.mp3",
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/guo3.mp3",
+            "/audio/pinyin/duo1.mp3"
+          ],
+          "explanation": "/audio/73/731a79ea0af10ddc7351b473877a87c7ce4ee8d4.mp3"
+        }
+      },
+      {
+        "id": 47,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「shǎo」对应的汉字是？（词：很少）",
+        "options": [
+          "哥",
+          "爷",
+          "家",
+          "少"
+        ],
+        "answer": "少",
+        "explanation": "「shǎo」写作「少」，例如「很少」。",
+        "audio": {
+          "question": "/audio/89/89e1d6a1ec6448fec05a1eb7599300522e42bf61.mp3",
+          "options": [
+            "/audio/pinyin/ge1.mp3",
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/jia1.mp3",
+            "/audio/pinyin/shao3.mp3"
+          ],
+          "explanation": "/audio/bc/bc246045a027082c4c97613ef1fc6c92274ed1e4.mp3"
+        }
+      },
+      {
+        "id": 48,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「niú」对应的汉字是？（词：小牛）",
+        "options": [
+          "红",
+          "身",
+          "牛",
+          "黄"
+        ],
+        "answer": "牛",
+        "explanation": "「niú」写作「牛」，例如「小牛」。",
+        "audio": {
+          "question": "/audio/e7/e735be38227ce6ae1198ed8878a66ddbedc08870.mp3",
+          "options": [
+            "/audio/pinyin/hong2.mp3",
+            "/audio/pinyin/shen1.mp3",
+            "/audio/pinyin/niu2.mp3",
+            "/audio/pinyin/huang2.mp3"
+          ],
+          "explanation": "/audio/82/82af3f1cc35463e2a814a98a88457c9faa81ca02.mp3"
+        }
+      },
+      {
+        "id": 49,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「yáng」对应的汉字是？（词：山羊）",
+        "options": [
+          "大",
+          "羊",
+          "果",
+          "小"
+        ],
+        "answer": "羊",
+        "explanation": "「yáng」写作「羊」，例如「山羊」。",
+        "audio": {
+          "question": "/audio/f7/f7311057a86a4e367c05cf1799af5fce0c6a5333.mp3",
+          "options": [
+            "/audio/pinyin/da4.mp3",
+            "/audio/pinyin/yang2.mp3",
+            "/audio/pinyin/guo3.mp3",
+            "/audio/pinyin/xiao3.mp3"
+          ],
+          "explanation": "/audio/1f/1f3fc74f92e9a1fb4b85bc59a6d1c76679e46b97.mp3"
+        }
+      },
+      {
+        "id": 50,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「niǎo」对应的汉字是？（词：飞鸟）",
+        "options": [
+          "黄",
+          "绿",
+          "鸟",
+          "多"
+        ],
+        "answer": "鸟",
+        "explanation": "「niǎo」写作「鸟」，例如「飞鸟」。",
+        "audio": {
+          "question": "/audio/b5/b511e65e00ab18c7479950addc6c77085be441df.mp3",
+          "options": [
+            "/audio/pinyin/huang2.mp3",
+            "/audio/pinyin/lv4.mp3",
+            "/audio/pinyin/niao3.mp3",
+            "/audio/pinyin/duo1.mp3"
+          ],
+          "explanation": "/audio/86/864b0e1fde408f78aebfe1370e47c67ce16cbf9e.mp3"
+        }
+      },
+      {
+        "id": 51,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「chóng」对应的汉字是？（词：毛虫）",
+        "options": [
+          "果",
+          "心",
+          "大",
+          "虫"
+        ],
+        "answer": "虫",
+        "explanation": "「chóng」写作「虫」，例如「毛虫」。",
+        "audio": {
+          "question": "/audio/9f/9f1e7024882ec6e85755bf3e8c7619a9eab5d2a5.mp3",
+          "options": [
+            "/audio/pinyin/guo3.mp3",
+            "/audio/pinyin/xin1.mp3",
+            "/audio/pinyin/da4.mp3",
+            "/audio/pinyin/chong2.mp3"
+          ],
+          "explanation": "/audio/09/09709a1e64d3a13fde7500b87d7e7a6f1af2af12.mp3"
+        }
+      },
+      {
+        "id": 52,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「gǒu」对应的汉字是？（词：小狗）",
+        "options": [
+          "心",
+          "牛",
+          "狗",
+          "弟"
+        ],
+        "answer": "狗",
+        "explanation": "「gǒu」写作「狗」，例如「小狗」。",
+        "audio": {
+          "question": "/audio/e0/e0d66c8514689d1d2f005949deb95e44257fa19d.mp3",
+          "options": [
+            "/audio/pinyin/xin1.mp3",
+            "/audio/pinyin/niu2.mp3",
+            "/audio/pinyin/gou3.mp3",
+            "/audio/pinyin/di4.mp3"
+          ],
+          "explanation": "/audio/9b/9b665f32a238190a3bfa0097b62a4596932b9696.mp3"
+        }
+      },
+      {
+        "id": 53,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「māo」对应的汉字是？（词：小猫）",
+        "options": [
+          "虫",
+          "身",
+          "猫",
+          "蓝"
+        ],
+        "answer": "猫",
+        "explanation": "「māo」写作「猫」，例如「小猫」。",
+        "audio": {
+          "question": "/audio/53/53da4d654ba5e35c41c7e0e690313b7da6b54c7a.mp3",
+          "options": [
+            "/audio/pinyin/chong2.mp3",
+            "/audio/pinyin/shen1.mp3",
+            "/audio/pinyin/mao1.mp3",
+            "/audio/pinyin/lan2.mp3"
+          ],
+          "explanation": "/audio/70/70cacdbdb2cd43537cef3589816717a160303753.mp3"
+        }
+      },
+      {
+        "id": 54,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「tù」对应的汉字是？（词：兔子）",
+        "options": [
+          "羊",
+          "弟",
+          "兔",
+          "爷"
+        ],
+        "answer": "兔",
+        "explanation": "「tù」写作「兔」，例如「兔子」。",
+        "audio": {
+          "question": "/audio/f5/f522ee50693fba91aaf963d2b52afe41b2143aa4.mp3",
+          "options": [
+            "/audio/pinyin/yang2.mp3",
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/tu4.mp3",
+            "/audio/pinyin/ye2.mp3"
+          ],
+          "explanation": "/audio/e7/e7ed69ea11fb0027e417316a49bce842890c0f9c.mp3"
+        }
+      },
+      {
+        "id": 55,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「xīn」对应的汉字是？（词：开心）",
+        "options": [
+          "米",
+          "绿",
+          "心",
+          "妹"
+        ],
+        "answer": "心",
+        "explanation": "「xīn」写作「心」，例如「开心」。",
+        "audio": {
+          "question": "/audio/49/499bf5a8305385a1312dc8b466877fb7db160534.mp3",
+          "options": [
+            "/audio/pinyin/mi3.mp3",
+            "/audio/pinyin/lv4.mp3",
+            "/audio/pinyin/xin1.mp3",
+            "/audio/pinyin/mei4.mp3"
+          ],
+          "explanation": "/audio/93/93aea644dcac5bd213bdc060e75c32cac0c6fb69.mp3"
+        }
+      },
+      {
+        "id": 56,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「tóu」对应的汉字是？（词：头发）",
+        "options": [
+          "头",
+          "心",
+          "蓝",
+          "黑"
+        ],
+        "answer": "头",
+        "explanation": "「tóu」写作「头」，例如「头发」。",
+        "audio": {
+          "question": "/audio/3f/3ffe51e6286de2ff4b362b671a516fdf7585ff0b.mp3",
+          "options": [
+            "/audio/pinyin/tou2.mp3",
+            "/audio/pinyin/xin1.mp3",
+            "/audio/pinyin/lan2.mp3",
+            "/audio/pinyin/hei1.mp3"
+          ],
+          "explanation": "/audio/ea/ea1a29a54441ee27e60f74959435a9f393151a37.mp3"
+        }
+      },
+      {
+        "id": 57,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「miàn」对应的汉字是？（词：面包）",
+        "options": [
+          "兔",
+          "面",
+          "少",
+          "哥"
+        ],
+        "answer": "面",
+        "explanation": "「miàn」写作「面」，例如「面包」。",
+        "audio": {
+          "question": "/audio/a9/a9ffc4d769306782d6cb2287c510997b4ce123c7.mp3",
+          "options": [
+            "/audio/pinyin/tu4.mp3",
+            "/audio/pinyin/mian4.mp3",
+            "/audio/pinyin/shao3.mp3",
+            "/audio/pinyin/ge1.mp3"
+          ],
+          "explanation": "/audio/5f/5f375aea4269ae7c6fcd8139524400879cbb77c0.mp3"
+        }
+      },
+      {
+        "id": 58,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「shēn」对应的汉字是？（词：身体）",
+        "options": [
+          "蓝",
+          "黄",
+          "面",
+          "身"
+        ],
+        "answer": "身",
+        "explanation": "「shēn」写作「身」，例如「身体」。",
+        "audio": {
+          "question": "/audio/be/be18d4d1160f4dd16bb425fc0afc172af6f3135c.mp3",
+          "options": [
+            "/audio/pinyin/lan2.mp3",
+            "/audio/pinyin/huang2.mp3",
+            "/audio/pinyin/mian4.mp3",
+            "/audio/pinyin/shen1.mp3"
+          ],
+          "explanation": "/audio/36/3628cb26cdfc40fcf37e8c61c63f3b3cca5b40ad.mp3"
+        }
+      },
+      {
+        "id": 59,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「mǐ」对应的汉字是？（词：大米）",
+        "options": [
+          "菜",
+          "米",
+          "狗",
+          "小"
+        ],
+        "answer": "米",
+        "explanation": "「mǐ」写作「米」，例如「大米」。",
+        "audio": {
+          "question": "/audio/4e/4ef297f56ad08369db92a08c6f853a3fccb7b6f0.mp3",
+          "options": [
+            "/audio/pinyin/cai4.mp3",
+            "/audio/pinyin/mi3.mp3",
+            "/audio/pinyin/gou3.mp3",
+            "/audio/pinyin/xiao3.mp3"
+          ],
+          "explanation": "/audio/d8/d80cfb467dc83df7a46502e7c38a79ebfbfb6332.mp3"
+        }
+      },
+      {
+        "id": 60,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「fàn」对应的汉字是？（词：米饭）",
+        "options": [
+          "身",
+          "饭",
+          "虫",
+          "果"
+        ],
+        "answer": "饭",
+        "explanation": "「fàn」写作「饭」，例如「米饭」。",
+        "audio": {
+          "question": "/audio/cd/cde5697b91984f4decffeb6b76bec90dceacd150.mp3",
+          "options": [
+            "/audio/pinyin/shen1.mp3",
+            "/audio/pinyin/fan4.mp3",
+            "/audio/pinyin/chong2.mp3",
+            "/audio/pinyin/guo3.mp3"
+          ],
+          "explanation": "/audio/4e/4e598adf2a484167c6e9b9906d0bc174192edfff.mp3"
+        }
+      },
+      {
+        "id": 61,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「cài」对应的汉字是？（词：青菜）",
+        "options": [
+          "大",
+          "菜",
+          "多",
+          "猫"
+        ],
+        "answer": "菜",
+        "explanation": "「cài」写作「菜」，例如「青菜」。",
+        "audio": {
+          "question": "/audio/2e/2eb613be038946e2767460d810a3aec5b305ae74.mp3",
+          "options": [
+            "/audio/pinyin/da4.mp3",
+            "/audio/pinyin/cai4.mp3",
+            "/audio/pinyin/duo1.mp3",
+            "/audio/pinyin/mao1.mp3"
+          ],
+          "explanation": "/audio/6e/6e1c204f3edba0186192988b21ea2e62b5540660.mp3"
+        }
+      },
+      {
+        "id": 62,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「guǒ」对应的汉字是？（词：水果）",
+        "options": [
+          "果",
+          "奶",
+          "黄",
+          "饭"
+        ],
+        "answer": "果",
+        "explanation": "「guǒ」写作「果」，例如「水果」。",
+        "audio": {
+          "question": "/audio/e5/e529293ef6c90a636aa6d57cec1dc90af57c544f.mp3",
+          "options": [
+            "/audio/pinyin/guo3.mp3",
+            "/audio/pinyin/nai3.mp3",
+            "/audio/pinyin/huang2.mp3",
+            "/audio/pinyin/fan4.mp3"
+          ],
+          "explanation": "/audio/4f/4f5f673187a0f0fff4c09aad199378ecacc4a0e5.mp3"
+        }
+      },
+      {
+        "id": 63,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「bái」对应的汉字是？（词：白云）",
+        "options": [
+          "虫",
+          "妈",
+          "白",
+          "猫"
+        ],
+        "answer": "白",
+        "explanation": "「bái」写作「白」，例如「白云」。",
+        "audio": {
+          "question": "/audio/12/12e4c2398c5b12337b323271973110ab17b830ed.mp3",
+          "options": [
+            "/audio/pinyin/chong2.mp3",
+            "/audio/pinyin/ma1.mp3",
+            "/audio/pinyin/bai2.mp3",
+            "/audio/pinyin/mao1.mp3"
+          ],
+          "explanation": "/audio/cc/ccf9f250aea1b83910d861f5ac5f3d1de5f9c206.mp3"
+        }
+      },
+      {
+        "id": 64,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「hēi」对应的汉字是？（词：黑色）",
+        "options": [
+          "黑",
+          "狗",
+          "猫",
+          "小"
+        ],
+        "answer": "黑",
+        "explanation": "「hēi」写作「黑」，例如「黑色」。",
+        "audio": {
+          "question": "/audio/a2/a2fd848a01e4865ca8aebbc2068bd698da943c11.mp3",
+          "options": [
+            "/audio/pinyin/hei1.mp3",
+            "/audio/pinyin/gou3.mp3",
+            "/audio/pinyin/mao1.mp3",
+            "/audio/pinyin/xiao3.mp3"
+          ],
+          "explanation": "/audio/bc/bc8e20e51cc051376159eea41fb75641e4980827.mp3"
+        }
+      },
+      {
+        "id": 65,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「hóng」对应的汉字是？（词：红花）",
+        "options": [
+          "绿",
+          "红",
+          "身",
+          "多"
+        ],
+        "answer": "红",
+        "explanation": "「hóng」写作「红」，例如「红花」。",
+        "audio": {
+          "question": "/audio/6b/6bd770b8acdadcf1c5abb4bc123cc5fc9e3fb431.mp3",
+          "options": [
+            "/audio/pinyin/lv4.mp3",
+            "/audio/pinyin/hong2.mp3",
+            "/audio/pinyin/shen1.mp3",
+            "/audio/pinyin/duo1.mp3"
+          ],
+          "explanation": "/audio/a0/a0f5f183304fa62c914e493163b85033552e5765.mp3"
+        }
+      },
+      {
+        "id": 66,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「huáng」对应的汉字是？（词：黄河）",
+        "options": [
+          "虫",
+          "面",
+          "黄",
+          "兔"
+        ],
+        "answer": "黄",
+        "explanation": "「huáng」写作「黄」，例如「黄河」。",
+        "audio": {
+          "question": "/audio/d7/d7e179ca0447541e1d458042753e3044c8e6fc08.mp3",
+          "options": [
+            "/audio/pinyin/chong2.mp3",
+            "/audio/pinyin/mian4.mp3",
+            "/audio/pinyin/huang2.mp3",
+            "/audio/pinyin/tu4.mp3"
+          ],
+          "explanation": "/audio/d3/d35853289dd8e2fe589122401b8b18ef066600c0.mp3"
+        }
+      },
+      {
+        "id": 67,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「lán」对应的汉字是？（词：蓝天）",
+        "options": [
+          "果",
+          "蓝",
+          "少",
+          "米"
+        ],
+        "answer": "蓝",
+        "explanation": "「lán」写作「蓝」，例如「蓝天」。",
+        "audio": {
+          "question": "/audio/d3/d32767d5808d317ac56a260749f71d77a206f771.mp3",
+          "options": [
+            "/audio/pinyin/guo3.mp3",
+            "/audio/pinyin/lan2.mp3",
+            "/audio/pinyin/shao3.mp3",
+            "/audio/pinyin/mi3.mp3"
+          ],
+          "explanation": "/audio/a9/a94354fea04736bb0ee0bc36d9c2ee95e1e7dc3b.mp3"
+        }
+      },
+      {
+        "id": 68,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「lǜ」对应的汉字是？（词：绿草）",
+        "options": [
+          "米",
+          "狗",
+          "绿",
+          "少"
+        ],
+        "answer": "绿",
+        "explanation": "「lǜ」写作「绿」，例如「绿草」。",
+        "audio": {
+          "question": "/audio/ca/ca6b649b47a4cda284c2546719e741379b7fa716.mp3",
+          "options": [
+            "/audio/pinyin/mi3.mp3",
+            "/audio/pinyin/gou3.mp3",
+            "/audio/pinyin/lv4.mp3",
+            "/audio/pinyin/shao3.mp3"
+          ],
+          "explanation": "/audio/c3/c391da3b30d5a801082b2fa19ad9f0ddda0a2f1d.mp3"
+        }
+      },
+      {
+        "id": 69,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「爷」的拼音（词：爷爷）",
+        "options": [],
+        "answer": "yé",
+        "explanation": "「爷」的拼音是 yé。",
+        "audio": {
+          "question": "/audio/75/75b94aeb5ca5be9c2c51ee2df8b198b638ec24e2.mp3",
+          "explanation": "/audio/3a/3a6272a372616a65efe7ed2892c9fb51b8477a37.mp3"
+        }
+      },
+      {
+        "id": 70,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「小」的拼音（词：小鸟）",
+        "options": [],
+        "answer": "xiǎo",
+        "explanation": "「小」的拼音是 xiǎo。",
+        "audio": {
+          "question": "/audio/40/408e683dc1bc2767e5744d24d408ba8bd05bf2ef.mp3",
+          "explanation": "/audio/0d/0d11aec1f9e4d94b46f73ae977a6f92921434859.mp3"
+        }
+      },
+      {
+        "id": 71,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「少」的拼音（词：很少）",
+        "options": [],
+        "answer": "shǎo",
+        "explanation": "「少」的拼音是 shǎo。",
+        "audio": {
+          "question": "/audio/c6/c6415ea1ed5f684217e0594d552fd1774a3195b2.mp3",
+          "explanation": "/audio/52/527ffbb2503ec86976999335bdbc2da0126fe5dd.mp3"
+        }
+      },
+      {
+        "id": 72,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「果」的拼音（词：水果）",
+        "options": [],
+        "answer": "guǒ",
+        "explanation": "「果」的拼音是 guǒ。",
+        "audio": {
+          "question": "/audio/c4/c41b2571b056239b8f8f39cf8c4382f91beb82d4.mp3",
+          "explanation": "/audio/08/0868e5c1ab97f9611aab49613f6c4592dbeb123c.mp3"
+        }
+      },
+      {
+        "id": 73,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「心」的拼音（词：开心）",
+        "options": [],
+        "answer": "xīn",
+        "explanation": "「心」的拼音是 xīn。",
+        "audio": {
+          "question": "/audio/52/527766d86dd10c7785ed8105e2e6e031fc21630e.mp3",
+          "explanation": "/audio/26/266216042b5b2aa4f801f90b06d465003f014289.mp3"
+        }
+      },
+      {
+        "id": 74,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「妹」的拼音（词：妹妹）",
+        "options": [],
+        "answer": "mèi",
+        "explanation": "「妹」的拼音是 mèi。",
+        "audio": {
+          "question": "/audio/41/417f60952e9f7e5f11d5ee38add73cd5e54c4867.mp3",
+          "explanation": "/audio/2a/2ae1d47dde177deb11da2f19e3875a4ff1135229.mp3"
+        }
+      },
+      {
+        "id": 75,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「身」的拼音（词：身体）",
+        "options": [],
+        "answer": "shēn",
+        "explanation": "「身」的拼音是 shēn。",
+        "audio": {
+          "question": "/audio/c5/c540dc56d73ed3fed2b8e944a86e5db115a47720.mp3",
+          "explanation": "/audio/ee/eea5885e76528ea203e38a07db7c4d35654f3287.mp3"
+        }
+      },
+      {
+        "id": 76,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「兔」的拼音（词：兔子）",
+        "options": [],
+        "answer": "tù",
+        "explanation": "「兔」的拼音是 tù。",
+        "audio": {
+          "question": "/audio/e7/e705c05899e389a2160854976767b9c1d3dd4b4e.mp3",
+          "explanation": "/audio/c0/c0945df0f10a9d12f3d05472da3cf83ad638eeba.mp3"
+        }
+      },
+      {
+        "id": 77,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「鸟」的拼音（词：飞鸟）",
+        "options": [],
+        "answer": "niǎo",
+        "explanation": "「鸟」的拼音是 niǎo。",
+        "audio": {
+          "question": "/audio/5f/5fbbc2172ced5d4ca598b577c1d42745341f0f13.mp3",
+          "explanation": "/audio/85/85856a542159a98976de947967f42486663ffd50.mp3"
+        }
+      },
+      {
+        "id": 78,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「菜」的拼音（词：青菜）",
+        "options": [],
+        "answer": "cài",
+        "explanation": "「菜」的拼音是 cài。",
+        "audio": {
+          "question": "/audio/90/909b5bb04866a7346aa1379d945c5ed5d98c3e6c.mp3",
+          "explanation": "/audio/d3/d31ba771397c2fa4b710c0f2a023e1d8fcea0869.mp3"
+        }
+      },
+      {
+        "id": 79,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「多」的拼音（词：多少）",
+        "options": [],
+        "answer": "duō",
+        "explanation": "「多」的拼音是 duō。",
+        "audio": {
+          "question": "/audio/f6/f648f5869e579e3535121f9c4eb32d259ca60080.mp3",
+          "explanation": "/audio/e1/e173d14f075c6166429ef95e3485c71ebcc9d600.mp3"
+        }
+      },
+      {
+        "id": 80,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「虫」的拼音（词：毛虫）",
+        "options": [],
+        "answer": "chóng",
+        "explanation": "「虫」的拼音是 chóng。",
+        "audio": {
+          "question": "/audio/69/6947a4bc27511e9dac6c702fb6586dcdb99afa32.mp3",
+          "explanation": "/audio/e6/e6714ddd09a3f6f9fcc45dbf8a87d23646934703.mp3"
+        }
+      },
+      {
+        "id": 81,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「蓝」的拼音（词：蓝天）",
+        "options": [],
+        "answer": "lán",
+        "explanation": "「蓝」的拼音是 lán。",
+        "audio": {
+          "question": "/audio/5b/5b0b41c19f6c652736a96b42fa02b1899f6ae840.mp3",
+          "explanation": "/audio/28/288cc8af74ef37fb04ab516325fcdc3f9154d866.mp3"
+        }
+      },
+      {
+        "id": 82,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「绿」的拼音（词：绿草）",
+        "options": [],
+        "answer": "lǜ",
+        "explanation": "「绿」的拼音是 lǜ。",
+        "audio": {
+          "question": "/audio/1d/1dd57f307cde4cc56cf22bb0ad496b573cec7ed5.mp3",
+          "explanation": "/audio/a6/a6e4a93111b972398e0f88f9ce8a4b204ae29a1f.mp3"
+        }
+      },
+      {
+        "id": 83,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「奶」的拼音（词：奶奶）",
+        "options": [],
+        "answer": "nǎi",
+        "explanation": "「奶」的拼音是 nǎi。",
+        "audio": {
+          "question": "/audio/1d/1da9f08334a83e2a9c8980dd071a9c9cce256e27.mp3",
+          "explanation": "/audio/7a/7a6dfdb02339bbf8f4d14ee09642c4a2bb84e2e2.mp3"
+        }
+      },
+      {
+        "id": 84,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「大」的拼音（词：大人）",
+        "options": [],
+        "answer": "dà",
+        "explanation": "「大」的拼音是 dà。",
+        "audio": {
+          "question": "/audio/40/405a540d5ab998c11226ead5b926864e3e48f579.mp3",
+          "explanation": "/audio/07/07d5da64fb6deefbc5495c1a6a69dadbdb4c736f.mp3"
+        }
+      },
+      {
+        "id": 85,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「狗」的拼音（词：小狗）",
+        "options": [],
+        "answer": "gǒu",
+        "explanation": "「狗」的拼音是 gǒu。",
+        "audio": {
+          "question": "/audio/86/8684a8087e041af08c7a1f91caa28750a5eb46b9.mp3",
+          "explanation": "/audio/48/486a168631628229d0ecc75f2002d41b21b78b14.mp3"
+        }
+      },
+      {
+        "id": 86,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「猫」的拼音（词：小猫）",
+        "options": [],
+        "answer": "māo",
+        "explanation": "「猫」的拼音是 māo。",
+        "audio": {
+          "question": "/audio/cc/cc27d43086a4dd659fe50b4f6acf7c7208b90bb9.mp3",
+          "explanation": "/audio/31/313e55cbde07982d270e8f701accda14333cb0f2.mp3"
+        }
+      },
+      {
+        "id": 87,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「guǒ」对应的汉字（词：水果）",
+        "options": [],
+        "answer": "果",
+        "explanation": "「guǒ」对应的汉字是「果」。",
+        "audio": {
+          "question": "/audio/03/0363cd33bef31f9340371bdb1255ee4e4f9ba332.mp3",
+          "explanation": "/audio/76/7652118f782ef938296892ff4e7318bdb43be669.mp3"
+        }
+      },
+      {
+        "id": 88,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「hóng」对应的汉字（词：红花）",
+        "options": [],
+        "answer": "红",
+        "explanation": "「hóng」对应的汉字是「红」。",
+        "audio": {
+          "question": "/audio/ca/ca482a423c161cd83808c4352db49c273bce3a97.mp3",
+          "explanation": "/audio/fe/feeca012a5e1061eedc95d5d9718262848d164a1.mp3"
+        }
+      },
+      {
+        "id": 89,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「dì」对应的汉字（词：弟弟）",
+        "options": [],
+        "answer": "弟",
+        "explanation": "「dì」对应的汉字是「弟」。",
+        "audio": {
+          "question": "/audio/cd/cd4049cf7556fcc621121ab196e4dbf49b93308b.mp3",
+          "explanation": "/audio/04/04be9f76d60285a419e819744535cde512a5e2f5.mp3"
+        }
+      },
+      {
+        "id": 90,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「miàn」对应的汉字（词：面包）",
+        "options": [],
+        "answer": "面",
+        "explanation": "「miàn」对应的汉字是「面」。",
+        "audio": {
+          "question": "/audio/48/487b3ca0bd5ee451afa8d4ed118d51116873a34a.mp3",
+          "explanation": "/audio/76/76f99a73fb70996a94575a75c68a2d5c554a697e.mp3"
+        }
+      },
+      {
+        "id": 91,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「mā」对应的汉字（词：妈妈）",
+        "options": [],
+        "answer": "妈",
+        "explanation": "「mā」对应的汉字是「妈」。",
+        "audio": {
+          "question": "/audio/88/882af19597a4416d65c57acfcc835a026c41aa59.mp3",
+          "explanation": "/audio/fc/fceea8a4a4fb8149ce9c9ce1d91d1d0b42627f9c.mp3"
+        }
+      },
+      {
+        "id": 92,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「xīn」对应的汉字（词：开心）",
+        "options": [],
+        "answer": "心",
+        "explanation": "「xīn」对应的汉字是「心」。",
+        "audio": {
+          "question": "/audio/37/3771ebd37cfc060047d493717f2a6cc73567ec8d.mp3",
+          "explanation": "/audio/0b/0b8bb66ebd455a20ca174b36d726c8151edc4785.mp3"
+        }
+      },
+      {
+        "id": 93,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「mǐ」对应的汉字（词：大米）",
+        "options": [],
+        "answer": "米",
+        "explanation": "「mǐ」对应的汉字是「米」。",
+        "audio": {
+          "question": "/audio/2a/2a02211c671b2666645c804160eb6383e6fc428c.mp3",
+          "explanation": "/audio/8e/8efd34d040872902408b0ee2962f9375a293482e.mp3"
+        }
+      },
+      {
+        "id": 94,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「duō」对应的汉字（词：多少）",
+        "options": [],
+        "answer": "多",
+        "explanation": "「duō」对应的汉字是「多」。",
+        "audio": {
+          "question": "/audio/87/870d04dff064d462f206494bbe01e174e7eb293d.mp3",
+          "explanation": "/audio/1a/1ae602ee875f56328beb16d2b2dbd36ee94a1d16.mp3"
+        }
+      },
+      {
+        "id": 95,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「tù」对应的汉字（词：兔子）",
+        "options": [],
+        "answer": "兔",
+        "explanation": "「tù」对应的汉字是「兔」。",
+        "audio": {
+          "question": "/audio/38/38e647d267d7ca4eb25e98d0b17d2043904bd5b2.mp3",
+          "explanation": "/audio/78/78fd3d3440b47ff51b36646a9324bc28703028f7.mp3"
+        }
+      },
+      {
+        "id": 96,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「chóng」对应的汉字（词：毛虫）",
+        "options": [],
+        "answer": "虫",
+        "explanation": "「chóng」对应的汉字是「虫」。",
+        "audio": {
+          "question": "/audio/10/1042a50ebe97f6748b92d57d96d9bebfd3baf018.mp3",
+          "explanation": "/audio/47/479f75024faf761bb6cd223a16992f3f09614449.mp3"
+        }
+      },
+      {
+        "id": 97,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「jiě」对应的汉字（词：姐姐）",
+        "options": [],
+        "answer": "姐",
+        "explanation": "「jiě」对应的汉字是「姐」。",
+        "audio": {
+          "question": "/audio/dd/ddfb9f76e1337d371cea6b7f06f8c25e042c37f5.mp3",
+          "explanation": "/audio/cb/cb046b4feb30f5e999d487204764e8d4da75a862.mp3"
+        }
+      },
+      {
+        "id": 98,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「bà」对应的汉字（词：爸爸）",
+        "options": [],
+        "answer": "爸",
+        "explanation": "「bà」对应的汉字是「爸」。",
+        "audio": {
+          "question": "/audio/e1/e19a390ce3fc6a9e92782b9174b844189d21e26a.mp3",
+          "explanation": "/audio/24/2479acf042d684af831632bbdf1a68bffc2bd574.mp3"
+        }
+      },
+      {
+        "id": 99,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「hēi」对应的汉字（词：黑色）",
+        "options": [],
+        "answer": "黑",
+        "explanation": "「hēi」对应的汉字是「黑」。",
+        "audio": {
+          "question": "/audio/8e/8ef164b4df1f4d1934ed89600da4419f95a5de28.mp3",
+          "explanation": "/audio/03/03e75e0e1abe610e06904abbbafee9c235ccf80d.mp3"
+        }
+      },
+      {
+        "id": 100,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「yé」对应的汉字（词：爷爷）",
+        "options": [],
+        "answer": "爷",
+        "explanation": "「yé」对应的汉字是「爷」。",
+        "audio": {
+          "question": "/audio/83/8312a944fb3bdb6cf23588f42495b111f2f6d89f.mp3",
+          "explanation": "/audio/25/257d74b164e660d884bd79339f9c3c16d73c18e1.mp3"
+        }
+      },
+      {
+        "id": 101,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「yáng」对应的汉字（词：山羊）",
+        "options": [],
+        "answer": "羊",
+        "explanation": "「yáng」对应的汉字是「羊」。",
+        "audio": {
+          "question": "/audio/03/034554f1c50e4ecf6a84b0927a8152c00c675280.mp3",
+          "explanation": "/audio/3b/3b89bb8ef245f0e5db6cb5ab7b872e27f70fe79d.mp3"
+        }
+      },
+      {
+        "id": 102,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「fàn」对应的汉字（词：米饭）",
+        "options": [],
+        "answer": "饭",
+        "explanation": "「fàn」对应的汉字是「饭」。",
+        "audio": {
+          "question": "/audio/b5/b55d174985450646d866d3c7ab1d8881ae2b314a.mp3",
+          "explanation": "/audio/0e/0ecd8b80f0249e8b9e0fe94f7d45f631e0ef09d1.mp3"
+        }
+      },
+      {
+        "id": 103,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「gǒu」对应的汉字（词：小狗）",
+        "options": [],
+        "answer": "狗",
+        "explanation": "「gǒu」对应的汉字是「狗」。",
+        "audio": {
+          "question": "/audio/d3/d32de838634f22434eea72e509a6f70703b55c1f.mp3",
+          "explanation": "/audio/93/93e7bf79dc042cb0a81d267afcbac5f72681b8ca.mp3"
+        }
+      },
+      {
+        "id": 104,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「gē」对应的汉字（词：哥哥）",
+        "options": [],
+        "answer": "哥",
+        "explanation": "「gē」对应的汉字是「哥」。",
+        "audio": {
+          "question": "/audio/93/93765ee48a7116993783378e700aaf92ceb42323.mp3",
+          "explanation": "/audio/5e/5e41b578a4857081317561eb39ca2503e1396cad.mp3"
+        }
+      },
+      {
+        "id": 105,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「面」读作 miàn。（词：面包）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「面」的读音是 miàn。",
+        "audio": {
+          "question": "/audio/36/3699fb5683684711ce16b7c73aa18dd264617092.mp3",
+          "explanation": "/audio/19/19be9925d4d9e99c6e852a392051e670c1a02e65.mp3"
+        }
+      },
+      {
+        "id": 106,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「白」读作 bà。（词：白云）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「白」应读 bái，不是 bà。",
+        "audio": {
+          "question": "/audio/7f/7f2a7a6a891de9c59e75c7156d590428ded7a5d5.mp3",
+          "explanation": "/audio/14/14c71272fd1a2441c6056d9ebd0bf3a0efa2e6d9.mp3"
+        }
+      },
+      {
+        "id": 107,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「奶」读作 nǎi。（词：奶奶）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「奶」的读音是 nǎi。",
+        "audio": {
+          "question": "/audio/bd/bda8966e3cf5bca68ae1f4ef62365bbd28220604.mp3",
+          "explanation": "/audio/51/5166fa4d490a70b72fcf96f6ba3148833971750a.mp3"
+        }
+      },
+      {
+        "id": 108,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「饭」读作 gǒu。（词：米饭）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「饭」应读 fàn，不是 gǒu。",
+        "audio": {
+          "question": "/audio/ef/eff24029925a5a8b8fd7c8d93e9556bd96959958.mp3",
+          "explanation": "/audio/c0/c0b910a240f4cac0a249aa10f4331532f9bd26d7.mp3"
+        }
+      },
+      {
+        "id": 109,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「少」读作 shǎo。（词：很少）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「少」的读音是 shǎo。",
+        "audio": {
+          "question": "/audio/9d/9dd1443691b73ccd8253d76f9367d9e912bcd672.mp3",
+          "explanation": "/audio/49/4922651f965d149f27b0a8f1c2e29719c8ac32f0.mp3"
+        }
+      },
+      {
+        "id": 110,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「菜」读作 chóng。（词：青菜）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「菜」应读 cài，不是 chóng。",
+        "audio": {
+          "question": "/audio/65/654004505815b1b36b4047d702ae983655e3d0f2.mp3",
+          "explanation": "/audio/cb/cb4a7844e386f11e63c64b9124fd5660765c10a1.mp3"
+        }
+      },
+      {
+        "id": 111,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「哥」读作 gē。（词：哥哥）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「哥」的读音是 gē。",
+        "audio": {
+          "question": "/audio/b3/b359cb70a09c57f58fb57acff374f1e10d34699a.mp3",
+          "explanation": "/audio/56/56f24a28bedf0ebc56524d9c65d300ddceed1c4f.mp3"
+        }
+      },
+      {
+        "id": 112,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「蓝」读作 lǜ。（词：蓝天）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「蓝」应读 lán，不是 lǜ。",
+        "audio": {
+          "question": "/audio/49/492ba19a110c181d2a93fda18e16c04a2bf629fc.mp3",
+          "explanation": "/audio/e4/e4cceb19b981da54d350a5a68a30dc469b8d3ce3.mp3"
+        }
+      },
+      {
+        "id": 113,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「米」读作 mǐ。（词：大米）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「米」的读音是 mǐ。",
+        "audio": {
+          "question": "/audio/4b/4b937b4af1137744c949c61073650d6527f749d0.mp3",
+          "explanation": "/audio/67/67f3c852a2abb7959346652bba395f095b7bd792.mp3"
+        }
+      },
+      {
+        "id": 114,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「虫」读作 cài。（词：毛虫）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「虫」应读 chóng，不是 cài。",
+        "audio": {
+          "question": "/audio/de/debab282f9c6f1e71ba59d591e9e6bbde29cf3f3.mp3",
+          "explanation": "/audio/bc/bc96761975f85dffe08ecf81577ce4da9d8d28a8.mp3"
+        }
+      },
+      {
+        "id": 115,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「猫」读作 māo。（词：小猫）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「猫」的读音是 māo。",
+        "audio": {
+          "question": "/audio/20/205ed5147a09ae1d29442aa4b78b5ae0a9b27414.mp3",
+          "explanation": "/audio/9f/9f9cf79fbf6a72f196346d5ec42b0fdd752d2f29.mp3"
+        }
+      },
+      {
+        "id": 116,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「心」读作 xiǎo。（词：开心）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「心」应读 xīn，不是 xiǎo。",
+        "audio": {
+          "question": "/audio/fe/fe4401d65629e4be7227a988dd7b270362a34093.mp3",
+          "explanation": "/audio/d5/d5e90de34e82f2025a3ec62d312369b3daea8600.mp3"
+        }
+      },
+      {
+        "id": 117,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「爸」读作 bà。（词：爸爸）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「爸」的读音是 bà。",
+        "audio": {
+          "question": "/audio/bb/bb6266e36ccfbdeba984da723b2a1611eef720f0.mp3",
+          "explanation": "/audio/8f/8fdd5768657de866c3fb4429ee92a84654e116d7.mp3"
+        }
+      },
+      {
+        "id": 118,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「妹」读作 māo。（词：妹妹）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「妹」应读 mèi，不是 māo。",
+        "audio": {
+          "question": "/audio/fb/fb9e1a5943eb5ec624099b543fad5dbb06399af0.mp3",
+          "explanation": "/audio/3c/3c974cc793cfb57ee18ae78e2ca7e7f26616c154.mp3"
+        }
+      },
+      {
+        "id": 119,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「身」读作 shēn。（词：身体）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「身」的读音是 shēn。",
+        "audio": {
+          "question": "/audio/e5/e599d5bddd182ed7d8d9df059b27cccc36f1823f.mp3",
+          "explanation": "/audio/88/8882dcd5433fd3874300419198dd2c6466786c67.mp3"
+        }
+      },
+      {
+        "id": 120,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「黄」读作 hóng。（词：黄河）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「黄」应读 huáng，不是 hóng。",
+        "audio": {
+          "question": "/audio/35/35c23b1003dd14b18b9f43ce7478101c0c0f38c4.mp3",
+          "explanation": "/audio/5d/5d5e3afbdcf868784346372c0dd84a43ff4a8d40.mp3"
+        }
+      }
+    ]
+  },
+  "exam": {
+    "title": "第2单元「识字（二）· 家庭与身体」综合挑战",
+    "total_score": 100,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "id": 2,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「妈」的正确读音是？（提示词：妈妈）",
+        "options": [
+          "gē",
+          "yé",
+          "dì",
+          "mā"
+        ],
+        "answer": "mā",
+        "explanation": "「妈」读作 mā，可以组词「妈妈」。",
+        "audio": {
+          "question": "/audio/f0/f0cb4a0d1b29afc13e40b13ac3636bd1504b3df7.mp3",
+          "options": [
+            "/audio/pinyin/ge1.mp3",
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/ma1.mp3"
+          ],
+          "explanation": "/audio/e9/e9f9ab76f720f1be400e52b6a12aa90d36971e7f.mp3"
+        }
+      },
+      {
+        "id": 20,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「兔」的正确读音是？（提示词：兔子）",
+        "options": [
+          "dì",
+          "tù",
+          "gē",
+          "jiě"
+        ],
+        "answer": "tù",
+        "explanation": "「兔」读作 tù，可以组词「兔子」。",
+        "audio": {
+          "question": "/audio/71/7150294a4ab95959b30205fd09f12e3ffc1e22df.mp3",
+          "options": [
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/tu4.mp3",
+            "/audio/pinyin/ge1.mp3",
+            "/audio/pinyin/jie3.mp3"
+          ],
+          "explanation": "/audio/6e/6e8463b62ed7670767af9eb2a70ff29242287206.mp3"
+        }
+      },
+      {
+        "id": 26,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「饭」的正确读音是？（提示词：米饭）",
+        "options": [
+          "yé",
+          "fàn",
+          "jiě",
+          "mèi"
+        ],
+        "answer": "fàn",
+        "explanation": "「饭」读作 fàn，可以组词「米饭」。",
+        "audio": {
+          "question": "/audio/02/0208de1ca146e7bae8358edcea441f2a8ee14e1e.mp3",
+          "options": [
+            "/audio/pinyin/ye2.mp3",
+            "/audio/pinyin/fan4.mp3",
+            "/audio/pinyin/jie3.mp3",
+            "/audio/pinyin/mei4.mp3"
+          ],
+          "explanation": "/audio/86/862557a6907c259609a545e0429a504f9995865f.mp3"
+        }
+      },
+      {
+        "id": 49,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「yáng」对应的汉字是？（词：山羊）",
+        "options": [
+          "大",
+          "羊",
+          "果",
+          "小"
+        ],
+        "answer": "羊",
+        "explanation": "「yáng」写作「羊」，例如「山羊」。",
+        "audio": {
+          "question": "/audio/f7/f7311057a86a4e367c05cf1799af5fce0c6a5333.mp3",
+          "options": [
+            "/audio/pinyin/da4.mp3",
+            "/audio/pinyin/yang2.mp3",
+            "/audio/pinyin/guo3.mp3",
+            "/audio/pinyin/xiao3.mp3"
+          ],
+          "explanation": "/audio/1f/1f3fc74f92e9a1fb4b85bc59a6d1c76679e46b97.mp3"
+        }
+      },
+      {
+        "id": 58,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「shēn」对应的汉字是？（词：身体）",
+        "options": [
+          "蓝",
+          "黄",
+          "面",
+          "身"
+        ],
+        "answer": "身",
+        "explanation": "「shēn」写作「身」，例如「身体」。",
+        "audio": {
+          "question": "/audio/be/be18d4d1160f4dd16bb425fc0afc172af6f3135c.mp3",
+          "options": [
+            "/audio/pinyin/lan2.mp3",
+            "/audio/pinyin/huang2.mp3",
+            "/audio/pinyin/mian4.mp3",
+            "/audio/pinyin/shen1.mp3"
+          ],
+          "explanation": "/audio/36/3628cb26cdfc40fcf37e8c61c63f3b3cca5b40ad.mp3"
+        }
+      },
+      {
+        "id": 46,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「duō」对应的汉字是？（词：多少）",
+        "options": [
+          "狗",
+          "弟",
+          "果",
+          "多"
+        ],
+        "answer": "多",
+        "explanation": "「duō」写作「多」，例如「多少」。",
+        "audio": {
+          "question": "/audio/d0/d006f15b06488912f0b40d7e55d320afc56e4e41.mp3",
+          "options": [
+            "/audio/pinyin/gou3.mp3",
+            "/audio/pinyin/di4.mp3",
+            "/audio/pinyin/guo3.mp3",
+            "/audio/pinyin/duo1.mp3"
+          ],
+          "explanation": "/audio/73/731a79ea0af10ddc7351b473877a87c7ce4ee8d4.mp3"
+        }
+      },
+      {
+        "id": 73,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「心」的拼音（词：开心）",
+        "options": [],
+        "answer": "xīn",
+        "explanation": "「心」的拼音是 xīn。",
+        "audio": {
+          "question": "/audio/52/527766d86dd10c7785ed8105e2e6e031fc21630e.mp3",
+          "explanation": "/audio/26/266216042b5b2aa4f801f90b06d465003f014289.mp3"
+        }
+      },
+      {
+        "id": 77,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「鸟」的拼音（词：飞鸟）",
+        "options": [],
+        "answer": "niǎo",
+        "explanation": "「鸟」的拼音是 niǎo。",
+        "audio": {
+          "question": "/audio/5f/5fbbc2172ced5d4ca598b577c1d42745341f0f13.mp3",
+          "explanation": "/audio/85/85856a542159a98976de947967f42486663ffd50.mp3"
+        }
+      },
+      {
+        "id": 84,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「大」的拼音（词：大人）",
+        "options": [],
+        "answer": "dà",
+        "explanation": "「大」的拼音是 dà。",
+        "audio": {
+          "question": "/audio/40/405a540d5ab998c11226ead5b926864e3e48f579.mp3",
+          "explanation": "/audio/07/07d5da64fb6deefbc5495c1a6a69dadbdb4c736f.mp3"
+        }
+      },
+      {
+        "id": 103,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「gǒu」对应的汉字（词：小狗）",
+        "options": [],
+        "answer": "狗",
+        "explanation": "「gǒu」对应的汉字是「狗」。",
+        "audio": {
+          "question": "/audio/d3/d32de838634f22434eea72e509a6f70703b55c1f.mp3",
+          "explanation": "/audio/93/93e7bf79dc042cb0a81d267afcbac5f72681b8ca.mp3"
+        }
+      },
+      {
+        "id": 91,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「mā」对应的汉字（词：妈妈）",
+        "options": [],
+        "answer": "妈",
+        "explanation": "「mā」对应的汉字是「妈」。",
+        "audio": {
+          "question": "/audio/88/882af19597a4416d65c57acfcc835a026c41aa59.mp3",
+          "explanation": "/audio/fc/fceea8a4a4fb8149ce9c9ce1d91d1d0b42627f9c.mp3"
+        }
+      },
+      {
+        "id": 89,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「dì」对应的汉字（词：弟弟）",
+        "options": [],
+        "answer": "弟",
+        "explanation": "「dì」对应的汉字是「弟」。",
+        "audio": {
+          "question": "/audio/cd/cd4049cf7556fcc621121ab196e4dbf49b93308b.mp3",
+          "explanation": "/audio/04/04be9f76d60285a419e819744535cde512a5e2f5.mp3"
+        }
+      },
+      {
+        "id": 117,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「爸」读作 bà。（词：爸爸）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「爸」的读音是 bà。",
+        "audio": {
+          "question": "/audio/bb/bb6266e36ccfbdeba984da723b2a1611eef720f0.mp3",
+          "explanation": "/audio/8f/8fdd5768657de866c3fb4429ee92a84654e116d7.mp3"
+        }
+      },
+      {
+        "id": 108,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「饭」读作 gǒu。（词：米饭）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「饭」应读 fàn，不是 gǒu。",
+        "audio": {
+          "question": "/audio/ef/eff24029925a5a8b8fd7c8d93e9556bd96959958.mp3",
+          "explanation": "/audio/c0/c0b910a240f4cac0a249aa10f4331532f9bd26d7.mp3"
+        }
+      },
+      {
+        "id": 105,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「面」读作 miàn。（词：面包）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「面」的读音是 miàn。",
+        "audio": {
+          "question": "/audio/36/3699fb5683684711ce16b7c73aa18dd264617092.mp3",
+          "explanation": "/audio/19/19be9925d4d9e99c6e852a392051e670c1a02e65.mp3"
+        }
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "看字认拼音",
+      "core_concept": "掌握本单元 34 个生字的正确读音。",
+      "key_formula": "看字 → 想读音 → 对选项",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「识字（二）· 家庭与身体」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "看拼音认字",
+      "core_concept": "建立拼音到字形的稳定映射。",
+      "key_formula": "拼读 → 想字形 → 对选项",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「识字（二）· 家庭与身体」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "拼音填空",
+      "core_concept": "巩固声母、韵母与声调的书写。",
+      "key_formula": "字 → 声母 + 韵母 + 声调",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「识字（二）· 家庭与身体」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "汉字填空",
+      "core_concept": "在语境提示下从拼音还原字形。",
+      "key_formula": "拼音 → 词义线索 → 写字",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「识字（二）· 家庭与身体」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "读音判断",
+      "core_concept": "辨析易错读音与形近字读音。",
+      "key_formula": "对照标准读音，判断对/错",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「识字（二）· 家庭与身体」生字表，再做练习；错题进错题本复习。"
+    }
+  ]
+}

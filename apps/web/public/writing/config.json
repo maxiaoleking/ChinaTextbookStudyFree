@@ -1,0 +1,18 @@
+{
+  "traceThreshold": 0.7,
+  "wholeThresholds": [
+    {
+      "maxStrokes": 4,
+      "threshold": 0.62
+    },
+    {
+      "maxStrokes": 8,
+      "threshold": 0.56
+    },
+    {
+      "maxStrokes": 99,
+      "threshold": 0.5
+    }
+  ],
+  "glyphBox": 1024
+}

@@ -94,3 +94,17 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
 
   return <MotionConfig reducedMotion="user">{children}</MotionConfig>;
 }
+
+/**
+ * 当前是否处于深色。判定规则与上面 ThemeProvider 挂 .theme-dark 的规则一致，
+ * 供「需要按深浅改内联样式」的组件复用（内联样式压过 .theme-dark 的重映射，
+ * 只能从 JS 侧知道当前深浅）。改规则时两处一起看。
+ */
+export function useIsDark(): boolean {
+  const themeId = useProgressStore(s => s.equippedTheme);
+  const mode = useThemeMode();
+  const systemDark = useSystemPrefersDark();
+  const equipped = getCosmeticById(themeId) as UiTheme | undefined;
+  const cosmeticDark = equipped?.type === "ui_theme" && !!equipped.data.isDark;
+  return cosmeticDark || mode === "dark" || (mode !== "light" && systemDark);
+}

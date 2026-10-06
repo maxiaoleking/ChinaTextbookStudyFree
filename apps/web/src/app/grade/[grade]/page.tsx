@@ -44,12 +44,33 @@ const THEMES: Record<SubjectId, SubjectTheme> = {
     glyph: "语",
     tagline: "识字认词 · 阅读写作",
   },
+  renzi: {
+    id: "renzi",
+    bg: "#CE82FF",       // beetle
+    shadow: "#9B4FD8",
+    glyph: "字",
+    tagline: "认字识形 · 拼音过关",
+  },
+  writing: {
+    id: "writing",
+    bg: "#235390",       // humpback（墨蓝）
+    shadow: "#17375F",
+    glyph: "写",
+    tagline: "笔顺描红 · 田字格写一写",
+  },
   english: {
     id: "english",
     bg: "#1CB0F6",       // macaw
     shadow: "#1899D6",   // whale
     glyph: "A",
     tagline: "听说读写 · 启蒙英语",
+  },
+  ela: {
+    id: "ela",
+    bg: "#FF9600",       // fox
+    shadow: "#D97F00",
+    glyph: "Aa",
+    tagline: "自然拼读 · 高频词 · 阅读理解",
   },
   science: {
     id: "science",
@@ -60,7 +81,7 @@ const THEMES: Record<SubjectId, SubjectTheme> = {
   },
 };
 
-const SUBJECT_ORDER: SubjectId[] = ["math", "chinese", "english", "science"];
+const SUBJECT_ORDER: SubjectId[] = ["math", "chinese", "renzi", "writing", "english", "ela", "science"];
 
 export default async function GradePage({ params }: { params: Promise<{ grade: string }> }) {
   const { grade } = await params;

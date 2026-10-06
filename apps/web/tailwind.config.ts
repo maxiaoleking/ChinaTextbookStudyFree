@@ -100,6 +100,11 @@ const config: Config = {
           DEFAULT: DUO.cardinal,  // #FF4B4B
           dark: DUO.fire,         // #EA2B2B ← 修正
         },
+        purple: {
+          DEFAULT: DUO.beetle,    // #CE82FF 认字科目
+          dark: "#9B4FD8",
+          light: "#E8C5FF",
+        },
         warning: DUO.bee,         // #FFC800
         gold: DUO.bee,            // #FFC800 ← 统一到 Bee，消除重复
         ink: {

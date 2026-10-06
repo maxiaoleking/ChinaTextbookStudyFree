@@ -1,0 +1,3487 @@
+{
+  "textbook": "统编版小学认字二年级上册",
+  "unit": "第二单元 · 识字儿歌",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第2单元「第二单元 · 识字儿歌」认字与拼音练习",
+    "total_score": 100,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「帆」的正确读音是？（提示词：帆船）",
+        "options": [
+          "cuì",
+          "yuán",
+          "fān",
+          "jiàn"
+        ],
+        "answer": "fān",
+        "explanation": "「帆」读作 fān，可以组词「帆船」。",
+        "audio": {
+          "question": "/audio/fa/fae818fe53e390d5119bde6ef50485f238693880.mp3",
+          "options": [
+            "/audio/pinyin/cui4.mp3",
+            "/audio/pinyin/yuan2.mp3",
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/jian4.mp3"
+          ],
+          "explanation": "/audio/78/78a89d29af43d43637281052e4baf6871c5396c5.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「艘」的正确读音是？（提示词：一艘）",
+        "options": [
+          "dào",
+          "sōu",
+          "jūn",
+          "jiàn"
+        ],
+        "answer": "sōu",
+        "explanation": "「艘」读作 sōu，可以组词「一艘」。",
+        "audio": {
+          "question": "/audio/94/9404bb5e6d47d6919a7a74ad2df4009c6ee1137d.mp3",
+          "options": [
+            "/audio/pinyin/dao4.mp3",
+            "/audio/pinyin/sou1.mp3",
+            "/audio/pinyin/jun1.mp3",
+            "/audio/pinyin/jian4.mp3"
+          ],
+          "explanation": "/audio/68/687de596f8333605ad5e083b58196741903116f1.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「军」的正确读音是？（提示词：军队）",
+        "options": [
+          "yuán",
+          "jūn",
+          "dào",
+          "sōu"
+        ],
+        "answer": "jūn",
+        "explanation": "「军」读作 jūn，可以组词「军队」。",
+        "audio": {
+          "question": "/audio/93/93961d9d5198659d521dd6fde4a19df1566861c8.mp3",
+          "options": [
+            "/audio/pinyin/yuan2.mp3",
+            "/audio/pinyin/jun1.mp3",
+            "/audio/pinyin/dao4.mp3",
+            "/audio/pinyin/sou1.mp3"
+          ],
+          "explanation": "/audio/0b/0b68467997561bccd29c3d357726cacef44ed448.mp3"
+        }
+      },
+      {
+        "id": 4,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「舰」的正确读音是？（提示词：军舰）",
+        "options": [
+          "cuì",
+          "jiàn",
+          "yuán",
+          "fān"
+        ],
+        "answer": "jiàn",
+        "explanation": "「舰」读作 jiàn，可以组词「军舰」。",
+        "audio": {
+          "question": "/audio/75/7566c4cd24e8f1ea0622f7ba7f3dc671149230a6.mp3",
+          "options": [
+            "/audio/pinyin/cui4.mp3",
+            "/audio/pinyin/jian4.mp3",
+            "/audio/pinyin/yuan2.mp3",
+            "/audio/pinyin/fan1.mp3"
+          ],
+          "explanation": "/audio/08/08506ae547b678e6f4f70500f71952e4333f1210.mp3"
+        }
+      },
+      {
+        "id": 5,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「稻」的正确读音是？（提示词：水稻）",
+        "options": [
+          "hào",
+          "dào",
+          "cuì",
+          "dài"
+        ],
+        "answer": "dào",
+        "explanation": "「稻」读作 dào，可以组词「水稻」。",
+        "audio": {
+          "question": "/audio/4c/4cc334e70957ec439bf5c713d2506928d17fd84b.mp3",
+          "options": [
+            "/audio/pinyin/hao4.mp3",
+            "/audio/pinyin/dao4.mp3",
+            "/audio/pinyin/cui4.mp3",
+            "/audio/pinyin/dai4.mp3"
+          ],
+          "explanation": "/audio/67/6743dfbfa3d4a925e9088734aee66cf9ad4d18b8.mp3"
+        }
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「园」的正确读音是？（提示词：公园）",
+        "options": [
+          "dào",
+          "jūn",
+          "yuán",
+          "jiàn"
+        ],
+        "answer": "yuán",
+        "explanation": "「园」读作 yuán，可以组词「公园」。",
+        "audio": {
+          "question": "/audio/08/0812708e407a043976c638bdbc5373128cdb1c45.mp3",
+          "options": [
+            "/audio/pinyin/dao4.mp3",
+            "/audio/pinyin/jun1.mp3",
+            "/audio/pinyin/yuan2.mp3",
+            "/audio/pinyin/jian4.mp3"
+          ],
+          "explanation": "/audio/a4/a4e8b19cf3b3abcd7702c555f7ea2efbaa46485f.mp3"
+        }
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「翠」的正确读音是？（提示词：翠绿）",
+        "options": [
+          "yuán",
+          "fān",
+          "cuì",
+          "hào"
+        ],
+        "answer": "cuì",
+        "explanation": "「翠」读作 cuì，可以组词「翠绿」。",
+        "audio": {
+          "question": "/audio/85/852335bb4946f2bf8ac1835e0e3b0eeb7ae43775.mp3",
+          "options": [
+            "/audio/pinyin/yuan2.mp3",
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/cui4.mp3",
+            "/audio/pinyin/hao4.mp3"
+          ],
+          "explanation": "/audio/59/59cae6b71daaa782c780a9988b1da596a22aee1d.mp3"
+        }
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「铜」的正确读音是？（提示词：铜号）",
+        "options": [
+          "yuán",
+          "dào",
+          "hào",
+          "tóng"
+        ],
+        "answer": "tóng",
+        "explanation": "「铜」读作 tóng，可以组词「铜号」。",
+        "audio": {
+          "question": "/audio/37/375581f7546b76ea473106fc0bc10d4128c9fff8.mp3",
+          "options": [
+            "/audio/pinyin/yuan2.mp3",
+            "/audio/pinyin/dao4.mp3",
+            "/audio/pinyin/hao4.mp3",
+            "/audio/pinyin/tong2.mp3"
+          ],
+          "explanation": "/audio/b7/b75e25856fb3747045c0bf85257378219695be9f.mp3"
+        }
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「号」的正确读音是？（提示词：口号）",
+        "options": [
+          "hào",
+          "fān",
+          "tóng",
+          "sōu"
+        ],
+        "answer": "hào",
+        "explanation": "「号」读作 hào，可以组词「口号」。",
+        "audio": {
+          "question": "/audio/aa/aacc3da2cd8fa044e14490e50c54d95434a6b778.mp3",
+          "options": [
+            "/audio/pinyin/hao4.mp3",
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/sou1.mp3"
+          ],
+          "explanation": "/audio/51/51752d9a602220f2c4942204e8d312a29fb6a6ba.mp3"
+        }
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「领」的正确读音是？（提示词：带领）",
+        "options": [
+          "fān",
+          "liù",
+          "sōu",
+          "lǐng"
+        ],
+        "answer": "lǐng",
+        "explanation": "「领」读作 lǐng，可以组词「带领」。",
+        "audio": {
+          "question": "/audio/ad/ad4df7ebbadda613b62ef7eed96ace636d876713.mp3",
+          "options": [
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/liu4.mp3",
+            "/audio/pinyin/sou1.mp3",
+            "/audio/pinyin/ling3.mp3"
+          ],
+          "explanation": "/audio/65/6585d62e5a15b18fd099cb7d268d47550316f38d.mp3"
+        }
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「梧」的正确读音是？（提示词：梧桐）",
+        "options": [
+          "fān",
+          "dào",
+          "wú",
+          "jūn"
+        ],
+        "answer": "wú",
+        "explanation": "「梧」读作 wú，可以组词「梧桐」。",
+        "audio": {
+          "question": "/audio/30/300d59dda108ba047c8f5bbe4aad4dac2023e9f2.mp3",
+          "options": [
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/dao4.mp3",
+            "/audio/pinyin/wu2.mp3",
+            "/audio/pinyin/jun1.mp3"
+          ],
+          "explanation": "/audio/3a/3ab51e36d6c95a8fd37fb0bff4cafe035e89ddb1.mp3"
+        }
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「桐」的正确读音是？（提示词：梧桐）",
+        "options": [
+          "hào",
+          "yuán",
+          "sōu",
+          "tóng"
+        ],
+        "answer": "tóng",
+        "explanation": "「桐」读作 tóng，可以组词「梧桐」。",
+        "audio": {
+          "question": "/audio/0a/0a429b55795c6de8ea0a8d53428152875f17af8e.mp3",
+          "options": [
+            "/audio/pinyin/hao4.mp3",
+            "/audio/pinyin/yuan2.mp3",
+            "/audio/pinyin/sou1.mp3",
+            "/audio/pinyin/tong2.mp3"
+          ],
+          "explanation": "/audio/c0/c09e67e51d5f87d5a4c45f0e2f17ba1fd6d1d1fc.mp3"
+        }
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「掌」的正确读音是？（提示词：手掌）",
+        "options": [
+          "zhǎng",
+          "sōu",
+          "fān",
+          "jūn"
+        ],
+        "answer": "zhǎng",
+        "explanation": "「掌」读作 zhǎng，可以组词「手掌」。",
+        "audio": {
+          "question": "/audio/75/75ee17f8ccc3e95a12e7bb287a19a9760e000cb9.mp3",
+          "options": [
+            "/audio/pinyin/zhang3.mp3",
+            "/audio/pinyin/sou1.mp3",
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/jun1.mp3"
+          ],
+          "explanation": "/audio/0b/0b8105fc8d650f1c150c70d1a3fc9cf47b6554d2.mp3"
+        }
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「枫」的正确读音是？（提示词：枫叶）",
+        "options": [
+          "tóng",
+          "jūn",
+          "fēng",
+          "yuán"
+        ],
+        "answer": "fēng",
+        "explanation": "「枫」读作 fēng，可以组词「枫叶」。",
+        "audio": {
+          "question": "/audio/32/327a5418947144cec2255722ab019b8ec49cb8f5.mp3",
+          "options": [
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/jun1.mp3",
+            "/audio/pinyin/feng1.mp3",
+            "/audio/pinyin/yuan2.mp3"
+          ],
+          "explanation": "/audio/d0/d0c5298543e2cef0096ae7bc7487ea82e3ed7e42.mp3"
+        }
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「松」的正确读音是？（提示词：松树）",
+        "options": [
+          "tóng",
+          "yuán",
+          "sōu",
+          "sōng"
+        ],
+        "answer": "sōng",
+        "explanation": "「松」读作 sōng，可以组词「松树」。",
+        "audio": {
+          "question": "/audio/2e/2e3f8b79326e57aa248c829ee00cc775d4b8f036.mp3",
+          "options": [
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/yuan2.mp3",
+            "/audio/pinyin/sou1.mp3",
+            "/audio/pinyin/song1.mp3"
+          ],
+          "explanation": "/audio/dc/dcb01a19067e2cfc8a1fbc7387ef0519f6cba58c.mp3"
+        }
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「柏」的正确读音是？（提示词：柏树）",
+        "options": [
+          "bǎi",
+          "tóng",
+          "jūn",
+          "cuì"
+        ],
+        "answer": "bǎi",
+        "explanation": "「柏」读作 bǎi，可以组词「柏树」。",
+        "audio": {
+          "question": "/audio/7e/7eae0a9516d3561b1fa3e19862865bebe8d94fb3.mp3",
+          "options": [
+            "/audio/pinyin/bai3.mp3",
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/jun1.mp3",
+            "/audio/pinyin/cui4.mp3"
+          ],
+          "explanation": "/audio/cb/cb25b25af2791a312da68c60b30a7b5100f78dba.mp3"
+        }
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「装」的正确读音是？（提示词：服装）",
+        "options": [
+          "tóng",
+          "zhǎng",
+          "zhuāng",
+          "yuán"
+        ],
+        "answer": "zhuāng",
+        "explanation": "「装」读作 zhuāng，可以组词「服装」。",
+        "audio": {
+          "question": "/audio/a8/a8e4501ab810e55ef1a5a82883da32548fe2a7d7.mp3",
+          "options": [
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/zhang3.mp3",
+            "/audio/pinyin/zhuang1.mp3",
+            "/audio/pinyin/yuan2.mp3"
+          ],
+          "explanation": "/audio/76/76f848a2c0e67728ead540bcfe6c8ffb36308683.mp3"
+        }
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「桦」的正确读音是？（提示词：白桦）",
+        "options": [
+          "tóng",
+          "cuì",
+          "huà",
+          "jiàn"
+        ],
+        "answer": "huà",
+        "explanation": "「桦」读作 huà，可以组词「白桦」。",
+        "audio": {
+          "question": "/audio/8c/8c623e1ddf6cdcdd0aa27245132f82b3a9905c43.mp3",
+          "options": [
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/cui4.mp3",
+            "/audio/pinyin/hua4.mp3",
+            "/audio/pinyin/jian4.mp3"
+          ],
+          "explanation": "/audio/09/09fcaedfc9137888877e588952c31eeff357e5d5.mp3"
+        }
+      },
+      {
+        "id": 19,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「耐」的正确读音是？（提示词：耐心）",
+        "options": [
+          "dào",
+          "fān",
+          "nài",
+          "nóng"
+        ],
+        "answer": "nài",
+        "explanation": "「耐」读作 nài，可以组词「耐心」。",
+        "audio": {
+          "question": "/audio/04/04266fc13086b71dc93cedaf69ae5dfffa30706f.mp3",
+          "options": [
+            "/audio/pinyin/dao4.mp3",
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/nai4.mp3",
+            "/audio/pinyin/nong2.mp3"
+          ],
+          "explanation": "/audio/a6/a631221269f1d5750aa9ee816da4de0bf0a1a44d.mp3"
+        }
+      },
+      {
+        "id": 20,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「守」的正确读音是？（提示词：守卫）",
+        "options": [
+          "sōu",
+          "tóng",
+          "sōu",
+          "shǒu"
+        ],
+        "answer": "shǒu",
+        "explanation": "「守」读作 shǒu，可以组词「守卫」。",
+        "audio": {
+          "question": "/audio/a4/a404dc99864f576e1bf88685475a9bbe850f4b7b.mp3",
+          "options": [
+            "/audio/pinyin/sou1.mp3",
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/sou1.mp3",
+            "/audio/pinyin/shou3.mp3"
+          ],
+          "explanation": "/audio/0a/0ac1948a42cfa544f8dd4367dbad21590f51b5a3.mp3"
+        }
+      },
+      {
+        "id": 21,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「疆」的正确读音是？（提示词：边疆）",
+        "options": [
+          "jiāng",
+          "fān",
+          "sōu",
+          "cuì"
+        ],
+        "answer": "jiāng",
+        "explanation": "「疆」读作 jiāng，可以组词「边疆」。",
+        "audio": {
+          "question": "/audio/9f/9f15bf5a0fd1fb1efadf2ae103a1320d88179f7d.mp3",
+          "options": [
+            "/audio/pinyin/jiang1.mp3",
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/sou1.mp3",
+            "/audio/pinyin/cui4.mp3"
+          ],
+          "explanation": "/audio/87/876ad26211d4af80dd26bb0f1d5b15ec0457da86.mp3"
+        }
+      },
+      {
+        "id": 22,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「银」的正确读音是？（提示词：银色）",
+        "options": [
+          "yín",
+          "tóng",
+          "sōu",
+          "fān"
+        ],
+        "answer": "yín",
+        "explanation": "「银」读作 yín，可以组词「银色」。",
+        "audio": {
+          "question": "/audio/3f/3fca1eca9948ff861a81ec37388015f5994fc343.mp3",
+          "options": [
+            "/audio/pinyin/yin2.mp3",
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/sou1.mp3",
+            "/audio/pinyin/fan1.mp3"
+          ],
+          "explanation": "/audio/5e/5ec7a0e87a090dcd51efc551ff4788f699ef4a3e.mp3"
+        }
+      },
+      {
+        "id": 23,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「杉」的正确读音是？（提示词：杉树）",
+        "options": [
+          "dào",
+          "shān",
+          "tóng",
+          "jiàn"
+        ],
+        "answer": "shān",
+        "explanation": "「杉」读作 shān，可以组词「杉树」。",
+        "audio": {
+          "question": "/audio/0c/0c02cd5d33e937c8b42333933edb39872d90aed4.mp3",
+          "options": [
+            "/audio/pinyin/dao4.mp3",
+            "/audio/pinyin/shan1.mp3",
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/jian4.mp3"
+          ],
+          "explanation": "/audio/94/941428e85d6256bce9cc176f5c9a66052c991c78.mp3"
+        }
+      },
+      {
+        "id": 24,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「化」的正确读音是？（提示词：变化）",
+        "options": [
+          "cuì",
+          "jiàn",
+          "dào",
+          "huà"
+        ],
+        "answer": "huà",
+        "explanation": "「化」读作 huà，可以组词「变化」。",
+        "audio": {
+          "question": "/audio/f5/f575296a2e539a803c2f20b7d6a9ce6d2da06f75.mp3",
+          "options": [
+            "/audio/pinyin/cui4.mp3",
+            "/audio/pinyin/jian4.mp3",
+            "/audio/pinyin/dao4.mp3",
+            "/audio/pinyin/hua4.mp3"
+          ],
+          "explanation": "/audio/0c/0cc4b288e44322ac5021c34c094f3486c3bc498b.mp3"
+        }
+      },
+      {
+        "id": 25,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「桂」的正确读音是？（提示词：桂花）",
+        "options": [
+          "guī",
+          "jiàn",
+          "guì",
+          "sōu"
+        ],
+        "answer": "guì",
+        "explanation": "「桂」读作 guì，可以组词「桂花」。",
+        "audio": {
+          "question": "/audio/8e/8ed8d6aea25b41f0ed4090d1cfd42bec6bdc4e96.mp3",
+          "options": [
+            "/audio/pinyin/gui1.mp3",
+            "/audio/pinyin/jian4.mp3",
+            "/audio/pinyin/gui4.mp3",
+            "/audio/pinyin/sou1.mp3"
+          ],
+          "explanation": "/audio/84/84cf5883aaea7290ff121e62caf05a665db86ef5.mp3"
+        }
+      },
+      {
+        "id": 26,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「歌」的正确读音是？（提示词：歌声）",
+        "options": [
+          "guī",
+          "gē",
+          "fān",
+          "dào"
+        ],
+        "answer": "gē",
+        "explanation": "「歌」读作 gē，可以组词「歌声」。",
+        "audio": {
+          "question": "/audio/74/74235d2c9af5c0bef253b1d8743d7d512f86cb26.mp3",
+          "options": [
+            "/audio/pinyin/gui1.mp3",
+            "/audio/pinyin/ge1.mp3",
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/dao4.mp3"
+          ],
+          "explanation": "/audio/f4/f4e5ea344be816cc243efeba5f23f041ddfe0dc1.mp3"
+        }
+      },
+      {
+        "id": 27,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「写」的正确读音是？（提示词：写字）",
+        "options": [
+          "xiě",
+          "yuán",
+          "xīn",
+          "fān"
+        ],
+        "answer": "xiě",
+        "explanation": "「写」读作 xiě，可以组词「写字」。",
+        "audio": {
+          "question": "/audio/94/94694a5a913f51fba0587ef7b7171115f30764a0.mp3",
+          "options": [
+            "/audio/pinyin/xie3.mp3",
+            "/audio/pinyin/yuan2.mp3",
+            "/audio/pinyin/xin1.mp3",
+            "/audio/pinyin/fan1.mp3"
+          ],
+          "explanation": "/audio/a8/a817a8b2c86cea77d6aa95bb0c2ebbb9793543c0.mp3"
+        }
+      },
+      {
+        "id": 28,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「丛」的正确读音是？（提示词：花丛）",
+        "options": [
+          "jiàn",
+          "cuì",
+          "dào",
+          "cóng"
+        ],
+        "answer": "cóng",
+        "explanation": "「丛」读作 cóng，可以组词「花丛」。",
+        "audio": {
+          "question": "/audio/ed/ede3a256d8edc85a76ea6052d23093123864ef7a.mp3",
+          "options": [
+            "/audio/pinyin/jian4.mp3",
+            "/audio/pinyin/cui4.mp3",
+            "/audio/pinyin/dao4.mp3",
+            "/audio/pinyin/cong2.mp3"
+          ],
+          "explanation": "/audio/61/6152d5f6058a8cba095be6d2af513556e84c1e05.mp3"
+        }
+      },
+      {
+        "id": 29,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「深」的正确读音是？（提示词：深浅）",
+        "options": [
+          "jiàn",
+          "yuán",
+          "shēn",
+          "tóng"
+        ],
+        "answer": "shēn",
+        "explanation": "「深」读作 shēn，可以组词「深浅」。",
+        "audio": {
+          "question": "/audio/89/89b4b50303f5a932b301dd3f54a75f4448aec33f.mp3",
+          "options": [
+            "/audio/pinyin/jian4.mp3",
+            "/audio/pinyin/yuan2.mp3",
+            "/audio/pinyin/shen1.mp3",
+            "/audio/pinyin/tong2.mp3"
+          ],
+          "explanation": "/audio/02/0200d60eb4bed9048b61d64d68f77b9751f6c647.mp3"
+        }
+      },
+      {
+        "id": 30,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「处」的正确读音是？（提示词：到处）",
+        "options": [
+          "chù",
+          "sōu",
+          "dào",
+          "chuī"
+        ],
+        "answer": "chù",
+        "explanation": "「处」读作 chù，可以组词「到处」。",
+        "audio": {
+          "question": "/audio/21/21575be2e2ac55cf5eb49833425c227ebac4104e.mp3",
+          "options": [
+            "/audio/pinyin/chu4.mp3",
+            "/audio/pinyin/sou1.mp3",
+            "/audio/pinyin/dao4.mp3",
+            "/audio/pinyin/chui1.mp3"
+          ],
+          "explanation": "/audio/90/9044c40bf0bf1825756bf49859a9f0e0a5646587.mp3"
+        }
+      },
+      {
+        "id": 31,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「六」的正确读音是？（提示词：六一）",
+        "options": [
+          "jiàn",
+          "dào",
+          "fān",
+          "liù"
+        ],
+        "answer": "liù",
+        "explanation": "「六」读作 liù，可以组词「六一」。",
+        "audio": {
+          "question": "/audio/20/20a4cb72cdc7213a6a518e4f28a935ded3814d11.mp3",
+          "options": [
+            "/audio/pinyin/jian4.mp3",
+            "/audio/pinyin/dao4.mp3",
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/liu4.mp3"
+          ],
+          "explanation": "/audio/ea/ea9161b58b6f5ef2ee26fa0250dc60ea938036cb.mp3"
+        }
+      },
+      {
+        "id": 32,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「熊」的正确读音是？（提示词：熊猫）",
+        "options": [
+          "xióng",
+          "yuán",
+          "xīn",
+          "jūn"
+        ],
+        "answer": "xióng",
+        "explanation": "「熊」读作 xióng，可以组词「熊猫」。",
+        "audio": {
+          "question": "/audio/ad/adcb892c2370d3c06e6a262ae311cbb24293b000.mp3",
+          "options": [
+            "/audio/pinyin/xiong2.mp3",
+            "/audio/pinyin/yuan2.mp3",
+            "/audio/pinyin/xin1.mp3",
+            "/audio/pinyin/jun1.mp3"
+          ],
+          "explanation": "/audio/97/97f0330eeba938dff2a6bd088ca238e84b5e5752.mp3"
+        }
+      },
+      {
+        "id": 33,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「猫」的正确读音是？（提示词：熊猫）",
+        "options": [
+          "māo",
+          "cuì",
+          "fān",
+          "jiàn"
+        ],
+        "answer": "māo",
+        "explanation": "「猫」读作 māo，可以组词「熊猫」。",
+        "audio": {
+          "question": "/audio/39/390c3deb8d01d2f7ef29bd6cc05e9bb6bbb7c81a.mp3",
+          "options": [
+            "/audio/pinyin/mao1.mp3",
+            "/audio/pinyin/cui4.mp3",
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/jian4.mp3"
+          ],
+          "explanation": "/audio/77/7744ae7e2336387dfb741e641ddaad5f9caa7400.mp3"
+        }
+      },
+      {
+        "id": 34,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「九」的正确读音是？（提示词：九月）",
+        "options": [
+          "jiǔ",
+          "cuì",
+          "yuán",
+          "fān"
+        ],
+        "answer": "jiǔ",
+        "explanation": "「九」读作 jiǔ，可以组词「九月」。",
+        "audio": {
+          "question": "/audio/f1/f10d101a5f9ae4b2a6e4ae5c0246cb601251bf0e.mp3",
+          "options": [
+            "/audio/pinyin/jiu3.mp3",
+            "/audio/pinyin/cui4.mp3",
+            "/audio/pinyin/yuan2.mp3",
+            "/audio/pinyin/fan1.mp3"
+          ],
+          "explanation": "/audio/4f/4f4b322255e45972e97a7e4c47637d3e5d4c6aa4.mp3"
+        }
+      },
+      {
+        "id": 35,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「朋」的正确读音是？（提示词：朋友）",
+        "options": [
+          "sōu",
+          "tóng",
+          "péng",
+          "yuán"
+        ],
+        "answer": "péng",
+        "explanation": "「朋」读作 péng，可以组词「朋友」。",
+        "audio": {
+          "question": "/audio/b5/b5e230a89ebab641ac9748912b507b1780855dec.mp3",
+          "options": [
+            "/audio/pinyin/sou1.mp3",
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/peng2.mp3",
+            "/audio/pinyin/yuan2.mp3"
+          ],
+          "explanation": "/audio/f1/f1e23a2af5df1f6c7d13a32849ea7fcfefff1b01.mp3"
+        }
+      },
+      {
+        "id": 36,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「友」的正确读音是？（提示词：朋友）",
+        "options": [
+          "cuì",
+          "jūn",
+          "sōu",
+          "yǒu"
+        ],
+        "answer": "yǒu",
+        "explanation": "「友」读作 yǒu，可以组词「朋友」。",
+        "audio": {
+          "question": "/audio/2d/2d1e307f96e3b383d7f4d01dc652f099139e2a0d.mp3",
+          "options": [
+            "/audio/pinyin/cui4.mp3",
+            "/audio/pinyin/jun1.mp3",
+            "/audio/pinyin/sou1.mp3",
+            "/audio/pinyin/you3.mp3"
+          ],
+          "explanation": "/audio/e1/e1dd9239c76e752499977c5976f6224a49db060e.mp3"
+        }
+      },
+      {
+        "id": 37,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「季」的正确读音是？（提示词：季节）",
+        "options": [
+          "jì",
+          "fān",
+          "cuì",
+          "sōu"
+        ],
+        "answer": "jì",
+        "explanation": "「季」读作 jì，可以组词「季节」。",
+        "audio": {
+          "question": "/audio/ad/ad2c330a8db18828f16f4a6d845fe8e69379294c.mp3",
+          "options": [
+            "/audio/pinyin/ji4.mp3",
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/cui4.mp3",
+            "/audio/pinyin/sou1.mp3"
+          ],
+          "explanation": "/audio/0d/0d8dae260939e2bf7163949ca24faf7f349274df.mp3"
+        }
+      },
+      {
+        "id": 38,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「吹」的正确读音是？（提示词：吹风）",
+        "options": [
+          "chuī",
+          "chù",
+          "jiàn",
+          "yuán"
+        ],
+        "answer": "chuī",
+        "explanation": "「吹」读作 chuī，可以组词「吹风」。",
+        "audio": {
+          "question": "/audio/54/5405a7e43c89e2fd657acdde46de66657e2d8769.mp3",
+          "options": [
+            "/audio/pinyin/chui1.mp3",
+            "/audio/pinyin/chu4.mp3",
+            "/audio/pinyin/jian4.mp3",
+            "/audio/pinyin/yuan2.mp3"
+          ],
+          "explanation": "/audio/56/563b809a3aa2355ded3edfad6f3d56630575985b.mp3"
+        }
+      },
+      {
+        "id": 39,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「肥」的正确读音是？（提示词：肥胖）",
+        "options": [
+          "cuì",
+          "tóng",
+          "sōu",
+          "féi"
+        ],
+        "answer": "féi",
+        "explanation": "「肥」读作 féi，可以组词「肥胖」。",
+        "audio": {
+          "question": "/audio/66/66a9b3f1cb858c8c068736c6c4813d0886ea48c8.mp3",
+          "options": [
+            "/audio/pinyin/cui4.mp3",
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/sou1.mp3",
+            "/audio/pinyin/fei2.mp3"
+          ],
+          "explanation": "/audio/4c/4cb1cfd8bb8e23b85fb0b2eee6253736139e752d.mp3"
+        }
+      },
+      {
+        "id": 40,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「农」的正确读音是？（提示词：农民）",
+        "options": [
+          "nài",
+          "yuán",
+          "jūn",
+          "nóng"
+        ],
+        "answer": "nóng",
+        "explanation": "「农」读作 nóng，可以组词「农民」。",
+        "audio": {
+          "question": "/audio/f6/f6aad8e20da1c63840d66b5a7d319ca4d15f97a8.mp3",
+          "options": [
+            "/audio/pinyin/nai4.mp3",
+            "/audio/pinyin/yuan2.mp3",
+            "/audio/pinyin/jun1.mp3",
+            "/audio/pinyin/nong2.mp3"
+          ],
+          "explanation": "/audio/90/9010810dd6c10bd8ae16009bac90f4ee9dc1a1e4.mp3"
+        }
+      },
+      {
+        "id": 41,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「忙」的正确读音是？（提示词：帮忙）",
+        "options": [
+          "jūn",
+          "jiàn",
+          "dào",
+          "máng"
+        ],
+        "answer": "máng",
+        "explanation": "「忙」读作 máng，可以组词「帮忙」。",
+        "audio": {
+          "question": "/audio/4c/4c1ce74c7998b5cb63266f08585adff191b955ba.mp3",
+          "options": [
+            "/audio/pinyin/jun1.mp3",
+            "/audio/pinyin/jian4.mp3",
+            "/audio/pinyin/dao4.mp3",
+            "/audio/pinyin/mang2.mp3"
+          ],
+          "explanation": "/audio/3d/3d7c95a0b0c52154945b2b7d3f232d149e9ac432.mp3"
+        }
+      },
+      {
+        "id": 42,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「归」的正确读音是？（提示词：归来）",
+        "options": [
+          "guī",
+          "sōu",
+          "cuì",
+          "guì"
+        ],
+        "answer": "guī",
+        "explanation": "「归」读作 guī，可以组词「归来」。",
+        "audio": {
+          "question": "/audio/bb/bbce30b7e0f81c4ff6d267870ee08677bafa0ef0.mp3",
+          "options": [
+            "/audio/pinyin/gui1.mp3",
+            "/audio/pinyin/sou1.mp3",
+            "/audio/pinyin/cui4.mp3",
+            "/audio/pinyin/gui4.mp3"
+          ],
+          "explanation": "/audio/b7/b74ff989ea4f271a4cbfdc335064b1f7a033f335.mp3"
+        }
+      },
+      {
+        "id": 43,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「戴」的正确读音是？（提示词：穿戴）",
+        "options": [
+          "dào",
+          "dài",
+          "fān",
+          "tóng"
+        ],
+        "answer": "dài",
+        "explanation": "「戴」读作 dài，可以组词「穿戴」。",
+        "audio": {
+          "question": "/audio/d0/d0638bfa1c8f5b51aa90419c9a05fd87f11c35c4.mp3",
+          "options": [
+            "/audio/pinyin/dao4.mp3",
+            "/audio/pinyin/dai4.mp3",
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/tong2.mp3"
+          ],
+          "explanation": "/audio/6e/6e8b26c160778609ff04799bea39e200fd395a61.mp3"
+        }
+      },
+      {
+        "id": 44,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「辛」的正确读音是？（提示词：辛苦）",
+        "options": [
+          "dào",
+          "tóng",
+          "xīn",
+          "yuán"
+        ],
+        "answer": "xīn",
+        "explanation": "「辛」读作 xīn，可以组词「辛苦」。",
+        "audio": {
+          "question": "/audio/b9/b9d216a83c482052891c807fa38835c33ed9fe85.mp3",
+          "options": [
+            "/audio/pinyin/dao4.mp3",
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/xin1.mp3",
+            "/audio/pinyin/yuan2.mp3"
+          ],
+          "explanation": "/audio/c0/c09577090b8204513dc8af3105d021e82d84ce7c.mp3"
+        }
+      },
+      {
+        "id": 45,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「苦」的正确读音是？（提示词：辛苦）",
+        "options": [
+          "fān",
+          "kǔ",
+          "jì",
+          "cuì"
+        ],
+        "answer": "kǔ",
+        "explanation": "「苦」读作 kǔ，可以组词「辛苦」。",
+        "audio": {
+          "question": "/audio/a3/a3d4fea40eb119fe2328031ff6eb5d4bb18d1279.mp3",
+          "options": [
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/ku3.mp3",
+            "/audio/pinyin/ji4.mp3",
+            "/audio/pinyin/cui4.mp3"
+          ],
+          "explanation": "/audio/b3/b30212dd327c22ce97e517b37c50be304606f9d1.mp3"
+        }
+      },
+      {
+        "id": 46,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「fān」对应的汉字是？（词：帆船）",
+        "options": [
+          "柏",
+          "帆",
+          "农",
+          "深"
+        ],
+        "answer": "帆",
+        "explanation": "「fān」写作「帆」，例如「帆船」。",
+        "audio": {
+          "question": "/audio/80/80e21dc0e0a0b8f5502dd9594e80101d660f9dfc.mp3",
+          "options": [
+            "/audio/pinyin/bai3.mp3",
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/nong2.mp3",
+            "/audio/pinyin/shen1.mp3"
+          ],
+          "explanation": "/audio/93/937fe1c4e8049f226449af8d06517432289678a1.mp3"
+        }
+      },
+      {
+        "id": 47,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「sōu」对应的汉字是？（词：一艘）",
+        "options": [
+          "桂",
+          "归",
+          "艘",
+          "翠"
+        ],
+        "answer": "艘",
+        "explanation": "「sōu」写作「艘」，例如「一艘」。",
+        "audio": {
+          "question": "/audio/19/19ccd9decfd01c2ad7947a492b2f80703853cc13.mp3",
+          "options": [
+            "/audio/pinyin/gui4.mp3",
+            "/audio/pinyin/gui1.mp3",
+            "/audio/pinyin/sou1.mp3",
+            "/audio/pinyin/cui4.mp3"
+          ],
+          "explanation": "/audio/66/667a380cf4ef1dd0f23a3798b577ac18cd4f457c.mp3"
+        }
+      },
+      {
+        "id": 48,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jūn」对应的汉字是？（词：军队）",
+        "options": [
+          "忙",
+          "艘",
+          "军",
+          "辛"
+        ],
+        "answer": "军",
+        "explanation": "「jūn」写作「军」，例如「军队」。",
+        "audio": {
+          "question": "/audio/f2/f2effec05200c7e86d9a38ab4eb13f9e16dbe9ef.mp3",
+          "options": [
+            "/audio/pinyin/mang2.mp3",
+            "/audio/pinyin/sou1.mp3",
+            "/audio/pinyin/jun1.mp3",
+            "/audio/pinyin/xin1.mp3"
+          ],
+          "explanation": "/audio/65/65a423e4a792222248ab06a74245df46cb338855.mp3"
+        }
+      },
+      {
+        "id": 49,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jiàn」对应的汉字是？（词：军舰）",
+        "options": [
+          "舰",
+          "丛",
+          "装",
+          "艘"
+        ],
+        "answer": "舰",
+        "explanation": "「jiàn」写作「舰」，例如「军舰」。",
+        "audio": {
+          "question": "/audio/76/76f165ad515025270fface1a8ddb5b4a32c89af4.mp3",
+          "options": [
+            "/audio/pinyin/jian4.mp3",
+            "/audio/pinyin/cong2.mp3",
+            "/audio/pinyin/zhuang1.mp3",
+            "/audio/pinyin/sou1.mp3"
+          ],
+          "explanation": "/audio/3d/3dbe262579bffc87edbf3d0b538b154de345e750.mp3"
+        }
+      },
+      {
+        "id": 50,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「dào」对应的汉字是？（词：水稻）",
+        "options": [
+          "苦",
+          "忙",
+          "稻",
+          "歌"
+        ],
+        "answer": "稻",
+        "explanation": "「dào」写作「稻」，例如「水稻」。",
+        "audio": {
+          "question": "/audio/c3/c33be1ab21f946e4cc01afd4b81d2fb3fb6b9e0e.mp3",
+          "options": [
+            "/audio/pinyin/ku3.mp3",
+            "/audio/pinyin/mang2.mp3",
+            "/audio/pinyin/dao4.mp3",
+            "/audio/pinyin/ge1.mp3"
+          ],
+          "explanation": "/audio/b2/b2edf7b2d7744c210f51d6ac45bba69c679f6aa9.mp3"
+        }
+      },
+      {
+        "id": 51,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「yuán」对应的汉字是？（词：公园）",
+        "options": [
+          "装",
+          "园",
+          "写",
+          "季"
+        ],
+        "answer": "园",
+        "explanation": "「yuán」写作「园」，例如「公园」。",
+        "audio": {
+          "question": "/audio/a6/a6b202dfc8156dd632424bc81f153a6f5c876b77.mp3",
+          "options": [
+            "/audio/pinyin/zhuang1.mp3",
+            "/audio/pinyin/yuan2.mp3",
+            "/audio/pinyin/xie3.mp3",
+            "/audio/pinyin/ji4.mp3"
+          ],
+          "explanation": "/audio/4a/4ab4daa5401c253369c5b800ba0ec4150f535d3d.mp3"
+        }
+      },
+      {
+        "id": 52,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「cuì」对应的汉字是？（词：翠绿）",
+        "options": [
+          "翠",
+          "杉",
+          "帆",
+          "银"
+        ],
+        "answer": "翠",
+        "explanation": "「cuì」写作「翠」，例如「翠绿」。",
+        "audio": {
+          "question": "/audio/f3/f3b9d6b6e0008702a713ca1b21d7f8c0bfa384cd.mp3",
+          "options": [
+            "/audio/pinyin/cui4.mp3",
+            "/audio/pinyin/shan1.mp3",
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/yin2.mp3"
+          ],
+          "explanation": "/audio/36/361f67ab4183b27d7459ad2348ae94d3be2d0bbc.mp3"
+        }
+      },
+      {
+        "id": 53,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「tóng」对应的汉字是？（词：铜号）",
+        "options": [
+          "猫",
+          "化",
+          "桐",
+          "铜"
+        ],
+        "answer": "铜",
+        "explanation": "「tóng」写作「铜」，例如「铜号」。",
+        "audio": {
+          "question": "/audio/dd/dd7094ee1a60d4b0beef58978a0aec875806fbcd.mp3",
+          "options": [
+            "/audio/pinyin/mao1.mp3",
+            "/audio/pinyin/hua4.mp3",
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/tong2.mp3"
+          ],
+          "explanation": "/audio/a3/a3f0be99935858a8194c770fc25599366252f677.mp3"
+        }
+      },
+      {
+        "id": 54,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「hào」对应的汉字是？（词：口号）",
+        "options": [
+          "号",
+          "桂",
+          "桦",
+          "梧"
+        ],
+        "answer": "号",
+        "explanation": "「hào」写作「号」，例如「口号」。",
+        "audio": {
+          "question": "/audio/eb/eb679bacff0dbc4e8e0f6e623afe320582443a37.mp3",
+          "options": [
+            "/audio/pinyin/hao4.mp3",
+            "/audio/pinyin/gui4.mp3",
+            "/audio/pinyin/hua4.mp3",
+            "/audio/pinyin/wu2.mp3"
+          ],
+          "explanation": "/audio/7c/7c1cb4f1fb9da909915ea41752e5649efa4fc55e.mp3"
+        }
+      },
+      {
+        "id": 55,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「lǐng」对应的汉字是？（词：带领）",
+        "options": [
+          "帆",
+          "装",
+          "领",
+          "桂"
+        ],
+        "answer": "领",
+        "explanation": "「lǐng」写作「领」，例如「带领」。",
+        "audio": {
+          "question": "/audio/3b/3bf4de060d00c4696b8faa8e91fb2024af842b84.mp3",
+          "options": [
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/zhuang1.mp3",
+            "/audio/pinyin/ling3.mp3",
+            "/audio/pinyin/gui4.mp3"
+          ],
+          "explanation": "/audio/53/532d1944fb1e69dd76e4ab52d340d4c49bf48975.mp3"
+        }
+      },
+      {
+        "id": 56,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「wú」对应的汉字是？（词：梧桐）",
+        "options": [
+          "猫",
+          "帆",
+          "梧",
+          "辛"
+        ],
+        "answer": "梧",
+        "explanation": "「wú」写作「梧」，例如「梧桐」。",
+        "audio": {
+          "question": "/audio/a9/a99a46fb2e39656e76cfa33217227ffd80235ede.mp3",
+          "options": [
+            "/audio/pinyin/mao1.mp3",
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/wu2.mp3",
+            "/audio/pinyin/xin1.mp3"
+          ],
+          "explanation": "/audio/a5/a57a2ba176583b97ca946b570c1423cf76af8ed7.mp3"
+        }
+      },
+      {
+        "id": 57,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「tóng」对应的汉字是？（词：梧桐）",
+        "options": [
+          "戴",
+          "六",
+          "丛",
+          "桐"
+        ],
+        "answer": "桐",
+        "explanation": "「tóng」写作「桐」，例如「梧桐」。",
+        "audio": {
+          "question": "/audio/16/1645d40a3c33913f51438ebdd1df38e7550eafd0.mp3",
+          "options": [
+            "/audio/pinyin/dai4.mp3",
+            "/audio/pinyin/liu4.mp3",
+            "/audio/pinyin/cong2.mp3",
+            "/audio/pinyin/tong2.mp3"
+          ],
+          "explanation": "/audio/43/431f5d1d6cbbc97967306d33a5d814cd539a3586.mp3"
+        }
+      },
+      {
+        "id": 58,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「zhǎng」对应的汉字是？（词：手掌）",
+        "options": [
+          "九",
+          "熊",
+          "深",
+          "掌"
+        ],
+        "answer": "掌",
+        "explanation": "「zhǎng」写作「掌」，例如「手掌」。",
+        "audio": {
+          "question": "/audio/d0/d0c5c08662dea6b86b692ab09e73f140ef41ce6e.mp3",
+          "options": [
+            "/audio/pinyin/jiu3.mp3",
+            "/audio/pinyin/xiong2.mp3",
+            "/audio/pinyin/shen1.mp3",
+            "/audio/pinyin/zhang3.mp3"
+          ],
+          "explanation": "/audio/1c/1c670dfba10f0b98073931ffe10f917063034251.mp3"
+        }
+      },
+      {
+        "id": 59,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「fēng」对应的汉字是？（词：枫叶）",
+        "options": [
+          "枫",
+          "柏",
+          "守",
+          "戴"
+        ],
+        "answer": "枫",
+        "explanation": "「fēng」写作「枫」，例如「枫叶」。",
+        "audio": {
+          "question": "/audio/32/32c3adc48defec7ae20ad408a9d7987ab25b0a9a.mp3",
+          "options": [
+            "/audio/pinyin/feng1.mp3",
+            "/audio/pinyin/bai3.mp3",
+            "/audio/pinyin/shou3.mp3",
+            "/audio/pinyin/dai4.mp3"
+          ],
+          "explanation": "/audio/30/3080c0bfc74c2d87e5b7fe8ad035d74762c859ec.mp3"
+        }
+      },
+      {
+        "id": 60,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「sōng」对应的汉字是？（词：松树）",
+        "options": [
+          "松",
+          "守",
+          "桂",
+          "肥"
+        ],
+        "answer": "松",
+        "explanation": "「sōng」写作「松」，例如「松树」。",
+        "audio": {
+          "question": "/audio/9a/9a57a8562a26efd5ebdc0ced2e0dd2ea3a46b6df.mp3",
+          "options": [
+            "/audio/pinyin/song1.mp3",
+            "/audio/pinyin/shou3.mp3",
+            "/audio/pinyin/gui4.mp3",
+            "/audio/pinyin/fei2.mp3"
+          ],
+          "explanation": "/audio/7e/7e2accf4c5613a2c1f9cdbd4f754e73a4f9d3a79.mp3"
+        }
+      },
+      {
+        "id": 61,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「bǎi」对应的汉字是？（词：柏树）",
+        "options": [
+          "九",
+          "园",
+          "柏",
+          "银"
+        ],
+        "answer": "柏",
+        "explanation": "「bǎi」写作「柏」，例如「柏树」。",
+        "audio": {
+          "question": "/audio/37/3793e6e14c0a99f8943e25abd295bc3b4334aec7.mp3",
+          "options": [
+            "/audio/pinyin/jiu3.mp3",
+            "/audio/pinyin/yuan2.mp3",
+            "/audio/pinyin/bai3.mp3",
+            "/audio/pinyin/yin2.mp3"
+          ],
+          "explanation": "/audio/17/176795201f7898c2bd801a57b1a6ed79af86ca5e.mp3"
+        }
+      },
+      {
+        "id": 62,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「zhuāng」对应的汉字是？（词：服装）",
+        "options": [
+          "装",
+          "艘",
+          "铜",
+          "稻"
+        ],
+        "answer": "装",
+        "explanation": "「zhuāng」写作「装」，例如「服装」。",
+        "audio": {
+          "question": "/audio/09/09ad4564c6d3dd45838eef5f4f3879ec1eb2d245.mp3",
+          "options": [
+            "/audio/pinyin/zhuang1.mp3",
+            "/audio/pinyin/sou1.mp3",
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/dao4.mp3"
+          ],
+          "explanation": "/audio/3c/3c222dbff6719b0294e6164cef460a727f713fad.mp3"
+        }
+      },
+      {
+        "id": 63,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「huà」对应的汉字是？（词：白桦）",
+        "options": [
+          "桦",
+          "归",
+          "梧",
+          "戴"
+        ],
+        "answer": "桦",
+        "explanation": "「huà」写作「桦」，例如「白桦」。",
+        "audio": {
+          "question": "/audio/df/df93f18faa85a0a5a8a93fd33e03923e142438a0.mp3",
+          "options": [
+            "/audio/pinyin/hua4.mp3",
+            "/audio/pinyin/gui1.mp3",
+            "/audio/pinyin/wu2.mp3",
+            "/audio/pinyin/dai4.mp3"
+          ],
+          "explanation": "/audio/80/8009a82af8801f2c6cd182c034d53f582a6a9f55.mp3"
+        }
+      },
+      {
+        "id": 64,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「nài」对应的汉字是？（词：耐心）",
+        "options": [
+          "猫",
+          "耐",
+          "杉",
+          "歌"
+        ],
+        "answer": "耐",
+        "explanation": "「nài」写作「耐」，例如「耐心」。",
+        "audio": {
+          "question": "/audio/1e/1e9a3d6b1b08abb9942e9c7e1284d2d573b128d2.mp3",
+          "options": [
+            "/audio/pinyin/mao1.mp3",
+            "/audio/pinyin/nai4.mp3",
+            "/audio/pinyin/shan1.mp3",
+            "/audio/pinyin/ge1.mp3"
+          ],
+          "explanation": "/audio/d3/d3aee68a433952209dd2442fd9665bfc179a5280.mp3"
+        }
+      },
+      {
+        "id": 65,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「shǒu」对应的汉字是？（词：守卫）",
+        "options": [
+          "肥",
+          "守",
+          "军",
+          "农"
+        ],
+        "answer": "守",
+        "explanation": "「shǒu」写作「守」，例如「守卫」。",
+        "audio": {
+          "question": "/audio/f5/f53c985ec749de15d27f808a534a783b2063a7bd.mp3",
+          "options": [
+            "/audio/pinyin/fei2.mp3",
+            "/audio/pinyin/shou3.mp3",
+            "/audio/pinyin/jun1.mp3",
+            "/audio/pinyin/nong2.mp3"
+          ],
+          "explanation": "/audio/68/6824bdb6756b1d7b733d89d3c284c48828a47003.mp3"
+        }
+      },
+      {
+        "id": 66,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jiāng」对应的汉字是？（词：边疆）",
+        "options": [
+          "丛",
+          "忙",
+          "银",
+          "疆"
+        ],
+        "answer": "疆",
+        "explanation": "「jiāng」写作「疆」，例如「边疆」。",
+        "audio": {
+          "question": "/audio/72/7223029d1454eaa599208724e87d8e9f4f61ee11.mp3",
+          "options": [
+            "/audio/pinyin/cong2.mp3",
+            "/audio/pinyin/mang2.mp3",
+            "/audio/pinyin/yin2.mp3",
+            "/audio/pinyin/jiang1.mp3"
+          ],
+          "explanation": "/audio/3f/3fa8f6ccef224af48113c879fa600bb6e17f17a0.mp3"
+        }
+      },
+      {
+        "id": 67,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「yín」对应的汉字是？（词：银色）",
+        "options": [
+          "桂",
+          "银",
+          "苦",
+          "掌"
+        ],
+        "answer": "银",
+        "explanation": "「yín」写作「银」，例如「银色」。",
+        "audio": {
+          "question": "/audio/8e/8e9d1ac279cb394405f0315c79422fed4f6ea1e8.mp3",
+          "options": [
+            "/audio/pinyin/gui4.mp3",
+            "/audio/pinyin/yin2.mp3",
+            "/audio/pinyin/ku3.mp3",
+            "/audio/pinyin/zhang3.mp3"
+          ],
+          "explanation": "/audio/9c/9c750f7a799fc378a2f907236f5bcbb63fcf896a.mp3"
+        }
+      },
+      {
+        "id": 68,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「shān」对应的汉字是？（词：杉树）",
+        "options": [
+          "桂",
+          "杉",
+          "苦",
+          "艘"
+        ],
+        "answer": "杉",
+        "explanation": "「shān」写作「杉」，例如「杉树」。",
+        "audio": {
+          "question": "/audio/17/17be4c8397f5efdc3e9a9e3549264771c3cba66c.mp3",
+          "options": [
+            "/audio/pinyin/gui4.mp3",
+            "/audio/pinyin/shan1.mp3",
+            "/audio/pinyin/ku3.mp3",
+            "/audio/pinyin/sou1.mp3"
+          ],
+          "explanation": "/audio/1d/1d373951747f3bb4edd82cb40b284bfddc5f77a9.mp3"
+        }
+      },
+      {
+        "id": 69,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「huà」对应的汉字是？（词：变化）",
+        "options": [
+          "友",
+          "化",
+          "掌",
+          "深"
+        ],
+        "answer": "化",
+        "explanation": "「huà」写作「化」，例如「变化」。",
+        "audio": {
+          "question": "/audio/a9/a9116a36472c352601566662fe30cab8e1fb69e0.mp3",
+          "options": [
+            "/audio/pinyin/you3.mp3",
+            "/audio/pinyin/hua4.mp3",
+            "/audio/pinyin/zhang3.mp3",
+            "/audio/pinyin/shen1.mp3"
+          ],
+          "explanation": "/audio/37/3793137a537cefd124524433574303facf02a24b.mp3"
+        }
+      },
+      {
+        "id": 70,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「guì」对应的汉字是？（词：桂花）",
+        "options": [
+          "掌",
+          "桂",
+          "友",
+          "松"
+        ],
+        "answer": "桂",
+        "explanation": "「guì」写作「桂」，例如「桂花」。",
+        "audio": {
+          "question": "/audio/17/175f1a517d8d44b5b08092eb807b4693fcede0a0.mp3",
+          "options": [
+            "/audio/pinyin/zhang3.mp3",
+            "/audio/pinyin/gui4.mp3",
+            "/audio/pinyin/you3.mp3",
+            "/audio/pinyin/song1.mp3"
+          ],
+          "explanation": "/audio/1c/1ca22aa0a23558d92a658944a64a974a45758df2.mp3"
+        }
+      },
+      {
+        "id": 71,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「gē」对应的汉字是？（词：歌声）",
+        "options": [
+          "领",
+          "歌",
+          "艘",
+          "丛"
+        ],
+        "answer": "歌",
+        "explanation": "「gē」写作「歌」，例如「歌声」。",
+        "audio": {
+          "question": "/audio/56/56917778ef9947cb40a024f9e29e251c8421d88a.mp3",
+          "options": [
+            "/audio/pinyin/ling3.mp3",
+            "/audio/pinyin/ge1.mp3",
+            "/audio/pinyin/sou1.mp3",
+            "/audio/pinyin/cong2.mp3"
+          ],
+          "explanation": "/audio/09/09f0e08e155f72ff9c429d48dc879eac293940c5.mp3"
+        }
+      },
+      {
+        "id": 72,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「xiě」对应的汉字是？（词：写字）",
+        "options": [
+          "写",
+          "处",
+          "松",
+          "九"
+        ],
+        "answer": "写",
+        "explanation": "「xiě」写作「写」，例如「写字」。",
+        "audio": {
+          "question": "/audio/cb/cb00c9f5e51e78c617cae2019f99c9bbb61d64db.mp3",
+          "options": [
+            "/audio/pinyin/xie3.mp3",
+            "/audio/pinyin/chu4.mp3",
+            "/audio/pinyin/song1.mp3",
+            "/audio/pinyin/jiu3.mp3"
+          ],
+          "explanation": "/audio/ff/ff14c5c5458413f89fd00722a1d404094892f49b.mp3"
+        }
+      },
+      {
+        "id": 73,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「cóng」对应的汉字是？（词：花丛）",
+        "options": [
+          "铜",
+          "吹",
+          "丛",
+          "肥"
+        ],
+        "answer": "丛",
+        "explanation": "「cóng」写作「丛」，例如「花丛」。",
+        "audio": {
+          "question": "/audio/2e/2e81e383f26ccf2fde3c4baa0acde9b26ed637d5.mp3",
+          "options": [
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/chui1.mp3",
+            "/audio/pinyin/cong2.mp3",
+            "/audio/pinyin/fei2.mp3"
+          ],
+          "explanation": "/audio/ee/eeb954c85120148ce4b4480302d39f4f4d462dfb.mp3"
+        }
+      },
+      {
+        "id": 74,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「shēn」对应的汉字是？（词：深浅）",
+        "options": [
+          "深",
+          "桐",
+          "苦",
+          "翠"
+        ],
+        "answer": "深",
+        "explanation": "「shēn」写作「深」，例如「深浅」。",
+        "audio": {
+          "question": "/audio/69/697510d56aea060c8e9a5cbcc2d1a478010c6b39.mp3",
+          "options": [
+            "/audio/pinyin/shen1.mp3",
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/ku3.mp3",
+            "/audio/pinyin/cui4.mp3"
+          ],
+          "explanation": "/audio/fd/fd215b14e53736b22259f8f25c527c52123725a8.mp3"
+        }
+      },
+      {
+        "id": 75,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「chù」对应的汉字是？（词：到处）",
+        "options": [
+          "归",
+          "杉",
+          "处",
+          "季"
+        ],
+        "answer": "处",
+        "explanation": "「chù」写作「处」，例如「到处」。",
+        "audio": {
+          "question": "/audio/91/91a95c2ba2d5ce79b9c9afa7250070d3610abc4e.mp3",
+          "options": [
+            "/audio/pinyin/gui1.mp3",
+            "/audio/pinyin/shan1.mp3",
+            "/audio/pinyin/chu4.mp3",
+            "/audio/pinyin/ji4.mp3"
+          ],
+          "explanation": "/audio/9d/9df122f717519f5878a3b4e224de2d7e4a515ded.mp3"
+        }
+      },
+      {
+        "id": 76,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「liù」对应的汉字是？（词：六一）",
+        "options": [
+          "忙",
+          "猫",
+          "装",
+          "六"
+        ],
+        "answer": "六",
+        "explanation": "「liù」写作「六」，例如「六一」。",
+        "audio": {
+          "question": "/audio/87/87808b39f0162130f4b4e7c8d168759b0d368873.mp3",
+          "options": [
+            "/audio/pinyin/mang2.mp3",
+            "/audio/pinyin/mao1.mp3",
+            "/audio/pinyin/zhuang1.mp3",
+            "/audio/pinyin/liu4.mp3"
+          ],
+          "explanation": "/audio/4f/4f6df6aec409d7babe9548f290b694d739261d76.mp3"
+        }
+      },
+      {
+        "id": 77,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「xióng」对应的汉字是？（词：熊猫）",
+        "options": [
+          "舰",
+          "熊",
+          "银",
+          "领"
+        ],
+        "answer": "熊",
+        "explanation": "「xióng」写作「熊」，例如「熊猫」。",
+        "audio": {
+          "question": "/audio/fd/fd3e30820d89028884b37757d80a52f0541ab802.mp3",
+          "options": [
+            "/audio/pinyin/jian4.mp3",
+            "/audio/pinyin/xiong2.mp3",
+            "/audio/pinyin/yin2.mp3",
+            "/audio/pinyin/ling3.mp3"
+          ],
+          "explanation": "/audio/0e/0e02891251d40e3903da80f363a6935d6c886ba1.mp3"
+        }
+      },
+      {
+        "id": 78,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「māo」对应的汉字是？（词：熊猫）",
+        "options": [
+          "领",
+          "桦",
+          "农",
+          "猫"
+        ],
+        "answer": "猫",
+        "explanation": "「māo」写作「猫」，例如「熊猫」。",
+        "audio": {
+          "question": "/audio/a1/a1d19f2868de13a3a387c5b77d05e17f0d3b602a.mp3",
+          "options": [
+            "/audio/pinyin/ling3.mp3",
+            "/audio/pinyin/hua4.mp3",
+            "/audio/pinyin/nong2.mp3",
+            "/audio/pinyin/mao1.mp3"
+          ],
+          "explanation": "/audio/4a/4a18c7f698f353e690d1a49ac56c31a1f65c209a.mp3"
+        }
+      },
+      {
+        "id": 79,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jiǔ」对应的汉字是？（词：九月）",
+        "options": [
+          "桂",
+          "忙",
+          "掌",
+          "九"
+        ],
+        "answer": "九",
+        "explanation": "「jiǔ」写作「九」，例如「九月」。",
+        "audio": {
+          "question": "/audio/37/3766d40acadfa03c3647dd77fe07433fdc91e0ad.mp3",
+          "options": [
+            "/audio/pinyin/gui4.mp3",
+            "/audio/pinyin/mang2.mp3",
+            "/audio/pinyin/zhang3.mp3",
+            "/audio/pinyin/jiu3.mp3"
+          ],
+          "explanation": "/audio/ea/ea0c3988637bbcd7daa7b97be76c580e263ffaf9.mp3"
+        }
+      },
+      {
+        "id": 80,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「péng」对应的汉字是？（词：朋友）",
+        "options": [
+          "熊",
+          "朋",
+          "吹",
+          "深"
+        ],
+        "answer": "朋",
+        "explanation": "「péng」写作「朋」，例如「朋友」。",
+        "audio": {
+          "question": "/audio/2c/2c3f93dc6ee6b84972b76869535c38318fe285f3.mp3",
+          "options": [
+            "/audio/pinyin/xiong2.mp3",
+            "/audio/pinyin/peng2.mp3",
+            "/audio/pinyin/chui1.mp3",
+            "/audio/pinyin/shen1.mp3"
+          ],
+          "explanation": "/audio/91/91591ebc85a5b491a9fb232175f43ffe9d13be9f.mp3"
+        }
+      },
+      {
+        "id": 81,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「yǒu」对应的汉字是？（词：朋友）",
+        "options": [
+          "友",
+          "翠",
+          "铜",
+          "吹"
+        ],
+        "answer": "友",
+        "explanation": "「yǒu」写作「友」，例如「朋友」。",
+        "audio": {
+          "question": "/audio/2b/2ba025a465ab79c2080440f16965ee693f7e9b56.mp3",
+          "options": [
+            "/audio/pinyin/you3.mp3",
+            "/audio/pinyin/cui4.mp3",
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/chui1.mp3"
+          ],
+          "explanation": "/audio/79/7902dcf5882fa5638f6555468904ae725f3d7ff6.mp3"
+        }
+      },
+      {
+        "id": 82,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jì」对应的汉字是？（词：季节）",
+        "options": [
+          "季",
+          "柏",
+          "守",
+          "朋"
+        ],
+        "answer": "季",
+        "explanation": "「jì」写作「季」，例如「季节」。",
+        "audio": {
+          "question": "/audio/74/7450a94df848797a7c553345a326de90f0f45750.mp3",
+          "options": [
+            "/audio/pinyin/ji4.mp3",
+            "/audio/pinyin/bai3.mp3",
+            "/audio/pinyin/shou3.mp3",
+            "/audio/pinyin/peng2.mp3"
+          ],
+          "explanation": "/audio/af/af3813d7eff3452a62a0f9319e645e328b1f3de4.mp3"
+        }
+      },
+      {
+        "id": 83,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「chuī」对应的汉字是？（词：吹风）",
+        "options": [
+          "松",
+          "吹",
+          "苦",
+          "帆"
+        ],
+        "answer": "吹",
+        "explanation": "「chuī」写作「吹」，例如「吹风」。",
+        "audio": {
+          "question": "/audio/d7/d7b991aa0b4a3fa37059ff31bcdd728e39aeb023.mp3",
+          "options": [
+            "/audio/pinyin/song1.mp3",
+            "/audio/pinyin/chui1.mp3",
+            "/audio/pinyin/ku3.mp3",
+            "/audio/pinyin/fan1.mp3"
+          ],
+          "explanation": "/audio/e3/e30c3ac6faf3d091321b8d8c79592be17a9ed9e7.mp3"
+        }
+      },
+      {
+        "id": 84,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「féi」对应的汉字是？（词：肥胖）",
+        "options": [
+          "吹",
+          "稻",
+          "梧",
+          "肥"
+        ],
+        "answer": "肥",
+        "explanation": "「féi」写作「肥」，例如「肥胖」。",
+        "audio": {
+          "question": "/audio/e5/e5e4950c078ac29f6c2f620aff16740963dcbace.mp3",
+          "options": [
+            "/audio/pinyin/chui1.mp3",
+            "/audio/pinyin/dao4.mp3",
+            "/audio/pinyin/wu2.mp3",
+            "/audio/pinyin/fei2.mp3"
+          ],
+          "explanation": "/audio/af/af693377391f5960cd841d2ad2456ce24920c07c.mp3"
+        }
+      },
+      {
+        "id": 85,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「nóng」对应的汉字是？（词：农民）",
+        "options": [
+          "号",
+          "杉",
+          "银",
+          "农"
+        ],
+        "answer": "农",
+        "explanation": "「nóng」写作「农」，例如「农民」。",
+        "audio": {
+          "question": "/audio/a6/a69294fce98a83ec371e80a91b45adaac7f18963.mp3",
+          "options": [
+            "/audio/pinyin/hao4.mp3",
+            "/audio/pinyin/shan1.mp3",
+            "/audio/pinyin/yin2.mp3",
+            "/audio/pinyin/nong2.mp3"
+          ],
+          "explanation": "/audio/67/67e5efc8e0c7735e051a44a4500e63e1449fd3a9.mp3"
+        }
+      },
+      {
+        "id": 86,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「máng」对应的汉字是？（词：帮忙）",
+        "options": [
+          "戴",
+          "领",
+          "忙",
+          "苦"
+        ],
+        "answer": "忙",
+        "explanation": "「máng」写作「忙」，例如「帮忙」。",
+        "audio": {
+          "question": "/audio/bb/bb53dde4450cc2ff7a52cffca201cb446aed2808.mp3",
+          "options": [
+            "/audio/pinyin/dai4.mp3",
+            "/audio/pinyin/ling3.mp3",
+            "/audio/pinyin/mang2.mp3",
+            "/audio/pinyin/ku3.mp3"
+          ],
+          "explanation": "/audio/e4/e491119f4399681098cb6078a62f53bd8b1a7084.mp3"
+        }
+      },
+      {
+        "id": 87,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「guī」对应的汉字是？（词：归来）",
+        "options": [
+          "猫",
+          "领",
+          "归",
+          "桐"
+        ],
+        "answer": "归",
+        "explanation": "「guī」写作「归」，例如「归来」。",
+        "audio": {
+          "question": "/audio/4b/4b81c5e7e3a1bf61e6981d446294440fbf652ca9.mp3",
+          "options": [
+            "/audio/pinyin/mao1.mp3",
+            "/audio/pinyin/ling3.mp3",
+            "/audio/pinyin/gui1.mp3",
+            "/audio/pinyin/tong2.mp3"
+          ],
+          "explanation": "/audio/c4/c4517f862b4504c3d20dfb4b194fc983d86838d7.mp3"
+        }
+      },
+      {
+        "id": 88,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「dài」对应的汉字是？（词：穿戴）",
+        "options": [
+          "稻",
+          "艘",
+          "朋",
+          "戴"
+        ],
+        "answer": "戴",
+        "explanation": "「dài」写作「戴」，例如「穿戴」。",
+        "audio": {
+          "question": "/audio/91/9158bebc76b45910f67ede53d591d0cae5cf36df.mp3",
+          "options": [
+            "/audio/pinyin/dao4.mp3",
+            "/audio/pinyin/sou1.mp3",
+            "/audio/pinyin/peng2.mp3",
+            "/audio/pinyin/dai4.mp3"
+          ],
+          "explanation": "/audio/46/46c8fda538b6eef1bf9e283f9f74ee021a537d98.mp3"
+        }
+      },
+      {
+        "id": 89,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「xīn」对应的汉字是？（词：辛苦）",
+        "options": [
+          "辛",
+          "翠",
+          "领",
+          "耐"
+        ],
+        "answer": "辛",
+        "explanation": "「xīn」写作「辛」，例如「辛苦」。",
+        "audio": {
+          "question": "/audio/2e/2e43a116d04ec41bee2b9d1ab178902e3d525267.mp3",
+          "options": [
+            "/audio/pinyin/xin1.mp3",
+            "/audio/pinyin/cui4.mp3",
+            "/audio/pinyin/ling3.mp3",
+            "/audio/pinyin/nai4.mp3"
+          ],
+          "explanation": "/audio/d8/d889859a9596d0880495573f94ed4b6a55604c68.mp3"
+        }
+      },
+      {
+        "id": 90,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「kǔ」对应的汉字是？（词：辛苦）",
+        "options": [
+          "苦",
+          "舰",
+          "深",
+          "银"
+        ],
+        "answer": "苦",
+        "explanation": "「kǔ」写作「苦」，例如「辛苦」。",
+        "audio": {
+          "question": "/audio/ab/ab3783476c69bc52f60c41e6bc00bba592d8deef.mp3",
+          "options": [
+            "/audio/pinyin/ku3.mp3",
+            "/audio/pinyin/jian4.mp3",
+            "/audio/pinyin/shen1.mp3",
+            "/audio/pinyin/yin2.mp3"
+          ],
+          "explanation": "/audio/cf/cf72f03d32a12ada874256921275a821dcdf4d40.mp3"
+        }
+      },
+      {
+        "id": 91,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「苦」的拼音（词：辛苦）",
+        "options": [],
+        "answer": "kǔ",
+        "explanation": "「苦」的拼音是 kǔ。",
+        "audio": {
+          "question": "/audio/57/57545441c6fbd33adccd23acee35563a87a49f7d.mp3",
+          "explanation": "/audio/f5/f50b2c6b8d619958948a0135806494ae9e67dc67.mp3"
+        }
+      },
+      {
+        "id": 92,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「写」的拼音（词：写字）",
+        "options": [],
+        "answer": "xiě",
+        "explanation": "「写」的拼音是 xiě。",
+        "audio": {
+          "question": "/audio/85/8508d054ad2613c66ac082848776d148601a07b9.mp3",
+          "explanation": "/audio/c1/c128e63a8991b0389887ac825a816cb7c81eb037.mp3"
+        }
+      },
+      {
+        "id": 93,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「季」的拼音（词：季节）",
+        "options": [],
+        "answer": "jì",
+        "explanation": "「季」的拼音是 jì。",
+        "audio": {
+          "question": "/audio/ab/ab74fa383d81022e7d74744e569afa45909fa1dc.mp3",
+          "explanation": "/audio/14/149dacb7dae12de5be2b785798ea2a87c863ffa3.mp3"
+        }
+      },
+      {
+        "id": 94,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「园」的拼音（词：公园）",
+        "options": [],
+        "answer": "yuán",
+        "explanation": "「园」的拼音是 yuán。",
+        "audio": {
+          "question": "/audio/96/96334b137631c69f6c37af96f2b47908bc94b926.mp3",
+          "explanation": "/audio/32/3259dd7af33d2b5221be2477d091193670b035de.mp3"
+        }
+      },
+      {
+        "id": 95,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「翠」的拼音（词：翠绿）",
+        "options": [],
+        "answer": "cuì",
+        "explanation": "「翠」的拼音是 cuì。",
+        "audio": {
+          "question": "/audio/26/26d9d2e0641b8c8369f784389527a5b0980d97bd.mp3",
+          "explanation": "/audio/d6/d63b91c300d4fd892d50b58686e54e615164f829.mp3"
+        }
+      },
+      {
+        "id": 96,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「号」的拼音（词：口号）",
+        "options": [],
+        "answer": "hào",
+        "explanation": "「号」的拼音是 hào。",
+        "audio": {
+          "question": "/audio/2a/2a784525d405c6611398f328a389ff1c5ad68bb7.mp3",
+          "explanation": "/audio/dd/dd64717f67d13574dae1b6365bf1c9a794d0665e.mp3"
+        }
+      },
+      {
+        "id": 97,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「桦」的拼音（词：白桦）",
+        "options": [],
+        "answer": "huà",
+        "explanation": "「桦」的拼音是 huà。",
+        "audio": {
+          "question": "/audio/9d/9d97fd16bc588f204c6d6e6a2010a82446d8d244.mp3",
+          "explanation": "/audio/8d/8dbd0cc04c73a059230129ce115606caf0953c65.mp3"
+        }
+      },
+      {
+        "id": 98,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「银」的拼音（词：银色）",
+        "options": [],
+        "answer": "yín",
+        "explanation": "「银」的拼音是 yín。",
+        "audio": {
+          "question": "/audio/f5/f5a6e866555faf42d96d30d6ad05a4ef6ab99214.mp3",
+          "explanation": "/audio/eb/eb8123ef32af43f853f42f0b5a6449b0f59004ba.mp3"
+        }
+      },
+      {
+        "id": 99,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「守」的拼音（词：守卫）",
+        "options": [],
+        "answer": "shǒu",
+        "explanation": "「守」的拼音是 shǒu。",
+        "audio": {
+          "question": "/audio/01/014fd2a2d0c809ebf0971404fecd886698c15ffc.mp3",
+          "explanation": "/audio/8e/8eda954119487e19922a3e19c633eef0a6117ad2.mp3"
+        }
+      },
+      {
+        "id": 100,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「丛」的拼音（词：花丛）",
+        "options": [],
+        "answer": "cóng",
+        "explanation": "「丛」的拼音是 cóng。",
+        "audio": {
+          "question": "/audio/ec/ec148839e9d6394ef369a9a24bed7539190318c3.mp3",
+          "explanation": "/audio/08/087bad40cee4e4bf82799846065ba3f2054e817d.mp3"
+        }
+      },
+      {
+        "id": 101,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「装」的拼音（词：服装）",
+        "options": [],
+        "answer": "zhuāng",
+        "explanation": "「装」的拼音是 zhuāng。",
+        "audio": {
+          "question": "/audio/9a/9ab36e1b4b9c806a3afd54d427af7303e3cab215.mp3",
+          "explanation": "/audio/4b/4b4158b2014aa752b970a892891ee51ad0c6095d.mp3"
+        }
+      },
+      {
+        "id": 102,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「铜」的拼音（词：铜号）",
+        "options": [],
+        "answer": "tóng",
+        "explanation": "「铜」的拼音是 tóng。",
+        "audio": {
+          "question": "/audio/7e/7ef5af48fe83d885c86062637da177236e8b13e1.mp3",
+          "explanation": "/audio/ae/ae4a3da9321272075e58ca74e13bf5d4cf355fe7.mp3"
+        }
+      },
+      {
+        "id": 103,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「艘」的拼音（词：一艘）",
+        "options": [],
+        "answer": "sōu",
+        "explanation": "「艘」的拼音是 sōu。",
+        "audio": {
+          "question": "/audio/4b/4bdd91628fb958965bbe26be21d9c31d30bd4c0a.mp3",
+          "explanation": "/audio/18/1840312998cf030852c2f775c0b0d1d01288c230.mp3"
+        }
+      },
+      {
+        "id": 104,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「化」的拼音（词：变化）",
+        "options": [],
+        "answer": "huà",
+        "explanation": "「化」的拼音是 huà。",
+        "audio": {
+          "question": "/audio/eb/eb7aecaeb9c2f26b5c3002ffa1d327ac1d404ae2.mp3",
+          "explanation": "/audio/d8/d88b0b0c70f8c4d11addd7d108c4af7376b387e7.mp3"
+        }
+      },
+      {
+        "id": 105,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「戴」的拼音（词：穿戴）",
+        "options": [],
+        "answer": "dài",
+        "explanation": "「戴」的拼音是 dài。",
+        "audio": {
+          "question": "/audio/8f/8f0b997f3e7263d1d012aa16222a27694921e730.mp3",
+          "explanation": "/audio/9a/9a3132a6012beffc712dcd7b1d1478899305022e.mp3"
+        }
+      },
+      {
+        "id": 106,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「梧」的拼音（词：梧桐）",
+        "options": [],
+        "answer": "wú",
+        "explanation": "「梧」的拼音是 wú。",
+        "audio": {
+          "question": "/audio/3f/3fe5101201cc1285765d98593dbdb0e80bbf3442.mp3",
+          "explanation": "/audio/2c/2c9b0f35ef75676c85b4e4d9c47e73b557dc6d70.mp3"
+        }
+      },
+      {
+        "id": 107,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「朋」的拼音（词：朋友）",
+        "options": [],
+        "answer": "péng",
+        "explanation": "「朋」的拼音是 péng。",
+        "audio": {
+          "question": "/audio/a1/a15bc45c9e556df955ef27239c8925c3320e159a.mp3",
+          "explanation": "/audio/67/670f9a49e244a8d61fd0a2a532b79ddfabdcb7a8.mp3"
+        }
+      },
+      {
+        "id": 108,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「深」的拼音（词：深浅）",
+        "options": [],
+        "answer": "shēn",
+        "explanation": "「深」的拼音是 shēn。",
+        "audio": {
+          "question": "/audio/3d/3d474d82a3760b7dd538c673acfa28653302c52a.mp3",
+          "explanation": "/audio/f0/f0e01b1c8a0f57445d040ef326d823aeebefc0ce.mp3"
+        }
+      },
+      {
+        "id": 109,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「xióng」对应的汉字（词：熊猫）",
+        "options": [],
+        "answer": "熊",
+        "explanation": "「xióng」对应的汉字是「熊」。",
+        "audio": {
+          "question": "/audio/a6/a643a3df1dadb520649677d4269216e52b5a5f63.mp3",
+          "explanation": "/audio/7b/7b8cd28f78f2ae4e9358899d0c983fa8e7798d67.mp3"
+        }
+      },
+      {
+        "id": 110,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「jiāng」对应的汉字（词：边疆）",
+        "options": [],
+        "answer": "疆",
+        "explanation": "「jiāng」对应的汉字是「疆」。",
+        "audio": {
+          "question": "/audio/06/067e57b4743b3b765ff7a7e64c9c678c2a64974c.mp3",
+          "explanation": "/audio/98/987fc6746e0ab3c26ebb2efa943b2d18636c10bf.mp3"
+        }
+      },
+      {
+        "id": 111,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「shān」对应的汉字（词：杉树）",
+        "options": [],
+        "answer": "杉",
+        "explanation": "「shān」对应的汉字是「杉」。",
+        "audio": {
+          "question": "/audio/ae/aeee6267ad3ea51025285fd722d08a0958836e36.mp3",
+          "explanation": "/audio/e6/e69c75444791201777f028f30c469e25bce4da8d.mp3"
+        }
+      },
+      {
+        "id": 112,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「chù」对应的汉字（词：到处）",
+        "options": [],
+        "answer": "处",
+        "explanation": "「chù」对应的汉字是「处」。",
+        "audio": {
+          "question": "/audio/a1/a1cad23df238e86fbb8990a0beccf77585dcc276.mp3",
+          "explanation": "/audio/74/74dc98b399ae181fe4a67ef571fb583a678541a9.mp3"
+        }
+      },
+      {
+        "id": 113,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「māo」对应的汉字（词：熊猫）",
+        "options": [],
+        "answer": "猫",
+        "explanation": "「māo」对应的汉字是「猫」。",
+        "audio": {
+          "question": "/audio/55/55d58a38c08df6ae8c1405fb6a8f9031a43623cd.mp3",
+          "explanation": "/audio/4c/4cdf361af4ad1ec1be44f24819f02113fc51adef.mp3"
+        }
+      },
+      {
+        "id": 114,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「zhǎng」对应的汉字（词：手掌）",
+        "options": [],
+        "answer": "掌",
+        "explanation": "「zhǎng」对应的汉字是「掌」。",
+        "audio": {
+          "question": "/audio/47/47ede2478d914dab9131dd7e0c545ce2fe809dd8.mp3",
+          "explanation": "/audio/05/05b0af0a09e19c4cc427a57a127b71fcea85379c.mp3"
+        }
+      },
+      {
+        "id": 115,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「jiàn」对应的汉字（词：军舰）",
+        "options": [],
+        "answer": "舰",
+        "explanation": "「jiàn」对应的汉字是「舰」。",
+        "audio": {
+          "question": "/audio/7f/7f467f0f21dcfbc0076c632e9e3238987bdaf9ff.mp3",
+          "explanation": "/audio/21/213cc9801f389e30e5e56d822144cabeca122a52.mp3"
+        }
+      },
+      {
+        "id": 116,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「cuì」对应的汉字（词：翠绿）",
+        "options": [],
+        "answer": "翠",
+        "explanation": "「cuì」对应的汉字是「翠」。",
+        "audio": {
+          "question": "/audio/8d/8d70e8dff516f735d18b4e11e7a85d0c3cd15923.mp3",
+          "explanation": "/audio/35/356231e2a12149f32e8166854e1f972ad439fab6.mp3"
+        }
+      },
+      {
+        "id": 117,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「sōu」对应的汉字（词：一艘）",
+        "options": [],
+        "answer": "艘",
+        "explanation": "「sōu」对应的汉字是「艘」。",
+        "audio": {
+          "question": "/audio/07/076284e16e2ba5d08bbf0b8c5c7b3ab7eadc4595.mp3",
+          "explanation": "/audio/c6/c6024803e84feeffa12643fa1b9ba594e2cb4ba3.mp3"
+        }
+      },
+      {
+        "id": 118,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「zhuāng」对应的汉字（词：服装）",
+        "options": [],
+        "answer": "装",
+        "explanation": "「zhuāng」对应的汉字是「装」。",
+        "audio": {
+          "question": "/audio/98/9861e631de7b08538a42178f2c0b9c1fb32b3a3e.mp3",
+          "explanation": "/audio/23/234910c187dc91bc54ff59dad8341741a29d262c.mp3"
+        }
+      },
+      {
+        "id": 119,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「bǎi」对应的汉字（词：柏树）",
+        "options": [],
+        "answer": "柏",
+        "explanation": "「bǎi」对应的汉字是「柏」。",
+        "audio": {
+          "question": "/audio/67/67ae3f9fc96ccc985cb786fa80e2b5dba2904f47.mp3",
+          "explanation": "/audio/d1/d1acd4439de2db12f33461eb64fa40938611aa4b.mp3"
+        }
+      },
+      {
+        "id": 120,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「shēn」对应的汉字（词：深浅）",
+        "options": [],
+        "answer": "深",
+        "explanation": "「shēn」对应的汉字是「深」。",
+        "audio": {
+          "question": "/audio/d7/d74950897d546a16031ea1bcca57c9c004d7509b.mp3",
+          "explanation": "/audio/a4/a492548976dfed0ddfb40fb6506c2c9d307c2596.mp3"
+        }
+      },
+      {
+        "id": 121,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「jiǔ」对应的汉字（词：九月）",
+        "options": [],
+        "answer": "九",
+        "explanation": "「jiǔ」对应的汉字是「九」。",
+        "audio": {
+          "question": "/audio/7f/7ff53cdfec2a2973d567eb70145b8d285a35eefa.mp3",
+          "explanation": "/audio/65/6588cef95b7a5dfe805172bd77299c0929ec2f71.mp3"
+        }
+      },
+      {
+        "id": 122,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「wú」对应的汉字（词：梧桐）",
+        "options": [],
+        "answer": "梧",
+        "explanation": "「wú」对应的汉字是「梧」。",
+        "audio": {
+          "question": "/audio/7d/7d3acde3f1db3ca33e1c27e1e03d819b6bc06cf4.mp3",
+          "explanation": "/audio/b7/b7336d5c6a0de7908ef744d75e99d83530c103a1.mp3"
+        }
+      },
+      {
+        "id": 123,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「péng」对应的汉字（词：朋友）",
+        "options": [],
+        "answer": "朋",
+        "explanation": "「péng」对应的汉字是「朋」。",
+        "audio": {
+          "question": "/audio/56/565068ef7233dd04ecf62ca6d561af561df3caa1.mp3",
+          "explanation": "/audio/0f/0f1a6ed8eacf9947b60aee0751bb6237170abb82.mp3"
+        }
+      },
+      {
+        "id": 124,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「shǒu」对应的汉字（词：守卫）",
+        "options": [],
+        "answer": "守",
+        "explanation": "「shǒu」对应的汉字是「守」。",
+        "audio": {
+          "question": "/audio/8c/8cd73d64a857ddbf0326f5fe04156059a4a9ba13.mp3",
+          "explanation": "/audio/4f/4f8dd7918cd24455df744f12d6bade50acfa3145.mp3"
+        }
+      },
+      {
+        "id": 125,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「huà」对应的汉字（词：白桦）",
+        "options": [],
+        "answer": "桦",
+        "explanation": "「huà」对应的汉字是「桦」。",
+        "audio": {
+          "question": "/audio/07/07a57d20cd79a74a7fc5b09d41987d5facb0d20a.mp3",
+          "explanation": "/audio/85/85f5f01dc1c7ad4bb03ae5b43753e12c60c3fefe.mp3"
+        }
+      },
+      {
+        "id": 126,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「tóng」对应的汉字（词：铜号）",
+        "options": [],
+        "answer": "铜",
+        "explanation": "「tóng」对应的汉字是「铜」。",
+        "audio": {
+          "question": "/audio/49/49c9cfd88ae7bac4a50f47de9be7151a6d30dff9.mp3",
+          "explanation": "/audio/25/250e00ab1a219fd6a0f85a0649ee7055ca2be62c.mp3"
+        }
+      },
+      {
+        "id": 127,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「园」读作 yuán。（词：公园）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「园」的读音是 yuán。",
+        "audio": {
+          "question": "/audio/f3/f310517f54496037ed8701845358f686d90e1d49.mp3",
+          "explanation": "/audio/02/020b2e5e05cdcd77677ebfcd8d20d159155fa4cf.mp3"
+        }
+      },
+      {
+        "id": 128,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「深」读作 shān。（词：深浅）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「深」应读 shēn，不是 shān。",
+        "audio": {
+          "question": "/audio/9a/9a66ec34799e396591983a029395b9e7033e6380.mp3",
+          "explanation": "/audio/a6/a6dadf20a81af9f5d60a9a4899e7455f1fce7e7e.mp3"
+        }
+      },
+      {
+        "id": 129,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「掌」读作 zhǎng。（词：手掌）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「掌」的读音是 zhǎng。",
+        "audio": {
+          "question": "/audio/73/734991b98638e5643497fde52f04a73cc8aff9b3.mp3",
+          "explanation": "/audio/72/72be41763fd4b734c790e27c58593704087ed4b3.mp3"
+        }
+      },
+      {
+        "id": 130,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「辛」读作 xióng。（词：辛苦）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「辛」应读 xīn，不是 xióng。",
+        "audio": {
+          "question": "/audio/be/beca2f072a4ae71bfb602e7b76db42f52d57c738.mp3",
+          "explanation": "/audio/a3/a337ea8a41558faca196d39c0fb68f87ef7069cd.mp3"
+        }
+      },
+      {
+        "id": 131,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「耐」读作 nài。（词：耐心）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「耐」的读音是 nài。",
+        "audio": {
+          "question": "/audio/9e/9e374d941091acd9d0bebf2bc2ce91480df3a4ca.mp3",
+          "explanation": "/audio/06/0620b291f08c3672db078cf8734c07d8815a03ac.mp3"
+        }
+      },
+      {
+        "id": 132,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「桂」读作 guī。（词：桂花）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「桂」应读 guì，不是 guī。",
+        "audio": {
+          "question": "/audio/8c/8c7159d34a06021ccfcef303b12595cca8a8e3bd.mp3",
+          "explanation": "/audio/e7/e72c4a1d33cbf9aae9f9f173aa0e3eca460756ef.mp3"
+        }
+      },
+      {
+        "id": 133,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「铜」读作 tóng。（词：铜号）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「铜」的读音是 tóng。",
+        "audio": {
+          "question": "/audio/50/503ea888a2ce2ad72d8c661003566ad444795e75.mp3",
+          "explanation": "/audio/db/db685371f29d897278e37e4833d6ac2ab6b0b3f7.mp3"
+        }
+      },
+      {
+        "id": 134,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「季」读作 jiàn。（词：季节）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「季」应读 jì，不是 jiàn。",
+        "audio": {
+          "question": "/audio/54/5486d73a2ef728dce493fdd0a41530418480e8ca.mp3",
+          "explanation": "/audio/cf/cf11a699f188c87a38f84baf7eee5d42810b5620.mp3"
+        }
+      },
+      {
+        "id": 135,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「歌」读作 gē。（词：歌声）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「歌」的读音是 gē。",
+        "audio": {
+          "question": "/audio/24/24d2869bd006046bbe8ab63046a39b0bb693350a.mp3",
+          "explanation": "/audio/a3/a386af6218a3ca4ca44fad977771bc43f8d5cda5.mp3"
+        }
+      },
+      {
+        "id": 136,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「六」读作 lǐng。（词：六一）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「六」应读 liù，不是 lǐng。",
+        "audio": {
+          "question": "/audio/e6/e66f89f8538e8c84709c462abec214fe22385afc.mp3",
+          "explanation": "/audio/39/39dfe71a981d54276acbe8244496054ca1b6e816.mp3"
+        }
+      },
+      {
+        "id": 137,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「九」读作 jiǔ。（词：九月）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「九」的读音是 jiǔ。",
+        "audio": {
+          "question": "/audio/9e/9eaa4cee8c3a9c5688bfbb98398657a0c6009272.mp3",
+          "explanation": "/audio/80/8077332d9551b33aca60f51296335d4a00d313a7.mp3"
+        }
+      },
+      {
+        "id": 138,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「杉」读作 sōu。（词：杉树）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「杉」应读 shān，不是 sōu。",
+        "audio": {
+          "question": "/audio/9f/9f2de192b3b317317155ee7113d1869b468d87b8.mp3",
+          "explanation": "/audio/56/56a4091a167daa60d46fe6e800647b5d53b2ba02.mp3"
+        }
+      },
+      {
+        "id": 139,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「朋」读作 péng。（词：朋友）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「朋」的读音是 péng。",
+        "audio": {
+          "question": "/audio/67/67ca3fb300a0a31d2d2af9366259d6efbddf605e.mp3",
+          "explanation": "/audio/c2/c2677367b512209d01f9f04cadd6273b2be7c047.mp3"
+        }
+      },
+      {
+        "id": 140,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「猫」读作 máng。（词：熊猫）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「猫」应读 māo，不是 máng。",
+        "audio": {
+          "question": "/audio/44/4470d966ec2c217ddcfd17de6ce4d861405f9927.mp3",
+          "explanation": "/audio/dc/dce03afe347bbb22a6aef9bd7a862ee811f5bc3e.mp3"
+        }
+      },
+      {
+        "id": 141,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「枫」读作 fēng。（词：枫叶）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「枫」的读音是 fēng。",
+        "audio": {
+          "question": "/audio/e6/e6015a3cb31bd3494d06fb447f5eb6e22afc0f66.mp3",
+          "explanation": "/audio/bb/bb8ee5a26045ec0b9c5316a6cd4796c6b6d42d6d.mp3"
+        }
+      },
+      {
+        "id": 142,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「银」读作 yuán。（词：银色）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「银」应读 yín，不是 yuán。",
+        "audio": {
+          "question": "/audio/1b/1bf51727fbcb2847e03159c1365ec7f58f7af514.mp3",
+          "explanation": "/audio/f2/f2403043e30906342fb695937de24d449dd97c22.mp3"
+        }
+      }
+    ]
+  },
+  "exam": {
+    "title": "第2单元「第二单元 · 识字儿歌」综合挑战",
+    "total_score": 100,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「号」的正确读音是？（提示词：口号）",
+        "options": [
+          "hào",
+          "fān",
+          "tóng",
+          "sōu"
+        ],
+        "answer": "hào",
+        "explanation": "「号」读作 hào，可以组词「口号」。",
+        "audio": {
+          "question": "/audio/aa/aacc3da2cd8fa044e14490e50c54d95434a6b778.mp3",
+          "options": [
+            "/audio/pinyin/hao4.mp3",
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/tong2.mp3",
+            "/audio/pinyin/sou1.mp3"
+          ],
+          "explanation": "/audio/51/51752d9a602220f2c4942204e8d312a29fb6a6ba.mp3"
+        }
+      },
+      {
+        "id": 38,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「吹」的正确读音是？（提示词：吹风）",
+        "options": [
+          "chuī",
+          "chù",
+          "jiàn",
+          "yuán"
+        ],
+        "answer": "chuī",
+        "explanation": "「吹」读作 chuī，可以组词「吹风」。",
+        "audio": {
+          "question": "/audio/54/5405a7e43c89e2fd657acdde46de66657e2d8769.mp3",
+          "options": [
+            "/audio/pinyin/chui1.mp3",
+            "/audio/pinyin/chu4.mp3",
+            "/audio/pinyin/jian4.mp3",
+            "/audio/pinyin/yuan2.mp3"
+          ],
+          "explanation": "/audio/56/563b809a3aa2355ded3edfad6f3d56630575985b.mp3"
+        }
+      },
+      {
+        "id": 1,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「帆」的正确读音是？（提示词：帆船）",
+        "options": [
+          "cuì",
+          "yuán",
+          "fān",
+          "jiàn"
+        ],
+        "answer": "fān",
+        "explanation": "「帆」读作 fān，可以组词「帆船」。",
+        "audio": {
+          "question": "/audio/fa/fae818fe53e390d5119bde6ef50485f238693880.mp3",
+          "options": [
+            "/audio/pinyin/cui4.mp3",
+            "/audio/pinyin/yuan2.mp3",
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/jian4.mp3"
+          ],
+          "explanation": "/audio/78/78a89d29af43d43637281052e4baf6871c5396c5.mp3"
+        }
+      },
+      {
+        "id": 46,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「fān」对应的汉字是？（词：帆船）",
+        "options": [
+          "柏",
+          "帆",
+          "农",
+          "深"
+        ],
+        "answer": "帆",
+        "explanation": "「fān」写作「帆」，例如「帆船」。",
+        "audio": {
+          "question": "/audio/80/80e21dc0e0a0b8f5502dd9594e80101d660f9dfc.mp3",
+          "options": [
+            "/audio/pinyin/bai3.mp3",
+            "/audio/pinyin/fan1.mp3",
+            "/audio/pinyin/nong2.mp3",
+            "/audio/pinyin/shen1.mp3"
+          ],
+          "explanation": "/audio/93/937fe1c4e8049f226449af8d06517432289678a1.mp3"
+        }
+      },
+      {
+        "id": 80,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「péng」对应的汉字是？（词：朋友）",
+        "options": [
+          "熊",
+          "朋",
+          "吹",
+          "深"
+        ],
+        "answer": "朋",
+        "explanation": "「péng」写作「朋」，例如「朋友」。",
+        "audio": {
+          "question": "/audio/2c/2c3f93dc6ee6b84972b76869535c38318fe285f3.mp3",
+          "options": [
+            "/audio/pinyin/xiong2.mp3",
+            "/audio/pinyin/peng2.mp3",
+            "/audio/pinyin/chui1.mp3",
+            "/audio/pinyin/shen1.mp3"
+          ],
+          "explanation": "/audio/91/91591ebc85a5b491a9fb232175f43ffe9d13be9f.mp3"
+        }
+      },
+      {
+        "id": 51,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「yuán」对应的汉字是？（词：公园）",
+        "options": [
+          "装",
+          "园",
+          "写",
+          "季"
+        ],
+        "answer": "园",
+        "explanation": "「yuán」写作「园」，例如「公园」。",
+        "audio": {
+          "question": "/audio/a6/a6b202dfc8156dd632424bc81f153a6f5c876b77.mp3",
+          "options": [
+            "/audio/pinyin/zhuang1.mp3",
+            "/audio/pinyin/yuan2.mp3",
+            "/audio/pinyin/xie3.mp3",
+            "/audio/pinyin/ji4.mp3"
+          ],
+          "explanation": "/audio/4a/4ab4daa5401c253369c5b800ba0ec4150f535d3d.mp3"
+        }
+      },
+      {
+        "id": 92,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「写」的拼音（词：写字）",
+        "options": [],
+        "answer": "xiě",
+        "explanation": "「写」的拼音是 xiě。",
+        "audio": {
+          "question": "/audio/85/8508d054ad2613c66ac082848776d148601a07b9.mp3",
+          "explanation": "/audio/c1/c128e63a8991b0389887ac825a816cb7c81eb037.mp3"
+        }
+      },
+      {
+        "id": 106,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「梧」的拼音（词：梧桐）",
+        "options": [],
+        "answer": "wú",
+        "explanation": "「梧」的拼音是 wú。",
+        "audio": {
+          "question": "/audio/3f/3fe5101201cc1285765d98593dbdb0e80bbf3442.mp3",
+          "explanation": "/audio/2c/2c9b0f35ef75676c85b4e4d9c47e73b557dc6d70.mp3"
+        }
+      },
+      {
+        "id": 91,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「苦」的拼音（词：辛苦）",
+        "options": [],
+        "answer": "kǔ",
+        "explanation": "「苦」的拼音是 kǔ。",
+        "audio": {
+          "question": "/audio/57/57545441c6fbd33adccd23acee35563a87a49f7d.mp3",
+          "explanation": "/audio/f5/f50b2c6b8d619958948a0135806494ae9e67dc67.mp3"
+        }
+      },
+      {
+        "id": 120,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「shēn」对应的汉字（词：深浅）",
+        "options": [],
+        "answer": "深",
+        "explanation": "「shēn」对应的汉字是「深」。",
+        "audio": {
+          "question": "/audio/d7/d74950897d546a16031ea1bcca57c9c004d7509b.mp3",
+          "explanation": "/audio/a4/a492548976dfed0ddfb40fb6506c2c9d307c2596.mp3"
+        }
+      },
+      {
+        "id": 109,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「xióng」对应的汉字（词：熊猫）",
+        "options": [],
+        "answer": "熊",
+        "explanation": "「xióng」对应的汉字是「熊」。",
+        "audio": {
+          "question": "/audio/a6/a643a3df1dadb520649677d4269216e52b5a5f63.mp3",
+          "explanation": "/audio/7b/7b8cd28f78f2ae4e9358899d0c983fa8e7798d67.mp3"
+        }
+      },
+      {
+        "id": 122,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「wú」对应的汉字（词：梧桐）",
+        "options": [],
+        "answer": "梧",
+        "explanation": "「wú」对应的汉字是「梧」。",
+        "audio": {
+          "question": "/audio/7d/7d3acde3f1db3ca33e1c27e1e03d819b6bc06cf4.mp3",
+          "explanation": "/audio/b7/b7336d5c6a0de7908ef744d75e99d83530c103a1.mp3"
+        }
+      },
+      {
+        "id": 130,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「辛」读作 xióng。（词：辛苦）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「辛」应读 xīn，不是 xióng。",
+        "audio": {
+          "question": "/audio/be/beca2f072a4ae71bfb602e7b76db42f52d57c738.mp3",
+          "explanation": "/audio/a3/a337ea8a41558faca196d39c0fb68f87ef7069cd.mp3"
+        }
+      },
+      {
+        "id": 135,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「歌」读作 gē。（词：歌声）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「歌」的读音是 gē。",
+        "audio": {
+          "question": "/audio/24/24d2869bd006046bbe8ab63046a39b0bb693350a.mp3",
+          "explanation": "/audio/a3/a386af6218a3ca4ca44fad977771bc43f8d5cda5.mp3"
+        }
+      },
+      {
+        "id": 139,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「朋」读作 péng。（词：朋友）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「朋」的读音是 péng。",
+        "audio": {
+          "question": "/audio/67/67ca3fb300a0a31d2d2af9366259d6efbddf605e.mp3",
+          "explanation": "/audio/c2/c2677367b512209d01f9f04cadd6273b2be7c047.mp3"
+        }
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "看字认拼音",
+      "core_concept": "掌握本单元 45 个生字的正确读音。",
+      "key_formula": "看字 → 想读音 → 对选项",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第二单元 · 识字儿歌」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "看拼音认字",
+      "core_concept": "建立拼音到字形的稳定映射。",
+      "key_formula": "拼读 → 想字形 → 对选项",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第二单元 · 识字儿歌」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "拼音填空",
+      "core_concept": "巩固声母、韵母与声调的书写。",
+      "key_formula": "字 → 声母 + 韵母 + 声调",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第二单元 · 识字儿歌」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "汉字填空",
+      "core_concept": "在语境提示下从拼音还原字形。",
+      "key_formula": "拼音 → 词义线索 → 写字",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第二单元 · 识字儿歌」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "读音判断",
+      "core_concept": "辨析易错读音与形近字读音。",
+      "key_formula": "对照标准读音，判断对/错",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第二单元 · 识字儿歌」生字表，再做练习；错题进错题本复习。"
+    }
+  ]
+}

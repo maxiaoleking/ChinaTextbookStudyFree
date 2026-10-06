@@ -51,6 +51,9 @@ Thumbs.db
 # ---- Claude / local agent state ----
 .claude/
 
+# ---- 第三方数据拉取缓存（写字练习字形源，见 scripts/writing/） ----
+.cache/
+
 # ---- 生成物（体积大 / 机器产物 → Release 分发） ----
 apps/web/public/audio/
 apps/web/public/audio.mp3-backup/

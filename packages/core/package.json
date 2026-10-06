@@ -24,7 +24,9 @@
     "./league": "./src/league.ts",
     "./reading": "./src/reading.ts",
     "./backup": "./src/backup.ts",
-    "./jump": "./src/jump.ts"
+    "./jump": "./src/jump.ts",
+    "./writing": "./src/writing.ts",
+    "./writing": "./src/writing.ts"
   },
   "scripts": {
     "type-check": "tsc --noEmit",

@@ -11,6 +11,8 @@ import { playTTS } from "@/lib/tts";
 import { useAutoNarrate } from "@/lib/useAutoNarrate";
 import { shouldIgnoreKey } from "./keyboard";
 import type { QuestionRendererProps } from "./QuestionRenderer";
+import { resolveChoiceLetter } from "@/lib/grade";
+import { localPinyinAudioSrc } from "@/lib/pinyinSpeak";
 
 interface Ripple {
   id: number;
@@ -30,31 +32,28 @@ export function ChoiceQuestion({
   onChange,
   locked = false,
 }: QuestionRendererProps) {
-  const rawCorrect = question.answer.trim();
-  let correctLetter = rawCorrect.toUpperCase().charAt(0);
-  // 若 answer 不是单字母 A-D，则在 options 里反查对应字母
-  if (!/^[A-D]$/.test(correctLetter) && question.options?.length) {
-    const cn = normalizeOpt(rawCorrect);
-    const idx = question.options.findIndex(o => {
-      const stripped = o.replace(/^[A-D][.、]\s*/, "");
-      return normalizeOpt(o) === cn || normalizeOpt(stripped) === cn;
-    });
-    if (idx >= 0) correctLetter = String.fromCharCode(65 + idx);
-  }
+  // 仅当 answer 整串是 A-D 时才按字母；拼音 dì/bà/de 等必须走 options 文本反查
+  // （旧逻辑 toUpperCase().charAt(0) 会把 "dì" 误判成选项 D）
+  const correctLetter = resolveChoiceLetter(question);
   const [ripples, setRipples] = useState<Record<string, Ripple[]>>({});
   const idRef = useRef(0);
 
   // 自动朗读题干（只在进入该题时一次；点选项立即打断）
-  const cancelNarrate = useAutoNarrate([question.audio?.question], question.id);
+  const cancelNarrate = useAutoNarrate(
+    [{ src: question.audio?.question, text: question.question }],
+    question.id,
+  );
 
   /** 选中某个选项（点击 / 键盘共用）：朗读 + 音效 + 触感 + 写回 answer */
   function selectLetter(letter: string) {
     if (locked || phase === "checked") return;
     cancelNarrate();
-    // 选中选项时自动朗读该选项
     const idx = letter.charCodeAt(0) - 65;
-    const optAudio = question.audio?.options?.[idx];
-    if (optAudio) void playTTS(optAudio);
+    const rawOpt = question.options?.[idx] ?? "";
+    const optText = rawOpt.replace(/^[A-D][.、]\s*/, "");
+    // 构建期已注入本地真人音节 / 汉字读音音频；没注入到再按音节名猜本地镜像路径
+    const optAudio = question.audio?.options?.[idx] ?? localPinyinAudioSrc(optText);
+    void playTTS(optAudio, { text: optText });
     playSfx("tap");
     haptic("light");
     onChange(letter);
@@ -97,7 +96,12 @@ export function ChoiceQuestion({
         <div className="text-2xl font-bold text-ink leading-relaxed flex-1">
           <MathText text={question.question} />
         </div>
-        <TTSButton src={question.audio?.question} className="mt-1" label="朗读题目" />
+        <TTSButton
+          src={question.audio?.question}
+          text={question.question}
+          className="mt-1"
+          label="朗读题目"
+        />
       </div>
 
       <div className="space-y-3">
@@ -105,7 +109,7 @@ export function ChoiceQuestion({
           const letter = String.fromCharCode(65 + idx); // A B C D
           const display = /^[A-D][.、]/.test(opt) ? opt.replace(/^[A-D][.、]\s*/, "") : opt;
           const selected = answer === letter;
-          const isThisCorrect = letter === correctLetter;
+          const isThisCorrect = correctLetter != null && letter === correctLetter;
 
           let cls = "option-card";
           if (phase === "checked") {
@@ -118,7 +122,8 @@ export function ChoiceQuestion({
           // 答错时在正确选项上播放脉冲高亮，引导用户注意
           const shouldPulse = phase === "checked" && !isCorrect && isThisCorrect;
 
-          const optionAudio = question.audio?.options?.[idx] ?? null;
+          const optionAudio =
+            question.audio?.options?.[idx] ?? localPinyinAudioSrc(display) ?? null;
           return (
             <div key={idx} className="flex items-stretch gap-2">
               <motion.button
@@ -166,15 +171,14 @@ export function ChoiceQuestion({
                   />
                 ))}
               </motion.button>
-              {optionAudio && (
-                <div className="flex items-center">
-                  <TTSButton
-                    src={optionAudio}
-                    size="sm"
-                    label={`朗读选项 ${letter}`}
-                  />
-                </div>
-              )}
+              <div className="flex items-center">
+                <TTSButton
+                  src={optionAudio}
+                  text={display}
+                  size="sm"
+                  label={`朗读选项 ${letter}`}
+                />
+              </div>
             </div>
           );
         })}

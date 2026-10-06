@@ -1,0 +1,235 @@
+{
+  "textbook": "统编版小学认字一年级上册",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "识字（一）· 天地自然",
+      "knowledge_points": [
+        {
+          "name": "看字认拼音",
+          "description": "在「识字（一）· 天地自然」中认读生字并选择正确拼音。",
+          "difficulty": 1,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "看拼音认字",
+          "description": "根据拼音选出「识字（一）· 天地自然」对应的汉字。",
+          "difficulty": 1,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "拼音填空",
+          "description": "给出生字，正确写出拼音（含声调）。",
+          "difficulty": 2,
+          "question_types": [
+            "填空"
+          ]
+        },
+        {
+          "name": "汉字填空",
+          "description": "给出拼音，正确写出对应的汉字。",
+          "difficulty": 2,
+          "question_types": [
+            "填空"
+          ]
+        },
+        {
+          "name": "读音判断",
+          "description": "判断「字—拼音」对应关系是否正确。",
+          "difficulty": 1,
+          "question_types": [
+            "判断"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "识字（二）· 家庭与身体",
+      "knowledge_points": [
+        {
+          "name": "看字认拼音",
+          "description": "在「识字（二）· 家庭与身体」中认读生字并选择正确拼音。",
+          "difficulty": 1,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "看拼音认字",
+          "description": "根据拼音选出「识字（二）· 家庭与身体」对应的汉字。",
+          "difficulty": 1,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "拼音填空",
+          "description": "给出生字，正确写出拼音（含声调）。",
+          "difficulty": 2,
+          "question_types": [
+            "填空"
+          ]
+        },
+        {
+          "name": "汉字填空",
+          "description": "给出拼音，正确写出对应的汉字。",
+          "difficulty": 2,
+          "question_types": [
+            "填空"
+          ]
+        },
+        {
+          "name": "读音判断",
+          "description": "判断「字—拼音」对应关系是否正确。",
+          "difficulty": 1,
+          "question_types": [
+            "判断"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "拼音识字 · 单韵母与声母",
+      "knowledge_points": [
+        {
+          "name": "看字认拼音",
+          "description": "在「拼音识字 · 单韵母与声母」中认读生字并选择正确拼音。",
+          "difficulty": 1,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "看拼音认字",
+          "description": "根据拼音选出「拼音识字 · 单韵母与声母」对应的汉字。",
+          "difficulty": 1,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "拼音填空",
+          "description": "给出生字，正确写出拼音（含声调）。",
+          "difficulty": 2,
+          "question_types": [
+            "填空"
+          ]
+        },
+        {
+          "name": "汉字填空",
+          "description": "给出拼音，正确写出对应的汉字。",
+          "difficulty": 2,
+          "question_types": [
+            "填空"
+          ]
+        },
+        {
+          "name": "读音判断",
+          "description": "判断「字—拼音」对应关系是否正确。",
+          "difficulty": 1,
+          "question_types": [
+            "判断"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "识字（三）· 数字与校园",
+      "knowledge_points": [
+        {
+          "name": "看字认拼音",
+          "description": "在「识字（三）· 数字与校园」中认读生字并选择正确拼音。",
+          "difficulty": 1,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "看拼音认字",
+          "description": "根据拼音选出「识字（三）· 数字与校园」对应的汉字。",
+          "difficulty": 1,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "拼音填空",
+          "description": "给出生字，正确写出拼音（含声调）。",
+          "difficulty": 2,
+          "question_types": [
+            "填空"
+          ]
+        },
+        {
+          "name": "汉字填空",
+          "description": "给出拼音，正确写出对应的汉字。",
+          "difficulty": 2,
+          "question_types": [
+            "填空"
+          ]
+        },
+        {
+          "name": "读音判断",
+          "description": "判断「字—拼音」对应关系是否正确。",
+          "difficulty": 1,
+          "question_types": [
+            "判断"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "综合认读 · 课文常用字",
+      "knowledge_points": [
+        {
+          "name": "看字认拼音",
+          "description": "在「综合认读 · 课文常用字」中认读生字并选择正确拼音。",
+          "difficulty": 1,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "看拼音认字",
+          "description": "根据拼音选出「综合认读 · 课文常用字」对应的汉字。",
+          "difficulty": 1,
+          "question_types": [
+            "选择"
+          ]
+        },
+        {
+          "name": "拼音填空",
+          "description": "给出生字，正确写出拼音（含声调）。",
+          "difficulty": 2,
+          "question_types": [
+            "填空"
+          ]
+        },
+        {
+          "name": "汉字填空",
+          "description": "给出拼音，正确写出对应的汉字。",
+          "difficulty": 2,
+          "question_types": [
+            "填空"
+          ]
+        },
+        {
+          "name": "读音判断",
+          "description": "判断「字—拼音」对应关系是否正确。",
+          "difficulty": 1,
+          "question_types": [
+            "判断"
+          ]
+        }
+      ]
+    }
+  ]
+}

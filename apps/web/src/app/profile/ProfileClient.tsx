@@ -29,6 +29,17 @@ import {
   Gem,
 } from "@/components/icons";
 import { ThemeModeToggle } from "@/components/ThemeModeToggle";
+import {
+  adoptCode,
+  forgetCode,
+  isAutoSyncEnabled,
+  normalizeCode,
+  probeCode,
+  setAutoSync,
+  syncNow,
+  useCloudStatus,
+  type RemoteSave,
+} from "@/lib/cloudSync";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
 
@@ -265,6 +276,11 @@ export function ProfileClient() {
         {/* 💾 数据 · 存档备份（E2）：导出 / 导入，BackupEnvelope v1 双端互通 */}
         <BackupSection />
 
+        {/* ☁️ 云端存档：存档码 + 自动同步，换浏览器/设备可接续 */}
+        <div className="lg:col-span-2 mt-6 lg:mt-0">
+          <CloudSection />
+        </div>
+
         {/* 🚩 已报告的问题（E2）：本地列表 + 一键导出 */}
         <div className="lg:col-span-2 mt-6 lg:mt-0">
           {hydrated && <ReportsSection />}
@@ -455,6 +471,298 @@ function BackupSection() {
           </div>
         </div>
       </Modal>
+    </section>
+  );
+}
+
+// ============================================================
+// ☁️ 云端存档（存档码 + PostgreSQL）
+// ============================================================
+
+function fmtSync(iso: string | null): string {
+  if (!iso) return "还没同步过";
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return iso;
+  return d.toLocaleString("zh-CN", {
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
+async function copyText(text: string): Promise<boolean> {
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+  } catch {
+    /* 非安全上下文下 clipboard 会抛错，走下面的兜底 */
+  }
+  try {
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    document.body.appendChild(ta);
+    ta.select();
+    const ok = document.execCommand("copy");
+    ta.remove();
+    return ok;
+  } catch {
+    return false;
+  }
+}
+
+function CloudSection() {
+  const toast = useToast();
+  const cloud = useCloudStatus();
+  const localXp = useProgressStore(s => s.xp);
+  const localStreak = useProgressStore(s => s.streak);
+  const localLessons = useProgressStore(
+    s => Object.keys(s.completedLessons).length,
+  );
+
+  const [revealed, setRevealed] = useState(false);
+  const [busy, setBusy] = useState(false);
+  const [auto, setAuto] = useState(() => isAutoSyncEnabled());
+  const [input, setInput] = useState("");
+  const [remote, setRemote] = useState<RemoteSave | null>(null);
+  const [remoteError, setRemoteError] = useState<string | null>(null);
+
+  async function handleSync() {
+    if (busy) return;
+    setBusy(true);
+    playSfx("tap");
+    haptic("light");
+    const result = await syncNow();
+    setBusy(false);
+    switch (result.kind) {
+      case "created":
+        setRevealed(true);
+        toast.success(`☁️ 已生成云端存档码 ${result.code}`, 4000);
+        break;
+      case "pushed":
+        toast.success("☁️ 本机进度已上传", 2200);
+        break;
+      case "pulled":
+        toast.success("☁️ 已换成云端存档，正在刷新…", 2400);
+        break;
+      case "unchanged":
+        toast.info("云端和本机已经一样了", 2000);
+        break;
+      case "empty":
+        toast.info("还没有学习进度，先学一课再同步吧", 2600);
+        break;
+      default:
+        toast.error(`同步没成功：${result.message}`);
+    }
+  }
+
+  async function handleLookup() {
+    setRemote(null);
+    setRemoteError(null);
+    const code = normalizeCode(input);
+    if (!code) {
+      setRemoteError("存档码是 8 位字母数字，再看看抄对了吗");
+      return;
+    }
+    setBusy(true);
+    const probe = await probeCode(code);
+    setBusy(false);
+    if (!probe.ok) {
+      setRemoteError(probe.error);
+      return;
+    }
+    playSfx("tap");
+    setRemote(probe.data);
+  }
+
+  async function handleAdopt() {
+    if (!remote || busy) return;
+    setBusy(true);
+    playSfx("unlock");
+    haptic("success");
+    const result = await adoptCode(remote.code);
+    setBusy(false);
+    if (result.kind === "error") {
+      toast.error(`接续失败：${result.message}`);
+      return;
+    }
+    setInput("");
+    setRemote(null);
+    toast.success("☁️ 已接上云端存档，正在刷新…", 2400);
+  }
+
+  const phaseText =
+    cloud.phase === "syncing"
+      ? "同步中…"
+      : cloud.phase === "error"
+        ? `上次失败：${cloud.message ?? "未知原因"}`
+        : cloud.lastDirection === "pull"
+          ? "刚从云端取回"
+          : cloud.lastDirection === "push"
+            ? "本机已上传"
+            : cloud.code
+              ? "已是最新"
+              : "未连接";
+
+  return (
+    <section
+      className="bg-white rounded-3xl border-2 border-bg-softer p-5"
+      style={{ boxShadow: "0 4px 0 0 var(--shadow-card-color)" }}
+    >
+      <div className="flex items-center justify-between mb-1">
+        <div className="text-base font-extrabold text-ink">☁️ 云端存档</div>
+        <span className="text-[10px] text-ink-softer uppercase tracking-wider">
+          换浏览器 / 换设备可接续
+        </span>
+      </div>
+      <div className="text-xs text-ink-light mb-3">
+        每学一课会自动存到服务器上，凭一个存档码就能在任何设备上接着学
+      </div>
+
+      <div className="flex flex-wrap items-center gap-3">
+        <div className="flex items-baseline gap-2">
+          <span className="text-xs text-ink-light">存档码</span>
+          <span className="text-2xl font-extrabold tracking-[0.2em] text-ink">
+            {cloud.code ? (revealed ? cloud.code : "••••••••") : "待生成"}
+          </span>
+        </div>
+        {cloud.code && (
+          <div className="flex gap-2">
+            <button
+              type="button"
+              onClick={() => {
+                playSfx("tap");
+                setRevealed(v => !v);
+              }}
+              className="h-9 px-3 rounded-2xl text-xs font-extrabold border-2 border-bg-softer bg-white text-ink-light"
+            >
+              {revealed ? "隐藏" : "显示"}
+            </button>
+            <button
+              type="button"
+              onClick={async () => {
+                if (!cloud.code) return;
+                const ok = await copyText(cloud.code);
+                toast[ok ? "success" : "error"](
+                  ok ? "存档码已复制，抄在纸上也行" : "复制不了，请照着记下来",
+                  2400,
+                );
+              }}
+              className="h-9 px-3 rounded-2xl text-xs font-extrabold border-2 border-bg-softer bg-white text-ink-light"
+            >
+              复制
+            </button>
+          </div>
+        )}
+      </div>
+
+      <div className="mt-3 flex items-center justify-between text-xs text-ink-light">
+        <span>
+          {phaseText} · {fmtSync(cloud.syncedAt)}
+        </span>
+        <label className="inline-flex items-center gap-1.5 cursor-pointer select-none">
+          <input
+            type="checkbox"
+            checked={auto}
+            onChange={e => {
+              setAuto(e.target.checked);
+              setAutoSync(e.target.checked);
+              if (e.target.checked) void syncNow();
+            }}
+          />
+          自动同步
+        </label>
+      </div>
+
+      <div className="mt-4 flex flex-wrap gap-2">
+        <button
+          type="button"
+          onClick={handleSync}
+          disabled={busy}
+          className="h-10 px-4 inline-flex items-center gap-1.5 rounded-2xl text-sm font-extrabold border-2 bg-primary text-white border-primary disabled:opacity-50"
+          style={{ boxShadow: "0 3px 0 0 #58A700" }}
+        >
+          {busy ? "处理中…" : "🔄 立即同步"}
+        </button>
+        {cloud.code && (
+          <button
+            type="button"
+            onClick={() => {
+              forgetCode();
+              toast.info("本机已解除绑定，云端那份存档还在", 2800);
+            }}
+            className="h-10 px-4 inline-flex items-center gap-1.5 rounded-2xl text-sm font-extrabold border-2 bg-white text-ink-light border-bg-softer"
+            style={{ boxShadow: "0 2px 0 0 var(--shadow-card-color)" }}
+          >
+            解除本机绑定
+          </button>
+        )}
+      </div>
+
+      <div className="mt-5 pt-4 border-t-2 border-bg-softer">
+        <div className="text-sm font-extrabold text-ink mb-1">
+          换个设备接着学
+        </div>
+        <div className="text-xs text-ink-light mb-2">
+          在别的浏览器上抄下同一个存档码，点这里就能把进度搬过来
+        </div>
+        <div className="flex flex-wrap gap-2">
+          <input
+            value={input}
+            onChange={e => {
+              setInput(e.target.value.toUpperCase());
+              setRemote(null);
+              setRemoteError(null);
+            }}
+            placeholder="8 位存档码"
+            maxLength={9}
+            className="h-10 px-3 rounded-2xl border-2 border-bg-softer bg-white text-sm font-extrabold tracking-[0.15em] text-ink uppercase w-40"
+          />
+          <button
+            type="button"
+            onClick={handleLookup}
+            disabled={busy}
+            className="h-10 px-4 rounded-2xl text-sm font-extrabold border-2 bg-white text-ink-light border-bg-softer disabled:opacity-50"
+            style={{ boxShadow: "0 2px 0 0 var(--shadow-card-color)" }}
+          >
+            查一下
+          </button>
+        </div>
+        {remoteError && (
+          <div className="mt-2 text-xs font-bold text-danger">😕 {remoteError}</div>
+        )}
+        {remote && (
+          <div
+            className="mt-3 rounded-2xl bg-bg-soft p-3 text-xs text-ink-light leading-relaxed"
+          >
+            <div className="text-sm font-extrabold text-ink mb-1">
+              云端那份存档
+            </div>
+            <div>
+              {remote.summary?.lessons ?? 0} 节完成课程 · {remote.summary?.xp ?? 0} XP ·
+              连胜 {remote.summary?.streak ?? 0} 天
+            </div>
+            <div>
+              由 {remote.deviceLabel || "另一台设备"} 存于 {fmtSync(remote.updatedAt)}
+            </div>
+            <div className="mt-1 font-bold text-ink">
+              本机现在是 {localLessons} 节 · {localXp} XP · 连胜 {localStreak} 天
+            </div>
+            <button
+              type="button"
+              onClick={handleAdopt}
+              disabled={busy}
+              className="mt-3 btn-chunky-danger w-full"
+            >
+              用云端这份覆盖本机
+            </button>
+          </div>
+        )}
+      </div>
     </section>
   );
 }

@@ -39,13 +39,34 @@ function seededShuffle<T>(arr: T[], seed: number): T[] {
 const EN_VOWELS = "aeiou";
 const EN_CONSONANTS = "bcdfghklmnprstwy";
 
+/** 带声调的拼音字母池（认字科目 fill_blank_text） */
+const PINYIN_VOWELS = "aeiouāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜü";
+const PINYIN_CONSONANTS = "bpmfdtnlgkhjqxzcszhchshryw";
+
+/** 是否为拼音作答：只有带声调的音节才需要拼音键盘（纯字母答案走英文分支） */
+function isPinyinAnswer(ans: string): boolean {
+  return /[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜü]/.test(ans);
+}
+
 /** 根据答案生成候选字列表（答案字 + 干扰字，打散） */
 function buildCandidates(answerStr: string, questionId: number): string[] {
+  // === 拼音作答：干扰项用拼音字母（含声调元音），与认字题对齐 ===
+  if (isPinyinAnswer(answerStr)) {
+    const answerChars = [...new Set(answerStr.replace(/\s+/g, "").split(""))];
+    const need = Math.max(9, answerChars.length + 4);
+    const distractorCount = need - answerChars.length;
+    const pool = (PINYIN_VOWELS + PINYIN_CONSONANTS)
+      .split("")
+      .filter(c => !answerChars.includes(c));
+    const shuffled = seededShuffle(pool, questionId + 11);
+    const distractors = shuffled.slice(0, distractorCount);
+    return seededShuffle([...answerChars, ...distractors], questionId);
+  }
+
   // === 英文单词答案：干扰项用小写字母（元音/辅音合理配比），不混中文字 ===
   if (/^[a-zA-Z][a-zA-Z\s'-]*$/.test(answerStr.trim())) {
-    const answerChars = [
-      ...new Set(answerStr.toLowerCase().replace(/[^a-z]/g, "").split("")),
-    ];
+    // 保留答案自身大小写：「写出大写字母」这类题不能只给小写键
+    const answerChars = [...new Set(answerStr.replace(/[^A-Za-z]/g, "").split(""))];
     const need = Math.max(9, answerChars.length + 4);
     const distractorCount = need - answerChars.length;
     // 干扰项约 1/3 元音、2/3 辅音，贴近英文字母的自然分布
@@ -86,7 +107,10 @@ export function FillBlankTextQuestion({
   locked = false,
 }: QuestionRendererProps) {
   const disabled = phase === "checked";
-  const cancelNarrate = useAutoNarrate([question.audio?.question], question.id);
+  const cancelNarrate = useAutoNarrate(
+    [{ src: question.audio?.question, text: question.question }],
+    question.id,
+  );
 
   const candidates = useMemo(
     () => buildCandidates(question.answer, question.id),
@@ -122,6 +146,11 @@ export function FillBlankTextQuestion({
 
   // 键盘列数：候选字 <= 9 用 3 列，否则 4 列
   const cols = candidates.length <= 9 ? 3 : 4;
+  const padLabel = isPinyinAnswer(question.answer)
+    ? "点下方拼音作答"
+    : /^[a-zA-Z]/.test(question.answer.trim())
+      ? "点下方字母作答"
+      : "点下方汉字作答";
 
   return (
     <div className="w-full">
@@ -129,7 +158,12 @@ export function FillBlankTextQuestion({
         <div className="text-xl font-bold text-ink leading-relaxed whitespace-pre-wrap flex-1">
           <MathText text={question.question} />
         </div>
-        <TTSButton src={question.audio?.question} className="mt-1" label="朗读题目" />
+        <TTSButton
+          src={question.audio?.question}
+          text={question.question}
+          className="mt-1"
+          label="朗读题目"
+        />
       </div>
 
       {/* 答案显示区 */}
@@ -139,7 +173,7 @@ export function FillBlankTextQuestion({
         animate={{ scale: 1, opacity: 1 }}
         transition={{ type: "spring", damping: 18, stiffness: 260 }}
       >
-        {answer || <span className="text-ink-light/50 text-xl font-bold">点下方汉字作答</span>}
+        {answer || <span className="text-ink-light/50 text-xl font-bold">{padLabel}</span>}
       </motion.div>
 
       {phase === "checked" && !isCorrect && (

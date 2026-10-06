@@ -1,0 +1,2915 @@
+{
+  "textbook": "统编版小学认字三年级下册",
+  "unit": "第三单元 · 中华传统",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第3单元「第三单元 · 中华传统」认字与拼音练习",
+    "total_score": 100,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「屠」的正确读音是？（提示词：屠杀）",
+        "options": [
+          "hún",
+          "yì",
+          "mù",
+          "tú"
+        ],
+        "answer": "tú",
+        "explanation": "「屠」读作 tú，可以组词「屠杀」。",
+        "audio": {
+          "question": "/audio/19/19eab0e0abf5e4c071909297e3d93f507ff761c1.mp3",
+          "options": [
+            "/audio/pinyin/hun2.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/mu4.mp3",
+            "/audio/pinyin/tu2.mp3"
+          ],
+          "explanation": "/audio/88/88b73a71ae1e6ab6bbfe5b4490689aff63dcbd16.mp3"
+        }
+      },
+      {
+        "id": 2,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「苏」的正确读音是？（提示词：苏醒）",
+        "options": [
+          "hún",
+          "sū",
+          "dú",
+          "jiǔ"
+        ],
+        "answer": "sū",
+        "explanation": "「苏」读作 sū，可以组词「苏醒」。",
+        "audio": {
+          "question": "/audio/39/39925459ee056c3ddaa6392c504c5292b8d3d4ae.mp3",
+          "options": [
+            "/audio/pinyin/hun2.mp3",
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/du2.mp3",
+            "/audio/pinyin/jiu3.mp3"
+          ],
+          "explanation": "/audio/77/77512012462a420d1b1b89d42ab6279e23e43e06.mp3"
+        }
+      },
+      {
+        "id": 3,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「魂」的正确读音是？（提示词：灵魂）",
+        "options": [
+          "dú",
+          "tú",
+          "hún",
+          "jiǔ"
+        ],
+        "answer": "hún",
+        "explanation": "「魂」读作 hún，可以组词「灵魂」。",
+        "audio": {
+          "question": "/audio/72/722b3b9af6b2159f32f37142d9c012ecca0fdc07.mp3",
+          "options": [
+            "/audio/pinyin/du2.mp3",
+            "/audio/pinyin/tu2.mp3",
+            "/audio/pinyin/hun2.mp3",
+            "/audio/pinyin/jiu3.mp3"
+          ],
+          "explanation": "/audio/26/26146cea2d1fe6317becca0c20cd3f7428264dbe.mp3"
+        }
+      },
+      {
+        "id": 4,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「酒」的正确读音是？（提示词：酒杯）",
+        "options": [
+          "jiǔ",
+          "jiā",
+          "tú",
+          "sū"
+        ],
+        "answer": "jiǔ",
+        "explanation": "「酒」读作 jiǔ，可以组词「酒杯」。",
+        "audio": {
+          "question": "/audio/44/44423196bcec1e7adbac504252e17cf7018bb05d.mp3",
+          "options": [
+            "/audio/pinyin/jiu3.mp3",
+            "/audio/pinyin/jia1.mp3",
+            "/audio/pinyin/tu2.mp3",
+            "/audio/pinyin/su1.mp3"
+          ],
+          "explanation": "/audio/49/49016d3dd638c11f1d3c81d332ab55d760ec5697.mp3"
+        }
+      },
+      {
+        "id": 5,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「牧」的正确读音是？（提示词：放牧）",
+        "options": [
+          "sū",
+          "tú",
+          "hún",
+          "mù"
+        ],
+        "answer": "mù",
+        "explanation": "「牧」读作 mù，可以组词「放牧」。",
+        "audio": {
+          "question": "/audio/32/323b61c66b539b804235fb212db3bec231b7d33e.mp3",
+          "options": [
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/tu2.mp3",
+            "/audio/pinyin/hun2.mp3",
+            "/audio/pinyin/mu4.mp3"
+          ],
+          "explanation": "/audio/68/680792ac99f666ba4abbe207ae6d9bc5175f6c82.mp3"
+        }
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「兄」的正确读音是？（提示词：兄弟）",
+        "options": [
+          "mù",
+          "xiōng",
+          "yì",
+          "tú"
+        ],
+        "answer": "xiōng",
+        "explanation": "「兄」读作 xiōng，可以组词「兄弟」。",
+        "audio": {
+          "question": "/audio/91/91e947fd0d8aab031098af881529941281e01b18.mp3",
+          "options": [
+            "/audio/pinyin/mu4.mp3",
+            "/audio/pinyin/xiong1.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/tu2.mp3"
+          ],
+          "explanation": "/audio/66/66e35b38c7832ffa93079d345934b4a3c9d649c2.mp3"
+        }
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「独」的正确读音是？（提示词：独自）",
+        "options": [
+          "dú",
+          "sū",
+          "tú",
+          "mù"
+        ],
+        "answer": "dú",
+        "explanation": "「独」读作 dú，可以组词「独自」。",
+        "audio": {
+          "question": "/audio/02/02fb4e6f6cbf783182bae9a56cf9a5224de7fb22.mp3",
+          "options": [
+            "/audio/pinyin/du2.mp3",
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/tu2.mp3",
+            "/audio/pinyin/mu4.mp3"
+          ],
+          "explanation": "/audio/89/894a8545a4cdd1a19b31d624ac222b38544f1f2f.mp3"
+        }
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「异」的正确读音是？（提示词：异乡）",
+        "options": [
+          "sū",
+          "jiā",
+          "hún",
+          "yì"
+        ],
+        "answer": "yì",
+        "explanation": "「异」读作 yì，可以组词「异乡」。",
+        "audio": {
+          "question": "/audio/24/243f5752d39e2254e5424e051c1efcc52e3dca56.mp3",
+          "options": [
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/jia1.mp3",
+            "/audio/pinyin/hun2.mp3",
+            "/audio/pinyin/yi4.mp3"
+          ],
+          "explanation": "/audio/05/0560e9f13b8afa2e69e563fcc34749576fdb1130.mp3"
+        }
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「佳」的正确读音是？（提示词：佳节）",
+        "options": [
+          "yì",
+          "tú",
+          "jiā",
+          "mù"
+        ],
+        "answer": "jiā",
+        "explanation": "「佳」读作 jiā，可以组词「佳节」。",
+        "audio": {
+          "question": "/audio/42/42cc006859fd341b7c2de433593af035306fb670.mp3",
+          "options": [
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/tu2.mp3",
+            "/audio/pinyin/jia1.mp3",
+            "/audio/pinyin/mu4.mp3"
+          ],
+          "explanation": "/audio/5e/5eff01f4b579ecdd81af72d2bbb1d13d51d414dc.mp3"
+        }
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「倍」的正确读音是？（提示词：加倍）",
+        "options": [
+          "bèi",
+          "tú",
+          "jiǔ",
+          "sū"
+        ],
+        "answer": "bèi",
+        "explanation": "「倍」读作 bèi，可以组词「加倍」。",
+        "audio": {
+          "question": "/audio/83/8396c5558afe84d16d631a78079bd1b7616a1216.mp3",
+          "options": [
+            "/audio/pinyin/bei4.mp3",
+            "/audio/pinyin/tu2.mp3",
+            "/audio/pinyin/jiu3.mp3",
+            "/audio/pinyin/su1.mp3"
+          ],
+          "explanation": "/audio/85/852521e7172fd288aa71dc3d1c4fcd35d2ed881e.mp3"
+        }
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「创」的正确读音是？（提示词：创造）",
+        "options": [
+          "cún",
+          "chuàng",
+          "hún",
+          "dú"
+        ],
+        "answer": "chuàng",
+        "explanation": "「创」读作 chuàng，可以组词「创造」。",
+        "audio": {
+          "question": "/audio/db/dbd0a656f0a41f2940a923435f60c49dea2712d0.mp3",
+          "options": [
+            "/audio/pinyin/cun2.mp3",
+            "/audio/pinyin/chuang4.mp3",
+            "/audio/pinyin/hun2.mp3",
+            "/audio/pinyin/du2.mp3"
+          ],
+          "explanation": "/audio/3b/3b46fb45207298866412fea9272f81b3c71cbcfc.mp3"
+        }
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「携」的正确读音是？（提示词：携带）",
+        "options": [
+          "xiàn",
+          "jiǔ",
+          "xiōng",
+          "xié"
+        ],
+        "answer": "xié",
+        "explanation": "「携」读作 xié，可以组词「携带」。",
+        "audio": {
+          "question": "/audio/7c/7c026038bf86f61ac9f66e08f75bdc3249c8b456.mp3",
+          "options": [
+            "/audio/pinyin/xian4.mp3",
+            "/audio/pinyin/jiu3.mp3",
+            "/audio/pinyin/xiong1.mp3",
+            "/audio/pinyin/xie2.mp3"
+          ],
+          "explanation": "/audio/49/49f9b17799f7d35f00da49330cf32e84ef00218b.mp3"
+        }
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「蔡」的正确读音是？（提示词：姓蔡）",
+        "options": [
+          "cài",
+          "jiǔ",
+          "yì",
+          "mù"
+        ],
+        "answer": "cài",
+        "explanation": "「蔡」读作 cài，可以组词「姓蔡」。",
+        "audio": {
+          "question": "/audio/a5/a51b72001fea5780f1a38f8c0493e9db200f4aa3.mp3",
+          "options": [
+            "/audio/pinyin/cai4.mp3",
+            "/audio/pinyin/jiu3.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/mu4.mp3"
+          ],
+          "explanation": "/audio/0a/0a856efe0abec99c4f4d346f21a47dbde6a14ca9.mp3"
+        }
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「伦」的正确读音是？（提示词：伦理）",
+        "options": [
+          "sū",
+          "jiǔ",
+          "lún",
+          "xiōng"
+        ],
+        "answer": "lún",
+        "explanation": "「伦」读作 lún，可以组词「伦理」。",
+        "audio": {
+          "question": "/audio/1c/1c4c98402d51d0088aca0f9d6ada14370995306c.mp3",
+          "options": [
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/jiu3.mp3",
+            "/audio/pinyin/lun2.mp3",
+            "/audio/pinyin/xiong1.mp3"
+          ],
+          "explanation": "/audio/5d/5deddbbebf02ced6f85eeea99516c87b3cfb68ca.mp3"
+        }
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「存」的正确读音是？（提示词：存在）",
+        "options": [
+          "jiǔ",
+          "hún",
+          "mù",
+          "cún"
+        ],
+        "answer": "cún",
+        "explanation": "「存」读作 cún，可以组词「存在」。",
+        "audio": {
+          "question": "/audio/cd/cd86c66f6e321c428a1a35a244719bea589ab544.mp3",
+          "options": [
+            "/audio/pinyin/jiu3.mp3",
+            "/audio/pinyin/hun2.mp3",
+            "/audio/pinyin/mu4.mp3",
+            "/audio/pinyin/cun2.mp3"
+          ],
+          "explanation": "/audio/9f/9fd5f3d095262858bdd9e8def21f422e74faa02e.mp3"
+        }
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「社」的正确读音是？（提示词：社会）",
+        "options": [
+          "dú",
+          "shè",
+          "hún",
+          "sū"
+        ],
+        "answer": "shè",
+        "explanation": "「社」读作 shè，可以组词「社会」。",
+        "audio": {
+          "question": "/audio/9b/9b28d2345d09ca6d09bfd565e2a29e27e03a344b.mp3",
+          "options": [
+            "/audio/pinyin/du2.mp3",
+            "/audio/pinyin/she4.mp3",
+            "/audio/pinyin/hun2.mp3",
+            "/audio/pinyin/su1.mp3"
+          ],
+          "explanation": "/audio/db/db4a947ab034e52a46ac7b8288644bcd77518119.mp3"
+        }
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「欧」的正确读音是？（提示词：欧洲）",
+        "options": [
+          "jiǔ",
+          "ōu",
+          "hún",
+          "zhōu"
+        ],
+        "answer": "ōu",
+        "explanation": "「欧」读作 ōu，可以组词「欧洲」。",
+        "audio": {
+          "question": "/audio/97/97c7fb44ae81f423af52bb0606b6710c0b9e88d5.mp3",
+          "options": [
+            "/audio/pinyin/jiu3.mp3",
+            "/audio/pinyin/ou1.mp3",
+            "/audio/pinyin/hun2.mp3",
+            "/audio/pinyin/zhou1.mp3"
+          ],
+          "explanation": "/audio/e2/e217b590c51daa5695f0bb18c59bd1124a9ee50b.mp3"
+        }
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「洲」的正确读音是？（提示词：亚洲）",
+        "options": [
+          "hún",
+          "mù",
+          "sū",
+          "zhōu"
+        ],
+        "answer": "zhōu",
+        "explanation": "「洲」读作 zhōu，可以组词「亚洲」。",
+        "audio": {
+          "question": "/audio/e0/e006729992aa753d4c106d78d1e1c180538417a1.mp3",
+          "options": [
+            "/audio/pinyin/hun2.mp3",
+            "/audio/pinyin/mu4.mp3",
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/zhou1.mp3"
+          ],
+          "explanation": "/audio/45/4562e1fede79dfd1da50dff1b9bdcaf21addbf22.mp3"
+        }
+      },
+      {
+        "id": 19,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「历」的正确读音是？（提示词：历史）",
+        "options": [
+          "jiǔ",
+          "yì",
+          "lì",
+          "xiōng"
+        ],
+        "answer": "lì",
+        "explanation": "「历」读作 lì，可以组词「历史」。",
+        "audio": {
+          "question": "/audio/f4/f4dbc5d0d62ddefb22e2b0846cb48906b3746efd.mp3",
+          "options": [
+            "/audio/pinyin/jiu3.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/li4.mp3",
+            "/audio/pinyin/xiong1.mp3"
+          ],
+          "explanation": "/audio/ef/efa74eaa40339596c37bc02832cc2c4932997e99.mp3"
+        }
+      },
+      {
+        "id": 20,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「史」的正确读音是？（提示词：历史）",
+        "options": [
+          "shǐ",
+          "hún",
+          "jiǔ",
+          "tú"
+        ],
+        "answer": "shǐ",
+        "explanation": "「史」读作 shǐ，可以组词「历史」。",
+        "audio": {
+          "question": "/audio/b4/b4b29880cd9a2fb264fce96efb23eac3d83dadbe.mp3",
+          "options": [
+            "/audio/pinyin/shi3.mp3",
+            "/audio/pinyin/hun2.mp3",
+            "/audio/pinyin/jiu3.mp3",
+            "/audio/pinyin/tu2.mp3"
+          ],
+          "explanation": "/audio/91/9149d7f2b2832b5a642e6239a17e0267a4c3ddae.mp3"
+        }
+      },
+      {
+        "id": 21,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「册」的正确读音是？（提示词：手册）",
+        "options": [
+          "cè",
+          "mù",
+          "xiōng",
+          "tú"
+        ],
+        "answer": "cè",
+        "explanation": "「册」读作 cè，可以组词「手册」。",
+        "audio": {
+          "question": "/audio/00/00fe45ddc7d9e53d0bd882ac4348d1dc0bd830c3.mp3",
+          "options": [
+            "/audio/pinyin/ce4.mp3",
+            "/audio/pinyin/mu4.mp3",
+            "/audio/pinyin/xiong1.mp3",
+            "/audio/pinyin/tu2.mp3"
+          ],
+          "explanation": "/audio/6b/6b5822f62d79c016ffc9299ba5ff19a2dea8c0ed.mp3"
+        }
+      },
+      {
+        "id": 22,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「保」的正确读音是？（提示词：保护）",
+        "options": [
+          "sū",
+          "hún",
+          "bǎo",
+          "yì"
+        ],
+        "answer": "bǎo",
+        "explanation": "「保」读作 bǎo，可以组词「保护」。",
+        "audio": {
+          "question": "/audio/6f/6f8869d166c89844e7a7b3e948845df1b78d0fa9.mp3",
+          "options": [
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/hun2.mp3",
+            "/audio/pinyin/bao3.mp3",
+            "/audio/pinyin/yi4.mp3"
+          ],
+          "explanation": "/audio/b9/b9204d685c86044f6dd2cb56777dad633c64991e.mp3"
+        }
+      },
+      {
+        "id": 23,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「约」的正确读音是？（提示词：大约）",
+        "options": [
+          "yuē",
+          "hún",
+          "tú",
+          "jiǔ"
+        ],
+        "answer": "yuē",
+        "explanation": "「约」读作 yuē，可以组词「大约」。",
+        "audio": {
+          "question": "/audio/24/24ebd22145e065fd0686cb0b78f89712f1a769e5.mp3",
+          "options": [
+            "/audio/pinyin/yue1.mp3",
+            "/audio/pinyin/hun2.mp3",
+            "/audio/pinyin/tu2.mp3",
+            "/audio/pinyin/jiu3.mp3"
+          ],
+          "explanation": "/audio/29/296a658f7f66801496768cc8625d40fda98c6b9b.mp3"
+        }
+      },
+      {
+        "id": 24,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「验」的正确读音是？（提示词：实验）",
+        "options": [
+          "sū",
+          "mù",
+          "tú",
+          "yàn"
+        ],
+        "answer": "yàn",
+        "explanation": "「验」读作 yàn，可以组词「实验」。",
+        "audio": {
+          "question": "/audio/76/76a7870a1989ec10b7e8c29f0301b66018841b43.mp3",
+          "options": [
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/mu4.mp3",
+            "/audio/pinyin/tu2.mp3",
+            "/audio/pinyin/yan4.mp3"
+          ],
+          "explanation": "/audio/9a/9a601a35f2bc0649eefd2b25907ee2b27363e386.mp3"
+        }
+      },
+      {
+        "id": 25,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「阿」的正确读音是？（提示词：阿姨）",
+        "options": [
+          "ā",
+          "mù",
+          "cún",
+          "yì"
+        ],
+        "answer": "ā",
+        "explanation": "「阿」读作 ā，可以组词「阿姨」。",
+        "audio": {
+          "question": "/audio/6e/6e79f8a3105b497c365085a0b5b2769b1b508c92.mp3",
+          "options": [
+            "/audio/pinyin/a1.mp3",
+            "/audio/pinyin/mu4.mp3",
+            "/audio/pinyin/cun2.mp3",
+            "/audio/pinyin/yi4.mp3"
+          ],
+          "explanation": "/audio/ca/cad0ed6bee68696df6ea432643d09c28a293f388.mp3"
+        }
+      },
+      {
+        "id": 26,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「伯」的正确读音是？（提示词：大伯）",
+        "options": [
+          "hún",
+          "tú",
+          "sū",
+          "bó"
+        ],
+        "answer": "bó",
+        "explanation": "「伯」读作 bó，可以组词「大伯」。",
+        "audio": {
+          "question": "/audio/76/760e756c9d2489db7db9b1c805743acef5d76feb.mp3",
+          "options": [
+            "/audio/pinyin/hun2.mp3",
+            "/audio/pinyin/tu2.mp3",
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/bo2.mp3"
+          ],
+          "explanation": "/audio/4f/4ff07752c0b437d41a3c2e3fe2dee44c321507dc.mp3"
+        }
+      },
+      {
+        "id": 27,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「县」的正确读音是？（提示词：县城）",
+        "options": [
+          "dú",
+          "tú",
+          "xiōng",
+          "xiàn"
+        ],
+        "answer": "xiàn",
+        "explanation": "「县」读作 xiàn，可以组词「县城」。",
+        "audio": {
+          "question": "/audio/e2/e2a68ee03cc80cd4157ab9d7be411aa2a910a693.mp3",
+          "options": [
+            "/audio/pinyin/du2.mp3",
+            "/audio/pinyin/tu2.mp3",
+            "/audio/pinyin/xiong1.mp3",
+            "/audio/pinyin/xian4.mp3"
+          ],
+          "explanation": "/audio/87/87b62c703b1ca399ffa6d9cfd69e5cb28295f598.mp3"
+        }
+      },
+      {
+        "id": 28,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「匠」的正确读音是？（提示词：工匠）",
+        "options": [
+          "xiōng",
+          "yì",
+          "sū",
+          "jiàng"
+        ],
+        "answer": "jiàng",
+        "explanation": "「匠」读作 jiàng，可以组词「工匠」。",
+        "audio": {
+          "question": "/audio/c8/c8c80ee7686d9a98a494a28c68a4b3d9ae53cc24.mp3",
+          "options": [
+            "/audio/pinyin/xiong1.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/jiang4.mp3"
+          ],
+          "explanation": "/audio/3a/3ae823f418d8c125b3e3009c5cf0cc065fb4dff0.mp3"
+        }
+      },
+      {
+        "id": 29,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「设」的正确读音是？（提示词：设计）",
+        "options": [
+          "mù",
+          "shè",
+          "sū",
+          "xiōng"
+        ],
+        "answer": "shè",
+        "explanation": "「设」读作 shè，可以组词「设计」。",
+        "audio": {
+          "question": "/audio/ce/cef2bae657af5f0d276fe69f01a66dbf6d301498.mp3",
+          "options": [
+            "/audio/pinyin/mu4.mp3",
+            "/audio/pinyin/she4.mp3",
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/xiong1.mp3"
+          ],
+          "explanation": "/audio/05/05b04d59948587857b3a40ff204bd1023406c4ee.mp3"
+        }
+      },
+      {
+        "id": 30,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「计」的正确读音是？（提示词：计算）",
+        "options": [
+          "jì",
+          "jiǔ",
+          "yì",
+          "jiǔ"
+        ],
+        "answer": "jì",
+        "explanation": "「计」读作 jì，可以组词「计算」。",
+        "audio": {
+          "question": "/audio/30/303089d065304867378b1d59293d0f656b84f855.mp3",
+          "options": [
+            "/audio/pinyin/ji4.mp3",
+            "/audio/pinyin/jiu3.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/jiu3.mp3"
+          ],
+          "explanation": "/audio/fb/fbbfcc219896cdfe4158f201a5e58f4d0a8f1eca.mp3"
+        }
+      },
+      {
+        "id": 31,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「举」的正确读音是？（提示词：举手）",
+        "options": [
+          "sū",
+          "yì",
+          "jǔ",
+          "xiōng"
+        ],
+        "answer": "jǔ",
+        "explanation": "「举」读作 jǔ，可以组词「举手」。",
+        "audio": {
+          "question": "/audio/12/12646b7b1b160236eb81948f9e12bdd290c7fa95.mp3",
+          "options": [
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/ju3.mp3",
+            "/audio/pinyin/xiong1.mp3"
+          ],
+          "explanation": "/audio/28/28c8468a17ea2bc6d0ee50db3e5259d08a46cd4b.mp3"
+        }
+      },
+      {
+        "id": 32,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「且」的正确读音是？（提示词：而且）",
+        "options": [
+          "qiě",
+          "xiōng",
+          "yì",
+          "mù"
+        ],
+        "answer": "qiě",
+        "explanation": "「且」读作 qiě，可以组词「而且」。",
+        "audio": {
+          "question": "/audio/7e/7ec8c3deb8a7aea6d6c347aff42e4a5c5ad30215.mp3",
+          "options": [
+            "/audio/pinyin/qie3.mp3",
+            "/audio/pinyin/xiong1.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/mu4.mp3"
+          ],
+          "explanation": "/audio/63/63382b6b40334ca1d033f1c1feae195737f94c45.mp3"
+        }
+      },
+      {
+        "id": 33,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「智」的正确读音是？（提示词：智慧）",
+        "options": [
+          "mù",
+          "zhōu",
+          "tú",
+          "zhì"
+        ],
+        "answer": "zhì",
+        "explanation": "「智」读作 zhì，可以组词「智慧」。",
+        "audio": {
+          "question": "/audio/59/599475493a35694e532d957cf54f0b04b362a227.mp3",
+          "options": [
+            "/audio/pinyin/mu4.mp3",
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/tu2.mp3",
+            "/audio/pinyin/zhi4.mp3"
+          ],
+          "explanation": "/audio/dc/dc63536489cbc6db3c489b6a98c9a30346a8b288.mp3"
+        }
+      },
+      {
+        "id": 34,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「慧」的正确读音是？（提示词：智慧）",
+        "options": [
+          "dú",
+          "huì",
+          "jiǔ",
+          "mù"
+        ],
+        "answer": "huì",
+        "explanation": "「慧」读作 huì，可以组词「智慧」。",
+        "audio": {
+          "question": "/audio/4c/4c24f39b36c955d22ce0f3f5ae6cb2f7af1581a5.mp3",
+          "options": [
+            "/audio/pinyin/du2.mp3",
+            "/audio/pinyin/hui4.mp3",
+            "/audio/pinyin/jiu3.mp3",
+            "/audio/pinyin/mu4.mp3"
+          ],
+          "explanation": "/audio/9a/9a6154fa15c97f1d6d95b6de99d7823f81a95d20.mp3"
+        }
+      },
+      {
+        "id": 35,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「tú」对应的汉字是？（词：屠杀）",
+        "options": [
+          "屠",
+          "且",
+          "历",
+          "魂"
+        ],
+        "answer": "屠",
+        "explanation": "「tú」写作「屠」，例如「屠杀」。",
+        "audio": {
+          "question": "/audio/05/057605138815864f77f5ede161424b94daf7448a.mp3",
+          "options": [
+            "/audio/pinyin/tu2.mp3",
+            "/audio/pinyin/qie3.mp3",
+            "/audio/pinyin/li4.mp3",
+            "/audio/pinyin/hun2.mp3"
+          ],
+          "explanation": "/audio/be/bed18e65819d14dd2ce903c45f3b830ccea3ddc9.mp3"
+        }
+      },
+      {
+        "id": 36,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「sū」对应的汉字是？（词：苏醒）",
+        "options": [
+          "牧",
+          "苏",
+          "佳",
+          "约"
+        ],
+        "answer": "苏",
+        "explanation": "「sū」写作「苏」，例如「苏醒」。",
+        "audio": {
+          "question": "/audio/0f/0fb3c5de4f9c8e6c221dc92e589f4434172bcdfe.mp3",
+          "options": [
+            "/audio/pinyin/mu4.mp3",
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/jia1.mp3",
+            "/audio/pinyin/yue1.mp3"
+          ],
+          "explanation": "/audio/cf/cf731d61d2401c4eecb425f7f31d9b31f7af5429.mp3"
+        }
+      },
+      {
+        "id": 37,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「hún」对应的汉字是？（词：灵魂）",
+        "options": [
+          "苏",
+          "魂",
+          "计",
+          "兄"
+        ],
+        "answer": "魂",
+        "explanation": "「hún」写作「魂」，例如「灵魂」。",
+        "audio": {
+          "question": "/audio/4e/4eb60584ace06c9cc62e894840df7911fb391968.mp3",
+          "options": [
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/hun2.mp3",
+            "/audio/pinyin/ji4.mp3",
+            "/audio/pinyin/xiong1.mp3"
+          ],
+          "explanation": "/audio/1f/1f9fbf3b8532e1e00689aa0f03de815d2eb3c292.mp3"
+        }
+      },
+      {
+        "id": 38,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jiǔ」对应的汉字是？（词：酒杯）",
+        "options": [
+          "酒",
+          "验",
+          "苏",
+          "册"
+        ],
+        "answer": "酒",
+        "explanation": "「jiǔ」写作「酒」，例如「酒杯」。",
+        "audio": {
+          "question": "/audio/1c/1c6c361f7666d9cd83cb305b120f0a8ad3195cc9.mp3",
+          "options": [
+            "/audio/pinyin/jiu3.mp3",
+            "/audio/pinyin/yan4.mp3",
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/ce4.mp3"
+          ],
+          "explanation": "/audio/79/7955506c523b3c12172959e5b9309e03eb649a9c.mp3"
+        }
+      },
+      {
+        "id": 39,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「mù」对应的汉字是？（词：放牧）",
+        "options": [
+          "计",
+          "慧",
+          "史",
+          "牧"
+        ],
+        "answer": "牧",
+        "explanation": "「mù」写作「牧」，例如「放牧」。",
+        "audio": {
+          "question": "/audio/da/daa8a0fc99bffabfce4c57bc94976a26d64d3dde.mp3",
+          "options": [
+            "/audio/pinyin/ji4.mp3",
+            "/audio/pinyin/hui4.mp3",
+            "/audio/pinyin/shi3.mp3",
+            "/audio/pinyin/mu4.mp3"
+          ],
+          "explanation": "/audio/78/78588d23da80a2bb360786d720b116aa896aef41.mp3"
+        }
+      },
+      {
+        "id": 40,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「xiōng」对应的汉字是？（词：兄弟）",
+        "options": [
+          "携",
+          "兄",
+          "智",
+          "县"
+        ],
+        "answer": "兄",
+        "explanation": "「xiōng」写作「兄」，例如「兄弟」。",
+        "audio": {
+          "question": "/audio/71/712f8d93745f8e34e170137b90388224da9ad0e7.mp3",
+          "options": [
+            "/audio/pinyin/xie2.mp3",
+            "/audio/pinyin/xiong1.mp3",
+            "/audio/pinyin/zhi4.mp3",
+            "/audio/pinyin/xian4.mp3"
+          ],
+          "explanation": "/audio/a4/a47aa24046fda844f7e60c1eac8f870d202e3bd7.mp3"
+        }
+      },
+      {
+        "id": 41,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「dú」对应的汉字是？（词：独自）",
+        "options": [
+          "苏",
+          "独",
+          "智",
+          "慧"
+        ],
+        "answer": "独",
+        "explanation": "「dú」写作「独」，例如「独自」。",
+        "audio": {
+          "question": "/audio/13/13117d417223e36d8c8b7e647d4788bbf630bf73.mp3",
+          "options": [
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/du2.mp3",
+            "/audio/pinyin/zhi4.mp3",
+            "/audio/pinyin/hui4.mp3"
+          ],
+          "explanation": "/audio/26/268594e46585269567e5baf462b126e7fcc5ab2c.mp3"
+        }
+      },
+      {
+        "id": 42,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「yì」对应的汉字是？（词：异乡）",
+        "options": [
+          "设",
+          "携",
+          "异",
+          "倍"
+        ],
+        "answer": "异",
+        "explanation": "「yì」写作「异」，例如「异乡」。",
+        "audio": {
+          "question": "/audio/58/58b0ea0c41cd03d935d8f325a6ae74b803a54578.mp3",
+          "options": [
+            "/audio/pinyin/she4.mp3",
+            "/audio/pinyin/xie2.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/bei4.mp3"
+          ],
+          "explanation": "/audio/3d/3d5eb8e810e10d32187f20b8fb6f3a8eea11a522.mp3"
+        }
+      },
+      {
+        "id": 43,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jiā」对应的汉字是？（词：佳节）",
+        "options": [
+          "欧",
+          "兄",
+          "阿",
+          "佳"
+        ],
+        "answer": "佳",
+        "explanation": "「jiā」写作「佳」，例如「佳节」。",
+        "audio": {
+          "question": "/audio/7b/7b195182fad211d1619c0825dbb67e66c07686b5.mp3",
+          "options": [
+            "/audio/pinyin/ou1.mp3",
+            "/audio/pinyin/xiong1.mp3",
+            "/audio/pinyin/a1.mp3",
+            "/audio/pinyin/jia1.mp3"
+          ],
+          "explanation": "/audio/0d/0dbe94d7a2dfb5e70cbaf95ac91741714140400d.mp3"
+        }
+      },
+      {
+        "id": 44,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「bèi」对应的汉字是？（词：加倍）",
+        "options": [
+          "计",
+          "册",
+          "苏",
+          "倍"
+        ],
+        "answer": "倍",
+        "explanation": "「bèi」写作「倍」，例如「加倍」。",
+        "audio": {
+          "question": "/audio/52/52d2cf1fec06a4eab6161041b83091a0d42075ff.mp3",
+          "options": [
+            "/audio/pinyin/ji4.mp3",
+            "/audio/pinyin/ce4.mp3",
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/bei4.mp3"
+          ],
+          "explanation": "/audio/41/416bed5eae3ade65021aca5b978000c91fa572d1.mp3"
+        }
+      },
+      {
+        "id": 45,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「chuàng」对应的汉字是？（词：创造）",
+        "options": [
+          "异",
+          "创",
+          "蔡",
+          "智"
+        ],
+        "answer": "创",
+        "explanation": "「chuàng」写作「创」，例如「创造」。",
+        "audio": {
+          "question": "/audio/96/963ce6754dd2dc8282d4dddc63dc77a3ee68ad3c.mp3",
+          "options": [
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/chuang4.mp3",
+            "/audio/pinyin/cai4.mp3",
+            "/audio/pinyin/zhi4.mp3"
+          ],
+          "explanation": "/audio/e6/e65f81e1b013d23c5bc49b6aae2bc8f6b16876cb.mp3"
+        }
+      },
+      {
+        "id": 46,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「xié」对应的汉字是？（词：携带）",
+        "options": [
+          "册",
+          "且",
+          "举",
+          "携"
+        ],
+        "answer": "携",
+        "explanation": "「xié」写作「携」，例如「携带」。",
+        "audio": {
+          "question": "/audio/f9/f97224ef9b426549f33b5c57cf6dd8fa72d6c6e7.mp3",
+          "options": [
+            "/audio/pinyin/ce4.mp3",
+            "/audio/pinyin/qie3.mp3",
+            "/audio/pinyin/ju3.mp3",
+            "/audio/pinyin/xie2.mp3"
+          ],
+          "explanation": "/audio/6e/6e8bd8b7026e8752d50819b56dbb0deb510e722e.mp3"
+        }
+      },
+      {
+        "id": 47,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「cài」对应的汉字是？（词：姓蔡）",
+        "options": [
+          "史",
+          "酒",
+          "册",
+          "蔡"
+        ],
+        "answer": "蔡",
+        "explanation": "「cài」写作「蔡」，例如「姓蔡」。",
+        "audio": {
+          "question": "/audio/68/6857b469f5314d12c23c016a042a958c67496c13.mp3",
+          "options": [
+            "/audio/pinyin/shi3.mp3",
+            "/audio/pinyin/jiu3.mp3",
+            "/audio/pinyin/ce4.mp3",
+            "/audio/pinyin/cai4.mp3"
+          ],
+          "explanation": "/audio/23/2347085a0f96510311bea0379a86eea2d576c411.mp3"
+        }
+      },
+      {
+        "id": 48,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「lún」对应的汉字是？（词：伦理）",
+        "options": [
+          "欧",
+          "伯",
+          "伦",
+          "苏"
+        ],
+        "answer": "伦",
+        "explanation": "「lún」写作「伦」，例如「伦理」。",
+        "audio": {
+          "question": "/audio/30/30ff2cb92aceb3d1e964f6cba711f4125c413076.mp3",
+          "options": [
+            "/audio/pinyin/ou1.mp3",
+            "/audio/pinyin/bo2.mp3",
+            "/audio/pinyin/lun2.mp3",
+            "/audio/pinyin/su1.mp3"
+          ],
+          "explanation": "/audio/61/618b4b4594232e83ee23e3d4602a70d667b53b29.mp3"
+        }
+      },
+      {
+        "id": 49,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「cún」对应的汉字是？（词：存在）",
+        "options": [
+          "存",
+          "历",
+          "举",
+          "约"
+        ],
+        "answer": "存",
+        "explanation": "「cún」写作「存」，例如「存在」。",
+        "audio": {
+          "question": "/audio/4f/4fc18c58366c3389245983946f6ef8e3c17ab5c1.mp3",
+          "options": [
+            "/audio/pinyin/cun2.mp3",
+            "/audio/pinyin/li4.mp3",
+            "/audio/pinyin/ju3.mp3",
+            "/audio/pinyin/yue1.mp3"
+          ],
+          "explanation": "/audio/fa/facacedf6a56238d3c3ac5a5e6c098b766d452f0.mp3"
+        }
+      },
+      {
+        "id": 50,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「shè」对应的汉字是？（词：社会）",
+        "options": [
+          "验",
+          "兄",
+          "社",
+          "阿"
+        ],
+        "answer": "社",
+        "explanation": "「shè」写作「社」，例如「社会」。",
+        "audio": {
+          "question": "/audio/53/5372632f6cced2c4c96f321dc4125611367efb7f.mp3",
+          "options": [
+            "/audio/pinyin/yan4.mp3",
+            "/audio/pinyin/xiong1.mp3",
+            "/audio/pinyin/she4.mp3",
+            "/audio/pinyin/a1.mp3"
+          ],
+          "explanation": "/audio/0b/0b7184d764b1899932f70f2be0e7e02916b5d108.mp3"
+        }
+      },
+      {
+        "id": 51,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「ōu」对应的汉字是？（词：欧洲）",
+        "options": [
+          "社",
+          "智",
+          "验",
+          "欧"
+        ],
+        "answer": "欧",
+        "explanation": "「ōu」写作「欧」，例如「欧洲」。",
+        "audio": {
+          "question": "/audio/5f/5fff63e2e1e0deb50d8de650346b028afa3ee994.mp3",
+          "options": [
+            "/audio/pinyin/she4.mp3",
+            "/audio/pinyin/zhi4.mp3",
+            "/audio/pinyin/yan4.mp3",
+            "/audio/pinyin/ou1.mp3"
+          ],
+          "explanation": "/audio/99/9916b328f5fe76490f5bb9561bc8d706507f7b2c.mp3"
+        }
+      },
+      {
+        "id": 52,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「zhōu」对应的汉字是？（词：亚洲）",
+        "options": [
+          "匠",
+          "保",
+          "洲",
+          "携"
+        ],
+        "answer": "洲",
+        "explanation": "「zhōu」写作「洲」，例如「亚洲」。",
+        "audio": {
+          "question": "/audio/60/6043056cf61807eda9fb66db3faef3f5ec85e1fa.mp3",
+          "options": [
+            "/audio/pinyin/jiang4.mp3",
+            "/audio/pinyin/bao3.mp3",
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/xie2.mp3"
+          ],
+          "explanation": "/audio/56/56a3ddb647fc757f26135c22ba897c2fc5c818c8.mp3"
+        }
+      },
+      {
+        "id": 53,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「lì」对应的汉字是？（词：历史）",
+        "options": [
+          "欧",
+          "慧",
+          "县",
+          "历"
+        ],
+        "answer": "历",
+        "explanation": "「lì」写作「历」，例如「历史」。",
+        "audio": {
+          "question": "/audio/f5/f5fa939a7871e6e6b78310ebe9d42479708ee930.mp3",
+          "options": [
+            "/audio/pinyin/ou1.mp3",
+            "/audio/pinyin/hui4.mp3",
+            "/audio/pinyin/xian4.mp3",
+            "/audio/pinyin/li4.mp3"
+          ],
+          "explanation": "/audio/7e/7e4b227a384c7f09c3ca987083c1868e5ba70b9b.mp3"
+        }
+      },
+      {
+        "id": 54,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「shǐ」对应的汉字是？（词：历史）",
+        "options": [
+          "倍",
+          "史",
+          "欧",
+          "屠"
+        ],
+        "answer": "史",
+        "explanation": "「shǐ」写作「史」，例如「历史」。",
+        "audio": {
+          "question": "/audio/e6/e686ec79940afba1931d53384a94466f50933e5a.mp3",
+          "options": [
+            "/audio/pinyin/bei4.mp3",
+            "/audio/pinyin/shi3.mp3",
+            "/audio/pinyin/ou1.mp3",
+            "/audio/pinyin/tu2.mp3"
+          ],
+          "explanation": "/audio/2d/2d26323e9b79a4591b252432a2c07f45d56a3ee0.mp3"
+        }
+      },
+      {
+        "id": 55,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「cè」对应的汉字是？（词：手册）",
+        "options": [
+          "册",
+          "举",
+          "牧",
+          "佳"
+        ],
+        "answer": "册",
+        "explanation": "「cè」写作「册」，例如「手册」。",
+        "audio": {
+          "question": "/audio/f5/f5aca6cb2ce01d43eca52e83ce6aac364dbfb150.mp3",
+          "options": [
+            "/audio/pinyin/ce4.mp3",
+            "/audio/pinyin/ju3.mp3",
+            "/audio/pinyin/mu4.mp3",
+            "/audio/pinyin/jia1.mp3"
+          ],
+          "explanation": "/audio/8b/8b865a5e5c516b99bf7ce6a529132afda73a72f2.mp3"
+        }
+      },
+      {
+        "id": 56,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「bǎo」对应的汉字是？（词：保护）",
+        "options": [
+          "保",
+          "洲",
+          "魂",
+          "历"
+        ],
+        "answer": "保",
+        "explanation": "「bǎo」写作「保」，例如「保护」。",
+        "audio": {
+          "question": "/audio/ae/ae929c2f9c076b3e53593830c546c22a14c96018.mp3",
+          "options": [
+            "/audio/pinyin/bao3.mp3",
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/hun2.mp3",
+            "/audio/pinyin/li4.mp3"
+          ],
+          "explanation": "/audio/77/778a0cda2922c90210f58f760401a23d1f99e3d1.mp3"
+        }
+      },
+      {
+        "id": 57,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「yuē」对应的汉字是？（词：大约）",
+        "options": [
+          "且",
+          "屠",
+          "约",
+          "县"
+        ],
+        "answer": "约",
+        "explanation": "「yuē」写作「约」，例如「大约」。",
+        "audio": {
+          "question": "/audio/85/85a6505656c352556312fab3083458aac2a14ad0.mp3",
+          "options": [
+            "/audio/pinyin/qie3.mp3",
+            "/audio/pinyin/tu2.mp3",
+            "/audio/pinyin/yue1.mp3",
+            "/audio/pinyin/xian4.mp3"
+          ],
+          "explanation": "/audio/d2/d2a07349668458585eb436a0487c6a79c51d6bb2.mp3"
+        }
+      },
+      {
+        "id": 58,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「yàn」对应的汉字是？（词：实验）",
+        "options": [
+          "佳",
+          "验",
+          "且",
+          "设"
+        ],
+        "answer": "验",
+        "explanation": "「yàn」写作「验」，例如「实验」。",
+        "audio": {
+          "question": "/audio/4e/4e4d3848a2a107f8ca692fef5f3fa9ca7a6f3aaa.mp3",
+          "options": [
+            "/audio/pinyin/jia1.mp3",
+            "/audio/pinyin/yan4.mp3",
+            "/audio/pinyin/qie3.mp3",
+            "/audio/pinyin/she4.mp3"
+          ],
+          "explanation": "/audio/01/01551f96b50d9ea6c0dac17a7c7a3c741c20f8ae.mp3"
+        }
+      },
+      {
+        "id": 59,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「ā」对应的汉字是？（词：阿姨）",
+        "options": [
+          "苏",
+          "设",
+          "阿",
+          "历"
+        ],
+        "answer": "阿",
+        "explanation": "「ā」写作「阿」，例如「阿姨」。",
+        "audio": {
+          "question": "/audio/36/36d5f59f81111c759dd461f60e91b68df818d74b.mp3",
+          "options": [
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/she4.mp3",
+            "/audio/pinyin/a1.mp3",
+            "/audio/pinyin/li4.mp3"
+          ],
+          "explanation": "/audio/d3/d31d30781dcd13c3c3ed4c3878710b14c2c7e61a.mp3"
+        }
+      },
+      {
+        "id": 60,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「bó」对应的汉字是？（词：大伯）",
+        "options": [
+          "伯",
+          "且",
+          "设",
+          "存"
+        ],
+        "answer": "伯",
+        "explanation": "「bó」写作「伯」，例如「大伯」。",
+        "audio": {
+          "question": "/audio/3e/3e4321da0fea6122d3c12cd471e199de14a86939.mp3",
+          "options": [
+            "/audio/pinyin/bo2.mp3",
+            "/audio/pinyin/qie3.mp3",
+            "/audio/pinyin/she4.mp3",
+            "/audio/pinyin/cun2.mp3"
+          ],
+          "explanation": "/audio/2f/2f70cc8290fabdb27d3196e7d7034d235494b44a.mp3"
+        }
+      },
+      {
+        "id": 61,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「xiàn」对应的汉字是？（词：县城）",
+        "options": [
+          "县",
+          "异",
+          "佳",
+          "史"
+        ],
+        "answer": "县",
+        "explanation": "「xiàn」写作「县」，例如「县城」。",
+        "audio": {
+          "question": "/audio/8e/8ebbda864da6170bb727208d4d7a7bff8bcd7a7b.mp3",
+          "options": [
+            "/audio/pinyin/xian4.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/jia1.mp3",
+            "/audio/pinyin/shi3.mp3"
+          ],
+          "explanation": "/audio/ea/ea2c8edc8cd157835d27734b9a65d643087685ee.mp3"
+        }
+      },
+      {
+        "id": 62,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jiàng」对应的汉字是？（词：工匠）",
+        "options": [
+          "智",
+          "苏",
+          "匠",
+          "史"
+        ],
+        "answer": "匠",
+        "explanation": "「jiàng」写作「匠」，例如「工匠」。",
+        "audio": {
+          "question": "/audio/77/774ea0fdbfa5fb090547c85e14a365cfc8f926f5.mp3",
+          "options": [
+            "/audio/pinyin/zhi4.mp3",
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/jiang4.mp3",
+            "/audio/pinyin/shi3.mp3"
+          ],
+          "explanation": "/audio/27/27cb29c75c6170010f19c003c7e704af7282b03e.mp3"
+        }
+      },
+      {
+        "id": 63,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「shè」对应的汉字是？（词：设计）",
+        "options": [
+          "智",
+          "约",
+          "设",
+          "洲"
+        ],
+        "answer": "设",
+        "explanation": "「shè」写作「设」，例如「设计」。",
+        "audio": {
+          "question": "/audio/23/232dad92f1a17a680805784f584a58bf5af93396.mp3",
+          "options": [
+            "/audio/pinyin/zhi4.mp3",
+            "/audio/pinyin/yue1.mp3",
+            "/audio/pinyin/she4.mp3",
+            "/audio/pinyin/zhou1.mp3"
+          ],
+          "explanation": "/audio/9a/9a2f15993d1f025f76b258a8c947bd9ff08aba28.mp3"
+        }
+      },
+      {
+        "id": 64,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jì」对应的汉字是？（词：计算）",
+        "options": [
+          "洲",
+          "蔡",
+          "创",
+          "计"
+        ],
+        "answer": "计",
+        "explanation": "「jì」写作「计」，例如「计算」。",
+        "audio": {
+          "question": "/audio/8e/8e573dc9420358c68323bce148d3804384508e60.mp3",
+          "options": [
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/cai4.mp3",
+            "/audio/pinyin/chuang4.mp3",
+            "/audio/pinyin/ji4.mp3"
+          ],
+          "explanation": "/audio/e5/e51ba206cc539a528050df3fa9b6043040cc6a00.mp3"
+        }
+      },
+      {
+        "id": 65,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「jǔ」对应的汉字是？（词：举手）",
+        "options": [
+          "倍",
+          "验",
+          "举",
+          "且"
+        ],
+        "answer": "举",
+        "explanation": "「jǔ」写作「举」，例如「举手」。",
+        "audio": {
+          "question": "/audio/f7/f72c340697ad2d8a1c36e32954c7a3b1c7d0f5f7.mp3",
+          "options": [
+            "/audio/pinyin/bei4.mp3",
+            "/audio/pinyin/yan4.mp3",
+            "/audio/pinyin/ju3.mp3",
+            "/audio/pinyin/qie3.mp3"
+          ],
+          "explanation": "/audio/cb/cba4fa1ea1f99504c1a7fb85eada348a29f7467f.mp3"
+        }
+      },
+      {
+        "id": 66,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「qiě」对应的汉字是？（词：而且）",
+        "options": [
+          "验",
+          "册",
+          "保",
+          "且"
+        ],
+        "answer": "且",
+        "explanation": "「qiě」写作「且」，例如「而且」。",
+        "audio": {
+          "question": "/audio/cd/cddae14bfc30907e1d954b4692097ae014077b4c.mp3",
+          "options": [
+            "/audio/pinyin/yan4.mp3",
+            "/audio/pinyin/ce4.mp3",
+            "/audio/pinyin/bao3.mp3",
+            "/audio/pinyin/qie3.mp3"
+          ],
+          "explanation": "/audio/d6/d6917c8323fb5fe49a7280a5a8e7c53ada0ce18d.mp3"
+        }
+      },
+      {
+        "id": 67,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「zhì」对应的汉字是？（词：智慧）",
+        "options": [
+          "县",
+          "保",
+          "洲",
+          "智"
+        ],
+        "answer": "智",
+        "explanation": "「zhì」写作「智」，例如「智慧」。",
+        "audio": {
+          "question": "/audio/20/202a46f80c5359a9073a0c4525ea6f5b28c3f72e.mp3",
+          "options": [
+            "/audio/pinyin/xian4.mp3",
+            "/audio/pinyin/bao3.mp3",
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/zhi4.mp3"
+          ],
+          "explanation": "/audio/db/db9eec72e3dac9c24180bb57ff285e0a956809e9.mp3"
+        }
+      },
+      {
+        "id": 68,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「huì」对应的汉字是？（词：智慧）",
+        "options": [
+          "历",
+          "且",
+          "慧",
+          "倍"
+        ],
+        "answer": "慧",
+        "explanation": "「huì」写作「慧」，例如「智慧」。",
+        "audio": {
+          "question": "/audio/78/7852fb200c3f71c6965b1571539c6169f70b3243.mp3",
+          "options": [
+            "/audio/pinyin/li4.mp3",
+            "/audio/pinyin/qie3.mp3",
+            "/audio/pinyin/hui4.mp3",
+            "/audio/pinyin/bei4.mp3"
+          ],
+          "explanation": "/audio/1e/1e8e8a2903d2ee7b21cd3d93b4d3b11d056c3b59.mp3"
+        }
+      },
+      {
+        "id": 69,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「匠」的拼音（词：工匠）",
+        "options": [],
+        "answer": "jiàng",
+        "explanation": "「匠」的拼音是 jiàng。",
+        "audio": {
+          "question": "/audio/c5/c53c5df13eb03d1c8bc440041e08fdb1f51951b7.mp3",
+          "explanation": "/audio/23/23678af6a25fb69c4ae014115c8275cbea804683.mp3"
+        }
+      },
+      {
+        "id": 70,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「举」的拼音（词：举手）",
+        "options": [],
+        "answer": "jǔ",
+        "explanation": "「举」的拼音是 jǔ。",
+        "audio": {
+          "question": "/audio/1f/1f3bbcd613256d75f915dd5936e7d08777a6d207.mp3",
+          "explanation": "/audio/5f/5fb94961f41e524f67ba0300aa43f43582e049c6.mp3"
+        }
+      },
+      {
+        "id": 71,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「佳」的拼音（词：佳节）",
+        "options": [],
+        "answer": "jiā",
+        "explanation": "「佳」的拼音是 jiā。",
+        "audio": {
+          "question": "/audio/7c/7c4538dedf4659ab84433baad317d14bd8df7805.mp3",
+          "explanation": "/audio/a4/a444c4ae9eb82b4bba3b82f2e565d81af2aa49e4.mp3"
+        }
+      },
+      {
+        "id": 72,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「县」的拼音（词：县城）",
+        "options": [],
+        "answer": "xiàn",
+        "explanation": "「县」的拼音是 xiàn。",
+        "audio": {
+          "question": "/audio/15/1552148fc15e2659b220d597c0ede4fa58282f4c.mp3",
+          "explanation": "/audio/50/50601d73ba21e3edb831bfb8b80db3c3f0d1ca64.mp3"
+        }
+      },
+      {
+        "id": 73,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「智」的拼音（词：智慧）",
+        "options": [],
+        "answer": "zhì",
+        "explanation": "「智」的拼音是 zhì。",
+        "audio": {
+          "question": "/audio/3c/3cda3688aca2175a89a9595429b919674993a560.mp3",
+          "explanation": "/audio/f1/f1c53930e5943ae6b65139e14e61c64a594e6607.mp3"
+        }
+      },
+      {
+        "id": 74,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「独」的拼音（词：独自）",
+        "options": [],
+        "answer": "dú",
+        "explanation": "「独」的拼音是 dú。",
+        "audio": {
+          "question": "/audio/55/55d468fbbec1fbde390d33e6038ff2c1d0199908.mp3",
+          "explanation": "/audio/10/10b6083a6a8620542af86b1a65add5f6cd0e0f8f.mp3"
+        }
+      },
+      {
+        "id": 75,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「历」的拼音（词：历史）",
+        "options": [],
+        "answer": "lì",
+        "explanation": "「历」的拼音是 lì。",
+        "audio": {
+          "question": "/audio/29/290a926dec58a26a9248134ea792ea033bdc4da4.mp3",
+          "explanation": "/audio/56/566205fa90e1da6cc2a9a6100e007d7ccead8c0c.mp3"
+        }
+      },
+      {
+        "id": 76,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「屠」的拼音（词：屠杀）",
+        "options": [],
+        "answer": "tú",
+        "explanation": "「屠」的拼音是 tú。",
+        "audio": {
+          "question": "/audio/cd/cdc535a33c1347eca1d31d531b385a6ef5eac463.mp3",
+          "explanation": "/audio/0c/0ce0e2bae439f055cecd55e815e203ec0cb91592.mp3"
+        }
+      },
+      {
+        "id": 77,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「倍」的拼音（词：加倍）",
+        "options": [],
+        "answer": "bèi",
+        "explanation": "「倍」的拼音是 bèi。",
+        "audio": {
+          "question": "/audio/60/60ef93701dd601ef1a06c88eda54a2225f672626.mp3",
+          "explanation": "/audio/54/54bc4247c9a3f05d2d08fd77d2baf93726a588fd.mp3"
+        }
+      },
+      {
+        "id": 78,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「设」的拼音（词：设计）",
+        "options": [],
+        "answer": "shè",
+        "explanation": "「设」的拼音是 shè。",
+        "audio": {
+          "question": "/audio/bf/bfa844540eff2de25c0b954eddef23f2a787011e.mp3",
+          "explanation": "/audio/93/9391161eb06339a615e21a38289eb79e6ca21957.mp3"
+        }
+      },
+      {
+        "id": 79,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「苏」的拼音（词：苏醒）",
+        "options": [],
+        "answer": "sū",
+        "explanation": "「苏」的拼音是 sū。",
+        "audio": {
+          "question": "/audio/a6/a6038999c1feaa3bed82749032af08b7d018cdc6.mp3",
+          "explanation": "/audio/50/5004f249d90a57f5f715ed7e52784761aac8f878.mp3"
+        }
+      },
+      {
+        "id": 80,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「异」的拼音（词：异乡）",
+        "options": [],
+        "answer": "yì",
+        "explanation": "「异」的拼音是 yì。",
+        "audio": {
+          "question": "/audio/88/88d38a8d17a224bf7bce262828fa4239367e50b2.mp3",
+          "explanation": "/audio/4d/4d531cd76743cf1747a8f1cbe2cd9e4626b865f2.mp3"
+        }
+      },
+      {
+        "id": 81,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「牧」的拼音（词：放牧）",
+        "options": [],
+        "answer": "mù",
+        "explanation": "「牧」的拼音是 mù。",
+        "audio": {
+          "question": "/audio/db/dba01f4b36b4cc08fcd1110249704415c9dc4c4a.mp3",
+          "explanation": "/audio/0d/0d349e65481835ae62dc917b5ed46b887710b7fc.mp3"
+        }
+      },
+      {
+        "id": 82,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「兄」的拼音（词：兄弟）",
+        "options": [],
+        "answer": "xiōng",
+        "explanation": "「兄」的拼音是 xiōng。",
+        "audio": {
+          "question": "/audio/89/891d7c1ceda84d2244a6012553fb0fc666123495.mp3",
+          "explanation": "/audio/2c/2c91330e33dd38face5dfa7ba7986508ddd09a73.mp3"
+        }
+      },
+      {
+        "id": 83,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「约」的拼音（词：大约）",
+        "options": [],
+        "answer": "yuē",
+        "explanation": "「约」的拼音是 yuē。",
+        "audio": {
+          "question": "/audio/5b/5ba27a71712d0441642c35e2552c8b826bbf81dd.mp3",
+          "explanation": "/audio/84/8449d30231d6e2087b21bb7373e0df714de73bcf.mp3"
+        }
+      },
+      {
+        "id": 84,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「阿」的拼音（词：阿姨）",
+        "options": [],
+        "answer": "ā",
+        "explanation": "「阿」的拼音是 ā。",
+        "audio": {
+          "question": "/audio/f1/f1123dfbec3a683ee4b29f3d8a9e2e47118568f2.mp3",
+          "explanation": "/audio/82/822b92dbc3774e5bc1f6b87f562cb87b4b2095c7.mp3"
+        }
+      },
+      {
+        "id": 85,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「创」的拼音（词：创造）",
+        "options": [],
+        "answer": "chuàng",
+        "explanation": "「创」的拼音是 chuàng。",
+        "audio": {
+          "question": "/audio/d3/d331b754ae999c2a9ca56971347726238877fc66.mp3",
+          "explanation": "/audio/63/63c2e3ef0cfa07b12c68396c9387c57eed1a86d0.mp3"
+        }
+      },
+      {
+        "id": 86,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「携」的拼音（词：携带）",
+        "options": [],
+        "answer": "xié",
+        "explanation": "「携」的拼音是 xié。",
+        "audio": {
+          "question": "/audio/d5/d5df6022c13e34482f12064d6e517b7367f33a3d.mp3",
+          "explanation": "/audio/1d/1d50570423c316da29d56a094595e2a407db0a82.mp3"
+        }
+      },
+      {
+        "id": 87,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「zhì」对应的汉字（词：智慧）",
+        "options": [],
+        "answer": "智",
+        "explanation": "「zhì」对应的汉字是「智」。",
+        "audio": {
+          "question": "/audio/e0/e058bc106c96498f209e223c2f74fa812416fed5.mp3",
+          "explanation": "/audio/5a/5a007860232fb6de111f80dc925402f1dfdbbd68.mp3"
+        }
+      },
+      {
+        "id": 88,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「jiàng」对应的汉字（词：工匠）",
+        "options": [],
+        "answer": "匠",
+        "explanation": "「jiàng」对应的汉字是「匠」。",
+        "audio": {
+          "question": "/audio/a1/a1b06399f9df0cc7abdfdfee416c2d4313e66ce6.mp3",
+          "explanation": "/audio/bb/bbf214e829adfef09aa0861c68dbe8110e84cbef.mp3"
+        }
+      },
+      {
+        "id": 89,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「ōu」对应的汉字（词：欧洲）",
+        "options": [],
+        "answer": "欧",
+        "explanation": "「ōu」对应的汉字是「欧」。",
+        "audio": {
+          "question": "/audio/bd/bd387349b21ffea6991b58f258e6975c8c2128a2.mp3",
+          "explanation": "/audio/7e/7e0e9238675c4f091e1a824107b313481f0d0e3c.mp3"
+        }
+      },
+      {
+        "id": 90,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「huì」对应的汉字（词：智慧）",
+        "options": [],
+        "answer": "慧",
+        "explanation": "「huì」对应的汉字是「慧」。",
+        "audio": {
+          "question": "/audio/d8/d884148279d950246d6d2cb95d32a77ced625417.mp3",
+          "explanation": "/audio/30/309accf1a324b5067c7206deaa3381166af33a42.mp3"
+        }
+      },
+      {
+        "id": 91,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「jiǔ」对应的汉字（词：酒杯）",
+        "options": [],
+        "answer": "酒",
+        "explanation": "「jiǔ」对应的汉字是「酒」。",
+        "audio": {
+          "question": "/audio/92/928fe6cb753aa48c6aa9a8097f3ef47c0706a107.mp3",
+          "explanation": "/audio/9e/9e77da487c33f6f3fff679003477263871e99de8.mp3"
+        }
+      },
+      {
+        "id": 92,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「qiě」对应的汉字（词：而且）",
+        "options": [],
+        "answer": "且",
+        "explanation": "「qiě」对应的汉字是「且」。",
+        "audio": {
+          "question": "/audio/70/70ba805f7c0dfe67d11e00dcfd4a6322c900b5e6.mp3",
+          "explanation": "/audio/fb/fbf3451f82c2f2427a3a10ab5501cd6b9c3ed3a9.mp3"
+        }
+      },
+      {
+        "id": 93,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「shè」对应的汉字（词：设计）",
+        "options": [],
+        "answer": "设",
+        "explanation": "「shè」对应的汉字是「设」。",
+        "audio": {
+          "question": "/audio/b0/b0e948a30789f3e9c45d9d6fabcad23fc1e504ea.mp3",
+          "explanation": "/audio/1d/1d40eddd83ce95abb644077c0891bf83df829a9b.mp3"
+        }
+      },
+      {
+        "id": 94,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「sū」对应的汉字（词：苏醒）",
+        "options": [],
+        "answer": "苏",
+        "explanation": "「sū」对应的汉字是「苏」。",
+        "audio": {
+          "question": "/audio/12/12e4fe3143279055b78e58549ceea9ee15f2548f.mp3",
+          "explanation": "/audio/01/01cfd65ddc1ad42dfe44065331234f644fe634b1.mp3"
+        }
+      },
+      {
+        "id": 95,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「cài」对应的汉字（词：姓蔡）",
+        "options": [],
+        "answer": "蔡",
+        "explanation": "「cài」对应的汉字是「蔡」。",
+        "audio": {
+          "question": "/audio/f7/f75fb833490ef710e71aa12284d281e67416b4f4.mp3",
+          "explanation": "/audio/e1/e1b21b4df6ff4a39365e3b92fb504542c2f13c9f.mp3"
+        }
+      },
+      {
+        "id": 96,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「bèi」对应的汉字（词：加倍）",
+        "options": [],
+        "answer": "倍",
+        "explanation": "「bèi」对应的汉字是「倍」。",
+        "audio": {
+          "question": "/audio/11/114025828a040c6bcd031a6a5e1275a8e0e4cb5c.mp3",
+          "explanation": "/audio/53/53d88cc58c6e68bb4b0508f32e615afcd6420767.mp3"
+        }
+      },
+      {
+        "id": 97,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「cún」对应的汉字（词：存在）",
+        "options": [],
+        "answer": "存",
+        "explanation": "「cún」对应的汉字是「存」。",
+        "audio": {
+          "question": "/audio/ab/abc077b4ff9a4d9c5ada644080d2bd1125715266.mp3",
+          "explanation": "/audio/8c/8cabd9c256d45ddd3c0cd435183945dadd7167d1.mp3"
+        }
+      },
+      {
+        "id": 98,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「bó」对应的汉字（词：大伯）",
+        "options": [],
+        "answer": "伯",
+        "explanation": "「bó」对应的汉字是「伯」。",
+        "audio": {
+          "question": "/audio/07/07eed0d0aef6994421c698c60a62ee443e1b5957.mp3",
+          "explanation": "/audio/91/91abcf1fa16540bf71a8fa341f63bbf286b4d62d.mp3"
+        }
+      },
+      {
+        "id": 99,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「lún」对应的汉字（词：伦理）",
+        "options": [],
+        "answer": "伦",
+        "explanation": "「lún」对应的汉字是「伦」。",
+        "audio": {
+          "question": "/audio/f1/f1bf19c388c5995eb14564728128d20f1d2e2c1d.mp3",
+          "explanation": "/audio/23/2317aa13b2718480bd783704a8a7e0f0a5100cd9.mp3"
+        }
+      },
+      {
+        "id": 100,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「lì」对应的汉字（词：历史）",
+        "options": [],
+        "answer": "历",
+        "explanation": "「lì」对应的汉字是「历」。",
+        "audio": {
+          "question": "/audio/ba/baec13e1bc8fd050b0ef4f7553e47ca5ec74efe8.mp3",
+          "explanation": "/audio/70/70700b0d44a5a99fa96eb9c4e3e76f09fc3832e2.mp3"
+        }
+      },
+      {
+        "id": 101,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「xiàn」对应的汉字（词：县城）",
+        "options": [],
+        "answer": "县",
+        "explanation": "「xiàn」对应的汉字是「县」。",
+        "audio": {
+          "question": "/audio/82/824bfdbfd4ba9d89479f20819b5a409219d14658.mp3",
+          "explanation": "/audio/71/718fb0bc07a92138bfced2b0e139bcf72144b39b.mp3"
+        }
+      },
+      {
+        "id": 102,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「xiōng」对应的汉字（词：兄弟）",
+        "options": [],
+        "answer": "兄",
+        "explanation": "「xiōng」对应的汉字是「兄」。",
+        "audio": {
+          "question": "/audio/56/565d7743c09331878c03003dee57f36e7afd10b8.mp3",
+          "explanation": "/audio/56/560326b7ca7734804622d9f1c3823b7046961da0.mp3"
+        }
+      },
+      {
+        "id": 103,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「shǐ」对应的汉字（词：历史）",
+        "options": [],
+        "answer": "史",
+        "explanation": "「shǐ」对应的汉字是「史」。",
+        "audio": {
+          "question": "/audio/00/00cf7b1f8a4e6c30f4ae13fc974f226ab5e61b16.mp3",
+          "explanation": "/audio/71/71145a0669d2b2fb68848be3a012e1314ceebd71.mp3"
+        }
+      },
+      {
+        "id": 104,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「mù」对应的汉字（词：放牧）",
+        "options": [],
+        "answer": "牧",
+        "explanation": "「mù」对应的汉字是「牧」。",
+        "audio": {
+          "question": "/audio/3d/3d2e5d8fbaef98075dc520dc3598fddf204c530e.mp3",
+          "explanation": "/audio/e9/e9f6810243dff290c21e546d9d828cabe5b8c6f0.mp3"
+        }
+      },
+      {
+        "id": 105,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「屠」读作 tú。（词：屠杀）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「屠」的读音是 tú。",
+        "audio": {
+          "question": "/audio/c3/c36ee24a67df65e57f54abe6fb56bd4810da3858.mp3",
+          "explanation": "/audio/69/69c5be9620b18564847f09c05b079d5c8f83c4c5.mp3"
+        }
+      },
+      {
+        "id": 106,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「牧」读作 zhì。（词：放牧）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「牧」应读 mù，不是 zhì。",
+        "audio": {
+          "question": "/audio/bf/bfae9836791d125808152c6bf6d8f0499e43b235.mp3",
+          "explanation": "/audio/58/58dbc151f5558625d388f878853cccd8d89c0418.mp3"
+        }
+      },
+      {
+        "id": 107,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「设」读作 shè。（词：设计）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「设」的读音是 shè。",
+        "audio": {
+          "question": "/audio/cf/cf5d03780aac44a835a772417121c54dd5462406.mp3",
+          "explanation": "/audio/60/604ea45299d90fc5f9ab9fe8b956fd035b6373a7.mp3"
+        }
+      },
+      {
+        "id": 108,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「携」读作 xiōng。（词：携带）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「携」应读 xié，不是 xiōng。",
+        "audio": {
+          "question": "/audio/18/1848ba4e11db7c5206876042aa2fcad4f343b84b.mp3",
+          "explanation": "/audio/4f/4f01c5ac255954779f0cce93bdb64dbde1cb04f0.mp3"
+        }
+      },
+      {
+        "id": 109,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「且」读作 qiě。（词：而且）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「且」的读音是 qiě。",
+        "audio": {
+          "question": "/audio/51/517f2461edd01f24ae46fe517352beb0ae856ad5.mp3",
+          "explanation": "/audio/77/7757efe6b85dcd69d6506cb557be68c82b21bc13.mp3"
+        }
+      },
+      {
+        "id": 110,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「伯」读作 bǎo。（词：大伯）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「伯」应读 bó，不是 bǎo。",
+        "audio": {
+          "question": "/audio/7e/7e6124cfd90fbe8f628ecc882400f9052e12cbfb.mp3",
+          "explanation": "/audio/1c/1cbb66a9d15c9cc300461396c7dda5075255c801.mp3"
+        }
+      },
+      {
+        "id": 111,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「史」读作 shǐ。（词：历史）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「史」的读音是 shǐ。",
+        "audio": {
+          "question": "/audio/a4/a4ec3a71505c5aab966fe736a9b09e17310ddf32.mp3",
+          "explanation": "/audio/bb/bbf6ce1acca6c87ae0d6060d4fc46109ace952e4.mp3"
+        }
+      },
+      {
+        "id": 112,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「历」读作 lún。（词：历史）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「历」应读 lì，不是 lún。",
+        "audio": {
+          "question": "/audio/66/66975244fe011d080f4886a73f1e007db8a04fe4.mp3",
+          "explanation": "/audio/e0/e0f2c5969d1b5394bdbf3b2747bfb4f47b31e857.mp3"
+        }
+      },
+      {
+        "id": 113,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「举」读作 jǔ。（词：举手）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「举」的读音是 jǔ。",
+        "audio": {
+          "question": "/audio/d0/d0da8832e845ef002a5f64691e956b523904e6eb.mp3",
+          "explanation": "/audio/50/50791acfb75ee7605e46d239fc81ffcc19b3a96c.mp3"
+        }
+      },
+      {
+        "id": 114,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「伦」读作 lì。（词：伦理）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「伦」应读 lún，不是 lì。",
+        "audio": {
+          "question": "/audio/3f/3f104ba5541194a34a930c93bcf2990acfd20b19.mp3",
+          "explanation": "/audio/c9/c954458f46e47b0753ffc48659a8b22b3dd4984f.mp3"
+        }
+      },
+      {
+        "id": 115,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「县」读作 xiàn。（词：县城）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「县」的读音是 xiàn。",
+        "audio": {
+          "question": "/audio/f7/f7931f69e8a4740a753d12d4c4ab90227fbd6726.mp3",
+          "explanation": "/audio/af/afce3a74dfe56cb4213135deeb837d747576eee4.mp3"
+        }
+      },
+      {
+        "id": 116,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「兄」读作 xié。（词：兄弟）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「兄」应读 xiōng，不是 xié。",
+        "audio": {
+          "question": "/audio/48/48206d545b7225e9a4416628087e4dc8029d60cc.mp3",
+          "explanation": "/audio/c7/c79840eef3ad97f6b9c6224e9f7f1cabafbe8738.mp3"
+        }
+      },
+      {
+        "id": 117,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「魂」读作 hún。（词：灵魂）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「魂」的读音是 hún。",
+        "audio": {
+          "question": "/audio/ee/eef05075fc17f8535028c234a1156e3b15fdfce0.mp3",
+          "explanation": "/audio/85/854bbbd1eeb22a8f93c2eec511e657f21f26c89b.mp3"
+        }
+      },
+      {
+        "id": 118,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「蔡」读作 cè。（词：姓蔡）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「蔡」应读 cài，不是 cè。",
+        "audio": {
+          "question": "/audio/51/51a02b698644478ce6aab2353d9b7e2cc3cd9b99.mp3",
+          "explanation": "/audio/ae/ae4002d0e527f23ada46ed07d5910abb0de45d55.mp3"
+        }
+      },
+      {
+        "id": 119,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「洲」读作 zhōu。（词：亚洲）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「洲」的读音是 zhōu。",
+        "audio": {
+          "question": "/audio/36/360e89d021c718c3d671a6ab73ee158a991d0380.mp3",
+          "explanation": "/audio/8d/8d95e1b181cfdd4d9563e3e3ed7c293664258b65.mp3"
+        }
+      },
+      {
+        "id": 120,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 2,
+        "knowledge_point": "读音判断",
+        "question": "「匠」读作 jǔ。（词：工匠）",
+        "options": [],
+        "answer": "错",
+        "explanation": "错误。「匠」应读 jiàng，不是 jǔ。",
+        "audio": {
+          "question": "/audio/db/dbef088d14b06d5644fb8f0e5a24c08a8c528be6.mp3",
+          "explanation": "/audio/bd/bd3895a50a0240cfda1f5cc92aa70c98a29fb052.mp3"
+        }
+      }
+    ]
+  },
+  "exam": {
+    "title": "第3单元「第三单元 · 中华传统」综合挑战",
+    "total_score": 100,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "id": 19,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「历」的正确读音是？（提示词：历史）",
+        "options": [
+          "jiǔ",
+          "yì",
+          "lì",
+          "xiōng"
+        ],
+        "answer": "lì",
+        "explanation": "「历」读作 lì，可以组词「历史」。",
+        "audio": {
+          "question": "/audio/f4/f4dbc5d0d62ddefb22e2b0846cb48906b3746efd.mp3",
+          "options": [
+            "/audio/pinyin/jiu3.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/li4.mp3",
+            "/audio/pinyin/xiong1.mp3"
+          ],
+          "explanation": "/audio/ef/efa74eaa40339596c37bc02832cc2c4932997e99.mp3"
+        }
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「蔡」的正确读音是？（提示词：姓蔡）",
+        "options": [
+          "cài",
+          "jiǔ",
+          "yì",
+          "mù"
+        ],
+        "answer": "cài",
+        "explanation": "「蔡」读作 cài，可以组词「姓蔡」。",
+        "audio": {
+          "question": "/audio/a5/a51b72001fea5780f1a38f8c0493e9db200f4aa3.mp3",
+          "options": [
+            "/audio/pinyin/cai4.mp3",
+            "/audio/pinyin/jiu3.mp3",
+            "/audio/pinyin/yi4.mp3",
+            "/audio/pinyin/mu4.mp3"
+          ],
+          "explanation": "/audio/0a/0a856efe0abec99c4f4d346f21a47dbde6a14ca9.mp3"
+        }
+      },
+      {
+        "id": 21,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看字认拼音",
+        "question": "「册」的正确读音是？（提示词：手册）",
+        "options": [
+          "cè",
+          "mù",
+          "xiōng",
+          "tú"
+        ],
+        "answer": "cè",
+        "explanation": "「册」读作 cè，可以组词「手册」。",
+        "audio": {
+          "question": "/audio/00/00fe45ddc7d9e53d0bd882ac4348d1dc0bd830c3.mp3",
+          "options": [
+            "/audio/pinyin/ce4.mp3",
+            "/audio/pinyin/mu4.mp3",
+            "/audio/pinyin/xiong1.mp3",
+            "/audio/pinyin/tu2.mp3"
+          ],
+          "explanation": "/audio/6b/6b5822f62d79c016ffc9299ba5ff19a2dea8c0ed.mp3"
+        }
+      },
+      {
+        "id": 56,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「bǎo」对应的汉字是？（词：保护）",
+        "options": [
+          "保",
+          "洲",
+          "魂",
+          "历"
+        ],
+        "answer": "保",
+        "explanation": "「bǎo」写作「保」，例如「保护」。",
+        "audio": {
+          "question": "/audio/ae/ae929c2f9c076b3e53593830c546c22a14c96018.mp3",
+          "options": [
+            "/audio/pinyin/bao3.mp3",
+            "/audio/pinyin/zhou1.mp3",
+            "/audio/pinyin/hun2.mp3",
+            "/audio/pinyin/li4.mp3"
+          ],
+          "explanation": "/audio/77/778a0cda2922c90210f58f760401a23d1f99e3d1.mp3"
+        }
+      },
+      {
+        "id": 44,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「bèi」对应的汉字是？（词：加倍）",
+        "options": [
+          "计",
+          "册",
+          "苏",
+          "倍"
+        ],
+        "answer": "倍",
+        "explanation": "「bèi」写作「倍」，例如「加倍」。",
+        "audio": {
+          "question": "/audio/52/52d2cf1fec06a4eab6161041b83091a0d42075ff.mp3",
+          "options": [
+            "/audio/pinyin/ji4.mp3",
+            "/audio/pinyin/ce4.mp3",
+            "/audio/pinyin/su1.mp3",
+            "/audio/pinyin/bei4.mp3"
+          ],
+          "explanation": "/audio/41/416bed5eae3ade65021aca5b978000c91fa572d1.mp3"
+        }
+      },
+      {
+        "id": 49,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音认字",
+        "question": "拼音「cún」对应的汉字是？（词：存在）",
+        "options": [
+          "存",
+          "历",
+          "举",
+          "约"
+        ],
+        "answer": "存",
+        "explanation": "「cún」写作「存」，例如「存在」。",
+        "audio": {
+          "question": "/audio/4f/4fc18c58366c3389245983946f6ef8e3c17ab5c1.mp3",
+          "options": [
+            "/audio/pinyin/cun2.mp3",
+            "/audio/pinyin/li4.mp3",
+            "/audio/pinyin/ju3.mp3",
+            "/audio/pinyin/yue1.mp3"
+          ],
+          "explanation": "/audio/fa/facacedf6a56238d3c3ac5a5e6c098b766d452f0.mp3"
+        }
+      },
+      {
+        "id": 79,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「苏」的拼音（词：苏醒）",
+        "options": [],
+        "answer": "sū",
+        "explanation": "「苏」的拼音是 sū。",
+        "audio": {
+          "question": "/audio/a6/a6038999c1feaa3bed82749032af08b7d018cdc6.mp3",
+          "explanation": "/audio/50/5004f249d90a57f5f715ed7e52784761aac8f878.mp3"
+        }
+      },
+      {
+        "id": 71,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「佳」的拼音（词：佳节）",
+        "options": [],
+        "answer": "jiā",
+        "explanation": "「佳」的拼音是 jiā。",
+        "audio": {
+          "question": "/audio/7c/7c4538dedf4659ab84433baad317d14bd8df7805.mp3",
+          "explanation": "/audio/a4/a444c4ae9eb82b4bba3b82f2e565d81af2aa49e4.mp3"
+        }
+      },
+      {
+        "id": 78,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拼音填空",
+        "question": "请写出「设」的拼音（词：设计）",
+        "options": [],
+        "answer": "shè",
+        "explanation": "「设」的拼音是 shè。",
+        "audio": {
+          "question": "/audio/bf/bfa844540eff2de25c0b954eddef23f2a787011e.mp3",
+          "explanation": "/audio/93/9391161eb06339a615e21a38289eb79e6ca21957.mp3"
+        }
+      },
+      {
+        "id": 89,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「ōu」对应的汉字（词：欧洲）",
+        "options": [],
+        "answer": "欧",
+        "explanation": "「ōu」对应的汉字是「欧」。",
+        "audio": {
+          "question": "/audio/bd/bd387349b21ffea6991b58f258e6975c8c2128a2.mp3",
+          "explanation": "/audio/7e/7e0e9238675c4f091e1a824107b313481f0d0e3c.mp3"
+        }
+      },
+      {
+        "id": 94,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「sū」对应的汉字（词：苏醒）",
+        "options": [],
+        "answer": "苏",
+        "explanation": "「sū」对应的汉字是「苏」。",
+        "audio": {
+          "question": "/audio/12/12e4fe3143279055b78e58549ceea9ee15f2548f.mp3",
+          "explanation": "/audio/01/01cfd65ddc1ad42dfe44065331234f644fe634b1.mp3"
+        }
+      },
+      {
+        "id": 92,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字填空",
+        "question": "请写出拼音「qiě」对应的汉字（词：而且）",
+        "options": [],
+        "answer": "且",
+        "explanation": "「qiě」对应的汉字是「且」。",
+        "audio": {
+          "question": "/audio/70/70ba805f7c0dfe67d11e00dcfd4a6322c900b5e6.mp3",
+          "explanation": "/audio/fb/fbf3451f82c2f2427a3a10ab5501cd6b9c3ed3a9.mp3"
+        }
+      },
+      {
+        "id": 117,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「魂」读作 hún。（词：灵魂）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「魂」的读音是 hún。",
+        "audio": {
+          "question": "/audio/ee/eef05075fc17f8535028c234a1156e3b15fdfce0.mp3",
+          "explanation": "/audio/85/854bbbd1eeb22a8f93c2eec511e657f21f26c89b.mp3"
+        }
+      },
+      {
+        "id": 105,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「屠」读作 tú。（词：屠杀）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「屠」的读音是 tú。",
+        "audio": {
+          "question": "/audio/c3/c36ee24a67df65e57f54abe6fb56bd4810da3858.mp3",
+          "explanation": "/audio/69/69c5be9620b18564847f09c05b079d5c8f83c4c5.mp3"
+        }
+      },
+      {
+        "id": 113,
+        "type": "true_false",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "读音判断",
+        "question": "「举」读作 jǔ。（词：举手）",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确。「举」的读音是 jǔ。",
+        "audio": {
+          "question": "/audio/d0/d0da8832e845ef002a5f64691e956b523904e6eb.mp3",
+          "explanation": "/audio/50/50791acfb75ee7605e46d239fc81ffcc19b3a96c.mp3"
+        }
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "看字认拼音",
+      "core_concept": "掌握本单元 34 个生字的正确读音。",
+      "key_formula": "看字 → 想读音 → 对选项",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第三单元 · 中华传统」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "看拼音认字",
+      "core_concept": "建立拼音到字形的稳定映射。",
+      "key_formula": "拼读 → 想字形 → 对选项",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第三单元 · 中华传统」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "拼音填空",
+      "core_concept": "巩固声母、韵母与声调的书写。",
+      "key_formula": "字 → 声母 + 韵母 + 声调",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第三单元 · 中华传统」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "汉字填空",
+      "core_concept": "在语境提示下从拼音还原字形。",
+      "key_formula": "拼音 → 词义线索 → 写字",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第三单元 · 中华传统」生字表，再做练习；错题进错题本复习。"
+    },
+    {
+      "point": "读音判断",
+      "core_concept": "辨析易错读音与形近字读音。",
+      "key_formula": "对照标准读音，判断对/错",
+      "common_mistakes": [
+        "声调标错位置",
+        "前后鼻音混淆（in/ing，en/eng）",
+        "形近字读音混用"
+      ],
+      "tips": "先跟读「第三单元 · 中华传统」生字表，再做练习；错题进错题本复习。"
+    }
+  ]
+}

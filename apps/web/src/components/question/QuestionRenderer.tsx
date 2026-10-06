@@ -14,6 +14,7 @@ import { FillBlankQuestion } from "./FillBlankQuestion";
 import { FillBlankTextQuestion } from "./FillBlankTextQuestion";
 import { WordOrderQuestion } from "./WordOrderQuestion";
 import { MatchingQuestion } from "./MatchingQuestion";
+import { WritingQuestion } from "./WritingQuestion";
 
 export type QuestionPhase = "answering" | "checked";
 
@@ -48,6 +49,8 @@ export function QuestionRenderer(props: QuestionRendererProps) {
       return <WordOrderQuestion {...props} />;
     case "matching":
       return <MatchingQuestion {...props} />;
+    case "writing":
+      return <WritingQuestion {...props} />;
     default:
       return <div className="text-danger">未知题型: {question.type}</div>;
   }

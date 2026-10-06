@@ -23,7 +23,10 @@ export function TrueFalseQuestion({
   locked = false,
 }: QuestionRendererProps) {
   const correctIsTrue = TRUE_VALUES.has(question.answer.trim());
-  const cancelNarrate = useAutoNarrate([question.audio?.question], question.id);
+  const cancelNarrate = useAutoNarrate(
+    [{ src: question.audio?.question, text: question.question }],
+    question.id,
+  );
 
   function select(label: "对" | "错") {
     if (locked || phase !== "answering") return;
@@ -89,7 +92,12 @@ export function TrueFalseQuestion({
         <div className="text-xl font-bold text-ink leading-relaxed flex-1">
           <MathText text={question.question} />
         </div>
-        <TTSButton src={question.audio?.question} className="mt-1" label="朗读题目" />
+        <TTSButton
+          src={question.audio?.question}
+          text={question.question}
+          className="mt-1"
+          label="朗读题目"
+        />
       </div>
       <div className="flex gap-3">
         {renderBtn("对", <Check className="w-10 h-10 text-primary" />, "1")}
