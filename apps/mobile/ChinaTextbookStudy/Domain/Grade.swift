@@ -30,40 +30,8 @@ enum Grade {
             return u == c
 
         case .choice:
-            // 用户侧只可能是选项字母或选项正文；标准答案可能是 "B" 或正文（含拼音 dì/bà 等）。
-            // 禁止把答案首字母 d 误当成选项 D —— 仅当整串是 A-D 单字母时才按字母解释。
-            let uRaw = trimmed
-            var cLetter: String? = nil
-            let correctTrimmed = correct.trimmingCharacters(in: .whitespacesAndNewlines)
-            if correctTrimmed.count == 1, let scal = correctTrimmed.uppercased().unicodeScalars.first,
-               scal.value >= 65, scal.value <= 68 {
-                cLetter = correctTrimmed.uppercased()
-            } else if !question.options.isEmpty {
-                let cn = normalize(correct)
-                if let idx = question.options.firstIndex(where: { opt in
-                    let stripped = stripOptionPrefix(opt)
-                    return normalize(opt) == cn || normalize(stripped) == cn
-                }), idx < 4 {
-                    cLetter = String(UnicodeScalar(65 + idx)!)
-                }
-            }
-            guard let cLetter else {
-                return normalize(userAnswer) == normalize(correct)
-            }
-            if uRaw.count == 1, let us = uRaw.uppercased().unicodeScalars.first,
-               us.value >= 65, us.value <= 68 {
-                return uRaw.uppercased() == cLetter
-            }
-            if !question.options.isEmpty {
-                let un = normalize(userAnswer)
-                if let idx = question.options.firstIndex(where: { opt in
-                    let stripped = stripOptionPrefix(opt)
-                    return normalize(opt) == un || normalize(stripped) == un
-                }), idx < 4 {
-                    return String(UnicodeScalar(65 + idx)!) == cLetter
-                }
-            }
-            return false
+            guard let c = correctChoiceLetter(question: question) else { return false }
+            return trimmed.uppercased() == c
 
         case .fillBlank, .calculation, .wordProblem:
             if normalize(userAnswer) == normalize(correct) { return true }
@@ -88,6 +56,24 @@ enum Grade {
 
     // MARK: - normalization helpers
 
+    static func correctChoiceLetter(question: Question) -> String? {
+        let answer = question.answer.trimmingCharacters(in: .whitespacesAndNewlines)
+        let exact = question.options.firstIndex { $0.trimmingCharacters(in: .whitespacesAndNewlines) == answer }
+        let normalized = question.options.firstIndex { normalize($0) == normalize(answer) }
+        let stripped = question.options.firstIndex { normalize(stripOptionPrefix($0)) == normalize(answer) }
+        if let index = exact ?? normalized ?? stripped {
+            return String(UnicodeScalar(65 + index)!)
+        }
+        let raw = answer.uppercased()
+        guard let first = raw.first, ("A"..."D").contains(String(first)) else { return nil }
+        let tail = raw.dropFirst()
+        guard tail.isEmpty || tail.first == "." || tail.first == "、" else { return nil }
+        let label = String(first)
+        guard let scalar = label.unicodeScalars.first,
+              Int(scalar.value) - 65 < question.options.count else { return nil }
+        return label
+    }
+
     static func normalize(_ s: String) -> String {
         var out = s.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
         out = out.components(separatedBy: .whitespacesAndNewlines).joined()
@@ -100,11 +86,12 @@ enum Grade {
 
     /// Strip leading "A. " / "B、" prefixes from option text.
     private static func stripOptionPrefix(_ s: String) -> String {
-        guard let first = s.first, ("A"..."D").contains(first) else { return s }
+        guard let first = s.first, ("A"..."D").contains(String(first).uppercased()) else { return s }
         var idx = s.index(after: s.startIndex)
         if idx < s.endIndex {
             let c = s[idx]
-            if c == "." || c == "、" { idx = s.index(after: idx) }
+            guard c == "." || c == "、" else { return s }
+            idx = s.index(after: idx)
             while idx < s.endIndex, s[idx].isWhitespace { idx = s.index(after: idx) }
             return String(s[idx...])
         }

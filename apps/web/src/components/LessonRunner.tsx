@@ -51,6 +51,8 @@ import { shouldIgnoreKey, isButtonTarget } from "./question/keyboard";
 import { Mascot, type MascotMood, type MascotReaction } from "./Mascot";
 import { MuteToggle, AutoNarrateToggle, useSyncMute } from "./MuteToggle";
 import { TTSButton } from "./TTSButton";
+import { useIntroNarration } from "@/lib/useIntroNarration";
+import { NarrationNextButton } from "./NarrationNextButton";
 import { useAutoNarrate } from "@/lib/useAutoNarrate";
 import { uiAudio } from "@/lib/uiAudio";
 import { playTTS } from "@/lib/tts";
@@ -266,16 +268,18 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
   const isDark = useIsDark();
   const backdropStyle = useMemo<React.CSSProperties>(() => {
     const item = getCosmeticById(backdropId) as LessonBackdrop | undefined;
-    const bd = item?.type === "lesson_backdrop" ? item.data : undefined;
-    // 背景美妆是**内联样式**，会压过 .theme-dark 对工具类的重映射：
-    //   浅色背景 + 深色模式 → text-ink 变白，题干白字浅底看不见
-    //   深色背景 + 亮色模式 → 反过来深字深底
-    // 所以只在背景自报的深浅（needsOverlay 即"我是深色背景"）与当前模式一致时才用它，
-    // 其余情况退回 --app-bg-soft（亮 #F7F7F7 / 暗 #131F24）。
-    if (!bd || !!bd.needsOverlay !== isDark) {
-      return { background: "var(--app-bg-soft)" };
+    if (!item || item.type !== "lesson_backdrop" || item.id === "backdrop_default") {
+      return { background: "var(--app-bg, #F7F7F7)" };
     }
-    return { background: bd.background };
+    // Keep equipped backgrounds visible while preserving dark-mode text contrast.
+    // .theme-dark 的 --lesson-backdrop-overlay 会把深色背景压暗，但亮色模式没有这层遮罩：
+    // needsOverlay（"我是深色背景"）的妆在亮色模式会让深字压深底，直接不用它。
+    if (item.data.needsOverlay && !isDark) {
+      return { background: "var(--app-bg, #F7F7F7)" };
+    }
+    return {
+      background: `linear-gradient(var(--lesson-backdrop-overlay, transparent), var(--lesson-backdrop-overlay, transparent)), ${item.data.background}`,
+    };
   }, [backdropId, isDark]);
   const prefersReduced = useReducedMotion();
 
@@ -2319,6 +2323,8 @@ function IntroCard({
                   src={knowledge.audio?.common_mistakes?.[i] ?? null}
                   size="sm"
                   label="朗读"
+                  disabled={narration.status === "playing" || narration.status === "loading"}
+                  onPlay={narration.locked ? narration.start : undefined}
                 />
               </li>
             );
@@ -2356,24 +2362,19 @@ function IntroCard({
   const [pageIdx, setPageIdx] = useState(0);
   const [direction, setDirection] = useState<1 | -1>(1);
   const [mascotReactKey, setMascotReactKey] = useState(0);
-  // mistake 页：当前正在播的条目下标（-1 = 没在播）。
-  // useAutoNarrate 给出的 idx 是过滤后的 srcs 索引，索引 0 是 bubble，所以条目 i 对应过滤后 idx (i+1)。
-  const [playingMistakeIdx, setPlayingMistakeIdx] = useState(-1);
   const isLast = pageIdx >= pages.length - 1;
   const current = pages[pageIdx];
-
-  // 翻到某一页时：先播气泡短句（"一起学！"），再依次播该页的全部音频段
-  const cancelNarrate = useAutoNarrate(
+  const contentSources = current?.audioSrcs ?? [];
+  const narration = useIntroNarration(
     [uiAudio(current?.bubbleText ?? ""), ...(current?.audioSrcs ?? [])],
-    pageIdx,
-    {
-      onSrcStart: idx => {
-        // idx 0 是 bubble，>=1 才是内容段，对应原数组 idx-1
-        setPlayingMistakeIdx(idx >= 1 ? idx - 1 : -1);
-      },
-      onAllDone: () => setPlayingMistakeIdx(-1),
-    },
+    `${lesson.id}:${pageIdx}`,
+    contentSources.some(Boolean),
   );
+  const cancelNarrate = narration.cancel;
+  const bubbleCount = uiAudio(current?.bubbleText ?? "") ? 1 : 0;
+  const playingContent = narration.status === "playing" ? narration.segment - bubbleCount : -1;
+  const playableMistakes = contentSources.map((src, i) => src ? i : -1).filter(i => i >= 0);
+  const playingMistakeIdx = playingContent >= 0 ? (playableMistakes[playingContent] ?? -1) : -1;
 
   // 进入每一页时：触发吉祥物反应动画 + 分层音效
   // 注意：依赖里只放 pageIdx，不能放 current（current 是 pages[pageIdx]，每次渲染都是新对象引用，会触发无限循环）
@@ -2387,6 +2388,7 @@ function IntroCard({
   }, [pageIdx]);
 
   function goNext() {
+    if (narration.locked) return;
     cancelNarrate();
     if (isLast) {
       // 最后一步：从"学"过渡到"练"，多层音效 + 强反馈
@@ -2418,7 +2420,7 @@ function IntroCard({
   const Icon = current.icon;
 
   return (
-    <main className="min-h-screen bg-bg-soft flex flex-col">
+    <main className="min-h-screen bg-bg-soft flex flex-col overflow-x-clip">
       {/* 顶栏：关闭 + 进度点 */}
       <div className="bg-white border-b border-bg-softer">
         <div className="max-w-md lg:max-w-2xl mx-auto px-4 py-3 flex items-center gap-3">
@@ -2429,7 +2431,7 @@ function IntroCard({
               haptic("light");
               onExit();
             }}
-            className="text-ink-light hover:text-ink transition-colors shrink-0"
+            className="w-11 h-11 inline-flex items-center justify-center text-ink-light hover:text-ink transition-colors shrink-0"
             aria-label="退出课程"
           >
             <Close className="w-6 h-6" />
@@ -2555,7 +2557,9 @@ function IntroCard({
                   {current.title}
                 </h1>
                 {current.titleAudio && (
-                  <TTSButton src={current.titleAudio} label="朗读讲解" />
+                  <TTSButton src={current.titleAudio} label="朗读讲解"
+                    disabled={narration.status === "playing" || narration.status === "loading"}
+                    onPlay={narration.locked ? narration.start : undefined} />
                 )}
               </motion.div>
 
@@ -2574,7 +2578,14 @@ function IntroCard({
       </div>
 
       {/* 底部：上一步 + 主按钮 */}
-      <div className="bg-white border-t-2 border-bg-softer">
+      <div className="bg-white border-t-2 border-bg-softer" style={{ paddingBottom: "env(safe-area-inset-bottom)" }}>
+        {narration.locked && (narration.muted || narration.status === "error") && <div className="max-w-md lg:max-w-2xl mx-auto px-5 pt-3 text-center text-sm text-ink-light" role="status">
+          {narration.locked && narration.muted ? (
+            <><span>当前已静音，可以阅读后继续。</span><button type="button" onClick={narration.continueWithoutAudio} className="ml-3 font-bold text-secondary-dark underline">阅读后继续</button></>
+          ) : narration.locked && narration.status === "error" ? (
+            <><span>语音暂时无法播放。</span><button type="button" onClick={narration.start} className="ml-3 font-bold text-secondary-dark underline">重新播放</button><button type="button" onClick={narration.continueWithoutAudio} className="ml-3 font-bold text-ink-light underline">阅读后继续</button></>
+          ) : null}
+        </div>}
         <div className="max-w-md lg:max-w-2xl mx-auto px-5 py-4 flex items-center gap-3">
           {pageIdx > 0 ? (
             <motion.button
@@ -2587,41 +2598,12 @@ function IntroCard({
               ←
             </motion.button>
           ) : null}
-          <motion.button
-            type="button"
+          <NarrationNextButton
+            locked={narration.locked}
+            progress={narration.progress}
+            isLast={isLast}
             onClick={goNext}
-            whileTap={{ scale: 0.96 }}
-            animate={
-              isLast
-                ? {
-                    // 最后一页：按钮带呼吸式光晕 + 上下弹跳
-                    y: [0, -2, 0],
-                    boxShadow: [
-                      "0 4px 0 0 #58A700, 0 0 0 0 rgba(88,204,2,0.6)",
-                      "0 4px 0 0 #58A700, 0 0 0 14px rgba(88,204,2,0)",
-                      "0 4px 0 0 #58A700, 0 0 0 0 rgba(88,204,2,0.6)",
-                    ],
-                  }
-                : {}
-            }
-            transition={
-              isLast
-                ? { duration: 1.4, repeat: Infinity, ease: "easeInOut" }
-                : undefined
-            }
-            className="flex-1 btn-chunky-primary flex items-center justify-center gap-2"
-          >
-            {isLast && <Rocket className="w-5 h-5" />}
-            <span>{isLast ? "开始练习" : "下一步"}</span>
-            <motion.span
-              aria-hidden
-              animate={{ x: [0, 6, 0] }}
-              transition={{ duration: 1.0, repeat: Infinity, ease: "easeInOut" }}
-              className="inline-block"
-            >
-              →
-            </motion.span>
-          </motion.button>
+          />
         </div>
       </div>
     </main>

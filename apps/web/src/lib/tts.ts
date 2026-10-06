@@ -27,10 +27,20 @@ export { isOnlinePollyEnabled, setOnlinePollyEnabled };
 
 let el: HTMLAudioElement | null = null;
 let currentSrc: string | null = null;
-let speechUtter: SpeechSynthesisUtterance | null = null;
+let finishCurrent: ((result: TTSPlaybackResult) => void) | null = null;
+
+export type TTSPlaybackResult = "ended" | "interrupted" | "error" | "blocked" | "muted" | "missing";
 
 const preloaded = new Map<string, HTMLAudioElement>();
 const PRELOAD_MAX = 24;
+
+function playbackSources(src: string): string[] {
+  // Persisted mistake questions can still point at the previous Ogg/Opus assets.
+  if (/^\/audio\/.+\.opus(?:[?#].*)?$/i.test(src)) {
+    return [src.replace(/\.opus(?=[?#]|$)/i, ".mp3"), src];
+  }
+  return [src];
+}
 
 function getEl(): HTMLAudioElement | null {
   if (typeof window === "undefined") return null;
@@ -57,7 +67,11 @@ export function preloadTTS(src: string | undefined | null) {
   if (preloaded.has(src)) return;
   const a = new Audio();
   a.preload = "auto";
-  a.src = src;
+  const sources = playbackSources(src);
+  if (sources.length > 1) {
+    a.addEventListener("error", () => { a.src = sources[1]; }, { once: true });
+  }
+  a.src = sources[0];
   preloaded.set(src, a);
   if (preloaded.size > PRELOAD_MAX) {
     const first = preloaded.keys().next().value as string | undefined;
@@ -65,17 +79,17 @@ export function preloadTTS(src: string | undefined | null) {
   }
 }
 
-export function stopTTS() {
+export function stopTTS(expectedSrc?: string | null) {
+  if (expectedSrc && currentSrc !== expectedSrc) return;
   const a = getEl();
-  if (a) {
-    a.pause();
-    a.currentTime = 0;
-    currentSrc = null;
-  }
+  if (!a) return;
+  finishCurrent?.("interrupted");
   if (typeof window !== "undefined" && "speechSynthesis" in window) {
     window.speechSynthesis.cancel();
-    speechUtter = null;
   }
+  a.pause();
+  a.currentTime = 0;
+  currentSrc = null;
 }
 
 function pickZhVoice(): SpeechSynthesisVoice | null {
@@ -115,13 +129,11 @@ export function playSpeech(text: string): Promise<void> {
     u.lang = voice?.lang || "zh-CN";
     u.rate = 0.88;
     u.pitch = 1.05;
-    speechUtter = u;
 
     let done = false;
     const finish = () => {
       if (done) return;
       done = true;
-      speechUtter = null;
       resolve();
     };
     u.onend = finish;
@@ -159,110 +171,115 @@ export function buildTTSCandidates(
   return out;
 }
 
-function tryPlaySrc(src: string): Promise<boolean> {
+/** Distinguish a genuine listen from an interruption or unavailable audio. */
+export function playTTSResult(src: string | undefined | null): Promise<TTSPlaybackResult> {
+  if (!src) return Promise.resolve("missing");
+  if (isMuted()) return Promise.resolve("muted");
   const a = getEl();
-  if (!a) return Promise.resolve(false);
+  if (!a) return Promise.resolve("missing");
+  // 同一段再次点击 → 停止
+  if (currentSrc === src && !a.paused) {
+    stopTTS();
+    return Promise.resolve("interrupted");
+  }
+  // Settle the previous caller before pausing or attaching the new listeners.
+  finishCurrent?.("interrupted");
+  a.pause();
+  currentSrc = src;
+  const sources = playbackSources(src);
 
-  return new Promise(resolve => {
-    let settled = false;
-    const ok = () => {
-      if (settled) return;
-      settled = true;
-      cleanup();
-      resolve(true);
-    };
-    const fail = () => {
-      if (settled) return;
-      settled = true;
-      cleanup();
-      resolve(false);
-    };
-    const cleanup = () => {
-      a.removeEventListener("playing", onPlaying);
-      a.removeEventListener("error", onError);
-    };
-    const onPlaying = () => ok();
-    const onError = () => fail();
-
-    a.pause();
-    a.currentTime = 0;
-    a.src = src;
-    a.addEventListener("playing", onPlaying);
-    a.addEventListener("error", onError);
-    // 150ms 内无 playing 且无 error → 也继续等 play() promise
-    a.play().then(() => {
-      // play resolved：若仍在加载，playing 事件会随后触发
-      // 用超时兜底：已开始播或 ended 短音频都算成功
-      window.setTimeout(() => {
-        if (!settled && !a.paused && a.currentTime >= 0) ok();
-        else if (!settled && a.error) fail();
-        else if (!settled && a.paused && !a.error) {
-          // 可能短音频已结束
-          if (a.ended || a.duration > 0) ok();
-        }
-      }, 80);
-    }).catch(() => fail());
-
-    window.setTimeout(() => fail(), 4000);
-  });
-}
-
-function playViaElement(src: string): Promise<void> {
-  const a = getEl();
-  if (!a) return Promise.resolve();
-  return new Promise(resolve => {
+  return new Promise<TTSPlaybackResult>(resolve => {
     let done = false;
-    const finish = () => {
+    let attempt = -1;
+    let cleanupAttempt = () => {};
+    let lastTime = 0;
+    let lastAdvance = Date.now();
+    const advance = () => {
+      if (a.currentTime > lastTime) {
+        lastTime = a.currentTime;
+        lastAdvance = Date.now();
+      }
+    };
+    const finish = (result: TTSPlaybackResult) => {
       if (done) return;
       done = true;
-      a.removeEventListener("ended", finish);
-      a.removeEventListener("pause", finish);
-      a.removeEventListener("error", finish);
-      resolve();
+      clearInterval(watchdog);
+      cleanupAttempt();
+      if (finishCurrent === finish) {
+        finishCurrent = null;
+        currentSrc = null;
+      }
+      if (result === "error" || result === "blocked") a.pause();
+      resolve(result);
     };
-    a.addEventListener("ended", finish);
-    a.addEventListener("pause", finish);
-    a.addEventListener("error", finish);
-    a.play().catch(finish);
+    const failed = () => {
+      if (done) return;
+      if (attempt + 1 < sources.length) startAttempt(attempt + 1);
+      else finish("error");
+    };
+    const startAttempt = (index: number) => {
+      if (done) return;
+      cleanupAttempt();
+      attempt = index;
+      a.pause();
+      a.src = sources[index];
+      a.currentTime = 0;
+      lastTime = 0;
+      lastAdvance = Date.now();
+      const isCurrent = () => !done && attempt === index && finishCurrent === finish;
+      const playing = () => { if (isCurrent()) lastAdvance = Date.now(); };
+      const ended = () => { if (isCurrent() && a.ended) finish("ended"); };
+      const paused = () => {
+        // Browsers may send pause before ended, or queue a previous source's event.
+        if (isCurrent() && a.paused && !a.ended) finish("interrupted");
+      };
+      const mediaError = () => {
+        // Setting src clears MediaError; ignore an error queued by an older source.
+        if (isCurrent() && a.error !== null) failed();
+      };
+      const timeupdate = () => { if (isCurrent()) advance(); };
+      const listeners: Array<[string, EventListener]> = [
+        ["ended", ended], ["pause", paused], ["error", mediaError],
+        ["timeupdate", timeupdate], ["playing", playing],
+      ];
+      for (const [event, handler] of listeners) a.addEventListener(event, handler);
+      cleanupAttempt = () => {
+        for (const [event, handler] of listeners) a.removeEventListener(event, handler);
+      };
+      const rejected = (error: unknown) => {
+        if (!isCurrent()) return;
+        if ((error as { name?: string } | null)?.name === "NotAllowedError") finish("blocked");
+        else failed();
+      };
+      try { void Promise.resolve(a.play()).catch(rejected); }
+      catch (error) { rejected(error); }
+    };
+    const watchdog = setInterval(() => {
+      advance();
+      if (Date.now() - lastAdvance > 15000) failed();
+    }, 250);
+    finishCurrent = finish;
+    startAttempt(0);
   });
 }
 
 /**
- * 朗读：在线 Polly → 本地拼音镜像 → 预生成 src → Web Speech。
+ * 朗读：预生成 src → 本地拼音镜像 → 在线加强（默认关）逐个试播，
+ * 全部试播失败才退回系统 Web Speech；muted / interrupted / blocked 直接收尾。
  */
 export async function playTTS(
   src: string | undefined | null,
   opts?: PlayTTSOptions | string | null,
 ): Promise<void> {
-  const text = typeof opts === "string" ? opts : opts?.text;
-  if (isMuted()) return Promise.resolve();
-
-  const rawText = (text || "").trim();
-  const candidates = buildTTSCandidates(src, rawText);
-
-  // 再次点击同一源 → 停止
-  const a = getEl();
-  if (a && currentSrc && !a.paused && candidates[0] === currentSrc) {
-    a.pause();
-    a.currentTime = 0;
-    currentSrc = null;
-    return Promise.resolve();
-  }
+  const rawText = (typeof opts === "string" ? opts : opts?.text || "").trim();
 
   if (typeof window !== "undefined" && "speechSynthesis" in window) {
     window.speechSynthesis.cancel();
-    speechUtter = null;
   }
 
-  for (const cand of candidates) {
-    if (isMuted()) return Promise.resolve();
-    const playable = await tryPlaySrc(cand);
-    if (playable) {
-      currentSrc = cand;
-      await playViaElement(cand);
-      currentSrc = null;
-      return;
-    }
+  for (const cand of buildTTSCandidates(src, rawText)) {
+    const result = await playTTSResult(cand);
+    if (result !== "error" && result !== "missing") return;
   }
 
   if (rawText) await playSpeech(rawText);

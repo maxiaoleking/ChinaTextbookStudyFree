@@ -6,6 +6,7 @@ import { BottomNav } from "@/components/BottomNav";
 import { ToastProvider } from "@/components/Toast";
 import { DailyRewardWatcher } from "@/components/DailyRewardWatcher";
 import { AchievementWatcher } from "@/components/AchievementWatcher";
+import { IntroAudioUnlock } from "@/components/IntroAudioUnlock";
 import { LeagueWatcher } from "@/components/LeagueWatcher";
 import { CloudSyncWatcher } from "@/components/CloudSyncWatcher";
 
@@ -86,6 +87,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <DailyRewardWatcher />
             <AchievementWatcher />
             <LeagueWatcher />
+            <IntroAudioUnlock />
             <CloudSyncWatcher />
             {children}
             <BottomNav />

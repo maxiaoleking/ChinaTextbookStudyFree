@@ -29,31 +29,17 @@ function normalizeNumeric(s: string): string {
     .replace(/^0+(\d)/, "$1");
 }
 
-/** 仅当整串就是单个选项字母 A-D/a-d 时返回大写字母；拼音 dì/bà/de 等绝不能走这条支路 */
-export function choiceLetterOrNull(raw: string): string | null {
-  const t = (raw ?? "").trim();
-  if (/^[A-Da-d]$/.test(t)) return t.toUpperCase();
-  return null;
-}
-
-/** 在 options 中按文本反查选项下标（忽略 A./A、 前缀，大小写与空白不敏感） */
-export function findChoiceIndex(question: Pick<Question, "options">, correct: string): number {
-  const opts = question.options ?? [];
-  if (!opts.length) return -1;
-  const letter = choiceLetterOrNull(correct);
-  if (letter) return letter.charCodeAt(0) - 65;
-  const cn = normalize(correct);
-  return opts.findIndex(o => {
-    const stripped = o.replace(/^[A-Da-d][.、]\s*/, "");
-    return normalize(o) === cn || normalize(stripped) === cn;
-  });
-}
-
-/** 把 choice 的 answer（字母或选项正文）解析成 A-D；失败返回 null */
-export function resolveChoiceLetter(question: Pick<Question, "options" | "answer">): string | null {
-  const idx = findChoiceIndex(question, question.answer);
-  if (idx < 0 || idx > 25) return null;
-  return String.fromCharCode(65 + idx);
+/** Resolve full option text first: an answer such as "a < b" is not label A. */
+export function correctChoiceLetter(question: Pick<Question, "answer" | "options">): string | null {
+  const correct = question.answer.trim();
+  const options = question.options ?? [];
+  const strip = (text: string) => text.replace(/^[A-D][.、]\s*/i, "");
+  let index = options.findIndex(option => option.trim() === correct);
+  if (index < 0) index = options.findIndex(option => normalize(option) === normalize(correct));
+  if (index < 0) index = options.findIndex(option => normalize(strip(option)) === normalize(correct));
+  if (index >= 0) return String.fromCharCode(65 + index);
+  const label = correct.match(/^([A-D])(?:$|[.、]\s*)/i)?.[1].toUpperCase() ?? null;
+  return label && label.charCodeAt(0) - 65 < options.length ? label : null;
 }
 
 export function gradeAnswer(question: Question, userAnswer: string): boolean {
@@ -72,16 +58,8 @@ export function gradeAnswer(question: Question, userAnswer: string): boolean {
     }
 
     case "choice": {
-      // 用户侧可能是 "B" / "b" / 选项正文；标准答案可能是 "B"、"B. 60秒" 或选项正文（含拼音 dì）
-      const uLetter = choiceLetterOrNull(userAnswer);
-      const cLetter = resolveChoiceLetter(question);
-      if (cLetter) {
-        if (uLetter) return uLetter === cLetter;
-        const idx = findChoiceIndex(question, userAnswer);
-        return idx >= 0 && String.fromCharCode(65 + idx) === cLetter;
-      }
-      // 兜底：双方按正文比（options 缺失时）
-      return normalize(userAnswer) === normalize(correct);
+      const label = correctChoiceLetter(question);
+      return label !== null && userAnswer.normalize("NFKC").trim().toUpperCase() === label;
     }
 
     case "fill_blank":

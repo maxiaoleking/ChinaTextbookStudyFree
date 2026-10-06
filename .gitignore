@@ -70,3 +70,6 @@ release-assets/
 
 # generated content source (real dir in main tree, symlink in worktrees)
 /data
+
+# Local build verification and audio conversion cache
+deploy-output/

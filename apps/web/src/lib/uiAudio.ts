@@ -52,5 +52,5 @@ const UI_AUDIO_MAP: Record<string, string> = {
 
 /** 查找 UI 短句的预生成 TTS 音频路径。找不到返回 undefined。 */
 export function uiAudio(text: string): string | undefined {
-  return UI_AUDIO_MAP[text];
+  return UI_AUDIO_MAP[text]?.replace(/\.opus$/, ".mp3");
 }

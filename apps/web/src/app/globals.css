@@ -39,6 +39,7 @@
  *   在 html 上内联同名变量覆盖 —— 「强制暗色」但底层同一套 token。
  * ============================================================ */
 .theme-dark {
+  --lesson-backdrop-overlay: rgba(19, 31, 36, 0.85);
   --app-bg: #131F24;
   --app-bg-soft: #131F24;
   --app-bg-softer: #37464F;

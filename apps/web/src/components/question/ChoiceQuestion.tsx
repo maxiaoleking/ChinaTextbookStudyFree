@@ -10,18 +10,14 @@ import { haptic } from "@/lib/haptic";
 import { playTTS } from "@/lib/tts";
 import { useAutoNarrate } from "@/lib/useAutoNarrate";
 import { shouldIgnoreKey } from "./keyboard";
+import { correctChoiceLetter } from "@/lib/grade";
 import type { QuestionRendererProps } from "./QuestionRenderer";
-import { resolveChoiceLetter } from "@/lib/grade";
 import { localPinyinAudioSrc } from "@/lib/pinyinSpeak";
 
 interface Ripple {
   id: number;
   x: number;
   y: number;
-}
-
-function normalizeOpt(s: string): string {
-  return s.trim().toLowerCase().replace(/\s+/g, "");
 }
 
 export function ChoiceQuestion({
@@ -32,9 +28,7 @@ export function ChoiceQuestion({
   onChange,
   locked = false,
 }: QuestionRendererProps) {
-  // 仅当 answer 整串是 A-D 时才按字母；拼音 dì/bà/de 等必须走 options 文本反查
-  // （旧逻辑 toUpperCase().charAt(0) 会把 "dì" 误判成选项 D）
-  const correctLetter = resolveChoiceLetter(question);
+  const correctLetter = correctChoiceLetter(question);
   const [ripples, setRipples] = useState<Record<string, Ripple[]>>({});
   const idRef = useRef(0);
 

@@ -10,7 +10,9 @@
  * next 静态导出（output: "export"）下手写注册即可，注册脚本在 layout.tsx。
  */
 
-const VERSION = "v6"; // 新增写字科目：/data 是 stale-while-revalidate，不换代会让老设备看不到新课本
+// v6 = 本地新增写字科目；v7 = 合入上游「audio byte-range 不走缓存」修复，
+// 缓存键换代才能让老设备丢掉旧的整包音频缓存
+const VERSION = "v7";
 const SHELL_CACHE = `ctsf-shell-${VERSION}`;
 const DATA_CACHE = `ctsf-data-${VERSION}`;
 const STATIC_CACHE = `ctsf-static-${VERSION}`;
@@ -50,7 +52,7 @@ async function staleWhileRevalidate(cacheName, request) {
   const cached = await cache.match(request);
   const network = fetch(request)
     .then(res => {
-      if (res && res.ok) cache.put(request, res.clone());
+      if (res && res.ok) cache.put(request, res.clone()).catch(() => {});
       return res;
     })
     .catch(() => undefined);
@@ -62,7 +64,7 @@ async function networkFirst(cacheName, request, fallbackUrl) {
   const cache = await caches.open(cacheName);
   try {
     const res = await fetch(request);
-    if (res && res.ok) cache.put(request, res.clone());
+    if (res && res.ok) cache.put(request, res.clone()).catch(() => {});
     return res;
   } catch (e) {
     const cached = await cache.match(request);
@@ -81,13 +83,15 @@ async function cacheFirst(cacheName, request) {
   const cached = await cache.match(request);
   if (cached) return cached;
   const res = await fetch(request);
-  if (res && res.ok) cache.put(request, res.clone());
+  if (res && res.ok) cache.put(request, res.clone()).catch(() => {});
   return res;
 }
 
 self.addEventListener("fetch", event => {
   const { request } = event;
-  if (request.method !== "GET") return;
+  // Let the browser handle byte ranges directly. Cache API cannot store 206
+  // responses, and a cached full response must not replace a requested range.
+  if (request.method !== "GET" || request.headers.has("range")) return;
   const url = new URL(request.url);
 
   // 在线加强：Panda Polly 拼音/汉字发音 —— 缓存优先 + 网络回填
