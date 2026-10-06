@@ -309,10 +309,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "用数对表示具体情境中的位置",
-        "question": "计算：$12 \times 5 = ?$",
+        "question": "计算：$12 \\times 5 = ?$",
         "options": [],
         "answer": "60",
-        "explanation": "$12 \times 5 = 60$。验算：$60 \times 2 \times \frac{1}{2} = 60$ 或 $60 \times \frac{1}{5} = 12$ ✓。"
+        "explanation": "$12 \\times 5 = 60$。验算：$60 \\times 2 \\times \\frac{1}{2} = 60$ 或 $60 \\times \\frac{1}{5} = 12$ ✓。"
       },
       {
         "id": 23,
@@ -545,7 +545,7 @@
           "10"
         ],
         "answer": "6",
-        "explanation": "底边 AB 长度为 $6-2=4$；高是从第 2 行到第 5 行，高度为 $5-2=3$。面积 $4 \times 3 \times 0.5 = 6$。"
+        "explanation": "底边 AB 长度为 $6-2=4$；高是从第 2 行到第 5 行，高度为 $5-2=3$。面积 $4 \\times 3 \\times 0.5 = 6$。"
       },
       {
         "id": 16,
@@ -634,10 +634,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "用数对表示具体情境中的位置",
-        "question": "计算：$25 \times 8 = ?$",
+        "question": "计算：$25 \\times 8 = ?$",
         "options": [],
         "answer": "200",
-        "explanation": "$25 \times 8 = 200$。验算：$200 \times \frac{1}{8} = 25$ ✓。"
+        "explanation": "$25 \\times 8 = 200$。验算：$200 \\times \\frac{1}{8} = 25$ ✓。"
       },
       {
         "id": 23,
@@ -645,10 +645,10 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "在方格纸上用数对确定点的位置",
-        "question": "计算：$125 \times 8 - 900 = ?$",
+        "question": "计算：$125 \\times 8 - 900 = ?$",
         "options": [],
         "answer": "100",
-        "explanation": "先算 $125 \times 8 = 1000$，再算 $1000 - 900 = 100$。验算：$100 + 900 = 1000$ ✓。"
+        "explanation": "先算 $125 \\times 8 = 1000$，再算 $1000 - 900 = 100$。验算：$100 + 900 = 1000$ ✓。"
       }
     ]
   },

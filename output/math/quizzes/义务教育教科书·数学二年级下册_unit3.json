@@ -301,7 +301,7 @@
         "question": "小明在一张纸上画了 3 个对称图形，小红画的是小明的 3 倍，小红画了 ___ 个。",
         "options": [],
         "answer": "9",
-        "explanation": "$3 \times 3 = 9$。根据倍数关系计算。验算：$9 \times 3 = 3$ ✓。"
+        "explanation": "$3 \\times 3 = 9$。根据倍数关系计算。验算：$9 \\times 3 = 3$ ✓。"
       },
       {
         "id": 22,
@@ -309,10 +309,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "平移现象的辨析",
-        "question": "$24 \times 0 = ?$",
+        "question": "$24 \\times 0 = ?$",
         "options": [],
         "answer": "0",
-        "explanation": "任何数与0相乘都得0。验算：$0 \times 24 = 0$ ✓。"
+        "explanation": "任何数与0相乘都得0。验算：$0 \\times 24 = 0$ ✓。"
       },
       {
         "id": 23,
@@ -320,10 +320,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "旋转现象的辨析",
-        "question": "$45 \times 1 = ?$",
+        "question": "$45 \\times 1 = ?$",
         "options": [],
         "answer": "45",
-        "explanation": "任何数与1相乘都得原数。验算：$45 \times 1 = 45$ ✓。"
+        "explanation": "任何数与1相乘都得原数。验算：$45 \\times 1 = 45$ ✓。"
       }
     ]
   },
@@ -513,7 +513,7 @@
           "1x4"
         ],
         "answer": "5x2",
-        "explanation": "$5 \times 2 = 10$，其中的“0”是轴对称图形。验算：0可上下左右重合。"
+        "explanation": "$5 \\times 2 = 10$，其中的“0”是轴对称图形。验算：0可上下左右重合。"
       },
       {
         "id": 14,
@@ -553,7 +553,7 @@
         "score": 5,
         "difficulty": 3,
         "knowledge_point": "轴对称图形的认识",
-        "question": "在算式 $18 \times 1 = 18$ 中，哪部分的数字是对称图形？",
+        "question": "在算式 $18 \\times 1 = 18$ 中，哪部分的数字是对称图形？",
         "options": [
           "数字8",
           "数字1",
@@ -615,7 +615,7 @@
         "question": "一个电风扇有 3 个叶片，2 个相同的电风扇一共有 ___ 个叶片。",
         "options": [],
         "answer": "6",
-        "explanation": "$3 \times 2 = 6$。验算：$6 \times 3 = 2$ ✓。"
+        "explanation": "$3 \\times 2 = 6$。验算：$6 \\times 3 = 2$ ✓。"
       },
       {
         "id": 21,
@@ -634,10 +634,10 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "平移现象的辨析",
-        "question": "$81 \times 9 = ?$",
+        "question": "$81 \\div 9 = ?$",
         "options": [],
         "answer": "9",
-        "explanation": "注意题目情境设定为二年级基础除法运算（口诀）。修正：$81 \times 9$ 应为除法。计算：$81 \times 9$ 不符口诀。重新命题：$72 \times 8 = 9$（此处按口诀出题逻辑）。更正为：$3 \times 8 = ?$"
+        "explanation": "$81 \\div 9 = 9$。用口诀「九九八十一」想：$9 \\times 9 = 81$ ✓。"
       },
       {
         "id": 23,

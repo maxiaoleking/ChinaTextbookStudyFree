@@ -320,7 +320,7 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "平均数的求法与意义",
-        "question": "计算：$(45 \times 2) \times 0 + 10 = ?$",
+        "question": "计算：$(45 \\times 2) \\times 0 + 10 = ?$",
         "options": [],
         "answer": "10",
         "explanation": "先算括号 $45 \\times 2 = 90$；再算乘法 $90 \\times 0 = 0$；最后算加法 $0 + 10 = 10$。验算：任何数乘0都得0 ✓。"

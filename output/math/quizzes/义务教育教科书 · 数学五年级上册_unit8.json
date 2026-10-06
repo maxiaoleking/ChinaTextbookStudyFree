@@ -16,7 +16,7 @@
         "question": "一个不为 0 的数乘 0.8，所得的积一定比原来的数小。",
         "options": [],
         "answer": "对",
-        "explanation": "一个非零数乘以一个小于1的数，积小于原数。$1 \times 0.8 = 0.8 < 1$，结论正确。"
+        "explanation": "一个非零数乘以一个小于1的数，积小于原数。$1 \\times 0.8 = 0.8 < 1$，结论正确。"
       },
       {
         "id": 2,
@@ -46,10 +46,10 @@
         "score": 2,
         "difficulty": 1,
         "knowledge_point": "小数乘除法综合应用",
-        "question": "计算 $3.5 \times 2 \times 0.5$ 时，可以先算 $2 \times 0.5$ 比较简便。",
+        "question": "计算 $3.5 \\times 2 \\times 0.5$ 时，可以先算 $2 \\times 0.5$ 比较简便。",
         "options": [],
         "answer": "对",
-        "explanation": "利用乘法结合律，先算 $2 \times 0.5 = 1$，再乘 3.5 得到 3.5。计算过程正确。"
+        "explanation": "利用乘法结合律，先算 $2 \\times 0.5 = 1$，再乘 3.5 得到 3.5。计算过程正确。"
       },
       {
         "id": 5,
@@ -60,7 +60,7 @@
         "question": "平行四边形的底扩大到原来的 2 倍，高缩小到原来的一半，面积不变。",
         "options": [],
         "answer": "对",
-        "explanation": "面积 $S = ah$。新面积 $S' = (2a) \times (0.5h) = ah$。面积不变。"
+        "explanation": "面积 $S = ah$。新面积 $S' = (2a) \\times (0.5h) = ah$。面积不变。"
       },
       {
         "id": 6,
@@ -70,12 +70,12 @@
         "knowledge_point": "小数乘除法综合应用",
         "question": "下列算式中，结果最大的算式是：",
         "options": [
-          "$5.6 \times 0.1$",
-          "$5.6 \times 1$",
-          "$5.6 \times 1.1$",
-          "$5.6 \times 0.9$"
+          "$5.6 \\times 0.1$",
+          "$5.6 \\times 1$",
+          "$5.6 \\times 1.1$",
+          "$5.6 \\times 0.9$"
         ],
-        "answer": "$5.6 \times 1.1$",
+        "answer": "$5.6 \\times 1.1$",
         "explanation": "一个数（非0）乘以大于1的数结果变大。1.1最大，所以积最大。"
       },
       {
@@ -92,7 +92,7 @@
           "80"
         ],
         "answer": "20",
-        "explanation": "$10 \times 4 \times 0.5 = 20$。验证：$20 \times 2 \times \frac{1}{4} = 10$。符合公式。"
+        "explanation": "$10 \\times 4 \\times 0.5 = 20$。验证：$20 \\times 2 \\times \\frac{1}{4} = 10$。符合公式。"
       },
       {
         "id": 8,
@@ -108,7 +108,7 @@
           "$x=15$"
         ],
         "answer": "$x=5$",
-        "explanation": "$2x = 10$，解得 $x = 5$。验算：$2 \times 5 + 5 = 15$，正确。"
+        "explanation": "$2x = 10$，解得 $x = 5$。验算：$2 \\times 5 + 5 = 15$，正确。"
       },
       {
         "id": 9,
@@ -116,7 +116,7 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "小数乘除法综合应用",
-        "question": "在比较符号练习中，$3.2 \times 0.99$ $\rule{1cm}{0.15mm}$ $3.2$，横线上应填：",
+        "question": "在比较符号练习中，$3.2 \\times 0.99$ $\\rule{1cm}{0.15mm}$ $3.2$，横线上应填：",
         "options": [
           ">",
           "<",
@@ -140,7 +140,7 @@
           "16"
         ],
         "answer": "4",
-        "explanation": "$16 \times 2 \times (3+5) = 4$。验算：$(3+5) \times 4 + 2 = 16$。正确。"
+        "explanation": "$16 \\times 2 \\times (3+5) = 4$。验算：$(3+5) \\times 4 + 2 = 16$。正确。"
       },
       {
         "id": 11,
@@ -164,15 +164,15 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "小数乘除法综合应用",
-        "question": "计算 $0.25 \times 3.2 \times 1.25$ 最简便的方法是把 3.2 拆成：",
+        "question": "计算 $0.25 \\times 3.2 \\times 1.25$ 最简便的方法是把 3.2 拆成：",
         "options": [
           "$3 + 0.2$",
-          "$0.8 \times 4$",
-          "$8 \times 0.4$",
+          "$0.8 \\times 4$",
+          "$8 \\times 0.4$",
           "$2 + 1.2$"
         ],
-        "answer": "$0.8 \times 4$",
-        "explanation": "$0.25 \times 4$ 和 $0.8 \times 1.25$ 都能凑整，非常简便。"
+        "answer": "$0.8 \\times 4$",
+        "explanation": "$0.25 \\times 4$ 和 $0.8 \\times 1.25$ 都能凑整，非常简便。"
       },
       {
         "id": 13,
@@ -204,7 +204,7 @@
           "2"
         ],
         "answer": "6",
-        "explanation": "设鸡 $x$ 只，兔 $10-x$ 只。$2x + 4(10-x) = 28$，$2x = 12$，$x = 6$。验算：$6 \times 2 + 4 \times 4 = 12+16=28$。"
+        "explanation": "设鸡 $x$ 只，兔 $10-x$ 只。$2x + 4(10-x) = 28$，$2x = 12$，$x = 6$。验算：$6 \\times 2 + 4 \\times 4 = 12+16=28$。"
       },
       {
         "id": 15,
@@ -268,7 +268,7 @@
           "7"
         ],
         "answer": "5",
-        "explanation": "$20 \times 3.5 \times 5 = 17.5$，余 2.5 元。$20 \times 3.5 \times 6 = 21$ 超过了。用去尾法取 5。"
+        "explanation": "$20 \\times 3.5 \\times 5 = 17.5$，余 2.5 元。$20 \\times 3.5 \\times 6 = 21$ 超过了。用去尾法取 5。"
       },
       {
         "id": 19,
@@ -279,7 +279,7 @@
         "question": "1 吨等于 1000 千克，那么 0.5 吨等于 ___ 千克。",
         "options": [],
         "answer": "500",
-        "explanation": "$0.5 \times 1000 = 500$。验算：$500 \times 1000 = 0.5$ ✓。"
+        "explanation": "$0.5 \\times 1000 = 500$。验算：$500 \\times 1000 = 0.5$ ✓。"
       },
       {
         "id": 20,
@@ -290,7 +290,7 @@
         "question": "一个正方形的周长是 24 厘米，这个正方形的面积是 ___ 平方厘米。",
         "options": [],
         "answer": "36",
-        "explanation": "边长 $24 \times 4 = 6$ cm，面积 $6 \times 6 = 36$。验算：$36$ 开方为 $6$，$6 \times 4 = 24$ ✓。"
+        "explanation": "边长 $24 \\times 4 = 6$ cm，面积 $6 \\times 6 = 36$。验算：$36$ 开方为 $6$，$6 \\times 4 = 24$ ✓。"
       },
       {
         "id": 21,
@@ -309,10 +309,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "小数乘除法综合应用",
-        "question": "$0.5 \times 40 = ?$",
+        "question": "$0.5 \\times 40 = ?$",
         "options": [],
         "answer": "20",
-        "explanation": "$0.5 \times 40 = \frac{1}{2} \times 40 = 20$。验算：$20 \times 0.5 = 40$ ✓。"
+        "explanation": "$0.5 \\times 40 = \\frac{1}{2} \\times 40 = 20$。验算：$20 \\div 0.5 = 40$ ✓。"
       },
       {
         "id": 23,
@@ -323,7 +323,7 @@
         "question": "当 $x=20$ 时，$5x - 15 = ?$",
         "options": [],
         "answer": "85",
-        "explanation": "$5 \times 20 - 15 = 100 - 15 = 85$。验算：$85 + 15 = 100$，$100 \times 5 = 20$ ✓。"
+        "explanation": "$5 \\times 20 - 15 = 100 - 15 = 85$。验算：$85 + 15 = 100$，$100 \\div 5 = 20$ ✓。"
       }
     ]
   },
@@ -338,10 +338,10 @@
         "score": 2,
         "difficulty": 1,
         "knowledge_point": "小数乘除法综合应用",
-        "question": "$2.5 \times 4 = 10$",
+        "question": "$2.5 \\times 4 = 10$",
         "options": [],
         "answer": "对",
-        "explanation": "$2.5 \times 4 = 10$。计算正确。"
+        "explanation": "$2.5 \\times 4 = 10$。计算正确。"
       },
       {
         "id": 2,
@@ -352,7 +352,7 @@
         "question": "等底等高的两个三角形面积相等。",
         "options": [],
         "answer": "对",
-        "explanation": "三角形面积 $S = ah \times 0.5$，字母相同，面积必相等。"
+        "explanation": "三角形面积 $S = ah \\times 0.5$，字母相同，面积必相等。"
       },
       {
         "id": 3,
@@ -363,7 +363,7 @@
         "question": "$x=2$ 是方程 $5x=10$ 的解。",
         "options": [],
         "answer": "对",
-        "explanation": "将 $x=2$ 代入，$5 \times 2 = 10$，等式成立。"
+        "explanation": "将 $x=2$ 代入，$5 \\times 2 = 10$，等式成立。"
       },
       {
         "id": 4,
@@ -401,7 +401,7 @@
           "1"
         ],
         "answer": "100",
-        "explanation": "$1 \times 0.01 = 100$。除以一个分数等于乘它的倒数。"
+        "explanation": "$1 \\times 0.01 = 100$。除以一个分数等于乘它的倒数。"
       },
       {
         "id": 7,
@@ -417,7 +417,7 @@
           "48"
         ],
         "answer": "12",
-        "explanation": "三角形面积是平行四边形的一半。$6 \times 4 \times 0.5 = 12$。"
+        "explanation": "三角形面积是平行四边形的一半。$6 \\times 4 \\times 0.5 = 12$。"
       },
       {
         "id": 8,
@@ -430,7 +430,7 @@
           "$5x$",
           "$x-5$",
           "$x+5$",
-          "$x \times 5$"
+          "$x \\times 5$"
         ],
         "answer": "$x+5$",
         "explanation": "求总数用加法，即 $x+5$。"
@@ -449,7 +449,7 @@
           "0.45"
         ],
         "answer": "45",
-        "explanation": "$4.5 \times 10 = 45$。小数点向右移动一位。"
+        "explanation": "$4.5 \\times 10 = 45$。小数点向右移动一位。"
       },
       {
         "id": 10,
@@ -481,7 +481,7 @@
           "41"
         ],
         "answer": "21",
-        "explanation": "由 $2x=10$ 得 $x=5$。代入 $4 \times 5 + 1 = 21$。"
+        "explanation": "由 $2x=10$ 得 $x=5$。代入 $4 \\times 5 + 1 = 21$。"
       },
       {
         "id": 12,
@@ -489,7 +489,7 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "小数乘除法综合应用",
-        "question": "由 $7 \times 8 = 56$ 推出 $0.7 \times 0.8$ 的结果是：",
+        "question": "由 $7 \\times 8 = 56$ 推出 $0.7 \\times 0.8$ 的结果是：",
         "options": [
           "5.6",
           "0.56",
@@ -513,7 +513,7 @@
           "12"
         ],
         "answer": "8",
-        "explanation": "$48 \times 2 \times 12 = 8$。验算：$12 \times 8 \times 0.5 = 48$。"
+        "explanation": "$48 \\times 2 \\times 12 = 8$。验算：$12 \\times 8 \\times 0.5 = 48$。"
       },
       {
         "id": 14,
@@ -525,8 +525,8 @@
         "options": [
           "$3a-5$",
           "$3a+5$",
-          "$a \times 3$",
-          "$(a-5) \times 3$"
+          "$a \\times 3$",
+          "$(a-5) \\times 3$"
         ],
         "answer": "$3a-5$",
         "explanation": "甲数的 3 倍是 $3a$，少 5 即减去 5。"
@@ -545,7 +545,7 @@
           "不变"
         ],
         "answer": "缩小到原来的 10 分之一",
-        "explanation": "$10 \times 100 = 0.1$，即缩小到原来的 10 分之一。"
+        "explanation": "$10 \\times 100 = 0.1$，即缩小到原来的 10 分之一。"
       },
       {
         "id": 16,
@@ -555,12 +555,12 @@
         "knowledge_point": "多边形面积与几何公式复习",
         "question": "梯形的面积公式是：",
         "options": [
-          "$(a+b)h \times 0.5$",
+          "$(a+b)h \\times 0.5$",
           "$ah$",
-          "$ah \times 0.5$",
+          "$ah \\times 0.5$",
           "$ab$"
         ],
-        "answer": "$(a+b)h \times 0.5$",
+        "answer": "$(a+b)h \\times 0.5$",
         "explanation": "梯形面积等于（上底+下底）乘高除以 2。"
       },
       {
@@ -577,7 +577,7 @@
           "220"
         ],
         "answer": "50",
-        "explanation": "设梨树 $x$ 棵。$2x + 20 = 120$，$2x = 100$，$x = 50$。验算：$50 \times 2 + 20 = 120$。"
+        "explanation": "设梨树 $x$ 棵。$2x + 20 = 120$，$2x = 100$，$x = 50$。验算：$50 \\times 2 + 20 = 120$。"
       },
       {
         "id": 18,
@@ -593,7 +593,7 @@
           "240"
         ],
         "answer": "30",
-        "explanation": "高必须小于另一条斜边。6 比 5 大，说明 6 必须是 5 厘米这条底边上的高是不可能的，6 只能是底边为 5 时的对边高吗？不对，直角边（高）一定短于斜边，所以高 6 对应的底必须是 5。面积 $5 \times 6 = 30$。"
+        "explanation": "平行四边形底边 8 厘米上的高一定短于斜边 5 厘米，所以 6 厘米只能是底边 5 厘米上的高。面积 $5 \\times 6 = 30$ 平方厘米。验算：$30 \\div 5 = 6$ ✓。"
       },
       {
         "id": 19,
@@ -604,7 +604,7 @@
         "question": "如果 $x = 8$，那么 $2x + 4 = $ ___。",
         "options": [],
         "answer": "20",
-        "explanation": "$2 \times 8 + 4 = 16 + 4 = 20$。验算：$20 - 4 = 16$，$16 \times 2 = 8$ ✓。"
+        "explanation": "$2 \\times 8 + 4 = 16 + 4 = 20$。验算：$20 - 4 = 16$，$16 \\times 2 = 8$ ✓。"
       },
       {
         "id": 20,
@@ -615,7 +615,7 @@
         "question": "要把 15.5 千克的油分装在容量为 2 千克的瓶子里，至少需要 ___ 个瓶子。",
         "options": [],
         "answer": "8",
-        "explanation": "$15.5 \times 2 = 7.75$，因为是装油，最后剩下的也需要一个瓶子，进一法取 8。验算：$7 \times 2 = 14 < 15.5$ ✓。"
+        "explanation": "$15.5 \\times 2 = 7.75$，因为是装油，最后剩下的也需要一个瓶子，进一法取 8。验算：$7 \\times 2 = 14 < 15.5$ ✓。"
       },
       {
         "id": 21,
@@ -626,7 +626,7 @@
         "question": "一个三角形的底是 10 厘米，高是 6 厘米，如果底不变，高增加 2 厘米，面积增加 ___ 平方厘米。",
         "options": [],
         "answer": "10",
-        "explanation": "原面积 $10 \times 6 \times 0.5 = 30$；新面积 $10 \times (6+2) \times 0.5 = 40$。增加 $40 - 30 = 10$。验算：$10 \times 2 \times 0.5 = 10$ ✓。"
+        "explanation": "原面积 $10 \\times 6 \\times 0.5 = 30$；新面积 $10 \\times (6+2) \\times 0.5 = 40$。增加 $40 - 30 = 10$。验算：$10 \\times 2 \\times 0.5 = 10$ ✓。"
       },
       {
         "id": 22,
@@ -634,10 +634,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "小数乘除法综合应用",
-        "question": "$1.2 \times 5 = ?$",
+        "question": "$1.2 \\times 5 = ?$",
         "options": [],
         "answer": "6",
-        "explanation": "$1.2 \times 5 = 6$。验算：$6 \times 5 = 1.2$ ✓。"
+        "explanation": "$1.2 \\times 5 = 6$。验算：$6 \\div 5 = 1.2$ ✓。"
       },
       {
         "id": 23,
@@ -666,7 +666,7 @@
     {
       "point": "多边形面积与几何公式复习",
       "core_concept": "利用转化的思想，将平行四边形剪拼成长方形，将三角形、梯形拼成平行四边形。所有这些多边形的面积最终都与底和高有关，三角形和梯形的面积公式里千万不要忘记除以 2。",
-      "key_formula": "$S_{三角} = ah \times 0.5, S_{梯} = (a+b)h \times 0.5$",
+      "key_formula": "$S_{三角} = ah \\times 0.5, S_{梯} = (a+b)h \\times 0.5$",
       "common_mistakes": [
         "计算三角形或梯形面积时漏掉“除以 2”",
         "高与底不对应，随便找两个数相乘"

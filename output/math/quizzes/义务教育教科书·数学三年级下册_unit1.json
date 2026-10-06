@@ -309,7 +309,7 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "认识东、南、西、北四个方向",
-        "question": "计算：$15 \times 4 = ?$",
+        "question": "计算：$15 \\times 4 = ?$",
         "options": [],
         "answer": "60",
         "explanation": "$15 \\times 4 = 60$。验算：$60 \\div 4 = 15$ ✓。"
@@ -320,7 +320,7 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "认识东、南、西、北四个方向",
-        "question": "计算：$120 \times 2 = ?$",
+        "question": "计算：$120 \\times 2 = ?$",
         "options": [],
         "answer": "240",
         "explanation": "直接计算得 $240$。验算：$240 \\div 2 = 120$ ✓。"
@@ -561,7 +561,7 @@
           "南"
         ],
         "answer": "东南",
-        "explanation": "北转 45 度是东北，再转 45 度是东，再转 45 度是东南。验算：$45 \times 3 = 135$度，北顺时针 135 度是东南 ✓。"
+        "explanation": "北转 45 度是东北，再转 45 度是东，再转 45 度是东南。验算：$45 \\times 3 = 135$度，北顺时针 135 度是东南 ✓。"
       },
       {
         "id": 17,
@@ -604,7 +604,7 @@
         "question": "学校买来 80 棵树苗，准备种在操场四周。如果每个方向种 20 棵（不计角上重复），一共可以种满几个方向？",
         "options": [],
         "answer": "4",
-        "explanation": "$80 \times 20 = 4$。东西南北四个方向。验算：$20 \times 4 = 80$ ✓。"
+        "explanation": "$80 \\times 20 = 4$。东西南北四个方向。验算：$20 \\times 4 = 80$ ✓。"
       },
       {
         "id": 20,
@@ -634,10 +634,10 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "地图上的方位识别",
-        "question": "计算：$50 \times 6 = ?$",
+        "question": "计算：$50 \\times 6 = ?$",
         "options": [],
         "answer": "300",
-        "explanation": "$5 \times 6 = 30$，所以 $50 \times 6 = 300$。验算：$300 \times 6 = 50$ ✓。"
+        "explanation": "$5 \\times 6 = 30$，所以 $50 \\times 6 = 300$。验算：$300 \\div 6 = 50$ ✓。"
       },
       {
         "id": 23,
@@ -645,10 +645,10 @@
         "score": 5,
         "difficulty": 3,
         "knowledge_point": "单元综合",
-        "question": "计算：$400 \times 2 - 500 = ?$",
+        "question": "计算：$400 \\times 2 - 500 = ?$",
         "options": [],
         "answer": "300",
-        "explanation": "$400 \times 2 = 800$, $800 - 500 = 300$。验算：$300 + 500 = 800$, $800 \times 2 = 400$ ✓。"
+        "explanation": "$400 \\times 2 = 800$, $800 - 500 = 300$。验算：$300 + 500 = 800$, $800 \\div 2 = 400$ ✓。"
       }
     ]
   },

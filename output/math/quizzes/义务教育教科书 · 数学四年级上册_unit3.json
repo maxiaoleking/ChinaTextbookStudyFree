@@ -204,7 +204,7 @@
           "锐角>直角>钝角>平角>周角"
         ],
         "answer": "周角>平角>钝角>直角>锐角",
-        "explanation": "$360^{\\circ} > 180^{\\circ} > (90^{\\circ} \text{至} 180^{\\circ}) > 90^{\\circ} > (0^{\\circ} \text{至} 90^{\\circ})$。"
+        "explanation": "$360^{\\circ} > 180^{\\circ} > (90^{\\circ} \\text{至} 180^{\\circ}) > 90^{\\circ} > (0^{\\circ} \\text{至} 90^{\\circ})$。"
       },
       {
         "id": 15,
@@ -290,7 +290,7 @@
         "question": "一个周角等于 ___ 个平角。",
         "options": [],
         "answer": "2",
-        "explanation": "$360 ÷ 180 = 2$。验算：$180 \times 2 = 360$ ✓。"
+        "explanation": "$360 ÷ 180 = 2$。验算：$180 \\times 2 = 360$ ✓。"
       },
       {
         "id": 21,
@@ -465,7 +465,7 @@
           "平角"
         ],
         "answer": "平角",
-        "explanation": "$60 \times 3 = 180$，$180^{\\circ}$ 是平角。"
+        "explanation": "$60 \\times 3 = 180$，$180^{\\circ}$ 是平角。"
       },
       {
         "id": 11,
@@ -623,7 +623,7 @@
         "score": 5,
         "difficulty": 3,
         "knowledge_point": "角的角度计算",
-        "question": "已知 $\\angle 1 + 105^{\\circ} = 180^{\\circ}$，则 $\\angle 1 = ___$ 度。",
+        "question": "已知 $\\angle 1 + 105^{\\circ} = 180^{\\circ}$，则 $\\angle 1 = \\_\\_\\_$ 度。",
         "options": [],
         "answer": "75",
         "explanation": "$180 - 105 = 75$。验算：$75 + 105 = 180$ ✓。"
@@ -634,10 +634,10 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "角的分类与画角",
-        "question": "$180 \times 2 = ?$",
+        "question": "$180 \\times 2 = ?$",
         "options": [],
         "answer": "360",
-        "explanation": "2个平角等于1个周角，$180 \times 2 = 360$。验算：$360 ÷ 2 = 180$ ✓。"
+        "explanation": "2个平角等于1个周角，$180 \\times 2 = 360$。验算：$360 ÷ 2 = 180$ ✓。"
       },
       {
         "id": 23,
@@ -645,10 +645,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "角的分类与画角",
-        "question": "$90 \times 2 = ?$",
+        "question": "$90 \\times 2 = ?$",
         "options": [],
         "answer": "180",
-        "explanation": "2个直角等于1个平角，$90 \times 2 = 180$。验算：$180 ÷ 2 = 90$ ✓。"
+        "explanation": "2个直角等于1个平角，$90 \\times 2 = 180$。验算：$180 ÷ 2 = 90$ ✓。"
       }
     ]
   },

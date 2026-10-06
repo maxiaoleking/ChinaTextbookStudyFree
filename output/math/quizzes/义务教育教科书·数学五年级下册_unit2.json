@@ -76,7 +76,7 @@
           "7 和 14"
         ],
         "answer": "24 和 6",
-        "explanation": "$24 \neq 6 = 4$，且都是自然数，所以24是6的倍数。16是32的因数，0.8是小数。"
+        "explanation": "$24 \\div 6 = 4$，且都是自然数，所以24是6的倍数。16是32的因数，0.8是小数。"
       },
       {
         "id": 7,
@@ -156,7 +156,7 @@
           "不确定"
         ],
         "answer": "偶数",
-        "explanation": "奇数 $\times$ 偶数 = 偶数。例如 $3 \times 2 = 6$。"
+        "explanation": "奇数 $\\times$ 偶数 = 偶数。例如 $3 \\times 2 = 6$。"
       },
       {
         "id": 12,
@@ -204,7 +204,7 @@
           "奇数"
         ],
         "answer": "合数",
-        "explanation": "两个质数的积至少有1、这两个质数本身及积本身四个因数，故为合数。如 $2 \times 3 = 6$。"
+        "explanation": "两个质数的积至少有1、这两个质数本身及积本身四个因数，故为合数。如 $2 \\times 3 = 6$。"
       },
       {
         "id": 15,
@@ -268,7 +268,7 @@
           "100"
         ],
         "answer": "46",
-        "explanation": "两个数之和为奇数，必为一奇一偶。质数中唯一的偶数是2，故另一个质数是 $25-2=23$。积为 $2 \times 23 = 46$。"
+        "explanation": "两个数之和为奇数，必为一奇一偶。质数中唯一的偶数是2，故另一个质数是 $25-2=23$。积为 $2 \\times 23 = 46$。"
       },
       {
         "id": 19,
@@ -279,7 +279,7 @@
         "question": "20 的因数中，最大的是 ___。",
         "options": [],
         "answer": "20",
-        "explanation": "一个数的最大因数是它本身。验算：$20 \times 1 = 20$ ✓。"
+        "explanation": "一个数的最大因数是它本身。验算：$20 \\times 1 = 20$ ✓。"
       },
       {
         "id": 20,
@@ -301,7 +301,7 @@
         "question": "3 个连续奇数的和是 21，这三个数中最大的一个是 ___。",
         "options": [],
         "answer": "9",
-        "explanation": "中间的数是 $21 \times 3 = 7$。三个数是5, 7, 9。最大是9。验算：$5+7+9=21$ ✓。"
+        "explanation": "中间的数是 $21 \\times 3 = 7$。三个数是5, 7, 9。最大是9。验算：$5+7+9=21$ ✓。"
       },
       {
         "id": 22,
@@ -309,10 +309,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "因数与倍数的意义及基本性质",
-        "question": "$12 \times 4 = ?$",
+        "question": "$12 \\times 4 = ?$",
         "options": [],
         "answer": "48",
-        "explanation": "$12 \times 4 = 48$。验算：$48 \times 4 = 12$ ✓。"
+        "explanation": "$12 \\times 4 = 48$。验算：$48 \\div 4 = 12$ ✓。"
       },
       {
         "id": 23,
@@ -320,10 +320,10 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "2、5、3的倍数特征",
-        "question": "$2 \times 3 \times 5 = ?$",
+        "question": "$2 \\times 3 \\times 5 = ?$",
         "options": [],
         "answer": "30",
-        "explanation": "$2 \times 3 \times 5 = 6 \times 5 = 30$。验算：$30 \times 5 \times 3 = 2$ ✓。"
+        "explanation": "$2 \\times 3 \\times 5 = 6 \\times 5 = 30$。验算：$30 \\div 5 \\div 3 = 2$ ✓。"
       }
     ]
   },
@@ -489,7 +489,7 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "数的奇偶性运算规律",
-        "question": "如果 $a$ 是奇数，$b$ 是偶数，那么 $a \times b + a$ 是：",
+        "question": "如果 $a$ 是奇数，$b$ 是偶数，那么 $a \\times b + a$ 是：",
         "options": [
           "奇数",
           "偶数",
@@ -497,7 +497,7 @@
           "合数"
         ],
         "answer": "奇数",
-        "explanation": "奇 $\times$ 偶 = 偶，偶 + 奇 = 奇。"
+        "explanation": "奇 $\\times$ 偶 = 偶，偶 + 奇 = 奇。"
       },
       {
         "id": 13,
@@ -626,7 +626,7 @@
         "question": "同时是 2, 3, 5 的倍数的最小三位数是 ___。",
         "options": [],
         "answer": "120",
-        "explanation": "2,3,5的最小公倍数是30。30的倍数中最小的三位数是 $30 \times 4 = 120$。验算：120末尾0（2,5倍数），$1+2+0=3$（3倍数）✓。"
+        "explanation": "2,3,5的最小公倍数是30。30的倍数中最小的三位数是 $30 \\times 4 = 120$。验算：120末尾0（2,5倍数），$1+2+0=3$（3倍数）✓。"
       },
       {
         "id": 22,
@@ -634,10 +634,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "因数与倍数的意义及基本性质",
-        "question": "$84 \times 4 = ?$",
+        "question": "$84 \\div 4 = ?$",
         "options": [],
         "answer": "21",
-        "explanation": "$84 \times 4 = 21$。验算：$21 \times 4 = 84$ ✓。"
+        "explanation": "$84 \\div 4 = 21$。验算：$21 \\times 4 = 84$ ✓。"
       },
       {
         "id": 23,
@@ -648,15 +648,15 @@
         "question": "$1 + 2 + 3 + ... + 10 = ?$",
         "options": [],
         "answer": "55",
-        "explanation": "等差数列求和：$(1+10) \times 10 \times 2 = 11 \times 5 = 55$。验算：$1+10=11, 2+9=11, 3+8=11, 4+7=11, 5+6=11$，共5组11，即55 ✓。"
+        "explanation": "等差数列求和：$(1+10) \\times 10 \\div 2 = 11 \\times 5 = 55$。验算：$1+10=11, 2+9=11, 3+8=11, 4+7=11, 5+6=11$，共5组11，即55 ✓。"
       }
     ]
   },
   "knowledge_summary": [
     {
       "point": "因数与倍数的意义及基本性质",
-      "core_concept": "如果 $a \times b = c$（$a, b, c$ 都是非零自然数），那么 $a$ 和 $b$ 就是 $c$ 的因数，$c$ 就是 $a$ 和 $b$ 的倍数。因数和倍数是相互依存的，不能单独说某个数是因数。一个数的因数个数是有限的，最小因数是 1，最大因数是它本身；一个数的倍数个数是无限的，最小倍数是它本身。",
-      "key_formula": "$a \times b = c \\Rightarrow a, b \\text{ 是 } c \\text{ 的因数}, c \\text{ 是 } a, b \\text{ 的倍数}$",
+      "core_concept": "如果 $a \\times b = c$（$a, b, c$ 都是非零自然数），那么 $a$ 和 $b$ 就是 $c$ 的因数，$c$ 就是 $a$ 和 $b$ 的倍数。因数和倍数是相互依存的，不能单独说某个数是因数。一个数的因数个数是有限的，最小因数是 1，最大因数是它本身；一个数的倍数个数是无限的，最小倍数是它本身。",
+      "key_formula": "$a \\times b = c \\Rightarrow a, b \\text{ 是 } c \\text{ 的因数}, c \\text{ 是 } a, b \\text{ 的倍数}$",
       "common_mistakes": [
         "说 15 是倍数（漏掉相互依存关系，应说 15 是 3 的倍数）",
         "认为 1.2 是 0.4 的 3 倍，所以 1.2 是倍数（忽视了必须是非零自然数的前提）"
@@ -685,7 +685,7 @@
     },
     {
       "point": "数的奇偶性运算规律",
-      "core_concept": "研究奇数与偶数通过加减乘运算后的结果性质。规律包括：奇数 + 奇数 = 偶数，偶数 + 偶数 = 偶数，奇数 + 偶数 = 奇数；奇数 $\times$ 奇数 = 奇数，奇数 $\times$ 偶数 = 偶数，偶数 $\times$ 偶数 = 偶数。",
+      "core_concept": "研究奇数与偶数通过加减乘运算后的结果性质。规律包括：奇数 + 奇数 = 偶数，偶数 + 偶数 = 偶数，奇数 + 偶数 = 奇数；奇数 $\\times$ 奇数 = 奇数，奇数 $\\times$ 偶数 = 偶数，偶数 $\\times$ 偶数 = 偶数。",
       "key_formula": "\\text{奇}+\\text{奇}=\\text{偶}, \\text{奇}+\\text{偶}=\\text{奇}, \\text{偶}+\\text{偶}=\\text{偶}",
       "common_mistakes": [
         "记混加法和乘法的规律",

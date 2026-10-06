@@ -100,7 +100,7 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "6~10各数的认识与组成",
-        "question": "下面符号填写正确的是：$7 ___ 10$。",
+        "question": "下面符号填写正确的是：$7 \\_\\_\\_ 10$。",
         "options": [
           ">",
           "<",

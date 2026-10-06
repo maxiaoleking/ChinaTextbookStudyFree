@@ -309,10 +309,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "事件发生的确定性与不确定性",
-        "question": "$12 \times 5 = ?$",
+        "question": "$12 \\times 5 = ?$",
         "options": [],
         "answer": "60",
-        "explanation": "$12 \times 5 = 60$。验算：$60 \times \frac{1}{5} = 12$ 或 $60 \times \frac{1}{12} = 5$ ✓。"
+        "explanation": "$12 \\times 5 = 60$。验算：$60 \\times \\frac{1}{5} = 12$ 或 $60 \\times \\frac{1}{12} = 5$ ✓。"
       },
       {
         "id": 23,
@@ -320,10 +320,10 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "可能性的大小比较",
-        "question": "$25 \times 4 - 20 = ?$",
+        "question": "$25 \\times 4 - 20 = ?$",
         "options": [],
         "answer": "80",
-        "explanation": "先算乘法 $25 \times 4 = 100$，再算减法 $100 - 20 = 80$。验算：$80 + 20 = 100$, $100 \times \frac{1}{4} = 25$ ✓。"
+        "explanation": "先算乘法 $25 \\times 4 = 100$，再算减法 $100 - 20 = 80$。验算：$80 + 20 = 100$, $100 \\times \\frac{1}{4} = 25$ ✓。"
       }
     ]
   },
@@ -449,7 +449,7 @@
           "红1绿1"
         ],
         "answer": "红3绿1",
-        "explanation": "比例关系：$3 \times 1 = 3$，红球数量应是绿球的3倍。"
+        "explanation": "比例关系：$3 \\times 1 = 3$，红球数量应是绿球的3倍。"
       },
       {
         "id": 10,
@@ -604,7 +604,7 @@
         "question": "一个黑口袋里有红球和黄球共 20 个。如果摸到红球可能性大，则红球至少要有 ___ 个。",
         "options": [],
         "answer": "11",
-        "explanation": "总数20，平分为10个。要使红球可能性大，红球数量需多于10。列式：$20 \times \frac{1}{2} + 1 = 11$。验算：$11 > 9$ ✓。"
+        "explanation": "总数20，平分为10个。要使红球可能性大，红球数量需多于10。列式：$20 \\times \\frac{1}{2} + 1 = 11$。验算：$11 > 9$ ✓。"
       },
       {
         "id": 20,
@@ -615,7 +615,7 @@
         "question": "要把 12 个球放进盒子里，使摸到红球的可能性是黄球的 2 倍。红球应放 ___ 个。",
         "options": [],
         "answer": "8",
-        "explanation": "设黄球为x，红球为2x。$x + 2x = 12$, $3x = 12$, $x = 4$。红球为 $4 \times 2 = 8$。验算：$8 + 4 = 12$, $8 \times \frac{1}{2} = 4$ ✓。"
+        "explanation": "设黄球为x，红球为2x。$x + 2x = 12$, $3x = 12$, $x = 4$。红球为 $4 \\times 2 = 8$。验算：$8 + 4 = 12$, $8 \\times \\frac{1}{2} = 4$ ✓。"
       },
       {
         "id": 21,
@@ -634,10 +634,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "事件发生的确定性与不确定性",
-        "question": "$24 \times 5 = ?$",
+        "question": "$24 \\times 5 = ?$",
         "options": [],
         "answer": "120",
-        "explanation": "$24 \times 5 = 120$。验算：$120 \times \frac{1}{5} = 24$ ✓。"
+        "explanation": "$24 \\times 5 = 120$。验算：$120 \\times \\frac{1}{5} = 24$ ✓。"
       },
       {
         "id": 23,
@@ -645,10 +645,10 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "可能性的大小比较",
-        "question": "$480 \times \frac{1}{6} = ?$",
+        "question": "$480 \\times \\frac{1}{6} = ?$",
         "options": [],
         "answer": "80",
-        "explanation": "相当于 $480 \times \frac{1}{6} = 80$。验算：$80 \times 6 = 480$ ✓。"
+        "explanation": "相当于 $480 \\times \\frac{1}{6} = 80$。验算：$80 \\times 6 = 480$ ✓。"
       }
     ]
   },
@@ -666,7 +666,7 @@
     {
       "point": "可能性的大小比较",
       "core_concept": "事件发生的可能性大小与它所包含的个体数量或所占的面积比例有关。在总数一定的情况下，数量越多，出现的可能性就越大；反之则越小。",
-      "key_formula": "数量（或面积）越多 $\rightarrow$ 可能性越大。",
+      "key_formula": "数量（或面积）越多 $\\rightarrow$ 可能性越大。",
       "common_mistakes": [
         "认为只要有这个选项，可能性就一样大，忽视了数量差异。",
         "在计算抽奖公平性时，只看种类没看具体的份额。"
@@ -676,7 +676,7 @@
     {
       "point": "可能性的大小应用（设计方案）",
       "core_concept": "根据预设的可能性要求，反向设计实验模型。例如要让某结果出现的可能性大，就增加该结果对应的实物数量或区域面积；要实现公平，则需使各结果的条件完全相等。",
-      "key_formula": "设计规则：可能性相等 $\rightarrow$ 条件（数量/面积）相等。",
+      "key_formula": "设计规则：可能性相等 $\\rightarrow$ 条件（数量/面积）相等。",
       "common_mistakes": [
         "设计“公平”游戏时，分配的数量不相等。",
         "理解错比例关系，如要3倍可能却设计成多了3个。"

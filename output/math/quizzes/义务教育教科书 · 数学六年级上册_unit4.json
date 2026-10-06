@@ -648,7 +648,7 @@
         "question": "计算 $(18 + 12) \\times \\frac{3}{5} = ?$",
         "options": [],
         "answer": "18",
-        "explanation": "$30 \\times 0.6 = 18$。验算：$18 \b \\div 0.6 = 30$ ✓。"
+        "explanation": "$30 \\times 0.6 = 18$。验算：$18  \\div 0.6 = 30$ ✓。"
       }
     ]
   },
@@ -656,7 +656,7 @@
     {
       "point": "比的意义与比值",
       "core_concept": "两个数相除又叫做两个数的比。比号前面的数叫前项，后面的叫后项。前项除以后项所得的商叫做比值。例如 $3:2 = 3 \\div 2 = 1.5$。",
-      "key_formula": "$a:b = a \\div b = \\frac{a}{b}$ ($b \ne 0$)",
+      "key_formula": "$a:b = a \\div b = \\frac{a}{b}$ ($b \\ne 0$)",
       "common_mistakes": [
         "将比的后项写为0（比的后项相当于除数，不能为0）",
         "将比值与比的化简混淆（比值是一个数，可以是整数、分数、小数；而比必须带比号）"
@@ -666,7 +666,7 @@
     {
       "point": "比的基本性质与化简",
       "core_concept": "比的前项和后项同时乘或除以相同的数（0除外），比值不变。化简比就是把一个比变成最简单的整数比（前项和后项互质的整数）。",
-      "key_formula": "$a:b = (a \\times n):(b \\times n) = (a \\div n):(b \\div n)$ ($n \ne 0$)",
+      "key_formula": "$a:b = (a \\times n):(b \\times n) = (a \\div n):(b \\div n)$ ($n \\ne 0$)",
       "common_mistakes": [
         "化简时只在前项乘，后项忘记乘",
         "化简结果写成一个孤立的数字（结果必须保留比的形式，如 2:1）"

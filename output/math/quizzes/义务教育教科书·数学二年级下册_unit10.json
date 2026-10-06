@@ -24,10 +24,10 @@
         "score": 2,
         "difficulty": 1,
         "knowledge_point": "计算能力综合训练",
-        "question": "计算 $35 \times 0$ 的结果比 $35 \times 1$ 的结果小。",
+        "question": "计算 $35 \\times 0$ 的结果比 $35 \\times 1$ 的结果小。",
         "options": [],
         "answer": "对",
-        "explanation": "$35 \times 0 = 0$，$35 \times 1 = 35$，$0 < 35$。故描述正确。"
+        "explanation": "$35 \\times 0 = 0$，$35 \\times 1 = 35$，$0 < 35$。故描述正确。"
       },
       {
         "id": 3,
@@ -57,7 +57,7 @@
         "score": 2,
         "difficulty": 2,
         "knowledge_point": "计算能力综合训练",
-        "question": "混合运算 $6 + 3 \times 4$ 应先算加法。",
+        "question": "混合运算 $6 + 3 \\times 4$ 应先算加法。",
         "options": [],
         "answer": "错",
         "explanation": "混合运算中，有加法和乘法时，应先算乘法。$6 + 12 = 18$。"
@@ -100,7 +100,7 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "计算能力综合训练",
-        "question": "计算 $42 \times 7$ 的余数是多少？",
+        "question": "计算 $42 \\times 7$ 的余数是多少？",
         "options": [
           "0",
           "1",
@@ -108,7 +108,7 @@
           "6"
         ],
         "answer": "0",
-        "explanation": "$42 \times 7 = 6$，没有余数，即余数为 0。"
+        "explanation": "$42 \\times 7 = 6$，没有余数，即余数为 0。"
       },
       {
         "id": 9,
@@ -156,7 +156,7 @@
           "5"
         ],
         "answer": "7",
-        "explanation": "$54 \times 8 = 6$（条）……6（人）。剩下的 6 人也需要 1 条船，所以 $6 + 1 = 7$ 条。"
+        "explanation": "$54 \\times 8 = 6$（条）……6（人）。剩下的 6 人也需要 1 条船，所以 $6 + 1 = 7$ 条。"
       },
       {
         "id": 12,
@@ -164,7 +164,7 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "计算能力综合训练",
-        "question": "$(\text{ }) - 24 = 36$，括号里应填（ ）。",
+        "question": "$(\\text{ }) - 24 = 36$，括号里应填（ ）。",
         "options": [
           "12",
           "50",
@@ -220,7 +220,7 @@
           "一万"
         ],
         "answer": "一千",
-        "explanation": "$10 \times 100 = 1000$。"
+        "explanation": "$10 \\times 100 = 1000$。"
       },
       {
         "id": 16,
@@ -228,7 +228,7 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "计算能力综合训练",
-        "question": "在算式 $40 \times (8 - 2)$ 中，应先算（ ）。",
+        "question": "在算式 $40 \\times (8 - 2)$ 中，应先算（ ）。",
         "options": [
           "除法",
           "减法",
@@ -244,7 +244,7 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "实际问题的综合解决",
-        "question": "比较大小：$2999 \text{ } 3001$，圆圈里应填（ ）。",
+        "question": "比较大小：$2999 \\text{ } 3001$，圆圈里应填（ ）。",
         "options": [
           ">",
           "<",
@@ -276,10 +276,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "计算能力综合训练",
-        "question": "计算 $72 \times 8$ 的商是 ___。",
+        "question": "计算 $72 \\times 8$ 的商是 ___。",
         "options": [],
         "answer": "9",
-        "explanation": "根据乘法口诀“八九七十二”，$72 \times 8 = 9$。验算：$9 \times 8 = 72$。"
+        "explanation": "根据乘法口诀“八九七十二”，$72 \\times 8 = 9$。验算：$9 \\times 8 = 72$。"
       },
       {
         "id": 20,
@@ -301,7 +301,7 @@
         "question": "小明有 20 元钱，买了 3 支笔，每支 6 元，还剩 ___ 元。",
         "options": [],
         "answer": "2",
-        "explanation": "先算花的钱：$3 \times 6 = 18$（元）；再算剩下的钱：$20 - 18 = 2$（元）。验算：$18 + 2 = 20$。"
+        "explanation": "先算花的钱：$3 \\times 6 = 18$（元）；再算剩下的钱：$20 - 18 = 2$（元）。验算：$18 + 2 = 20$。"
       },
       {
         "id": 22,
@@ -320,10 +320,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "计算能力综合训练",
-        "question": "计算：$64 \times 8 = ?$",
+        "question": "计算：$64 \\div 8 = ?$",
         "options": [],
         "answer": "8",
-        "explanation": "$64 \times 8 = 8$。验算：$8 \times 8 = 64$。"
+        "explanation": "$64 \\div 8 = 8$。验算：$8 \\times 8 = 64$。"
       }
     ]
   },
@@ -349,7 +349,7 @@
         "score": 2,
         "difficulty": 2,
         "knowledge_point": "计算能力综合训练",
-        "question": "$48 \times 6 + 2$ 应该先算除法，再算加法。",
+        "question": "$48 \\times 6 + 2$ 应该先算除法，再算加法。",
         "options": [],
         "answer": "对",
         "explanation": "在没有括号的算式中，有除法和加法，先算除法。"
@@ -395,13 +395,13 @@
         "knowledge_point": "计算能力综合训练",
         "question": "下列算式中，商最大的是（ ）。",
         "options": [
-          "18 \times 3",
-          "24 \times 6",
-          "36 \times 4",
-          "45 \times 9"
+          "18 \\times 3",
+          "24 \\times 6",
+          "36 \\times 4",
+          "45 \\times 9"
         ],
-        "answer": "36 \times 4",
-        "explanation": "$18 \times 3 = 6$，$24 \times 6 = 4$，$36 \times 4 = 9$，$45 \times 9 = 5$。9 最大。"
+        "answer": "36 \\times 4",
+        "explanation": "$18 \\times 3 = 6$，$24 \\times 6 = 4$，$36 \\times 4 = 9$，$45 \\times 9 = 5$。9 最大。"
       },
       {
         "id": 7,
@@ -433,7 +433,7 @@
           "8 组"
         ],
         "answer": "6 组",
-        "explanation": "总人数：$25 + 23 = 48$（人）；组数：$48 \times 8 = 6$（组）。"
+        "explanation": "总人数：$25 + 23 = 48$（人）；组数：$48 \\times 8 = 6$（组）。"
       },
       {
         "id": 9,
@@ -473,7 +473,7 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "计算能力综合训练",
-        "question": "在算式 $(\text{ }) \times 6 = 7 \text{ …… } 4$ 中，括号里应填（ ）。",
+        "question": "在算式 $(\\text{ }) \\times 6 = 7 \\text{ …… } 4$ 中，括号里应填（ ）。",
         "options": [
           "42",
           "46",
@@ -481,7 +481,7 @@
           "50"
         ],
         "answer": "46",
-        "explanation": "被除数 = 商 $\times$ 除数 + 余数，即 $7 \times 6 + 4 = 42 + 4 = 46$。"
+        "explanation": "被除数 = 商 $\\times$ 除数 + 余数，即 $7 \\times 6 + 4 = 42 + 4 = 46$。"
       },
       {
         "id": 12,
@@ -513,7 +513,7 @@
           "4"
         ],
         "answer": "2",
-        "explanation": "$32 \times 5 = 6$（颗）……2（颗）。余数是几，最少就拿走几。"
+        "explanation": "$32 \\times 5 = 6$（颗）……2（颗）。余数是几，最少就拿走几。"
       },
       {
         "id": 14,
@@ -529,7 +529,7 @@
           "36"
         ],
         "answer": "60",
-        "explanation": "列式：$63 - 27 \times 9 = 63 - 3 = 60$。"
+        "explanation": "列式：$63 - 27 \\times 9 = 63 - 3 = 60$。"
       },
       {
         "id": 15,
@@ -571,13 +571,13 @@
         "knowledge_point": "计算能力综合训练",
         "question": "根据口诀“三八二十四”写出的除法算式是（ ）。",
         "options": [
-          "24 \times 3 = 8",
-          "3 \times 8 = 24",
+          "24 \\times 3 = 8",
+          "3 \\times 8 = 24",
           "24 - 8 = 16",
           "24 + 3 = 27"
         ],
-        "answer": "24 \times 3 = 8",
-        "explanation": "根据乘法口诀可以写出两道除法算式，$24 \times 3 = 8$ 和 $24 \times 8 = 3$。"
+        "answer": "24 \\times 3 = 8",
+        "explanation": "根据乘法口诀可以写出两道除法算式，$24 \\times 3 = 8$ 和 $24 \\times 8 = 3$。"
       },
       {
         "id": 18,
@@ -593,7 +593,7 @@
           "20"
         ],
         "answer": "24",
-        "explanation": "已看：$8 \times 6 = 48$（页）；剩下：$72 - 48 = 24$（页）。"
+        "explanation": "已看：$8 \\times 6 = 48$（页）；剩下：$72 - 48 = 24$（页）。"
       },
       {
         "id": 19,
@@ -615,7 +615,7 @@
         "question": "45 除以 9 与 4 的和，商是 ___。",
         "options": [],
         "answer": "1",
-        "explanation": "$45 \times (9 + 4)$ 不是此意。应为 $45 \times 9 = 5$，$5 + 4 = 9$。若指 $45 \times (9)$ 则是 5。"
+        "explanation": "$45 \\times (9 + 4)$ 不是此意。应为 $45 \\times 9 = 5$，$5 + 4 = 9$。若指 $45 \\times (9)$ 则是 5。"
       },
       {
         "id": 21,
@@ -626,7 +626,7 @@
         "question": "共有 30 人划船，大船限坐 6 人，小船限坐 4 人，全部坐大船需 ___ 条。",
         "options": [],
         "answer": "5",
-        "explanation": "$30 \times 6 = 5$（条）。验算：$5 \times 6 = 30$。"
+        "explanation": "$30 \\times 6 = 5$（条）。验算：$5 \\times 6 = 30$。"
       },
       {
         "id": 22,
@@ -645,10 +645,10 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "计算能力综合训练",
-        "question": "计算：$56 \times 7 \times 4 = ?$",
+        "question": "计算：$56 \\div 7 \\div 4 = ?$",
         "options": [],
         "answer": "2",
-        "explanation": "$56 \times 7 = 8$，$8 \times 4 = 2$。"
+        "explanation": "$56 \\div 7 = 8$，$8 \\div 4 = 2$。"
       }
     ]
   },

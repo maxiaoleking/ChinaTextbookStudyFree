@@ -35,7 +35,7 @@
         "score": 2,
         "difficulty": 2,
         "knowledge_point": "带括号的四则混合运算顺序",
-        "question": "计算 $120 \times (4 \times 5)$ 时，应该先算乘法，再算括号外的乘法。",
+        "question": "计算 $120 \\times (4 \\times 5)$ 时，应该先算乘法，再算括号外的乘法。",
         "options": [],
         "answer": "对",
         "explanation": "根据混合运算规则，有小括号的要先算小括号里面的。"
@@ -68,14 +68,14 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "加、减法的意义和各部分间的关系",
-        "question": "已知 $\triangle + \bigcirc = \big竞$，下面哪个算式是正确的？",
+        "question": "已知 $\\triangle + \\bigcirc = \\square$，下面哪个算式是正确的？",
         "options": [
-          "$\big竞 - \bigcirc = \triangle$",
-          "$\bigcirc - \triangle = \big竞$",
-          "$\triangle - \big竞 = \bigcirc$",
-          "$\big竞 + \bigcirc = \triangle$"
+          "$\\square - \\bigcirc = \\triangle$",
+          "$\\bigcirc - \\triangle = \\square$",
+          "$\\triangle - \\square = \\bigcirc$",
+          "$\\square + \\bigcirc = \\triangle$"
         ],
-        "answer": "$\big竞 - \bigcirc = \triangle$",
+        "answer": "$\\square - \\bigcirc = \\triangle$",
         "explanation": "根据“加数 + 加数 = 和”，可以推出“和 - 一个加数 = 另一个加数”。"
       },
       {
@@ -100,14 +100,14 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "带括号的四则混合运算顺序",
-        "question": "计算 $25 \times (44 + 288 \times 16)$ 时，第一步应算（ ）。",
+        "question": "计算 $25 \\times (44 + 288 \\times 16)$ 时，第一步应算（ ）。",
         "options": [
-          "25 \times 44",
+          "25 \\times 44",
           "44 + 288",
-          "288 \times 16",
-          "25 \times 16"
+          "288 \\times 16",
+          "25 \\times 16"
         ],
-        "answer": "288 \times 16",
+        "answer": "288 \\times 16",
         "explanation": "在含有括号的算式里，先算括号里面的。括号里既有加法又有乘法，应先算乘法。"
       },
       {
@@ -139,8 +139,8 @@
           "3 条大船和 4 条小船",
           "2 条大船和 5 条小船"
         ],
-        "answer": "4 条大船 and 2 条小船",
-        "explanation": "方案A：$5 \times 6 + 1 \times 4 = 34$（错误）；方案B：$4 \times 6 + 2 \times 4 = 32$（正确）。"
+        "answer": "4 条大船和 2 条小船",
+        "explanation": "方案A：$5 \\times 6 + 1 \\times 4 = 34$（错误）；方案B：$4 \\times 6 + 2 \\times 4 = 32$（正确）。"
       },
       {
         "id": 11,
@@ -148,14 +148,14 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "乘、除法的意义和各部分间的关系",
-        "question": "如果 $\triangle \times \bigcirc = 0$，那么（ ）。",
+        "question": "如果 $\\triangle \\times \\bigcirc = 0$，那么（ ）。",
         "options": [
-          "$\triangle$ 一定是 0",
-          "$\bigcirc$ 一定是 0",
-          "$\triangle$ 和 $\bigcirc$ 都是 0",
-          "$\triangle$ 和 $\bigcirc$ 中至少有一个是 0"
+          "$\\triangle$ 一定是 0",
+          "$\\bigcirc$ 一定是 0",
+          "$\\triangle$ 和 $\\bigcirc$ 都是 0",
+          "$\\triangle$ 和 $\\bigcirc$ 中至少有一个是 0"
         ],
-        "answer": "$\triangle$ 和 $\bigcirc$ 中至少有一个是 0",
+        "answer": "$\\triangle$ 和 $\\bigcirc$ 中至少有一个是 0",
         "explanation": "两个数相乘得0，说明其中必有一个因数为0。"
       },
       {
@@ -164,14 +164,14 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "带括号的四则混合运算顺序",
-        "question": "要把 $200 + 40 \times 3 \times 2$ 的运算顺序改为先求和，再求积，最后求积，正确的是（ ）。",
+        "question": "要把 $200 + 40 \\times 3 \\times 2$ 的运算顺序改为先求和，再求积，最后求积，正确的是（ ）。",
         "options": [
-          "(200 + 40) \times 3 \times 2",
-          "200 + (40 \times 3) \times 2",
-          "200 + 40 \times (3 \times 2)",
-          "(200 + 40 \times 3) \times 2"
+          "(200 + 40) \\times 3 \\times 2",
+          "200 + (40 \\times 3) \\times 2",
+          "200 + 40 \\times (3 \\times 2)",
+          "(200 + 40 \\times 3) \\times 2"
         ],
-        "answer": "(200 + 40) \times 3 \times 2",
+        "answer": "(200 + 40) \\times 3 \\times 2",
         "explanation": "加上括号后先算 $200+40$，符合题目要求的运算顺序变化。"
       },
       {
@@ -188,7 +188,7 @@
           "无法比较"
         ],
         "answer": "大船便宜",
-        "explanation": "大船：$30 \times 6 = 5$（元/人），小船：$24 \times 4 = 6$（元/人），$5 < 6$。"
+        "explanation": "大船：$30 \\times 6 = 5$（元/人），小船：$24 \\times 4 = 6$（元/人），$5 < 6$。"
       },
       {
         "id": 14,
@@ -220,7 +220,7 @@
           "8"
         ],
         "answer": "7",
-        "explanation": "被除数 = $42 \times 4 = 168$。正确商为 $168 \times 24 = 7$。"
+        "explanation": "被除数 = $42 \\times 4 = 168$。正确商为 $168 \\times 24 = 7$。"
       },
       {
         "id": 16,
@@ -244,7 +244,7 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "乘、除法的意义和各部分间的关系",
-        "question": "$48 \times 0 \times 12$ 的结果等于（ ）。",
+        "question": "$48 \\times 0 \\times 12$ 的结果等于（ ）。",
         "options": [
           "48",
           "12",
@@ -260,7 +260,7 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "带括号的四则混合运算顺序",
-        "question": "$80 + 20 \times 4$ 的计算结果是（ ）。",
+        "question": "$80 + 20 \\times 4$ 的计算结果是（ ）。",
         "options": [
           "400",
           "160",
@@ -268,7 +268,7 @@
           "100"
         ],
         "answer": "160",
-        "explanation": "先算乘法 $20 \times 4 = 80$，再算加法 $80 + 80 = 160$。"
+        "explanation": "先算乘法 $20 \\times 4 = 80$，再算加法 $80 + 80 = 160$。"
       },
       {
         "id": 19,
@@ -290,7 +290,7 @@
         "question": "一个数除以 15，商是 6 且没有余数，这个数是 ___。",
         "options": [],
         "answer": "90",
-        "explanation": "被除数 = 商 $\times$ 除数。列式：$6 \times 15 = 90$。验算：$90 \times 15 = 6$ ✓。"
+        "explanation": "被除数 = 商 $\\times$ 除数。列式：$6 \\times 15 = 90$。验算：$90 \\times 15 = 6$ ✓。"
       },
       {
         "id": 21,
@@ -301,7 +301,7 @@
         "question": "老师带 30 名学生去划船，每条船限坐 4 人，至少要租 ___ 条船。",
         "options": [],
         "answer": "8",
-        "explanation": "总人数 = $30 + 1 = 31$（人）。列式：$31 \times 4 = 7 \times \times \times 3$。因为剩下的 3 人也需要 1 条船，所以 $7 + 1 = 8$（条）。"
+        "explanation": "总人数 = $30 + 1 = 31$（人）。列式：$31 \\times 4 = 7 \\times \\times \\times 3$。因为剩下的 3 人也需要 1 条船，所以 $7 + 1 = 8$（条）。"
       },
       {
         "id": 22,
@@ -309,10 +309,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "乘、除法的意义和各部分间的关系",
-        "question": "计算：$125 \times 8 = ?$",
+        "question": "计算：$125 \\times 8 = ?$",
         "options": [],
         "answer": "1000",
-        "explanation": "$125 \times 8 = 1000$。验算：$1000 \times 8 = 125$ ✓。"
+        "explanation": "$125 \\times 8 = 1000$。验算：$1000 \\div 8 = 125$ ✓。"
       },
       {
         "id": 23,
@@ -320,10 +320,10 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "带括号的四则混合运算顺序",
-        "question": "计算：$(15 + 25) \times 4 = ?$",
+        "question": "计算：$(15 + 25) \\times 4 = ?$",
         "options": [],
         "answer": "160",
-        "explanation": "先算括号内 $15 + 25 = 40$，再算 $40 \times 4 = 160$。验算：$160 \times 4 = 40$，$40 - 25 = 15$ ✓。"
+        "explanation": "先算括号内 $15 + 25 = 40$，再算 $40 \\times 4 = 160$。验算：$160 \\div 4 = 40$，$40 - 25 = 15$ ✓。"
       }
     ]
   },
@@ -371,10 +371,10 @@
         "score": 2,
         "difficulty": 2,
         "knowledge_point": "乘、除法的意义和各部分间的关系",
-        "question": "如果 $\bigcirc \times 6 = 120$，那么 $\bigcirc = 20$。",
+        "question": "如果 $\\bigcirc \\times 6 = 120$，那么 $\\bigcirc = 20$。",
         "options": [],
         "answer": "对",
-        "explanation": "因数 = 积 $\times$ 另一个因数，$120 \times 6 = 20$。"
+        "explanation": "因数 = 积 $\\times$ 另一个因数，$120 \\times 6 = 20$。"
       },
       {
         "id": 5,
@@ -397,11 +397,11 @@
         "options": [
           "100 + 0",
           "100 - 0",
-          "100 \times 0",
+          "100 \\times 0",
           "0 + 0"
         ],
         "answer": "100 + 0",
-        "explanation": "$100+0=100$，$100-0=100$，$100 \times 0=0$，前两个相等且最大，选项中 A 符合。"
+        "explanation": "$100+0=100$，$100-0=100$，$100 \\times 0=0$，前两个相等且最大，选项中 A 符合。"
       },
       {
         "id": 7,
@@ -425,7 +425,7 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "带括号的四则混合运算顺序",
-        "question": "计算 $[640 - (120 + 80)] \times 4$ 时，最后一步是（ ）。",
+        "question": "计算 $[640 - (120 + 80)] \\times 4$ 时，最后一步是（ ）。",
         "options": [
           "加法",
           "减法",
@@ -465,7 +465,7 @@
           "720"
         ],
         "answer": "480",
-        "explanation": "一个因数扩大几倍，积也扩大相同的倍数。$240 \times 2 = 480$。"
+        "explanation": "一个因数扩大几倍，积也扩大相同的倍数。$240 \\times 2 = 480$。"
       },
       {
         "id": 11,
@@ -481,7 +481,7 @@
           "2 辆大车 5 辆小车"
         ],
         "answer": "4 辆大车",
-        "explanation": "大车单人位：$50 \times 10 = 5$元；小车单人位：$25 \times 4 = 6.25$元。尽量租大车。$40 \times 10 = 4$（辆），租金 $4 \times 50 = 200$元，此时最省。"
+        "explanation": "大车单人位：$50 \\times 10 = 5$元；小车单人位：$25 \\times 4 = 6.25$元。尽量租大车。$40 \\times 10 = 4$（辆），租金 $4 \\times 50 = 200$元，此时最省。"
       },
       {
         "id": 12,
@@ -497,7 +497,7 @@
           "200"
         ],
         "answer": "100",
-        "explanation": "因为被减数 = 减数 + 差，所以被减数 + 减数 + 差 = 2 $\times$ 被减数 = 200，被减数 = 100。"
+        "explanation": "因为被减数 = 减数 + 差，所以被减数 + 减数 + 差 = 2 $\\times$ 被减数 = 200，被减数 = 100。"
       },
       {
         "id": 13,
@@ -505,15 +505,15 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "乘、除法的意义和各部分间的关系",
-        "question": "计算 $480 \times 12 \times 4$ 比较简便的方法是（ ）。",
+        "question": "计算 $480 \\times 12 \\times 4$ 比较简便的方法是（ ）。",
         "options": [
-          "480 \times 4 \times 12",
-          "480 \times (12 \times 4)",
-          "480 \times 48",
-          "(480 \times 4) \times 12"
+          "480 \\times 4 \\times 12",
+          "480 \\times (12 \\times 4)",
+          "480 \\times 48",
+          "(480 \\times 4) \\times 12"
         ],
-        "answer": "480 \times (12 \times 4)",
-        "explanation": "$12 \times 4 = 3$，原式变为 $480 \times 3 = 160$。利用除法的性质：$a \times b \times c = a \times (b \times c)$。"
+        "answer": "480 \\times (12 \\times 4)",
+        "explanation": "$12 \\times 4 = 3$，原式变为 $480 \\times 3 = 160$。利用除法的性质：$a \\times b \\times c = a \\times (b \\times c)$。"
       },
       {
         "id": 14,
@@ -521,7 +521,7 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "带括号的四则混合运算顺序",
-        "question": "在算式 $360 \times [60 - (10 + 20)]$ 中，应先算（ ）。",
+        "question": "在算式 $360 \\times [60 - (10 + 20)]$ 中，应先算（ ）。",
         "options": [
           "除法",
           "减法",
@@ -537,7 +537,7 @@
         "score": 5,
         "difficulty": 3,
         "knowledge_point": "乘、除法的意义和各部分间的关系",
-        "question": "两个数的商是 12。如果被除数不变，除数缩小为原来的 $\frac{1}{3}$，商变为（ ）。",
+        "question": "两个数的商是 12。如果被除数不变，除数缩小为原来的 $\\frac{1}{3}$，商变为（ ）。",
         "options": [
           "4",
           "12",
@@ -545,7 +545,7 @@
           "24"
         ],
         "answer": "36",
-        "explanation": "除数缩小，商反而扩大。$12 \times 3 = 36$。"
+        "explanation": "除数缩小，商反而扩大。$12 \\times 3 = 36$。"
       },
       {
         "id": 16,
@@ -561,7 +561,7 @@
           "7"
         ],
         "answer": "6",
-        "explanation": "$22 \times 4 = 5 \times \times \times 2$，余下的 2 人也需要 1 条船，共 $5 + 1 = 6$ 条。"
+        "explanation": "$22 \\times 4 = 5 \\times \\times \\times 2$，余下的 2 人也需要 1 条船，共 $5 + 1 = 6$ 条。"
       },
       {
         "id": 17,
@@ -585,7 +585,7 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "带括号的四则混合运算顺序",
-        "question": "$45 + 55 \times 0$ 的计算结果是（ ）。",
+        "question": "$45 + 55 \\times 0$ 的计算结果是（ ）。",
         "options": [
           "0",
           "100",
@@ -593,7 +593,7 @@
           "55"
         ],
         "answer": "45",
-        "explanation": "先算乘法 $55 \times 0 = 0$，再算 $45 + 0 = 45$。"
+        "explanation": "先算乘法 $55 \\times 0 = 0$，再算 $45 + 0 = 45$。"
       },
       {
         "id": 19,
@@ -615,7 +615,7 @@
         "question": "被除数是 120，商是 5，没有余数，除数是 ___。",
         "options": [],
         "answer": "24",
-        "explanation": "除数 = 被除数 $\times$ 商。列式：$120 \times 5 = 24$。验算：$24 \times 5 = 120$ ✓。"
+        "explanation": "除数 = 被除数 $\\times$ 商。列式：$120 \\times 5 = 24$。验算：$24 \\times 5 = 120$ ✓。"
       },
       {
         "id": 21,
@@ -623,10 +623,10 @@
         "score": 5,
         "difficulty": 3,
         "knowledge_point": "带括号的四则混合运算顺序",
-        "question": "计算 $40 \times [25 - (15 + 5)]$ 的结果是 ___。",
+        "question": "计算 $40 \\times [25 - (15 + 5)]$ 的结果是 ___。",
         "options": [],
         "answer": "200",
-        "explanation": "1. $15+5=20$; 2. $25-20=5$; 3. $40 \times 5=200$。验算：$200 \times 5=40$ ✓。"
+        "explanation": "1. $15+5=20$; 2. $25-20=5$; 3. $40 \\times 5=200$。验算：$200 \\times 5=40$ ✓。"
       },
       {
         "id": 22,
@@ -645,10 +645,10 @@
         "score": 5,
         "difficulty": 3,
         "knowledge_point": "乘、除法的意义和各部分间的关系",
-        "question": "计算：$720 \times (12 \times 6) = ?$",
+        "question": "计算：$720 \\div (12 \\times 6) = ?$",
         "options": [],
         "answer": "10",
-        "explanation": "$12 \times 6 = 72$，$720 \times 72 = 10$。验算：$10 \times 72 = 720$ ✓。"
+        "explanation": "$12 \\times 6 = 72$，$720 \\div 72 = 10$。验算：$10 \\times 72 = 720$ ✓。"
       }
     ]
   },
@@ -666,10 +666,10 @@
     {
       "point": "乘、除法的意义和各部分间的关系",
       "core_concept": "求几个相同加数和的简便运算是乘法；已知两个因数的积与其中一个因数求另一个因数的运算是除法。除法中0不能作除数，因为0作为除数无法得到确定的商。",
-      "key_formula": "$因数 \times 因数 = 积$; $被除数 \times 除数 = 商$",
+      "key_formula": "$因数 \\times 因数 = 积$; $被除数 \\times 除数 = 商$",
       "common_mistakes": [
         "在有余数的除法中，忘记余数必须比除数小",
-        "错误地认为 0 \times 5 = 0 没有意义（实际上是除数不能为0）"
+        "错误地认为 0 \\times 5 = 0 没有意义（实际上是除数不能为0）"
       ],
       "tips": "牢记“0乘以任何数都得0”和“0除以任何非0数都得0”。"
     },
@@ -686,7 +686,7 @@
     {
       "point": "解决问题：租船/租车优化方案",
       "core_concept": "解决租船租车等最省钱问题时，首先要计算并观察哪种资源的单价（单人位价格）更低，优先使用单价低的资源，并尽量保证资源满载（不留空位）。",
-      "key_formula": "$总租金 = 租金A \times 数量A + 租金B \times 数量B$",
+      "key_formula": "$总租金 = 租金A \\times 数量A + 租金B \\times 数量B$",
       "common_mistakes": [
         "只考虑单价便宜的，没考虑到如果留出大量空位反而更贵",
         "计算总人数时漏掉老师或带队人员"

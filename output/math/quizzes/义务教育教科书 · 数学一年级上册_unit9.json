@@ -212,7 +212,7 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "20以内数与运算的综合",
-        "question": "$16 - 3$ 的符号应该填什么？$16 - 3 \bigcirc 14$",
+        "question": "$16 - 3$ 的符号应该填什么？$16 - 3 \\bigcirc 14$",
         "options": [
           ">",
           "<",
@@ -409,7 +409,7 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "20以内数与运算的综合",
-        "question": "算式 $8 + \bigcirc = 15$ 中，$\bigcirc$ 里的数应该是多少？",
+        "question": "算式 $8 + \\bigcirc = 15$ 中，$\\bigcirc$ 里的数应该是多少？",
         "options": [
           "6",
           "7",
@@ -505,7 +505,7 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "20以内数与运算的综合",
-        "question": "$10 - 2 \bigcirc 5 + 3$，圆圈里填什么？",
+        "question": "$10 - 2 \\bigcirc 5 + 3$，圆圈里填什么？",
         "options": [
           ">",
           "<",
@@ -623,7 +623,7 @@
         "score": 5,
         "difficulty": 3,
         "knowledge_point": "20以内数与运算的综合",
-        "question": "在算式 $19 - \bigcirc = 10$ 中，$\bigcirc$ 里的数是 ___。",
+        "question": "在算式 $19 - \\bigcirc = 10$ 中，$\\bigcirc$ 里的数是 ___。",
         "options": [],
         "answer": "9",
         "explanation": "减法算式中，减数 = 被减数 - 差。$19 - 10 = 9$。"

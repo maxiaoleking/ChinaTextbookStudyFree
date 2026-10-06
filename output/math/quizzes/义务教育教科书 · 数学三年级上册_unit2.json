@@ -204,7 +204,7 @@
           "500"
         ],
         "answer": "700",
-        "explanation": "$412 \rightarrow 410$，$289 \rightarrow 290$，$410 + 290 = 700$。或者 $400 + 300 = 700$。"
+        "explanation": "$412 \\rightarrow 410$，$289 \\rightarrow 290$，$410 + 290 = 700$。或者 $400 + 300 = 700$。"
       },
       {
         "id": 15,
@@ -228,7 +228,7 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "两位数加减两位数的口算",
-        "question": "在算式 $3\text{_} + 26 = 58$ 中，方框里应该填哪个数字？",
+        "question": "在算式 $3\\text{\\_} + 26 = 58$ 中，方框里应该填哪个数字？",
         "options": [
           "1",
           "2",
@@ -244,7 +244,7 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "两位数加减两位数的口算",
-        "question": "$45 + 3\text{?}$ 的和可能是多少？",
+        "question": "$45 + 3\\text{?}$ 的和可能是多少？",
         "options": [
           "60",
           "72",
@@ -363,7 +363,7 @@
         "question": "一件上衣 203 元，一条裤子 198 元，买一套大约需要 400 元。",
         "options": [],
         "answer": "对",
-        "explanation": "$203 \rightarrow 200$，$198 \rightarrow 200$，$200 + 200 = 400$。估算结果合理。"
+        "explanation": "$203 \\rightarrow 200$，$198 \\rightarrow 200$，$200 + 200 = 400$。估算结果合理。"
       },
       {
         "id": 4,
@@ -382,7 +382,7 @@
         "score": 2,
         "difficulty": 3,
         "knowledge_point": "两位数加减两位数的口算",
-        "question": "$2\text{?}$ 加上 $3\text{?}$ 的和一定是五十多。",
+        "question": "$2\\text{?}$ 加上 $3\\text{?}$ 的和一定是五十多。",
         "options": [],
         "answer": "错",
         "explanation": "例如 $29 + 39 = 68$，和是六十多。"
@@ -441,7 +441,7 @@
         "score": 5,
         "difficulty": 3,
         "knowledge_point": "几百几十加减几百几十的笔算",
-        "question": "算式 $4\text{_}0 + 250 = 700$。横线上的数是几？",
+        "question": "算式 $4\\text{\\_}0 + 250 = 700$。横线上的数是几？",
         "options": [
           "4",
           "5",
@@ -465,7 +465,7 @@
           "无法计算"
         ],
         "answer": "坐得下",
-        "explanation": "$392 \rightarrow 390$，$405 \rightarrow 400$。$390 + 400 = 790$。因为 $790 < 800$，且实际值 $392 + 405 = 797$ 仍然小于 800，所以坐得下。"
+        "explanation": "$392 \\rightarrow 390$，$405 \\rightarrow 400$。$390 + 400 = 790$。因为 $790 < 800$，且实际值 $392 + 405 = 797$ 仍然小于 800，所以坐得下。"
       },
       {
         "id": 11,
@@ -473,7 +473,7 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "两位数加减两位数的口算",
-        "question": "计算 $90 - 43$ 时，先把 43 分成 40 和 3。$90 - 40 = 50$，$50 - 3 = (\text{?})$。",
+        "question": "计算 $90 - 43$ 时，先把 43 分成 40 和 3。$90 - 40 = 50$，$50 - 3 = (\\text{?})$。",
         "options": [
           "47",
           "53",
@@ -569,7 +569,7 @@
         "score": 5,
         "difficulty": 3,
         "knowledge_point": "两位数加减两位数的口算",
-        "question": "已知 $\triangle + 24 = 63$，$\triangle - \bigcirc = 15$。$\bigcirc$ 是多少？",
+        "question": "已知 $\\triangle + 24 = 63$，$\\triangle - \\bigcirc = 15$。$\\bigcirc$ 是多少？",
         "options": [
           "39",
           "24",
@@ -577,7 +577,7 @@
           "54"
         ],
         "answer": "24",
-        "explanation": "$\triangle = 63 - 24 = 39$。$\bigcirc = 39 - 15 = 24$。"
+        "explanation": "$\\triangle = 63 - 24 = 39$。$\\bigcirc = 39 - 15 = 24$。"
       },
       {
         "id": 18,
@@ -676,7 +676,7 @@
     {
       "point": "用估算解决实际问题",
       "core_concept": "估算不是求精确值，而是通过把数看作与其接近的整十或整百数，快速判断范围。在解决“够不够”类问题时，估算非常高效。关键在于根据实际需要决定是估大还是估小。",
-      "key_formula": "$198 + 304 \rightarrow 200 + 300 = 500$",
+      "key_formula": "$198 + 304 \\rightarrow 200 + 300 = 500$",
       "common_mistakes": [
         "估算时找的“邻居数”偏差太大，导致结论错误",
         "带单位计算时单位不统一就进行估算"

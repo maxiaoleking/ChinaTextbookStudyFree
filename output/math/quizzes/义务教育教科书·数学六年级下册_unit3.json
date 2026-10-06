@@ -108,7 +108,7 @@
           "15"
         ],
         "answer": "30",
-        "explanation": "$V = \frac{1}{3}Sh = \frac{1}{3} \times 15 \times 6 = 30$。验算：$30 \times 3 \times \frac{1}{6} = 15$。"
+        "explanation": "$V = \\frac{1}{3}Sh = \\frac{1}{3} \\times 15 \\times 6 = 30$。验算：$30 \\times 3 \\times \\frac{1}{6} = 15$。"
       },
       {
         "id": 9,
@@ -124,7 +124,7 @@
           "16"
         ],
         "answer": "2",
-        "explanation": "增加的是两个以直径和高为边的长方形面。$16 \times \frac{1}{2} = 8$是一面面积。直径是4，$8 \times \frac{1}{4} = 2$。验算：$2 \times 4 \times 2 = 16$。"
+        "explanation": "增加的是两个以直径和高为边的长方形面。$16 \\times \\frac{1}{2} = 8$是一面面积。直径是4，$8 \\times \\frac{1}{4} = 2$。验算：$2 \\times 4 \\times 2 = 16$。"
       },
       {
         "id": 10,
@@ -140,7 +140,7 @@
           "12"
         ],
         "answer": "12",
-        "explanation": "$36 \times \frac{1}{3} = 12$。验算：$12 \times 3 = 36$。"
+        "explanation": "$36 \\times \\frac{1}{3} = 12$。验算：$12 \\times 3 = 36$。"
       },
       {
         "id": 11,
@@ -188,7 +188,7 @@
           "1.5倍"
         ],
         "answer": "2倍",
-        "explanation": "最大圆锥是等底等高，体积占1/3，削去部分占2/3，$2 \times \frac{1}{3} = \frac{2}{3}$。"
+        "explanation": "最大圆锥是等底等高，体积占1/3，削去部分占2/3，$2 \\times \\frac{1}{3} = \\frac{2}{3}$。"
       },
       {
         "id": 14,
@@ -204,7 +204,7 @@
           "4"
         ],
         "answer": "3",
-        "explanation": "$V \times \frac{1}{S} = 30 \times \frac{1}{10} = 3$。验算：$10 \times 3 = 30$。"
+        "explanation": "$V \\times \\frac{1}{S} = 30 \\times \\frac{1}{10} = 3$。验算：$10 \\times 3 = 30$。"
       },
       {
         "id": 15,
@@ -220,7 +220,7 @@
           "78.5"
         ],
         "answer": "314",
-        "explanation": "$3.14 \times 10 \times 10 = 314$。验算：$314 \times \frac{1}{10} \times \frac{1}{10} = 3.14$。"
+        "explanation": "$3.14 \\times 10 \\times 10 = 314$。验算：$314 \\times \\frac{1}{10} \\times \\frac{1}{10} = 3.14$。"
       },
       {
         "id": 16,
@@ -252,7 +252,7 @@
           "2:1"
         ],
         "answer": "4:1",
-        "explanation": "体积$V=Sh$。$V_1=V_2$，则 $S_1 \times 1 = S_2 \times 4$，$S_1:S_2=4:1$。"
+        "explanation": "体积$V=Sh$。$V_1=V_2$，则 $S_1 \\times 1 = S_2 \\times 4$，$S_1:S_2=4:1$。"
       },
       {
         "id": 18,
@@ -279,7 +279,7 @@
         "question": "一个圆柱的底面积是20平方厘米，高是5厘米，体积是 ___ 立方厘米。",
         "options": [],
         "answer": "100",
-        "explanation": "$20 \times 5 = 100$。验算：$100 \times \frac{1}{5} = 20$。"
+        "explanation": "$20 \\times 5 = 100$。验算：$100 \\times \\frac{1}{5} = 20$。"
       },
       {
         "id": 20,
@@ -290,7 +290,7 @@
         "question": "一个圆锥的底面直径是10厘米，高是6厘米。如果它的底面积是78.5平方厘米，则它的体积是 ___ 立方厘米。",
         "options": [],
         "answer": "157",
-        "explanation": "$V = \frac{1}{3} \times 78.5 \times 6 = 157$。验算：$157 \times 3 \times \frac{1}{6} = 78.5$。"
+        "explanation": "$V = \\frac{1}{3} \\times 78.5 \\times 6 = 157$。验算：$157 \\times 3 \\times \\frac{1}{6} = 78.5$。"
       },
       {
         "id": 21,
@@ -300,8 +300,8 @@
         "knowledge_point": "圆柱与圆锥的特征",
         "question": "圆柱有 2 个底面，有 ___ 条高。",
         "options": [],
-        "answer": "0",
-        "explanation": "此处逻辑假设填“无数”，但系统限制纯整数，题目改写：一个圆柱的高有 ___ 条。如果无法表达“无数”，通过题干约束。本题改为：圆柱侧面展开图是一个长方形，长方形的长等于圆柱底面的 ___ 。由于无法填中文，删除此题意。新题：一个圆柱高10厘米，在其中间横切一刀，现在共有 ___ 条高（每个圆柱的高依然是无数，数值填0代表无数不科学）。修正题目：圆锥有 1 个顶点，有 ___ 条高。 (填阿拉伯数字)  答案：1 。验算：依据圆锥定义，高只有1条。"
+        "answer": "无数",
+        "explanation": "圆柱两个底面之间的距离叫做高，在两个底面之间任意画一条垂直线段都是它的高，所以圆柱有无数条高。验算：圆锥只有 1 条高，圆柱的底面是圆，可以取无数条 ✓。"
       },
       {
         "id": 22,
@@ -309,10 +309,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "圆柱的体积与容积",
-        "question": "计算底面积为50，高为4的圆柱体积：$50 \times 4 = ?$",
+        "question": "计算底面积为50，高为4的圆柱体积：$50 \\times 4 = ?$",
         "options": [],
         "answer": "200",
-        "explanation": "$50 \times 4 = 200$。验算：$200 \times \frac{1}{4} = 50$。"
+        "explanation": "$50 \\times 4 = 200$。验算：$200 \\times \\frac{1}{4} = 50$。"
       },
       {
         "id": 23,
@@ -320,10 +320,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "圆锥的体积",
-        "question": "某等底等高圆柱体积为300，求对应圆锥体积：$300 \times \frac{1}{3} = ?$",
+        "question": "某等底等高圆柱体积为300，求对应圆锥体积：$300 \\times \\frac{1}{3} = ?$",
         "options": [],
         "answer": "100",
-        "explanation": "$300 \times \frac{1}{3} = 100$。验算：$100 \times 3 = 300$。"
+        "explanation": "$300 \\times \\frac{1}{3} = 100$。验算：$100 \\times 3 = 300$。"
       }
     ]
   },
@@ -363,7 +363,7 @@
         "question": "圆柱的高不变，底面半径扩大2倍，侧面积也扩大2倍。",
         "options": [],
         "answer": "对",
-        "explanation": "侧面积等于 $2 \times \text{PI} \times r \times h$，半径 $r$ 扩大2倍，侧面积也扩大2倍。"
+        "explanation": "侧面积等于 $2 \\times \\text{PI} \\times r \\times h$，半径 $r$ 扩大2倍，侧面积也扩大2倍。"
       },
       {
         "id": 4,
@@ -417,7 +417,7 @@
           "9.42"
         ],
         "answer": "3.14",
-        "explanation": "半径为1，$3.14 \times 1^2 = 3.14$。"
+        "explanation": "半径为1，$3.14 \\times 1^2 = 3.14$。"
       },
       {
         "id": 8,
@@ -449,7 +449,7 @@
           "8"
         ],
         "answer": "8",
-        "explanation": "$2^2 \times 2 = 8$。"
+        "explanation": "$2^2 \\times 2 = 8$。"
       },
       {
         "id": 10,
@@ -465,7 +465,7 @@
           "3"
         ],
         "answer": "6",
-        "explanation": "$\frac{1}{3} \times 12 \times 1.5 = 6$。"
+        "explanation": "$\\frac{1}{3} \\times 12 \\times 1.5 = 6$。"
       },
       {
         "id": 11,
@@ -481,7 +481,7 @@
           "有时存在"
         ],
         "answer": "不存在",
-        "explanation": "侧面展开的长必须等于底面周长 $PI \times d$，$PI$ 约等于3.14，必大于直径。"
+        "explanation": "侧面展开的长必须等于底面周长 $PI \\times d$，$PI$ 约等于3.14，必大于直径。"
       },
       {
         "id": 12,
@@ -497,7 +497,7 @@
           "4"
         ],
         "answer": "1",
-        "explanation": "减少的是侧面积。$12.56 \times \frac{1}{2} = 6.28$（底面周长），$6.28 \times \frac{1}{3.14} \times \frac{1}{2} = 1$。"
+        "explanation": "减少的是侧面积。$12.56 \\times \\frac{1}{2} = 6.28$（底面周长），$6.28 \\times \\frac{1}{3.14} \\times \\frac{1}{2} = 1$。"
       },
       {
         "id": 13,
@@ -513,7 +513,7 @@
           "36"
         ],
         "answer": "12",
-        "explanation": "圆柱是3份，圆锥是1份，共4份。$48 \times \frac{1}{4} = 12$。"
+        "explanation": "圆柱是3份，圆锥是1份，共4份。$48 \\times \\frac{1}{4} = 12$。"
       },
       {
         "id": 14,
@@ -529,7 +529,7 @@
           "1:2"
         ],
         "answer": "1:PI",
-        "explanation": "周长=$PI \times d = h$，所以 $d:h = 1:PI$。"
+        "explanation": "周长=$PI \\times d = h$，所以 $d:h = 1:PI$。"
       },
       {
         "id": 15,
@@ -561,7 +561,7 @@
           "6"
         ],
         "answer": "2/3",
-        "explanation": "$S_1h_1 = \frac{1}{3}S_2(2h_1) \rightarrow S_1 = \frac{2}{3}S_2$。"
+        "explanation": "$S_1h_1 = \\frac{1}{3}S_2(2h_1) \\rightarrow S_1 = \\frac{2}{3}S_2$。"
       },
       {
         "id": 17,
@@ -604,7 +604,7 @@
         "question": "一个圆柱的底面积是15，高是4，体积是 ___ 。",
         "options": [],
         "answer": "60",
-        "explanation": "$15 \times 4 = 60$。验算：$60 \times \frac{1}{4} = 15$。"
+        "explanation": "$15 \\times 4 = 60$。验算：$60 \\times \\frac{1}{4} = 15$。"
       },
       {
         "id": 20,
@@ -615,7 +615,7 @@
         "question": "一个圆锥的体积是12，底面积是6，高是 ___ 。",
         "options": [],
         "answer": "6",
-        "explanation": "$h = V \times 3 \times \frac{1}{S} = 12 \times 3 \times \frac{1}{6} = 6$。验算：$\frac{1}{3} \times 6 \times 6 = 12$。"
+        "explanation": "$h = V \\times 3 \\times \\frac{1}{S} = 12 \\times 3 \\times \\frac{1}{6} = 6$。验算：$\\frac{1}{3} \\times 6 \\times 6 = 12$。"
       },
       {
         "id": 21,
@@ -626,7 +626,7 @@
         "question": "将半径2厘米、高5厘米的圆柱切成两块，表面积最多增加 ___ 平方厘米。（PI取3）",
         "options": [],
         "answer": "40",
-        "explanation": "沿直径纵切增加两个长方形：$2 \times 2 \times 2 \times 5 = 40$。验算：单个切面 $4 \times 5=20$，$20 \times 2=40$。"
+        "explanation": "沿直径纵切增加两个长方形：$2 \\times 2 \\times 2 \\times 5 = 40$。验算：单个切面 $4 \\times 5=20$，$20 \\times 2=40$。"
       },
       {
         "id": 22,
@@ -634,10 +634,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "圆柱的体积与容积",
-        "question": "计算：$20 \times 20 \times 10 = ?$",
+        "question": "计算：$20 \\times 20 \\times 10 = ?$",
         "options": [],
         "answer": "4000",
-        "explanation": "$20 \times 20 = 400$，$400 \times 10 = 4000$。验算：$4000 \times \frac{1}{10} = 400$。"
+        "explanation": "$20 \\times 20 = 400$，$400 \\times 10 = 4000$。验算：$4000 \\times \\frac{1}{10} = 400$。"
       },
       {
         "id": 23,
@@ -645,10 +645,10 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "圆锥的体积",
-        "question": "计算：$150 \times \frac{1}{3} \times 2 = ?$",
+        "question": "计算：$150 \\times \\frac{1}{3} \\times 2 = ?$",
         "options": [],
         "answer": "100",
-        "explanation": "$150 \times \frac{1}{3}=50$，$50 \times 2=100$。验算：$100 \times \frac{1}{2} \times 3 = 150$。"
+        "explanation": "$150 \\times \\frac{1}{3}=50$，$50 \\times 2=100$。验算：$100 \\times \\frac{1}{2} \\times 3 = 150$。"
       }
     ]
   },
@@ -656,7 +656,7 @@
     {
       "point": "圆柱与圆锥的特征",
       "core_concept": "圆柱由两个完全相同的底面（圆）和一个侧面（曲面）组成，侧面展开是长方形或正方形。圆锥由一个底面和一个侧面（曲面）组成，侧面展开是扇形。圆柱有无数条高，圆锥只有一条。以长方形的一边为轴旋转得到圆柱，以直角三角形的一条直角边为轴旋转得到圆锥。",
-      "key_formula": "圆柱侧面展开的长 = 底面周长 = $2 \times \text{PI} \times r$",
+      "key_formula": "圆柱侧面展开的长 = 底面周长 = $2 \\times \\text{PI} \\times r$",
       "common_mistakes": [
         "错误地认为圆锥侧面展开是三角形。",
         "认为圆柱只有两条高（把轴线和边缘线误认为仅有的高）。"
@@ -666,7 +666,7 @@
     {
       "point": "圆柱的表面积",
       "core_concept": "圆柱的表面积由侧面积和两个底面积组成。在解决实际问题时，要注意题目要求的是几个面的面积。如通风管只需要侧面积，水桶只需要侧面积加一个底面积，压路机滚动一周也是求侧面积。",
-      "key_formula": "$S_{\text{表}} = S_{\text{侧}} + 2S_{\text{底}} = 2\text{PI}rh + 2\text{PI}r^2$",
+      "key_formula": "$S_{\\text{表}} = S_{\\text{侧}} + 2S_{\\text{底}} = 2\\text{PI}rh + 2\\text{PI}r^2$",
       "common_mistakes": [
         "计算无盖水桶或通风管时多加了底面积。",
         "计算半径平方时直接用半径乘以2。"
@@ -676,7 +676,7 @@
     {
       "point": "圆柱的体积与容积",
       "core_concept": "通过将圆柱等分并横向切割拼接，可以转化成长方体。转化后长方体的底面积等于圆柱底面积，高等于圆柱的高。体积公式适用于所有直柱体。求容器容积时应从内部测量尺寸。",
-      "key_formula": "$V = Sh = \text{PI}r^2h$",
+      "key_formula": "$V = Sh = \\text{PI}r^2h$",
       "common_mistakes": [
         "已知直径求体积时忘记除以2先求半径。",
         "体积单位和面积单位混淆。"
@@ -686,7 +686,7 @@
     {
       "point": "圆锥的体积",
       "core_concept": "圆锥的体积等于等底等高圆柱体积的三分之一。这是通过倒水或装沙的实验推导出来的。在计算时，最容易漏掉 $1/3$ 这个系数。",
-      "key_formula": "$V = \frac{1}{3}Sh = \frac{1}{3}\text{PI}r^2h$",
+      "key_formula": "$V = \\frac{1}{3}Sh = \\frac{1}{3}\\text{PI}r^2h$",
       "common_mistakes": [
         "列式时忘记乘 1/3。",
         "已知体积求高时，忘记先将体积乘以3再除以底面积。"

@@ -84,7 +84,7 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "通过符号(=、>、<)比较大小",
-        "question": "下面哪个符号填在 $2 \bigcirc 5$ 中是正确的？",
+        "question": "下面哪个符号填在 $2 \\bigcirc 5$ 中是正确的？",
         "options": [
           ">",
           "<",
@@ -148,7 +148,7 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "0的认识与相关加减法",
-        "question": "计算 $4 - 0 = \bigcirc$，圈里应填什么？",
+        "question": "计算 $4 - 0 = \\bigcirc$，圈里应填什么？",
         "options": [
           "0",
           "1",
@@ -260,7 +260,7 @@
         "score": 5,
         "difficulty": 3,
         "knowledge_point": "加法的初步认识",
-        "question": "已知 $\bigcirc + 1 = 4$，那么 $\bigcirc$ 应该是几？",
+        "question": "已知 $\\bigcirc + 1 = 4$，那么 $\\bigcirc$ 应该是几？",
         "options": [
           "2",
           "3",
@@ -505,7 +505,7 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "通过符号(=、>、<)比较大小",
-        "question": "如果 $\bigcirc < 3$，那么 $\bigcirc$ 可能是几？",
+        "question": "如果 $\\bigcirc < 3$，那么 $\\bigcirc$ 可能是几？",
         "options": [
           "3",
           "4",
@@ -569,7 +569,7 @@
         "score": 5,
         "difficulty": 3,
         "knowledge_point": "0的认识与相关加减法",
-        "question": "已知 $\triangle - \triangle = 0$，且 $\triangle + \triangle = 4$，那么 $\triangle$ 是多少？",
+        "question": "已知 $\\triangle - \\triangle = 0$，且 $\\triangle + \\triangle = 4$，那么 $\\triangle$ 是多少？",
         "options": [
           "1",
           "2",
@@ -577,7 +577,7 @@
           "4"
         ],
         "answer": "2",
-        "explanation": "相同的两个数相加等于4，只有 $2 + 2 = 4$，所以 $\triangle$ 是 2。"
+        "explanation": "相同的两个数相加等于4，只有 $2 + 2 = 4$，所以 $\\triangle$ 是 2。"
       },
       {
         "id": 18,

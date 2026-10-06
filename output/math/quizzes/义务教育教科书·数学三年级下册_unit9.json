@@ -16,7 +16,7 @@
         "question": "因为 $0$ 乘以任何数都得 $0$，所以 $0$ 除以任何数也都得 $0$。",
         "options": [],
         "answer": "错",
-        "explanation": "知识点：除数不能为0。0除以任何非零的数才得0。验算：$0 \times 5 = 0$ 成立，但 $0 \times 0$ 不唯一，且除数不能为0。"
+        "explanation": "知识点：除数不能为0。0除以任何非零的数才得0。验算：$0 \\times 5 = 0$ 成立，但 $0 \\times 0$ 不唯一，且除数不能为0。"
       },
       {
         "id": 2,
@@ -27,7 +27,7 @@
         "question": "边长是 $4$ 分米的正方形，它的周长和面积相等。",
         "options": [],
         "answer": "错",
-        "explanation": "周长是 $4 \times 4 = 16$分米，面积是 $4 \times 4 = 16$平方分米。数值虽然相同，但单位不同，性质不同，不能说相等。"
+        "explanation": "周长是 $4 \\times 4 = 16$分米，面积是 $4 \\times 4 = 16$平方分米。数值虽然相同，但单位不同，性质不同，不能说相等。"
       },
       {
         "id": 3,
@@ -60,7 +60,7 @@
         "question": "两个两位数相乘，积一定是四位数。",
         "options": [],
         "answer": "错",
-        "explanation": "最小的两位数乘积：$10 \times 10 = 100$（三位数）；最大的两位数乘积：$99 \times 99 = 9801$（四位数）。所以积可能是三位数也可能是四位数。"
+        "explanation": "最小的两位数乘积：$10 \\times 10 = 100$（三位数）；最大的两位数乘积：$99 \\times 99 = 9801$（四位数）。所以积可能是三位数也可能是四位数。"
       },
       {
         "id": 6,
@@ -92,7 +92,7 @@
           "25平方厘米"
         ],
         "answer": "25平方厘米",
-        "explanation": "正方形面积 = 边长 $\times$ 边长。$5 \times 5 = 25$（平方厘米）。注意面积单位是平方厘米。"
+        "explanation": "正方形面积 = 边长 $\\times$ 边长。$5 \\times 5 = 25$（平方厘米）。注意面积单位是平方厘米。"
       },
       {
         "id": 8,
@@ -148,7 +148,7 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "数与代数综合梳理",
-        "question": "估算 $38 \times 21$ 的积大约是：",
+        "question": "估算 $38 \\times 21$ 的积大约是：",
         "options": [
           "600",
           "800",
@@ -156,7 +156,7 @@
           "1000"
         ],
         "answer": "800",
-        "explanation": "将 $38$ 看作 $40$，将 $21$ 看作 $20$。$40 \times 20 = 800$。"
+        "explanation": "将 $38$ 看作 $40$，将 $21$ 看作 $20$。$40 \\times 20 = 800$。"
       },
       {
         "id": 12,
@@ -172,7 +172,7 @@
           "百位或个位"
         ],
         "answer": "百位或十位",
-        "explanation": "例如：$600 \times 2 = 300$（百位）；$100 \times 2 = 50$（十位）。取决于被除数最高位是否够除。"
+        "explanation": "例如：$600 \\times 2 = 300$（百位）；$100 \\times 2 = 50$（十位）。取决于被除数最高位是否够除。"
       },
       {
         "id": 13,
@@ -204,7 +204,7 @@
           "16平方厘米"
         ],
         "answer": "36平方厘米",
-        "explanation": "剪下最大的正方形，边长必须等于长方形的宽，即 $6$ 厘米。面积为 $6 \times 6 = 36$（平方厘米）。"
+        "explanation": "剪下最大的正方形，边长必须等于长方形的宽，即 $6$ 厘米。面积为 $6 \\times 6 = 36$（平方厘米）。"
       },
       {
         "id": 15,
@@ -220,7 +220,7 @@
           "2024年"
         ],
         "answer": "2024年",
-        "explanation": "$2024 \times 4 = 506$，没有余数，且不是整百年，所以是闰年。"
+        "explanation": "$2024 \\times 4 = 506$，没有余数，且不是整百年，所以是闰年。"
       },
       {
         "id": 16,
@@ -236,7 +236,7 @@
           "58元"
         ],
         "answer": "600元",
-        "explanation": "$58$ 约等于 $60$，$60 \times 10 = 600$（元）。"
+        "explanation": "$58$ 约等于 $60$，$60 \\times 10 = 600$（元）。"
       },
       {
         "id": 17,
@@ -252,7 +252,7 @@
           "8"
         ],
         "answer": "800",
-        "explanation": "相邻面积单位进率是 $100$。$8 \times 100 = 800$。"
+        "explanation": "相邻面积单位进率是 $100$。$8 \\times 100 = 800$。"
       },
       {
         "id": 18,
@@ -279,7 +279,7 @@
         "question": "三年级共有 $124$ 名学生去划船，每条船限坐 $4$ 人，一共需要租 ___ 条船。",
         "options": [],
         "answer": "31",
-        "explanation": "列式：$124 \times 4 = 31$。由于 $124 \times 4 = 31$，没有余数。验算：$31 \times 4 = 124$。"
+        "explanation": "列式：$124 \\times 4 = 31$。由于 $124 \\times 4 = 31$，没有余数。验算：$31 \\times 4 = 124$。"
       },
       {
         "id": 20,
@@ -290,7 +290,7 @@
         "question": "一个正方形周长是 $24$ 厘米，它的边长是 ___ 厘米。",
         "options": [],
         "answer": "6",
-        "explanation": "正方形边长 = 周长 $\times 4$。$24 \times 4 = 6$。验算：$6 \times 4 = 24$。"
+        "explanation": "正方形边长 = 周长 $\\times 4$。$24 \\times 4 = 6$。验算：$6 \\times 4 = 24$。"
       },
       {
         "id": 21,
@@ -301,7 +301,7 @@
         "question": "商店有 $25$ 箱苹果，每箱重 $20$ 千克，商店一共有苹果 ___ 千克。",
         "options": [],
         "answer": "500",
-        "explanation": "列式：$25 \times 20 = 500$。验算：$500 \times 20 = 25$。"
+        "explanation": "列式：$25 \\times 20 = 500$。验算：$500 \\times 20 = 25$。"
       },
       {
         "id": 22,
@@ -309,10 +309,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "数与代数综合梳理",
-        "question": "$420 \times 6 = ?$",
+        "question": "$420 \\div 6 = ?$",
         "options": [],
         "answer": "70",
-        "explanation": "$420 \times 6 = 70$。验算：$70 \times 6 = 420$。"
+        "explanation": "$420 \\div 6 = 70$。验算：$70 \\times 6 = 420$。"
       },
       {
         "id": 23,
@@ -320,10 +320,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "数与代数综合梳理",
-        "question": "$12 \times 30 = ?$",
+        "question": "$12 \\times 30 = ?$",
         "options": [],
         "answer": "360",
-        "explanation": "$12 \times 3 = 36$，末尾添 0 得 $360$。验算：$360 \times 30 = 12$。"
+        "explanation": "$12 \\times 3 = 36$，末尾添 0 得 $360$。验算：$360 \\div 30 = 12$。"
       }
     ]
   },
@@ -385,7 +385,7 @@
         "question": "被除数末尾有 $0$，商的末尾一定有 $0$。",
         "options": [],
         "answer": "错",
-        "explanation": "反例：$10 \times 5 = 2$，被除数末尾有 $0$ 但商没有。"
+        "explanation": "反例：$10 \\times 5 = 2$，被除数末尾有 $0$ 但商没有。"
       },
       {
         "id": 6,
@@ -425,7 +425,7 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "数与代数综合梳理",
-        "question": "计算 $15 \times 60$ 的积，末尾有几个 $0$？",
+        "question": "计算 $15 \\times 60$ 的积，末尾有几个 $0$？",
         "options": [
           "1个",
           "2个",
@@ -433,7 +433,7 @@
           "0个"
         ],
         "answer": "2个",
-        "explanation": "$15 \times 6 = 90$，再加上 $60$ 后面的一个 $0$，结果是 $900$。有两个 $0$。"
+        "explanation": "$15 \\times 6 = 90$，再加上 $60$ 后面的一个 $0$，结果是 $900$。有两个 $0$。"
       },
       {
         "id": 9,
@@ -529,7 +529,7 @@
           "40本"
         ],
         "answer": "45本",
-        "explanation": "$135 \times 3 = 45$。验算：$45 \times 3 = 135$。"
+        "explanation": "$135 \\times 3 = 45$。验算：$45 \\times 3 = 135$。"
       },
       {
         "id": 15,
@@ -577,7 +577,7 @@
           "450米"
         ],
         "answer": "540米",
-        "explanation": "估算结果。$60 \times 9 = 540$（米）。"
+        "explanation": "估算结果。$60 \\times 9 = 540$（米）。"
       },
       {
         "id": 18,
@@ -593,7 +593,7 @@
           "20平方米"
         ],
         "answer": "96平方米",
-        "explanation": "$12 \times 8 = 96$（平方米）。注意面积单位。"
+        "explanation": "$12 \\times 8 = 96$（平方米）。注意面积单位。"
       },
       {
         "id": 19,
@@ -604,7 +604,7 @@
         "question": "一个工厂每天生产 $120$ 个零件，一个星期（按 $7$ 天算）一共生产 ___ 个零件。",
         "options": [],
         "answer": "840",
-        "explanation": "列式：$120 \times 7 = 840$。验算：$840 \times 7 = 120$。"
+        "explanation": "列式：$120 \\times 7 = 840$。验算：$840 \\times 7 = 120$。"
       },
       {
         "id": 20,
@@ -615,7 +615,7 @@
         "question": "一块长方形菜地，面积是 $48$ 平方米，长是 $8$ 米，宽是 ___ 米。",
         "options": [],
         "answer": "6",
-        "explanation": "宽 = 面积 $\times$ 长。$48 \times 8 = 6$。验算：$8 \times 6 = 48$。"
+        "explanation": "宽 = 面积 $\\times$ 长。$48 \\times 8 = 6$。验算：$8 \\times 6 = 48$。"
       },
       {
         "id": 21,
@@ -634,10 +634,10 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "数与代数综合梳理",
-        "question": "$24 \times 11 = ?$",
+        "question": "$24 \\times 11 = ?$",
         "options": [],
         "answer": "264",
-        "explanation": "$24 \times 10 = 240$，$24 \times 1 = 24$，$240 + 24 = 264$。验算：$264 \times 11 = 24$。"
+        "explanation": "$24 \\times 10 = 240$，$24 \\times 1 = 24$，$240 + 24 = 264$。验算：$264 \\div 11 = 24$。"
       },
       {
         "id": 23,
@@ -645,10 +645,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "数与代数综合梳理",
-        "question": "$840 \times 4 = ?$",
+        "question": "$840 \\div 4 = ?$",
         "options": [],
         "answer": "210",
-        "explanation": "$840 \times 4 = 210$。验算：$210 \times 4 = 840$。"
+        "explanation": "$840 \\div 4 = 210$。验算：$210 \\times 4 = 840$。"
       }
     ]
   },

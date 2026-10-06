@@ -76,7 +76,7 @@
           "20分"
         ],
         "answer": "15分",
-        "explanation": "分针每走一个数字（大格）是5分。从3走到6走了 $6 - 3 = 3$ 个大格。$3 \times 5 = 15$（分）。✓"
+        "explanation": "分针每走一个数字（大格）是5分。从3走到6走了 $6 - 3 = 3$ 个大格。$3 \\times 5 = 15$（分）。✓"
       },
       {
         "id": 7,
@@ -92,7 +92,7 @@
           "9时15分"
         ],
         "answer": "9时45分",
-        "explanation": "分针指向9时，代表经过了 $9 \times 5 = 45$ 分。✓"
+        "explanation": "分针指向9时，代表经过了 $9 \\times 5 = 45$ 分。✓"
       },
       {
         "id": 8,
@@ -279,7 +279,7 @@
         "question": "2时 = ___ 分",
         "options": [],
         "answer": "120",
-        "explanation": "因为 1时=60分。列式：$60 \times 2 = 120$（分）。验算：$120 \times 60 = 2$。✓"
+        "explanation": "因为 1时=60分。列式：$60 \\times 2 = 120$（分）。验算：$120 \\times 60 = 2$。✓"
       },
       {
         "id": 20,
@@ -290,7 +290,7 @@
         "question": "时针在 6 和 7 之间，分针指着 8。这个时刻是几时几分？请写出分钟数：6 时 ___ 分。",
         "options": [],
         "answer": "40",
-        "explanation": "分针指着8，表示 $8 \times 5 = 40$ 分。✓"
+        "explanation": "分针指着8，表示 $8 \\times 5 = 40$ 分。✓"
       },
       {
         "id": 21,
@@ -320,7 +320,7 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "钟面时刻的认读",
-        "question": "5 \times 9 = ?",
+        "question": "5 \\times 9 = ?",
         "options": [],
         "answer": "45",
         "explanation": "五九四十五，对应分针指在数字9时的分数。✓"
@@ -341,7 +341,7 @@
         "question": "钟面上一共有60个小格。",
         "options": [],
         "answer": "对",
-        "explanation": "12大格 $\times$ 5小格 = 60小格。✓"
+        "explanation": "12大格 $\\times$ 5小格 = 60小格。✓"
       },
       {
         "id": 2,
@@ -401,7 +401,7 @@
           "60"
         ],
         "answer": "30",
-        "explanation": "$6 \times 5 = 30$（分）。✓"
+        "explanation": "$6 \\times 5 = 30$（分）。✓"
       },
       {
         "id": 7,
@@ -433,7 +433,7 @@
           "5:25"
         ],
         "answer": "4:25",
-        "explanation": "时针走过4是4时多，分针指着5是 $5 \times 5 = 25$ 分。✓"
+        "explanation": "时针走过4是4时多，分针指着5是 $5 \\times 5 = 25$ 分。✓"
       },
       {
         "id": 9,
@@ -645,10 +645,10 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "时、分、秒的换算与关系",
-        "question": "15 \times 4 = ?",
+        "question": "15 \\times 4 = ?",
         "options": [],
         "answer": "60",
-        "explanation": "4个一刻钟等于一小时。$15 \times 4 = 60$。✓"
+        "explanation": "4个一刻钟等于一小时。$15 \\times 4 = 60$。✓"
       }
     ]
   },
@@ -656,7 +656,7 @@
     {
       "point": "钟面时刻的认读",
       "core_concept": "钟面上有时针和分针，12个大格，60个小格。读数时先看时针，过几就是几时；再看分针，走过几个小格就是几分。分针指着几，就用五个五地数的方法数出分钟数。",
-      "key_formula": "分钟数 = 分针指向的数字 \times 5",
+      "key_formula": "分钟数 = 分针指向的数字 \\times 5",
       "common_mistakes": [
         "将时针看错，如 4:55 误认为 5:55，因为时针很靠近5。",
         "分针指向“1”时读成1分，实际应该是5分。"
